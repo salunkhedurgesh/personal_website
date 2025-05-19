@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Durgesh Salunkhe</title>
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/style_publications.css">
+  <script type="text/javascript" src="/js/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body>
+
+  <div id="background"></div>
+  <script>
+    fetch('/projects/main/common/logo_click_non_index.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('background').innerHTML = data;
+      });
+  </script>
+
+  <div class="navcontent">
+    <a href="homeLink"><span class="navlogo"><img id="homeImage" width="20px" height="20px"></span> <span
+        class="navnum">01.</span> <span class="navtitle">home</span></a>
+    <a id="projectsLink"><span class="navlogo"><img id="projectsImage" width="20px" height="20px"></span> <span
+        class="navnum">02.</span> <span class="navtitle">projects</span></a>
+    <a id="publicationsLink"><span class="navlogo"><img id="publicationsImage" width="20px" height="20px"></span>
+      <span class="navnum">03.</span> <span class="navtitle">publications</span></a>
+    <a href="#footId" onclick="blink()"><span class="navlogo"><img id="contactImage" width="20px"
+          height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+  </div>
+
+  <div class="topBack"></div>
+
+  <div id="contact"></div>
+  <script>
+    fetch('/projects/main/common/common_contact.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('contact').innerHTML = data;
+      });
+  </script>
+
+  <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+  <div class="content" id="experienceContent" style="translate: 0 4rem">
+    <!--    education -->
+    <div class="year_block">
+      <div class="title">
+        <p onclick="click_experience('education')">Education</p>
+      </div>
+
+      <div class="paper" id="education" style="display: none;">
+        <div class="paper_description">
+          <div class="date_column">
+            <p>Current <br> 2020</p>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Doctoral candidate, CNRS, France</p>
+            <p class="authors">Thesis title: "6R cuspidal robots: theoretical study, classification and applications"
+              <br>Thesis advisors: <a href="https://pagesperso.ls2n.fr/~wenger-p-1/" target="_blank">Philippe
+                Wenger</a>,
+              <a href="https://pagesperso.ls2n.fr/~chablat-d/" target="_blank">Damien Chablat</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="spacer_small"></div>
+
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2020 <br> 2019</p>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Masters degree, Advanced Robotics</p>
+            <p class="authors">Place: Ecole Centrale de Nantes, France <br>Second year of Erasmus Mundus program on
+              Advance Robotics plus
+              (<a href="https://master-emaro.ec-nantes.fr/" target="_blank">EMARO+</a>)<br>Score : 90 / 100 (Second
+              rank)
+              <br>Extra curriculars: Student representative<br>Thesis title: "Optimal kinematics design of a parallel
+              robot for otological surgery"<br>
+              Thesis advisors: <a href="https://pagesperso.ls2n.fr/~chablat-d/" target="_blank">Damien Chablat</a>,
+              <a href="https://rubrica.unige.it/personale/VUZCU1lo" target="_blank">Marcello Sanguineti</a>,
+              <a href="https://robotik.dfki-bremen.de/en/about-us/staff/shku02.html" target="_blank">Shivesh Kumar</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="spacer_small"></div>
+
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2019 <br> 2018</p>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Masters degree, Advanced Robotics</p>
+            <p class="authors">Place: University of Genova, Italy <br>
+              First year of Erasmus Mundus program on Advance Robotics plus
+              (<a href="https://master-emaro.ec-nantes.fr/" target="_blank">EMARO+</a>)<br>
+              Score : 96 / 100 (First rank) <br>
+              Extra curriculars: Elected student representative for te international council
+            </p>
+          </div>
+        </div>
+
+        <div class="spacer_small"></div>
+
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2016 <br> 2012</p>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Bachelors degree, Mechanical Engineering</p>
+            <p class="authors">Place: Birla Institute of Technology, Mesra, India<br>
+              Score : 8.62 / 10 (Top 10 rank) <br>
+              Extra curriculars: Robotics club
+            </p>
+          </div>
+        </div>
+
+        <div class="skill_spacer"></div>
+      </div>
+    </div>
+
+    <div class="skill_spacer"></div>
+
+    <!--    profession -->
+    <div class="year_block">
+      <div class="title">
+        <p onclick="click_experience('profession')">Work experience</p>
+      </div>
+
+      <div class="paper last_paper" id="profession" style="display: none">
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2018 <br> 2017</p>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Junior Research Fellow @ Indian Institute of Technology</p>
+            <p class="authors">Place: Jodhpur, India<br>
+              Responsibilities: 1. Develop a 6RSS parallel manipulator as a research platform <br>
+              2. Active force compliance
+              <br>3. Presentation of the lab and work to external visitors<br>
+              Co-author: <a href="https://www.anirvandutta.com/" target="_blank">Anirvan Dutta</a> <br>
+              Advisor: <a href="http://home.iitj.ac.in/~surilshah/" target="_blank">Suril V Shah</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="spacer_small"></div>
+
+        <div class="paper_description">
+          <div class="date_column" id="icra23_paper2">
+            <p>2017 <br> 2016</p>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Design Engineer @ GreyOrange Robotics</p>
+            <p class="authors">Place: Gurugram, India<br>
+              Responsibilities: 1. Design of sortation system <br>2. Risk assesment of the failure of heavy packages
+              <br>3. Design of robot arm gripper to pick soft elements <br>
+              Mentors: <a href="https://www.linkedin.com/in/nikunj-gupta-97114a28/" target="_blank">Nikunj Gupta</a>,
+              <a href="https://www.linkedin.com/in/prasoongarg1/" target="_blank">Prasoon Garg</a>
+            </p>
+          </div>
+        </div>
+        <div class="skill_spacer"></div>
+      </div>
+    </div>
+
+    <div class="skill_spacer"></div>
+
+    <!--    awards -->
+    <div class="year_block">
+      <div class="title">
+        <p onclick="click_experience('awards')">Awards</p>
+      </div>
+
+      <div class="paper last_paper" id="awards" style="display: none">
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2019 <br> 2018</p>
+          </div>
+          <div class="paper_title">
+            <p class="awards">Consortium Scholarship, Erasmus Mundus Program, Italy + France</p>
+          </div>
+        </div>
+
+        <div style="height: 2vw;"></div>
+
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2018</p>
+          </div>
+          <div class="paper_title">
+            <p class="awards">Invest your Talent in Italy program, Politecnico di Milano, Italy</p>
+          </div>
+        </div>
+
+        <div style="height: 2vw;"></div>
+
+        <div class="paper_description">
+          <div class="date_column">
+            <p>2016 <br> 2014</p>
+          </div>
+          <div class="paper_title">
+            <p class="awards">Merit-cum-income based scholarship, BIT Mesra, India</p>
+          </div>
+        </div>
+        <div class="skill_spacer"></div>
+      </div>
+    </div>
+
+    <div class="skill_spacer"></div>
+
+    <!--    skills -->
+    <div class="year_block" id="skillsBlock">
+      <div class="title">
+        <p onclick="click_experience('skillsBlock')">Skills</p>
+      </div>
+      <div id="skills">
+        <ol>
+          <li style="font-size: 1rem; color: var(--title-color); font-weight: lighter">Programming languages
+            <ul>
+              <br>
+              <li>Python</li>
+              <li>C ++</li>
+              <li>Javascript</li>
+            </ul>
+          </li>
+          <br>
+          <li style="font-size: 1rem; color: var(--title-color); font-weight: lighter">Softwares
+            <ul>
+              <br>
+              <li>MapleSoft: Computer Algebra System solver</li>
+              <li>Matlab</li>
+              <li>Robot Operating System (ROS)</li>
+            </ul>
+          </li>
+        </ol>
+
+        <ol start="3">
+          <li style="font-size: 1rem; color: var(--title-color); font-weight: lighter">CAD softwares
+            <ul>
+              <br>
+              <li>Autodesk Inventor</li>
+              <li>CATIA + DELMIA</li>
+              <li>Solidworks</li>
+            </ul>
+          </li>
+          <br>
+          <li style="font-size: 1rem; color: var(--title-color); font-weight: lighter">Graphics
+            <ul>
+              <br>
+              <li>HTML/CSS</li>
+              <li><a href="https://www.manim.community/" target="_blank" style="color: var(--blueBC)">manim</a> library
+                of Python (<a href="https://www.youtube.com/@3blue1brown" target="_blank"
+                  style="color: var(--blueBC)">3Blue1Brown</a>)</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+
+  <div id="footId"></div>
+  <script>
+    fetch('/projects/main/common/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footId').innerHTML = data;
+      });
+  </script>
+
+</body>
+
+</html>

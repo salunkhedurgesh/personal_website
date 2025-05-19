@@ -4,38 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Durgesh Salunkhe</title>
-    <link rel="stylesheet" href="/styles/style_personal.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <script type="text/javascript" src="/js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
 
 <body class="personal-page">
-    <div class="logo">
-        <a href="../index.html"><img src="../images/logo_perso.png" alt="logo" width="25px"></a>
-        <p style="letter-spacing: 0.15rem">life</p>
+    <div class="logo" style="align-items: center;">
+        <a id="homeLink"><img id="persoImage" alt="logo" class="mainicon"></a>
+        <p>perso</p>
     </div>
 
     <div class="navcontent">
-        <a href="../index.html"><span class="navlogo"><img src="../images/home.png" width="25px" height="25px"></span>
-            <span class="navnum">01.</span> <span class="navtitle">work</span></a>
-        <!--
-        <a href="hobbies.html"><span class="navlogo"><img src="../images/hobbies.png" width="25px" height="25px"></span> <span class="navnum">02.</span> <span class="navtitle">hobbies</span></a>
-        <a href="recent.html"><span class="navlogo"><img src="../images/recent.png" width="25px" height="25px"></span> <span class="navnum">03.</span> <span class="navtitle">recent</span></a>
-        -->
-        <a href="#footId" onclick="blink()"><span class="navlogo"><img src="../images/contact.png" width="25px"
-                    height="25px"></span> <span class="navnum">02.</span> <span class="navtitle">contact</span></a>
+        <a id="hobbiesLink">
+            <span class="navlogo"><img id="hobbiesImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">hobbies</span>
+        </a>
+        <a id="travelLink">
+            <span class="navlogo"><img id="travelImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">travel</span>
+        </a>
+        <a id="blogLink">
+            <span class="navlogo"><img id="blogImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">blog</span>
+        </a>
+        <a href="#footer" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        </a>
     </div>
 
     <div class="topBack"></div>
 
     <div id="contact"></div>
     <script>
-        fetch('/projects/main/common/common_contact_perso.html')
+        fetch('/projects/personal/common/common_contact_perso.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('contact').innerHTML = data;
             });
     </script>
+
+    <script type="text/javascript" src="/js/helpers_perso.js"></script>
 
 
     <div class="hero">
@@ -55,7 +69,7 @@
             <h2>who I am, is a much deeper and serious question...</h2>
 
             <div class="profile">
-                <img src="../images/profile_pic.jpeg" alt="profile pic" class="display_pic">
+                <img src="/projects/main/webpage_resources/images/profile_pic_nino.png" alt="profile pic" id="profile-pic">
                 <div class="profileDetails">
                     <h2>On a personal note</h2>
                     <p>I was born in <a href="https://en.wikipedia.org/wiki/Kolhapur" target="_blank"><span
@@ -121,14 +135,14 @@
 
     </div>
     <div class="spacer"></div>
-    <footer id="footId">
-        <p><span style="color: var(--halycon);">Designed by:</span> durgesh.salunkhe</p>
-        <p class="emailBlock" id="emailid"><img src="../images/email_perso.png" alt="email"> &nbsp
-            <a href="mailto: salunkhedurgesh@gmail.com">
-                <span
-                    style="font-family: 'PT Mono', monospace; letter-spacing: 0.06rem;">salunkhedurgesh@gmail.com</span></a>
-        </p>
-    </footer>
+    <div id="footer"></div>
+    <script>
+        fetch('/projects/personal/common/footer_perso.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
 
 
 </body>

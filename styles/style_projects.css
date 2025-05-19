@@ -86,30 +86,67 @@ body{
     margin-right: 10vw;
 }
 
-.highlight{
-    color: var(--title-color); font-size: 0.9rem;
-    /*border-bottom: var(--title-color) 1px solid;*/
-    /*padding:0.05rem;*/
+.project_description .highlight {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: var(--title-color);
 }
 
 .project_description p{
     font-weight: lighter;
-    font-size: 0.7rem;
-    color: var(--paper_color);
+    font-size: 1rem;
     line-height: 1.5rem;
+    color: var(--paper_color);
     text-align: justify;
 }
 
-.project_cover .project_title{
-    font-size: 1.2rem;
-    font-weight: lighter;
+.project_cover .project_title {
+    font-size: 1.5rem;
+    font-weight: 300;  /* lighter weight */
     color: var(--title-color);
-    /*color: var(--halycon);*/
-    margin-bottom: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
+
 .last_project{
     margin-bottom: 0;
+}
+
+.project_image {
+    position: relative;
+}
+
+.carousel-wrapper {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.carousel-button:hover {
+    opacity: 1;
+}
+
+.carousel-button.left {
+    left: 10px;
+}
+
+.carousel-button.right {
+    right: 10px;
 }
 
 @media only screen and (min-width: 800px){
@@ -128,18 +165,20 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 80%;
         position: center;
         gap: 0.5rem;
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+        margin: 0 auto;
         /*border: #00eeb6 1px solid;*/
     }
-
-    .project_image img{
-        display: block;
-        position: center;
-        justify-content: center;
-        align-items: center;
+    .project_image img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 
     .project_image2 img{
@@ -179,8 +218,10 @@ body{
         width: 100%;
         grid-area: 1 / 2 / 2 / 3;
     }
+}
 
-    .project_description p{
-        font-size: 0.85rem;
-    }
+@media only screen and (max-width: 600px){
+.carousel-button {
+    display: none;
+}
 }

@@ -17,14 +17,26 @@
     <div id="logo_click_non_index"></div>
 
     <div class="navcontent">
-        <a href="homeLink"><span class="navlogo"><img id="homeImage" width="20px" height="20px"></span> <span
-                class="navnum">01.</span> <span class="navtitle">home</span></a>
-        <a id="experienceLink"><span class="navlogo"><img id="experienceImage" width="20px" height="20px"></span>
-            <span class="navnum">02.</span> <span class="navtitle">experience</span></a>
-        <a id="projectsLink"><span class="navlogo"><img id="projectsImage" width="20px" height="20px"></span> <span
-                class="navnum">03.</span> <span class="navtitle">projects</span></a>
-        <a href="#footId" onclick="blink()"><span class="navlogo"><img id="contactImage" width="20px"
-                    height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="experienceLink">
+            <span class="navlogo"><img id="experienceImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">experience</span>
+        </a>
+        <a id="projectsLink">
+            <span class="navlogo"><img id="projectsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">projects</span>
+        </a>
+        <a href="#footer" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        </a>
     </div>
 
     <div class="topBack"></div>
@@ -78,7 +90,7 @@
             <p onclick="click_experience('talks')">Talks</p>
         </div>
 
-        <div class="talks" id="talks" style="display: none;">
+        <div class="publications" id="talks" style="display: none;">
             <div class="year_block year24">
                 <div style="height: 2rem"> </div>
                 <div id="talksContainer"></div>
@@ -96,7 +108,7 @@
 
         <div class="skill_spacer" id="lastSpacer" style="display: block;"></div>
 
-        <div class="talks" id="book_chapters" style="display: none;">
+        <div class="publications" id="book_chapters" style="display: none;">
             <div id="chapters_2024"></div>
 
             <div class="desktop_spacer"></div>

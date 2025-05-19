@@ -56,69 +56,51 @@ const papers = [
         abstract: "Cuspidal serial robots can change inverse kinematic solutions (IKS) without crossing singularities..."
     },
     {
-        id: "redundant25_mueller",
+        id: "redundant25_mueller_2024",
         title: "Path planning in redundant cuspidal robots",
         authors: "Tobias Marauli, Durgesh Haribhau Salunkhe, Andreas Mueller",
         place: "Workshop on Advances in Robot Kinematics (ARK)",
         year: 2024,
-        pdfLink: "#",
-        bibLink: "#",
-        ytLink: "",
         abstract: "We explore feasibility issues in path planning arising from nonsingular transitions in redundant setups."
     },
     {
-        id: "redundant25_mueller",
+        id: "redundant25_mueller_2023",
         title: "Path planning in redundant cuspidal robots",
         authors: "Tobias Marauli, Durgesh Haribhau Salunkhe, Andreas Mueller",
         place: "Workshop on Advances in Robot Kinematics (ARK)",
         year: 2023,
-        pdfLink: "#",
-        bibLink: "#",
-        ytLink: "",
         abstract: "We explore feasibility issues in path planning arising from nonsingular transitions in redundant setups."
     },
     {
-        id: "redundant25_mueller",
+        id: "redundant25_mueller_2022",
         title: "Path planning in redundant cuspidal robots",
         authors: "Tobias Marauli, Durgesh Haribhau Salunkhe, Andreas Mueller",
         place: "Workshop on Advances in Robot Kinematics (ARK)",
         year: 2022,
-        pdfLink: "#",
-        bibLink: "#",
-        ytLink: "",
         abstract: "We explore feasibility issues in path planning arising from nonsingular transitions in redundant setups."
     },
     {
-        id: "redundant25_mueller",
+        id: "redundant25_mueller_2020",
         title: "Path planning in redundant cuspidal robots",
         authors: "Tobias Marauli, Durgesh Haribhau Salunkhe, Andreas Mueller",
         place: "Workshop on Advances in Robot Kinematics (ARK)",
         year: 2020,
-        pdfLink: "#",
-        bibLink: "#",
-        ytLink: "",
         abstract: "We explore feasibility issues in path planning arising from nonsingular transitions in redundant setups."
     },
     {
-        id: "redundant25_mueller",
+        id: "redundant25_mueller_2017",
         title: "Path planning in redundant cuspidal robots",
         authors: "Tobias Marauli, Durgesh Haribhau Salunkhe, Andreas Mueller",
         place: "Workshop on Advances in Robot Kinematics (ARK)",
         year: 2017,
-        pdfLink: "#",
-        bibLink: "#",
-        ytLink: "",
         abstract: "We explore feasibility issues in path planning arising from nonsingular transitions in redundant setups."
     },
     {
-        id: "redundant25_mueller",
+        id: "redundant25_mueller_2016",
         title: "Path planning in redundant cuspidal robots",
         authors: "Tobias Marauli, Durgesh Haribhau Salunkhe, Andreas Mueller",
         place: "Workshop on Advances in Robot Kinematics (ARK)",
         year: 2016,
-        pdfLink: "#",
-        bibLink: "#",
-        ytLink: "",
         abstract: "We explore feasibility issues in path planning arising from nonsingular transitions in redundant setups."
     }
 ];
@@ -137,15 +119,19 @@ Object.keys(papersByYear).sort((a, b) => b - a).forEach(year => {
 
     const yearHeader = document.createElement("div");
     yearHeader.className = "year";
-    yearHeader.innerHTML = `<p>${year}</p>`;
+    yearHeader.innerHTML = `<p onclick="click_experience('year_papers_${year}')">${year}</p>`;
     yearBlock.appendChild(yearHeader);
 
-    // Sort papers by title (or define a `date` field for finer control)
-    papersByYear[year].sort((a, b) => a.title.localeCompare(b.title));
+    const papersWrapper = document.createElement("div");
+    papersWrapper.id = `year_papers_${year}`;
+    papersWrapper.className = "year_papers";
 
+    papersByYear[year].sort((a, b) => a.title.localeCompare(b.title));
     papersByYear[year].forEach(paper => {
-        yearBlock.innerHTML += generatePaperHTML(paper);
+        papersWrapper.innerHTML += generatePaperHTML(paper);
     });
+
+    yearBlock.appendChild(papersWrapper);
 
     const container = document.getElementById(`publications_${year}`);
     if (container) {

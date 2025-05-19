@@ -67,6 +67,10 @@ body.index-page {
     border-color: transparent;
 }
 
+.colored {
+    color: var(--halycon);
+}
+
 body {
     position: relative;
     display: flex;
@@ -88,11 +92,36 @@ html {
     flex-direction: column;
 }
 
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 a {
     text-decoration: none;
     color: #fff;
 }
 
+.skillTitle span{
+    margin-right: 3rem;
+}
+
+.navcontent span{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+a .navicon{
+  width:2rem;
+  height: 2rem;  
+}
+
+a .mainicon{
+    width:3rem;
+    height: 3rem;  
+  }
+ 
 .nowrap {
     white-space: nowrap;
 }
@@ -136,6 +165,7 @@ a {
     display: block;
     position: fixed;
     top: 0.5rem;
+    gap: 0.5rem;
 }
 
 .navnum {
@@ -176,6 +206,10 @@ a {
     color: var(--hoverhalycon);
 }
 
+.navicon {
+    width: "20px";
+    height: "20px"
+}
 /* hero styles */
 
 .hero {
@@ -197,6 +231,21 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.middlepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1; /* if inside grid, span all columns */
+    grid-row: 1 / -1;    /* span all rows */
+}
+
+.message {
+    font-size: 2rem;
+    color: var(--halycon);
+    font-weight: 300;
+}
+
 
 .ls2n {
     color: var(--blueBC);
@@ -502,6 +551,16 @@ footer {
     text-align: center;
 }
 
+footer.personal-page {
+    --title-color: #ccd6f6;
+    /*--halycon: #64ffda;*/
+    /*--halycon: #00eeb6;*/
+    --halycon: #f09d51;
+    --hoverhalycon: #FFAD00;
+    --blueBC: #8892b0;
+    --background_color: #03122b;
+}
+
 .emailBlock {
     height: 0.8rem;
     width: auto;
@@ -545,6 +604,10 @@ p {
     color: var(--blueBC);
     font-size: 2rem;
     word-spacing: 1rem;
+}
+
+.profileDetails a {
+    color: var(--blueBC);
 }
 
 .profile img {
@@ -658,12 +721,24 @@ p {
     content: url("/projects/main/webpage_resources/images/profile_pic_nino.png");
 }
 
+#footer p{
+    font-size: 1rem;
+    align-self: center;
+    text-align: center;
+}
+
 @media only screen and (max-width: 576px) {
 
     .logo {
         left: 2vw;
         top: 0.5rem;
     }
+
+    a .mainicon{
+        width:2.1rem;
+        height: 2.1rem;  
+    }
+     
 
     .navnum {
         display: none;
@@ -792,6 +867,10 @@ p {
 
     .nameblock {
         flex-direction: row;
+    }
+
+    .navtitle {
+        display: none;
     }
 
     .middleblock {

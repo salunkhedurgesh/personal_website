@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Durgesh Salunkhe</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+
+<body class="personal-page">
+    <div class="logo" style="align-items: center;">
+        <a id="homeLink"><img id="persoImage" alt="logo" class="mainicon"></a>
+        <p>perso</p>
+    </div>
+
+    <div class="navcontent">
+        <a id="hobbiesLink">
+            <span class="navlogo"><img id="hobbiesImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">hobbies</span>
+        </a>
+        <a id="travelLink">
+            <span class="navlogo"><img id="travelImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">travel</span>
+        </a>
+        <a id="blogLink">
+            <span class="navlogo"><img id="blogImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">blog</span>
+        </a>
+        <a href="#footer" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/personal/common/common_contact_perso.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contact').innerHTML = data;
+            });
+    </script>
+
+    <script type="text/javascript" src="/js/helpers_perso.js"></script>
+
+
+    <div class="hero">
+        <div class="middlepage">
+            <div class="message">Page in progress</div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+    <div id="footer"></div>
+    <script>
+        fetch('/projects/personal/common/footer_perso.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+
+
+</body>
+
+</html>

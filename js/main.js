@@ -46,20 +46,37 @@ function click_buzzword(element_id) {
     }
 }
 
-function project_image_click(element_to_hide, element_to_show) {
-    const hook_hide = document.getElementById(element_to_hide);
-    const hook_show = document.getElementById(element_to_show);
+function project_image_click(currentIdPrefix) {
+    const parent = document.getElementById(currentIdPrefix).parentElement;
+    const images = Array.from(parent.getElementsByClassName("project_image"));
 
-    if (hook_hide.style.display === "none" || hook_hide.style.display === "") {
-        hook_hide.style.display = "flex";
-        hook_show.style.display = "none";
-    }
-    else {
-        hook_hide.style.display = "none";
-        hook_show.style.display = "flex";
+    const currentIndex = images.findIndex(div => div.style.display === "flex" || div.style.display === "block");
+
+    // Hide current
+    if (currentIndex >= 0) {
+        images[currentIndex].style.display = "none";
     }
 
+    // Show next (loop around)
+    const nextIndex = (currentIndex + 1) % images.length;
+    images[nextIndex].style.display = "flex";
 }
+
+function cycleImage(button, direction) {
+    const wrapper = button.closest(".carousel-wrapper");
+    const images = Array.from(wrapper.getElementsByClassName("project_image"));
+
+    let currentIndex = images.findIndex(img =>
+        img.style.display === "flex" || img.style.display === "block"
+    );
+
+    if (currentIndex !== -1) {
+        images[currentIndex].style.display = "none";
+        const nextIndex = (currentIndex + direction + images.length) % images.length;
+        images[nextIndex].style.display = "flex";
+    }
+}
+
 
 function click_recent(input_list, title_string) {
     for (let ii = 0; ii < input_list.length; ii++) {
@@ -85,28 +102,40 @@ function click_recent(input_list, title_string) {
 }
 
 function click_experience(address) {
-    let hook = document.getElementById(address);
-    if (hook.style.display === "none" || hook.style.display === "" || hook.style.display === "hidden") {
+    const hook = document.getElementById(address);
+    const style = window.getComputedStyle(hook);
+    const isHidden = style.display === "none";
+
+    if (isHidden) {
         hook.style.display = "flex";
         hook.classList.add("dropdown");
         if (address === "book_chapters") {
-            let spaceHook = document.getElementById("lastSpacer");
-            if (spaceHook.style.display === "block") { spaceHook.style.display = "none"; }
+            const spaceHook = document.getElementById("lastSpacer");
+            if (window.getComputedStyle(spaceHook).display === "block") {
+                spaceHook.style.display = "none";
+            }
         }
-    }
-    else {
+    } else {
         hook.style.display = "none";
         hook.classList.remove("dropdown");
         if (address === "book_chapters") {
-            let spaceHook = document.getElementById("lastSpacer");
-            if (spaceHook.style.display === "none") { spaceHook.style.display = "block"; }
+            const spaceHook = document.getElementById("lastSpacer");
+            if (window.getComputedStyle(spaceHook).display === "none") {
+                spaceHook.style.display = "block";
+            }
         }
     }
 }
 
+
 function blink() {
-    let el = document.getElementById("logoBlock");
-    let foot = document.getElementById("emailid");
+    const el = document.getElementById("logoBlock");
+    const foot = document.getElementById("emailid");
+
+    // Scroll to the element first
+    if (foot) {
+        foot.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
 
     el.classList.remove("blink");
     foot.classList.remove("blink");
@@ -116,14 +145,15 @@ function blink() {
         setTimeout(() => {
             el.classList.add("blink");
             foot.classList.add("blink");
-        }, i * 1000); // every 1000ms (1s)
+        }, i * 1000);
 
         setTimeout(() => {
             el.classList.remove("blink");
             foot.classList.remove("blink");
-        }, i * 1000 + 500); // toggle off after 500ms
+        }, i * 1000 + 500);
     }
 }
+
 
 function changeTheme() {
     let el = document.getElementById("logoBlock");
@@ -139,3 +169,28 @@ function changeTheme() {
 }
 
 
+function adjustFooterPosition() {
+    const footer = document.querySelector("footer");
+    const body = document.body;
+    const html = document.documentElement;
+
+    const contentHeight = Math.max(
+        body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight
+    );
+
+    const viewportHeight = window.innerHeight;
+
+    if (contentHeight <= viewportHeight) {
+        footer.style.position = "fixed";
+        footer.style.bottom = "0";
+        footer.style.left = "0";
+        footer.style.right = "0";
+    } else {
+        footer.style.position = "relative";
+    }
+}
+
+// Run on load and on resize
+window.addEventListener("load", adjustFooterPosition);
+window.addEventListener("resize", adjustFooterPosition);

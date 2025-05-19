@@ -32,6 +32,10 @@ body {
     overflow-x: clip;
 }
 
+.content {
+    flex: 1;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -45,8 +49,8 @@ a {
 .title {
     display: flex;
     background-color: var(--background_color);
-    width: 80vw;
-    max-width: 1024px;
+    width: 100vw;
+    /* max-width: 1024px; */
     position: sticky;
     top: 2.5rem;
     justify-content: center;
@@ -84,13 +88,17 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     width: 80vw;
     /*border: saddlebrown 1px solid;*/
 }
 
 .year_block p {
     font-size: 2rem;
+}
+
+.year_block p:hover{
+    cursor: pointer;
 }
 
 .year {
@@ -147,7 +155,7 @@ a {
 .paper {
     display: flex;
     flex-direction: column;
-    max-width: 1024px;
+    /* max-width: 2048px; */
     width: 80vw;
     margin-bottom: 2rem;
     margin-left: 5vw;
@@ -160,7 +168,7 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 1024px;
-    width: 80vw;
+    width: 100vw;
 }
 
 .talks {
@@ -169,13 +177,17 @@ a {
     justify-content: left;
     align-items: flex-start;
     max-width: 1024px;
-    width: 80vw;
+    width: 100vw;
 }
 
 .skillTitle {
     color: var(--title-color);
     font-size: 1rem;
     font-weight: lighter;
+}
+
+.skillTitle span:hover{
+    color: var(--halycon);
 }
 
 .last_paper {
@@ -328,8 +340,21 @@ a {
 }
 
 #skills ol {
-    list-style-position: inside;
+    margin-left: 1.5rem;
+    padding-left: 1rem;
 }
+
+#skills ul {
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+
+#skills ol + ol {
+    margin-left: 5rem; /* Adjust the spacing as needed */
+  }
+
 
 @media only screen and (min-width: 800px) {
     .content {
@@ -353,6 +378,7 @@ a {
 
     .paper {
         width: 650px;
+        max-width: 80vw;
         margin-bottom: 5vh;
     }
 
@@ -391,16 +417,49 @@ a {
     }
 
     .title p {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .year {
         position: sticky;
-        top: 6rem;
+        top: 5rem;
     }
 
     .experience2 {
         position: sticky;
         top: 3.5rem;
     }
+
+    .paper_title p{
+        font-size: 2.5rem;
+    }
+
+    .paper_description p {
+        font-size: 1.5rem;
+    }
+
+    .paper_description .authors {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin-top: 1rem;
+        text-align: left;
+        width: 80vw;
+        /*border: #f09d51 1px solid;*/
+    }
+
+    .publications li{
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    .year p{
+        font-size: 3rem;
+    }
+
+    .paper_description {
+        max-width: 1024px;
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+
 }

@@ -103,25 +103,25 @@ a {
     color: #fff;
 }
 
-.skillTitle span{
-    margin-right: 3rem;
+.skillTitle span {
+    margin-right: 2rem;
 }
 
-.navcontent span{
-    font-size: 1.5rem;
-    margin-right: 3rem;
+.navcontent span {
+    font-size: 1rem;
+    margin-right: 0.5rem;
 }
 
-a .navicon{
-  width:2rem;
-  height: 2rem;  
+a .navicon {
+    width: 2rem;
+    height: 2rem;
 }
 
-a .mainicon{
-    width:3rem;
-    height: 3rem;  
-  }
- 
+a .mainicon {
+    width: 2rem;
+    height: 2rem;
+}
+
 .nowrap {
     white-space: nowrap;
 }
@@ -177,7 +177,8 @@ a .mainicon{
 .navtitle {
     color: var(--navbarcolor);
     font-family: 'PT Mono', monospace;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
+    display: none;
 }
 
 .navcontent {
@@ -187,7 +188,7 @@ a .mainicon{
     width: 100vw;
     position: fixed;
     right: 1rem;
-    gap: 1.5rem;
+    gap: 5rem;
     top: 0;
     z-index: 2;
     background: var(--background_color);
@@ -199,7 +200,7 @@ a .mainicon{
     display: flex;
     flex-direction: row;
     padding-right: 1rem;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 .navcontent a:hover {
@@ -210,6 +211,7 @@ a .mainicon{
     width: "20px";
     height: "20px"
 }
+
 /* hero styles */
 
 .hero {
@@ -236,8 +238,10 @@ a .mainicon{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 1 / -1; /* if inside grid, span all columns */
-    grid-row: 1 / -1;    /* span all rows */
+    grid-column: 1 / -1;
+    /* if inside grid, span all columns */
+    grid-row: 1 / -1;
+    /* span all rows */
 }
 
 .message {
@@ -721,10 +725,37 @@ p {
     content: url("/projects/main/webpage_resources/images/profile_pic_nino.png");
 }
 
-#footer p{
-    font-size: 1rem;
+#footer p {
+    font-size: 0.6rem;
     align-self: center;
     text-align: center;
+}
+
+@media only screen and (min-width: 1500px) {
+    #footer p {
+        font-size: 1rem;
+        align-self: center;
+        text-align: center;
+    }
+
+    .skillTitle span {
+        margin-right: 3rem;
+    }
+
+    .navcontent span {
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    a .navicon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    a .mainicon {
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -734,11 +765,11 @@ p {
         top: 0.5rem;
     }
 
-    a .mainicon{
-        width:2.1rem;
-        height: 2.1rem;  
+    a .mainicon {
+        width: 1.5rem;
+        height: 1.5rem;
     }
-     
+
 
     .navnum {
         display: none;
@@ -765,6 +796,7 @@ p {
         flex-flow: row nowrap;
         max-width: 85vw;
         position: fixed;
+        gap: 2rem;
         right: 2vw;
         justify-content: space-between;
         z-index: 3;

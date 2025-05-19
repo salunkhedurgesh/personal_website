@@ -97,7 +97,7 @@ a {
     font-size: 2rem;
 }
 
-.year_block p:hover{
+.year_block p:hover {
     cursor: pointer;
 }
 
@@ -186,7 +186,7 @@ a {
     font-weight: lighter;
 }
 
-.skillTitle span:hover{
+.skillTitle span:hover {
     color: var(--halycon);
 }
 
@@ -351,9 +351,10 @@ a {
 }
 
 
-#skills ol + ol {
-    margin-left: 5rem; /* Adjust the spacing as needed */
-  }
+#skills ol+ol {
+    margin-left: 5rem;
+    /* Adjust the spacing as needed */
+}
 
 
 @media only screen and (min-width: 800px) {
@@ -406,7 +407,8 @@ a {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1500px) {
+
     .title {
         z-index: 1;
         width: 100vw;
@@ -430,7 +432,7 @@ a {
         top: 3.5rem;
     }
 
-    .paper_title p{
+    .paper_title p {
         font-size: 2.5rem;
     }
 
@@ -447,12 +449,12 @@ a {
         /*border: #f09d51 1px solid;*/
     }
 
-    .publications li{
+    .publications li {
         font-size: 2rem;
         font-weight: lighter;
     }
 
-    .year p{
+    .year p {
         font-size: 3rem;
     }
 

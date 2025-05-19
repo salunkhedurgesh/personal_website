@@ -171,26 +171,25 @@ function changeTheme() {
 
 function adjustFooterPosition() {
     const footer = document.querySelector("footer");
-    const body = document.body;
-    const html = document.documentElement;
+    if (!footer) return;
 
-    const contentHeight = Math.max(
-        body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight
-    );
+    // Reset first to avoid stacking effects
+    footer.style.position = "";
+    footer.style.bottom = "";
+    footer.style.width = "";
 
-    const viewportHeight = window.innerHeight;
+    const bodyHeight = document.body.offsetHeight;
+    const windowHeight = window.innerHeight;
 
-    if (contentHeight <= viewportHeight) {
+    if (bodyHeight < windowHeight) {
         footer.style.position = "fixed";
         footer.style.bottom = "0";
-        footer.style.left = "0";
-        footer.style.right = "0";
+        footer.style.width = "100%";
     } else {
-        footer.style.position = "relative";
+        footer.style.position = "static";
     }
 }
 
-// Run on load and on resize
-window.addEventListener("load", adjustFooterPosition);
+// Safer hooks
+document.addEventListener("DOMContentLoaded", adjustFooterPosition);
 window.addEventListener("resize", adjustFooterPosition);

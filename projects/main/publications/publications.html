@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Durgesh Salunkhe</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style_publications.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/auto_writer_main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+</head>
+
+<body>
+
+    <div id="logo_click_non_index"></div>
+
+    <div class="navcontent">
+        <a href="homeLink"><span class="navlogo"><img id="homeImage" width="20px" height="20px"></span> <span
+                class="navnum">01.</span> <span class="navtitle">home</span></a>
+        <a id="experienceLink"><span class="navlogo"><img id="experienceImage" width="20px" height="20px"></span>
+            <span class="navnum">02.</span> <span class="navtitle">experience</span></a>
+        <a id="projectsLink"><span class="navlogo"><img id="projectsImage" width="20px" height="20px"></span> <span
+                class="navnum">03.</span> <span class="navtitle">projects</span></a>
+        <a href="#footId" onclick="blink()"><span class="navlogo"><img id="contactImage" width="20px"
+                    height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/common_contact.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contact').innerHTML = data;
+            });
+    </script>
+
+    <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+
+    <div class="content">
+        <div class="title" style="z-index: 1">
+            <p onclick="click_experience('publication')">Publications</p>
+        </div>
+
+        <div class="publications" id="publication" style="display: none;">
+            <div id="publications_2025"></div>
+            <div id="publications_2024"></div>
+            <div id="publications_2023"></div>
+            <div id="publications_2022"></div>
+            <div id="publications_2020"></div>
+            <div id="publications_2017"></div>
+            <div id="publications_2016"></div>
+
+            <script src="/js/generate_papers.js"></script>
+
+        </div>
+
+        <div class="skill_spacer"></div>
+        <div class="spacer_small"></div>
+
+        <div class="title" style="z-index: 1;">
+            <p onclick="click_experience('thesis')">Theses</p>
+        </div>
+
+        <div class="publications" id="thesis" style="display: none;">
+            <div id="thesis_2024"></div>
+            <div id="thesis_2020"></div>
+        </div>
+
+        <div class="skill_spacer"></div>
+        <div class="spacer_small"></div>
+
+        <div class="title" id="title_talk">
+            <p onclick="click_experience('talks')">Talks</p>
+        </div>
+
+        <div class="talks" id="talks" style="display: none;">
+            <div class="year_block year24">
+                <div style="height: 2rem"> </div>
+                <div id="talksContainer"></div>
+            </div>
+            <script src="/js/generate_talks.js"></script>
+
+        </div>
+
+        <div class="skill_spacer"></div>
+        <div class="spacer_small" style="position: sticky; top: 0;"></div>
+
+        <div class="title" id="title_book_chapter">
+            <p onclick="click_experience('book_chapters')">Book chapters</p>
+        </div>
+
+        <div class="skill_spacer" id="lastSpacer" style="display: block;"></div>
+
+        <div class="talks" id="book_chapters" style="display: none;">
+            <div id="chapters_2024"></div>
+
+            <div class="desktop_spacer"></div>
+        </div>
+
+        <div class="skill_spacer"></div>
+
+    </div>
+
+
+    <div class="desktop_spacer"></div>
+    <div id="footer"></div>
+
+    <script>
+        const file_ext = '/projects/main/publications/sections/';
+        // const file_paths = ['publications_2025', 'publications_2024', 'publications_2023', 'publications_2022', 'publications_2020', 'thesis_2024', 'thesis_2020', 'talks_2024'];
+        const file_paths = ['thesis_2024', 'thesis_2020', 'talks_2024', 'chapters_2024'];
+
+        for (const file of file_paths) {
+            console.log("Fetching:", file_ext + file + '.html');
+            fetch(file_ext + file + '.html')
+                .then(response => {
+                    if (!response.ok) throw new Error(`Failed to load ${file}`);
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById(file).innerHTML = data;
+                })
+                .catch(err => console.error(err));
+        }
+
+        const file_ext2 = '/projects/main/common/';
+        const file_paths2 = ['logo_click_non_index', 'footer'];
+
+        for (const file2 of file_paths2) {
+            console.log("Fetching:", file_ext2 + file2 + '.html');
+            fetch(file_ext2 + file2 + '.html')
+                .then(response => {
+                    if (!response.ok) throw new Error(`Failed to load ${file}`);
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById(file2).innerHTML = data;
+                })
+                .catch(err => console.error(err));
+        }
+
+    </script>
+
+</body>
+
+</html>

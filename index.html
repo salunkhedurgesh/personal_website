@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Durgesh Salunkhe</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body class="index-page">
+
+    <div class="logo">
+        <a id="personalLink"><img id="logoImg" alt="logo" width="30px"></a>
+        <p>work</p>
+    </div>
+
+    <div class="navcontent">
+        <a id="experienceLink"><span class="navlogo"><img id="experienceImage" width="20px" height="20px"></span> <span
+                class="navnum">01.</span> <span class="navtitle">experience</span></a>
+        <a id="projectsLink"><span class="navlogo"><img id="projectsImage" width="20px" height="20px"></span> <span
+                class="navnum">02.</span> <span class="navtitle">projects</span></a>
+        <a id="publicationsLink"><span class="navlogo"><img id="publicationsImage" width="20px" height="20px"></span>
+            <span class="navnum">03.</span> <span class="navtitle">publications</span></a>
+        <a href="#footId" onclick="blink()"><span class="navlogo"><img
+                    src="projects/main/webpage_resources/images/contact_green.png" width="20px"
+                    height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+    </div>
+
+
+    <div class="topBack"></div>
+
+    <div class="hero">
+
+        <div id="contact"></div>
+        <script>
+            fetch('/projects/main/common/common_contact.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('contact').innerHTML = data;
+                });
+        </script>
+
+        <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+        <div class="middleblock">
+            <p class="hello">Hello, I am</p>
+            <div class="nameblock" id="name">
+                <h1>D</h1>
+                <h1>u</h1>
+                <h1>r</h1>
+                <h1>g</h1>
+                <h1>e</h1>
+                <h1>s</h1>
+                <h1>h</h1>
+                <h1>&nbsp;</h1>
+                <h1>S</h1>
+                <h1>a</h1>
+                <h1>l</h1>
+                <h1>u</h1>
+                <h1>n</h1>
+                <h1>k</h1>
+                <h1>h</h1>
+                <h1>e</h1>
+            </div>
+            <!--
+            <div class="nameblock">
+                <div class="subnameblock" id="name">
+                    <h1>D</h1><h1>u</h1><h1>r</h1><h1>g</h1><h1>e</h1><h1>s</h1><h1>h</h1><h1>&nbsp</h1>
+                    <h1>S</h1><h1>a</h1><h1>l</h1><h1>u</h1><h1>n</h1><h1>k</h1><h1>h</h1><h1>e</h1>
+                </div>
+            </div>
+            -->
+            <h2>I am a researcher at
+                <a href="https://www.epfl.ch/labs/lasa/" target="_blank" class="ls2n">LASA lab</a>,
+                <a href="https://www.epfl.ch/" target="_blank" class="ls2n">EPFL</a>
+            </h2>
+
+            <div id="small_name">
+                Durgesh Salunkhe
+            </div>
+
+            <script>
+                window.addEventListener("scroll", () => {
+                    const name_holder = document.getElementById("small_name")
+                    const current = window.scrollY;
+                    let w = window.innerWidth;
+                    let h = window.innerHeight;
+                    // console.log(current);
+                    // console.log(name_holder.style.display)
+                    // console.log(w)
+                    if (w < 1200) {
+                        return 0
+                    }
+                    if (window.scrollY >= 204) {
+                        name_holder.style.display = "flex"
+                        name_holder.style.transition = "linear"
+                    }
+                    else {
+                        name_holder.style.display = "none"
+                    }
+                })
+            </script>
+
+            <div class="profile">
+                <img src="/projects/main/webpage_resources/images/profile_pic.jpeg" alt="profile pic" id="profile-pic">
+
+                <!-- <img src="/projects/main/webpage_resources/images/profile_pic.jpeg" alt="profile pic" id="#grayscale">
+                <img src="/projects/main/webpage_resources/images/profile_pic_nino.png" alt="profile pic"
+                    id="#grayscale"> -->
+                <div class="profileDetails">
+                    <h2>About Me</h2>
+                    <div id="about_me"></div>
+                    <script>
+                        fetch('/projects/main/helper_index/aboutMe.html')
+                            .then(response => response.text())
+                            .then(data => {
+                                document.getElementById('about_me').innerHTML = data;
+                            });
+                    </script>
+
+                    <div class="flexbox">
+                        <a href="resources/resume_salunkhe_2024.pdf" target="_blank"><button>Resume</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="buzzwords"></div>
+            <script>
+                fetch('/projects/main/helper_index/buzzwords.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('buzzwords').innerHTML = data;
+                    });
+            </script>
+
+
+        </div>
+    </div>
+
+    <div class="desktop_spacer"></div>
+    <div class="desktop_spacer"></div>
+
+    <div class="middleblock">
+        <div id="recent_news"></div>
+        <script>
+            fetch('/projects/main/helper_index/recent_news.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('recent_news').innerHTML = data;
+                });
+        </script>
+        <div class="spacer"></div>
+
+        <div id="current"></div>
+        <script>
+            fetch('/projects/main/helper_index/current.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('current').innerHTML = data;
+                });
+        </script>
+    </div>
+
+    <!--<div class="spacer"></div>-->
+
+    <div id="footId"></div>
+    <script>
+        fetch('/projects/main/common/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footId').innerHTML = data;
+            });
+    </script>
+
+</body>
+
+</html>

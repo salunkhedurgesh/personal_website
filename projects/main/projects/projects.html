@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Durgesh Salunkhe</title>
+  <link rel="stylesheet" href="style.css?rnd=18">
+  <link rel="stylesheet" href="style_publications.css?rnd=18">
+  <link rel="stylesheet" href="style_projects.css?rnd=18">
+  <script type="text/javascript" src="main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body>
+
+  <div class="logo" style="translate: 0 0.2rem">
+    <a href="index.html"><img src="images/logo_indark_internal.png" alt="logo" width="30px"></a>
+  </div>
+
+  <div class="navcontent">
+    <a href="index.html"><span class="navlogo"><img src="images/home_green.png" width="20px" height="20px"></span><span class="navnum">01.</span> <span class="navtitle">home</span></a>
+    <a href="experience.html"><span class="navlogo"><img src="images/experience_green.png" width="20px" height="20px"></span> <span class="navnum">01.</span> <span class="navtitle">experience</span></a>
+    <a href="publications.html"><span class="navlogo"><img src="images/publications_green.png" width="20px" height="20px"></span><span class="navnum">03.</span> <span class="navtitle">publications</span></a>
+    <a href="#footId_pub" onclick="blink()"><span class="navlogo"><img src="images/contact_green.png" width="20px" height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+  </div>
+
+  <div class="topBack"></div>
+
+  <div class="imageblock" id="logoBlock">
+  <a href="https://fr.linkedin.com/in/salunkhedurgesh"><img src="images/linkedIn_indark.png" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/durgesh_salunkhe/"><img src="images/instagram_indark.png" alt="instagram"></a>
+  <a href="https://github.com/salunkhedurgesh"><img src="images/github_indark.png" alt="github"></a>
+  </div>
+
+  <div class="content">
+    <div class="title" style="z-index: 2">
+        <p onclick="click_experience('projects')">Projects</p>
+    </div>
+
+    <div class="publications" id="projects" style="display: flex;">
+      <div class="year_block year23">
+        <div class="year">
+          <p>2020 - 2023</p>
+        </div>
+
+        <div class="project_cover">
+          <p class="project_title">Efficient and Certified Algorithms for Robot motion Planning</p>
+          <div class="project">
+            <div class="project_image" id="ecarp1" style="display: flex;">
+              <img src="resources/figures/ecarp-1.png" alt="ecarp" onclick="project_image_click('ecarp1', 'ecarp2')">
+              <p>Two IKS of JACO robot</p>
+            </div>
+            <div class="project_image" id="ecarp2" style="display: none;">
+              <img src="resources/figures/ecarp-2.png" alt="ecarp" onclick="project_image_click('ecarp2', 'ecarp3')">
+              <p>Nonsingular change of solutions</p>
+            </div>
+            <div class="project_image" id="ecarp3" style="display: none;">
+              <img src="resources/figures/ecarp-3.png" alt="ecarp" onclick="project_image_click('ecarp3', 'ecarp4')">
+              <p>Regions with multiple IKS in the workspace</p>
+            </div>
+            <div class="project_image" id="ecarp4" style="display: none;">
+              <iframe src="https://player.vimeo.com/video/807131888?h=86478da33e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Trajectory planning issues in commercial cuspidal robots"></iframe>
+              <p>Video submission ICRA 2023</p>
+            </div>
+
+            <div class="project_description">
+              <p>
+                <span class="highlight">Description</span>: <br><br>
+                The project titled "Efficient and Certified Algorithms for Robot motion Planning" (ECARP) is a joint project
+                between the Agence National de Recherché (ANR), France and Fonds zur Förderung der wissenschaftlichen
+                Forschung (FWF), Austria.
+
+                ECARP targets major computational challenges in three related fields: computer algebra, nonlinear
+                computational geometry and robotics. There are three parts of the projects: <br>
+                Part 1. Roadmap algorithms and high-performance computing - Paris Team<br>
+                Part 2. Serial manipulators: cuspidality analysis and trajectory planning - Nantes Team<br>
+                Part 3. Parallel manipulators: analysis of aspects - Austria Team <br>
+
+                <br><br>
+                <span class="highlight">Members</span>: <br><br>
+                Paris: Mohab Safey El Din, Jeremy Berthomieu, Jean Charles Faugère, Rémi Prébet <br>
+                Nantes: Philippe Wenger, Damien Chablat, Durgesh Salunkhe <br>
+                Austria (Innsbruck): Jose Capco, Christoforos Spartalis <br>
+                Austria (Linz): Andreas Muller, Josef Schicho, Tobias Marauli <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="year_block year20">
+        <div class="year">
+          <p>2020</p>
+        </div>
+
+        <div class="project_cover">
+          <p class="project_title">Optimal kinematic design of a parallel manipulator for otological surgery</p>
+          <div class="project">
+            <div class="project_image" onclick="project_image_click('mt1', 'mt2')" id="mt1" style="display: flex;">
+              <img src="resources/figures/mt-1.png" alt="master" >
+              <p>Mechanisms with motion constraint generator</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('mt2', 'mt3')" id="mt2" style="display: none;">
+              <img src="resources/figures/mt-2.png" alt="master" >
+              <p>Center-biased rewarding strategy</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('mt3', 'mt4')" id="mt3" style="display: none;">
+              <img src="resources/figures/mt-3.png" alt="master" >
+              <p>Binary rewarding strategy</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('mt4', 'mt5')" id="mt4" style="display: none;">
+              <img src="resources/figures/mt-4.png" alt="master" >
+              <p>Heatmap of kinematic quality <br>Brighter the better</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('mt5', 'mt6')" id="mt5" style="display: none;">
+              <img src="resources/figures/mt-5.png" alt="master" >
+              <p>Heatmap of kinematic quality <br>Brighter the better</p>
+            </div>
+            <div class="project_image" id="mt6" style="display: none;">
+              <iframe src="https://player.vimeo.com/video/807139015?h=660bd818d2&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Master thesis presentation.mp4"></iframe>
+            </div>
+
+            <div class="project_description">
+              <p>
+                <span class="highlight">Description</span>: <br><br>
+                This project was funded by Human FActors for Medical Technologies (FAME), Nantes. The project was a joint
+                collaboration between Ecole Centrale de Nantes, Centre Hospital Universitaire and Université Nantes.
+
+                This project aimed to provide solutions from robotics to provide assistance in endoscope handling during
+                the otolaryngologic surgeries. The tasks completed under this project were: <br>
+                Task 1. Review of existing surgical robots<br>
+                Task 2. Study of biological parts such as the skull and the nasal cavity<br>
+                Task 3. Parallel manipulators: Novel mechanism with remote center of motion <br>
+                Task 4. Design optimisation of the mechanism using state-of-the-art approaches <br>
+
+                <br><br>
+                <span class="highlight">Members</span>: <br><br>
+                Ecole Centrale de Nantes: Damien Chablat, Durgesh Salunkhe <br>
+                Centre Hospitalier Universitaire (CHU), Nantes: Philippe Bordure, Guillaume Michel <br>
+                Université Nantes: Elise Olivier <br>
+                External collaborators: Marcello Sanguineti (University of Genova), Shivesh Kumar (DFKI, Germany)
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="year_block year17">
+        <div class="year">
+          <p style="text-align: center">2017</p>
+        </div>
+
+        <div class="project_cover">
+          <p class="project_title">Sensorless Full Body Active Compliant 6-dof PM</p>
+          <div class="project">
+            <div class="project_image" onclick="project_image_click('sac1', 'sac2')" id="sac1" style="display: flex;">
+              <img src="resources/figures/sac-1.png" alt="master" >
+              <p>6RSS parallel mechanism</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('sac2', 'sac3')" id="sac2" style="display: none;">
+              <img src="resources/figures/sac-2.jpg" alt="master" >
+              <p>High payload capacities of 6RSS platform</p>
+            </div>
+            <div class="project_image" style="display: none;" id="sac3">
+              <a href="https://www.youtube.com/watch?v=g8Je93soOZE" target="_blank"><img src="resources/figures/sac-video.png" alt="sac video"></a>
+            </div>
+
+            <div class="project_description">
+              <p>
+                <span class="highlight">Description</span>: <br><br>
+                This project was funded by Indian institute of Technology, Jodhpur, India.
+
+                This project culminated with the development of sensorless full body active force compliance in a 6RSS
+                parallel platform. The mechanism was designed indigenous and the control laws were developed from scratch<br>
+                Task 1. Build a parallel mechanism<br>
+                Task 2. Implement a control law for controlling motion<br>
+                Task 3. Implement a sensing and control law for active force compliance <br>
+                Task 4. Benchmark the results compared to the force measured on Bertec plate <br>
+
+                <br><br>
+                <span class="highlight">Members</span>: <br><br>
+                Anirvan Dutta, Durgesh Salunkhe<br>
+                IIT J: Suril V Shah <br>
+                External collaborators: Arun Dayal Udai(IIT Dhanbad), Shivesh Kumar (DFKI, Germany)
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="year_block year16">
+        <div class="year">
+          <p style="text-align: center">2016</p>
+        </div>
+
+        <div class="project_cover">
+          <p class="project_title">Force/Position Control of 3 DOF Delta Manipulator with Voice Coil Actuator</p>
+          <div class="project">
+            <div class="project_image" onclick="project_image_click('delta1', 'delta2')" id="delta1" style="display: flex;">
+              <img src="resources/figures/delta-1.jpg" alt="master" >
+              <p>Delta mechanism</p>
+            </div>
+            <div class="project_image" id="delta2" style="display: none;">
+              <a href="https://www.youtube.com/watch?v=VZk_wGmQab4" target="_blank"><img src="resources/figures/delta-video.png" alt="sac video"></a>
+            </div>
+
+            <div class="project_description">
+  <!--            <p class="project_title">Force/Position Control of 3 DOF Delta Manipulator with Voice Coil Actuator</p>-->
+              <p>
+                <span class="highlight">Description</span>: <br><br>
+                This project was funded by Robotics Lab of Birla Institute of Technology, Mesra.
+
+                This project used a Delta manipulator made from Voice coil actuators and introduced springs for position
+                control as well as passive force compliance. The resulting modified mechanism was able to perform tasks with
+                precision and was compliant.
+                <br><br>
+                <span class="highlight">Members</span>: <br><br>
+                Anirvan Dutta, Durgesh Salunkhe<br>
+                BIT Mesra: Arun Dayal Udai (now: IIT Dhanbad)<br>
+                External collaborators: Sudipto Mukherjee
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project_cover">
+          <p class="project_title">Design, trajectory generation and control of a research quadrotor platform using ROS</p>
+          <div class="project">
+            <div class="project_image" onclick="project_image_click('quad1', 'quad2')" id="quad1" style="display: flex;">
+              <img src="resources/figures/quad-2.png" alt="master" >
+              <p>Quadrotor platform</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('quad2', 'quad3')" id="quad2" style="display: none;">
+              <img src="resources/figures/quad-1.jpg" alt="master" >
+              <p>Quadrotor in action</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('quad3', 'quad1')" id="quad3" style="display: none;">
+              <img src="resources/figures/quad-3.png" alt="master" >
+              <p>Testing rig for PID parameter tuning</p>
+            </div>
+
+            <div class="project_description">
+              <p>
+                <span class="highlight">Description</span>: <br><br>
+                We describe the modeling, estimation and control of a quadrotor in 3D environment using the 3DR Pixhawk PX4
+                as controller through Robot Operating System. The paper discusses a method to measure moment of inertia of
+                quadrotor about its principal axes to achieve better results in an inexpensive way. The proposed test rig
+                also helps in tuning the control parameters of the quadrotor.
+
+                We also present the trajectory generation and segment optimization of the trajectory commanded to the
+                quadrotor. We describe a method of controlling the quadrotor through ROS by providing necessary inputs to
+                the flight controller using the built-in firmware.
+
+                <br><br>
+                <span class="highlight">Members</span>: <br><br>
+                Sujal Topno, Siddhant Sharma, Chandana Darapaneni, Amol Kankane <br>Durgesh Salunkhe, Suril V Shah
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="year_block year14">
+        <div class="year">
+          <p style="text-align: center;">2014-2016</p>
+        </div>
+
+        <div class="project_cover">
+          <p class="project_title">Robolution: robotics society, BIT Mesra</p>
+          <div class="project">
+            <div class="project_image" onclick="project_image_click('robo1', 'robo2')" id="robo1" style="display: flex;">
+              <img src="resources/figures/robo-1.png" alt="master" >
+              <p>Award received from Mathworks in 2015</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('robo2', 'robo3')" id="robo2" style="display: none;">
+              <img src="resources/figures/robo-4.jpg" alt="master" >
+              <p>The winning team</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('robo3', 'robo4')" id="robo3" style="display: none;">
+              <img src="resources/figures/robo-3.png" alt="master" >
+              <p>Robots build for ROBOCON 2015</p>
+            </div>
+            <div class="project_image" onclick="project_image_click('robo4', 'robo1')" id="robo4" style="display: none;">
+              <img src="resources/figures/robo-2.png" alt="master" >
+              <p>Robots build for ROBOCON 2016</p>
+            </div>
+
+            <div class="project_description">
+              <!--          <p class="project_title">Robolution; robotics socirty, BIT Mesra</p>-->
+              <p>
+                <span class="highlight">Description</span>: <br><br>
+                Team Robolution is a group of ingenious students from different branches with a common purpose-“DEXTERING
+                ROBOTICS”. The club’s aim is to instill robotics temperament among our fellow students and for this, the
+                club involves members as early as possible in various hands-on and multi-disciplinary collaborative
+                experience in designing, building, and programming robots. The club conducts various workshops on these
+                topics for the first and second year students . The club provides a platform where students get to
+                implement their theoretical engineering knowledge into practical use and for this the team conducts many
+                robotics events in the university’s technical fests.
+
+                A part of our club, ‘Team Pratyunmis’ , is the official ABU ROBOCON participating team of BIT Mesra which
+                is the largest robotics competition in Asia Pacific. Well defined goals, an organized and disciplined work
+                structure and motivated members is what has helped the club to grow to the present level.
+
+                <br><br>
+                <span class="highlight">Members during my tenure</span>: <br><br>
+                2K12: Inderjeet Yadav, Shubham Paul, Vinit Kumar, Sindhu Sharma, Gaurav Kumar, Sriman Narayan, Durgesh Salunkhe <br>
+                2K13: Hritwik Shukla, Ajay Shah, Sujal Topno, Siddhant Sharma, Anirvan Dutta, Himanshu Ranjan, Chirag Parikh,
+                Aaquib Reza Khan, Naman Sharma, Ravi Ranjan
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="desktop_spacer"></div>
+    </div>
+  </div>
+
+  <footer id="footId_pub">
+    <p><span style="color: var(--halycon);">Designed by:</span> durgesh.salunkhe</p>
+    <p class="emailBlock" id="emailid"><img src="images/email_indark.png" alt="email"> &nbsp <a href = "mailto: salunkhedurgesh@gmail.com">
+      <span style="font-family: 'PT Mono', monospace; letter-spacing: 0.06rem;">salunkhedurgesh@gmail.com</span></a></p>
+  </footer>
+</body>
+</html>

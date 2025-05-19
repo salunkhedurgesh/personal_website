@@ -1,0 +1,5 @@
+# svg files
+*.svg
+
+# eps files
+*.eps

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Durgesh Salunkhe</title>
+  <link rel="stylesheet" href="../style_publications.css?rnd=15">
+  <link rel="stylesheet" href="../style.css?rnd=15">
+  <script type="text/javascript" src="../main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body>
+<div class="logo" style="translate: 0 0.2rem">
+  <a href="index.html"><img src="images/logo_indark_internal.png" alt="logo" width="30px"></a>
+</div>
+
+<div class="navcontent">
+  <a href="index.html"><span class="navlogo"><img src="images/home_green.png" width="20px" height="20px"></span><span class="navnum">01.</span> <span class="navtitle">icra</span></a>
+  <a href="cusp_people.html"><span class="navlogo"><img src="images/projects_green.png" width="20px" height="20px"></span><span class="navnum">02.</span> <span class="navtitle">people</span></a>
+  <a href="#footId_pub" onclick="blink()"><span class="navlogo"><img src="images/contact_green.png" width="20px" height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+</div>
+
+<div class="imageblock" id="logoBlock">
+  <a href="https://fr.linkedin.com/in/salunkhedurgesh"><img src="images/linkedIn_indark.png" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/durgesh_salunkhe/"><img src="images/instagram_indark.png" alt="instagram"></a>
+  <a href="https://github.com/salunkhedurgesh"><img src="images/github_indark.png" alt="github"></a>
+</div>
+
+<div class="topBack"></div>
+
+<div class="content">
+  <div class="title" style="z-index: 2">
+    <p>Relevant publications</p>
+  </div>
+
+  <div class="year_block">
+    <div class="year">
+      <p>2023</p>
+    </div>
+
+    <div class="paper last_paper">
+      <div class="paper_description">
+        <div class="action_row" id="icra23_paper">
+          <a href="../resources/citations/icra23_salunkhe.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/icra23_salunkhe.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('icra23_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Trajectory planning issues in commercial cuspidal robots</p>
+          <p class="authors">D. H. Salunkhe, D. Chablat, P. Wenger, <br>In
+            Proceedings of the International Conference on Robotics and Automation,
+            (<span style="color: var(--halycon)">ICRA</span>), 2023, London, United Kingdom</p>
+        </div>
+      </div>
+      <div id="icra23_abstract"  style="display: none;" class="abstract">
+        <p>
+          A cuspidal serial robot can travel from one inverse kinematic solution to another without crossing a
+          singularity. Cuspidal robots ask for extra care and caution in trajectory planning, as identifying an aspect
+          related to one unique inverse kinematic solution is not possible. The issues related to motion planning with
+          cuspidal robots are related to the inherent property arising from the geometric design of the robot. The
+          cuspidality property has not been considered in recent industrial 6R robots with a non-spherical wrist. In
+          this work, cuspidality is illustrated with the JACO robot (gen 2, non-spherical wrist), a serial arm by
+          Kinova Robotics which is  deployed in various applications and is cuspidal in nature. A nonsingular change
+          of solutions for the robot is provided to highlight the effect of cuspidal robots on the interference with
+          the environment. The pose with multiple inverse kinematic solutions in an aspect is presented.
+          Problems in choosing the initial solution of the path in cuspidal robots, and its consequence, is
+          illustrated with an example path in the workspace of the JACO robot. The paper presents the importance of
+          cuspidality analysis of 6R robots and the implications of neglecting it.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="year_block">
+    <div class="year"><p>2022</p></div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/jmr22_wenger.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/jmr22_wenger.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('jmr22_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">A review of cuspidal serial and parallel manipulators</p>
+          <p class="authors">P. Wenger, D. Chablat, <br>In
+            Journal of Mechanisms and Robotics
+            (<span style="color: var(--halycon)">ISSAC</span>), 2022</p>
+        </div>
+
+      </div>
+      <div id="jmr22_abstract" style="display: none;" class="abstract">
+        <p>
+          Cuspidal robots can move from one inverse or direct kinematic solution to another without ever passing through a singularity. These robots have remained unknown because almost all industrial robots do not have this feature. However, in fact, industrial robots are the exceptions. Some robots appeared recently in the industrial market can be shown to be cuspidal but, surprisingly, almost nobody knows it and robot users meet difficulties in planning trajectories with these robots. This paper proposes a review on the fundamental and application aspects of cuspidal robots. It addresses the important issues raised by these robots for the design and planning of trajectories. The identification of all cuspidal robots is still an open issue. This paper recalls in details the case of serial robots with three joints but it also addresses robots with more complex architectures such as 6-revolute-jointed robot and parallel robots. We hope that this paper will help disseminate more widely knowledge on cuspidal robots.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/issac22_prebet.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/issac22_prebet.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('issac22_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Deciding Cuspidality of Manipulators through Computer Algebra and Algorithms in Real Algebraic
+            Geometry</p>
+          <p class="authors">D. Chablat, R. Prébet, M. Safey El Din, D. H. Salunkhe, P. Wenger, <br>In
+            Proceedings of the 2022 International Symposium on Symbolic and Algebraic Computation
+            (<span style="color: var(--halycon)">ISSAC</span>), 2022, Lille, France</p>
+        </div>
+
+      </div>
+      <div id="issac22_abstract"  class="abstract">
+        <p>
+          Cuspidal robots are robots with at least two inverse kinematic solutions that can be connected by a
+          singularity-free path. Deciding the cuspidality of generic 3R robots has been studied in the past, but
+          extending the study to six-degree-of-freedom robots can be a challenging problem. Many robots can be modeled
+          as a polynomial map together with a real algebraic set so that the notion of cuspidality can be extended to
+          these data. In this paper we design an algorithm that, on input a polynomial map in n indeterminates, and s
+          polynomials in the same indeterminates describing a real algebraic set of dimension d, decides the
+          cuspidality of the restriction of the map to the real algebraic set under consideration. Moreover, if D and
+          <span style="font-family: 'Times New Roman',serif">&#964</span> are, respectively the maximum degree and the
+          bound on the bit size of the coefficients of the input polynomials, this algorithm runs in time log-linear
+          in <span style="font-family: 'Times New Roman',serif">&#964</span> and polynomial in ((s+d)D)O(n2). It
+          relies on many high-level algorithms in computer algebra which use advanced methods on real algebraic sets
+          and critical loci of polynomial maps. As far as we know, this is the first algorithm that tackles the
+          cuspidality problem from a general point of view.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/ark22_salunkhe.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/ark22_salunkhe.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('ark22_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Geometry Based Analysis of 3R Serial Robots</p>
+          <p class="authors">D. H. Salunkhe, J. Capco, D. Chablat, P. Wenger, <br>In Advances in Robot Kinematics
+            2022, Proceedings in Advanced Robotics
+            (<span style="color: var(--halycon)">ARK</span>), 2022, Bilbao, Spain</p>
+        </div>
+
+      </div>
+      <div id="ark22_abstract"  class="abstract">
+        <p>
+          Cuspidal robots can travel from one inverse kinematic solution (IKS) to another without meeting a
+          singularity. This property can be analyzed by understanding the inverse kinematic model (IKM) as well as the
+          singularities in the joint space and in the workspace. In this article, we revisit the geometrical
+          interpretation of the IKM with conics. The conditions of getting different conics and their implication on
+          singularities are discussed and the observations regarding the nature of the conics are presented. Further,
+          a sufficient condition for a 3R robot to be binary (i.e. with up to 2 IKS) as well as quaternary (i.e. with
+          up to 4 IKS) is put forth by analyzing the geometrical interpretation of the IKM. The possibility to derive
+          a necessary and sufficient condition is presented too.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper last_paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/mmt22_salunkhe.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/mmt22_salunkhe.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('mmt22_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Necessary and sufficient condition for a generic 3R serial manipulator to be cuspidal</p>
+          <p class="authors">D. H. Salunkhe, C. Spartalis, J. Capco, D. Chablat, P. Wenger, <br>
+            Mechanism and Machine Theory (<span style="color: var(--halycon)">MMT</span>), 2022
+          </p>
+        </div>
+
+      </div>
+      <div id="mmt22_abstract"  class="abstract">
+        <p>
+          Cuspidal robots can travel from one inverse kinematic solution to another without meeting a singularity.
+          The name cuspidal was coined based on the existence of a cusp point in the workspace of 3R serial robots.
+          The existence of a cusp point was proved to be a necessary and sufficient condition for orthogonal robots
+          to be cuspidal, but it was not possible to extend this condition to non-orthogonal robots. The goal of this
+          paper is to prove that this condition stands for any generic 3R serial robot. This result would give the
+          designer more flexibility. In the presented work, the geometrical interpretation of the inverse kinematics
+          of 3R robots is revisited and important observations on the nonsingular change of posture are noted. The
+          paper presents a theorem regarding the existence of reduced aspects in any generic 3R serial robot. Based
+          on these observations and on this theorem, we prove that the existence of a cusp point is a necessary and
+          sufficient condition for any 3R generic robot to be cuspidal.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="year_block">
+    <div class="year"><p>2020</p></div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/issac20_capco.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/issac20_capco.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('issac20_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Robots, computer algebra and eight connected components</p>
+          <p class="authors">J. Capco, M. Safey El Din, J. Schicho,<br>
+            In International Symposium on Symbolic Computation, (<span style="color: var(--halycon)">ISSAC</span>), 2020
+          </p>
+        </div>
+
+      </div>
+      <div id="issac20_abstract"  style="display: none;" class="abstract">
+        <p>
+          Answering connectivity queries in semi-algebraic sets is a long-standing and challenging computational issue with applications in robotics, in particular for the analysis of kinematic singularities. One task there is to compute the number of connected components of the complementary of the singularities of the kinematic map. Another task is to design a continuous path joining two given points lying in the same connected component of such a set. In this paper, we push forward the current capabilities of computer algebra to obtain computer-aided proofs of the analysis of the kinematic singularities of various robots used in industry.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper last paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/springer19_wenger.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/springer19_wenger.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('case19_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Cuspidal robots</p>
+          <p class="authors">P. Wenger,<br> In
+            Singular Configurations of Mechanisms and Manipulators, Springer
+          </p>
+        </div>
+
+      </div>
+      <div id="case19_abstract"  style="display: none;" class="abstract">
+        <p>
+          This chapter is dedicated to the so-called cuspidal robots; i.e., those robots that can move from one inverse geometric solution to another without meeting a singular configuration. This feature was discovered quite recently and has then been fascinating a lot of researchers. After a brief history of cuspidal robots, the chapter provides the main features of cuspidal robots: explanation of the non-singular change of posture, uniqueness domains, regions of feasible paths, identification and classification of cuspidal robots. The chapter focuses on 3-R orthogonal serial robots. The case of 6-dof robots and parallel robots is discussed in the end of this chapter.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="year_block">
+    <div class="year"><p>Before 2010</p></div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/robotica07_wenger.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/robotica07_wenger.pdf" target="_blank"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('robotica07_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Cuspidal and noncuspidal robot manipulators</p>
+          <p class="authors">P. Wenger, <br>
+            In Robotica, 2008
+          </p>
+        </div>
+
+      </div>
+      <div id="robotica07_abstract"  style="display: none;" class="abstract">
+        <p>
+          This article synthezises the most important results on the kinematics of cuspidal manipulators i.e. nonredundant manipulators that can change posture without meeting a singularity. The characteristic surfaces, the uniqueness domains and the regions of feasible paths in the workspace are defined. Then, several sufficient geometric conditions for a manipulator to be noncuspidal are enumerated and a general necessary and sufficient condition for a manipulator to be cuspidal is provided. An explicit DH-parameter-based condition for an orthogonal manipulator to be cuspidal is derived. The full classification of 3R orthogonal manipulators is provided and all types of cuspidal and noncuspidal orthogonal manipulators are enumerated. Finally, some facts about cuspidal and noncuspidal 6R manipulators are reported.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/jmd05_baili.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/jmd05_baili.pdf"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('jmd05_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Using Computer Algebra Tools to Classify Serial Manipulators</p>
+          <p class="authors">P. Wenger, D. Chablat, and M. Baili<br>
+            In Journal of Mechanism Design, (<span style="color: var(--halycon)">JMD</span>), 2005
+          </p>
+        </div>
+
+      </div>
+      <div id="jmd05_abstract"  style="display: none;" class="abstract">
+        <p>
+          Positioning 3R manipulators may have two or four inverse kinematic solutions (IKS). This paper derives a necessary and sufficient condition for 3R positioning manipulators with orthogonal joint axes to have four distinct IKS. We show that the transition between manipulators with two and four IKS is defined by the set of manipulators with a quadruple root of their inverse kinematics. The resulting condition is explicit and states that the last link length of the manipulator must be greater than a quantity that depends on three of its remaining DH parameters. This result is of interest for the design of new manipulators.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/icra04_baili.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/icra04_baili.pdf"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('icra04_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Using Computer Algebra Tools to Classify Serial Manipulators</p>
+          <p class="authors">M. Baili, P. Wenger, and D. Chablat, <br>
+            In International Conference on Robotics and Automation, (<span style="color: var(--halycon)">ICRA</span>), 2004, New Orleans, United States of America
+          </p>
+        </div>
+
+      </div>
+      <div id="icra04_abstract"  style="display: none;" class="abstract">
+        <p>
+          A classification of a family of 3-revolute (3R) positining manipulators is established. This classification is based on the topology of their workspace. The workspace is characterized in a half-cross section by the singular curves. The workspace topology is defined by the number of cusps and nodes that appear on these singular curves. The design parameters space is shown to be divided into nine domains of distinct workspace topologies, in which all manipulators have similar global kinematic properties. Each separating surface is given as an explicit expression in the DH-parameters.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper" id="tro04_wenger">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/robotica07_wenger.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="#tro04_wenger"><img src="images/icon_no_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('tro04_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Uniqueness Domains and Regions of Feasible Paths for Cuspidal Manipulators</p>
+          <p class="authors">P. Wenger, <br>
+            In Transactions on Robotics, (<span style="color: var(--halycon)">TRO</span>), 2004
+          </p>
+        </div>
+
+      </div>
+      <div id="tro04_abstract"  style="display: none;" class="abstract">
+        <p>
+          This paper addresses the kinematics of cuspidal manipulators, i.e., nonredundant manipulators which can change posture without meeting a singularity. It focuses on the uniqueness domains and on the regions of feasible paths in the workspace. For cuspidal manipulators, the uniqueness domains are not the singularity-free regions of the joint space. It is shown that additional surfaces, called characteristic surfaces, separate the inverse kinematic solutions in the joint space. The uniqueness domains define the regions of feasible paths in the workspace. Joint limits are taken into account in this paper. This paper should help the reader better understand the kinematics of cuspidal manipulators.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/springer04_corvez.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/springer04_corvez.pdf"><img src="images/icon_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('springer04_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Using Computer Algebra Tools to Classify Serial Manipulators</p>
+          <p class="authors">S. Corvez, F. Rouillier,<br>
+            In Automated Deductions in Geometry, Springer, 2004
+          </p>
+        </div>
+
+      </div>
+      <div id="springer04_abstract"  style="display: none;" class="abstract">
+        <p>
+          In this paper we present a classiﬁcation of 3-revolute-jointed manipulators based on the cuspidal behaviour. It was shown in a previous work [16] that this ability to change posture without meeting a singularity is equivalent to the existence of a point in the workspace, such that a polynomial of degree four depending on the parameters of the manipulator and on the cartesian coordinates of the eﬀector has a triple root.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper" id="icra96_wenger">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/icra96_wenger.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="#icra96_wenger"><img src="images/icon_no_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('icra96_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Changing posture for cuspidal robot manipulators</p>
+          <p class="authors">J. El Omri, P. Wenger,<br>
+            In International Conference on Robotics and Automation, (<span style="color: var(--halycon)">ICRA</span>), 1996, Minneapolis, United States of America
+          </p>
+        </div>
+
+      </div>
+      <div id="icra96_abstract"  style="display: none;" class="abstract">
+        <p>
+          The primary goal of this paper is a descriptive explanation, based on typical illustrative examples, of what happens precisely when a serial non-redundant manipulator is changing its posture. This work focuses on the cuspidal robot manipulators, i.e. those robot manipulators which can change posture without meeting a singularity. The analysis is done for 3-DOF positioning manipulators. It applies to 6-DOF manipulators with wrists as well. Main applications of this study are robot design and trajectory planning.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper" id="icra92_wenger">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/icra92_wenger.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="#icra92_wenger"><img src="images/icon_no_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('icra92_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">A New General Formalism for the Kinematic Analysis of All Non-redundant Manipulators</p>
+          <p class="authors">P. Wenger,<br>
+            In International Conference on Robotics and Automation, (<span style="color: var(--halycon)">ICRA</span>), 1992, Nice, France
+          </p>
+        </div>
+
+      </div>
+      <div id="icra92_abstract"  style="display: none;" class="abstract">
+        <p>
+          The author presents a novel general formalism for analyzing the kinematics of robot manipulators with arbitrary nonredundant geometry. It is shown that the classical description of singularities in the joint space may become insufficient. The notion of characteristic surfaces which define a new partition of the joint space is introduced. Generalizing the motion of aspects and c-sheets, the characteristic surfaces permit characterization of the joint space uniqueness domains, in which there is one unique solution to the inverse kinematic problem. The mapping into the workspace of the uniqueness domains defines the regions of feasible continuous trajectories.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/icra91_burdick.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="../resources/papers/icra91_burdick.pdf"><img src="images/icon_no_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('icra91_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">A classification of 3R regional manipulator singularities and geometries</p>
+          <p class="authors">J. W. Burdick,<br>
+            In International Conference on Robotics and Automation, (<span style="color: var(--halycon)">ICRA</span>), 1991, Sacramento, United States of America
+          </p>
+        </div>
+
+      </div>
+      <div id="icra91_abstract"  style="display: none;" class="abstract">
+        <p>
+          3R manipulator singularities and geometries based on genericity are categorized. A recursive application of screw theory is used to generate singular configurations and provide a geometric interpretation of nongenericity. A generic manipulator classification scheme based on homotopy class is introduced. Nongeneric geometries are interpreted as bifurcations of generic geometries with respect to kinematic parameter values. Some conjectures on the classes of manipulators which can change pose without passing through a singularity are also given.
+        </p>
+      </div>
+    </div>
+
+    <div class="paper last_paper" id="ark88_parenti">
+      <div class="paper_description">
+        <div class="action_row">
+          <a href="../resources/citations/ark88_parenti.bib" target="_blank"><img src="images/icon_cite_dark.png" alt="cite"></a>
+          <a href="#ark88_parenti"><img src="images/icon_no_download_dark.png" alt="download"></a>
+          <a onclick="abstractClick('ark88_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+        </div>
+        <div class="paper_title">
+          <p class="paper_heading">Position analysis of robot manipulators:: regions and subregions</p>
+          <p class="authors">V. Parenti-Castelli, C. Innocenti,<br>
+            In Advances in Robot Kinematics, (<span style="color: var(--halycon)">ARK</span>), 1988, Ljubljana, Yugoslavia
+          </p>
+        </div>
+
+      </div>
+      <div id="ark88_abstract"  style="display: none;" class="abstract">
+        <p>
+          A theoretical model for the investigation of the kinematic behaviour of manipulators with six revolute pairs and general geometry is presented. It considers the existenceof regions and subregions in the space of teh variables of motion and stems from a novel approach which is based on simple notions of topology and on some properties taht result from the concept of singular configuration of manipulators. Original results related to the inverse position analysis of manipulators have been foreseen by the model and confirmed by numerical analysis.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="desktop_spacer"></div>
+<footer id="footId_pub">
+  <p><span style="color: var(--halycon);">Designed by:</span> durgesh.salunkhe</p>
+  <p class="emailBlock" id="emailid"><img src="images/email_indark.png" alt="email"> &nbsp <a href = "mailto: salunkhedurgesh@gmail.com">
+    <span style="font-family: 'PT Mono', monospace; letter-spacing: 0.06rem;">salunkhedurgesh@gmail.com</span></a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Durgesh Salunkhe</title>
+    <link rel="stylesheet" href="/styles/style_personal.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+
+<body class="personal-page">
+    <div class="logo">
+        <a href="../index.html"><img src="../images/logo_perso.png" alt="logo" width="25px"></a>
+        <p style="letter-spacing: 0.15rem">life</p>
+    </div>
+
+    <div class="navcontent">
+        <a href="../index.html"><span class="navlogo"><img src="../images/home.png" width="25px" height="25px"></span>
+            <span class="navnum">01.</span> <span class="navtitle">work</span></a>
+        <!--
+        <a href="hobbies.html"><span class="navlogo"><img src="../images/hobbies.png" width="25px" height="25px"></span> <span class="navnum">02.</span> <span class="navtitle">hobbies</span></a>
+        <a href="recent.html"><span class="navlogo"><img src="../images/recent.png" width="25px" height="25px"></span> <span class="navnum">03.</span> <span class="navtitle">recent</span></a>
+        -->
+        <a href="#footId" onclick="blink()"><span class="navlogo"><img src="../images/contact.png" width="25px"
+                    height="25px"></span> <span class="navnum">02.</span> <span class="navtitle">contact</span></a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/common_contact_perso.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contact').innerHTML = data;
+            });
+    </script>
+
+
+    <div class="hero">
+        <div class="middleblock">
+            <p class="hello">Hello, I am named</p>
+            <div class="nameblock">
+                <div class="subnameblock">
+                    <a href="https://www.babycenter.in/babyname/1074879/durgesh" target="_blank">
+                        <h1>Durgesh</h1>
+                    </a>
+                    <h1>&nbsp</h1>
+                </div>
+                <div class="subnameblock">
+                    <h1>Salunkhe</h1>
+                </div>
+            </div>
+            <h2>who I am, is a much deeper and serious question...</h2>
+
+            <div class="profile">
+                <img src="../images/profile_pic.jpeg" alt="profile pic" class="display_pic">
+                <div class="profileDetails">
+                    <h2>On a personal note</h2>
+                    <p>I was born in <a href="https://en.wikipedia.org/wiki/Kolhapur" target="_blank"><span
+                                class="colored">K</span>olhapur</a>,
+                        a city in the state of <a href="https://en.wikipedia.org/wiki/Maharashtra" target="_blank"><span
+                                class="colored">M</span>aharashtra</a>,
+                        <a href="https://en.wikipedia.org/wiki/India" target="_blank"><span
+                                class="colored">I</span>ndia</a>.
+                        I have studied in six different cities across three different states in India.
+                        I dream in
+                        <a href="https://www.bbc.com/future/article/20230213-how-people-dream-in-foreign-languages"
+                            target="_blank"><span class="colored">M</span>arathi, <span class="colored">H</span>indi and
+                            <span class="colored">E</span>nglish</a>, and feel sleepy while speaking
+                        <a href="https://www.italianpod101.com/blog/2020/12/18/is-italian-hard-to-learn/"
+                            target="_blank"><span class="colored">I</span>talian</a> and
+                        <a href="https://blog.gymglish.com/2019/06/13/is-french-hard-to-learn" target="_blank"><span
+                                class="colored">F</span>rench</a>
+                        (though I love both these languages).
+                        My hobbies are playing <a href=../resources/figures/lichess_record.png target="_blank"><span
+                                class="colored">c</span>hess</a>, cooking dishes from all over the world and reading
+                        philosophy.
+                        I fancy the idea of considering myself as an enthusiast of philosophy. <br>
+                        I have always been active in my personal life and have played numerous sports like Cricket,
+                        Volleyball, Kabaddi, Football, Basketball, Swimming, Squash, Athletics and Boxing.
+                        I am currently training in the art of
+                        <a href="https://www.ring-nantais.com/ring-nantais/" target="_blank"><span
+                                class="colored">M</span>uay Thai</a> which trains
+                        not only the body but also the mind. In indoor games, I am a passionate follower of Chess and
+                        have played in various tournaments.<br>
+                        Unfortunately, I had a bad fall during bouldering in Aug 2023, and the period after that was
+                        quite challenging. I am still recovering and thus the only fun thing I do is <a
+                            href="https://vaudoisearena.ch/centres-sportifs/centre-aquatique" target="_blank"><span
+                                class="colored">S</span>wimming</a>!
+                        <br><br>
+                        I love to diversify my interests allowing my brain to
+                        <a href="https://bigvoicesrise.com/the-art-of-rewiring-your-brain/" target="_blank"><span
+                                class="colored">r</span>ewire</a>
+                        from time to time, and was taking dance classes. I love to meet
+                        people from all corners of the world and my academic endeavours have blessed me with
+                        many interesting encounters. I get super excited to hear from people about their culture, their
+                        background and how it grooms one's way of life. <br><br>
+                        I also like to solve <a href="https://chesstempo.com/chess-tactics/" target="_blank"><span
+                                class="colored">p</span>uzzles</a> and do maths. I love to learn different theories in
+                        mathematics
+                        and this has helped me a lot in my academics. I strongly believe that the great shift from
+                        blackboard teaching to
+                        <a href="https://www.youtube.com/@3blue1brown" target="_blank"><span
+                                class="colored">c</span>reative animations</a> for
+                        introducing maths is going to be a game changer for the future of mathematics. <br><br>
+                        W = {chess, puzzles, maths, exchange languages}<br>
+                        if (your interests &#8712 W) && (&#8741your_city - Lausanne&#8741 <= 100km): <a href="#footId"
+                            onclick="blink()"><span class="colored">p</span>ing me</a>
+                            <br>
+                            else: <a href="https://www.meetways.com/"><span class="colored">l</span>et's do this</a>
+                    </p>
+                    <div class="flexbox">
+                        <a href="../resources/resume_durgesh.pdf" target="_blank"><button>Resume</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer"></div>
+        </div>
+
+    </div>
+    <div class="spacer"></div>
+    <footer id="footId">
+        <p><span style="color: var(--halycon);">Designed by:</span> durgesh.salunkhe</p>
+        <p class="emailBlock" id="emailid"><img src="../images/email_perso.png" alt="email"> &nbsp
+            <a href="mailto: salunkhedurgesh@gmail.com">
+                <span
+                    style="font-family: 'PT Mono', monospace; letter-spacing: 0.06rem;">salunkhedurgesh@gmail.com</span></a>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+h2{
+    font-weight: lighter;
+}
+
+p{
+    line-height: 2rem;
+}
+
+.question p{
+    font-weight: lighter;
+}
+
+.cusp_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: white double;*/
+    margin-top: 2rem;
+}
+
+.cusp_contents h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.questionBox{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    position: center;
+    justify-content: center;
+    right: 25vw;
+    margin-top: 2rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1rem;
+    /*border: #eeeeee dashed;*/
+}
+
+.imagebox{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    /*border: aqua 5px dotted;*/
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.imagebox img{
+    width: 60%;
+    background-color: white;
+    border-radius: 0.2em;
+}

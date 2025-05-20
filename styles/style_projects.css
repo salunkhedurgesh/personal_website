@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Texturina:opsz@12..72&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
@@ -13,15 +13,15 @@
 }
 
 :root {
-    --title-color:#ccd6f6;
+    --title-color: #ccd6f6;
     /*--halycon: #64ffda;*/
     --halycon: #00eeb6;
     --blueBC: #8892b0;
-    --paper_color:#8892b0;
+    --paper_color: #8892b0;
     --background_color: #03122b;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     background-color: #03122b;
@@ -31,7 +31,7 @@ body{
     overflow-x: clip;
 }
 
-.project_cover{
+.project_cover {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,47 +42,21 @@ body{
     /*border: #f09d51 1px solid;*/
 }
 
-.project{
+.project {
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
     align-items: center;
     justify-content: center;
-    max-width: 85vw;
+    max-width: 80vw;
     margin-left: 10vw;
     margin-right: 2vw;
 }
 
-.project_image{
-    display: none;
-}
-
-.project_image2{
-    z-index: -1;
-    display: block;
-}
-
-.project_image img:hover{
-    cursor: pointer;
-}
-
-.project_image img, .project_image p{
-    display: none;
-}
-
-.project_image2 img{
-    display: block;
-    width: 50%;
-    /*border-radius: 50%;*/
-    position: center;
-    justify-content: center;
-    align-items: center;
-    translate: 4rem 0;
-}
-
-.project_description{
+.project_description {
     display: flex;
-    width: 85vw;
+    width: 60%;
+    max-width: 80vw;
     margin-right: 10vw;
 }
 
@@ -92,7 +66,7 @@ body{
     color: var(--title-color);
 }
 
-.project_description p{
+.project_description p {
     font-weight: lighter;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -102,18 +76,47 @@ body{
 
 .project_cover .project_title {
     font-size: 1.5rem;
-    font-weight: 300;  /* lighter weight */
+    font-weight: 300;
+    /* lighter weight */
     color: var(--title-color);
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.last_project{
+.last_project {
     margin-bottom: 0;
 }
 
 .project_image {
+    display: flex;
+    z-index: -1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    /* Needed for arrow positioning */
+}
+
+.project_image img {
+    width: 300x;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    display: block;
+}
+
+.project_image figcaption {
+    font-size: 1.2rem;
+    color: var(--blueBC);
+    text-align: center;
+    margin-top: 1.5rem;
+    font-style: italic;
+    display: block;
+    z-index: 1;
+}
+
+.project_image img:hover {
+    cursor: pointer;
 }
 
 .carousel-wrapper {
@@ -133,7 +136,7 @@ body{
     font-size: 2rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    z-index: 1;
+    z-index: 0;
     opacity: 0.7;
 }
 
@@ -149,79 +152,74 @@ body{
     right: 10px;
 }
 
-@media only screen and (min-width: 800px){
-    .project{
+@media only screen and (min-width: 800px) {
+    .project {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* align-items: flex-start; */
+        align-items: center;
+        gap: 2rem;
         width: 100%;
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        grid-template-rows: auto;
-        /*border: red 1px solid;*/
-        margin: 0;
+        margin: 2rem 0;
     }
 
-    .project_image{
+    .project_image {
         display: flex;
-        grid-area: 1 / 1 / 2 / 2;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         position: center;
         gap: 0.5rem;
         width: 100%;
-        max-width: 300px;
+        /* max-width: 500px; */
         aspect-ratio: 1 / 1;
-        overflow: hidden;
+        /* overflow: hidden;  */
+        /* clips the child elements such as captions to fit the container size (not recommended) */
         margin: 0 auto;
-        /*border: #00eeb6 1px solid;*/
+        /* border: #00eeb6 1px solid; */
     }
+
     .project_image img {
         width: 100%;
         height: 100%;
+        max-width: 300px;
+        max-height: 300px;
         object-fit: cover;
-        display: block;
-    }
-
-    .project_image2 img{
         display: flex;
-        position: center;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        border: none;
-        border-radius: 0;
-        translate: 3rem 0;
     }
 
-    .project_image iframe{
+    .project_image iframe {
         display: block;
         position: center;
         /*border: #f09d51 1px solid;*/
         max-width: 100%;
     }
 
-    .project_image p{
+    .project_image p {
         display: block;
         color: var(--blueBC);
         text-align: center;
         font-size: 0.8rem;
     }
+}
 
-    .project_image2 p{
-        display: block;
-        color: var(--blueBC);
-        text-align: center;
-        font-size: 0.8rem;
+@media only screen and (max-width: 800px) {
+    .carousel-button {
+        display: none;
     }
 
-    .project_description{
+    .project_image,
+    .project_image img,
+    .project_image p {
+        display: none;
+    }
+
+    .project_description {
         display: flex;
         width: 100%;
-        grid-area: 1 / 2 / 2 / 3;
+        max-width: 80vw;
+        margin-right: 10vw;
     }
-}
 
-@media only screen and (max-width: 600px){
-.carousel-button {
-    display: none;
-}
 }

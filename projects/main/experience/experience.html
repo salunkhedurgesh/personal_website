@@ -18,26 +18,26 @@
 
     <div class="navcontent">
       <a id="homeLink">
-          <span class="navlogo"><img id="homeImage" class="navicon"></span>
-          <div style="width: 1rem;"></div>
-          <span class="navnum">01.</span> <span class="navtitle">home</span>
+        <span class="navlogo"><img id="homeImage" class="navicon"></span>
+        <div style="width: 1rem;"></div>
+        <span class="navnum">01.</span> <span class="navtitle">home</span>
       </a>
       <a id="publicationsLink">
-          <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
-          <div style="width: 1rem;"></div>
-          <span class="navnum">02.</span> <span class="navtitle">publications</span>
+        <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
+        <div style="width: 1rem;"></div>
+        <span class="navnum">02.</span> <span class="navtitle">publications</span>
       </a>
       <a id="projectsLink">
-          <span class="navlogo"><img id="projectsImage" class="navicon"></span>
-          <div style="width: 1rem;"></div>
-          <span class="navnum">03.</span> <span class="navtitle">projects</span>
+        <span class="navlogo"><img id="projectsImage" class="navicon"></span>
+        <div style="width: 1rem;"></div>
+        <span class="navnum">03.</span> <span class="navtitle">projects</span>
       </a>
       <a href="#footer" onclick="blink()">
-          <span class="navlogo"><img id="contactImage" class="navicon"></span>
-          <div style="width: 1rem;"></div>
-          <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        <span class="navlogo"><img id="contactImage" class="navicon"></span>
+        <div style="width: 1rem;"></div>
+        <span class="navnum">04.</span> <span class="navtitle">contact</span>
       </a>
-  </div>
+    </div>
 
     <div class="topBack"></div>
 
@@ -96,29 +96,29 @@
         <div id="skills"></div>
       </div>
 
-    <div class="desktop_spacer"></div>
-    <script>
-      const file_ext = '/projects/main/experience/sections/';
-      const file_paths = ['education_2020', 'profession_2018', 'awards_2019', 'skills'];
+      <div class="desktop_spacer"></div>
+      <script>
+        const file_ext = '/projects/main/experience/sections/';
+        const file_paths = ['education_2020', 'profession_2018', 'awards_2019', 'skills'];
 
-      for (const file of file_paths) {
-        fetch(file_ext + file + '.html')
-          .then(response => {
-            if (!response.ok) throw new Error(`Failed to load ${file}`);
-            return response.text();
-          })
+        for (const file of file_paths) {
+          fetch(file_ext + file + '.html')
+            .then(response => {
+              if (!response.ok) throw new Error(`Failed to load ${file}`);
+              return response.text();
+            })
+            .then(data => {
+              document.getElementById(file).innerHTML = data;
+            })
+            .catch(err => console.error(err));
+        }
+
+        fetch('/projects/main/common/logo_click_non_index.html')
+          .then(response => response.text())
           .then(data => {
-            document.getElementById(file).innerHTML = data;
-          })
-          .catch(err => console.error(err));
-      }
-
-      fetch('/projects/main/common/logo_click_non_index.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('logo_click_non_index').innerHTML = data;
-        });
-    </script>
+            document.getElementById('logo_click_non_index').innerHTML = data;
+          });
+      </script>
     </div>
 
     <div class="desktop_spacer"></div>
@@ -133,4 +133,5 @@
     </script>
   </div>
 </body>
+
 </html>

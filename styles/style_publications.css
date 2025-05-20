@@ -57,7 +57,7 @@ a {
     align-items: center;
     /*border-top: var(--halycon) 1px solid;*/
     margin-top: 3rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 #icra_title {
@@ -111,7 +111,7 @@ a {
     margin-bottom: 2rem;
     padding-top: 0.5rem;
     background: var(--background_color);
-    z-index: 0;
+    z-index: 1;
 }
 
 .experience {
@@ -168,7 +168,7 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 1024px;
-    width: 100vw;
+    width: 80vw;
 }
 
 .talks {
@@ -201,7 +201,7 @@ a {
 .paper_title {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
 }
 
 .action_row {
@@ -356,6 +356,27 @@ a {
     /* Adjust the spacing as needed */
 }
 
+/* === Alignment Fixes for paper_description Blocks === */
+.paper_description {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.date_column {
+    min-width: 80px;
+    text-align: center;
+}
+
+.paper_title {
+    flex: 1;
+}
+
+.authors {
+    white-space: normal;
+    line-height: 1.5;
+}
+
 
 @media only screen and (min-width: 800px) {
     .content {
@@ -399,7 +420,8 @@ a {
 
     .paper_description .authors {
         font-size: 0.8rem;
-        width: fit-content;
+        width: 70%;
+        max-width: 80vw;
     }
 
     .abstract p {
@@ -410,7 +432,7 @@ a {
 @media only screen and (min-width: 1500px) {
 
     .title {
-        z-index: 1;
+        z-index: 2;
         width: 100vw;
         position: sticky;
         top: 2.5rem;
@@ -430,6 +452,10 @@ a {
     .experience2 {
         position: sticky;
         top: 3.5rem;
+    }
+
+    .paper_title {
+        width: 100%;
     }
 
     .paper_title p {

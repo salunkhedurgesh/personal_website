@@ -71,6 +71,10 @@ body.index-page {
     color: var(--halycon);
 }
 
+.profileDetails a:hover {
+    color: var(--halycon);
+}
+
 body {
     position: relative;
     display: flex;
@@ -115,11 +119,15 @@ a {
 a .navicon {
     width: 2rem;
     height: 2rem;
+    max-width: 10vw;
+    max-height: 10vw;
 }
 
 a .mainicon {
     width: 2rem;
     height: 2rem;
+    max-width: 10vw;
+    max-height: 10vw;
 }
 
 .nowrap {
@@ -186,6 +194,7 @@ a .mainicon {
     justify-content: flex-end;
     flex-flow: row nowrap;
     width: 100vw;
+    height: 3rem;
     position: fixed;
     right: 1rem;
     gap: 5rem;
@@ -193,6 +202,7 @@ a .mainicon {
     z-index: 2;
     background: var(--background_color);
     padding: 0.8rem;
+    /* border: #f09d51 1px solid; */
 }
 
 .navcontent a {
@@ -725,6 +735,17 @@ p {
     content: url("/projects/main/webpage_resources/images/profile_pic_nino.png");
 }
 
+#profile-pic-perso {
+    content: url("/projects/main/webpage_resources/images/profile_pic_nino.png");
+    transition: 0.3s ease-in-out;
+}
+
+#profile-pic-perso:hover {
+    content: url("/projects/main/webpage_resources/images/profile_pic.jpeg");
+}
+
+
+
 #footer p {
     font-size: 0.6rem;
     align-self: center;
@@ -750,6 +771,10 @@ p {
     a .navicon {
         width: 2rem;
         height: 2rem;
+    }
+
+    .navcontent {
+        height: 3rem;
     }
 
     a .mainicon {
@@ -794,8 +819,9 @@ p {
     .navcontent {
         display: flex;
         flex-flow: row nowrap;
-        max-width: 85vw;
+        width: 80vw;
         position: fixed;
+        height: 2rem;
         gap: 2rem;
         right: 2vw;
         justify-content: space-between;

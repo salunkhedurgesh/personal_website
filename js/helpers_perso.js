@@ -3,18 +3,19 @@ const page_path = '/projects/personal/';
 
 // Mapping of elements to update
 const elements = [
-    { id: 'personalLink', prop: 'href', value: '/projects/personal/personal.html' },
+    { id: 'personalLink', prop: 'href', value: '/personal' },
     { id: 'logoImg', prop: 'src', value: image_path + 'logo_indark.png' },
-    { id: 'homeLink', prop: 'href', value: '/index.html' },
+    { id: 'homeLink', prop: 'href', value: '/about' },
     { id: 'homeImage', prop: 'src', value: image_path + 'home_green.png' },
     { id: 'persoImage', prop: 'src', value: image_path + 'logo_perso.png' },
-    { id: 'hobbiesLink', prop: 'href', value: '/projects/personal/hobbies/hobbies.html' },
+    { id: 'hobbiesLink', prop: 'href', value: '/hobbies' },
     { id: 'hobbiesImage', prop: 'src', value: image_path + 'hobbies.png' },
-    { id: 'travelLink', prop: 'href', value: '/projects/personal/travel/travel.html' },
+    { id: 'travelLink', prop: 'href', value: '/travel' },
     { id: 'travelImage', prop: 'src', value: image_path + 'travel.png' },
-    { id: 'blogLink', prop: 'href', value: '/projects/personal/blog/blog.html' },
+    { id: 'blogLink', prop: 'href', value: '/blog' },
     { id: 'blogImage', prop: 'src', value: image_path + 'blog.png' },
-    { id: 'contactImage', prop: 'src', value: image_path + 'contact_perso.png'}
+    { id: 'contactLink', prop: 'href', value: '#contact' },
+    { id: 'contactImage', prop: 'src', value: image_path + 'contact_perso.png' }
 ];
 
 for (const item of elements) {

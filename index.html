@@ -33,7 +33,7 @@
             <div style="width: 1rem;"></div>
             <span class="navnum">03.</span> <span class="navtitle">projects</span>
         </a>
-        <a href="#footer" onclick="blink()">
+        <a id="contactLink" onclick="blink()">
             <span class="navlogo"><img id="contactImage" class="navicon"></span>
             <div style="width: 1rem;"></div>
             <span class="navnum">04.</span> <span class="navtitle">contact</span>
@@ -45,12 +45,12 @@
 
     <div class="hero">
 
-        <div id="contact"></div>
+        <div id="contactTop"></div>
         <script>
             fetch('/projects/main/common/common_contact.html')
                 .then(response => response.text())
                 .then(data => {
-                    document.getElementById('contact').innerHTML = data;
+                    document.getElementById('contactTop').innerHTML = data;
                 });
         </script>
 
@@ -172,12 +172,12 @@
 
     <!--<div class="spacer"></div>-->
 
-    <div id="footer"></div>
+    <div id="contact"></div>
     <script>
-        fetch('/projects/main/common/footer.html')
+        fetch('/projects/main/common/contact.html')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('footer').innerHTML = data;
+                document.getElementById('contact').innerHTML = data;
             });
     </script>
 

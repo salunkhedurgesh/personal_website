@@ -274,7 +274,7 @@ a {
     font-weight: lighter;
     margin-top: 1rem;
     text-align: left;
-    width: 80vw;
+    width: 100%;
     /*border: #f09d51 1px solid;*/
 }
 
@@ -420,7 +420,7 @@ a {
 
     .paper_description .authors {
         font-size: 0.8rem;
-        width: 70%;
+        width: 100%;
         max-width: 80vw;
     }
 
@@ -471,7 +471,7 @@ a {
         font-weight: lighter;
         margin-top: 1rem;
         text-align: left;
-        width: 80vw;
+        width: 100%;
         /*border: #f09d51 1px solid;*/
     }
 

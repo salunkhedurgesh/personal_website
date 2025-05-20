@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect clean URL to real file path
+RewriteRule ^about$ index.html [L]
+RewriteRule ^publications$ projects/main/publications/publications.html [L]
+RewriteRule ^experience$ projects/main/experience/experience.html [L]
+RewriteRule ^researchprojects$ projects/main/projects/projects.html [L]
+RewriteRule ^personal$ projects/personal/personal.html [L]
+RewriteRule ^blog$ projects/personal/blog/blog.html [L]
+RewriteRule ^hobbies$ projects/personal/hobbies/hobbies.html [L]
+RewriteRule ^travel$ projects/personal/travel/travel.html [L]

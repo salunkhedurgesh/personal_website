@@ -27,12 +27,13 @@
             <div style="width: 1rem;"></div>
             <span class="navnum">02.</span> <span class="navtitle">experience</span>
         </a>
+
         <a id="projectsLink">
             <span class="navlogo"><img id="projectsImage" class="navicon"></span>
             <div style="width: 1rem;"></div>
             <span class="navnum">03.</span> <span class="navtitle">projects</span>
         </a>
-        <a href="#footer" onclick="blink()">
+        <a id="contactLink" onclick="blink()">
             <span class="navlogo"><img id="contactImage" class="navicon"></span>
             <div style="width: 1rem;"></div>
             <span class="navnum">04.</span> <span class="navtitle">contact</span>
@@ -41,12 +42,12 @@
 
     <div class="topBack"></div>
 
-    <div id="contact"></div>
+    <div id="contactTop"></div>
     <script>
         fetch('/projects/main/common/common_contact.html')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('contact').innerHTML = data;
+                document.getElementById('contactTop').innerHTML = data;
             });
     </script>
 
@@ -120,7 +121,7 @@
 
     <script>
         const file_ext = '/projects/main/publications/sections/';
-        const file_paths = ['publications_2025', 'publications_2024', 'publications_2023', 'publications_2022', 'publications_2020', 'thesis_2024', 'thesis_2020', 'talks_2024'];
+        const file_paths = ['publications_2025', 'publications_2024', 'publications_2023', 'publications_2022', 'publications_2020', 'thesis_2024', 'thesis_2020', 'talks_2024', 'chapters_2024'];
         // const file_paths = ['thesis_2024', 'thesis_2020', 'talks_2024', 'chapters_2024'];
 
         for (const file of file_paths) {
@@ -155,12 +156,12 @@
     </script>
 
     <div class="desktop_spacer"></div>
-    <div id="footer"></div>
+    <div id="contact"></div>
     <script>
-        fetch('/projects/main/common/footer.html')
+        fetch('/projects/main/common/contact.html')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('footer').innerHTML = data;
+                document.getElementById('contact').innerHTML = data;
             });
     </script>
 

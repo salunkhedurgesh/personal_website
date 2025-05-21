@@ -114,38 +114,6 @@ a {
     z-index: 1;
 }
 
-.experience {
-    width: 100%;
-    background-color: var(--background_color);
-    position: sticky;
-    top: 0;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 1.2rem;
-    background: var(--background_color);
-    z-index: 1;
-}
-
-.experience p:hover {
-    cursor: pointer;
-}
-
-.experience2 {
-    width: 120%;
-    background-color: var(--background_color);
-    position: sticky;
-    top: 2.2rem;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 1.2rem;
-    background: var(--background_color);
-    z-index: 1;
-}
-
-.experience2 p:hover {
-    cursor: pointer;
-}
-
 .year_block ol li {
     color: var(--blueBC);
     font-size: 0.85rem;
@@ -155,11 +123,10 @@ a {
 .paper {
     display: flex;
     flex-direction: column;
-    /* max-width: 2048px; */
     width: 80vw;
     margin-bottom: 2rem;
     margin-left: 5vw;
-    /*border: white 3px solid;*/
+    /* border: white 3px solid; */
 }
 
 .publications {
@@ -377,6 +344,20 @@ a {
     line-height: 1.5;
 }
 
+@media only screen and (max-width: 801px) {
+    .paper {
+        align-items: center;
+    }
+
+    .paper_description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paper_title {
+        width: 100%
+    }
+}
 
 @media only screen and (min-width: 800px) {
     .content {

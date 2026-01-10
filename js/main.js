@@ -190,6 +190,22 @@ function adjustFooterPosition() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    // Smooth scroll without hash in URL
+    document.querySelectorAll('a[data-target]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault(); // prevents default action
+            const targetId = this.getAttribute('data-target');
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+                history.replaceState(null, '', ' ');  // Clear the hash from the URL
+            }
+        });
+    });
+});
+
+
 // Safer hooks
 document.addEventListener("DOMContentLoaded", adjustFooterPosition);
 window.addEventListener("resize", adjustFooterPosition);

@@ -31,6 +31,8 @@
 } */
 
 /* Default root variables */
+* { caret-color: transparent; }
+
 :root {
     --title-color: #ccd6f6;
     --halycon: #00eeb6;
@@ -38,6 +40,8 @@
     --blueBC: #8892b0;
     --background_color: #03122b;
     --navbarcolor: #fff;
+    --navLogoHeight: 3rem;
+    --navLogoplacementTop: 0.5rem;
 }
 
 /* Override for personal page */
@@ -138,22 +142,24 @@ a .mainicon {
 .topBack {
     background: var(--background_color);
     width: 100vw;
-    height: 4rem;
-    z-index: 1;
+    height: var(--navLogoHeight);
+    z-index: 2;
     position: fixed;
     top: 0;
-    /*border: #f09d51 1px solid;*/
+    /* border: #f09d51 1px solid; */
 }
 
 .logo {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    height: var(--navLogoHeight);
     position: fixed;
     left: 5vw;
-    top: 1rem;
+    top: 0;
     z-index: 3;
     background: var(--background_color);
+    /* border: #f09d51 1px solid; */
 }
 
 .logo p {
@@ -172,7 +178,7 @@ a .mainicon {
     /*translate: -2rem 0;*/
     display: block;
     position: fixed;
-    top: 0.5rem;
+    top: var(--navLogoplacementTop);
     gap: 0.5rem;
 }
 
@@ -193,15 +199,17 @@ a .mainicon {
     display: flex;
     justify-content: flex-end;
     flex-flow: row nowrap;
-    width: 100vw;
-    height: 3rem;
+    max-width: 80vw;
+    width: 40rem;
+    height: var(--navLogoHeight);
     position: fixed;
     right: 1rem;
-    gap: 5rem;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     background: var(--background_color);
     padding: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
     /* border: #f09d51 1px solid; */
 }
 
@@ -219,7 +227,7 @@ a .mainicon {
 
 .navicon {
     width: "20px";
-    height: "20px"
+    height: "20px";
 }
 
 /* hero styles */

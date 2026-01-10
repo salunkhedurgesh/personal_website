@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Durgesh Salunkhe</title>
+    <link rel="stylesheet" href="/styles/style_publications.css?rnd=18">
+    <link rel="stylesheet" href="/styles/style.css?rnd=18">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/auto_writer_main.js"></script>
+    <script type="text/javascript" src="/js/abstracts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body>
+    <div id="logo_click_non_index"></div>
+
+    <div class="navcontent">
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="experienceLink">
+            <span class="navlogo"><img id="experienceImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">experience</span>
+        </a>
+
+        <a id="projectsLink">
+            <span class="navlogo"><img id="projectsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">projects</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+          height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+    </div>
+
+    <div class="imageblock" id="logoBlock" style="z-index: 5">
+        <a href="https://fr.linkedin.com/in/salunkhedurgesh"><img src="images/linkedIn_indark.png" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/durgesh_salunkhe/"><img src="images/instagram_indark.png"
+                alt="instagram"></a>
+        <a href="https://github.com/salunkhedurgesh"><img src="images/github_indark.png" alt="github"></a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div class="content">
+        <div class="title" style="z-index: 1">
+            <p onclick="click_experience('publication')">Publications chosen for CNRS Concours 2025</p>
+        </div>
+
+        <div class="publications" id="publication" style="display: flex;">
+            <div class="year_block year24">
+                <div class="skill_spacer"></div>
+                <div class="skill_spacer"></div>
+                <div class="paper">
+                    <div class="paper_description">
+                        <div>
+                            <div class="action_row" id="ijrr24_paper">
+                                <a href="resources/citations/ijrr24_salunkhe.bib" target="_blank"><img
+                                        src="images/icon_cite_dark.png" alt="cite"></a>
+                                <a href="cnrs_resources/salunkhe_ijrr24.pdf" target="_blank"><img
+                                        src="images/icon_download_dark.png" alt="download"></a>
+                                <a onclick="abstractClick('ijrr24_abstract')"><img src="images/icon_abstract_dark.png"
+                                        alt="abstract"></a>
+                            </div>
+                        </div>
+
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="resources/papers/ijrr24_salunkhe.pdf"
+                                    target="_blank">Kinematic issues in 6R cuspidal robots, guidelines for path planning
+                                    and deciding cuspidality</a></p>
+                            <p class="authors">Authors: <span style="color: var(--halycon)">Durgesh Haribhau
+                                    Salunkhe</span>, Tobias Marauli, Andreas Mueller, Damien Chablat, and
+                                Philippe Wenger,
+                                <br>
+                                In: International Journal of Robotics Research,
+                                (<span style="color: var(--halycon)">IJRR</span>), 2024, doi:10.1177/02783649241293481
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('ijrr24_abstract', 'ijrr24_contribution')">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('ijrr24_contribution', 'ijrr24_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div id="ijrr24_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            A cuspidal serial robot can change inverse kinematic solutions (IKS) without crossing
+                            singularities because it has multiple IKS in a singularity-free region. This property of
+                            robots has been researched for over thirty years but has not been taken seriously when
+                            designing new robots. The presented work points out issues related to nonsingular change of
+                            IKS and path planning specific to the cuspidal robots present in existing commercial robots
+                            used in various applications. The multiple IKS at the initial end-effector pose allows the
+                            user to choose an initial IKS that may lead to a continuous and repeatable path. We analyze
+                            in detail how the initial IKS choice affects the prescribed path’s feasibility and
+                            repeatability. Cuspidal robots can be used safely if the workspace is analyzed, considering
+                            the cuspidality property. For these reasons, we propose a path testing and planning
+                            methodology that considers different path scenarios. Given the rise of unconventional
+                            designs in 6R robots, the identification of cuspidal properties in the design phase of a
+                            robot is of paramount importance. We recall all the known criteria for cuspidality and
+                            propose new methods to decide if a given 6R robot is cuspidal. Accordingly, a practical
+                            guideline is proposed for deciding the cuspidality of a generic 6R robot.
+                        </p>
+                    </div>
+                    <div id="ijrr24_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            In this paper, I was involved in conceptualization, implementation as well as writing of the
+                            article. This work is one of the most significant contributions of my doctoral thesis. I
+                            present a complete framework for the path planning of cuspidal robots and an algorithm for
+                            deciding the cuspidality of 6R robots. This work analyses thousands of 6R robots and almost
+                            all industrial robots for cuspidality. Important kinematic issues, as well as the
+                            implication of cuspidality on the path planning of robots, are presented in this work. The
+                            work further highlights why cuspidal robots are unsuitable for collaborative tasks thus
+                            raising an awareness among robot designers to consider cuspidality in their design
+                            considerations while proposing a new robot in the market. This paper is relevant in
+                            understanding why I propose leveraging kinematic analysis when transferring tasks among
+                            robots.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="paper">
+                    <div class="paper_description">
+                        <div class="action_row">
+                            <a href="resources/citations/mmt22_salunkhe.bib" target="_blank"><img
+                                    src="images/icon_cite_dark.png" alt="cite"></a>
+                            <a href="cnrs_resources/wenger_cuspidal22.pdf" target="_blank"><img
+                                    src="images/icon_download_dark.png" alt="download"></a>
+                            <a onclick="abstractClick('mmt22_abstract')"><img src="images/icon_abstract_dark.png"
+                                    alt="abstract"></a>
+                        </div>
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="cnrs_resources/wenger_cuspidal22.pdf"
+                                    target="_blank">Necessary and sufficient condition for a generic 3R serial
+                                    manipulator
+                                    to be cuspidal</a></p>
+                            <p class="authors">Authors: <span style="color: var(--halycon)">Durgesh Haribhau
+                                    Salunkhe</span>, Christoforos Spartalis
+                                Jose Capco, Damien Chablat, and Philippe Wenger, <br>
+                                In: Mechanism and Machine Theory (<span style="color: var(--halycon)">MMT</span>), 2022,
+                                doi: 10.1016/j.mechmachtheory.2022.104729
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('mmt22_abstract', 'mmt22_contribution')">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('mmt22_contribution', 'mmt22_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div id="mmt22_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            Cuspidal robots can travel from one inverse kinematic solution to another without meeting a
+                            singularity.
+                            The name cuspidal was coined based on the existence of a cusp point in the workspace of 3R
+                            serial robots.
+                            The existence of a cusp point was proved to be a necessary and sufficient condition for
+                            orthogonal robots
+                            to be cuspidal, but it was not possible to extend this condition to non-orthogonal robots.
+                            The
+                            goal of this
+                            paper is to prove that this condition stands for any generic 3R serial robot. This result
+                            would
+                            give the
+                            designer more flexibility. In the presented work, the geometrical interpretation of the
+                            inverse
+                            kinematics
+                            of 3R robots is revisited and important observations on the nonsingular change of posture
+                            are
+                            noted. The
+                            paper presents a theorem regarding the existence of reduced aspects in any generic 3R serial
+                            robot. Based
+                            on these observations and on this theorem, we prove that the existence of a cusp point is a
+                            necessary and
+                            sufficient condition for any 3R generic robot to be cuspidal.
+                        </p>
+                    </div>
+                    <div id="mmt22_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            In this paper, I was involved in conceptualization, implementation as well as writing of the
+                            article. This work was another significant contribution of my doctoral thesis. I proved two
+                            theorems of great importance to the theoretical kinematics of serial robots. The first
+                            theorem shows that each inverse kinematic solution of the 3R robot lies in distinct reduced
+                            aspects. Later, geometric analysis was leveraged to present a necessary and sufficient
+                            condition for a generic 3R robot to be cuspidal. Both these theorems were previously proved
+                            only for orthogonal robots, and no results existed on the cuspidality of generic 3R robots.
+                            This paper highlights my ability to identify, analyze and solve the challenges relevant to
+                            kinematics.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="paper">
+                    <div class="paper_description">
+                        <div>
+                            <div class="action_row">
+                                <a href="resources/citations/mmt22_opt_salunkhe.bib" target="_blank"><img
+                                        src="images/icon_cite_dark.png" alt="cite"></a>
+                                <a href="cnrs_resources/salunkhe_paraopt.pdf" target="_blank"><img
+                                        src="images/icon_download_dark.png" alt="download"></a>
+                                <a onclick="abstractClick('mmt22_opt_abstract')"><img
+                                        src="images/icon_abstract_dark.png" alt="abstract"></a>
+                            </div>
+                            <div class="action_row" style="text-align: center">
+                                <a href="#mmt22_opt_abstract" target=""><img src="images/blank.png" alt="blank"></a>
+                                <a href="https://github.com/salunkhedurgesh/ParaOpt" target="_blank"><img
+                                        src="images/web_internet.png" alt="details"></a>
+                            </div>
+                        </div>
+
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="cnrs_resources/salunkhe_paraopt.pdf" target="_blank">An
+                                    efficient combined local and global search strategy for optimization
+                                    of parallel kinematic mechanisms with joint limits and collision constraints</a></p>
+                            <p class="authors">Authors: <span style="color: var(--halycon)">Durgesh Haribhau
+                                    Salunkhe</span>, Guillaume Michel, Shivesh Kumar, Marcello Sanguineti and Damien
+                                Chablat, <br>
+                                Mechanism and Machine Theory (<span style="color: var(--halycon)">MMT</span>), 2022
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('mmt22_opt_abstract', 'mmt22_opt_contribution')">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('mmt22_opt_contribution', 'mmt22_opt_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div id="mmt22_opt_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            The optimization of parallel kinematic manipulators (PKM) involve several constraints that
+                            are
+                            difficult to
+                            formalize, thus making optimal synthesis problem highly challenging. The presence of passive
+                            joint limits as
+                            well as the singularities and self-collisions lead to a complicated relation between the
+                            input
+                            and output
+                            parameters. In this article, a novel optimization methodology is proposed by combining a
+                            local
+                            search,
+                            Nelder–Mead algorithm, with global search methodologies such as low discrepancy distribution
+                            for
+                            faster and
+                            more efficient exploration of the optimization space. The effect of the dimension of the
+                            optimization
+                            problem and the different constraints are discussed to highlight the complexities of
+                            closed-loop
+                            kinematic
+                            chain optimization. The work also presents the approaches used to consider constraints for
+                            passive joint
+                            boundaries as well as singularities to avoid internal collisions in such mechanisms. The
+                            proposed algorithm
+                            can also optimize the length of the prismatic actuators and the constraints can be added in
+                            modular fashion,
+                            allowing to understand the impact of given criteria on the final result. The application of
+                            the
+                            presented
+                            approach is used to optimize two PKMs of different degrees of freedom.
+                        </p>
+                    </div>
+                    <div id="mmt22_opt_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            In this paper, I was involved in conceptualization, implementation as well as writing of the
+                            article. This work is another important contribution towards optimal kinematic design of
+                            parallel robots. I was able to show why the Nelder-Mead method’s geometric search of the
+                            parameter space is efficient and relevant to mechanism design optimization. The algorithm
+                            combined local and global strategies to quickly scan and refine the optimized result. The
+                            presented algorithm is especially advantageous when multiple parallel robots are to be
+                            optimized in a hybrid series-parallel robotic system. This paper highlights my ability to
+                            understand a problem thoroughly and develop novel methods required for efficient solutions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="paper last_paper">
+                    <div class="paper_description">
+                        <div>
+                            <div class="action_row" id="icra23_paper">
+                                <a href="resources/citations/icra23_salunkhe.bib" target="_blank"><img
+                                        src="images/icon_cite_dark.png" alt="cite"></a>
+                                <a href="cnrs_resources/salunkhe_icra23.pdf" target="_blank"><img
+                                        src="images/icon_download_dark.png" alt="download"></a>
+                                <a onclick="abstractClick('icra23_abstract')"><img src="images/icon_abstract_dark.png"
+                                        alt="abstract"></a>
+                            </div>
+                            <div class="action_row" style="text-align: center">
+                                <a href="#icra23_abstract" target=""><img src="images/blank.png" alt="blank"></a>
+                                <a href="icra23/index.html" target="_blank"><img src="images/web_internet.png"
+                                        alt="details"></a>
+                            </div>
+                        </div>
+
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="cnrs_resources/salunkhe_icra23.pdf"
+                                    target="_blank">Trajectory planning issues in commercial cuspidal robots</a></p>
+                            <p class="authors">Authors: <span style="color: var(--halycon)">Durgesh Haribhau
+                                    Salunkhe</span>, Damien Chablat, Philippe Wenger,
+                                <br>In Proceedings of the International Conference on Robotics and Automation,
+                                (<span style="color: var(--halycon)">ICRA</span>), 2023, London, United Kingdom, doi:
+                                10.1109/ICRA48891.2023.10161444 <br><span
+                                    style="color: white; text-decoration: #FFFFFF; text-decoration-line: underline">Note:
+                                    The &#x3B1;<sub>4</sub> and &#x3B1;<sub>5</sub> in Table I are 55 degrees instead of
+                                    90 degrees</span>
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('icra23_abstract', 'icra23_contribution')">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('icra23_contribution', 'icra23_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="icra23_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            A cuspidal serial robot can travel from one inverse kinematic solution to another without
+                            crossing a
+                            singularity. Cuspidal robots ask for extra care and caution in trajectory planning, as
+                            identifying an aspect
+                            related to one unique inverse kinematic solution is not possible. The issues related to
+                            motion
+                            planning with
+                            cuspidal robots are related to the inherent property arising from the geometric design of
+                            the
+                            robot. The
+                            cuspidality property has not been considered in recent industrial 6R robots with a
+                            non-spherical
+                            wrist. In
+                            this work, cuspidality is illustrated with the JACO robot (gen 2, non-spherical wrist), a
+                            serial
+                            arm by
+                            Kinova Robotics which is deployed in various applications and is cuspidal in nature. A
+                            nonsingular change
+                            of solutions for the robot is provided to highlight the effect of cuspidal robots on the
+                            interference with
+                            the environment. The pose with multiple inverse kinematic solutions in an aspect is
+                            presented.
+                            Problems in choosing the initial solution of the path in cuspidal robots, and its
+                            consequence,
+                            is
+                            illustrated with an example path in the workspace of the JACO robot. The paper presents the
+                            importance of
+                            cuspidality analysis of 6R robots and the implications of neglecting it.
+                        </p>
+                    </div>
+                    <div id="icra23_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            In this paper, I was involved in conceptualization, implementation as well as writing of the
+                            article. This work is of special importance as it addresses a very practical and serious
+                            issue about commercial cuspidal robots. It was reported previously that unexpected issues
+                            occurred while planning a trajectory for the Kinova Jaco Gen2 robot. This work analyzed the
+                            robot for cuspidality by studying joint space and workspace singularities. This paper
+                            highlights my ability to identify, analyze, and solve existing challenges in existing
+                            robots.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="paper">
+                    <div class="paper_description">
+                        <div class="action_row">
+                            <a href="resources/citations/ark22_salunkhe.bib" target="_blank"><img
+                                    src="images/icon_cite_dark.png" alt="cite"></a>
+                            <a href="cnrs_resources/salunkhe_ark22.pdf" target="_blank"><img
+                                    src="images/icon_download_dark.png" alt="download"></a>
+                            <a onclick="abstractClick('ark22_abstract')"><img src="images/icon_abstract_dark.png"
+                                    alt="abstract"></a>
+                        </div>
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="cnrs_resources/salunkhe_ark22.pdf"
+                                    target="_blank">Geometry Based Analysis of 3R Serial Robots</a></p>
+                            <p class="authors">Authors: <span style="color: var(--halycon)">Durgesh Haribhau
+                                    Salunkhe</span>, Jose Capco, Damien Chablat, Philippe Wenger,
+                                <br>In Advances in Robot Kinematics 2022 (<span
+                                    style="color: var(--halycon)">ARK</span>), 2022, Bilbao, Spain, doi:
+                                10.1007/978-3-031-08140-8_8
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('ark22_abstract', 'ark22_contribution');">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('ark22_contribution', 'ark22_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div id="ark22_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            Cuspidal robots can travel from one inverse kinematic solution (IKS) to another without
+                            meeting
+                            a
+                            singularity. This property can be analyzed by understanding the inverse kinematic model
+                            (IKM) as
+                            well as the
+                            singularities in the joint space and in the workspace. In this article, we revisit the
+                            geometrical
+                            interpretation of the IKM with conics. The conditions of getting different conics and their
+                            implication on
+                            singularities are discussed and the observations regarding the nature of the conics are
+                            presented. Further,
+                            a sufficient condition for a 3R robot to be binary (i.e. with up to 2 IKS) as well as
+                            quaternary
+                            (i.e. with
+                            up to 4 IKS) is put forth by analyzing the geometrical interpretation of the IKM. The
+                            possibility to derive
+                            a necessary and sufficient condition is presented too.
+                        </p>
+                    </div>
+                    <div id="ark22_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            In this paper, I was involved in conceptualization, implementation as well as writing of the
+                            article. This paper is submitted mainly to highlight how geometric analysis can provide a
+                            better intuition for understanding 3R robots. In this paper, I was able to show very
+                            difficult results through algebraic analysis. This paper highlights my ability to identify
+                            the right tool for approaching a technical challenge.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="paper">
+                    <div class="paper_description">
+                        <div class="action_row">
+                            <a href="resources/citations/issac22_prebet.bib" target="_blank"><img
+                                    src="images/icon_cite_dark.png" alt="cite"></a>
+                            <a href="cnrs_resources/remi_issac.pdf" target="_blank"><img
+                                    src="images/icon_download_dark.png" alt="download"></a>
+                            <a onclick="abstractClick('issac22_abstract')"><img src="images/icon_abstract_dark.png"
+                                    alt="abstract"></a>
+                        </div>
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="cnrs_resources/remi_issac.pdf" target="_blank">Deciding
+                                    Cuspidality of Manipulators through Computer Algebra and
+                                    Algorithms in Real Algebraic Geometry</a></p>
+                            <p class="authors">Authors: Damien Chablat, Remi Prebet, Mohab Safey El Din, <span
+                                    style="color: var(--halycon)">Durgesh Haribhau Salunkhe</span>, Philippe Wenger,
+                                <br>In: Proceedings of the 2022 International Symposium on Symbolic and Algebraic
+                                Computation
+                                (<span style="color: var(--halycon)">ISSAC</span>), 2022, Lille, France, doi:
+                                10.1145/3476446.3535477
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('issac22_abstract', 'issac22_contribution')">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('issac22_contribution', 'issac22_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div id="issac22_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            Cuspidal robots are robots with at least two inverse kinematic solutions that can be
+                            connected
+                            by a
+                            singularity-free path. Deciding the cuspidality of generic 3R robots has been studied in the
+                            past, but
+                            extending the study to six-degree-of-freedom robots can be a challenging problem. Many
+                            robots
+                            can be modeled
+                            as a polynomial map together with a real algebraic set so that the notion of cuspidality can
+                            be
+                            extended to
+                            these data. In this paper we design an algorithm that, on input a polynomial map in n
+                            indeterminates, and s
+                            polynomials in the same indeterminates describing a real algebraic set of dimension d,
+                            decides
+                            the
+                            cuspidality of the restriction of the map to the real algebraic set under consideration.
+                            Moreover, if D and
+                            <span style="font-family: 'Times New Roman',serif">&#964</span> are, respectively the
+                            maximum
+                            degree and the
+                            bound on the bit size of the coefficients of the input polynomials, this algorithm runs in
+                            time
+                            log-linear
+                            in <span style="font-family: 'Times New Roman',serif">&#964</span> and polynomial in
+                            ((s+d)D)O(n2). It
+                            relies on many high-level algorithms in computer algebra which use advanced methods on real
+                            algebraic sets
+                            and critical loci of polynomial maps. As far as we know, this is the first algorithm that
+                            tackles the
+                            cuspidality problem from a general point of view.
+                        </p>
+                    </div>
+                    <div id="issac22_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            The authors are noted in alphabetical order. <br>
+                            As a co-author, I was involved in conceptualizing the idea, kinematic part of identification
+                            and writing of the article. This paper is submitted mainly to highlight how algebraic
+                            analysis of a robot can provide global kinematic properties with certainty. In this paper,
+                            three sophisticated algorithms from real algebraic geometry and projective algebraic
+                            geometry were used to develop certified methods to determine cuspidality in nR nonredundant
+                            robots. This paper highlights my capabilities in using algebraic tools too. This makes me
+                            versatile and allows me to approach a technical challenge through different directions
+                            complementing advantages of different mathematical approaches.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="paper">
+                    <div class="paper_description">
+                        <div>
+                            <div class="action_row">
+                                <a href="resources/citations/rcim19_dutta.bib" target="_blank"><img
+                                        src="images/icon_cite_dark.png" alt="cite"></a>
+                                <a href="cnrs_resources/dutta_stewart.pdf" target="_blank"><img
+                                        src="images/icon_download_dark.png" alt="download"></a>
+                                <a onclick="abstractClick('rcim19_abstract')"><img src="images/icon_abstract_dark.png"
+                                        alt="abstract"></a>
+                            </div>
+                            <div class="action_row" style="text-align: center">
+                                <a href="#rcim19_abstract" target=""><img src="images/blank.png" alt="blank"></a>
+                                <a href="https://www.youtube.com/watch?v=g8Je93soOZE&t=1s" target="_blank"><img
+                                        src="images/web_internet.png" alt="details"></a>
+                            </div>
+                        </div>
+
+                        <div class="paper_title">
+                            <p class="paper_heading"><a href="cnrs_resources/dutta_stewart.pdf"
+                                    target="_blank">Sensorless full body active compliance in a 6 DOF parallel
+                                    manipulator</a></p>
+                            <p class="authors">Authors: Anirvan Dutta, <span style="color: var(--halycon)">Durgesh
+                                    Haribhau Salunkhe</span>, Shivesh Kumar, Arun Dayal Udai, Suril Shah,
+                                <br>In: Robotics and Computer-Integrated Manufacturing, (<span
+                                    style="color: var(--halycon)">RCIM</span>), 2019, doi: 10.1016/j.rcim.2019.04.010
+                            </p>
+                            <p class="authors">
+                                <a onclick="abstractClick('rcim19_abstract', 'rcim19_contribution')">Abstract</a>
+                                <br>
+                                <a onclick="abstractClick('rcim19_contribution', 'rcim19_abstract')">Personal
+                                    Contribution</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div id="rcim19_abstract" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Abstract</span><br>
+                            Parallel manipulators are being used extensively to cater to the needs of a multitude of
+                            industrial
+                            automation applications. Due to its kinematic accuracy and structural stiffness, parallel
+                            manipulators have
+                            proven considerable advantage over their serial counterparts. In modern applications, humans
+                            train,
+                            collaborate and interact with the manipulators in order to maximize the productivity and the
+                            quality of the
+                            final product. The critical factor in this human-robot interaction is safety and the ability
+                            of
+                            the
+                            mechanism to comply with human intentions. It thus becomes a necessity for the manipulator
+                            to
+                            detect
+                            external disturbances and interactions, and be able to react accordingly. In this research,
+                            a
+                            methodology
+                            for sensor-less full body active compliance is proposed on a 6-DOF RSS
+                            (Rotary-Spherical-Spherical) parallel
+                            manipulator. By using the proposed approach, the manipulator can detect and comply with the
+                            external forces
+                            on any part of its body without using any explicit force/torque sensor at the joint or the
+                            end-effector.
+                            This is done by utilizing the estimated joint torque based on the actuator current feedback
+                            only. A
+                            three-layer cascaded impedance controller for active compliance and reaction to various
+                            human
+                            interactions
+                            are reported. The proposed design and unique methodology for compliance exhibits an
+                            effective
+                            and
+                            inexpensive yet reliable alternative to be used in safe human-robot interactions and force
+                            controlled
+                            manufacturing applications.
+                        </p>
+                    </div>
+                    <div id="rcim19_contribution" style="display: none;" class="abstract">
+                        <p>
+                            <span style="color: var(--halycon)">Personal Contribution</span><br>
+                            In this paper, the first and second author had an equal contribution to the research. In
+                            this paper, I was involved in conceptualization, implementation as well as writing of the
+                            article. I was responsible for the kinematic analysis, design and manufacturing of the 6-RSS
+                            parallel platform.
+                            <br>
+                            This work is submitted to show that I am interested in and capable of researching different
+                            fields of robotics. This work investigated parallel robots' dynamics, control, and force
+                            compliance, which is an entirely different field from my doctoral thesis. This work also
+                            involved implementation issues as we designed and manufactured the robot in-house. This
+                            highlights my ability to work on real-world robotic systems and emphasizes my acumen in both
+                            the theoretical and practical sides of robotics. Furthermore, this work was presented in
+                            context with human-robot interaction which is a possible field of application of the work
+                            presented in my research proposal.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skill_spacer"></div>
+        <div class="skill_spacer"></div>
+    </div>
+
+    <div class="desktop_spacer"></div>
+    <footer id="footId_pub">
+        <p><span style="color: var(--halycon);">Designed by:</span> durgesh.salunkhe</p>
+        <p class="emailBlock" id="emailid"><img src="images/email_indark.png" alt="email"> &nbsp <a
+                href="mailto: salunkhedurgesh@gmail.com">
+                <span
+                    style="font-family: 'PT Mono', monospace; letter-spacing: 0.06rem;">salunkhedurgesh@gmail.com</span></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

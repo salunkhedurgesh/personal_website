@@ -48,11 +48,12 @@ a {
 /* Main content */
 .title {
     display: flex;
+    flex-direction: column;
     background-color: var(--background_color);
     width: 100vw;
     /* max-width: 1024px; */
     position: sticky;
-    top: 2.5rem;
+    top: 3rem;
     justify-content: center;
     align-items: center;
     /*border-top: var(--halycon) 1px solid;*/
@@ -109,7 +110,7 @@ a {
     text-align: center;
     color: var(--title-color);
     margin-bottom: 2rem;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     background: var(--background_color);
     z-index: 1;
 }

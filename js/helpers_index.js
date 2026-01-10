@@ -14,7 +14,7 @@ const elements = [
     { id: 'projectsImage', prop: 'src', value: image_path + 'projects_green.png' },
     { id: 'publicationsLink', prop: 'href', value: '/publications' },
     { id: 'publicationsImage', prop: 'src', value: image_path + 'publications_green.png' },
-    { id: 'contactLink', prop: 'href', value: '#contact' },
+    { id: 'contactLink', prop: 'href', value: '#', prop: 'data-attribute', value: "contact" },
     { id: 'contactImage', prop: 'src', value: image_path + 'contact_green.png' }
 ];
 

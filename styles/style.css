@@ -151,7 +151,7 @@ a .mainicon {
 
 .logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     height: var(--navLogoHeight);
     position: fixed;
@@ -160,6 +160,12 @@ a .mainicon {
     z-index: 3;
     background: var(--background_color);
     /* border: #f09d51 1px solid; */
+}
+
+.logo img{
+    translate: 0 0.2rem; 
+    z-index: 10;
+    width: calc(var(--navLogoHeight) * 0.8);
 }
 
 .logo p {
@@ -761,6 +767,7 @@ p {
 }
 
 @media only screen and (min-width: 1500px) {
+
     #footer p {
         font-size: 1rem;
         align-self: center;
@@ -786,8 +793,8 @@ p {
     }
 
     a .mainicon {
-        width: 3rem;
-        height: 3rem;
+        width: calc(var(--navLogoHeight) * 0.8);
+        height: auto;
     }
 }
 
@@ -799,8 +806,8 @@ p {
     }
 
     a .mainicon {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: calc(var(--navLogoHeight) * 0.5);
+        height: auto;
     }
 
 

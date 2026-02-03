@@ -26,7 +26,7 @@ function generatePresentationHTML(title, link, location, date) {
 // Example input data (replace with your own list)
 const presentations = [
     {
-        title: "LLeveraging kinematic intelligence for safer learning and skill transfer in robots",
+        title: "Leveraging kinematic intelligence for safer learning and skill transfer in robots",
         link: "https://www.laas.fr/fr/equipes/gepetto/",
         location: "IISc, Bengaluru",
         date: "21<sup>st</sup> November, 2025"

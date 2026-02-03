@@ -1,3 +1,3 @@
-# website_durghy
+# Personal website
 
 Website data for https://salunkhedurgesh.com

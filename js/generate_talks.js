@@ -26,6 +26,12 @@ function generatePresentationHTML(title, link, location, date) {
 // Example input data (replace with your own list)
 const presentations = [
     {
+        title: "LLeveraging kinematic intelligence for safer learning and skill transfer in robots",
+        link: "https://www.laas.fr/fr/equipes/gepetto/",
+        location: "IISc, Bengaluru",
+        date: "21<sup>st</sup> November, 2025"
+    },
+    {
         title: "Leveraging kinematic analysis in human-to-robot and robot-to-robot behavior transfer",
         link: "https://www.laas.fr/fr/equipes/gepetto/",
         location: "LAAS, CNRS, Toulouse",

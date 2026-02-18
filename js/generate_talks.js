@@ -27,7 +27,7 @@ function generatePresentationHTML(title, link, location, date) {
 const presentations = [
     {
         title: "Leveraging kinematic intelligence for safer learning and skill transfer in robots",
-        link: "https://www.laas.fr/fr/equipes/gepetto/",
+        link: "https://mecheng.iisc.ac.in/wp-content/uploads/2025/11/Speaker-Durgesh-H-Salunkhe-21Nov2025.pdf",
         location: "IISc, Bengaluru",
         date: "21<sup>st</sup> November, 2025"
     },

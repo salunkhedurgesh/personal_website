@@ -124,10 +124,11 @@ a {
 .paper {
     display: flex;
     flex-direction: column;
-    width: 80vw;
-    margin-bottom: 2rem;
-    margin-left: 5vw;
-    /* border: white 3px solid; */
+    min-width: 50vw;
+    margin: 0 auto 2rem auto;   /* center horizontally */
+    /* (optional) keep it from getting too wide */
+    max-width: 80vw;
+    /* border: #00eeb6 1px solid; */
 }
 
 .publications {
@@ -169,7 +170,7 @@ a {
 .paper_title {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    max-width: 100%;
 }
 
 .action_row {
@@ -381,7 +382,7 @@ a {
     }
 
     .paper {
-        width: 650px;
+        min-width: 50vw;
         max-width: 80vw;
         margin-bottom: 5vh;
     }

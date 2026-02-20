@@ -60,17 +60,7 @@
         </div>
 
         <div class="publications" id="publication" style="display: none;">
-            <div id="publications_2026"></div>  <!-- add the names in the const file_paths -->
-            <div id="publications_2025"></div>
-            <div id="publications_2024"></div>
-            <div id="publications_2023"></div>
-            <div id="publications_2022"></div>
-            <div id="publications_2020"></div>
-            <div id="publications_2017"></div>
-            <div id="publications_2016"></div>
-
-            <!-- <script src="/js/generate_papers.js"></script> -->
-
+            <script src="/js/generate_papers.js"></script>
         </div>
 
         <div class="skill_spacer"></div>
@@ -122,8 +112,7 @@
 
     <script>
         const file_ext = '/projects/main/publications/sections/';
-        const file_paths = ['publications_2026', 'publications_2025', 'publications_2024', 'publications_2023', 'publications_2022', 'publications_2020', 'thesis_2024', 'thesis_2020', 'talks_2025', 'talks_2024', 'chapters_2024'];
-        // const file_paths = ['thesis_2024', 'thesis_2020', 'talks_2024', 'chapters_2024'];
+        const file_paths = ['thesis_2024', 'thesis_2020', 'chapters_2024'];
 
         for (const file of file_paths) {
             console.log("Fetching:", file_ext + file + '.html');

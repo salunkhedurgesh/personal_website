@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cuspidal Redundant Robots | Durgesh Salunkhe</title>
+
+    <!-- OpenGraph: controls how this page looks when shared on LinkedIn, Twitter, WhatsApp etc. -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots">
+    <meta property="og:description" content="A systematic framework for classifying 7R wrist-partitioned redundant robots based on cuspidal properties. IEEE RA-L, Vol. 10, No. 12, 2025.">
+    <meta property="og:url" content="https://salunkhedurgesh.com/projects/journal_webpages/2025/ral25_salunkhe/">
+    <!-- TODO: add og:image once you have a teaser figure -->
+    <!-- <meta property="og:image" content="https://salunkhedurgesh.com/projects/journal_webpages/2025/ral25_salunkhe/teaser.png"> -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cuspidal Redundant Robots | Durgesh Salunkhe">
+    <meta name="twitter:description" content="Classification framework for 7R cuspidal redundant robots. IEEE RA-L 2025.">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style_publications.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+</head>
+
+<body>
+
+    <div style="display: flex; flex-direction: row;">
+        <div class="logo" style="align-items: center;">
+            <a id="personalLink"><img id="logoImg" alt="logo" class="mainicon"></a>
+            <p>RA-L '25</p>
+        </div>
+    </div>
+
+    <div class="navcontent">
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="publicationsLink">
+            <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">publications</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div id="contactTop"></div>
+    <script>
+        fetch('/projects/main/common/common_contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contactTop').innerHTML = d);
+    </script>
+    <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+    <div class="content">
+
+        <!-- Page title -->
+        <div class="title" style="z-index: 4">
+            <p>IEEE Robotics and Automation Letters, 2025</p>
+        </div>
+
+        <!-- ── Paper header ──────────────────────────────────────────── -->
+        <div class="publications" style="display: flex;">
+            <div class="year_block">
+                <div class="year"><p>2025</p></div>
+                <div class="paper last_paper">
+                    <div class="paper_description">
+                        <div style="width: 6rem">
+                            <div class="action_row" style="flex-direction: column; gap: 0.6rem; align-items: center;">
+                                <a href="/projects/main/resources/papers/ral25_salunkhe.pdf" target="_blank"
+                                   title="Download PDF">
+                                    <img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt="PDF">
+                                </a>
+                                <a onclick="click_experience('bibtex_block')" style="cursor: pointer;" title="Show BibTeX">
+                                    <img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt="Cite">
+                                </a>
+                                <a href="https://doi.org/10.1109/LRA.2025.3623011" target="_blank" title="DOI link">
+                                    <img src="/projects/main/webpage_resources/images/web_internet.png" alt="DOI">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="paper_title">
+                            <p class="paper_heading">Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots</p>
+                            <p>
+                                <span style="color: var(--halycon)">Durgesh Haribhau Salunkhe</span>,
+                                Sthithpragya Gupta,
+                                <a href="https://www.epfl.ch/labs/lasa/" target="_blank">Aude Billard</a>
+                            </p>
+                            <p>
+                                <span style="color: var(--halycon)">IEEE Robotics and Automation Letters</span>,
+                                Vol.&nbsp;10, No.&nbsp;12, pp.&nbsp;12509–12516, December 2025
+                            </p>
+                            <p style="font-size: 0.85rem;">
+                                DOI: <a href="https://doi.org/10.1109/LRA.2025.3623011" target="_blank">10.1109/LRA.2025.3623011</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Teaser figure ──────────────────────────────────────────── -->
+        <!-- TODO: Replace this block with your teaser figure once ready -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Overview</p></div>
+            <div class="abstract" style="display: block;">
+                <img src="teaser.png" alt="Teaser figure" style="width: 100%; border-radius: 4px;">
+                <p style="font-size: 0.85rem; margin-top: 0.5rem;">TODO: caption</p>
+            </div>
+        </div>
+        -->
+
+        <!-- ── Abstract ───────────────────────────────────────────────── -->
+        <div class="year_block">
+            <div class="experience2">
+                <p onclick="click_experience('abstract_block')">Abstract</p>
+            </div>
+            <div id="abstract_block" class="abstract" style="display: block;">
+                <p>Redundant robots, with more degrees of freedom than required for a given task, offer enhanced
+                dexterity but can exhibit complex kinematic behaviour in motion planning. Cuspidal robots, which can
+                change inverse kinematic solutions without crossing singularities, have been reported to pose unique
+                challenges for motion feasibility and repeatability. While cuspidality has been extensively studied for
+                3R and certain 6R robots, no formal classification exists for redundant architectures. This letter
+                presents a systematic framework for classifying 7R wrist-partitioned redundant robots based on their
+                cuspidal properties. The method reduces the 7R structure to a parameterized 3R equivalent via the
+                redundant joint angle, enabling the application of established theory for cuspidal robots. Using this
+                approach, commercially available robots are analysed and categorized as cuspidal or noncuspidal.
+                Results show that the design offsets in commercial cobots may lead to cuspidality, which can potentially
+                cause a nonsingular change of operation mode in collaborative applications. This classification
+                framework provides a foundation for cuspidality-aware path planning and offers practical guidelines for
+                designing non-cuspidal redundant robots to ensure safer and more predictable operation.</p>
+            </div>
+        </div>
+
+        <!-- ── Key results ────────────────────────────────────────────── -->
+        <!-- TODO: Add figures using the carousel pattern below -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Key results</p></div>
+            <div class="abstract" style="display: block;">
+                <div class="carousel-wrapper">
+                    <button class="carousel-button left" onclick="cycleImage(this, -1)">◀</button>
+                    <div class="project_image" id="ral_fig1" style="display: flex;">
+                        <img src="figures/fig1.png" alt="Figure 1">
+                        <p>TODO: caption for figure 1</p>
+                    </div>
+                    <div class="project_image" id="ral_fig2" style="display: none;">
+                        <img src="figures/fig2.png" alt="Figure 2">
+                        <p>TODO: caption for figure 2</p>
+                    </div>
+                    <button class="carousel-button right" onclick="cycleImage(this, 1)">▶</button>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!-- ── Code / Notebook ───────────────────────────────────────── -->
+        <!-- TODO: Upload a companion .ipynb to GitHub and uncomment this block -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Interactive code</p></div>
+            <div class="abstract" style="display: block;">
+                <p>Classify your own 7R robot using the companion notebook:</p>
+                <a href="https://colab.research.google.com/github/salunkhedurgesh/REPO/blob/main/notebooks/ral25_cuspidal_7R.ipynb"
+                   target="_blank"
+                   style="display: inline-block; margin-top: 0.5rem;">
+                    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+                </a>
+            </div>
+        </div>
+        -->
+
+        <!-- ── BibTeX ─────────────────────────────────────────────────── -->
+        <div class="year_block">
+            <div class="experience2">
+                <p onclick="click_experience('bibtex_block')">BibTeX</p>
+            </div>
+            <div id="bibtex_block" class="abstract" style="display: none;">
+                <pre id="bibtex_content" style="font-family: 'PT Mono', monospace; font-size: 0.8rem; color: var(--blueBC); white-space: pre-wrap; word-break: break-word; background: rgba(255,255,255,0.04); padding: 1rem; border-radius: 4px; margin: 0;">@article{ral25_salunkhe,
+  author  = {Salunkhe, Durgesh Haribhau and Gupta, Sthithpragya and Billard, Aude},
+  journal = {IEEE Robotics and Automation Letters},
+  title   = {Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots},
+  year    = {2025},
+  volume  = {10},
+  number  = {12},
+  pages   = {12509--12516},
+  doi     = {10.1109/LRA.2025.3623011}
+}</pre>
+                <div style="margin-top: 0.6rem; display: flex; align-items: center; gap: 0.8rem;">
+                    <button onclick="copyBibtex()"
+                        style="cursor: pointer; background: var(--halycon); border: none; padding: 0.4rem 1rem;
+                               border-radius: 3px; font-family: 'PT Mono', monospace; font-size: 0.8rem; color: #000;">
+                        Copy BibTeX
+                    </button>
+                    <span id="copy_feedback" style="font-size: 0.8rem; color: var(--halycon); opacity: 0; transition: opacity 0.3s;">
+                        Copied!
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Related work ───────────────────────────────────────────── -->
+        <div class="year_block">
+            <div class="experience2">
+                <p onclick="click_experience('related_block')">Related work</p>
+            </div>
+            <div id="related_block" class="abstract" style="display: block;">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 1rem;">
+                        <a href="/projects/icra23/index.html" style="color: var(--halycon);">
+                            Trajectory planning issues in commercial cuspidal robots
+                        </a><br>
+                        <span style="font-size: 0.85rem;">Salunkhe, Chablat, Wenger &mdash; ICRA 2023</span>
+                    </li>
+                    <li style="margin-bottom: 1rem;">
+                        <a href="https://doi.org/10.1177/02783649241293481" target="_blank" style="color: var(--halycon);">
+                            6R cuspidal robots: kinematic issues and guidelines for path planning and design
+                        </a><br>
+                        <span style="font-size: 0.85rem;">Salunkhe, Marauli, Mueller, Chablat, Wenger &mdash; IJRR 2024</span>
+                    </li>
+                    <li>
+                        <a href="/projects/main/publications/publications.html" style="color: var(--halycon);">
+                            All publications &rarr;
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="desktop_spacer"></div>
+
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contact').innerHTML = d);
+    </script>
+
+    <script>
+        function copyBibtex() {
+            const text = document.getElementById('bibtex_content').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const fb = document.getElementById('copy_feedback');
+                fb.style.opacity = '1';
+                setTimeout(() => fb.style.opacity = '0', 2000);
+            });
+        }
+    </script>
+
+</body>
+</html>

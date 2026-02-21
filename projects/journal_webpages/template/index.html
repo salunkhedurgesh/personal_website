@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--
+    JOURNAL PAPER WEBPAGE TEMPLATE
+    ================================
+    HOW TO USE:
+    1. Copy this folder to projects/journal_webpages/YEAR/PAPER_ID/
+    2. Replace every TODO marker below
+    3. Add teaser.png and figures/ folder
+    4. Update papers.csv: set webLink to /projects/journal_webpages/YEAR/PAPER_ID/
+    5. Optionally add a Colab/Binder notebook link
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- TODO: page title -->
+    <title>TODO: Short Paper Title | Durgesh Salunkhe</title>
+
+    <!-- OpenGraph: controls rich previews on LinkedIn, Twitter, WhatsApp etc. -->
+    <meta property="og:type" content="article">
+    <!-- TODO: full paper title -->
+    <meta property="og:title" content="TODO: Full Paper Title">
+    <!-- TODO: 1-2 sentence description -->
+    <meta property="og:description" content="TODO: Brief description of contribution. Journal/venue, year.">
+    <!-- TODO: update URL -->
+    <meta property="og:url" content="https://salunkhedurgesh.com/projects/journal_webpages/YEAR/PAPER_ID/">
+    <!-- TODO: uncomment and add teaser image path once ready -->
+    <!-- <meta property="og:image" content="https://salunkhedurgesh.com/projects/journal_webpages/YEAR/PAPER_ID/teaser.png"> -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- TODO: twitter title and description -->
+    <meta name="twitter:title" content="TODO: Short Title | Durgesh Salunkhe">
+    <meta name="twitter:description" content="TODO: One-line description. Venue Year.">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style_publications.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+</head>
+
+<body>
+
+    <div style="display: flex; flex-direction: row;">
+        <div class="logo" style="align-items: center;">
+            <a id="personalLink"><img id="logoImg" alt="logo" class="mainicon"></a>
+            <!-- TODO: e.g. "RA-L '25" or "IJRR '24" -->
+            <p>TODO: VENUE 'YY</p>
+        </div>
+    </div>
+
+    <div class="navcontent">
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="publicationsLink">
+            <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">publications</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div id="contactTop"></div>
+    <script>
+        fetch('/projects/main/common/common_contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contactTop').innerHTML = d);
+    </script>
+    <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+    <div class="content">
+
+        <!-- Page title -->
+        <div class="title" style="z-index: 4">
+            <!-- TODO: e.g. "IEEE Robotics and Automation Letters, 2025" -->
+            <p>TODO: Full Journal Name, Year</p>
+        </div>
+
+        <!-- ── Paper header ──────────────────────────────────────────── -->
+        <div class="publications" style="display: flex;">
+            <div class="year_block">
+                <!-- TODO: year -->
+                <div class="year"><p>TODO: YEAR</p></div>
+                <div class="paper last_paper">
+                    <div class="paper_description">
+                        <div style="width: 6rem">
+                            <div class="action_row" style="flex-direction: column; gap: 0.6rem; align-items: center;">
+                                <!-- TODO: update PDF path -->
+                                <a href="/projects/main/resources/papers/TODO_PAPER_ID.pdf" target="_blank" title="Download PDF">
+                                    <img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt="PDF">
+                                </a>
+                                <a onclick="click_experience('bibtex_block')" style="cursor: pointer;" title="Show BibTeX">
+                                    <img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt="Cite">
+                                </a>
+                                <!-- TODO: update DOI -->
+                                <a href="https://doi.org/TODO_DOI" target="_blank" title="DOI link">
+                                    <img src="/projects/main/webpage_resources/images/web_internet.png" alt="DOI">
+                                </a>
+                                <!-- Optional: arXiv link -->
+                                <!--
+                                <a href="https://arxiv.org/abs/TODO" target="_blank" title="arXiv">
+                                    <img src="/projects/main/webpage_resources/images/web_globe.png" alt="arXiv">
+                                </a>
+                                -->
+                            </div>
+                        </div>
+                        <div class="paper_title">
+                            <!-- TODO: full paper title -->
+                            <p class="paper_heading">TODO: Full Paper Title</p>
+                            <!-- TODO: authors — wrap your name in the span below -->
+                            <p>
+                                <span style="color: var(--halycon)">Durgesh Haribhau Salunkhe</span>,
+                                TODO: Co-author 1,
+                                <a href="TODO_LINK" target="_blank">TODO: Co-author 2</a>
+                            </p>
+                            <!-- TODO: journal, volume, issue, pages, year -->
+                            <p>
+                                <span style="color: var(--halycon)">TODO: Journal Name</span>,
+                                Vol.&nbsp;TODO, No.&nbsp;TODO, pp.&nbsp;TODO–TODO, TODO Month YEAR
+                            </p>
+                            <!-- TODO: DOI -->
+                            <p style="font-size: 0.85rem;">
+                                DOI: <a href="https://doi.org/TODO_DOI" target="_blank">TODO_DOI</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Teaser figure ──────────────────────────────────────────── -->
+        <!-- TODO: add teaser.png to this folder, then uncomment -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Overview</p></div>
+            <div class="abstract" style="display: block;">
+                <img src="teaser.png" alt="Teaser figure" style="width: 100%; border-radius: 4px;">
+                <p style="font-size: 0.85rem; margin-top: 0.5rem;">TODO: Figure caption</p>
+            </div>
+        </div>
+        -->
+
+        <!-- ── Abstract ───────────────────────────────────────────────── -->
+        <div class="year_block">
+            <div class="experience2">
+                <p onclick="click_experience('abstract_block')">Abstract</p>
+            </div>
+            <div id="abstract_block" class="abstract" style="display: block;">
+                <!-- TODO: paste abstract text -->
+                <p>TODO: Abstract text.</p>
+            </div>
+        </div>
+
+        <!-- ── Key results (figures carousel) ────────────────────────── -->
+        <!-- TODO: add figures to a figures/ subfolder, then uncomment -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Key results</p></div>
+            <div class="abstract" style="display: block;">
+                <div class="carousel-wrapper">
+                    <button class="carousel-button left" onclick="cycleImage(this, -1)">◀</button>
+                    <div class="project_image" id="fig1" style="display: flex;">
+                        <img src="figures/fig1.png" alt="Figure 1">
+                        <p>TODO: Caption for figure 1</p>
+                    </div>
+                    <div class="project_image" id="fig2" style="display: none;">
+                        <img src="figures/fig2.png" alt="Figure 2">
+                        <p>TODO: Caption for figure 2</p>
+                    </div>
+                    <button class="carousel-button right" onclick="cycleImage(this, 1)">▶</button>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!-- ── Video ─────────────────────────────────────────────────── -->
+        <!-- TODO: add YouTube/Vimeo embed if available -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Video</p></div>
+            <div class="abstract" style="display: block;">
+                <p>TODO: Video description.</p>
+                <div class="spacer_small"></div>
+                <iframe src="https://www.youtube.com/embed/TODO_VIDEO_ID"
+                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                    style="width: 100%; aspect-ratio: 16/9; border: none;"></iframe>
+            </div>
+        </div>
+        -->
+
+        <!-- ── Interactive code (Google Colab) ───────────────────────── -->
+        <!-- TODO: upload .ipynb to GitHub repo, then uncomment -->
+        <!--
+        <div class="year_block">
+            <div class="experience2"><p>Interactive code</p></div>
+            <div class="abstract" style="display: block;">
+                <p>TODO: One sentence describing what the notebook demonstrates.</p>
+                <a href="https://colab.research.google.com/github/salunkhedurgesh/TODO_REPO/blob/main/notebooks/TODO.ipynb"
+                   target="_blank" style="display: inline-block; margin-top: 0.5rem;">
+                    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+                </a>
+            </div>
+        </div>
+        -->
+
+        <!-- ── BibTeX ─────────────────────────────────────────────────── -->
+        <div class="year_block">
+            <div class="experience2">
+                <p onclick="click_experience('bibtex_block')">BibTeX</p>
+            </div>
+            <div id="bibtex_block" class="abstract" style="display: none;">
+                <!-- TODO: paste your BibTeX entry -->
+                <pre id="bibtex_content" style="font-family: 'PT Mono', monospace; font-size: 0.8rem; color: var(--blueBC); white-space: pre-wrap; word-break: break-word; background: rgba(255,255,255,0.04); padding: 1rem; border-radius: 4px; margin: 0;">@article{TODO_BIBTEX_KEY,
+  author  = {Salunkhe, Durgesh Haribhau and TODO},
+  journal = {TODO: Journal Name},
+  title   = {TODO: Paper Title},
+  year    = {TODO},
+  volume  = {TODO},
+  number  = {TODO},
+  pages   = {TODO--TODO},
+  doi     = {TODO_DOI}
+}</pre>
+                <div style="margin-top: 0.6rem; display: flex; align-items: center; gap: 0.8rem;">
+                    <button onclick="copyBibtex()"
+                        style="cursor: pointer; background: var(--halycon); border: none; padding: 0.4rem 1rem;
+                               border-radius: 3px; font-family: 'PT Mono', monospace; font-size: 0.8rem; color: #000;">
+                        Copy BibTeX
+                    </button>
+                    <span id="copy_feedback" style="font-size: 0.8rem; color: var(--halycon); opacity: 0; transition: opacity 0.3s;">
+                        Copied!
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Related work ───────────────────────────────────────────── -->
+        <div class="year_block">
+            <div class="experience2">
+                <p onclick="click_experience('related_block')">Related work</p>
+            </div>
+            <div id="related_block" class="abstract" style="display: block;">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <!-- TODO: add related papers -->
+                    <li style="margin-bottom: 1rem;">
+                        <a href="TODO_LINK" style="color: var(--halycon);">TODO: Related paper title</a><br>
+                        <span style="font-size: 0.85rem;">TODO: Authors &mdash; Venue Year</span>
+                    </li>
+                    <li>
+                        <a href="/projects/main/publications/publications.html" style="color: var(--halycon);">
+                            All publications &rarr;
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="desktop_spacer"></div>
+
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contact').innerHTML = d);
+    </script>
+
+    <script>
+        function copyBibtex() {
+            const text = document.getElementById('bibtex_content').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const fb = document.getElementById('copy_feedback');
+                fb.style.opacity = '1';
+                setTimeout(() => fb.style.opacity = '0', 2000);
+            });
+        }
+    </script>
+
+</body>
+</html>

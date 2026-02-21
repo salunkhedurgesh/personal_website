@@ -9,10 +9,10 @@ const recentNews = [
 ];
 
 const currentWork = [
-    `Working on a Kinematic intelligence: augmenting robot learning with analytical properties, with Stithpragya Gupta, EPFL, Lausanne`,
-    `Collaboration with Abhilash Nayak, CSIC, Barcelona,  on Conformal Geometric Algebra`,
-    `Collaboration with Vimalesh Muralidharan, IIT Bhubaneswar, on novel kinematic actuations and robots of future`,
-    `Collaboration with Bernardo Fichera, Max Planck, Tubingen, on Transfer Learning with Sub-domain guarantees`,
+    `<span style="color:var(--halycon)">How can robot behaviour be made safe and explainable?</span> Kinematic intelligence: augmenting robot learning with analytical properties, with <span style="color:var(--blueBC)">Stithpragya Gupta, EPFL, Lausanne</span>`,
+    `<span style="color:var(--halycon)">How to have better geometric insights regarding kinematics of robots?</span> Conformal Geometric Algebra, in collaboration with <span style="color:var(--blueBC)">Abhilash Nayak, CSIC, Barcelona</span>`,
+    `<span style="color:var(--halycon)">Is robot design dead?</span> Novel kinematic actuations and robots of future, in collaboration with <span style="color:var(--blueBC)">Vimalesh Muralidharan, IIT Bhubaneswar</span>`,
+    `<span style="color:var(--halycon)">How can a robot learn from simpler building blocks?</span> Transfer Learning with Sub-domain guarantees, in collaboration with <span style="color:var(--blueBC)">Bernardo Fichera, Max Planck, Tubingen</span>`,
 ];
 
 // ============================================================
@@ -33,5 +33,5 @@ ${listItems}
 
 document.addEventListener('DOMContentLoaded', () => {
     renderSection('recent_news', 'recent_list', 'recent_title', 'Recent news', recentNews, true);
-    renderSection('current', 'current_list', 'current_title', 'Currently working on...', currentWork, false);
+    renderSection('current', 'current_list', 'current_title', 'What I\'m thinking about', currentWork, false);
 });

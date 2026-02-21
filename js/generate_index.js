@@ -3,15 +3,16 @@
 // ============================================================
 
 const recentNews = [
+    `19<sup>th</sup> February, 2026: Course proposed on Kinematics grounded robot motion planning at EPFL with Prof. Aude Billard.`,
     `21<sup>st</sup> November, 2025: Invited talk at IISc, Bangalore.`,
     `25<sup>th</sup> June, 2025 : Invited talk at LAAS, CNRS, Toulouse.`,
 ];
 
 const currentWork = [
-    `Working on a Kinematic intelligence: augmenting robot learning with analytical properties',`,
-    `Collaboration with <a href="https://scholar.google.com/citations?user=Ku2w7U0AAAAJ&hl=en" target="_blank">Keerthi Sagar</a> on cuspidal robots`,
-    `Collaboration with Abhilash Nayak</a> on climbing robots`,
-    `Working on deep learning methodologies for application in finance`,
+    `Working on a Kinematic intelligence: augmenting robot learning with analytical properties, with Stithpragya Gupta, EPFL, Lausanne`,
+    `Collaboration with Abhilash Nayak, CSIC, Barcelona,  on Conformal Geometric Algebra`,
+    `Collaboration with Vimalesh Muralidharan, IIT Bhubaneswar, on novel kinematic actuations and robots of future`,
+    `Collaboration with Bernardo Fichera, Max Planck, Tubingen, on Transfer Learning with Sub-domain guarantees`,
 ];
 
 // ============================================================

@@ -63,11 +63,8 @@
         .fig-placeholder { width: 100%; height: 220px; background: rgba(0,238,182,0.04); border: 1px dashed rgba(0,238,182,0.25); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--blueBC); font-style: italic; font-size: 0.82rem; }
         .fig-caption { font-size: 0.78rem; color: var(--blueBC); text-align: center; margin-top: 0.6rem; font-style: italic; }
 
-        /* BibTeX */
-        .bib-block { font-family: 'PT Mono', monospace; font-size: 0.78rem; color: var(--blueBC); white-space: pre-wrap; word-break: break-word; background: rgba(255,255,255,0.03); padding: 1rem; border-radius: 4px; margin: 0; border: 1px solid rgba(136,146,176,0.15); }
-        .copy-btn { cursor: pointer; background: var(--halycon); border: none; padding: 0.38rem 1rem; border-radius: 3px; font-family: 'PT Mono', monospace; font-size: 0.72rem; color: #03122b; margin-top: 0.6rem; }
-        .copy-btn:hover { opacity: 0.85; }
-        .copy-feedback { font-size: 0.75rem; color: var(--halycon); opacity: 0; transition: opacity 0.3s; margin-left: 0.6rem; }
+        /* Cite feedback */
+        .cite-feedback { font-size: 0.72rem; color: var(--halycon); font-family: 'PT Mono', monospace; opacity: 0; transition: opacity 0.3s; margin-left: 0.3rem; }
 
         /* Video */
         .video-wrap { position: relative; width: 100%; aspect-ratio: 16 / 9; margin-top: 0.8rem; }
@@ -140,18 +137,18 @@
             &nbsp;&middot;&nbsp; pp.&nbsp;12509–12516
         </p>
 
-        <div class="btn-row">
+        <div class="btn-row" style="align-items: center;">
             <a href="/projects/main/resources/papers/ral25_salunkhe.pdf" target="_blank" class="btn">
                 <img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt=""> PDF
             </a>
-            <a onclick="toggleSection('bibtex_block')" class="btn" style="cursor:pointer;">
+            <a onclick="citeAction(this); return false;" class="btn" style="cursor:pointer;">
                 <img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt=""> Cite
             </a>
             <a href="https://doi.org/10.1109/LRA.2025.3623011" target="_blank" class="btn">
                 <img src="/projects/main/webpage_resources/images/web_internet.png" alt=""> DOI
             </a>
-            <a class="btn btn-dim">Video (coming soon)</a>
             <a class="btn btn-dim">Code (coming soon)</a>
+            <span class="cite-feedback" id="cite_feedback">Copied!</span>
         </div>
     </div>
 
@@ -350,27 +347,6 @@
         </div>
         -->
 
-        <!-- BibTeX -->
-        <div class="paper-section">
-            <p class="section-hdr" onclick="toggleSection('bibtex_block')">BibTeX</p>
-            <div id="bibtex_block" style="display: none; padding-bottom: 0.5rem;">
-                <pre id="bibtex_content" class="bib-block">@article{ral25_salunkhe,
-  author  = {Salunkhe, Durgesh Haribhau and Gupta, Sthithpragya and Billard, Aude},
-  journal = {IEEE Robotics and Automation Letters},
-  title   = {Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots},
-  year    = {2025},
-  volume  = {10},
-  number  = {12},
-  pages   = {12509--12516},
-  doi     = {10.1109/LRA.2025.3623011}
-}</pre>
-                <div style="display: flex; align-items: center;">
-                    <button class="copy-btn" onclick="copyBibtex()">Copy BibTeX</button>
-                    <span id="copy_feedback" class="copy-feedback">Copied!</span>
-                </div>
-            </div>
-        </div>
-
         <!-- Related work -->
         <div class="paper-section">
             <p class="section-hdr" onclick="toggleSection('related_block')">Related work</p>
@@ -412,13 +388,28 @@
             answer.style.display = open ? 'none' : 'block';
             arrow.innerHTML      = open ? '&#9660;' : '&#9650;';
         }
-        function copyBibtex() {
-            const text = document.getElementById('bibtex_content').innerText;
-            navigator.clipboard.writeText(text).then(() => {
-                const fb = document.getElementById('copy_feedback');
-                fb.style.opacity = '1';
-                setTimeout(() => fb.style.opacity = '0', 2000);
-            });
+        const BIBTEX = `@article{ral25_salunkhe,
+  author  = {Salunkhe, Durgesh Haribhau and Gupta, Sthithpragya and Billard, Aude},
+  journal = {IEEE Robotics and Automation Letters},
+  title   = {Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots},
+  year    = {2025},
+  volume  = {10},
+  number  = {12},
+  pages   = {12509--12516},
+  doi     = {10.1109/LRA.2025.3623011}
+}`;
+        function citeAction(btn) {
+            navigator.clipboard.writeText(BIBTEX);
+            const fb = document.getElementById('cite_feedback');
+            fb.style.opacity = '1';
+            setTimeout(() => fb.style.opacity = '0', 2000);
+            const blob = new Blob([BIBTEX], { type: 'text/plain' });
+            const url  = URL.createObjectURL(blob);
+            const dl   = document.createElement('a');
+            dl.href     = url;
+            dl.download = 'ral25_salunkhe.bib';
+            dl.click();
+            URL.revokeObjectURL(url);
         }
     </script>
 

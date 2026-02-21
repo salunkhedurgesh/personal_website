@@ -313,8 +313,9 @@
                     4. Replace TODO_FORM_ID below with your form ID
                 -->
                 <form class="contact-form"
-                      action="https://formspree.io/f/TODO_FORM_ID"
-                      method="POST">
+                      action="https://formspree.io/f/xaqdpobe"
+                      method="POST"
+                      target="_blank">
                     <div class="form-row">
                         <input type="text"  name="name"  placeholder="Your name"  required>
                         <input type="email" name="email" placeholder="Your email" required>
@@ -323,8 +324,9 @@
                     <!-- Hidden field so you know which paper the question is about -->
                     <input type="hidden" name="_subject" value="Question about: Cuspidal Redundant Robots (RA-L 2025)">
                     <input type="hidden" name="_next"    value="https://salunkhedurgesh.com/projects/journal_webpages/2025/ral25_salunkhe/">
-                    <div>
-                        <button type="submit" class="btn" style="border: none; cursor: pointer;">Send question</button>
+                    <div style="display: flex; align-items: center; gap: 0.45rem;">
+                        <button type="submit" class="btn" style="cursor: pointer;">Send question</button>
+                        <button type="reset" class="btn btn-dim" style="cursor: pointer;">Clear</button>
                         <span class="form-status" id="form_status"></span>
                     </div>
                 </form>

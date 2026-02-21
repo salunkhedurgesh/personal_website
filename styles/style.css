@@ -496,8 +496,9 @@ a .mainicon {
 }
 
 .dropdown {
-    animation: growDown 500ms ease-in-out forwards;
+    animation: growDown 350ms ease-out forwards;
     transform-origin: top center;
+    overflow: hidden;
 }
 
 .dropdown a {
@@ -509,8 +510,9 @@ a .mainicon {
 }
 
 .dropup {
-    animation: growUp 100ms ease-in-out forwards;
-    transform-origin: bottom center;
+    animation: growUp 250ms ease-in forwards;
+    transform-origin: top center;
+    overflow: hidden;
 }
 
 .recent {

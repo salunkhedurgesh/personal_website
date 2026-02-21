@@ -3,3 +3,7 @@
 
 # eps files
 *.eps
+
+# presentation related images
+/presentation_resource/
+/presentation_slides/

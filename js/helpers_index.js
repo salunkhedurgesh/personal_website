@@ -3,7 +3,7 @@ const page_path = '/projects/main/';
 
 // Mapping of elements to update
 const elements = [
-    { id: 'personalLink', prop: 'href', value: '/personal' },
+    { id: 'personalLink', prop: 'href', value: 'https://salunkhedurgesh.com/' },
     { id: 'logoImg', prop: 'src', value: image_path + 'logo_indark.png' },
     { id: 'homeLink', prop: 'href', value: '/' },
     { id: 'homeImage', prop: 'src', value: image_path + 'home_green.png' },

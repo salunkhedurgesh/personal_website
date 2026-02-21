@@ -526,10 +526,10 @@ a .mainicon {
     cursor: pointer;
 }
 
-.recent h3 {
+.recent-title {
     margin-bottom: 0.5rem;
     font-weight: lighter;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--title-color);
 }
 

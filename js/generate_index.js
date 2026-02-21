@@ -23,7 +23,7 @@ function renderSection(containerId, listId, titleId, titleText, items, noListSty
     const listStyle = noListStyle ? ' style="list-style: none"' : '';
     const listItems = items.map(item => `        <li>${item}</li>`).join('\n');
     container.innerHTML = `<div class="recent" onclick="click_recent(['${listId}'], ['${titleId}', '${titleText}'])">
-    <h3 id="${titleId}">- ${titleText} &#x2191</h3>
+    <p class="recent-title" id="${titleId}">- ${titleText} &#x2191</p>
     <div class="spacediv" id="${containerId}_spacediv"></div>
     <ol id="${listId}" class="dropdown"${listStyle}>
 ${listItems}

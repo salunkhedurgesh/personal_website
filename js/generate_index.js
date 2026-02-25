@@ -3,9 +3,9 @@
 // ============================================================
 
 const recentNews = [
+     `25<sup>th</sup> February, 2026: Received MSCA Seal of Excellence for high quality research proposal.`,
     `19<sup>th</sup> February, 2026: Course proposed on Kinematics grounded robot motion planning at EPFL with Prof. Aude Billard.`,
-    `21<sup>st</sup> November, 2025: Invited talk at IISc, Bangalore.`,
-    `25<sup>th</sup> June, 2025 : Invited talk at LAAS, CNRS, Toulouse.`,
+    `21<sup>st</sup> November, 2025: Invited talk at IISc, Bangalore.`
 ];
 
 const currentWork = [

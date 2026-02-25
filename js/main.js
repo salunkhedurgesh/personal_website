@@ -133,30 +133,29 @@ function click_experience(address) {
 }
 
 
-function blink() {
+function blink(retry = 0) {
     const el = document.getElementById("logoBlock");
     const foot = document.getElementById("emailid");
 
-    // Scroll to the element first
-    if (foot) {
-        foot.scrollIntoView({ behavior: "smooth", block: "center" });
+    if ((!el || !foot) && retry < 8) {
+        setTimeout(() => blink(retry + 1), 140);
+        return;
     }
+    if (!el || !foot) return;
 
-    el.classList.remove("blink");
-    foot.classList.remove("blink");
+    foot.scrollIntoView({ behavior: "smooth", block: "center" });
 
-    // Blink three times at 500ms intervals
-    for (let i = 0; i < 3; i++) {
-        setTimeout(() => {
-            el.classList.add("blink");
-            foot.classList.add("blink");
-        }, i * 1000);
+    [el, foot].forEach(node => {
+        node.classList.remove("contact-spotlight-pulse", "blink");
+        void node.offsetWidth;
+        node.classList.add("contact-spotlight-pulse", "blink");
+    });
 
-        setTimeout(() => {
-            el.classList.remove("blink");
-            foot.classList.remove("blink");
-        }, i * 1000 + 500);
-    }
+    setTimeout(() => {
+        [el, foot].forEach(node => {
+            node.classList.remove("contact-spotlight-pulse", "blink");
+        });
+    }, 2500);
 }
 
 

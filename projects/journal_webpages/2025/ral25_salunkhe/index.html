@@ -23,6 +23,106 @@
 
     
     <link rel="stylesheet" href="/projects/journal_webpages/styles/ral25_salunkhe.css">
+    <style>
+        :root {
+            --read-width: 760px;
+            --read-side-pad: 1.1rem;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .paper-hero,
+        .paper-section {
+            width: min(92vw, var(--read-width)) !important;
+            max-width: var(--read-width) !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding-left: var(--read-side-pad);
+            padding-right: var(--read-side-pad);
+            box-sizing: border-box;
+        }
+
+        .paper-title {
+            font-size: clamp(1.35rem, 2vw, 1.8rem) !important;
+            line-height: 1.45 !important;
+            text-wrap: balance;
+        }
+
+        .paper-venue {
+            font-size: clamp(0.7rem, 1.1vw, 0.82rem) !important;
+        }
+
+        .paper-authors {
+            font-size: clamp(0.9rem, 1.2vw, 1rem) !important;
+            line-height: 1.65 !important;
+        }
+
+        .paper-meta {
+            font-size: clamp(0.82rem, 1.05vw, 0.92rem) !important;
+            line-height: 1.6 !important;
+        }
+
+        .section-hdr {
+            font-size: clamp(0.76rem, 1.05vw, 0.9rem) !important;
+        }
+
+        .section-body,
+        .contrib-list li,
+        .faq-q,
+        .faq-a,
+        .related-authors {
+            font-size: clamp(0.95rem, 1.2vw, 1.02rem) !important;
+        }
+
+        .section-body {
+            line-height: 1.78 !important;
+            text-align: left !important;
+            overflow-wrap: anywhere;
+            hyphens: auto;
+        }
+
+        .section-body p,
+        .section-body li,
+        .faq-a {
+            margin-bottom: 0.75rem;
+        }
+
+        .contrib-list li {
+            line-height: 1.72 !important;
+        }
+
+        .btn-row,
+        .form-row {
+            row-gap: 0.55rem;
+        }
+
+        .paper-meta a,
+        .section-body a {
+            overflow-wrap: anywhere;
+        }
+
+        #abstract_block.section-body {
+            text-align: justify !important;
+            text-justify: inter-word;
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --read-side-pad: 0.2rem;
+            }
+
+            .paper-hero,
+            .paper-section {
+                width: min(94vw, var(--read-width)) !important;
+            }
+
+            .section-body {
+                line-height: 1.7 !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -94,29 +194,38 @@
     <!-- ── Content ─────────────────────────────────────────────── -->
     <div class="content" style="padding-bottom: 3rem;">
 
-        <!-- 1. Key contributions -->
+        <!-- 1. Paper description -->
         <div class="paper-section">
-            <p class="section-hdr">Key contributions</p>
-            <ul class="contrib-list">
-                <li>
-                    <span class="contrib-num">01.</span>
-                    <span>First systematic cuspidality classification framework for <strong style="color: var(--title-color); font-weight: 400;">7R wrist-partitioned redundant robots</strong>, filling a gap left open by decades of work on 3R and 6R architectures.</span>
-                </li>
-                <li>
-                    <span class="contrib-num">02.</span>
-                    <span>A <strong style="color: var(--title-color); font-weight: 400;">reduction method</strong> that maps any 7R robot to a parametrized family of 3R robots via the redundant joint angle, enabling direct application of established cuspidality criteria.</span>
-                </li>
-                <li>
-                    <span class="contrib-num">03.</span>
-                    <span>Analysis of <strong style="color: var(--title-color); font-weight: 400;">commercially available cobots</strong> showing that design offsets can induce cuspidality — with practical guidelines for designing non-cuspidal redundant robots.</span>
-                </li>
-            </ul>
+            <p class="section-hdr">Paper description</p>
+            <div class="section-body" style="display: block;">
+                <p>
+                    This paper introduces a systematic framework to classify cuspidality in
+                    7R wrist-partitioned redundant robots by reducing the problem to a
+                    parameterized 3R equivalent. The framework helps identify when a robot
+                    can switch inverse kinematic solutions without singularity crossing,
+                    and offers practical design guidance for safer, more predictable
+                    collaborative robot operation.
+                </p>
+            </div>
+        </div>
+
+        <!-- 2. Video -->
+        <div class="paper-section">
+            <p class="section-hdr">Video</p>
+            <div class="section-body" style="display: block;">
+                <p style="margin-bottom: 0.6rem;">Presentation teaser.</p>
+                <div class="video-wrap" style="border: 1px solid var(--halycon); border-radius: 0.5rem; overflow: hidden;">
+                    <iframe src="https://player.vimeo.com/video/1167094705"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                        title="Presentation teaser"></iframe>
+                </div>
+            </div>
         </div>
 
         <!-- 3. Abstract -->
         <div class="paper-section">
             <p class="section-hdr" onclick="toggleSection('abstract_block')">Abstract</p>
-            <div id="abstract_block" class="section-body" style="display: block;">
+            <div id="abstract_block" class="section-body" style="display: block; text-align: justify;">
                 <p>Redundant robots, with more degrees of freedom than required for a given task, offer enhanced
                 dexterity but can exhibit complex kinematic behaviour in motion planning. Cuspidal robots, which can
                 change inverse kinematic solutions without crossing singularities, have been reported to pose unique
@@ -134,17 +243,23 @@
             </div>
         </div>
 
-        <!-- 4. Video -->
+        <!-- 4. Key contributions -->
         <div class="paper-section">
-            <p class="section-hdr">Video</p>
-            <div class="section-body" style="display: block;">
-                <p style="margin-bottom: 0.6rem;">Presentation teaser.</p>
-                <div class="video-wrap" style="border: 1px solid var(--halycon); border-radius: 0.5rem; overflow: hidden;">
-                    <iframe src="https://player.vimeo.com/video/1167094705"
-                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                        title="Presentation teaser"></iframe>
-                </div>
-            </div>
+            <p class="section-hdr">Key contributions</p>
+            <ul class="contrib-list">
+                <li>
+                    <span class="contrib-num">01.</span>
+                    <span>First systematic cuspidality classification framework for <strong style="color: var(--title-color); font-weight: 400;">7R wrist-partitioned redundant robots</strong>, filling a gap left open by decades of work on 3R and 6R architectures.</span>
+                </li>
+                <li>
+                    <span class="contrib-num">02.</span>
+                    <span>A <strong style="color: var(--title-color); font-weight: 400;">reduction method</strong> that maps any 7R robot to a parametrized family of 3R robots via the redundant joint angle, enabling direct application of established cuspidality criteria.</span>
+                </li>
+                <li>
+                    <span class="contrib-num">03.</span>
+                    <span>Analysis of <strong style="color: var(--title-color); font-weight: 400;">commercially available cobots</strong> showing that design offsets can induce cuspidality — with practical guidelines for designing non-cuspidal redundant robots.</span>
+                </li>
+            </ul>
         </div>
 
         <!-- 5. FAQ -->
@@ -324,6 +439,7 @@
             dl.click();
             URL.revokeObjectURL(url);
         }
+
     </script>
 
 </body>

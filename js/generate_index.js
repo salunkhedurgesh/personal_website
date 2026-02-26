@@ -11,7 +11,7 @@ const recentNews = [
 const currentWork = [
     `<span style="color:var(--halycon)">How can robot behaviour be made safe and explainable?</span> Kinematic intelligence: augmenting robot learning with analytical properties, with <span style="color:var(--blueBC)">Stithpragya Gupta, EPFL, Lausanne</span>`,
     `<span style="color:var(--halycon)">How to have better geometric insights regarding kinematics of robots?</span> Conformal Geometric Algebra, in collaboration with <span style="color:var(--blueBC)">Abhilash Nayak, CSIC, Barcelona</span>`,
-    `<span style="color:var(--halycon)">Is robot design dead?</span> Novel kinematic actuations and robots of future, in collaboration with <span style="color:var(--blueBC)">Vimalesh Muralidharan, IIT Bhubaneswar</span>`,
+    `<span style="color:var(--halycon)">What will the future generation of robots look like?</span> Novel kinematic actuations and robots of future, in collaboration with <span style="color:var(--blueBC)">Vimalesh Muralidharan, IIT Bhubaneswar</span>`,
     `<span style="color:var(--halycon)">How can a robot learn from simpler building blocks?</span> Transfer Learning with Sub-domain guarantees, in collaboration with <span style="color:var(--blueBC)">Bernardo Fichera, Max Planck, Tubingen</span>`,
 ];
 

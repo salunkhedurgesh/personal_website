@@ -71,8 +71,7 @@
         </div>
 
         <div class="publications" id="thesis" style="display: none;">
-            <div id="thesis_2024"></div> <!-- add the names in the const file_paths -->
-            <div id="thesis_2020"></div>
+            <script src="/js/generate_misc_publications.js"></script>
         </div>
 
         <div class="skill_spacer"></div>
@@ -83,12 +82,6 @@
         </div>
 
         <div class="publications" id="talks" style="display: none;">
-            <div class="year_block">
-                <div style="height: 2rem"> </div>
-                <div id="talksContainer"></div>
-            </div>
-            <script src="/js/generate_talks.js"></script>
-
         </div>
 
         <div class="skill_spacer"></div>
@@ -101,8 +94,6 @@
         <div class="skill_spacer" id="lastSpacer" style="display: block;"></div>
 
         <div class="publications" id="book_chapters" style="display: none;">
-            <div id="chapters_2024"></div>
-
             <div class="desktop_spacer"></div>
         </div>
 
@@ -111,22 +102,6 @@
     </div>
 
     <script>
-        const file_ext = '/projects/main/publications/sections/';
-        const file_paths = ['thesis_2024', 'thesis_2020', 'chapters_2024'];
-
-        for (const file of file_paths) {
-            console.log("Fetching:", file_ext + file + '.html');
-            fetch(file_ext + file + '.html')
-                .then(response => {
-                    if (!response.ok) throw new Error(`Failed to load ${file}`);
-                    return response.text();
-                })
-                .then(data => {
-                    document.getElementById(file).innerHTML = data;
-                })
-                .catch(err => console.error(err));
-        }
-
         const file_ext2 = '/projects/main/common/';
         const file_paths2 = ['logo_click_non_index'];
 

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cuspidal Redundant Robots | Durgesh Salunkhe</title>
+
+    <meta property="og:type"        content="article">
+    <meta property="og:title"       content="Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots">
+    <meta property="og:description" content="A systematic framework for classifying 7R wrist-partitioned redundant robots based on cuspidal properties. IEEE RA-L, Vol. 10, No. 12, 2025.">
+    <meta property="og:url"         content="https://salunkhedurgesh.com/projects/journal_webpages/2025/ral25_salunkhe/">
+    <!-- <meta property="og:image"  content="https://salunkhedurgesh.com/projects/journal_webpages/2025/ral25_salunkhe/teaser.png"> -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="Cuspidal Redundant Robots | Durgesh Salunkhe">
+    <meta name="twitter:description" content="Classification framework for 7R cuspidal redundant robots. IEEE RA-L 2025.">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style_publications.css">
+    <link rel="stylesheet" href="/styles/style_projects.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+
+    
+    <link rel="stylesheet" href="/projects/journal_webpages/styles/ral25_salunkhe.css">
+    <style>
+        :root {
+            --read-width: 760px;
+            --read-side-pad: 1.1rem;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .paper-hero,
+        .paper-section {
+            width: min(92vw, var(--read-width)) !important;
+            max-width: var(--read-width) !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding-left: var(--read-side-pad);
+            padding-right: var(--read-side-pad);
+            box-sizing: border-box;
+        }
+
+        .paper-title {
+            font-size: clamp(1.35rem, 2vw, 1.8rem) !important;
+            line-height: 1.45 !important;
+            text-wrap: balance;
+        }
+
+        .paper-venue {
+            font-size: clamp(0.7rem, 1.1vw, 0.82rem) !important;
+        }
+
+        .paper-authors {
+            font-size: clamp(0.9rem, 1.2vw, 1rem) !important;
+            line-height: 1.65 !important;
+        }
+
+        .paper-meta {
+            font-size: clamp(0.82rem, 1.05vw, 0.92rem) !important;
+            line-height: 1.6 !important;
+        }
+
+        .section-hdr {
+            font-size: clamp(0.76rem, 1.05vw, 0.9rem) !important;
+        }
+
+        .section-body,
+        .contrib-list li,
+        .faq-q,
+        .faq-a,
+        .related-authors {
+            font-size: clamp(0.95rem, 1.2vw, 1.02rem) !important;
+        }
+
+        .section-body {
+            line-height: 1.78 !important;
+            text-align: left !important;
+            overflow-wrap: anywhere;
+            hyphens: auto;
+        }
+
+        .section-body p,
+        .section-body li,
+        .faq-a {
+            margin-bottom: 0.75rem;
+        }
+
+        .contrib-list li {
+            line-height: 1.72 !important;
+        }
+
+        .btn-row,
+        .form-row {
+            row-gap: 0.55rem;
+        }
+
+        .paper-meta a,
+        .section-body a {
+            overflow-wrap: anywhere;
+        }
+
+        #abstract_block.section-body {
+            text-align: justify !important;
+            text-justify: inter-word;
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --read-side-pad: 0.2rem;
+            }
+
+            .paper-hero,
+            .paper-section {
+                width: min(94vw, var(--read-width)) !important;
+            }
+
+            .section-body {
+                line-height: 1.7 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="display: flex; flex-direction: row;">
+        <div class="logo" style="align-items: center;">
+            <a id="personalLink"><img id="logoImg" alt="logo" class="mainicon"></a>
+            <p>RA-L '25</p>
+        </div>
+    </div>
+
+    <div class="navcontent">
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="publicationsLink">
+            <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">publications</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+    <div class="topBack"></div>
+    <div id="contactTop"></div>
+    <script>
+        fetch('/projects/main/common/common_contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contactTop').innerHTML = d);
+    </script>
+    <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+    <!-- ── Hero ────────────────────────────────────────────────── -->
+    <div class="paper-hero">
+        <p class="paper-venue">IEEE Robotics and Automation Letters &middot; Vol.&nbsp;10, No.&nbsp;12 &middot; Dec.&nbsp;2025</p>
+
+        <h2 class="paper-title">Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots</h2>
+
+        <p class="paper-authors">
+            <span style="color: var(--halycon)">Durgesh Haribhau Salunkhe</span>,
+            Sthithpragya Gupta,
+            <a href="https://www.epfl.ch/labs/lasa/" style="color: var(--blueBC);">Aude Billard</a>
+        </p>
+        <p class="paper-meta">
+            DOI: <a href="https://doi.org/10.1109/LRA.2025.3623011">10.1109/LRA.2025.3623011</a>
+            &nbsp;&middot;&nbsp; pp.&nbsp;12509–12516
+        </p>
+
+        <div class="btn-row" style="align-items: center;">
+            <a href="/projects/main/resources/papers/ral25_salunkhe.pdf" target="_blank" class="btn">
+                <img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt=""> PDF
+            </a>
+            <a onclick="citeAction(this); return false;" class="btn" style="cursor:pointer;">
+                <img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt=""> Cite
+            </a>
+            <a href="https://doi.org/10.1109/LRA.2025.3623011" target="_blank" class="btn">
+                <img src="/projects/main/webpage_resources/images/web_internet.png" alt=""> DOI
+            </a>
+            <a class="btn btn-dim">Code (coming soon)</a>
+            <span class="cite-feedback" id="cite_feedback">Copied!</span>
+        </div>
+    </div>
+
+    <!-- ── Content ─────────────────────────────────────────────── -->
+    <div class="content" style="padding-bottom: 3rem;">
+
+        <!-- 1. Paper description -->
+        <div class="paper-section">
+            <p class="section-hdr">Paper description</p>
+            <div class="section-body" style="display: block;">
+                <p>
+                    This paper introduces a systematic framework to classify cuspidality in
+                    7R wrist-partitioned redundant robots by reducing the problem to a
+                    parameterized 3R equivalent. The framework helps identify when a robot
+                    can switch inverse kinematic solutions without singularity crossing,
+                    and offers practical design guidance for safer, more predictable
+                    collaborative robot operation.
+                </p>
+            </div>
+        </div>
+
+        <!-- 2. Video -->
+        <div class="paper-section">
+            <p class="section-hdr">Video</p>
+            <div class="section-body" style="display: block;">
+                <p style="margin-bottom: 0.6rem;">Presentation teaser.</p>
+                <div class="video-wrap" style="border: 1px solid var(--halycon); border-radius: 0.5rem; overflow: hidden;">
+                    <iframe src="https://player.vimeo.com/video/1167094705"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                        title="Presentation teaser"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Abstract -->
+        <div class="paper-section">
+            <p class="section-hdr" onclick="toggleSection('abstract_block')">Abstract</p>
+            <div id="abstract_block" class="section-body" style="display: block; text-align: justify;">
+                <p>Redundant robots, with more degrees of freedom than required for a given task, offer enhanced
+                dexterity but can exhibit complex kinematic behaviour in motion planning. Cuspidal robots, which can
+                change inverse kinematic solutions without crossing singularities, have been reported to pose unique
+                challenges for motion feasibility and repeatability. While cuspidality has been extensively studied
+                for 3R and certain 6R robots, no formal classification exists for redundant architectures. This letter
+                presents a systematic framework for classifying 7R wrist-partitioned redundant robots based on their
+                cuspidal properties. The method reduces the 7R structure to a parameterized 3R equivalent via the
+                redundant joint angle, enabling the application of established theory for cuspidal robots. Using this
+                approach, commercially available robots are analysed and categorized as cuspidal or noncuspidal.
+                Results show that the design offsets in commercial cobots may lead to cuspidality, which can
+                potentially cause a nonsingular change of operation mode in collaborative applications. This
+                classification framework provides a foundation for cuspidality-aware path planning and offers
+                practical guidelines for designing non-cuspidal redundant robots to ensure safer and more predictable
+                operation.</p>
+            </div>
+        </div>
+
+        <!-- 4. Key contributions -->
+        <div class="paper-section">
+            <p class="section-hdr">Key contributions</p>
+            <ul class="contrib-list">
+                <li>
+                    <span class="contrib-num">01.</span>
+                    <span>First systematic cuspidality classification framework for <strong style="color: var(--title-color); font-weight: 400;">7R wrist-partitioned redundant robots</strong>, filling a gap left open by decades of work on 3R and 6R architectures.</span>
+                </li>
+                <li>
+                    <span class="contrib-num">02.</span>
+                    <span>A <strong style="color: var(--title-color); font-weight: 400;">reduction method</strong> that maps any 7R robot to a parametrized family of 3R robots via the redundant joint angle, enabling direct application of established cuspidality criteria.</span>
+                </li>
+                <li>
+                    <span class="contrib-num">03.</span>
+                    <span>Analysis of <strong style="color: var(--title-color); font-weight: 400;">commercially available cobots</strong> showing that design offsets can induce cuspidality — with practical guidelines for designing non-cuspidal redundant robots.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 5. FAQ -->
+        <div class="paper-section">
+            <p class="section-hdr">FAQ</p>
+            <div class="section-body" style="display: block; text-align: left;">
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        What is a cuspidal robot?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">
+                        A cuspidal robot can move from one inverse kinematic solution (IKS) to another without crossing
+                        a singularity — something previously thought impossible. This happens because the robot has
+                        multiple IKS within a singularity-free region of its workspace. The name comes from a
+                        characteristic <em>cusp point</em> in the workspace boundary.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        Why is cuspidality a problem for redundant robots?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">
+                        Redundant robots (more DoF than needed) use a self-motion parameter to resolve redundancy.
+                        If the robot is cuspidal for certain values of this parameter, the motion planner may silently
+                        switch the robot into a different IKS, causing unexpected joint motions, potential collisions
+                        with the environment, and loss of repeatability — especially dangerous in collaborative
+                        applications.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        Which commercial cobots are affected?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">
+                        The paper analyses wrist-partitioned 7R cobots currently deployed in industry.
+                        Results show that non-zero link offsets — common in modern cobot designs — are a key
+                        indicator of cuspidality. Specific commercial robots are classified in the paper;
+                        please refer to Table II for the full list.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        How can robot designers avoid cuspidality?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">
+                        The paper provides concrete geometric guidelines: minimizing or zeroing specific link
+                        offsets in the wrist-partitioned 7R structure is the primary lever. The classification
+                        framework can be applied at the design stage — before the robot is built — to verify
+                        that no self-motion value leads to a cuspidal 3R sub-problem.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 6. Ask a question (contact form) -->
+        <div class="paper-section">
+            <p class="section-hdr">Ask a question</p>
+            <div class="section-body" style="display: block; text-align: left;">
+                <p style="margin-bottom: 0.8rem;">
+                    Have a question about this work? Send it directly to the corresponding author.
+                </p>
+                <!--
+                    SETUP (one-time, free):
+                    1. Go to https://formspree.io and create a free account
+                    2. Create a new form → set the email to salunkhedurgesh@gmail.com
+                    3. Copy the form ID (looks like "xpznvkqb")
+                    4. Replace TODO_FORM_ID below with your form ID
+                -->
+                <form class="contact-form"
+                      action="https://formspree.io/f/xaqdpobe"
+                      method="POST"
+                      target="_blank">
+                    <div class="form-row">
+                        <input type="text"  name="name"  placeholder="Your name"  required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <textarea name="message" placeholder="Your question about the paper..." required></textarea>
+                    <!-- Hidden field so you know which paper the question is about -->
+                    <input type="hidden" name="_subject" value="Question about: Cuspidal Redundant Robots (RA-L 2025)">
+                    <input type="hidden" name="_next"    value="https://salunkhedurgesh.com/projects/journal_webpages/2025/ral25_salunkhe/">
+                    <div style="display: flex; align-items: center; gap: 0.45rem;">
+                        <button type="submit" class="btn" style="cursor: pointer;">Send question</button>
+                        <button type="reset" class="btn btn-dim" style="cursor: pointer;">Clear</button>
+                        <span class="form-status" id="form_status"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Interactive code — uncomment when notebook is ready -->
+        <!--
+        <div class="paper-section">
+            <p class="section-hdr">Interactive code</p>
+            <div class="section-body" style="display: block;">
+                <p>Classify your own 7R robot: plug in DH parameters and check cuspidality instantly.</p>
+                <div style="margin-top: 0.8rem;">
+                    <a href="https://colab.research.google.com/github/salunkhedurgesh/TODO_REPO/blob/main/notebooks/ral25_cuspidal_7R.ipynb"
+                       target="_blank" class="btn" style="margin-right: 0.5rem;">&#9654; Run in Colab</a>
+                    <a href="https://github.com/salunkhedurgesh/TODO_REPO" target="_blank" class="btn">
+                        <img src="/projects/main/webpage_resources/images/web_globe.png" alt=""> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!-- Related work -->
+        <div class="paper-section">
+            <p class="section-hdr" onclick="toggleSection('related_block')">Related work</p>
+            <div id="related_block" class="section-body" style="display: block;">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 0.9rem;">
+                        <a href="/projects/icra23/index.html">Trajectory planning issues in commercial cuspidal robots</a><br>
+                        <span class="related-authors">Salunkhe, Chablat, Wenger &mdash; ICRA 2023</span>
+                    </li>
+                    <li style="margin-bottom: 0.9rem;">
+                        <a href="https://doi.org/10.1177/02783649241293481" target="_blank">6R cuspidal robots: kinematic issues and guidelines for path planning and design</a><br>
+                        <span class="related-authors">Salunkhe, Marauli, Mueller, Chablat, Wenger &mdash; IJRR 2024</span>
+                    </li>
+                    <li>
+                        <a href="/projects/main/publications/publications.html">All publications &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="desktop_spacer"></div>
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contact').innerHTML = d);
+    </script>
+
+    <script>
+        function toggleSection(id) {
+            const el = document.getElementById(id);
+            el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+        }
+        function toggleFaq(header) {
+            const answer = header.nextElementSibling;
+            const arrow  = header.querySelector('.faq-arrow');
+            const open   = answer.style.display === 'block';
+            answer.style.display = open ? 'none' : 'block';
+            arrow.innerHTML      = open ? '&#9660;' : '&#9650;';
+        }
+        const BIBTEX = `@article{ral25_salunkhe,
+  author  = {Salunkhe, Durgesh Haribhau and Gupta, Sthithpragya and Billard, Aude},
+  journal = {IEEE Robotics and Automation Letters},
+  title   = {Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots},
+  year    = {2025},
+  volume  = {10},
+  number  = {12},
+  pages   = {12509--12516},
+  doi     = {10.1109/LRA.2025.3623011}
+}`;
+        function citeAction(btn) {
+            navigator.clipboard.writeText(BIBTEX);
+            const fb = document.getElementById('cite_feedback');
+            fb.style.opacity = '1';
+            setTimeout(() => fb.style.opacity = '0', 2000);
+            const blob = new Blob([BIBTEX], { type: 'text/plain' });
+            const url  = URL.createObjectURL(blob);
+            const dl   = document.createElement('a');
+            dl.href     = url;
+            dl.download = 'ral25_salunkhe.bib';
+            dl.click();
+            URL.revokeObjectURL(url);
+        }
+
+    </script>
+
+</body>
+</html>

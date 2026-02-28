@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!--
+    JOURNAL PAPER WEBPAGE TEMPLATE
+    ================================
+    HOW TO USE:
+    1. Copy this folder to  projects/journal_webpages/YEAR/PAPER_ID/
+    2. Find every  TODO  and fill it in
+    3. Add figures to  figures/  subfolder
+    4. Set up Formspree (free): https://formspree.io → get form ID → replace TODO_FORM_ID
+    5. Update papers.csv: webLink = /projects/journal_webpages/YEAR/PAPER_ID/
+
+    SECTION ORDER:
+    Hero → Contributions → Video → Abstract → Figures → FAQ → Contact → [Code] → BibTeX → Related
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TODO: Short Title | Durgesh Salunkhe</title>
+
+    <meta property="og:type"        content="article">
+    <meta property="og:title"       content="TODO: Full Paper Title">
+    <meta property="og:description" content="TODO: 1–2 sentence summary. Journal/Venue, Year.">
+    <meta property="og:url"         content="https://salunkhedurgesh.com/projects/journal_webpages/YEAR/PAPER_ID/">
+    <!-- <meta property="og:image"  content="https://salunkhedurgesh.com/projects/journal_webpages/YEAR/PAPER_ID/teaser.png"> -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="TODO: Short Title | Durgesh Salunkhe">
+    <meta name="twitter:description" content="TODO: One-liner. Venue Year.">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style_publications.css">
+    <link rel="stylesheet" href="/styles/style_projects.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+
+    <style>
+        .paper-hero { max-width: 700px; width: 88vw; margin: 4rem auto 0; padding-bottom: 0.5rem; }
+        .paper-venue { font-size: 0.72rem; color: var(--halycon); font-family: 'PT Mono', monospace; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.7rem; }
+        .paper-title { font-size: 1.45rem; color: var(--title-color); font-weight: 400; line-height: 1.5; margin-bottom: 0.8rem; }
+        .paper-authors { font-size: 0.85rem; color: var(--paper_color); line-height: 1.6; margin-bottom: 0.3rem; }
+        .paper-meta { font-size: 0.75rem; color: var(--blueBC); margin-bottom: 1.4rem; }
+        .paper-meta a { color: var(--blueBC); text-decoration: underline; text-underline-offset: 3px; }
+
+        .btn-row { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+        .btn { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.38rem 0.85rem; border: 1px solid var(--halycon); border-radius: 3px; color: var(--halycon); font-family: 'PT Mono', monospace; font-size: 0.72rem; text-decoration: none; background: none; cursor: pointer; transition: background 0.15s, color 0.15s; }
+        .btn:hover { background: var(--halycon); color: #03122b; }
+        .btn img { width: 0.8rem; height: 0.8rem; }
+        .btn-dim { border-color: rgba(136,146,176,0.4); color: rgba(136,146,176,0.55); cursor: default; }
+        .btn-dim:hover { background: none; color: rgba(136,146,176,0.55); }
+
+        .paper-section { max-width: 700px; width: 88vw; margin: 0 auto; }
+        .section-hdr { font-size: 0.78rem; color: var(--halycon); font-family: 'PT Mono', monospace; letter-spacing: 0.12em; text-transform: uppercase; padding: 1.1rem 0 0.4rem; border-top: 1px solid rgba(0,238,182,0.18); margin-top: 1.8rem; cursor: pointer; }
+        .section-hdr:hover { color: var(--title-color); }
+        .section-body { padding-bottom: 0.5rem; color: var(--paper_color); font-size: 0.88rem; font-weight: lighter; line-height: 1.7; text-align: justify; }
+        .section-body a { color: var(--halycon); }
+        .section-body a:hover { text-decoration: underline; }
+
+        .contrib-list { list-style: none; padding: 0; margin: 0.4rem 0 0; }
+        .contrib-list li { display: flex; gap: 0.8rem; padding: 0.55rem 0; border-bottom: 1px solid rgba(136,146,176,0.1); font-size: 0.88rem; color: var(--paper_color); font-weight: lighter; line-height: 1.6; }
+        .contrib-list li:last-child { border-bottom: none; }
+        .contrib-num { color: var(--halycon); font-family: 'PT Mono', monospace; font-size: 0.72rem; min-width: 1.4rem; padding-top: 0.2rem; }
+
+        .faq-item { border-bottom: 1px solid rgba(136,146,176,0.1); }
+        .faq-q { font-size: 0.88rem; color: var(--title-color); font-weight: 400; padding: 0.7rem 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-q:hover { color: var(--halycon); }
+        .faq-q .faq-arrow { font-size: 0.7rem; color: var(--halycon); font-family: 'PT Mono', monospace; }
+        .faq-a { font-size: 0.85rem; color: var(--paper_color); font-weight: lighter; line-height: 1.7; padding-bottom: 0.8rem; display: none; }
+        .faq-a a { color: var(--halycon); }
+
+        .paper-carousel .project_image { width: 100%; }
+        .paper-carousel .project_image img { width: 100%; height: auto; max-width: 100%; max-height: none; object-fit: contain; }
+        .fig-placeholder { width: 100%; height: 220px; background: rgba(0,238,182,0.04); border: 1px dashed rgba(0,238,182,0.25); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--blueBC); font-style: italic; font-size: 0.82rem; }
+        .fig-caption { font-size: 0.78rem; color: var(--blueBC); text-align: center; margin-top: 0.6rem; font-style: italic; }
+
+        .bib-block { font-family: 'PT Mono', monospace; font-size: 0.78rem; color: var(--blueBC); white-space: pre-wrap; word-break: break-word; background: rgba(255,255,255,0.03); padding: 1rem; border-radius: 4px; margin: 0; border: 1px solid rgba(136,146,176,0.15); }
+        .copy-btn { cursor: pointer; background: var(--halycon); border: none; padding: 0.38rem 1rem; border-radius: 3px; font-family: 'PT Mono', monospace; font-size: 0.72rem; color: #03122b; margin-top: 0.6rem; }
+        .copy-btn:hover { opacity: 0.85; }
+        .copy-feedback { font-size: 0.75rem; color: var(--halycon); opacity: 0; transition: opacity 0.3s; margin-left: 0.6rem; }
+
+        .video-wrap { position: relative; width: 100%; aspect-ratio: 16 / 9; margin-top: 0.8rem; }
+        .video-wrap iframe { width: 100%; height: 100%; border: none; border-radius: 4px; }
+
+        .contact-form { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.6rem; }
+        .contact-form input, .contact-form textarea { width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(136,146,176,0.3); border-radius: 3px; color: var(--title-color); font-family: Rubik, sans-serif; font-size: 0.85rem; padding: 0.6rem 0.8rem; outline: none; caret-color: var(--halycon); }
+        .contact-form input:focus, .contact-form textarea:focus { border-color: var(--halycon); }
+        .contact-form textarea { resize: vertical; min-height: 100px; }
+        .contact-form input::placeholder, .contact-form textarea::placeholder { color: rgba(136,146,176,0.5); }
+        .form-row { display: flex; gap: 0.6rem; }
+        .form-row input { flex: 1; }
+        .form-status { font-size: 0.8rem; color: var(--halycon); margin-top: 0.3rem; min-height: 1.2em; }
+    </style>
+</head>
+
+<body>
+
+    <div style="display: flex; flex-direction: row;">
+        <div class="logo" style="align-items: center;">
+            <a id="personalLink"><img id="logoImg" alt="logo" class="mainicon"></a>
+            <p>TODO: VENUE 'YY</p>
+        </div>
+    </div>
+
+    <div class="navcontent">
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="publicationsLink">
+            <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">publications</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+    <div class="topBack"></div>
+    <div id="contactTop"></div>
+    <script>
+        fetch('/projects/main/common/common_contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contactTop').innerHTML = d);
+    </script>
+    <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+    <!-- ── Hero ────────────────────────────────────────────────── -->
+    <div class="paper-hero">
+        <!-- TODO: e.g. "IEEE ROBOTICS AND AUTOMATION LETTERS · VOL. 10, NO. 12 · DEC. 2025" -->
+        <p class="paper-venue">TODO: JOURNAL &middot; VOL. X, NO. Y &middot; MON. YEAR</p>
+
+        <h2 class="paper-title">TODO: Full Paper Title</h2>
+
+        <p class="paper-authors">
+            <span style="color: var(--halycon)">Durgesh Haribhau Salunkhe</span>,
+            <a href="TODO_LINK" style="color: var(--blueBC);">TODO: Co-author 1</a>,
+            <a href="TODO_LINK" style="color: var(--blueBC);">TODO: Co-author 2</a>
+        </p>
+        <p class="paper-meta">
+            DOI: <a href="https://doi.org/TODO_DOI">TODO_DOI</a>
+        </p>
+
+        <div class="btn-row">
+            <a href="/projects/main/resources/papers/TODO_PAPER_ID.pdf" target="_blank" class="btn">
+                <img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt=""> PDF
+            </a>
+            <a onclick="toggleSection('bibtex_block')" class="btn" style="cursor:pointer;">
+                <img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt=""> Cite
+            </a>
+            <a href="https://doi.org/TODO_DOI" target="_blank" class="btn">
+                <img src="/projects/main/webpage_resources/images/web_internet.png" alt=""> DOI
+            </a>
+            <!-- Remove btn-dim and add href when ready -->
+            <a class="btn btn-dim">Video (coming soon)</a>
+            <a class="btn btn-dim">Code (coming soon)</a>
+        </div>
+    </div>
+
+    <!-- ── Content ─────────────────────────────────────────────── -->
+    <div class="content" style="padding-bottom: 3rem;">
+
+        <!-- 1. Key contributions (up to 3) -->
+        <div class="paper-section">
+            <p class="section-hdr">Key contributions</p>
+            <ul class="contrib-list">
+                <li>
+                    <span class="contrib-num">01.</span>
+                    <span>TODO: First contribution — what is novel and why it matters.</span>
+                </li>
+                <li>
+                    <span class="contrib-num">02.</span>
+                    <span>TODO: Second contribution.</span>
+                </li>
+                <li>
+                    <span class="contrib-num">03.</span>
+                    <span>TODO: Third contribution.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 2. Video -->
+        <div class="paper-section">
+            <p class="section-hdr">Video</p>
+            <div class="section-body" style="display: block;">
+                <p style="margin-bottom: 0.6rem;">TODO: One sentence describing the video.</p>
+                <div class="video-wrap">
+                    <!-- TODO: replace VIDEO_ID with your YouTube/Vimeo embed URL -->
+                    <iframe src="https://www.youtube.com/embed/TODO_VIDEO_ID"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                        title="TODO: Video title"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Abstract -->
+        <div class="paper-section">
+            <p class="section-hdr" onclick="toggleSection('abstract_block')">Abstract</p>
+            <div id="abstract_block" class="section-body" style="display: block;">
+                <p>TODO: Paste abstract text here.</p>
+            </div>
+        </div>
+
+        <!-- 4. Key figures (3-figure carousel) -->
+        <div class="paper-section">
+            <p class="section-hdr">Key results</p>
+            <div class="section-body" style="display: block;">
+                <div class="carousel-wrapper paper-carousel" style="width: 100%;">
+                    <button class="carousel-button left" onclick="cycleImage(this, -1)">&#9664;</button>
+                    <div class="project_image" id="pfig1" style="display: flex; flex-direction: column; width: 100%;">
+                        <!-- TODO: <img src="figures/fig1.png" alt="Figure 1"> -->
+                        <div class="fig-placeholder">TODO: Figure 1 — method overview</div>
+                        <p class="fig-caption">TODO: Caption for figure 1.</p>
+                    </div>
+                    <div class="project_image" id="pfig2" style="display: none; flex-direction: column; width: 100%;">
+                        <!-- TODO: <img src="figures/fig2.png" alt="Figure 2"> -->
+                        <div class="fig-placeholder">TODO: Figure 2 — main results</div>
+                        <p class="fig-caption">TODO: Caption for figure 2.</p>
+                    </div>
+                    <div class="project_image" id="pfig3" style="display: none; flex-direction: column; width: 100%;">
+                        <!-- TODO: <img src="figures/fig3.png" alt="Figure 3"> -->
+                        <div class="fig-placeholder">TODO: Figure 3 — comparison / discussion</div>
+                        <p class="fig-caption">TODO: Caption for figure 3.</p>
+                    </div>
+                    <button class="carousel-button right" onclick="cycleImage(this, 1)">&#9654;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. FAQ -->
+        <div class="paper-section">
+            <p class="section-hdr">FAQ</p>
+            <div class="section-body" style="display: block; text-align: left;">
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        TODO: Frequently asked question 1?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">TODO: Answer to question 1.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        TODO: Frequently asked question 2?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">TODO: Answer to question 2.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-q" onclick="toggleFaq(this)">
+                        TODO: Frequently asked question 3?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-a">TODO: Answer to question 3.</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 6. Ask a question (contact form) -->
+        <div class="paper-section">
+            <p class="section-hdr">Ask a question</p>
+            <div class="section-body" style="display: block; text-align: left;">
+                <p style="margin-bottom: 0.8rem;">Have a question about this work? Send it directly to the corresponding author.</p>
+                <!--
+                    SETUP (one-time, free):
+                    1. Go to https://formspree.io — create a free account
+                    2. New form → set destination email to your address
+                    3. Copy the form ID (e.g. "xpznvkqb")
+                    4. Replace TODO_FORM_ID below
+                -->
+                <form class="contact-form"
+                      action="https://formspree.io/f/TODO_FORM_ID"
+                      method="POST">
+                    <div class="form-row">
+                        <input type="text"  name="name"  placeholder="Your name"  required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <textarea name="message" placeholder="Your question about the paper..." required></textarea>
+                    <!-- TODO: update subject and redirect URL -->
+                    <input type="hidden" name="_subject" value="Question about: TODO Paper Title">
+                    <input type="hidden" name="_next"    value="https://salunkhedurgesh.com/projects/journal_webpages/YEAR/PAPER_ID/">
+                    <div>
+                        <button type="submit" class="btn" style="border: none; cursor: pointer;">Send question</button>
+                        <span class="form-status" id="form_status"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Optional: Interactive code (uncomment when notebook is ready) -->
+        <!--
+        <div class="paper-section">
+            <p class="section-hdr">Interactive code</p>
+            <div class="section-body" style="display: block;">
+                <p>TODO: Describe what the notebook demonstrates.</p>
+                <div style="margin-top: 0.8rem;">
+                    <a href="https://colab.research.google.com/github/salunkhedurgesh/TODO_REPO/blob/main/notebooks/TODO.ipynb"
+                       target="_blank" class="btn" style="margin-right:0.5rem;">&#9654; Run in Colab</a>
+                    <a href="https://github.com/salunkhedurgesh/TODO_REPO" target="_blank" class="btn">
+                        <img src="/projects/main/webpage_resources/images/web_globe.png" alt=""> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!-- BibTeX -->
+        <div class="paper-section">
+            <p class="section-hdr" onclick="toggleSection('bibtex_block')">BibTeX</p>
+            <div id="bibtex_block" style="display: none; padding-bottom: 0.5rem;">
+                <pre id="bibtex_content" class="bib-block">@article{TODO_KEY,
+  author  = {Salunkhe, Durgesh Haribhau and TODO},
+  journal = {TODO: Journal Name},
+  title   = {TODO: Paper Title},
+  year    = {TODO},
+  volume  = {TODO},
+  number  = {TODO},
+  pages   = {TODO--TODO},
+  doi     = {TODO_DOI}
+}</pre>
+                <div style="display: flex; align-items: center;">
+                    <button class="copy-btn" onclick="copyBibtex()">Copy BibTeX</button>
+                    <span id="copy_feedback" class="copy-feedback">Copied!</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related work -->
+        <div class="paper-section">
+            <p class="section-hdr" onclick="toggleSection('related_block')">Related work</p>
+            <div id="related_block" class="section-body" style="display: block;">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 0.9rem;">
+                        <a href="TODO_LINK">TODO: Related paper title</a><br>
+                        <span style="font-size: 0.8rem; color: var(--blueBC);">TODO: Authors &mdash; Venue Year</span>
+                    </li>
+                    <li>
+                        <a href="/projects/main/publications/publications.html">All publications &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="desktop_spacer"></div>
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/contact.html')
+            .then(r => r.text()).then(d => document.getElementById('contact').innerHTML = d);
+    </script>
+
+    <script>
+        function toggleSection(id) {
+            const el = document.getElementById(id);
+            el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+        }
+        function toggleFaq(header) {
+            const answer = header.nextElementSibling;
+            const arrow  = header.querySelector('.faq-arrow');
+            const open   = answer.style.display === 'block';
+            answer.style.display = open ? 'none' : 'block';
+            arrow.innerHTML      = open ? '&#9660;' : '&#9650;';
+        }
+        function copyBibtex() {
+            const text = document.getElementById('bibtex_content').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const fb = document.getElementById('copy_feedback');
+                fb.style.opacity = '1';
+                setTimeout(() => fb.style.opacity = '0', 2000);
+            });
+        }
+    </script>
+
+</body>
+</html>

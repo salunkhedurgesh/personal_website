@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 # svg files
 *.svg
 
 # eps files
 *.eps
+=======
+# svg files
+*.svg
+
+# eps files
+*.eps
+
+# presentation related images
+/presentation_resource/
+/presentation_slides/
+>>>>>>> a933edf9ae28a2cef2c0222021f3e46a7b3cad45

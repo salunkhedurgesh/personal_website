@@ -1,45 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Texturina:opsz@12..72&display=swap');
+/* ============================================================
+   style_projects.css
+   Projects page — requires style.css (fonts, reset, variables)
+   ============================================================ */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Rubik, sans-serif;
-    scroll-behavior: smooth;
-}
 
-:root {
-    --title-color: #ccd6f6;
-    /*--halycon: #64ffda;*/
-    --halycon: #00eeb6;
-    --blueBC: #8892b0;
-    --paper_color: #8892b0;
-    --background_color: #03122b;
-}
+/* ============================================================
+   BASE OVERRIDES
+   ============================================================ */
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: #03122b;
-    min-height: 100vh;
-    color: white;
-    font-family: Rubik, sans-serif;
+    height: fit-content;
     overflow-x: clip;
 }
+
+
+/* ============================================================
+   PROJECT LAYOUT
+   ============================================================ */
 
 .project_cover {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 85vw;
-    margin-left: 10vw;
-    margin-right: 2vw;
-    /*border: #f09d51 1px solid;*/
+    max-width: 95vw;
+    /* margin-left: 10vw;
+    margin-right: 2vw; */
+}
+
+.project_cover .project_title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .project {
@@ -48,16 +42,23 @@ body {
     margin-bottom: 2rem;
     align-items: center;
     justify-content: center;
-    max-width: 80vw;
-    margin-left: 10vw;
-    margin-right: 2vw;
+    max-width: 95vw;
+    /* margin-right: 2vw; */
+    margin-left: 2vw;
 }
+
+.last_project {
+    margin-bottom: 0;
+}
+
+
+/* ============================================================
+   PROJECT DESCRIPTION
+   ============================================================ */
 
 .project_description {
     display: flex;
-    width: 60%;
-    max-width: 80vw;
-    margin-right: 10vw;
+    width:100%;
 }
 
 .project_description .highlight {
@@ -68,41 +69,35 @@ body {
 
 .project_description p {
     font-weight: lighter;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     color: var(--paper_color);
     text-align: justify;
 }
 
-.project_cover .project_title {
-    font-size: 1.5rem;
-    font-weight: 300;
-    /* lighter weight */
-    color: var(--title-color);
-    text-align: center;
-    margin-bottom: 1rem;
-}
 
-.last_project {
-    margin-bottom: 0;
-}
+/* ============================================================
+   PROJECT IMAGE & CAROUSEL
+   ============================================================ */
 
 .project_image {
     display: flex;
-    z-index: -1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    /* Needed for arrow positioning */
+    position: relative;  /* was: z-index: -1 which placed images behind the page */
 }
 
 .project_image img {
-    width: 300x;
+    width: 300px;        /* was: 300x (typo — invalid unit) */
     height: 300px;
     object-fit: cover;
     border-radius: 0.3rem;
     display: block;
+}
+
+.project_image img:hover {
+    cursor: pointer;
 }
 
 .project_image figcaption {
@@ -112,11 +107,6 @@ body {
     margin-top: 1.5rem;
     font-style: italic;
     display: block;
-    z-index: 1;
-}
-
-.project_image img:hover {
-    cursor: pointer;
 }
 
 .carousel-wrapper {
@@ -124,7 +114,6 @@ body {
     width: fit-content;
     margin: 0 auto;
 }
-
 
 .carousel-button {
     position: absolute;
@@ -152,12 +141,41 @@ body {
     right: 10px;
 }
 
+
+/* ============================================================
+   RESPONSIVE — max-width: 799px  (Mobile)
+   ============================================================ */
+
+@media only screen and (max-width: 799px) {
+
+    .carousel-button {
+        display: none;
+    }
+
+    .project_image,
+    .project_image img,
+    .project_image p {
+        display: none;
+    }
+
+    .project_description {
+        width: 100%;
+        max-width: 95vw;
+        /* margin-right: 10vw; */
+    }
+}
+
+
+/* ============================================================
+   RESPONSIVE — min-width: 800px  (Desktop)
+   ============================================================ */
+
 @media only screen and (min-width: 800px) {
+
     .project {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* align-items: flex-start; */
         align-items: center;
         gap: 2rem;
         width: 100%;
@@ -169,15 +187,10 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: center;
         gap: 0.5rem;
         width: 100%;
-        /* max-width: 500px; */
         aspect-ratio: 1 / 1;
-        /* overflow: hidden;  */
-        /* clips the child elements such as captions to fit the container size (not recommended) */
         margin: 0 auto;
-        /* border: #00eeb6 1px solid; */
     }
 
     .project_image img {
@@ -190,9 +203,7 @@ body {
     }
 
     .project_image iframe {
-        display: block;
-        position: center;
-        /*border: #f09d51 1px solid;*/
+        display: block;   /* was also: position: center (invalid) */
         max-width: 100%;
     }
 
@@ -202,24 +213,4 @@ body {
         text-align: center;
         font-size: 0.8rem;
     }
-}
-
-@media only screen and (max-width: 800px) {
-    .carousel-button {
-        display: none;
-    }
-
-    .project_image,
-    .project_image img,
-    .project_image p {
-        display: none;
-    }
-
-    .project_description {
-        display: flex;
-        width: 100%;
-        max-width: 80vw;
-        margin-right: 10vw;
-    }
-
 }

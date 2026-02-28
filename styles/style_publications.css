@@ -1,64 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Texturina:opsz@12..72&display=swap');
+/* ============================================================
+   style_publications.css
+   Publications page — requires style.css (fonts, reset, variables)
+   ============================================================ */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Rubik, sans-serif;
-    scroll-behavior: smooth;
-}
 
-:root {
-    --title-color: #ccd6f6;
-    /*--halycon: #64ffda;*/
-    --halycon: #00eeb6;
-    --blueBC: #8892b0;
-    --paper_color: #8892b0;
-    --background_color: #03122b;
-}
+/* ============================================================
+   BASE OVERRIDES
+   Publications page needs scrollable height and clip overflow.
+   ============================================================ */
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: #03122b;
     height: fit-content;
-    min-height: 100vh;
-    color: white;
-    font-family: Rubik, sans-serif;
     overflow-x: clip;
 }
 
+
+/* ============================================================
+   PAGE LAYOUT
+   ============================================================ */
+
+/* Merged from two duplicate .content definitions */
 .content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.nowrap {
-    white-space: nowrap;
-}
-
-/* Main content */
 .title {
     display: flex;
     flex-direction: column;
     background-color: var(--background_color);
     width: 100vw;
-    /* max-width: 1024px; */
     position: sticky;
     top: 3rem;
     justify-content: center;
     align-items: center;
-    /*border-top: var(--halycon) 1px solid;*/
     margin-top: 3rem;
     z-index: 1;
+}
+
+.title p {
+    color: var(--blueBC);
+    font-size: 2rem;
+    text-align: center;    /* was: position: center (invalid) */
+}
+
+.title p:hover {
+    cursor: pointer;
 }
 
 #icra_title {
@@ -67,31 +57,17 @@ a {
     top: 0;
 }
 
-.title p {
-    color: var(--blueBC);
-    font-size: 2rem;
-    position: center;
-}
 
-.title p:hover {
-    cursor: pointer;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
+/* ============================================================
+   YEAR BLOCKS
+   ============================================================ */
 
 .year_block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* max-width: 1024px; */
     width: 80vw;
-    /*border: saddlebrown 1px solid;*/
 }
 
 .year_block p {
@@ -102,113 +78,78 @@ a {
     cursor: pointer;
 }
 
-.year {
-    width: 100vw;
-    background-color: var(--background_color);
-    position: sticky;
-    top: 4rem;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 2rem;
-    padding-top: 1.5rem;
-    background: var(--background_color);
-    z-index: 1;
-}
-
 .year_block ol li {
     color: var(--blueBC);
     font-size: 0.85rem;
     line-height: 1rem;
 }
 
-.paper {
-    display: flex;
-    flex-direction: column;
-    min-width: 50vw;
-    margin: 0 auto 2rem auto;   /* center horizontally */
-    /* (optional) keep it from getting too wide */
-    max-width: 80vw;
-    /* border: #00eeb6 1px solid; */
+.year_block:last-child {
+    margin-bottom: 0;
 }
+
+.year {
+    width: 100vw;
+    background-color: var(--background_color); /* single background declaration */
+    position: sticky;
+    top: 4rem;
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    z-index: 1;
+}
+
+
+/* ============================================================
+   PUBLICATION CONTAINERS
+   ============================================================ */
 
 .publications {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     width: 80vw;
+    /* border: #f09d51 1px dashed; */
 }
 
 .talks {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start; /* was: left (invalid for flex) */
     align-items: flex-start;
     max-width: 1024px;
     width: 100vw;
 }
 
-.skillTitle {
-    color: var(--title-color);
-    font-size: 1rem;
-    font-weight: lighter;
-}
 
-.skillTitle span:hover {
-    color: var(--halycon);
+/* ============================================================
+   PAPER CARDS
+   ============================================================ */
+
+.paper {
+    display: flex;
+    flex-direction: column;
+    min-width: 60vw;
+    max-width: 95vw;
+    margin: 0 auto 2rem auto;
+    /* border: var(--halycon) 1px solid; */
 }
 
 .last_paper {
     margin-bottom: 0;
 }
 
-.year_block:last-child {
-    margin-bottom: 0;
-}
-
-.paper_title {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-}
-
-.action_row {
-    display: flex;
-    flex-direction: row;
-    max-width: 20%;
-}
-
-.date_column {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 15%;
-}
-
-.action_row p {
-    color: var(--blueBC);
-    text-align: center;
-}
-
-.paper_title .paper_heading {
-    color: var(--title-color);
-    text-align: left;
-    /*border: #00eeb6 1px solid;*/
-}
-
-.paper_title .awards {
-    color: var(--title-color);
-    text-align: left;
-    /*border: #00eeb6 1px solid;*/
-}
-
+/* Merged from two duplicate .paper_description definitions */
 .paper_description {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    /*border: #f09d51 1px solid;*/
+    /* border: #f09d51 1px solid; */
+    gap: 1.5rem;
 }
 
 .paper_description button {
@@ -223,7 +164,7 @@ a {
 .paper_description button:hover,
 .paper_description a:hover {
     scale: 1.2;
-    transition-delay: 0.05s;
+    cursor: pointer;
 }
 
 .paper_description img {
@@ -243,12 +184,49 @@ a {
     font-weight: lighter;
     margin-top: 1rem;
     text-align: left;
-    width: 100%;
-    /*border: #f09d51 1px solid;*/
 }
 
-.paper_description a:hover {
-    cursor: pointer;
+/* Merged from two duplicate .paper_title definitions */
+.paper_title {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    flex: 1;
+}
+
+.paper_title .paper_heading {
+    color: var(--title-color);
+    text-align: left;
+}
+
+.paper_title .awards {
+    color: var(--title-color);
+    text-align: left;
+}
+
+.action_row {
+    display: flex;
+    flex-direction: row;
+    max-width: 20%;
+}
+
+.action_row p {
+    color: var(--blueBC);
+    text-align: center;
+}
+
+/* Merged from two duplicate .date_column definitions */
+.date_column {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    min-width: 80px;
+    width: 15%;
+}
+
+.authors {
+    white-space: normal;
+    line-height: 1.5;
 }
 
 .authors a {
@@ -259,53 +237,54 @@ a {
     color: var(--halycon);
 }
 
+
+/* ============================================================
+   ABSTRACT
+   ============================================================ */
+
+.abstract {
+    width: 100%;
+}
+
 .abstract p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: lighter;
     text-align: justify;
     border-top: var(--halycon) 1px solid;
     margin-top: 1.5rem;
     padding-top: 0.5rem;
-    line-height: 1.5rem;
+    line-height: 1.2em;
     color: var(--paper_color);
 }
 
-#icra23_abstract,
-#issac22_abstract,
-#ark22_abstract,
-#mmt22_abstract,
-#mmt22_opt_abstract {
-    display: none;
+
+/* ============================================================
+   SKILLS BLOCK
+   ============================================================ */
+
+.skillTitle {
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: lighter;
 }
 
-.skill_spacer {
-    height: 5vh;
+.skillTitle span:hover {
+    color: var(--halycon);
 }
 
-.spacer_small {
-    height: 5vh;
-}
-
-.dummy_spacer {
-    height: 30vh;
-    width: 95vw;
-    border: white 2px solid;
-}
-
+/* Fixed: removed invalid `position: center` */
 #skillsBlock {
-    position: center;
+    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1024px;
     width: 80vw;
-    /*border: #f09d51 1px solid;*/
 }
 
 #skills {
     margin-left: 5rem;
     display: flex;
     justify-content: center;
-    /*border: #00eeb6 1px solid;*/
 }
 
 #skills ol {
@@ -319,36 +298,34 @@ a {
     list-style-type: disc;
 }
 
-
-#skills ol+ol {
+#skills ol + ol {
     margin-left: 5rem;
-    /* Adjust the spacing as needed */
 }
 
-/* === Alignment Fixes for paper_description Blocks === */
-.paper_description {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
+
+/* ============================================================
+   SPACERS
+   ============================================================ */
+
+.skill_spacer {
+    height: 5vh;
 }
 
-.date_column {
-    min-width: 80px;
-    text-align: center;
+/* Overrides style.css .spacer_small (3vh) for publications page */
+.spacer_small {
+    height: 5vh;
 }
 
-.paper_title {
-    flex: 1;
-}
 
-.authors {
-    white-space: normal;
-    line-height: 1.5;
-}
+/* ============================================================
+   RESPONSIVE — max-width: 799px  (Mobile)
+   ============================================================ */
 
-@media only screen and (max-width: 801px) {
+@media only screen and (max-width: 799px) {
+
     .paper {
         align-items: center;
+        max-width: 85vw;
     }
 
     .paper_description {
@@ -357,11 +334,17 @@ a {
     }
 
     .paper_title {
-        width: 100%
+        width: 100%;
     }
 }
 
+
+/* ============================================================
+   RESPONSIVE — min-width: 800px  (Desktop)
+   ============================================================ */
+
 @media only screen and (min-width: 800px) {
+
     .content {
         margin-top: 4rem;
     }
@@ -377,18 +360,19 @@ a {
     }
 
     .year {
-        position: sticky;
         top: 6rem;
     }
 
     .paper {
-        min-width: 50vw;
+        width: 50vw;
         max-width: 80vw;
+        min-width: 50vw;
         margin-bottom: 5vh;
     }
 
     .publications {
-        width: 650px;
+        width: 60vw;
+        min-width: 650px;
         margin-bottom: 5vh;
     }
 
@@ -403,19 +387,21 @@ a {
 
     .paper_description .authors {
         font-size: 0.8rem;
-        width: 100%;
-        max-width: 80vw;
     }
 
     .abstract p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
+
+
+/* ============================================================
+   RESPONSIVE — min-width: 1500px  (Large desktops)
+   ============================================================ */
 
 @media only screen and (min-width: 1500px) {
 
     .title {
-        z-index: 2;
         width: 100vw;
         position: sticky;
         top: 2.5rem;
@@ -428,8 +414,7 @@ a {
     }
 
     .year {
-        position: sticky;
-        top: 5rem;
+        top: 6.5rem;
     }
 
     .experience2 {
@@ -454,8 +439,6 @@ a {
         font-weight: lighter;
         margin-top: 1rem;
         text-align: left;
-        width: 100%;
-        /*border: #f09d51 1px solid;*/
     }
 
     .publications li {
@@ -468,9 +451,6 @@ a {
     }
 
     .paper_description {
-        max-width: 1024px;
-        width: 80vw;
         margin-bottom: 5vh;
     }
-
 }

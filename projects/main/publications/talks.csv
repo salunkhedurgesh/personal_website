@@ -1,0 +1,7 @@
+id,title,authors,journal,short,year,yearGroup,doi,bibLink,pdfLink,webLink,abstract,note
+talk_2025_iisc,"Leveraging kinematic intelligence for safer learning and skill transfer in robots","Durgesh Haribhau Salunkhe","IISc, Bengaluru",Talk,2025,,,,,https://mecheng.iisc.ac.in/wp-content/uploads/2025/11/Speaker-Durgesh-H-Salunkhe-21Nov2025.pdf,,"Date: 21st November, 2025"
+talk_2025_laas,"Leveraging kinematic analysis in human-to-robot and robot-to-robot behavior transfer","Durgesh Haribhau Salunkhe","LAAS, CNRS, Toulouse",Talk,2025,,,,,https://www.laas.fr/fr/equipes/gepetto/,,"Date: 25th June, 2025"
+talk_2025_icube,"Leveraging kinematic analysis in transfer of robot behavior","Durgesh Haribhau Salunkhe","ICube, CNRS, Strasbourg",Talk,2025,,,,,https://rdh.icube.unistra.fr/index.php?title=Main_Page,,"Date: 25th April, 2025"
+talk_2024_ricam,"Cuspidal robots: geometrical analysis and issues in path planning of 6R cobots","Durgesh Haribhau Salunkhe","Workshop on Kinematic Aspects of Robotics",Talk,2024,,,,,https://www.ricam.oeaw.ac.at/specsem/specsem2024/workshop5/,,"Date: 29th April to 03rd May, 2024"
+talk_2023_epfl,"Cuspidal robots: dangers in 6R cobots, and how to avoid them","Durgesh Haribhau Salunkhe","LASA lab, EPFL",Talk,2023,,,,,https://www.epfl.ch/labs/lasa/,,"Date: 14th November, 2023"
+talk_2023_simero,"Recent results on cuspidal robots","Durgesh Haribhau Salunkhe","Summer school on Singularities of Mechanisms and Robotic Manipulators (SIMERO)",Talk,2023,,,,,https://simero.org/,,"Date: 18th to 23rd September, 2023"

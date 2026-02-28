@@ -80,23 +80,28 @@ function cycleImage(button, direction) {
 
 function click_recent(input_list, title_string) {
     for (let ii = 0; ii < input_list.length; ii++) {
-        let hook = document.getElementById(input_list[ii])
-        console.log(hook.classList);
+        let hook = document.getElementById(input_list[ii]);
         if (!hook.classList.contains("dropdown")) {
             hook.style.display = "block";
+            hook.classList.remove("dropup");
+            void hook.offsetHeight; // force reflow so animation restarts
             hook.classList.add("dropdown");
-        }
-        else {
+        } else {
             hook.classList.remove("dropdown");
-            hook.style.display = "none";
+            hook.classList.add("dropup");
+            setTimeout(() => {
+                if (hook.classList.contains("dropup")) {
+                    hook.style.display = "none";
+                    hook.classList.remove("dropup");
+                }
+            }, 260); // slightly longer than growUp duration (250ms)
         }
     }
 
     let hook = document.getElementById(title_string[0]);
     if (hook.innerText.includes("+")) {
         hook.innerText = "\u2014 " + title_string[1] + "  \u2191";
-    }
-    else {
+    } else {
         hook.innerText = "+ " + title_string[1] + "  \u2193";
     }
 }
@@ -128,30 +133,29 @@ function click_experience(address) {
 }
 
 
-function blink() {
+function blink(retry = 0) {
     const el = document.getElementById("logoBlock");
     const foot = document.getElementById("emailid");
 
-    // Scroll to the element first
-    if (foot) {
-        foot.scrollIntoView({ behavior: "smooth", block: "center" });
+    if ((!el || !foot) && retry < 8) {
+        setTimeout(() => blink(retry + 1), 140);
+        return;
     }
+    if (!el || !foot) return;
 
-    el.classList.remove("blink");
-    foot.classList.remove("blink");
+    foot.scrollIntoView({ behavior: "smooth", block: "center" });
 
-    // Blink three times at 500ms intervals
-    for (let i = 0; i < 3; i++) {
-        setTimeout(() => {
-            el.classList.add("blink");
-            foot.classList.add("blink");
-        }, i * 1000);
+    [el, foot].forEach(node => {
+        node.classList.remove("contact-spotlight-pulse", "blink");
+        void node.offsetWidth;
+        node.classList.add("contact-spotlight-pulse", "blink");
+    });
 
-        setTimeout(() => {
-            el.classList.remove("blink");
-            foot.classList.remove("blink");
-        }, i * 1000 + 500);
-    }
+    setTimeout(() => {
+        [el, foot].forEach(node => {
+            node.classList.remove("contact-spotlight-pulse", "blink");
+        });
+    }, 2500);
 }
 
 

@@ -1,8 +1,17 @@
+/* ============================================================
+   IMPORTS
+   ============================================================ */
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Texturina:opsz@12..72&display=swap');
+
+
+/* ============================================================
+   RESET & BASE
+   ============================================================ */
 
 * {
     margin: 0;
@@ -10,73 +19,11 @@
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
     scroll-behavior: smooth;
+    caret-color: transparent;
 }
 
-/* :root {
-    --title-color: #ccd6f6;
-    --halycon: #00eeb6;
-    --hoverhalycon: #00eeb6;
-    --blueBC: #8892b0;
-    --background_color: #03122b;
-    --navbarcolor: #fff
-    --title-color:#000;
-}
-
-/* :root{
-    --halycon: #000;
-    --hoverhalycon: #d95e5e;
-    --blueBC: #000;
-    --background_color: #fff;
-    --navbarcolor: #000;
-} */
-
-/* Default root variables */
-* { caret-color: transparent; }
-
-:root {
-    --title-color: #ccd6f6;
-    --halycon: #00eeb6;
-    --hoverhalycon: #00eeb6;
-    --blueBC: #8892b0;
-    --background_color: #03122b;
-    --navbarcolor: #fff;
-    --navLogoHeight: 3rem;
-    --navLogoplacementTop: 0.5rem;
-}
-
-/* Override for personal page */
-body.personal-page {
-    --title-color: #ccd6f6;
-    /*--halycon: #64ffda;*/
-    /*--halycon: #00eeb6;*/
-    --halycon: #f09d51;
-    --hoverhalycon: #FFAD00;
-    --blueBC: #8892b0;
-    --background_color: #03122b;
-}
-
-/* Override for index page */
-body.index-page {
-    --title-color: #ccd6f6;
-    --halycon: #00eeb6;
-    --hoverhalycon: #00eeb6;
-    --blueBC: #8892b0;
-    --background_color: #03122b;
-    --navbarcolor: #fff;
-}
-
-#theme_element {
-    border: var(--halycon) 1px solid;
-    border-radius: 0.1rem;
-    border-color: transparent;
-}
-
-.colored {
-    color: var(--halycon);
-}
-
-.profileDetails a:hover {
-    color: var(--halycon);
+html {
+    height: 100%;
 }
 
 body {
@@ -84,26 +31,10 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--background_color);
-    height: 100%;
     min-height: 100vh;
     width: 100%;
-    margin: 0;
     overflow-x: hidden;
     color: white;
-    font-family: Rubik, sans-serif;
-}
-
-html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 a {
@@ -111,42 +42,60 @@ a {
     color: #fff;
 }
 
-.skillTitle span {
-    margin-right: 2rem;
-}
-
-.navcontent span {
-    font-size: 1rem;
-    margin-right: 0.5rem;
-}
-
-a .navicon {
-    width: 2rem;
-    height: 2rem;
-    max-width: 10vw;
-    max-height: 10vw;
-}
-
-a .mainicon {
-    width: 2rem;
-    height: 2rem;
-    max-width: 10vw;
-    max-height: 10vw;
-}
-
 .nowrap {
     white-space: nowrap;
 }
 
-/* Navigation bar */
+
+/* ============================================================
+   THEME VARIABLES
+   ============================================================ */
+
+:root {
+    --title-color: #ccd6f6;
+    --halycon: #00eeb6;
+    --hoverhalycon: #00eeb6;
+    --blueBC: #8892b0;
+    --paper_color: #8892b0;
+    --background_color: #03122b;
+    --navbarcolor: #fff;
+    --navLogoHeight: 3rem;
+    --navLogoplacementTop: 0.5rem;
+}
+
+/* Personal page: orange accent */
+body.personal-page {
+    --halycon: #f09d51;
+    --hoverhalycon: #FFAD00;
+}
+
+/* Index page: explicitly uses default theme (same as :root) */
+body.index-page {
+    --halycon: #00eeb6;
+    --hoverhalycon: #00eeb6;
+}
+
+#theme_element {
+    border: 1px solid transparent;
+    border-radius: 0.1rem;
+}
+
+.colored {
+    color: var(--halycon);
+}
+
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+
 .topBack {
     background: var(--background_color);
     width: 100vw;
     height: var(--navLogoHeight);
-    z-index: 2;
     position: fixed;
     top: 0;
-    /* border: #f09d51 1px solid; */
+    z-index: 2;
 }
 
 .logo {
@@ -159,11 +108,10 @@ a .mainicon {
     top: 0;
     z-index: 3;
     background: var(--background_color);
-    /* border: #f09d51 1px solid; */
 }
 
-.logo img{
-    translate: 0 0.2rem; 
+.logo img {
+    translate: 0 0.2rem;
     z-index: 10;
     width: calc(var(--navLogoHeight) * 0.8);
 }
@@ -181,7 +129,6 @@ a .mainicon {
 }
 
 .navlogo {
-    /*translate: -2rem 0;*/
     display: block;
     position: fixed;
     top: var(--navLogoplacementTop);
@@ -203,8 +150,9 @@ a .mainicon {
 
 .navcontent {
     display: flex;
-    justify-content: flex-end;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     max-width: 80vw;
     width: 40rem;
     height: var(--navLogoHeight);
@@ -214,9 +162,6 @@ a .mainicon {
     z-index: 3;
     background: var(--background_color);
     padding: 0.8rem;
-    justify-content: space-between;
-    align-items: center;
-    /* border: #f09d51 1px solid; */
 }
 
 .navcontent a {
@@ -231,27 +176,60 @@ a .mainicon {
     color: var(--hoverhalycon);
 }
 
-.navicon {
-    width: "20px";
-    height: "20px";
+.navcontent span {
+    font-size: 1rem;
+    margin-right: 0.5rem;
 }
 
-/* hero styles */
+.navicon {
+    width: 20px;
+    height: 20px;
+}
+
+a .navicon {
+    width: 2rem;
+    height: 2rem;
+    max-width: 10vw;
+    max-height: 10vw;
+}
+
+a .mainicon {
+    width: 2rem;
+    height: 2rem;
+    max-width: 10vw;
+    max-height: 10vw;
+}
+
+.skillTitle span {
+    margin-right: 2rem;
+}
+
+#small_name {
+    position: fixed;
+    top: 0.5rem;
+    left: 8rem;
+    z-index: 2;
+    font-size: clamp(1.5rem, 3rem, 8vw);
+    color: var(--blueBC);
+    display: none;
+}
+
+
+/* ============================================================
+   PAGE LAYOUT
+   ============================================================ */
 
 .hero {
-    /*grid-area: 2 / 1 / 3 / 2;*/
     flex-grow: 1;
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(2, 10vw) 3fr repeat(2, 10vw);
     grid-template-rows: repeat(5, 1fr);
-    /*border: saddlebrown 2px solid;*/
 }
 
 .middleblock {
     grid-area: 1 / 2 / 6 / 5;
-    /*border: white 2px solid;*/
     width: 80vw;
     max-width: 1400px;
     margin-left: auto;
@@ -263,26 +241,7 @@ a .mainicon {
     justify-content: center;
     align-items: center;
     grid-column: 1 / -1;
-    /* if inside grid, span all columns */
     grid-row: 1 / -1;
-    /* span all rows */
-}
-
-.message {
-    font-size: 2rem;
-    color: var(--halycon);
-    font-weight: 300;
-}
-
-
-.ls2n {
-    color: var(--blueBC);
-}
-
-.ls2n:hover {
-    color: var(--hoverhalycon);
-    translate: 0 -0.5rem;
-    animation-delay: 0.2s;
 }
 
 .sideblock {
@@ -290,7 +249,11 @@ a .mainicon {
     grid-area: 1 / 1 / 6 / 2;
     grid-template-columns: 35% 30% 35%;
     grid-template-rows: 50% 50%;
-    /*border: white 2px solid;*/
+    margin: 0.1rem;
+}
+
+.sideblock2 {
+    grid-area: 1 / 5 / 6 / 6;
     margin: 0.1rem;
 }
 
@@ -300,10 +263,7 @@ a .mainicon {
     justify-content: flex-end;
     gap: 3rem;
     align-items: center;
-    border: var(--halycon) 1px solid;
-    border-color: transparent;
     position: fixed;
-    /*top: 60vh;*/
     bottom: 5vh;
     left: 4.5vw;
     padding: 0.5rem;
@@ -321,11 +281,38 @@ a .mainicon {
     translate: 0 -0.2rem;
 }
 
-.sideblock2 {
-    grid-area: 1 / 5 / 6 / 6;
-    /*border: white 2px solid;*/
-    margin: 0.1rem;
+.nameblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: var(--background_color);
+    z-index: 2;
 }
+
+.nameblock h1 {
+    font-size: clamp(1.5rem, 5rem, 8vw);
+}
+
+.subnameblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.subnameblock h1 {
+    font-size: clamp(1.5rem, 5rem, 8vw);
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* ============================================================
+   HERO CONTENT
+   ============================================================ */
 
 .hero h1 {
     font-size: clamp(4.5rem, 2vw, 100vw);
@@ -337,7 +324,6 @@ a .mainicon {
 
 .hero h1:hover {
     color: var(--hoverhalycon);
-    animation-delay: 0.2s;
     translate: 0 -0.1rem;
 }
 
@@ -345,55 +331,6 @@ a .mainicon {
     text-align: left;
     color: var(--halycon);
     justify-content: flex-start;
-}
-
-.flexbox button {
-    text-align: center;
-    padding: 1rem;
-    border-radius: 0.5em;
-    background-color: var(--background_color);
-    border-color: var(--halycon);
-    color: var(--halycon);
-    margin-top: 2rem;
-    width: 10rem;
-    max-width: 30vw;
-    font: 1rem var(--halycon) Rubik, sans-serif;
-}
-
-.middleblock .update {
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
-    font-family: 'Rubik', serif;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.middleblock .update2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-family: 'Rubik', serif;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.middleblock h2 {
-    font-size: clamp(1.5rem, 3vw, 3rem);
-    color: var(--blueBC);
-}
-
-.middleblock h3 {
-    margin-bottom: 0.5rem;
-    font-weight: lighter;
-    font-size: clamp(1.5rem, 3vw, 3rem);
-    color: var(--title-color);
-}
-
-.newblock a {
-    color: var(--blueBC);
-}
-
-.newblock a:hover {
-    color: var(--hoverhalycon);
 }
 
 .hello {
@@ -411,205 +348,28 @@ a .mainicon {
     gap: 1rem;
 }
 
-.displayLoad {
-    min-width: 30%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.flexbox button {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5em;
+    background-color: var(--background_color);
+    border-color: var(--halycon);
+    color: var(--halycon);
+    margin-top: 2rem;
+    width: 10rem;
+    max-width: 30vw;
+    font-size: 1rem;
 }
-
-.nameblock {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    /*position: sticky;
-    top: 2.5rem;*/
-    background: var(--background_color);
-    z-index: 2;
-}
-
-.nameblock h1 {
-    font-size: clamp(1.5rem, 5rem, 8vw);
-}
-
-.subnameblock h1 {
-    font-size: clamp(1.5rem, 5rem, 8vw);
-}
-
-.subnameblock {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-#small_name {
-    position: fixed;
-    top: 0.5rem;
-    left: 8rem;
-    z-index: 2;
-    font-size: clamp(1.5rem, 3rem, 8vw);
-    color: var(--blueBC);
-    display: none;
-}
-
 
 .flexbox button:hover {
     scale: 1.05;
-    animation-delay: 0.2s;
-}
-
-/* Recent news */
-.newblock {
-    flex-grow: 1;
-    width: 50%;
-    max-width: 1400px;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 10vw) 3fr repeat(2, 10vw);
-    grid-template-rows: repeat(5, 1fr);
-    margin-bottom: 2vw;
-    margin-left: auto;
-    margin-right: auto;
-    /*border: saddlebrown 2px solid;*/
-}
-
-.newblock a {
-    color: var(--blueBC);
-}
-
-.newblock a:hover {
-    color: var(--hoverhalycon);
-}
-
-.dropdown {
-    animation: growDown 500ms ease-in-out forwards;
-    transform-origin: top center
-}
-
-.dropdown a {
-    color: var(--blueBC);
-}
-
-.dropdown a:hover {
-    color: var(--hoverhalycon);
-}
-
-.dropup {
-    animation: growUp 100ms ease-in-out forwards;
-    transform-origin: bottom center;
-}
-
-@keyframes growDown {
-    0% {
-        transform: scaleY(0)
-    }
-
-    80% {
-        transform: scaleY(1.1)
-    }
-
-    100% {
-        transform: scaleY(1)
-    }
-}
-
-@keyframes growUp {
-    0% {
-        transform: scaleY(1)
-    }
-
-    80% {
-        transform: scaleY(1.1)
-    }
-
-    100% {
-        transform: scaleY(0)
-    }
-}
-
-.recent {
-    grid-area: 1 / 2 / 6 / 5;
-    /*border: white 2px solid;*/
-    width: 80vw;
-    max-width: 1400px;
-    justify-items: flex-start;
-}
-
-.recent:hover {
-    cursor: pointer;
-}
-
-.recent h3 {
-    margin-bottom: 0.5rem;
-    font-weight: lighter;
-    font-size: clamp(1.5rem, 2vw, 2rem);
-    color: var(--title-color);
 }
 
 
-.spacediv {
-    display: block;
-    width: 50%;
-    margin-bottom: 0.5rem;
-    border-bottom: var(--halycon) 1px solid;
-    translate: 0 -0.2rem;
-}
+/* ============================================================
+   PROFILE
+   ============================================================ */
 
-.recent ol {
-    display: block;
-}
-
-.recent ol li {
-    color: var(--blueBC);
-    font-size: 0.9rem;
-    list-style-position: inside;
-    margin-bottom: 1rem;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--background_color);
-    padding: 1rem;
-    width: 100%;
-    text-align: center;
-}
-
-footer.personal-page {
-    --title-color: #ccd6f6;
-    /*--halycon: #64ffda;*/
-    /*--halycon: #00eeb6;*/
-    --halycon: #f09d51;
-    --hoverhalycon: #FFAD00;
-    --blueBC: #8892b0;
-    --background_color: #03122b;
-}
-
-.emailBlock {
-    height: 0.8rem;
-    width: auto;
-}
-
-.emailBlock a,
-p {
-    font-size: 0.65rem;
-}
-
-#emailid {
-    border: var(--halycon) 1px solid;
-    border-radius: 0.1rem;
-    border-color: transparent;
-}
-
-.emailBlock img {
-    height: 100%;
-}
-
-/* Profile block*/
 .profile {
     display: flex;
     flex-direction: row;
@@ -617,42 +377,21 @@ p {
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 6rem;
-    /* margin-left: 5vw; */
-}
-
-.ls2n a {
-    color: var(--blueBC);
-}
-
-.ls2n:hover {
-    color: var(--hoverhalycon);
-}
-
-.profileDetails h2 {
-    color: var(--blueBC);
-    font-size: 2rem;
-    word-spacing: 1rem;
-}
-
-.profileDetails a {
-    color: var(--blueBC);
 }
 
 .profile img {
     width: 300px;
-    /*max-width: 30%;*/
     height: auto;
     border-radius: 50%;
     border: var(--halycon) 2px solid;
-    border-spacing: 1rem;
     padding: 0.5rem;
-    -webkit-filter: grayscale(1);
     filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 .profile img:hover {
-    -webkit-filter: grayscale(0);
     filter: grayscale(0);
+    -webkit-filter: grayscale(0);
 }
 
 .profileDetails {
@@ -665,14 +404,7 @@ p {
     margin-top: 2rem;
 }
 
-.profileDetails p {
-    margin-top: 2rem;
-    color: var(--blueBC);
-    font-size: clamp(1.1rem, 1.1rem, 2rem);
-    line-height: 1.5rem;
-    /*font-family: 'PT Mono', monospace;*/
-}
-
+/* Single merged definition — earlier duplicate removed */
 .profileDetails h2 {
     color: var(--title-color);
     font-size: clamp(1.5rem, 3vw, 3rem);
@@ -680,64 +412,19 @@ p {
     word-spacing: 1rem;
 }
 
-.hovHigh:hover {
-    color: var(--hoverhalycon);
+.profileDetails p {
+    margin-top: 2rem;
+    color: var(--blueBC);
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
-.buzzword {
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 2rem;
-    text-align: justify;
-    border: var(--halycon);
-    color: black;
-    background: var(--blueBC);
-    border-radius: 1rem;
-    width: min(500px, 80vw);
-    padding: 3rem 1rem 3rem 1rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin: 0 auto;
-    z-index: 10;
+.profileDetails a {
+    color: var(--blueBC);
 }
 
-.buzzword p {
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-}
-
-.blink {
-    animation: border-blink 1s steps(1) 2;
-}
-
-@keyframes border-blink {
-    0% {
-        border-color: var(--halycon);
-    }
-
-    50% {
-        border-color: transparent;
-    }
-}
-
-#skills {
-    display: none;
-    justify-content: center;
-    gap: 3rem;
-    text-align: left;
-}
-
-.desktop_spacer {
-    display: block;
-    height: 10vh;
-}
-
-.spacer_small {
-    display: block;
-    height: 3vh;
-    max-height: 5rem;
-    min-height: 1rem;
+.profileDetails a:hover {
+    color: var(--halycon);
 }
 
 #profile-pic {
@@ -759,6 +446,234 @@ p {
 }
 
 
+/* ============================================================
+   LINKS & HIGHLIGHTS
+   ============================================================ */
+
+.ls2n {
+    color: var(--blueBC);
+}
+
+/* Single merged definition — earlier duplicate removed */
+.ls2n:hover {
+    color: var(--hoverhalycon);
+    translate: 0 -0.5rem;
+}
+
+.ls2n a {
+    color: var(--blueBC);
+}
+
+.hovHigh:hover {
+    color: var(--hoverhalycon);
+}
+
+
+/* ============================================================
+   RECENT NEWS & CONTENT
+   ============================================================ */
+
+.newblock {
+    flex-grow: 1;
+    width: 50%;
+    max-width: 1400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 10vw) 3fr repeat(2, 10vw);
+    grid-template-rows: repeat(5, 1fr);
+    margin-bottom: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Single definition — earlier duplicate removed */
+.newblock a {
+    color: var(--blueBC);
+}
+
+.newblock a:hover {
+    color: var(--hoverhalycon);
+}
+
+.dropdown {
+    animation: growDown 350ms ease-out forwards;
+    transform-origin: top center;
+}
+
+.dropdown a {
+    color: var(--blueBC);
+}
+
+.dropdown a:hover {
+    color: var(--hoverhalycon);
+}
+
+.dropup {
+    animation: growUp 250ms ease-in forwards;
+    transform-origin: top center;
+}
+
+.recent {
+    grid-area: 1 / 2 / 6 / 5;
+    width: 80vw;
+    max-width: 1400px;
+    justify-content: flex-start;
+}
+
+.recent:hover {
+    cursor: pointer;
+}
+
+.recent-title {
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: var(--title-color);
+}
+
+.recent ol {
+    display: block;
+}
+
+.recent ol li {
+    color: var(--blueBC);
+    font-size: 0.9rem;
+    list-style-position: inside;
+    margin-bottom: 1rem;
+}
+
+.spacediv {
+    display: block;
+    width: 50%;
+    margin-bottom: 0.5rem;
+    border-bottom: var(--halycon) 1px solid;
+    translate: 0 -0.2rem;
+}
+
+.middleblock .update {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.middleblock .update2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.middleblock h2 {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    color: var(--blueBC);
+}
+
+.middleblock h3 {
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    color: var(--title-color);
+}
+
+
+/* ============================================================
+   SKILLS
+   ============================================================ */
+
+#skills {
+    display: none;
+    justify-content: center;
+    gap: 3rem;
+    text-align: left;
+}
+
+.skillTitle {
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.skillTitle span:hover {
+    color: var(--halycon);
+}
+
+.message {
+    font-size: 2rem;
+    color: var(--halycon);
+    font-weight: 300;
+}
+
+.displayLoad {
+    min-width: 30%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--background_color);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* footer.personal-page removed — vars already cascade from body.personal-page */
+.designed-by {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0.35rem 0 0.65rem;
+    padding: 0.38rem 0.78rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 238, 182, 0.32);
+    background: linear-gradient(90deg, rgba(0, 238, 182, 0.08), rgba(50, 139, 229, 0.07));
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+    font-family: 'PT Mono', monospace;
+    font-size: clamp(0.72rem, 0.95vw, 0.82rem);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.designed-by-label {
+    color: var(--halycon);
+}
+
+.designed-by-name {
+    color: var(--title-color);
+}
+
+.emailBlock {
+    height: 0.8rem;
+    width: auto;
+}
+
+/* Fixed: was `.emailBlock a, p` which targeted ALL <p> elements globally */
+.emailBlock a,
+.emailBlock p {
+    font-size: 0.65rem;
+}
+
+.emailBlock img {
+    height: 100%;
+}
+
+#emailid {
+    border: 1px solid transparent;
+    border-radius: 0.1rem;
+}
 
 #footer p {
     font-size: 0.6rem;
@@ -766,12 +681,114 @@ p {
     text-align: center;
 }
 
+
+/* ============================================================
+   BUZZWORD POPUP
+   ============================================================ */
+
+.buzzword {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background: var(--blueBC);
+    color: black;
+    border-radius: 1rem;
+    width: min(500px, 80vw);
+    padding: 3rem 1rem;
+    z-index: 10;
+}
+
+.buzzword p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.blink {
+    animation: border-blink 1s steps(1) 2;
+}
+
+.contact-spotlight-pulse {
+    transform-origin: center;
+    animation: contact-spotlight-pulse 1200ms cubic-bezier(0.22, 0.61, 0.36, 1) 2;
+    will-change: transform, box-shadow, filter;
+}
+
+
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+
+.desktop_spacer {
+    display: block;
+    height: 10vh;
+}
+
+.spacer_small {
+    display: block;
+    height: 3vh;
+    max-height: 5rem;
+    min-height: 1rem;
+}
+
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+
+@keyframes growDown {
+    0%   { transform: scaleY(0); }
+    80%  { transform: scaleY(1.1); }
+    100% { transform: scaleY(1); }
+}
+
+@keyframes growUp {
+    0%   { transform: scaleY(1); }
+    80%  { transform: scaleY(1.1); }
+    100% { transform: scaleY(0); }
+}
+
+@keyframes border-blink {
+    0%  { border-color: var(--halycon); }
+    50% { border-color: transparent; }
+}
+
+@keyframes contact-spotlight-pulse {
+    0% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 0 0 rgba(0, 238, 182, 0);
+        filter: brightness(1);
+    }
+    35% {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 0 0.9rem rgba(0, 238, 182, 0.45), 0 0 1.6rem rgba(50, 139, 229, 0.2);
+        filter: brightness(1.06);
+    }
+    65% {
+        transform: translateY(-2px) scale(1.01);
+        box-shadow: 0 0 0.55rem rgba(0, 238, 182, 0.26), 0 0 1.1rem rgba(50, 139, 229, 0.12);
+        filter: brightness(1.03);
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 0 0 rgba(0, 238, 182, 0);
+        filter: brightness(1);
+    }
+}
+
+
+/* ============================================================
+   RESPONSIVE — min-width: 1500px  (Large desktops)
+   ============================================================ */
+
 @media only screen and (min-width: 1500px) {
 
     #footer p {
         font-size: 1rem;
-        align-self: center;
-        text-align: center;
     }
 
     .skillTitle span {
@@ -798,143 +815,10 @@ p {
     }
 }
 
-@media only screen and (max-width: 576px) {
 
-    .logo {
-        left: 2vw;
-        top: 0.5rem;
-    }
-
-    a .mainicon {
-        width: calc(var(--navLogoHeight) * 0.5);
-        height: auto;
-    }
-
-
-    .navnum {
-        display: none;
-    }
-
-    .imageblock {
-        position: fixed;
-        bottom: 5vh;
-        left: 1vw;
-    }
-
-    .navtitle {
-        display: none;
-    }
-
-    .navlogo {
-        display: block;
-        position: fixed;
-        top: 0.5rem;
-    }
-
-    .navcontent {
-        display: flex;
-        flex-flow: row nowrap;
-        width: 80vw;
-        position: fixed;
-        height: 2rem;
-        gap: 2rem;
-        right: 2vw;
-        justify-content: space-between;
-        z-index: 3;
-    }
-
-    .navcontent a {
-        font-size: 0.75rem;
-    }
-
-    .subnameblock h1 {
-        font-size: 2rem;
-    }
-
-    .nameblock {
-        flex-direction: row;
-    }
-
-    .middleblock {
-        margin-top: 2rem;
-    }
-
-    .middleblock h2 {
-        font-size: 1.1rem;
-        color: var(--blueBC);
-    }
-
-    .hello {
-        color: var(--halycon);
-        font-size: 1.1rem;
-        font-weight: bolder;
-        margin-top: 10%;
-    }
-
-    .barSecond {
-        translate: -5dvw -0.57rem;
-    }
-
-    .profile {
-        flex-direction: column;
-        margin-top: 2rem;
-    }
-
-    .profile img {
-        width: 70%;
-        max-width: 70%;
-        border-radius: 50%;
-    }
-
-    .profileDetails {
-        max-width: 70vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: justify;
-        margin-top: 3rem;
-    }
-
-    .profileDetails p {
-        font-size: 0.85rem;
-    }
-
-    .profileDetails h2 {
-        color: var(--title-color);
-        font-size: 1.5rem;
-        word-spacing: 1rem;
-    }
-
-    .flexbox button {
-        padding: 0.5rem;
-        border-radius: 0.5em;
-        width: 10rem;
-        max-width: 30vw;
-    }
-
-    .spacer {
-        height: 5vh;
-    }
-
-    #experienceContent {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    #skills {
-        margin-left: 10vw;
-    }
-
-    .spacediv {
-        width: 100%;
-    }
-
-    .desktop_spacer {
-        display: none;
-    }
-}
+/* ============================================================
+   RESPONSIVE — max-width: 820px  (Tablets)
+   ============================================================ */
 
 @media only screen and (max-width: 820px) {
 
@@ -951,10 +835,7 @@ p {
     }
 
     .hello {
-        color: var(--halycon);
         font-size: 1.1rem;
-        font-weight: bolder;
-        margin-top: 10%;
     }
 
     .barSecond {
@@ -964,7 +845,6 @@ p {
     .profile {
         flex-direction: column;
         margin-top: 2rem;
-        justify-items: center;
         justify-content: center;
     }
 
@@ -989,14 +869,12 @@ p {
     }
 
     .profileDetails h2 {
-        color: var(--title-color);
         font-size: 1.5rem;
         word-spacing: 1rem;
     }
 
     .flexbox button {
         padding: 0.5rem;
-        border-radius: 0.5em;
         width: 10rem;
         max-width: 30vw;
     }
@@ -1011,5 +889,76 @@ p {
 
     .recent ol {
         font-size: 0.85rem;
+    }
+}
+
+
+/* ============================================================
+   RESPONSIVE — max-width: 576px  (Mobile)
+   Rules here only override what differs from the 820px block above.
+   ============================================================ */
+
+@media only screen and (max-width: 576px) {
+
+    .logo {
+        left: 2vw;
+        top: 0.5rem;
+    }
+
+    a .mainicon {
+        width: calc(var(--navLogoHeight) * 0.5);
+        height: auto;
+    }
+
+    .imageblock {
+        bottom: 5vh;
+        left: 1vw;
+    }
+
+    .navcontent {
+        flex-flow: row nowrap;
+        width: 80vw;
+        height: 2rem;
+        gap: 2rem;
+        right: 2vw;
+        justify-content: space-between;
+    }
+
+    .navcontent a {
+        font-size: 0.75rem;
+    }
+
+    .subnameblock h1 {
+        font-size: 2rem;
+    }
+
+    .profile img {
+        max-width: 70%;
+    }
+
+    .profileDetails {
+        justify-content: flex-start;
+    }
+
+    .spacer {
+        height: 5vh;
+    }
+
+    #experienceContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #skills {
+        margin-left: 10vw;
+    }
+
+    .spacediv {
+        width: 100%;
+    }
+
+    .desktop_spacer {
+        display: none;
     }
 }

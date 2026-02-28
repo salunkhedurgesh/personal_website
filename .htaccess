@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-RewriteEngine On
-
-# Redirect clean URL to real file path
-RewriteRule ^about$ index.html [L]
-RewriteRule ^publications$ projects/main/publications/publications.html [L]
-RewriteRule ^experience$ projects/main/experience/experience.html [L]
-RewriteRule ^researchprojects$ projects/main/projects/projects.html [L]
-RewriteRule ^personal$ projects/personal/personal.html [L]
-RewriteRule ^blog$ projects/personal/blog/blog.html [L]
-RewriteRule ^hobbies$ projects/personal/hobbies/hobbies.html [L]
-RewriteRule ^travel$ projects/personal/travel/travel.html [L]
-RewriteRule ^selected_research$ projects/cnrs/seven_chosen.html [L]
-RewriteRule ^cnrs1/?$ /projects/cnrs/cnrs_resources/rcim19_dutta.pdf [L]
-RewriteRule ^cnrs2/?$ /projects/cnrs/cnrs_resources/mmt22_opt_salunkhe.pdf [L]
-RewriteRule ^cnrs3/?$ /projects/cnrs/cnrs_resources/mmt22_salunkhe.pdf [L]
-RewriteRule ^cnrs4/?$ /projects/cnrs/cnrs_resources/ijrr24_salunkhe.pdf [L]
-RewriteRule ^cnrs5/?$ /projects/cnrs/cnrs_resources/science25_salunkhe.pdf [L]
-RewriteRule ^cnrs6/?$ /projects/cnrs/cnrs_resources/ral25_salunkhe.pdf [L]
-RewriteRule ^cnrs7/?$ /projects/cnrs/cnrs_resources/ima25_salunkhe.pdf [L]
-=======
 RewriteEngine On
 
 # Redirect clean URL to real file path
@@ -43,4 +22,3 @@ RewriteRule ^cnrs7/?$ /projects/cnrs/cnrs_resources/ima25_salunkhe.pdf [L]
 
 # Researc papers
 RewriteRule ^ral25/?$ /projects/journal_webpages/2025/ral25_salunkhe/index.html [L]
->>>>>>> a933edf9ae28a2cef2c0222021f3e46a7b3cad45

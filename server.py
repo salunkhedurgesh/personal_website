@@ -19,6 +19,9 @@ ROUTES = {
     'travel':           'projects/personal/travel/travel.html',
     # CNRS 2026
     'selected_research': 'projects/cnrs/seven_chosen.html',
+    'cnrs26':          'projects/cnrs26/index.html',
+    'cnrs_teleprompter':'projects/cnrs26/cnrs_teleprompter.html',
+    'cnrs_presentation':'projects/cnrs26/CNRS26_Salunkhe_short.pdf',
     'cnrs1':            'projects/cnrs/cnrs_resources/rcim19_dutta.pdf',
     'cnrs2':            'projects/cnrs/cnrs_resources/mmt22_opt_salunkhe.pdf',
     'cnrs3':            'projects/cnrs/cnrs_resources/mmt22_salunkhe.pdf',
@@ -51,3 +54,6 @@ def clean_url(slug):
 
 if __name__ == '__main__':
     app.run(port=8000, debug=True)
+
+
+

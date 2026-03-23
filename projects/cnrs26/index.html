@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CNRS 2026 Portal</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style_publications.css">
+    <link rel="stylesheet" href="/projects/cnrs26/portal.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/auto_writer_main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+</head>
+
+<body>
+
+    <div id="logo_click_non_index"></div>
+
+    <div class="navcontent">
+        <a id="homeLink">
+            <span class="navlogo"><img id="homeImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">home</span>
+        </a>
+        <a id="experienceLink">
+            <span class="navlogo"><img id="experienceImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">experience</span>
+        </a>
+        <a id="projectsLink">
+            <span class="navlogo"><img id="projectsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">projects</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+    <div class="topBack"></div>
+
+    <div id="contactTop"></div>
+    <script>
+        fetch('/projects/main/common/common_contact.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contactTop').innerHTML = data;
+            });
+    </script>
+
+    <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+    <div class="content portal-page">
+        <section class="portal-hero">
+            <p class="portal-kicker">Private Materials</p>
+            <h1>CNRS 2026 access portal</h1>
+            <p class="portal-subtitle">A cleaner entry point for your rehearsal material and presentation files, using the same site theme but with a lighter touch.</p>
+        </section>
+
+        <section class="portal-layout">
+            <div class="paper portal-shell">
+                <div class="paper_description portal-panel" id="loginPanel">
+                    <div class="paper_title">
+                        <p class="paper_heading portal-heading">Sign in</p>
+                        <p class="authors portal-copy">Use the private credentials to unlock the teleprompter and presentation PDF.</p>
+                    </div>
+
+                    <form id="loginForm" class="portal-form">
+                        <label class="portal-label" for="username">Username</label>
+                        <input class="portal-input" id="username" name="username" type="text" autocomplete="username" required>
+
+                        <label class="portal-label" for="password">Password</label>
+                        <input class="portal-input" id="password" name="password" type="password" autocomplete="current-password" required>
+
+                        <div class="portal-actions">
+                            <button class="portal-button" type="submit">Unlock portal</button>
+                        </div>
+                        <p class="portal-message" id="loginMessage" aria-live="polite"></p>
+                    </form>
+                </div>
+
+                <div class="paper_description portal-panel portal-panel-hidden" id="resourcePanel">
+                    <div class="paper_title">
+                        <p class="paper_heading portal-heading">Files unlocked</p>
+                        <p class="authors portal-copy">Open the rehearsal teleprompter or the presentation PDF after login.</p>
+                    </div>
+
+                    <div class="portal-files">
+                        <a class="portal-file" href="/cnrs_teleprompter" target="_blank" rel="noopener noreferrer">
+                            <div class="portal-file-icon">T</div>
+                            <div class="portal-file-copy">
+                                <span class="portal-file-name">cnrs_teleprompter.html</span>
+                                <span class="portal-file-meta">Rehearsal view with pacing tools and markdown toggle</span>
+                            </div>
+                        </a>
+                        <a class="portal-file" href="/cnrs_presentation" target="_blank" rel="noopener noreferrer">
+                            <div class="portal-file-icon">PDF</div>
+                            <div class="portal-file-copy">
+                                <span class="portal-file-name">CNRS26_Salunkhe_short.pdf</span>
+                                <span class="portal-file-meta">Short CNRS presentation PDF</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="portal-actions">
+                        <button class="portal-button portal-button-secondary" type="button" id="logoutButton">Lock portal</button>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="portal-sidecard">
+                <p class="portal-sidecard-title">What changed</p>
+                <p class="portal-sidecard-copy">The heading is now smaller, the layout is more balanced, and the unlocked view only shows the two links you asked for.</p>
+                <p class="portal-sidecard-copy">The teleprompter page also reads `cnrs_performance_script.md` from this same folder when the markdown flag is enabled.</p>
+            </aside>
+        </section>
+
+        <div class="skill_spacer"></div>
+    </div>
+
+    <script>
+        const ACCESS_KEY = 'cnrs26-authenticated';
+        const expectedUsername = 'durghy';
+        const expectedPassword = '1Team@w0rk';
+
+        const loginForm = document.getElementById('loginForm');
+        const loginPanel = document.getElementById('loginPanel');
+        const resourcePanel = document.getElementById('resourcePanel');
+        const loginMessage = document.getElementById('loginMessage');
+        const logoutButton = document.getElementById('logoutButton');
+
+        function setAuthenticatedState(isAuthenticated) {
+            if (isAuthenticated) {
+                sessionStorage.setItem(ACCESS_KEY, 'true');
+                loginPanel.classList.add('portal-panel-hidden');
+                resourcePanel.classList.remove('portal-panel-hidden');
+                loginMessage.textContent = '';
+                return;
+            }
+
+            sessionStorage.removeItem(ACCESS_KEY);
+            resourcePanel.classList.add('portal-panel-hidden');
+            loginPanel.classList.remove('portal-panel-hidden');
+            loginForm.reset();
+            loginMessage.textContent = '';
+        }
+
+        loginForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(loginForm);
+            const username = String(formData.get('username') || '').trim();
+            const password = String(formData.get('password') || '');
+
+            if (username === expectedUsername && password === expectedPassword) {
+                setAuthenticatedState(true);
+                return;
+            }
+
+            loginMessage.textContent = 'Access denied. Please check the username and password.';
+        });
+
+        logoutButton.addEventListener('click', function () {
+            setAuthenticatedState(false);
+        });
+
+        if (sessionStorage.getItem(ACCESS_KEY) === 'true') {
+            setAuthenticatedState(true);
+        }
+    </script>
+
+    <script>
+        const file_ext2 = '/projects/main/common/';
+        const file_paths2 = ['logo_click_non_index'];
+
+        for (const file2 of file_paths2) {
+            fetch(file_ext2 + file2 + '.html')
+                .then(response => {
+                    if (!response.ok) throw new Error(`Failed to load ${file2}`);
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById(file2).innerHTML = data;
+                })
+                .catch(err => console.error(err));
+        }
+    </script>
+
+    <div class="desktop_spacer"></div>
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/contact.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contact').innerHTML = data;
+            });
+    </script>
+
+</body>
+
+</html>
+
+

@@ -12,9 +12,15 @@ RewriteRule ^travel$ projects/personal/travel/travel.html [L]
 
 # CNRS 2026
 RewriteRule ^selected_research$ projects/cnrs/seven_chosen.html [L]
+RewriteRule ^cnrs26/login/?$ /projects/cnrs26/auth.php?action=login [L,QSA]
+RewriteRule ^cnrs26/logout/?$ /projects/cnrs26/auth.php?action=logout [L,QSA]
+RewriteRule ^cnrs26/session/?$ /projects/cnrs26/auth.php?action=session [L,QSA]
 RewriteRule ^cnrs26/?$ /projects/cnrs26/index.html [L]
-RewriteRule ^cnrs_teleprompter/?$ /projects/cnrs26/cnrs_teleprompter.html [L]
-RewriteRule ^cnrs_presentation/?$ /projects/cnrs26/CNRS26_Salunkhe_short.pdf [L]
+RewriteRule ^cnrs_teleprompter/?$ /projects/cnrs26/gate.php?resource=teleprompter&next=/cnrs_teleprompter [L,QSA]
+RewriteRule ^cnrs_presentation/?$ /projects/cnrs26/gate.php?resource=presentation&next=/cnrs_presentation [L,QSA]
+RewriteRule ^projects/cnrs26/cnrs_teleprompter\.html$ /projects/cnrs26/gate.php?resource=teleprompter&next=/projects/cnrs26/cnrs_teleprompter.html [L,QSA]
+RewriteRule ^projects/cnrs26/CNRS26_Salunkhe_short\.pdf$ /projects/cnrs26/gate.php?resource=presentation&next=/projects/cnrs26/CNRS26_Salunkhe_short.pdf [L,QSA]
+RewriteRule ^projects/cnrs26/cnrs_performance_script\.md$ /projects/cnrs26/gate.php?resource=script&next=/projects/cnrs26/cnrs_performance_script.md [L,QSA]
 RewriteRule ^cnrs1/?$ /projects/cnrs/cnrs_resources/rcim19_dutta.pdf [L]
 RewriteRule ^cnrs2/?$ /projects/cnrs/cnrs_resources/mmt22_opt_salunkhe.pdf [L]
 RewriteRule ^cnrs3/?$ /projects/cnrs/cnrs_resources/mmt22_salunkhe.pdf [L]
@@ -25,6 +31,3 @@ RewriteRule ^cnrs7/?$ /projects/cnrs/cnrs_resources/ima25_salunkhe.pdf [L]
 
 # Researc papers
 RewriteRule ^ral25/?$ /projects/journal_webpages/2025/ral25_salunkhe/index.html [L]
-
-
-

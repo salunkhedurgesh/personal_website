@@ -122,54 +122,102 @@
     </div>
 
     <script>
-        const ACCESS_KEY = 'cnrs26-authenticated';
-        const expectedUsername = 'durghy';
-        const expectedPassword = '1Team@w0rk';
-
         const loginForm = document.getElementById('loginForm');
         const loginPanel = document.getElementById('loginPanel');
         const resourcePanel = document.getElementById('resourcePanel');
         const loginMessage = document.getElementById('loginMessage');
         const logoutButton = document.getElementById('logoutButton');
+        const urlParams = new URLSearchParams(window.location.search);
+        const requestedTarget = sanitizeNextPath(urlParams.get('next'));
+
+        function sanitizeNextPath(candidate) {
+            if (typeof candidate !== 'string') return '';
+            if (!candidate.startsWith('/')) return '';
+            if (candidate.startsWith('//')) return '';
+            if (candidate.includes('/../') || candidate.endsWith('/..')) return '';
+            return candidate;
+        }
+
+        function navigateToRequestedTarget() {
+            if (requestedTarget) {
+                window.location.assign(requestedTarget);
+                return true;
+            }
+            return false;
+        }
 
         function setAuthenticatedState(isAuthenticated) {
             if (isAuthenticated) {
-                sessionStorage.setItem(ACCESS_KEY, 'true');
+                if (navigateToRequestedTarget()) return;
                 loginPanel.classList.add('portal-panel-hidden');
                 resourcePanel.classList.remove('portal-panel-hidden');
                 loginMessage.textContent = '';
                 return;
             }
 
-            sessionStorage.removeItem(ACCESS_KEY);
             resourcePanel.classList.add('portal-panel-hidden');
             loginPanel.classList.remove('portal-panel-hidden');
             loginForm.reset();
             loginMessage.textContent = '';
         }
 
-        loginForm.addEventListener('submit', function (event) {
+        async function syncPortalSession() {
+            try {
+                const response = await fetch('/cnrs26/session', { credentials: 'same-origin' });
+                if (!response.ok) throw new Error('Unable to read session');
+                const data = await response.json();
+                setAuthenticatedState(Boolean(data.authenticated));
+            } catch (error) {
+                setAuthenticatedState(false);
+            }
+        }
+
+        loginForm.addEventListener('submit', async function (event) {
             event.preventDefault();
 
             const formData = new FormData(loginForm);
             const username = String(formData.get('username') || '').trim();
             const password = String(formData.get('password') || '');
 
-            if (username === expectedUsername && password === expectedPassword) {
-                setAuthenticatedState(true);
-                return;
+            try {
+                const response = await fetch('/cnrs26/login', {
+                    method: 'POST',
+                    credentials: 'same-origin',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password, next: requestedTarget })
+                });
+                const data = await response.json();
+
+                if (response.ok && data.ok) {
+                    const redirectTarget = sanitizeNextPath(data.redirect);
+                    if (redirectTarget) {
+                        window.location.assign(redirectTarget);
+                        return;
+                    }
+                    setAuthenticatedState(true);
+                    return;
+                }
+
+                setAuthenticatedState(false);
+                loginMessage.textContent = data.message || 'Access denied. Please check the username and password.';
+            } catch (error) {
+                setAuthenticatedState(false);
+                loginMessage.textContent = 'Login is temporarily unavailable. Please try again.';
             }
-
-            loginMessage.textContent = 'Access denied. Please check the username and password.';
         });
 
-        logoutButton.addEventListener('click', function () {
-            setAuthenticatedState(false);
+        logoutButton.addEventListener('click', async function () {
+            try {
+                await fetch('/cnrs26/logout', {
+                    method: 'POST',
+                    credentials: 'same-origin'
+                });
+            } finally {
+                setAuthenticatedState(false);
+            }
         });
 
-        if (sessionStorage.getItem(ACCESS_KEY) === 'true') {
-            setAuthenticatedState(true);
-        }
+        syncPortalSession();
     </script>
 
     <script>
@@ -202,5 +250,4 @@
 </body>
 
 </html>
-
 

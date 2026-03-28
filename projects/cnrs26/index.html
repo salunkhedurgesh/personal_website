@@ -7,67 +7,19 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/style_publications.css">
     <link rel="stylesheet" href="/projects/cnrs26/portal.css">
-    <script type="text/javascript" src="/js/main.js"></script>
-    <script type="text/javascript" src="/js/auto_writer_main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
 </head>
 
 <body>
-
-    <div id="logo_click_non_index"></div>
-
-    <div class="navcontent">
-        <a id="homeLink">
-            <span class="navlogo"><img id="homeImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">01.</span> <span class="navtitle">home</span>
-        </a>
-        <a id="experienceLink">
-            <span class="navlogo"><img id="experienceImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">02.</span> <span class="navtitle">experience</span>
-        </a>
-        <a id="projectsLink">
-            <span class="navlogo"><img id="projectsImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">03.</span> <span class="navtitle">projects</span>
-        </a>
-        <a id="contactLink" onclick="blink()">
-            <span class="navlogo"><img id="contactImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">04.</span> <span class="navtitle">contact</span>
-        </a>
-    </div>
-
-    <div class="topBack"></div>
-
-    <div id="contactTop"></div>
-    <script>
-        fetch('/projects/main/common/common_contact.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('contactTop').innerHTML = data;
-            });
-    </script>
-
-    <script type="text/javascript" src="/js/helpers_index.js"></script>
-
     <div class="content portal-page">
         <section class="portal-hero">
-            <p class="portal-kicker">Private Materials</p>
             <h1>CNRS 2026 access portal</h1>
-            <p class="portal-subtitle">A cleaner entry point for your rehearsal material and presentation files, using the same site theme but with a lighter touch.</p>
         </section>
 
         <section class="portal-layout">
             <div class="paper portal-shell">
                 <div class="paper_description portal-panel" id="loginPanel">
-                    <div class="paper_title">
-                        <p class="paper_heading portal-heading">Sign in</p>
-                        <p class="authors portal-copy">Use the private credentials to unlock the teleprompter, presentation PDF, and annotated speech text.</p>
-                    </div>
-
                     <form id="loginForm" class="portal-form">
                         <label class="portal-label" for="username">Username</label>
                         <input class="portal-input" id="username" name="username" type="text" autocomplete="username" required>
@@ -83,17 +35,12 @@
                 </div>
 
                 <div class="paper_description portal-panel portal-panel-hidden" id="resourcePanel">
-                    <div class="paper_title">
-                        <p class="paper_heading portal-heading">Files unlocked</p>
-                        <p class="authors portal-copy">Open the rehearsal teleprompter, presentation PDF, or annotated speech text after login.</p>
-                    </div>
-
                     <div class="portal-files">
                         <a class="portal-file" href="/cnrs_teleprompter" target="_blank" rel="noopener noreferrer">
                             <div class="portal-file-icon">T</div>
                             <div class="portal-file-copy">
                                 <span class="portal-file-name">cnrs_teleprompter.html</span>
-                                <span class="portal-file-meta">Rehearsal view with pacing tools and markdown toggle</span>
+                                <span class="portal-file-meta">Rehearsal view with pacing tools</span>
                             </div>
                         </a>
                         <a class="portal-file" href="/cnrs_presentation" target="_blank" rel="noopener noreferrer">
@@ -107,7 +54,7 @@
                             <div class="portal-file-icon">TXT</div>
                             <div class="portal-file-copy">
                                 <span class="portal-file-name">cnrs_presentation_speech_annotated.txt</span>
-                                <span class="portal-file-meta">Annotated speech text rendered directly in the browser</span>
+                                <span class="portal-file-meta">Annotated speech text</span>
                             </div>
                         </a>
                     </div>
@@ -117,15 +64,7 @@
                     </div>
                 </div>
             </div>
-
-            <aside class="portal-sidecard">
-                <p class="portal-sidecard-title">What changed</p>
-                <p class="portal-sidecard-copy">The heading is now smaller, the layout is more balanced, and the unlocked view now includes the teleprompter, PDF, and annotated speech text.</p>
-                <p class="portal-sidecard-copy">The teleprompter now reads `cnrs_presentation_speech_annotated.txt` from this same folder so the speech stays in one source file.</p>
-            </aside>
         </section>
-
-        <div class="skill_spacer"></div>
     </div>
 
     <script>
@@ -226,36 +165,6 @@
 
         syncPortalSession();
     </script>
-
-    <script>
-        const file_ext2 = '/projects/main/common/';
-        const file_paths2 = ['logo_click_non_index'];
-
-        for (const file2 of file_paths2) {
-            fetch(file_ext2 + file2 + '.html')
-                .then(response => {
-                    if (!response.ok) throw new Error(`Failed to load ${file2}`);
-                    return response.text();
-                })
-                .then(data => {
-                    document.getElementById(file2).innerHTML = data;
-                })
-                .catch(err => console.error(err));
-        }
-    </script>
-
-    <div class="desktop_spacer"></div>
-    <div id="contact"></div>
-    <script>
-        fetch('/projects/main/common/contact.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('contact').innerHTML = data;
-            });
-    </script>
-
 </body>
 
 </html>
-
-

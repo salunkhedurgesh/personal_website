@@ -29,9 +29,10 @@ header('Content-Type: ' . $selected['content_type']);
 header('Content-Length: ' . (string) filesize($filePath));
 header('X-Content-Type-Options: nosniff');
 
-if ($resource === 'presentation') {
+if (in_array($resource, ['presentation', 'annotated_speech'], true)) {
     header('Content-Disposition: inline; filename="' . $selected['filename'] . '"');
 }
 
 readfile($filePath);
 exit;
+

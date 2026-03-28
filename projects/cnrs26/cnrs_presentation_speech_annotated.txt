@@ -1,0 +1,234 @@
+~~~~~~~~~~~~~~~~
+1.5 min
+~~~~~~~~~~~~~~~~
+
+In France, operating rooms are already under pressure, and staffing shortages have made the need for robotic assistance immediate, not hypothetical.
+This urgency is increasingly recognized by researchers, who are already demonstrating how robotic systems could support clinical teams directly in the operating room.
+
+
+My research goal is to develop safe, reliable, and human-centered robotic systems that can meaningfully support clinicians in demanding care environments.
+
+To make my vision more concrete, imagine a very simple moment in the operating room:
+a surgeon says, “Please pass me the scalpel.”
+This image looks simple.
+But for a robot, this apparently simple request hides three major scientific barriers.
+
+The first barrier is reliable execution:
+the robot must move safely, predictably, and explainably in the real world.
+
+The second barrier is skill scalability:
+if we teach one robot a useful skill today, we should not have to start from zero when a new robot arrives tomorrow.
+
+And the third barrier is embodied alignment:
+the robot must act in a way that is physically grounded, understandable, and aligned with human intent.
+
+This is why I propose a co-design approach:
+to develop robot mechanisms and learning paradigms together, from the ground up, for human-centric tasks.
+
+
+~~~~~~~~~~~~~~~~
+1.5 min
+~~~~~~~~~~~~~~~~
+
+I would now like to show how my academic path naturally led me to this vision.
+
+I hold a double Master’s degree in Advanced Robotics from the University of Genova and École Centrale de Nantes.
+My Master’s thesis focused on the optimization of robot design for endoscopic otological surgery, in collaboration with CHU Nantes and DFKI Germany.
+
+I then pursued a PhD in theoretical kinematics at LS2N as a CNRS doctoral researcher within an ANR project, under the supervision of Philippe Wenger and Damien Chablat.
+During this period, I worked on robot design synthesis and on safe and reliable path planning for commercial robots.
+I also had the opportunity to collaborate with researchers from Sorbonne University, JKU Linz, and the University of Innsbruck.
+
+To broaden this work toward learning and modern collaborative robotics, I joined EPFL as a postdoctoral researcher in the LASA laboratory, working with Prof. Aude Billard.
+There, I focus on learning from demonstration and explainable cross-robot skill transfer.
+
+So, over time, two research threads progressively came together in my work:
+on one side, robot design and kinematic analysis;
+and on the other, safe learning and robot behaviour.
+
+My research proposal is the point where these two threads become one research program.
+
+
+~~~~~~~~~~~~~~~~
+4 min
+~~~~~~~~~~~~~~~~
+
+Let me now explain more concretely how my past work leads to the project I am proposing today.
+
+During my PhD, I worked on the kinematic analysis of serial robots, especially 3R and 6R robots.
+Here, an nR robot simply means a robot with n revolute joints.
+
+A central question in robotics is inverse kinematics:
+for one desired target in space, how many joint configurations can bring the robot there?
+
+As seen in these figures, robotics lives in two spaces.
+The first is the workspace, where we describe the motion of the end-effector in the task environment.
+The second is the joint space, where we describe the motion of the robot through its joint coordinates.
+
+These two spaces are linked by the Jacobian matrix, which maps joint velocities to end-effector velocities.
+And this leads to another crucial notion: singularities: a condition when the Jacobian is not full rank.
+At a singularity, the robot loses motion capability, and control becomes difficult or unreliable.
+
+My PhD focused in particular on cuspidal robots.
+These are robots that can switch from one inverse-kinematic solution to another without crossing a singularity.
+
+[slow down]
+This makes motion planning fundamentally more complex, because the usual separation between robot postures no longer holds.
+Cuspidality is one of the sources of unreliable execution, a problem I address in my proposal.
+
+Before my work, path-planning issues had mainly been studied for 3R cuspidal robots, and only isolated results existed for 6R robots.
+This led to two main questions:
+first, how can we determine whether a given 6R robot is cuspidal?
+and second, what does cuspidality imply for the path planning of commercial robots?
+
+To answer this, I combined geometric, algebraic, and numerical tools to build a practical framework for cuspidality analysis and classification.
+One key result was that even small deviations from conventional industrial design often lead to cuspidal behaviour.
+And once that happens, the robot admits specific path types that make motion planning much more subtle.
+
+I also developed a framework for safe and reliable path planning of commercial 6R robots.
+
+This work naturally led me to the next question.
+
+If future collaborative robots are expected to learn skills from humans and execute them online, how can we make this learning safe, reliable, and transferable?
+
+This is the question I pursued at EPFL.
+
+At LASA, I worked on learning from demonstration and explainable cross-robot skill transfer.
+The scientific lock here is the following:
+how can we learn a control policy from a demonstration once, and transfer it across robots in a safe and deterministic way?
+
+Here, by control policy, I simply mean a map from the robot’s current state to its next action.
+And, as seen in this image, we can visualize such a policy as a vector field.
+
+In much of the current state of the art, transfer is handled through data-driven adaptation, morphology inference, or repeated tuning for each robot.
+My approach is different.
+
+First, I use stable dynamical systems to encode the demonstrated behaviour as robust control policies.
+Second, I inject analytical kinematic properties directly into the learning model, so that execution remains faithful to the morphology of each robot.
+
+The key idea is the following:
+the policy can remain robot-agnostic,
+but the execution must remain robot-specific.
+
+This is what I call Kinematic Intelligence.
+
+And this line of work culminated in our recent Science Robotics result on explainable cross-robot skill transfer.
+
+Taken together, my PhD and postdoctoral work provide the two foundations of my CNRS project:
+a global understanding of robot kinematics,
+and the embedding of this understanding into learning and control.
+
+In the following presentation, I will focus on how I address the two barriers of Reliable Execution and Skill Scalability, which structure the short-term and mid-term scientific goals of my project. To make the storyline easier to follow, each phase uses the same color code as the barrier it resolves.
+
+
+~~~~~~~~~~~~~~~~
+3 min
+~~~~~~~~~~~~~~~~
+
+Let me now turn to the first phase of my proposal, which addresses the first barrier: reliable execution.
+
+The motivation is straightforward.
+Many modern commercial robots, including collaborative robots, are cuspidal.
+At the same time, new robot morphologies are appearing very quickly.
+So the analysis of cuspidal robots is no longer a niche question.
+It is becoming essential for the future of human-robot interaction, as also highlighted in the phase slide.
+
+On the design side, the scientific lock is that kinematic analysis becomes drastically harder as dimension increases.
+In simple words, this problem suffers from a curse of dimensionality.
+
+My approach is to study the singularities and workspace structure of these robots systematically.
+I want to classify robots through the topology of their singularities, and combine analytical and semi-analytical tools for fast and practical workspace analysis.
+
+As seen in this example, instead of analyzing a full 7R robot all at once, I decompose it into substructures and study their singularities separately.
+This gives a tractable route toward global analysis.
+
+On the control side, the lock is different.
+Existing policy-learning approaches work well when inverse-kinematic solutions are clearly separated by singularities, because then each solution can be associated with its own isolated policy.
+
+But in cuspidal robots, this clean separation disappears.
+Several solutions may coexist without singular separation, and the robot may face ambiguity in execution.
+
+So the question becomes:
+which control policy should the robot follow?
+
+My answer is to extend kinematic intelligence to cuspidal settings.
+Instead of correcting the motion afterward, I want to inject kinematic structure into the policy from the start.
+When several feasible solutions exist, the controller should identify, in real time, the one that best preserves the demonstrated intent.
+
+And this must be done without creating unstable behaviours such as false attractors, oscillations, or dead zones.
+
+So the objective of Phase 1 is the following:
+to understand cuspidal robots globally,
+and to use that understanding to build deterministic and explainable control policies.
+This is the first concrete expression of my co-design philosophy.
+
+
+~~~~~~~~~~~~~~~~
+3 min
+~~~~~~~~~~~~~~~~
+
+Once reliable execution is addressed, my mid-term focus is the second barrier: skill scalability.
+
+Here, the motivation comes from a mechanical tension that is central in human-robot interaction.
+
+Conventional robots are precise, but rigid.
+Soft robots are compliant, but they often lack precision and payload.
+For human-robot interaction, especially in healthcare, we need a middle ground:
+robots that are lightweight, mechanically compliant, and capable of variable stiffness.
+
+This is why I am interested in novel joints and hybrid mechanisms.
+For example, anti-parallelogram or X-joints are attractive because they mimic more natural joint motion and can exhibit positive co-activation:
+as cables are tightened, stiffness increases.
+
+On the design side, the scientific lock is that the kinematic analysis of such joints and hybrid robots is still largely missing.
+My approach will be to study their singularities, cuspidal properties, and the effect of joint limits, and then identify which of these properties can be exploited for reliable control.
+
+I also want to investigate hybrid serial-parallel mechanisms that combine natural rolling motion, low inertia, and better suitability for physical interaction.
+
+Because these mechanisms often lead to complex nonlinear models, I will rely not only on classical analytical tools, but also on efficient numerical and semi-analytical methods.
+
+On the control side, the lock is that a skill learned on one robot should not need to be relearned from scratch each time a new morphology appears.
+Yet this becomes difficult when the new robot has fundamentally different kinematic properties.
+
+My answer is to extend kinematic intelligence into a true skill-transfer framework.
+
+The idea is that singularities and inverse-kinematic solutions form a kind of structural language of the robot.
+By leveraging this language, I want to determine what should remain invariant during transfer, and how execution should adapt so that it remains safe, deterministic, and explainable across robot generations.
+
+This is the phase where co-design becomes fully operational.
+I do not only want robots that can learn safely.
+I want robots whose very mechanics are designed to make safe and explainable learning possible.
+
+
+~~~~~~~~~~~~~~~~
+1.5 min
+~~~~~~~~~~~~~~~~
+
+I have requested Team RDH at ICube in Strasbourg as my primary host, and Team Gepetto at LAAS, Toulouse as my secondary host.
+
+Strasbourg is my preferred integration site because it offers the strongest environment to develop and validate a human-centered co-design project in a healthcare setting.
+
+As seen in these slides, Team RDH sits precisely at the interface of robotics, medical technology, and surgical applications, which matches my proposal very well.
+
+Scientifically, I see a strong complementarity with Pierre Renaud on mechanism design, with Florent Nageotte and Benoit Rosa on soft and medical robotics, and with Olivier Piccin on kinematic analysis.
+Nicolas Padoy also provides an important bridge toward surgical data science, transfer-oriented learning, and vision-language models, which connects naturally with the transfer-learning and language-action dimensions of my project.
+
+Strasbourg also offers a concrete translational ecosystem through IHU Strasbourg, the University Hospital, and the IRIS platform, with robotic systems such as KUKA iiwa, UR3, UR5, and the Dobot X-trainer.
+
+And, importantly, the IMARA project, led by ICube, is directly aligned with lightweight robotic assistance in the operating room, which is aims to address a similar problem as I proposed earlier
+
+For me, this makes Strasbourg not only an excellent host laboratory, but the right ecosystem to take this project from theory to real medical impact.
+
+~~~~~~~~~~~~~~~~
+0.5 min
+~~~~~~~~~~~~~~~~
+
+I have also requested Team Gepetto at LAAS in Toulouse as my secondary host.
+
+Toulouse provides a strong methodological complement in motion planning, whole-body control, and optimization.
+I see a clear fit with Florent Lamiraux on path planning, Nicolas Mansard on optimization and co-design, and Olivier Stasse on humanoid control.
+
+So, Strasbourg is the ideal environment for the healthcare and translational dimension of my project,
+while Toulouse is the ideal complement for scaling its planning and control side.
+
+Thank you very much for your attention.

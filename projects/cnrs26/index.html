@@ -65,7 +65,7 @@
                 <div class="paper_description portal-panel" id="loginPanel">
                     <div class="paper_title">
                         <p class="paper_heading portal-heading">Sign in</p>
-                        <p class="authors portal-copy">Use the private credentials to unlock the teleprompter and presentation PDF.</p>
+                        <p class="authors portal-copy">Use the private credentials to unlock the teleprompter, presentation PDF, and annotated speech text.</p>
                     </div>
 
                     <form id="loginForm" class="portal-form">
@@ -85,7 +85,7 @@
                 <div class="paper_description portal-panel portal-panel-hidden" id="resourcePanel">
                     <div class="paper_title">
                         <p class="paper_heading portal-heading">Files unlocked</p>
-                        <p class="authors portal-copy">Open the rehearsal teleprompter or the presentation PDF after login.</p>
+                        <p class="authors portal-copy">Open the rehearsal teleprompter, presentation PDF, or annotated speech text after login.</p>
                     </div>
 
                     <div class="portal-files">
@@ -103,6 +103,13 @@
                                 <span class="portal-file-meta">Short CNRS presentation PDF</span>
                             </div>
                         </a>
+                        <a class="portal-file" href="/projects/cnrs26/cnrs_presentation_speech_annotated.txt" target="_blank" rel="noopener noreferrer">
+                            <div class="portal-file-icon">TXT</div>
+                            <div class="portal-file-copy">
+                                <span class="portal-file-name">cnrs_presentation_speech_annotated.txt</span>
+                                <span class="portal-file-meta">Annotated speech text rendered directly in the browser</span>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="portal-actions">
@@ -113,8 +120,8 @@
 
             <aside class="portal-sidecard">
                 <p class="portal-sidecard-title">What changed</p>
-                <p class="portal-sidecard-copy">The heading is now smaller, the layout is more balanced, and the unlocked view only shows the two links you asked for.</p>
-                <p class="portal-sidecard-copy">The teleprompter page also reads `cnrs_performance_script.md` from this same folder when the markdown flag is enabled.</p>
+                <p class="portal-sidecard-copy">The heading is now smaller, the layout is more balanced, and the unlocked view now includes the teleprompter, PDF, and annotated speech text.</p>
+                <p class="portal-sidecard-copy">The teleprompter now reads `cnrs_presentation_speech_annotated.txt` from this same folder so the speech stays in one source file.</p>
             </aside>
         </section>
 
@@ -250,4 +257,5 @@
 </body>
 
 </html>
+
 

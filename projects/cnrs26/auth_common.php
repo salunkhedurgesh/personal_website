@@ -115,5 +115,11 @@ function cnrs26_protected_resources(): array
             'content_type' => 'text/markdown; charset=UTF-8',
             'filename' => 'cnrs_performance_script.md',
         ],
+        'annotated_speech' => [
+            'path' => __DIR__ . '/cnrs_presentation_speech_annotated.txt',
+            'content_type' => 'text/plain; charset=UTF-8',
+            'filename' => 'cnrs_presentation_speech_annotated.txt',
+        ],
     ];
 }
+

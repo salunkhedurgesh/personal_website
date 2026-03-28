@@ -34,6 +34,7 @@ ROUTES = {
     'cnrs26': 'projects/cnrs26/index.html',
     'cnrs_teleprompter': 'projects/cnrs26/cnrs_teleprompter.html',
     'cnrs_presentation': 'projects/cnrs26/CNRS26_Salunkhe_short.pdf',
+    'cnrs_speech_annotated': 'projects/cnrs26/cnrs_presentation_speech_annotated.txt',
     'cnrs1': 'projects/cnrs/cnrs_resources/rcim19_dutta.pdf',
     'cnrs2': 'projects/cnrs/cnrs_resources/mmt22_opt_salunkhe.pdf',
     'cnrs3': 'projects/cnrs/cnrs_resources/mmt22_salunkhe.pdf',
@@ -48,12 +49,14 @@ ROUTES = {
 PROTECTED_SLUGS = {
     'cnrs_teleprompter',
     'cnrs_presentation',
+    'cnrs_speech_annotated',
 }
 
 PROTECTED_PATHS = {
     'projects/cnrs26/cnrs_teleprompter.html',
     'projects/cnrs26/CNRS26_Salunkhe_short.pdf',
     'projects/cnrs26/cnrs_performance_script.md',
+    'projects/cnrs26/cnrs_presentation_speech_annotated.txt',
 }
 
 
@@ -136,3 +139,4 @@ def clean_url(slug):
 
 if __name__ == '__main__':
     app.run(port=8000, debug=True)
+

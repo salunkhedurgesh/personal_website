@@ -40,11 +40,11 @@ During this period, I worked on robot design synthesis and on safe and reliable 
 I also had the opportunity to collaborate with researchers from Sorbonne University, JKU Linz, and the University of Innsbruck.
 
 To broaden this work toward learning and modern collaborative robotics, I joined EPFL as a postdoctoral researcher in the LASA laboratory, working with Prof. Aude Billard.
-There, I focus on learning from demonstration and explainable cross-robot skill transfer.
+Here, I focus on learning from demonstration and explainable cross-robot skill transfer.
 
 So, over time, two research threads progressively came together in my work:
 on one side, robot design and kinematic analysis;
-and on the other, safe learning and robot behaviour.
+and on the other, safe and reliable robot behaviour.
 
 My research proposal is the point where these two threads become one research program.
 
@@ -91,11 +91,11 @@ This work naturally led me to the next question.
 
 If future collaborative robots are expected to learn skills from humans and execute them online, how can we make this learning safe, reliable, and transferable?
 
-This is the question I pursued at EPFL.
+This is the question I pursue at EPFL.
 
-At LASA, I worked on learning from demonstration and explainable cross-robot skill transfer.
+At LASA, I work on learning from demonstration and explainable cross-robot skill transfer.
 The scientific lock here is the following:
-how can we learn a control policy from a demonstration once, and transfer it across robots in a safe and deterministic way?
+how can we learn a control policy from a demonstration once, and transfer it across robots in a safe and deterministic manner?
 
 Here, by control policy, I simply mean a map from the robot’s current state to its next action.
 And, as seen in this image, we can visualize such a policy as a vector field.
@@ -125,21 +125,23 @@ In the following presentation, I will focus on how I address the two barriers of
 3 min
 ~~~~~~~~~~~~~~~~
 
-Let me now turn to the first phase of my proposal, which addresses the first barrier: reliable execution.
+The first phase of my proposal addresses the first barrier: reliable execution.
 
 The motivation is straightforward.
 Many modern commercial robots, including collaborative robots, are cuspidal.
 At the same time, new robot morphologies are appearing very quickly.
 So the analysis of cuspidal robots is no longer a niche question.
-It is becoming essential for the future of human-robot interaction, as also highlighted in the phase slide.
+It is becoming essential for the future of human-robot interaction.
 
 On the design side, the scientific lock is that kinematic analysis becomes drastically harder as dimension increases.
 In simple words, this problem suffers from a curse of dimensionality.
 
-My approach is to study the singularities and workspace structure of these robots systematically.
+My approach is to study the singularities and workspace structure of cuspidal robots systematically.
 I want to classify robots through the topology of their singularities, and combine analytical and semi-analytical tools for fast and practical workspace analysis.
 
-As seen in this example, instead of analyzing a full 7R robot all at once, I decompose it into substructures and study their singularities separately.
+In this step, I will use modern tools such as Conformal Geometric Algebra and Cylindrical Algebraic Decomposition.
+
+This image shows an example of redundancy parameterization, instead of analyzing a full 7R robot all at once, I decompose it into substructures and study their singularities separately.
 This gives a tractable route toward global analysis.
 
 On the control side, the lock is different.
@@ -149,7 +151,7 @@ But in cuspidal robots, this clean separation disappears.
 Several solutions may coexist without singular separation, and the robot may face ambiguity in execution.
 
 So the question becomes:
-which control policy should the robot follow?
+which control policy should the robot follow to reach a target?
 
 My answer is to extend kinematic intelligence to cuspidal settings.
 Instead of correcting the motion afterward, I want to inject kinematic structure into the policy from the start.

@@ -51,29 +51,19 @@ My research proposal is the point where these two threads become one research pr
 ~~~~~~~~~~~~~~~~
 4 min
 ~~~~~~~~~~~~~~~~
+Let me now explain how my past work leads directly to the project I am proposing today.
 
-Let me now explain more concretely how my past work leads to the project I am proposing today.
+During my PhD, I studied the kinematic analysis of serial robots, especially 3R and 6R robots, where nR simply means a robot with n revolute joints.
 
-During my PhD, I worked on the kinematic analysis of serial robots, especially 3R and 6R robots.
-Here, an nR robot simply means a robot with n revolute joints.
+A central question in robotics is inverse kinematics: for one target in space, how many joint configurations can reach it?
 
-A central question in robotics is inverse kinematics:
-for one desired target in space, how many joint configurations can bring the robot there?
+As these figures show, robotics lives in two spaces: the workspace, which describes where the robot’s end-effector can move, and the joint space, which describes the robot through its joint values.
 
-As seen in these figures, robotics lives in two spaces.
-The first is the workspace, where we describe the motion of the end-effector in the task environment.
-The second is the joint space, where we describe the motion of the robot through its joint coordinates.
+This brings us to singularities, configurations where the robot loses motion capability and control becomes unreliable.
 
-These two spaces are linked by the Jacobian matrix, which maps joint velocities to end-effector velocities.
-And this leads to another crucial notion: singularities: a condition when the Jacobian is not full rank.
-At a singularity, the robot loses motion capability, and control becomes difficult or unreliable.
+My PhD focused in particular on cuspidal robots, where the robot can switch from one inverse-kinematic solution to another without crossing a singularity.
 
-My PhD focused in particular on cuspidal robots.
-These are robots that can switch from one inverse-kinematic solution to another without crossing a singularity.
-
-[slow down]
-This makes motion planning fundamentally more complex, because the usual separation between robot postures no longer holds.
-Cuspidality is one of the sources of unreliable execution, a problem I address in my proposal.
+This makes motion planning much harder, because robot postures are no longer cleanly separated. Cuspidality is therefore one source of unreliable execution that motivates my proposal.
 
 Before my work, path-planning issues had mainly been studied for 3R cuspidal robots, and only isolated results existed for 6R robots.
 This led to two main questions:
@@ -83,18 +73,9 @@ and second, what does cuspidality imply for the path planning of commercial robo
 To answer this, I combined geometric, algebraic, and numerical tools to build a practical framework for cuspidality analysis and classification.
 One key result was that even small deviations from conventional industrial design often lead to cuspidal behaviour.
 And once that happens, the robot admits specific path types that make motion planning much more subtle.
-
 I also developed a framework for safe and reliable path planning of commercial 6R robots.
 
-This work naturally led me to the next question.
-
-If future collaborative robots are expected to learn skills from humans and execute them online, how can we make this learning safe, reliable, and transferable?
-
-This is the question I pursue at EPFL.
-
-At LASA, I work on learning from demonstration and explainable cross-robot skill transfer.
-The scientific lock here is the following:
-how can we learn a control policy from a demonstration once, and transfer it across robots in a safe and deterministic manner?
+This work naturally led me to the next question: how can I make skill execution in collaborative robots safe, reliable, and transferable when the control policy is learned from demonstration?
 
 Here, by control policy, I simply mean a map from the robot’s current state to its next action.
 And, as seen in this image, we can visualize such a policy as a vector field.
@@ -209,14 +190,12 @@ I have requested Team RDH at ICube in Strasbourg as my primary host, and Team Ge
 
 Strasbourg is my preferred integration site because it offers the strongest environment to develop and validate a human-centered co-design project in a healthcare setting.
 
-As seen in these slides, Team RDH sits precisely at the interface of robotics, medical technology, and surgical applications, which matches my proposal very well.
-
 Scientifically, I see a strong complementarity with Pierre Renaud on mechanism design, with Florent Nageotte and Benoit Rosa on soft and medical robotics, and with Olivier Piccin on kinematic analysis.
 Nicolas Padoy also provides an important bridge toward surgical data science, transfer-oriented learning, and vision-language models, which connects naturally with the transfer-learning and language-action dimensions of my project.
 
 Strasbourg also offers a concrete translational ecosystem through IHU Strasbourg, the University Hospital, and the IRIS platform, with robotic systems such as KUKA iiwa, UR3, UR5, and the Dobot X-trainer.
 
-And, importantly, the IMARA project, led by ICube, is directly aligned with lightweight robotic assistance in the operating room, which is aims to address a similar problem as I proposed earlier
+And, importantly, the IMARA project, led by ICube, is directly aligned with lightweight robotic assistance in the operating room, which aims to address a similar problem as I proposed earlier
 
 For me, this makes Strasbourg not only an excellent host laboratory, but the right ecosystem to take this project from theory to real medical impact.
 

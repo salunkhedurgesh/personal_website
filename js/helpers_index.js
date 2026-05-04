@@ -39,18 +39,18 @@ document.querySelectorAll('.navlogo').forEach(logo => {
     logo.appendChild(tooltip);
 });
 
-// Add tooltip functionality to nav links
-document.querySelectorAll('a[id*="Link"]').forEach(a => {
-    const tooltip = a.querySelector('.nav-tooltip');
-    if (!tooltip) return;
+// Add tooltip functionality to nav icons
+document.querySelectorAll('.navlogo').forEach(logo => {
     let timeout;
-    a.addEventListener('mouseenter', () => {
+    logo.addEventListener('mouseenter', () => {
         timeout = setTimeout(() => {
-            tooltip.style.display = 'block';
+            const tooltip = logo.querySelector('.nav-tooltip');
+            if (tooltip) tooltip.style.display = 'block';
         }, 200);
     });
-    a.addEventListener('mouseleave', () => {
+    logo.addEventListener('mouseleave', () => {
         clearTimeout(timeout);
-        tooltip.style.display = 'none';
+        const tooltip = logo.querySelector('.nav-tooltip');
+        if (tooltip) tooltip.style.display = 'none';
     });
 });

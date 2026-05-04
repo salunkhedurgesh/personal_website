@@ -191,9 +191,10 @@ body {
     transform: translateX(-50%);
     background-color: var(--background_color);
     color: var(--paper_color);
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.3rem;
     border-radius: 0.2rem;
-    font-size: 0.5rem;
+    font-size: 1.1rem !important;
+    line-height: 1 !important;
     white-space: nowrap;
     z-index: 10;
     border: 1px solid var(--halycon);

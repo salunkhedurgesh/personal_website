@@ -3,7 +3,7 @@ const page_path = '/projects/main/';
 
 // Mapping of elements to update
 const elements = [
-    { id: 'personalLink', prop: 'href', value: 'https://salunkhedurgesh.com/' },
+    { id: 'personalLink', prop: 'href', value: '/personal' },
     { id: 'logoImg', prop: 'src', value: image_path + 'logo_indark.png' },
     { id: 'homeLink', prop: 'href', value: '/' },
     { id: 'homeImage', prop: 'src', value: image_path + 'home_green.png' },
@@ -30,3 +30,27 @@ for (const item of elements) {
         console.warn(`Error updating ${item.id}:`, e);
     }
 }
+
+// Add tooltips to nav items
+document.querySelectorAll('.navlogo').forEach(logo => {
+    const tooltip = document.createElement('span');
+    tooltip.className = 'nav-tooltip';
+    tooltip.textContent = logo.parentElement.querySelector('.navtitle').textContent;
+    logo.appendChild(tooltip);
+});
+
+// Add tooltip functionality to nav links
+document.querySelectorAll('a[id*="Link"]').forEach(a => {
+    const tooltip = a.querySelector('.nav-tooltip');
+    if (!tooltip) return;
+    let timeout;
+    a.addEventListener('mouseenter', () => {
+        timeout = setTimeout(() => {
+            tooltip.style.display = 'block';
+        }, 200);
+    });
+    a.addEventListener('mouseleave', () => {
+        clearTimeout(timeout);
+        tooltip.style.display = 'none';
+    });
+});

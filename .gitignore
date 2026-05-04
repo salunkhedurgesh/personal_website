@@ -7,3 +7,6 @@
 # presentation related images
 /presentation_resource/
 /presentation_slides/
+
+# Python virtual environment
+.venv/

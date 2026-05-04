@@ -3,7 +3,7 @@
 // ============================================================
 
 const recentNews = [
-     `25<sup>th</sup> February, 2026: Received MSCA Seal of Excellence for high quality research proposal.`,
+    `15<sup>th</sup> April, 2026: Our paper on Kinematic Intelligence in Science Robotics is out!!`,
     `19<sup>th</sup> February, 2026: Course proposed on Kinematics grounded robot motion planning at EPFL with Prof. Aude Billard.`,
     `21<sup>st</sup> November, 2025: Invited talk at IISc, Bangalore.`
 ];

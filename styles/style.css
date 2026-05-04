@@ -167,8 +167,9 @@ body.index-page {
 .navcontent a {
     color: var(--navbarcolor);
     display: flex;
-    flex-direction: row;
-    padding-right: 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
     font-size: 0.6rem;
 }
 
@@ -179,6 +180,30 @@ body.index-page {
 .navcontent span {
     font-size: 1rem;
     margin-right: 0.5rem;
+}
+
+.navcontent .navlogo {
+    position: relative;
+}
+
+.nav-tooltip {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--background_color);
+    color: var(--paper_color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 0.6rem;
+    white-space: nowrap;
+    z-index: 10;
+    border: 1px solid var(--halycon);
+}
+
+.navcontent a {
+    position: relative;
 }
 
 .navicon {

@@ -12,8 +12,14 @@ function generatePaperHTML({ id, title, authors, journal, short, year, doi, bibL
 
     const webHTML = webLink
         ? `<div class="action_row" style="text-align: center">
-                    <a href="#${id}_abstract"><img src="/projects/main/webpage_resources/images/blank.png" alt="blank"></a>
-                    <a href="${webLink}" target="_blank"><img src="/projects/main/webpage_resources/images/web_internet.png" alt="details"></a>
+                    <div class="icon-container">
+                        <a href="#${id}_abstract"><img src="/projects/main/webpage_resources/images/blank.png" alt="blank"></a>
+                        <span class="tooltip">blank</span>
+                    </div>
+                    <div class="icon-container">
+                        <a href="${webLink}" target="_blank"><img src="/projects/main/webpage_resources/images/web_internet.png" alt="details"></a>
+                        <span class="tooltip">website</span>
+                    </div>
                 </div>`
         : '';
 
@@ -29,9 +35,18 @@ function generatePaperHTML({ id, title, authors, journal, short, year, doi, bibL
         <div class="paper_description">
             <div>
                 <div class="action_row" id="${id}_paper">
-                    <a href="${bibHref}" target="_blank"><img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt="cite"></a>
-                    <a href="${pdfHref}" target="_blank"><img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt="download"></a>
-                    <a onclick="abstractClick('${id}_abstract')"><img src="/projects/main/webpage_resources/images/icon_abstract_dark.png" alt="abstract"></a>
+                    <div class="icon-container">
+                        <a href="${bibHref}" target="_blank"><img src="/projects/main/webpage_resources/images/icon_cite_dark.png" alt="cite"></a>
+                        <span class="tooltip">cite</span>
+                    </div>
+                    <div class="icon-container">
+                        <a href="${pdfHref}" target="_blank"><img src="/projects/main/webpage_resources/images/icon_download_dark.png" alt="download"></a>
+                        <span class="tooltip">download</span>
+                    </div>
+                    <div class="icon-container">
+                        <a onclick="abstractClick('${id}_abstract')"><img src="/projects/main/webpage_resources/images/icon_abstract_dark.png" alt="abstract"></a>
+                        <span class="tooltip">abstract</span>
+                    </div>
                 </div>
                 ${webHTML}
             </div>
@@ -153,6 +168,22 @@ fetch('/projects/main/publications/papers.csv')
             });
 
             container.appendChild(yearBlock);
+        });
+
+        // Add tooltip functionality
+        document.querySelectorAll('.icon-container img').forEach(img => {
+            let timeout;
+            img.addEventListener('mouseenter', () => {
+                timeout = setTimeout(() => {
+                    const tooltip = img.parentElement.nextElementSibling;
+                    if (tooltip) tooltip.style.display = 'block';
+                }, 200);
+            });
+            img.addEventListener('mouseleave', () => {
+                clearTimeout(timeout);
+                const tooltip = img.parentElement.nextElementSibling;
+                if (tooltip) tooltip.style.display = 'none';
+            });
         });
     })
     .catch(err => console.error('generate_papers.js:', err));

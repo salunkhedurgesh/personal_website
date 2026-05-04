@@ -173,6 +173,32 @@ body {
     margin-right: 10px;
 }
 
+.icon-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon-container img {
+    margin-right: 0;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--background_color);
+    color: var(--paper_color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 0.6rem;
+    white-space: nowrap;
+    z-index: 10;
+    border: 1px solid var(--halycon);
+}
+
 .paper_description p {
     font-size: 0.85rem;
     font-weight: lighter;
@@ -249,12 +275,11 @@ body {
 .abstract p {
     font-size: 0.6rem;
     font-weight: lighter;
-    text-align: justify;
-    border-top: var(--halycon) 1px solid;
-    margin-top: 1.5rem;
-    padding-top: 0.5rem;
-    line-height: 1.2em;
+    margin-top: 1rem;
+    text-align: left;
     color: var(--paper_color);
+    border-top: var(--halycon) 1px solid;
+    padding-top: 0.5rem;
 }
 
 
@@ -390,7 +415,7 @@ body {
     }
 
     .abstract p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 

@@ -35,6 +35,7 @@ ROUTES = {
     'cnrs_teleprompter': 'projects/cnrs26/cnrs_teleprompter.html',
     'cnrs_presentation': 'projects/cnrs26/CNRS26_Salunkhe_short.pdf',
     'cnrs_speech_annotated': 'projects/cnrs26/cnrs_presentation_speech_annotated.txt',
+    'epfl_course': 'projects/epfl_course/index.html',
     'cnrs1': 'projects/cnrs/cnrs_resources/rcim19_dutta.pdf',
     'cnrs2': 'projects/cnrs/cnrs_resources/mmt22_opt_salunkhe.pdf',
     'cnrs3': 'projects/cnrs/cnrs_resources/mmt22_salunkhe.pdf',
@@ -139,4 +140,3 @@ def clean_url(slug):
 
 if __name__ == '__main__':
     app.run(port=8000, debug=True)
-

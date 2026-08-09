@@ -1,0 +1,311 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5973685,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T18:43:15Z",
+          "timestamp": 1743014595805,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 17,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783030052188"
+          },
+          {
+            "type": "electronic",
+            "value": "9783030052195"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2019-01-01T00:00:00Z",
+              "timestamp": 1546300800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-030-05219-5_1",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2019-02-19T14:00:56Z",
+          "timestamp": 1550584856000
+        },
+        "page": "1-38",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Generalized Singularity Analysis"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Dimiter",
+            "family": "Zlatanov",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              20
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "unstructured": "W.T. Appleberry, Anti-rotation positioning mechanism (1992)",
+            "key": "1_CR1"
+          },
+          {
+            "issue": "3",
+            "key": "1_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "573",
+            "DOI": "10.1115/1.1582878",
+            "volume": "125",
+            "author": "Ilian A. Bonev",
+            "year": "2003",
+            "unstructured": "I.A. Bonev, D. Zlatanov, C.M. Gosselin, Singularity analysis of 3-DOF planar parallel mechanisms via screw theory. J. Mech. Des. 125, 573 (2003)",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "issue": "3",
+            "key": "1_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "403",
+            "DOI": "10.1109/TRA.2003.810242",
+            "volume": "19",
+            "author": "D Chablat",
+            "year": "2003",
+            "unstructured": "D. Chablat, P. Wenger, Architecture optimization of a 3-DOF translational parallel mechanism for machining applications, the Orthoglide. IEEE Trans. Robot. 19(3), 403–410 (2003)",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "issue": "3",
+            "key": "1_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "281",
+            "DOI": "10.1109/70.56660",
+            "volume": "6",
+            "author": "C. Gosselin",
+            "year": "1990",
+            "unstructured": "C.M. Gosselin, J. Angeles, Singularity analysis of closed-loop kinematic chains. IEEE Trans. Robot. Autom. 6(3), 281–290 (1990)",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "issue": "8",
+            "key": "1_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "999",
+            "DOI": "10.1016/0094-114X(96)84593-9",
+            "volume": "31",
+            "author": "Z. Huang",
+            "year": "1996",
+            "unstructured": "Z. Huang, W.S. Tao, Y.F. Fang, Study on the kinematic characteristics of 3 DOF in-parallel actuated platform mechanisms. Mech. Mach. Theory 31(8), 999–1007 (1996)",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "unstructured": "K.H. Hunt, Kinematic Geometry of Mechanisms (Oxford University Press, 1978)",
+            "key": "1_CR6"
+          },
+          {
+            "issue": "2",
+            "key": "1_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "455",
+            "DOI": "10.1115/1.3438177",
+            "volume": "95",
+            "author": "K. H. Hunt",
+            "year": "1973",
+            "unstructured": "K.H. Hunt, Constant-velocity shaft couplings: a general theory. Trans. ASME J. Eng. Ind. 95B, 455–464 (1973)",
+            "journal-title": "Journal of Engineering for Industry"
+          },
+          {
+            "unstructured": "F. Majou, P. Wenger, D. Chablat, Design of a 3 axis parallel machine tool for high speed machining: the Orthoglide, in Proceedings 4th International Conference Integrated Design and Manufacturing in Mechanical Engineering, \n                  arXiv:0705.1271\n                  \n                 [cs.RO], June 2007",
+            "key": "1_CR8"
+          },
+          {
+            "issue": "5",
+            "key": "1_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "45",
+            "DOI": "10.1177/027836498900800504",
+            "volume": "8",
+            "author": "Jean-Pierre Merlet",
+            "year": "1989",
+            "unstructured": "J.-P. Merlet, Singular configurations of parallel manipulators and Grassmann geometry. Int. J. Robot. Res. 8(5), 45–56 (1989)",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "unstructured": "A. Müller, D. Zlatanov, Kinematic singularities of mechanisms revisited, in IMA Conference on Mathematics of Robotics (IMAR) (2015). \n                  https://doi.org/10.19124/ima.2015.001.26",
+            "key": "1_CR10",
+            "DOI": "10.19124/ima.2015.001.26"
+          },
+          {
+            "unstructured": "D. Zlatanov, Generalized Singularity Analysis of Mechanisms. Ph.D. thesis, University of Toronto (1998)",
+            "key": "1_CR11"
+          },
+          {
+            "unstructured": "D. Zlatanov, M.Q. Dai, R.G. Fenton, B. Benhabib, Mechanical design and kinematic analysis of a three-legged six degree-of-freedom parallel manipulator, in Robotics, Spatial Mechanisms, and Mechanical Systems, ASME, vol. 45 (1992), pp. 529–536",
+            "key": "1_CR12"
+          },
+          {
+            "unstructured": "D. Zlatanov, R.G. Fenton, B. Benhabib, Singularity analysis of mechanisms and robots via a motion-space model of the instantaneous kinematics, in Proceedings of the IEEE International Conference on Robotics and Automation, ICRA (San Diego, USA) (1994a), pp. 980–985",
+            "key": "1_CR13"
+          },
+          {
+            "unstructured": "D. Zlatanov, R.G. Fenton, B. Benhabib, Singularity analysis of mechanisms and robots via a velocity-equation model of the instantaneous kinematics, in Proceedings of the IEEE International Conference on Robotics and Automation, ICRA (San Diego, USA) (1994b), pp. 986–991",
+            "key": "1_CR14"
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "D. Zlatanov, I.A. Bonev, C.M. Gosselin, Constraint singularities as C-Space singularities, in Advances in Robot Kinematics: Theory and Applications, ed. by J. Lenarcic, F. Thomas (Kluwer Academic Publishers, 2002a), pp. 183–192",
+            "key": "1_CR15",
+            "DOI": "10.1007/978-94-017-0657-5_20"
+          },
+          {
+            "unstructured": "D. Zlatanov, I.A. Bonev, C.M. Gosselin, Constraint singularities of parallel mechanisms, in Proceedings of the IEEE International Conference on Robotics and Automation, ICRA (Washington D.C., USA), vol. 1 (2002b), pp. 496–502",
+            "key": "1_CR16"
+          },
+          {
+            "unstructured": "D. Zlatanov, C.M. Gosselin, On the kinematic geometry of 3-RER parallel mechanisms, in Proceedings of the 11th IFToMM World Congress in Mechanism and Machine Science, Tianjin, China (2004)",
+            "key": "1_CR17"
+          }
+        ],
+        "container-title": [
+          "CISM International Centre for Mechanical Sciences",
+          "Singular Configurations of Mechanisms and Manipulators"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-030-05219-5_1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              15
+            ]
+          ],
+          "date-time": "2019-05-15T23:48:30Z",
+          "timestamp": 1557964110000
+        },
+        "score": 27.981075,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-030-05219-5_1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783030052188",
+          "9783030052195"
+        ],
+        "references-count": 17,
+        "URL": "https://doi.org/10.1007/978-3-030-05219-5_1",
+        "ISSN": [
+          "0254-1971",
+          "2309-3706"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0254-1971"
+          },
+          {
+            "type": "electronic",
+            "value": "2309-3706"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "20 February 2019",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

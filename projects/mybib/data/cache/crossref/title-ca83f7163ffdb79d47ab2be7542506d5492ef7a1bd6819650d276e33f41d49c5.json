@@ -1,0 +1,177 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3794347,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              12
+            ]
+          ],
+          "date-time": "2025-09-12T19:49:19Z",
+          "timestamp": 1757706559216,
+          "version": "3.37.0"
+        },
+        "reference-count": 0,
+        "publisher": "Open Press Tilburg University",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  10,
+                  27
+                ]
+              ],
+              "date-time": "2023-10-27T00:00:00Z",
+              "timestamp": 1698364800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "TechReg"
+        ],
+        "abstract": "<jats:p>The EU has proposed harmonized rules on artificial intelligence (AI Act) and a directive on adapting non-contractual civil liability rules to AI (AI liability directive) due to increased demand for trustworthy AI. However, the concept of trustworthy AI is unspecific, covering various desired characteristics such as safety, transparency, and accountability. Trustworthiness requires a specific contextual setting that involves human interaction with AI technology, and simply involving humans in decision processes does not guarantee trustworthy outcomes. In this paper, the authors argue for an informed notion of what is meant for a system to be trustworthy and examine the concept of trust, highlighting its reliance on a specific relationship between humans that cannot be strictly transmuted into a relationship between humans and machines. They outline a trust-based model for a cooperative approach to AI and provide an example of what that might look like.</jats:p>",
+        "DOI": "10.71265/pztsvw73",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2025-02-06T13:44:20Z",
+          "timestamp": 1738849460000
+        },
+        "page": "58-68",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Trustworthy AI"
+        ],
+        "prefix": "10.71265",
+        "volume": "2023",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4913-4790",
+            "authenticated-orcid": false,
+            "given": "Jacob Livingston",
+            "family": "Slosser",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Birgit",
+            "family": "Aasa",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Henrik Palmer",
+            "family": "Olsen",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "52190",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Technology and Regulation"
+        ],
+        "link": [
+          {
+            "URL": "https://techreg.org/article/download/13806/19717",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://techreg.org/article/download/13806/19717",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2025-02-06T13:44:20Z",
+          "timestamp": 1738849460000
+        },
+        "score": 34.418858,
+        "resource": {
+          "primary": {
+            "URL": "https://techreg.org/article/view/13806"
+          }
+        },
+        "subtitle": [
+          "a cooperative approach"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              27
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.71265/pztsvw73",
+        "ISSN": [
+          "2666-139X"
+        ],
+        "issn-type": [
+          {
+            "value": "2666-139X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              27
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

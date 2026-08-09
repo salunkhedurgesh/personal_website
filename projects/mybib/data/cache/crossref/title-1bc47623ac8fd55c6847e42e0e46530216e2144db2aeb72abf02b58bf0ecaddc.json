@@ -1,0 +1,197 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1892245,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T07:28:45Z",
+          "timestamp": 1742974125385,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 0,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789402411874"
+          },
+          {
+            "type": "electronic",
+            "value": "9789402411881"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-024-1188-1_300187",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              27
+            ]
+          ],
+          "date-time": "2022-01-27T06:02:44Z",
+          "timestamp": 1643263364000
+        },
+        "page": "503-503",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Ganapati"
+        ],
+        "prefix": "10.1007",
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              28
+            ]
+          ]
+        },
+        "container-title": [
+          "Encyclopedia of Indian Religions",
+          "Hinduism and Tribal Religions"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-94-024-1188-1_300187",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              27
+            ]
+          ],
+          "date-time": "2022-01-27T06:12:59Z",
+          "timestamp": 1643263979000
+        },
+        "score": 22.994623,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-94-024-1188-1_300187"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789402411874",
+          "9789402411881"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-94-024-1188-1_300187",
+        "ISSN": [
+          "2542-7628",
+          "2542-7636"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2542-7628"
+          },
+          {
+            "type": "electronic",
+            "value": "2542-7636"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "28 January 2022",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

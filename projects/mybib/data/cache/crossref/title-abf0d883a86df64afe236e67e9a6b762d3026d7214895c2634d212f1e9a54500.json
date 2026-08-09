@@ -1,0 +1,754 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4238852,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2026-01-15T00:30:01Z",
+          "timestamp": 1768437001842,
+          "version": "3.49.0"
+        },
+        "reference-count": 49,
+        "publisher": "Elsevier BV",
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2013.08.010",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2013-09-06T18:05:55Z",
+          "timestamp": 1378490755000
+        },
+        "page": "394-406",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 31,
+        "special_numbering": "C",
+        "title": [
+          "Task-oriented structure synthesis of a class of parallel manipulators using motion constraint generator"
+        ],
+        "prefix": "10.1016",
+        "volume": "70",
+        "author": [
+          {
+            "given": "Chin-Hsing",
+            "family": "Kuo",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jian S.",
+            "family": "Dai",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "553",
+            "DOI": "10.1016/0094-114X(93)90035-T",
+            "article-title": "Echelon form solution of direct kinematics for the general fully-parallel spherical wrist",
+            "volume": "28",
+            "author": "Innocenti",
+            "year": "1993",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "375",
+            "DOI": "10.1115/1.1370976",
+            "article-title": "Kinetostatic modeling of N-DOF parallel mechanisms with a passive constraining leg and prismatic actuators",
+            "volume": "123",
+            "author": "Zhang",
+            "year": "2001",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "1216",
+            "DOI": "10.1177/0278364909104221",
+            "article-title": "A high-performance redundantly actuated parallel mechanism for ankle rehabilitation",
+            "volume": "28",
+            "author": "Saglia",
+            "year": "2009",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "687",
+            "DOI": "10.1243/0954406001523696",
+            "article-title": "A six-component contact force measurement device based on the Stewart platform",
+            "volume": "214",
+            "author": "Dai",
+            "year": "2000",
+            "journal-title": "Proc. Inst. Mech. Eng. C J. Mech. Eng. Sci."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "437",
+            "DOI": "10.1017/S0263574799001678",
+            "article-title": "The Tricept Robot: inverse kinematics, manipulability analysis and closed-loop direct kinematics algorithm",
+            "volume": "17",
+            "author": "Siciliano",
+            "year": "1999",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0030",
+            "doi-asserted-by": "crossref",
+            "first-page": "52",
+            "DOI": "10.1115/1.1540992",
+            "article-title": "The kinematics of a class of 3-DOF, 4-legged parallel manipulators",
+            "volume": "125",
+            "author": "Joshi",
+            "year": "2003",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "599",
+            "DOI": "10.1016/S0094-114X(02)00011-3",
+            "article-title": "Kinetostatic modeling of parallel mechanisms with a passive constraining leg and revolute actuators",
+            "volume": "37",
+            "author": "Zhang",
+            "year": "2002",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "535",
+            "DOI": "10.1017/S026357470000271X",
+            "article-title": "Kinematics and dynamics of a parallel manipulator with a new architecture",
+            "volume": "18",
+            "author": "Fattah",
+            "year": "2000",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0045",
+            "doi-asserted-by": "crossref",
+            "first-page": "683",
+            "DOI": "10.1017/S0263574710000500",
+            "article-title": "Architecture optimization of 4PUS+1PS parallel manipulator",
+            "volume": "29",
+            "author": "Abbasnejad",
+            "year": "2011",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0050",
+            "doi-asserted-by": "crossref",
+            "first-page": "229",
+            "DOI": "10.1007/s11044-006-9032-4",
+            "article-title": "Kinematics and dynamics analyses of a parallel manipulator with three active legs and one passive leg by a virtual serial mechanism",
+            "volume": "17",
+            "author": "Lu",
+            "year": "2007",
+            "journal-title": "Multibody Syst. Dyn."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0055",
+            "doi-asserted-by": "crossref",
+            "first-page": "29",
+            "DOI": "10.1017/S0263574708004499",
+            "article-title": "Analyzing kinematics and solving active/constrained forces of a 4-dof 3SPS+SP parallel manipulator",
+            "volume": "27",
+            "author": "Lu",
+            "year": "2009",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "1161",
+            "DOI": "10.1115/1.2771572",
+            "article-title": "Unified solving Jacobian/Hessian Matrices of some parallel manipulators with n SPS active legs and a passive constrained leg",
+            "volume": "129",
+            "author": "Lu",
+            "year": "2007",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0065",
+            "doi-asserted-by": "crossref",
+            "first-page": "467",
+            "DOI": "10.1243/0954406JMES440",
+            "article-title": "A unified method to find active forces and passive wrench of some parallel manipulators with n SPS active legs and a passive leg",
+            "volume": "221",
+            "author": "Lu",
+            "year": "2007",
+            "journal-title": "Proc. IME C. J. Mech. Eng. Sci."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "1298",
+            "DOI": "10.1016/j.mechmachtheory.2006.11.002",
+            "article-title": "Analyzing kinematics and solving active/constrained forces of a 3SPU+UPR parallel manipulator",
+            "volume": "42",
+            "author": "Lu",
+            "year": "2007",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0075",
+            "series-title": "Proceedings of IEEE International Conference on Robotics and Automation, Anchorage, Alaska, USA, 3–7 May",
+            "first-page": "662",
+            "article-title": "Implementation of a 4-DOF parallel mechanism as a needle insertion device",
+            "author": "Chung",
+            "year": "2010"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "021008",
+            "DOI": "10.1115/1.4006541",
+            "article-title": "Kinematics of a fully-decoupled remote center-of-motion parallel manipulator for minimally invasive surgery",
+            "volume": "6",
+            "author": "Kuo",
+            "year": "2012",
+            "journal-title": "ASME J. Med. Devices"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0085",
+            "doi-asserted-by": "crossref",
+            "first-page": "705",
+            "DOI": "10.1115/1.3258540",
+            "article-title": "Structural kinematics of in-parallel-actuated robot-arms",
+            "volume": "105",
+            "author": "Hunt",
+            "year": "1983",
+            "journal-title": "ASME J. Mech. Transm. Autom. Des."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "799",
+            "DOI": "10.1177/0278364902021009314",
+            "article-title": "Structure synthesis of a class of 4-DoF and 5-DoF parallel manipulators with identical limb structures",
+            "volume": "21",
+            "author": "Fang",
+            "year": "2002",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0095",
+            "doi-asserted-by": "crossref",
+            "first-page": "1395",
+            "DOI": "10.1016/S0094-114X(02)00044-7",
+            "article-title": "New kinematic structures for 2-, 3-, 4-, and 5-DOF parallel manipulator designs",
+            "volume": "37",
+            "author": "Gao",
+            "year": "2002",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "131",
+            "DOI": "10.1177/027836402760475342",
+            "article-title": "General methodology for type synthesis of symmetrical lower-mobility parallel manipulators and several novel manipulators",
+            "volume": "21",
+            "author": "Huang",
+            "year": "2002",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0105",
+            "first-page": "59",
+            "article-title": "Type synthesis of symmetrical lower-mobility parallel mechanisms using the constraint-synthesis method",
+            "volume": "22",
+            "author": "Huang",
+            "year": "2003",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "857",
+            "DOI": "10.1016/j.mechmachtheory.2004.02.008",
+            "article-title": "Structural synthesis of parallel manipulators",
+            "volume": "39",
+            "author": "Alizade",
+            "year": "2004",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "117",
+            "DOI": "10.1109/TRA.2003.819597",
+            "article-title": "Structure synthesis of a class of 3-DOF rotational parallel manipulators",
+            "volume": "20",
+            "author": "Fang",
+            "year": "2004",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "625",
+            "DOI": "10.1115/1.1758253",
+            "article-title": "Theory for topology synthesis of parallel manipulators and its application to three-dimension-translation parallel manipulators",
+            "volume": "126",
+            "author": "Jin",
+            "year": "2004",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "83",
+            "DOI": "10.1115/1.1637662",
+            "article-title": "Type synthesis of 3-DOF translational parallel manipulators based on screw theory",
+            "volume": "126",
+            "author": "Kong",
+            "year": "2004",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "237",
+            "DOI": "10.1177/0278364904041562",
+            "article-title": "Type synthesis of three-degree-of-freedom spherical parallel manipulators",
+            "volume": "23",
+            "author": "Kong",
+            "year": "2004",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0135",
+            "doi-asserted-by": "crossref",
+            "first-page": "173",
+            "DOI": "10.1109/TRA.2004.824650",
+            "article-title": "Type synthesis of 3R2T 5-DOF parallel mechanisms using the lie group of displacements",
+            "volume": "20",
+            "author": "Li",
+            "year": "2004",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "1021",
+            "DOI": "10.1016/j.euromechsol.2004.08.006",
+            "article-title": "Structural synthesis of fully-isotropic translational parallel robots via theory of linear transformations",
+            "volume": "23",
+            "author": "Gogu",
+            "year": "2004",
+            "journal-title": "Eur. J. Mech. A"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0145",
+            "doi-asserted-by": "crossref",
+            "first-page": "47",
+            "DOI": "10.1016/j.euromechsol.2004.10.001",
+            "article-title": "Asymmetrical 3-Dof spherical parallel mechanisms",
+            "volume": "24",
+            "author": "Karouia",
+            "year": "2005",
+            "journal-title": "Eur. J. Mech. A"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "535",
+            "DOI": "10.1002/rob.20084",
+            "article-title": "Type synthesis of 5-DOF parallel manipulators based on screw theory",
+            "volume": "22",
+            "author": "Kong",
+            "year": "2005",
+            "journal-title": "J. Robot. Syst."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0155",
+            "doi-asserted-by": "crossref",
+            "first-page": "397",
+            "DOI": "10.1177/0278364905053688",
+            "article-title": "Fully isotropic four-degrees-of-freedom parallel mechanisms for Schoenflies motion",
+            "volume": "24",
+            "author": "Carricato",
+            "year": "2005",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "230",
+            "DOI": "10.1115/1.2121742",
+            "article-title": "Topological synthesis of a parallel wrist mechanism",
+            "volume": "128",
+            "author": "Hess-Coelho",
+            "year": "2006",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0165",
+            "doi-asserted-by": "crossref",
+            "first-page": "85",
+            "DOI": "10.1017/S0263574705001827",
+            "article-title": "Non-overconstrained 3-dof spherical parallel manipulators of Type: 3-RCC, 3-CCR, 3-CRC",
+            "volume": "24",
+            "author": "Karouia",
+            "year": "2006",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "580",
+            "DOI": "10.1016/j.mechmachtheory.2006.05.005",
+            "article-title": "Structural synthesis of serial platform manipulators",
+            "volume": "42",
+            "author": "Alizade",
+            "year": "2007",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0175",
+            "doi-asserted-by": "crossref",
+            "first-page": "595",
+            "DOI": "10.1115/1.2717228",
+            "article-title": "Type synthesis of parallel mechanisms with multiple operation modes",
+            "volume": "129",
+            "author": "Kong",
+            "year": "2007",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "112302",
+            "DOI": "10.1115/1.2976447",
+            "article-title": "New considerations on the theory of type synthesis of fully parallel platforms",
+            "volume": "130",
+            "author": "Rico",
+            "year": "2008",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0185",
+            "doi-asserted-by": "crossref",
+            "first-page": "1431",
+            "DOI": "10.1016/j.mechmachtheory.2007.11.006",
+            "article-title": "Structural synthesis of Euclidean platform robot manipulators with variable general constraints",
+            "volume": "43",
+            "author": "Alizade",
+            "year": "2008",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0190",
+            "doi-asserted-by": "crossref",
+            "first-page": "062302",
+            "DOI": "10.1115/1.2900717",
+            "article-title": "Type synthesis of Six-DOF wrist-partitioned parallel manipulators",
+            "volume": "130",
+            "author": "Kong",
+            "year": "2008",
+            "journal-title": "ASME Mech. Mach. Theory"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0195",
+            "doi-asserted-by": "crossref",
+            "first-page": "158",
+            "DOI": "10.1109/TRO.2008.2008737",
+            "article-title": "Parallel mechanisms with bifurcation of Schoenflies motion",
+            "volume": "25",
+            "author": "Li",
+            "year": "2009",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0200",
+            "doi-asserted-by": "crossref",
+            "first-page": "79",
+            "DOI": "10.1017/S0263574708004542",
+            "article-title": "Structural synthesis of maximally regular T3R2-type parallel robots via theory of linear transformations and evolutionary morphology",
+            "volume": "27",
+            "author": "Gogu",
+            "year": "2009",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0205",
+            "doi-asserted-by": "crossref",
+            "first-page": "011002",
+            "DOI": "10.1115/1.4000521",
+            "article-title": "Autoderivation of topological graphs for type synthesis of planar 3DOF parallel mechanisms",
+            "volume": "2",
+            "author": "Lu",
+            "year": "2010",
+            "journal-title": "ASME J. Mech. Robot"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0210",
+            "doi-asserted-by": "crossref",
+            "first-page": "401",
+            "DOI": "10.1109/TRO.2010.2047528",
+            "article-title": "1T2R parallel mechanisms without parasitic motion",
+            "volume": "26",
+            "author": "Li",
+            "year": "2010",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0215",
+            "doi-asserted-by": "crossref",
+            "first-page": "011003",
+            "DOI": "10.1115/1.4002697",
+            "article-title": "Type synthesis of parallel mechanisms having the second class GF sets and two dimensional rotations",
+            "volume": "3",
+            "author": "Gao",
+            "year": "2011",
+            "journal-title": "ASME J. Mech. Robot."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "051001",
+            "DOI": "10.1115/1.4003920",
+            "article-title": "Constraint-based limb synthesis and mobility-change-aimed mechanism construction",
+            "volume": "133",
+            "author": "Gan",
+            "year": "2011",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0225",
+            "doi-asserted-by": "crossref",
+            "first-page": "31",
+            "DOI": "10.1017/S0263574711000439",
+            "article-title": "Type synthesis of 4-DOF nonoverconstrained parallel mechanisms based on screw theory",
+            "volume": "30",
+            "author": "Guo",
+            "year": "2012",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0230",
+            "series-title": "ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Montreal, Quebec, Canada, 15–18 August",
+            "article-title": "Structural synthesis of serial robotic manipulators subject to specific motion constraints",
+            "author": "Kuo",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0235",
+            "series-title": "Robot Analysis: The Mechanics of Serial and Parallel Manipulators",
+            "author": "Tsai",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0240",
+            "series-title": "Robotics: State of the Art and Future Trends",
+            "first-page": "29",
+            "article-title": "A partially-decoupled 4-Dof general 3SPS/PS parallel manipulator",
+            "author": "Kuo",
+            "year": "2011"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2013.08.010_bb0245",
+            "doi-asserted-by": "crossref",
+            "first-page": "127",
+            "DOI": "10.1002/rcs.453",
+            "article-title": "Kinematic design considerations for minimally invasive surgical robots: an overview",
+            "volume": "8",
+            "author": "Kuo",
+            "year": "2012",
+            "journal-title": "Int. J. Med. Robot. Comput. Assist. Surg."
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X13001687?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X13001687?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2018-10-13T09:33:26Z",
+          "timestamp": 1539423206000
+        },
+        "score": 26.629349,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X13001687"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              12
+            ]
+          ]
+        },
+        "references-count": 49,
+        "alternative-id": [
+          "S0094114X13001687"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2013.08.010",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Task-oriented structure synthesis of a class of parallel manipulators using motion constraint generator",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2013.08.010",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 336425,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              5
+            ]
+          ],
+          "date-time": "2022-07-05T18:45:06Z",
+          "timestamp": 1657046706735
+        },
+        "reference-count": 0,
+        "publisher": "Oxford University Press",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1985,
+              8,
+              29
+            ]
+          ]
+        },
+        "DOI": "10.1093/oseo/instance.00052524",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              10,
+              24
+            ]
+          ],
+          "date-time": "2014-10-24T15:02:32Z",
+          "timestamp": 1414162952000
+        },
+        "page": "259-259",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "94 To [John Murray]"
+        ],
+        "prefix": "10.1093",
+        "author": [
+          {
+            "given": "George",
+            "family": "Crabbe",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "286",
+        "container-title": [
+          "Selected Letters and Journals of George Crabbe"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              5
+            ]
+          ],
+          "date-time": "2022-07-05T18:04:39Z",
+          "timestamp": 1657044279000
+        },
+        "score": 25.230164,
+        "resource": {
+          "primary": {
+            "URL": "http://www.oxfordscholarlyeditions.com/view/10.1093/actrade/9780198125709.book.1/actrade-9780198125709-div1-101"
+          }
+        },
+        "editor": [
+          {
+            "given": "Thomas C.",
+            "family": "Faulkner",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Rhonda L.",
+            "family": "Blair",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1985,
+              8,
+              29
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1093/oseo/instance.00052524",
+        "published": {
+          "date-parts": [
+            [
+              1985,
+              8,
+              29
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

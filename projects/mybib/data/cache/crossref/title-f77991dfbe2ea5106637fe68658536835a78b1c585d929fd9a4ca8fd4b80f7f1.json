@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 353792,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              3
+            ]
+          ],
+          "date-time": "2022-04-03T18:16:11Z",
+          "timestamp": 1649009771857
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Berghahn Books",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.2307/j.ctvgs0bqd.5",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              9
+            ]
+          ],
+          "date-time": "2019-05-09T17:14:06Z",
+          "timestamp": 1557422046000
+        },
+        "page": "1-21",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "‘All All All’"
+        ],
+        "prefix": "10.2307",
+        "member": "1121",
+        "container-title": [
+          "Desires for Reality"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              9
+            ]
+          ],
+          "date-time": "2019-05-09T17:14:09Z",
+          "timestamp": 1557422049000
+        },
+        "score": 11.4638195,
+        "resource": {
+          "primary": {
+            "URL": "http://www.jstor.org/stable/10.2307/j.ctvgs0bqd.5"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.2307/j.ctvgs0bqd.5",
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "meta": {
+    "count": 2,
+    "db_response_time_ms": 14,
+    "page": 1,
+    "per_page": 1,
+    "groups_count": null,
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4211095495",
+      "doi": "https://doi.org/10.1515/9789048517299",
+      "title": "Immigration and Social Systems",
+      "display_name": "Immigration and Social Systems",
+      "relevance_score": 3.0140257,
+      "publication_year": 2012,
+      "publication_date": "2012-12-31",
+      "ids": {
+        "openalex": "https://openalex.org/W4211095495",
+        "doi": "https://doi.org/10.1515/9789048517299"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1515/9789048517299",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1515/9789048517299",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462833",
+          "display_name": "Amsterdam University Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310318533",
+          "host_organization_name": "Amsterdam University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310318533"
+          ],
+          "host_organization_lineage_names": [
+            "Amsterdam University Press"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "edited-book"
+      },
+      "type": "book",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://library.oapen.org/handle/20.500.12657/107870",
+        "any_repository_has_fulltext": null
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": null,
+            "display_name": "Bommes, Michael 1954-2010",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Bommes, Michael 1954-2010",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": null,
+            "display_name": "Boswell, Christina 1972-",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Boswell, Christina 1972-",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "D'Amato, Gianni 1963-",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "D'Amato, Gianni 1963-",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.2692,
+      "has_fulltext": true,
+      "cited_by_count": 9,
+      "citation_normalized_percentile": {
+        "value": 0.69214562,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 96
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10349",
+        "display_name": "Migration and Labor Dynamics",
+        "score": 0.5593000054359436,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10349",
+          "display_name": "Migration and Labor Dynamics",
+          "score": 0.5593000054359436,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/immigration",
+          "display_name": "Immigration",
+          "score": 0.6704100370407104
+        },
+        {
+          "id": "https://openalex.org/keywords/political-science",
+          "display_name": "Political science",
+          "score": 0.43724191188812256
+        },
+        {
+          "id": "https://openalex.org/keywords/law",
+          "display_name": "Law",
+          "score": 0.04858136177062988
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C70036468",
+          "wikidata": "https://www.wikidata.org/wiki/Q131288",
+          "display_name": "Immigration",
+          "level": 2,
+          "score": 0.6704100370407104
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.43724191188812256
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.04858136177062988
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.1515/9789048517299",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1515/9789048517299",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306462833",
+            "display_name": "Amsterdam University Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/P4310318533",
+            "host_organization_name": "Amsterdam University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310318533"
+            ],
+            "host_organization_lineage_names": [
+              "Amsterdam University Press"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "edited-book"
+        },
+        {
+          "id": "pmh:oai:aleph.bib-bvb.de:BVB01-026198676",
+          "is_oa": false,
+          "landing_page_url": "https://directory.doabooks.org/handle/20.500.12854/29130",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        {
+          "id": "pmh:oai:directory.doabooks.org:20.500.12854/168576",
+          "is_oa": true,
+          "landing_page_url": "https://library.oapen.org/handle/20.500.12657/107870",
+          "pdf_url": null,
+          "source": null,
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "best_oa_location": {
+        "id": "pmh:oai:directory.doabooks.org:20.500.12854/168576",
+        "is_oa": true,
+        "landing_page_url": "https://library.oapen.org/handle/20.500.12657/107870",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.7400000095367432,
+          "display_name": "Reduced inequalities",
+          "id": "https://metadata.un.org/sdg/10"
+        }
+      ],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320320300",
+          "display_name": "European Commission",
+          "ror": "https://ror.org/00k4n6c32"
+        },
+        {
+          "id": "https://openalex.org/F4320320899",
+          "display_name": "European University Institute",
+          "ror": "https://ror.org/0031wrj91"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 169,
+      "referenced_works": [
+        "https://openalex.org/W82946882",
+        "https://openalex.org/W102589706",
+        "https://openalex.org/W142254418",
+        "https://openalex.org/W149950236",
+        "https://openalex.org/W164675338",
+        "https://openalex.org/W166819308",
+        "https://openalex.org/W169349405",
+        "https://openalex.org/W277102031",
+        "https://openalex.org/W378177656",
+        "https://openalex.org/W560469507",
+        "https://openalex.org/W590104145",
+        "https://openalex.org/W596518702",
+        "https://openalex.org/W606764854",
+        "https://openalex.org/W607201242",
+        "https://openalex.org/W616293812",
+        "https://openalex.org/W625972728",
+        "https://openalex.org/W631848913",
+        "https://openalex.org/W636053609",
+        "https://openalex.org/W642764951",
+        "https://openalex.org/W656300773",
+        "https://openalex.org/W658760346",
+        "https://openalex.org/W659136856",
+        "https://openalex.org/W748124745",
+        "https://openalex.org/W957832963",
+        "https://openalex.org/W1142161775",
+        "https://openalex.org/W1480403570",
+        "https://openalex.org/W1483352469",
+        "https://openalex.org/W1489323146",
+        "https://openalex.org/W1491898160",
+        "https://openalex.org/W1500118540",
+        "https://openalex.org/W1505217180",
+        "https://openalex.org/W1516247989",
+        "https://openalex.org/W1538678539",
+        "https://openalex.org/W1542892091",
+        "https://openalex.org/W1544303871",
+        "https://openalex.org/W1554679851",
+        "https://openalex.org/W1555199289",
+        "https://openalex.org/W1562885280",
+        "https://openalex.org/W1570914154",
+        "https://openalex.org/W1577023603",
+        "https://openalex.org/W1587570074",
+        "https://openalex.org/W1600129138",
+        "https://openalex.org/W1605004560",
+        "https://openalex.org/W1616693301",
+        "https://openalex.org/W1641688997",
+        "https://openalex.org/W1650072296",
+        "https://openalex.org/W1739579253",
+        "https://openalex.org/W1755068421",
+        "https://openalex.org/W1769925719",
+        "https://openalex.org/W1776144050",
+        "https://openalex.org/W1780158697",
+        "https://openalex.org/W1787642371",
+        "https://openalex.org/W1794587503",
+        "https://openalex.org/W1801943846",
+        "https://openalex.org/W1812997808",
+        "https://openalex.org/W1826428531",
+        "https://openalex.org/W1843656059",
+        "https://openalex.org/W1864106164",
+        "https://openalex.org/W1875478459",
+        "https://openalex.org/W1887426942",
+        "https://openalex.org/W1898028427",
+        "https://openalex.org/W1921354195",
+        "https://openalex.org/W1923992227",
+        "https://openalex.org/W1979991846",
+        "https://openalex.org/W1980354603",
+        "https://openalex.org/W1990004493",
+        "https://openalex.org/W1994527473",
+        "https://openalex.org/W2002470750",
+        "https://openalex.org/W2005045396",
+        "https://openalex.org/W2008073538",
+        "https://openalex.org/W2017386147",
+        "https://openalex.org/W2020703232",
+        "https://openalex.org/W2026730143",
+        "https://openalex.org/W2035375757",
+        "https://openalex.org/W2041902432",
+        "https://openalex.org/W2043050484",
+        "https://openalex.org/W2052621550",
+        "https://openalex.org/W2065617425",
+        "https://openalex.org/W2069010009",
+        "https://openalex.org/W2076687999",
+        "https://openalex.org/W2090954476",
+        "https://openalex.org/W2103930883",
+        "https://openalex.org/W2112790900",
+        "https://openalex.org/W2118463881",
+        "https://openalex.org/W2119136590",
+        "https://openalex.org/W2121607015",
+        "https://openalex.org/W2129509685",
+        "https://openalex.org/W2131087954",
+        "https://openalex.org/W2141108089",
+        "https://openalex.org/W2143029242",
+        "https://openalex.org/W2146405903",
+        "https://openalex.org/W2150328445",
+        "https://openalex.org/W2152453206",
+        "https://openalex.org/W2155601587",
+        "https://openalex.org/W2165403148",
+        "https://openalex.org/W2167987302",
+        "https://openalex.org/W2168987366",
+        "https://openalex.org/W2202111209",
+        "https://openalex.org/W2222019099",
+        "https://openalex.org/W2266598117",
+        "https://openalex.org/W2291617143",
+        "https://openalex.org/W2314865369",
+        "https://openalex.org/W2315832163",
+        "https://openalex.org/W2320848938",
+        "https://openalex.org/W2321908769",
+        "https://openalex.org/W2326741366",
+        "https://openalex.org/W2327899048",
+        "https://openalex.org/W2329383795",
+        "https://openalex.org/W2330361857",
+        "https://openalex.org/W2342711148",
+        "https://openalex.org/W2409873669",
+        "https://openalex.org/W2460136910",
+        "https://openalex.org/W2486833952",
+        "https://openalex.org/W2491730209",
+        "https://openalex.org/W2498838822",
+        "https://openalex.org/W2499892664",
+        "https://openalex.org/W2504440980",
+        "https://openalex.org/W2505555882",
+        "https://openalex.org/W2505810708",
+        "https://openalex.org/W2526873098",
+        "https://openalex.org/W2578028894",
+        "https://openalex.org/W2604503990",
+        "https://openalex.org/W2622738477",
+        "https://openalex.org/W2741137922",
+        "https://openalex.org/W2752600643",
+        "https://openalex.org/W2754998347",
+        "https://openalex.org/W2907934747",
+        "https://openalex.org/W3022339544",
+        "https://openalex.org/W3112244633",
+        "https://openalex.org/W3135049859",
+        "https://openalex.org/W3139115493",
+        "https://openalex.org/W3175739754",
+        "https://openalex.org/W3217264615",
+        "https://openalex.org/W4211035564",
+        "https://openalex.org/W4213217013",
+        "https://openalex.org/W4213362432",
+        "https://openalex.org/W4229628939",
+        "https://openalex.org/W4229634377",
+        "https://openalex.org/W4229875243",
+        "https://openalex.org/W4230609848",
+        "https://openalex.org/W4231478246",
+        "https://openalex.org/W4232324873",
+        "https://openalex.org/W4232879787",
+        "https://openalex.org/W4233610552",
+        "https://openalex.org/W4233827367",
+        "https://openalex.org/W4235883901",
+        "https://openalex.org/W4237839259",
+        "https://openalex.org/W4238458437",
+        "https://openalex.org/W4238907780",
+        "https://openalex.org/W4241231043",
+        "https://openalex.org/W4242396232",
+        "https://openalex.org/W4244774194",
+        "https://openalex.org/W4248931832",
+        "https://openalex.org/W4250045318",
+        "https://openalex.org/W4250735227",
+        "https://openalex.org/W4256351578",
+        "https://openalex.org/W4292280330",
+        "https://openalex.org/W4293281657",
+        "https://openalex.org/W4294621328",
+        "https://openalex.org/W4296479266",
+        "https://openalex.org/W4300580429",
+        "https://openalex.org/W4300876559",
+        "https://openalex.org/W4301014399",
+        "https://openalex.org/W4301882087",
+        "https://openalex.org/W4302081971",
+        "https://openalex.org/W4302414634",
+        "https://openalex.org/W4302805693",
+        "https://openalex.org/W4312921457",
+        "https://openalex.org/W4399957515"
+      ],
+      "related_works": [
+        "https://openalex.org/W2748952813",
+        "https://openalex.org/W2891252757",
+        "https://openalex.org/W2005441443",
+        "https://openalex.org/W2273917609",
+        "https://openalex.org/W136810046",
+        "https://openalex.org/W3123059865",
+        "https://openalex.org/W2587158935",
+        "https://openalex.org/W3126052823",
+        "https://openalex.org/W3124033816",
+        "https://openalex.org/W3212206169"
+      ],
+      "abstract_inverted_index": {
+        "Michael": [
+          0
+        ],
+        "Bommes": [
+          1
+        ],
+        "was": [
+          2
+        ],
+        "one": [
+          3
+        ],
+        "of": [
+          4,
+          13,
+          23,
+          45,
+          68
+        ],
+        "the": [
+          5
+        ],
+        "most": [
+          6,
+          25
+        ],
+        "brilliant": [
+          7
+        ],
+        "and": [
+          8,
+          34,
+          42,
+          65
+        ],
+        "original": [
+          9
+        ],
+        "migration": [
+          10,
+          33,
+          69
+        ],
+        "studies": [
+          11
+        ],
+        "scholars": [
+          12,
+          64
+        ],
+        "our": [
+          14
+        ],
+        "time.": [
+          15
+        ],
+        "This": [
+          16
+        ],
+        "posthumous": [
+          17
+        ],
+        "collection": [
+          18
+        ],
+        "brings": [
+          19
+        ],
+        "together": [
+          20
+        ],
+        "a": [
+          21,
+          40
+        ],
+        "selection": [
+          22
+        ],
+        "his": [
+          24
+        ],
+        "important": [
+          26
+        ],
+        "work": [
+          27
+        ],
+        "on": [
+          28,
+          49
+        ],
+        "immigration,": [
+          29
+        ],
+        "integration,": [
+          30
+        ],
+        "transnationalism,": [
+          31
+        ],
+        "irregular": [
+          32
+        ],
+        "migrant": [
+          35
+        ],
+        "networks.": [
+          36
+        ],
+        "Each": [
+          37
+        ],
+        "essay": [
+          38
+        ],
+        "provides": [
+          39
+        ],
+        "rigorous": [
+          41
+        ],
+        "compelling": [
+          43
+        ],
+        "critique": [
+          44
+        ],
+        "mainstream": [
+          46
+        ],
+        "accounts,": [
+          47
+        ],
+        "building": [
+          48
+        ],
+        "Bommes’": [
+          50
+        ],
+        "distinctive": [
+          51
+        ],
+        "systems": [
+          52
+        ],
+        "theoretic": [
+          53
+        ],
+        "approach.": [
+          54
+        ],
+        "It": [
+          55
+        ],
+        "will": [
+          56
+        ],
+        "be": [
+          57
+        ],
+        "required": [
+          58
+        ],
+        "reading": [
+          59
+        ],
+        "for": [
+          60
+        ],
+        "all": [
+          61
+        ],
+        "theoretically": [
+          62
+        ],
+        "minded": [
+          63
+        ],
+        "advanced": [
+          66
+        ],
+        "students": [
+          67
+        ],
+        "studies.": [
+          70
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-04-21T08:09:41.155169",
+      "created_date": "2022-02-13T00:00:00"
+    }
+  ],
+  "group_by": []
+}

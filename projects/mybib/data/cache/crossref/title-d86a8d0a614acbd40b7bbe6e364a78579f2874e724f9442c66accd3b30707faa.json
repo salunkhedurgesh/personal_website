@@ -1,0 +1,435 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9728572,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              4
+            ]
+          ],
+          "date-time": "2025-11-04T10:54:05Z",
+          "timestamp": 1762253645065,
+          "version": "3.44.0"
+        },
+        "reference-count": 22,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  24
+                ]
+              ],
+              "date-time": "2021-12-24T00:00:00Z",
+              "timestamp": 1640304000000
+            },
+            "content-version": "am",
+            "delay-in-days": 298,
+            "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2020.104224",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              24
+            ]
+          ],
+          "date-time": "2020-12-24T05:19:43Z",
+          "timestamp": 1608787183000
+        },
+        "page": "104224",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 13,
+        "special_numbering": "C",
+        "title": [
+          "Workspace analysis in the design parameter space of a 2-DOF spherical parallel mechanism for a prescribed workspace: Application to the otologic surgery"
+        ],
+        "prefix": "10.1016",
+        "volume": "157",
+        "author": [
+          {
+            "given": "Damien",
+            "family": "Chablat",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Guillaume",
+            "family": "Michel",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Philippe",
+            "family": "Bordure",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Swaminath",
+            "family": "Venkateswaran",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ranjan",
+            "family": "Jha",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0001",
+            "doi-asserted-by": "crossref",
+            "first-page": "967",
+            "DOI": "10.1002/lary.26802",
+            "article-title": "Development and validation of an endoscopic ear surgery classification system",
+            "volume": "128",
+            "author": "Cohen",
+            "year": "2018",
+            "journal-title": "Laryngoscope"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0002",
+            "doi-asserted-by": "crossref",
+            "first-page": "14",
+            "DOI": "10.5152/iao.2017.3322",
+            "article-title": "Endoscopic vs microscopic approach in stapes surgery: advantages in the middle ear structures visualization and trainee’s point of view",
+            "volume": "13",
+            "author": "Iannella",
+            "year": "2017",
+            "journal-title": "J. Int. Adv. Otol."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0003",
+            "doi-asserted-by": "crossref",
+            "first-page": "125",
+            "DOI": "10.1109/RBME.2018.2810605",
+            "article-title": "Review on otological robotic systems: toward microrobot-assisted cholesteatoma surgery",
+            "volume": "11",
+            "author": "Dahroug",
+            "year": "2018",
+            "journal-title": "IEEE Rev. Biomed. Eng."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0004",
+            "unstructured": "B. Schena, Robotic manipulator with remote center of motion and compact drive, Patent WO 2008/157225 (2007)."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0005",
+            "series-title": "Proceedings of the IEEE International Conference on Robotics and Automation",
+            "article-title": "The blue-DRAGON - a system for measuring the kinematics and dynamics of minimally invasive surgical tools in-vivo",
+            "author": "Rosen",
+            "year": "2002"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0006",
+            "series-title": "Proceedings of the IEEE International Conference on Robotics and Automation",
+            "first-page": "781",
+            "article-title": "The agile eye: a high-performance three-degree-of-freedom camera-orienting device",
+            "author": "Gosselin",
+            "year": "1994"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0007",
+            "doi-asserted-by": "crossref",
+            "first-page": "687",
+            "DOI": "10.1115/1.2899268",
+            "article-title": "Real-time manipulation of a hybrid serial-and-parallel driven redundant industrial manipulator",
+            "volume": "116",
+            "author": "Cheng",
+            "year": "1994",
+            "journal-title": "ASME J. Dyn. Syst. Measur. Control"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0008",
+            "doi-asserted-by": "crossref",
+            "first-page": "343",
+            "DOI": "10.1115/1.2826145",
+            "article-title": "Fabrication and analysis of a novel 3 DOF parallel wrist mechanism",
+            "volume": "117",
+            "author": "Agrawal",
+            "year": "1995",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "year": "1997",
+            "series-title": "Analyse et développement d’un manipulateur parallèle sphérique deux degrés de liberté pour l’orientation d’une caméra, M.Sc",
+            "author": "Caron",
+            "key": "10.1016/j.mechmachtheory.2020.104224_sbref0009"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_sbref0010",
+            "first-page": "395",
+            "article-title": "A three-DOF tripod for generating spherical motion",
+            "author": "Karouia",
+            "year": "2000",
+            "journal-title": "In ARK"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0011",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D. Chablat, P. Wenger, Working modes and aspects in fully parallel manipulators; proceedings, Proceedings of the IEEE International Conference on Robotics and Automation 3 (1998).",
+            "DOI": "10.1109/ROBOT.1998.680601"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0012",
+            "unstructured": "I.A. Bonev, D. Chablat, P. Wenger, Working and assembly modes of the agile eye, Proceedings of the IEEE International Conference on Robotics and Automation (2006)."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0013",
+            "series-title": "Proceedings of the International Symposium on Advances in Robot Kinematics",
+            "article-title": "Kinematic analysis of a novel parallel 2SPRR+ 1u ankle mechanism in humanoid robot",
+            "author": "Kumar",
+            "year": "2018"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0014",
+            "doi-asserted-by": "crossref",
+            "first-page": "763",
+            "DOI": "10.1016/S0094-114X(01)00017-9",
+            "article-title": "Séparation des solutions aux modèles géométriques direct et inverse pour les manipulateurs pleinement parallèles",
+            "volume": "36/6",
+            "author": "Chablat",
+            "year": "2001",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0015",
+            "doi-asserted-by": "crossref",
+            "unstructured": "P. Wenger, D. Chablat, Definition sets for the direct kinematics of parallel manipulators, Proceedings of the 8th International Conference in Advanced Robotics(1997) 859–864.",
+            "DOI": "10.1109/ICAR.1997.620282"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0016",
+            "doi-asserted-by": "crossref",
+            "first-page": "73",
+            "DOI": "10.1016/j.mechmachtheory.2018.05.004",
+            "article-title": "Workspace, joint space and singularities of a family of delta-like robot",
+            "volume": "127",
+            "author": "Jha",
+            "year": "2018",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0017",
+            "series-title": "Proceedings of the Maple Conference",
+            "article-title": "Using maple to analyse parallel robots",
+            "author": "Chablat",
+            "year": "2019"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0018",
+            "series-title": "A New RCM Mechanism for an Ear and Facial Surgical Application",
+            "first-page": "408",
+            "author": "Michel",
+            "year": "2020"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0019",
+            "unstructured": "I.A. Bonev, D. Zlatanov, C.M. Gosselin, Advantages of the modified euler angles in the design and control of PKMs, Proceedings of the Parallel Kinematic Machines International Conference (2002)."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "615",
+            "DOI": "10.1177/0278364904044079",
+            "article-title": "An interval analysis based study for the design and the comparison of three-degrees-of-freedom parallel kinematic machines",
+            "volume": "23",
+            "author": "Chablat",
+            "year": "2004",
+            "journal-title": "Int. J. Rob. Res."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0021",
+            "unstructured": "D. Chablat, G. Michel, P. Bordure, Dispositif d’aide la chirurgie, PCT/EP2020/076353, European Patent(2019)."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2020.104224_bib0022",
+            "series-title": "Proceedings of the European Conference on Mechanism Science",
+            "first-page": "(181",
+            "article-title": "Joint space and workspace analysis of a 2-DOF spherical parallel mechanism",
+            "author": "Chablat",
+            "year": "2020"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X20304419?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X20304419?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T14:06:48Z",
+          "timestamp": 1758809208000
+        },
+        "score": 25.81612,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X20304419"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "references-count": 22,
+        "alternative-id": [
+          "S0094114X20304419"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2020.104224",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0094-114X"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Workspace analysis in the design parameter space of a 2-DOF spherical parallel mechanism for a prescribed workspace: Application to the otologic surgery",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2020.104224",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2020 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "104224"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

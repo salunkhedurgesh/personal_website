@@ -1,0 +1,270 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2103328,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2024-09-10T15:25:03Z",
+          "timestamp": 1725981903752
+        },
+        "publisher-location": "Cham",
+        "reference-count": 9,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783319931876"
+          },
+          {
+            "type": "electronic",
+            "value": "9783319931883"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  6,
+                  23
+                ]
+              ],
+              "date-time": "2018-06-23T00:00:00Z",
+              "timestamp": 1529712000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-319-93188-3_8",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2018-06-22T09:57:16Z",
+          "timestamp": 1529661436000
+        },
+        "page": "65-73",
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Novel Plücker Operators and a Dual Rodrigues Formula Applied to the IKP of General 3R Chains"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Bertold",
+            "family": "Bongardt",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "2",
+            "key": "8_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "141",
+            "DOI": "10.3934/jgm.2014.6.141",
+            "volume": "6",
+            "author": "B Bongardt",
+            "year": "2014",
+            "unstructured": "Bongardt, B.: Geometric characterization of the workspace of nonorthogonal rotation axes. J. Geom. Mech. 6(2), 141–166 (2014)",
+            "journal-title": "J. Geom. Mech."
+          },
+          {
+            "key": "8_CR2",
+            "first-page": "10",
+            "volume": "18",
+            "author": "J Gallier",
+            "year": "2000",
+            "unstructured": "Gallier, J., Xu, D.: Computing exponentials of skew symmetric matrices and logarithms of orthogonal matrices. Int. J. Robot. Autom. 18, 10–20 (2000)",
+            "journal-title": "Int. J. Robot. Autom."
+          },
+          {
+            "key": "8_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "165",
+            "DOI": "10.6028/jres.075B.002",
+            "volume": "75B.3,4",
+            "author": "H Gelman",
+            "year": "1971",
+            "unstructured": "Gelman, H.: A note on the time dependence of the effective axis and angle of a rotation. J. Res. Natl Bur. Stand. B. Math. Sci. 75B.3,4, 165–171 (1971)",
+            "journal-title": "J. Res. Natl Bur. Stand. B. Math. Sci."
+          },
+          {
+            "key": "8_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "411",
+            "DOI": "10.1007/978-1-4020-8600-7_43",
+            "volume-title": "Advances in Robot Kinematics: Analysis and Design",
+            "author": "M. Husty",
+            "year": "2008",
+            "unstructured": "Husty, M.L., Ottaviano, E., Ceccarelli, M.: A geometrical characterization of workspace singularities in 3R manipulators. In: Advances in Robot Kinematics: Analysis and Design (2008)"
+          },
+          {
+            "issue": "1",
+            "key": "8_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "66",
+            "DOI": "10.1016/j.mechmachtheory.2006.02.001",
+            "volume": "42",
+            "author": "ML Husty",
+            "year": "2007",
+            "unstructured": "Husty, M.L., Pfurner, M., Schröcker, H.P.: A new and efficient algorithm for the inverse kinematics of a general serial 6R manipulator. Mech. Mach. Theory 42(1), 66–81 (2007)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "3",
+            "key": "8_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "728",
+            "DOI": "10.1109/TRO.2012.2184951",
+            "volume": "28",
+            "author": "G Piovan",
+            "year": "2012",
+            "unstructured": "Piovan, G., Bullo, F.: On coordinate-free rotation decomposition: Euler angles about arbitrary axes. IEEE Trans. Robot. 28(3), 728–733 (2012)",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "8_CR7",
+            "volume-title": "Geometric Fundamentals of Robotics",
+            "author": "JM Selig",
+            "year": "2005",
+            "unstructured": "Selig, J.M.: Geometric Fundamentals of Robotics. Springer, New York (2005)"
+          },
+          {
+            "key": "8_CR8",
+            "unstructured": "Trainelli, L., Croce, A.: A comprehensive view of rotation parametrization. In: European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS 2004) (2004)"
+          },
+          {
+            "issue": "6",
+            "key": "8_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "677",
+            "DOI": "10.1017/S0263574707003761",
+            "volume": "25",
+            "author": "P Wenger",
+            "year": "2007",
+            "unstructured": "Wenger, P.: Cuspidal and Noncuspidal Robot Manipulators. Robotica 25(6), 677–689 (2007)",
+            "journal-title": "Robotica"
+          }
+        ],
+        "container-title": [
+          "Springer Proceedings in Advanced Robotics",
+          "Advances in Robot Kinematics 2018"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-93188-3_8",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2018-06-22T10:00:50Z",
+          "timestamp": 1529661650000
+        },
+        "score": 37.459614,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-319-93188-3_8"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              23
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783319931876",
+          "9783319931883"
+        ],
+        "references-count": 9,
+        "URL": "https://doi.org/10.1007/978-3-319-93188-3_8",
+        "ISSN": [
+          "2511-1256",
+          "2511-1264"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2511-1256"
+          },
+          {
+            "type": "electronic",
+            "value": "2511-1264"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

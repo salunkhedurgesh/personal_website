@@ -1,0 +1,617 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4005764,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2026-05-02T09:53:37Z",
+          "timestamp": 1777715617599,
+          "version": "3.51.4"
+        },
+        "reference-count": 69,
+        "publisher": "SAGE Publications",
+        "issue": "10",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  4,
+                  12
+                ]
+              ],
+              "date-time": "2018-04-12T00:00:00Z",
+              "timestamp": 1523491200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+          }
+        ],
+        "funder": [
+          {
+            "name": "EU project Cogimon",
+            "award": [
+              "H2020- ICT-23-2014"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "H2020- ICT-23-2014"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "journals.sagepub.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Coordination is essential in the design of dynamic control strategies for multi-arm robotic systems. Given the complexity of the task and dexterity of the system, coordination constraints can emerge from different levels of planning and control. Primarily, one must consider task-space coordination, where the robots must coordinate with each other, with an object or with a target of interest. Coordination is also necessary in joint space, as the robots should avoid self-collisions at any time. We provide such joint-space coordination by introducing a centralized inverse kinematics (IK) solver under self-collision avoidance constraints, formulated as a quadratic program and solved in real-time. The space of free motion is modeled through a sparse non-linear kernel classification method in a data-driven learning approach. Moreover, we provide multi-arm task-space coordination for both synchronous or asynchronous behaviors. We define a synchronous behavior as that in which the robot arms must coordinate with each other and with a moving object such that they reach for it in synchrony. In contrast, an asynchronous behavior allows for each robot to perform independent point-to-point reaching motions. To transition smoothly from asynchronous to synchronous behaviors and vice versa, we introduce the notion of synchronization allocation. We show how this allocation can be controlled through an external variable, such as the location of the object to be manipulated. Both behaviors and their synchronization allocation are encoded in a single dynamical system. We validate our framework on a dual-arm robotic system and demonstrate that the robots can re-synchronize and adapt the motion of each arm while avoiding self-collision within milliseconds. The speed of control is exploited to intercept fast moving objects whose motion cannot be predicted accurately.</jats:p>",
+        "DOI": "10.1177/0278364918765952",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2018-04-13T02:33:23Z",
+          "timestamp": 1523586803000
+        },
+        "page": "1205-1232",
+        "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 97,
+        "title": [
+          "A unified framework for coordinated multi-arm motion planning"
+        ],
+        "prefix": "10.1177",
+        "volume": "37",
+        "author": [
+          {
+            "given": "Seyed Sina",
+            "family": "Mirrazavi Salehian",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Learning Algorithms and Systems Laboratory (LASA), Swiss Federal Institute of Technology, Lausanne (EPFL), Lausanne, Switzerland"
+              }
+            ]
+          },
+          {
+            "given": "Nadia",
+            "family": "Figueroa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Learning Algorithms and Systems Laboratory (LASA), Swiss Federal Institute of Technology, Lausanne (EPFL), Lausanne, Switzerland"
+              }
+            ]
+          },
+          {
+            "given": "Aude",
+            "family": "Billard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Learning Algorithms and Systems Laboratory (LASA), Swiss Federal Institute of Technology, Lausanne (EPFL), Lausanne, Switzerland"
+              }
+            ]
+          }
+        ],
+        "member": "179",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "bibr1-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2012.2207964"
+          },
+          {
+            "key": "bibr2-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2010.2052169"
+          },
+          {
+            "key": "bibr3-0278364918765952",
+            "first-page": "81",
+            "volume-title": "Proceedings of the 17th International Conference on Neural Information Processing Systems (NIPS’04)",
+            "author": "Bakir GH",
+            "year": "2004"
+          },
+          {
+            "key": "bibr4-0278364918765952",
+            "volume-title": "Pattern Recognition and Machine Learning",
+            "author": "Bishop MC",
+            "year": "2007"
+          },
+          {
+            "key": "bibr5-0278364918765952",
+            "first-page": "1579",
+            "volume": "6",
+            "author": "Bordes A",
+            "year": "2005",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "bibr6-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2008.2002816"
+          },
+          {
+            "key": "bibr7-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-32552-1_39"
+          },
+          {
+            "key": "bibr8-0278364918765952",
+            "doi-asserted-by": "crossref",
+            "first-page": "91",
+            "DOI": "10.1007/978-3-642-16262-6_4",
+            "volume-title": "Nonlinear Dynamics in Human Behavior",
+            "volume": "328",
+            "author": "Calvin S",
+            "year": "2011"
+          },
+          {
+            "key": "bibr9-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1961189.1961199"
+          },
+          {
+            "key": "bibr10-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BFb0035185"
+          },
+          {
+            "key": "bibr11-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPDS.2016.2521373"
+          },
+          {
+            "key": "bibr12-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2009.2014125"
+          },
+          {
+            "key": "bibr13-0278364918765952",
+            "first-page": "141",
+            "volume": "15",
+            "author": "Claesen M",
+            "year": "2014",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "bibr14-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pone.0047222"
+          },
+          {
+            "key": "bibr15-0278364918765952",
+            "author": "Cotter A",
+            "year": "2013",
+            "journal-title": "ICML"
+          },
+          {
+            "key": "bibr16-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2013.2296332"
+          },
+          {
+            "key": "bibr17-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICHR.2007.4813867"
+          },
+          {
+            "key": "bibr18-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2015.7363500"
+          },
+          {
+            "key": "bibr19-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0001-6918(91)90028-X"
+          },
+          {
+            "key": "bibr20-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2015.7353755"
+          },
+          {
+            "key": "bibr21-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.880813"
+          },
+          {
+            "key": "bibr22-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2009.5354415"
+          },
+          {
+            "key": "bibr23-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF00336922"
+          },
+          {
+            "key": "bibr24-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759814"
+          },
+          {
+            "key": "bibr25-0278364918765952",
+            "first-page": "169",
+            "volume-title": "Advances in Kernel Methods - Support Vector Learning",
+            "author": "Joachims T",
+            "year": "1999"
+          },
+          {
+            "key": "bibr26-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10994-009-5126-6"
+          },
+          {
+            "key": "bibr27-0278364918765952",
+            "unstructured": "Johnson SG (2016) The NLopt nonlinear-optimization package. URL http://ab-initio.mit.edu/nlopt."
+          },
+          {
+            "key": "bibr28-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2011.5980280"
+          },
+          {
+            "key": "bibr29-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2012.6385587"
+          },
+          {
+            "issue": "6",
+            "key": "bibr30-0278364918765952",
+            "first-page": "R1000",
+            "volume": "246",
+            "author": "Kelso JA",
+            "year": "1984",
+            "journal-title": "American Journal of Physiology"
+          },
+          {
+            "key": "bibr31-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1037/0096-1523.5.2.229"
+          },
+          {
+            "key": "bibr32-0278364918765952",
+            "volume-title": "Nonlinear Systems",
+            "author": "Khalil H",
+            "year": "2002"
+          },
+          {
+            "key": "bibr33-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2014.2316022"
+          },
+          {
+            "key": "bibr34-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511546877"
+          },
+          {
+            "key": "bibr35-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574713000763"
+          },
+          {
+            "key": "bibr36-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836499801700302"
+          },
+          {
+            "key": "bibr37-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498700600304"
+          },
+          {
+            "key": "bibr38-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11081-011-9176-9"
+          },
+          {
+            "key": "bibr39-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2016.XII.004"
+          },
+          {
+            "key": "bibr40-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2013.7029987"
+          },
+          {
+            "key": "bibr41-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-14705-5_5"
+          },
+          {
+            "key": "bibr42-0278364918765952",
+            "first-page": "185",
+            "volume-title": "Advances in Kernel Methods",
+            "author": "Platt JC",
+            "year": "1999"
+          },
+          {
+            "key": "bibr43-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2015.7139778"
+          },
+          {
+            "key": "bibr44-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2009.5152817"
+          },
+          {
+            "key": "bibr45-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-61068-4"
+          },
+          {
+            "key": "bibr46-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2016.XII.019"
+          },
+          {
+            "key": "bibr47-0278364918765952",
+            "volume-title": "International Joint Conference on Artificial Intelligence",
+            "author": "Salehian SSM",
+            "year": "2017"
+          },
+          {
+            "key": "bibr48-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2016.2536749"
+          },
+          {
+            "key": "bibr49-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/AIM.2007.4412606"
+          },
+          {
+            "key": "bibr50-0278364918765952",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.7551/mitpress/4175.001.0001",
+            "volume-title": "Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond",
+            "author": "Scholkopf B",
+            "year": "2001"
+          },
+          {
+            "key": "bibr51-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2012.07.005"
+          },
+          {
+            "key": "bibr52-0278364918765952",
+            "first-page": "1071",
+            "volume": "4",
+            "author": "Steinwart I",
+            "year": "2003",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "bibr53-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2007.4399305"
+          },
+          {
+            "key": "bibr54-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/AIM.2003.1225161"
+          },
+          {
+            "key": "bibr55-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2007.4399062"
+          },
+          {
+            "key": "bibr56-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nrn807"
+          },
+          {
+            "key": "bibr57-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MRA.2012.2192171"
+          },
+          {
+            "key": "bibr58-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2010.5509377"
+          },
+          {
+            "key": "bibr59-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-16904-5"
+          },
+          {
+            "key": "bibr60-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S1672-6529(14)60128-1"
+          },
+          {
+            "key": "bibr61-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1993.292110"
+          },
+          {
+            "key": "bibr62-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-25116-0_23"
+          },
+          {
+            "key": "bibr63-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364911416526"
+          },
+          {
+            "key": "bibr64-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2008.4543221"
+          },
+          {
+            "key": "bibr65-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0893-6080(00)00019-8"
+          },
+          {
+            "key": "bibr66-0278364918765952",
+            "first-page": "1351",
+            "volume-title": "Proceedings of the 2005 American Control Conference",
+            "volume": "2",
+            "author": "Zhang Y",
+            "year": "2005"
+          },
+          {
+            "key": "bibr67-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSMCB.2004.830347"
+          },
+          {
+            "key": "bibr68-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2004.839219"
+          },
+          {
+            "key": "bibr69-0278364918765952",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364913488805"
+          }
+        ],
+        "container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364918765952",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0278364918765952",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364918765952",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T10:15:41Z",
+          "timestamp": 1777457741000
+        },
+        "score": 37.424408,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.sagepub.com/doi/10.1177/0278364918765952"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              12
+            ]
+          ]
+        },
+        "references-count": 69,
+        "journal-issue": {
+          "issue": "10",
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                9
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1177/0278364918765952"
+        ],
+        "URL": "https://doi.org/10.1177/0278364918765952",
+        "ISSN": [
+          "0278-3649",
+          "1741-3176"
+        ],
+        "issn-type": [
+          {
+            "value": "0278-3649",
+            "type": "print"
+          },
+          {
+            "value": "1741-3176",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              12
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

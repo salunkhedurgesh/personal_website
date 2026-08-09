@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CONCEPTION ISOTROPIQUE D&apos;UNE MORPHOLOGIE PARALLELE : APPLICATION A L&apos;USINAGE</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">D</forename><surname>Chablat</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Cybernétique de Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Wenger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Cybernétique de Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Angeles</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Centre for Intelligent Machines</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>817 Sherbrooke Street West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montréal</settlement>
+									<region>Québec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">CONCEPTION ISOTROPIQUE D&apos;UNE MORPHOLOGIE PARALLELE : APPLICATION A L&apos;USINAGE</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">909669AB5B53C6864F2D74212068CDB4</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The aim of this paper is the isotropic design of a hybrid morphology dedicated to 3-axis machining applications. It is necessary to ensure the feasibility of continuous, singularity-free trajectories, as well as a good manipulability in position and velocity. We want to propose an alternative</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,162 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 437917,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2022-04-01T12:35:59Z",
+          "timestamp": 1648816559676
+        },
+        "reference-count": 0,
+        "publisher": "Informa UK Limited",
+        "issue": "1-2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Strategic Analysis"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1982,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1080/09700168209427586",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2009,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2009-08-19T22:31:39Z",
+          "timestamp": 1250721099000
+        },
+        "page": "101-135",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Final Document"
+        ],
+        "prefix": "10.1080",
+        "volume": "6",
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              8,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Strategic Analysis"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/09700168209427586",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2016,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2016-12-18T05:35:21Z",
+          "timestamp": 1482039321000
+        },
+        "score": 23.794842,
+        "resource": {
+          "primary": {
+            "URL": "http://www.tandfonline.com/doi/abs/10.1080/09700168209427586"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1982,
+              4
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1-2",
+          "published-online": {
+            "date-parts": [
+              [
+                2009,
+                8,
+                19
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1982,
+                4
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1080/09700168209427586"
+        ],
+        "URL": "https://doi.org/10.1080/09700168209427586",
+        "ISSN": [
+          "0970-0161",
+          "1754-0054"
+        ],
+        "issn-type": [
+          {
+            "value": "0970-0161",
+            "type": "print"
+          },
+          {
+            "value": "1754-0054",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1982,
+              4
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Dynamical System for Grasping Motion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Xiao</forename><surname>Gao</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Miao</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaohui</forename><surname>Xiao</surname></persName>
+						</author>
+						<title level="a" type="main">Learning Dynamical System for Grasping Motion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">88DFA427669AE913CD4BEDD6A95A910E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Imitation learning</term>
+					<term>Dynamical System</term>
+					<term>Diffeomorphism</term>
+					<term>Grasping motion</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Dynamical System has been widely used for encoding trajectories from human demonstration, which has the inherent adaptability to dynamically changing environments and robustness to perturbations. In this paper we propose a framework to learn a dynamical system that couples position and orientation based on a diffeomorphism. Different from other methods, it can realise the synchronization between positon and orientation during the whole trajectory. Online grasping experiments are carried out to prove its effectiveness and online adaptability.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

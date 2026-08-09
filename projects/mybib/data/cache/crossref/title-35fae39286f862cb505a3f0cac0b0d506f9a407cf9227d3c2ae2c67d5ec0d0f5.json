@@ -1,0 +1,147 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1959,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2025-03-27T16:15:27Z",
+          "timestamp": 1743092127464,
+          "version": "3.40.3"
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781108020374"
+          },
+          {
+            "type": "electronic",
+            "value": "9780511751141"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  8,
+                  5
+                ]
+              ],
+              "date-time": "2011-08-05T00:00:00Z",
+              "timestamp": 1312502400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 281,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              28
+            ]
+          ]
+        },
+        "DOI": "10.1017/cbo9780511751141.009",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2011-08-06T04:10:50Z",
+          "timestamp": 1312603850000
+        },
+        "page": "403-443",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "[1607.]"
+        ],
+        "prefix": "10.1017",
+        "member": "56",
+        "container-title": [
+          "The Life of Marie de Medicis, Queen of France"
+        ],
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A062E5955902395DABD9DBDEA9BF3B78",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2022-10-14T20:29:59Z",
+          "timestamp": 1665779399000
+        },
+        "score": 18.7934,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/CBO9780511751141A015/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              28
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781108020374",
+          "9780511751141"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/cbo9780511751141.009",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              28
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

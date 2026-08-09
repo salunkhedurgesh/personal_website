@@ -1,0 +1,334 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8288954,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              20
+            ]
+          ],
+          "date-time": "2023-02-20T10:54:12Z",
+          "timestamp": 1676890452997
+        },
+        "reference-count": 27,
+        "publisher": "Trans Tech Publications, Ltd.",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2012,
+                  3,
+                  27
+                ]
+              ],
+              "date-time": "2012-03-27T00:00:00Z",
+              "timestamp": 1332806400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 26,
+            "URL": "https://www.scientific.net/PolicyAndEthics/PublishingPolicies"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2012,
+                  3,
+                  27
+                ]
+              ],
+              "date-time": "2012-03-27T00:00:00Z",
+              "timestamp": 1332806400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 26,
+            "URL": "https://www.scientific.net/license/TDM_Licenser.pdf"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "AMM"
+        ],
+        "abstract": "<jats:p>This paper presents a set of techniques based on the use of CAD geometric approaches for singularity surfaces and total operational workspace and joint space determination. The main emphasis is given to the use of CAD tools used to characterize and analyze the performance of planar parallel robot manipulators. The CAD environment provides powerful tools for the graphical programming and geometric feature handling. This paper points out the effectiveness of such a method in the robot design process. These developments are illustrated by the 3-RPR planar parallel manipulator case study. All of the proposed geometric algorithms are implemented in the CATIA CAD environment.</jats:p>",
+        "DOI": "10.4028/www.scientific.net/amm.162.131",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2012-03-27T10:03:53Z",
+          "timestamp": 1332842633000
+        },
+        "page": "131-140",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "CAD Based Geometric Procedures for Workspace and Singularity Determination of the 3-RPR Parallel Manipulator"
+        ],
+        "prefix": "10.4028",
+        "volume": "162",
+        "author": [
+          {
+            "given": "Khaled Assad",
+            "family": "Arrouk",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Clermont Université"
+              }
+            ]
+          },
+          {
+            "given": "Belhassen Chedli",
+            "family": "Bouzgarrou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Clermont Université"
+              }
+            ]
+          },
+          {
+            "given": "Grigore",
+            "family": "Gogu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Clermont Université"
+              }
+            ]
+          }
+        ],
+        "member": "2457",
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              3
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2062275",
+            "unstructured": "C. Pinto, E. Macho, V. Petuya, O. Altuzarra, A. Hernández, Logiciel de simulation pour la caracterisation cinématique de robots spatiaux. Proceedings de Colloque national d'AIP-PRIMECA, (2011) 29 March-1st April, Mont-Dore."
+          },
+          {
+            "key": "2062276",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Z. Bi, S. Lang, D. Zhang, P. Orban, and M. Verner, Integrated design toolbox for tripod-based parallel kinematic machines. Journal of Mechanical Design, 129 (2007), Pages: 799-807.",
+            "DOI": "10.1115/1.2735340"
+          },
+          {
+            "key": "2062277",
+            "doi-asserted-by": "publisher",
+            "unstructured": "D. Zhang, L. Wang and S. Lang, Parallel Kinematic Machines: Design, Analysis and Simulation in an Integrated Virtual Environment, Transactions of the ASME, Journal of Mechanical Design, 127 (2005), Issue 7, Pages: 580-588.",
+            "DOI": "10.1115/1.1897745"
+          },
+          {
+            "key": "2062278",
+            "unstructured": "G. Bianchi, I. Fassi, and L. M. Tosatti, A Virtual Prototyping Environment for Parallel Kinematic Machine Analysis and Design, 15th European ADAMS Users' Conference, (2000)."
+          },
+          {
+            "key": "2062279",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Y. Lu, Using CAD variation geometry for solving velocity and acceleration of parallel manipulators with 3-, 4-, 5-linearly driven limbs. ASME Journal of Mechanical Design, 128(4) (2006) 738-746.",
+            "DOI": "10.1115/1.2202147"
+          },
+          {
+            "key": "2062280",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Y. Lu, Using CAD functionalities for the kinematic analysis of spatial parallel manipulators with 3-, 4-, 5-, 6-linearly driven limbs. Journal of Mechanism and Machine Theory, 39(1) (2004) 41-60.",
+            "DOI": "10.1016/s0094-114x(03)00103-4"
+          },
+          {
+            "key": "2062281",
+            "doi-asserted-by": "publisher",
+            "unstructured": "M.A. Laribi, L. Romdhane, S. Zeghloul, Advanced Synthesis of the DELTA Parallel Robot for a Specified Workspace. In: Parallel Manipulators, Towards New Applications, (2008), Advanced Robotic Systems, Austria, Vienne, (ISBN 978-3-902613-40-0).",
+            "DOI": "10.5772/5432"
+          },
+          {
+            "key": "2062282",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Y. Li and Q. Xu, Design and application of a new 3-DOF translational parallel manipulator, In Proceedings of IEEE Workshop on Advanced Robotics and its Social Impacts (ARSO'07), December 9-11, (2007) 85-90. Hsinchu, Taiwan.",
+            "DOI": "10.1109/arso.2007.4531432"
+          },
+          {
+            "key": "2062283",
+            "doi-asserted-by": "publisher",
+            "unstructured": "I. A. Bonev, and J. Ryu, A geometrical method for computing the constant-orientation workspace of 6-PRRS parallel manipulators, Journal of Mechanism and machine theory, Vol. 36 (2001), Pages: 1-13.",
+            "DOI": "10.1016/s0094-114x(00)00031-8"
+          },
+          {
+            "key": "2062284",
+            "doi-asserted-by": "publisher",
+            "unstructured": "J. Blaise, I. A. Bonev, B. Monsarrat, S. Briot, J. M. Lambert, C. Perron, Kinematic characterization of hexapods for industry, Journal of Industrial Robot, Vol. 37-1 (2010) Pages: 79-88.",
+            "DOI": "10.1108/01439911011009984"
+          },
+          {
+            "key": "2062285",
+            "unstructured": "M. L. Husty, On the workspace of planar three-legged platforms. In Proceedings ISRAM - World Congress of Automation, Pages: 1790-1796, Montpellier, France, (1996)."
+          },
+          {
+            "key": "2062286",
+            "doi-asserted-by": "publisher",
+            "unstructured": "C. Innocenti, V. Parenti-Castelli, Singularity-Free evolution from one configuration to another in serial and fully-parallel manipulators, Robotics, Spatial Mechanisms and Mechanical Systems, ASME, Vol. 45, (1992), 553-560.",
+            "DOI": "10.1115/1.2826679"
+          },
+          {
+            "key": "2062287",
+            "doi-asserted-by": "publisher",
+            "unstructured": "K. A. Arrouk, B.C. Bouzgarrou, G. Gogu, Workspace Determination and Representation of Planar Parallel Manipulators in a CAD Environment, 3rd European Conference on Mechanism Science (EUCOMES 2010), September 14-18, (2010), Cluj-Napoca, Romania.",
+            "DOI": "10.1007/978-90-481-9689-0_69"
+          },
+          {
+            "key": "2062288",
+            "unstructured": "Information on. http: /robot. gmc. ulaval. ca/fr/recherche/theme102. html."
+          },
+          {
+            "key": "2062289",
+            "unstructured": "Hu. Xiaolin, Design and Analysis of a Three Degrees of Freedom Parallel Kinematic Machine, Thesis Submitted for the Degree of Master of Applied Science, University of Ontario Institute of Technology August, (2008)."
+          },
+          {
+            "key": "2062290",
+            "doi-asserted-by": "publisher",
+            "unstructured": "D. Zlatanov, R. G. Fenton, B. Behhabid, Singularity Analysis of Mechanisms and Robots via a Velocity-Equation Model of the Instantaneous Kinematics, Proceedings of the IEEE International conference on Robotics and Automation (1994).",
+            "DOI": "10.1109/robot.1994.351325"
+          },
+          {
+            "key": "2062291",
+            "unstructured": "D. Zlatanov, B. Benhabib, R.G. Fenton, Velocity and singularity analysis of Hybrid Chain Manipulators. Proceedings of the 23rd Biennial Mechanism Conference, 72 (1994), 467- 476."
+          },
+          {
+            "key": "2062292",
+            "doi-asserted-by": "publisher",
+            "unstructured": "C. Gosselin, J. Angeles, Singularity Analysis of Closed-Loop Kinematic Chains, IEEE Transactions on Robotics and Automation, 6 (1990), No. 3, 281–290.",
+            "DOI": "10.1109/70.56660"
+          },
+          {
+            "key": "2062293",
+            "doi-asserted-by": "publisher",
+            "unstructured": "K. J. Waldron, S.L. Wang, S.L. Bolin, A study of the Jacobian matrix of serial manipulators, ASME Journal of Mech. Transm. Automn Des. 107 (1985), 230–238.",
+            "DOI": "10.1115/1.3258715"
+          },
+          {
+            "key": "2062294",
+            "doi-asserted-by": "publisher",
+            "unstructured": "J. W. Burdick, A classification of 3R regional manipulator singularities and geometries, Mechanisms and Machine Theory, 30(1) (2001), 71-89.",
+            "DOI": "10.1016/0094-114x(94)00043-k"
+          },
+          {
+            "key": "2062295",
+            "doi-asserted-by": "publisher",
+            "unstructured": "J. P. Merlet, Singular Configurations of Parallel Manipulators and Grassmann Geometry, The International Journal of Robotics Research, 8(5) (1989) 45–56.",
+            "DOI": "10.1177/027836498900800504"
+          },
+          {
+            "key": "2062296",
+            "unstructured": "J. P. Merlet, Parallel Manipulators Part 2: Singular Configurations and Grassmann Geometry, Technical Report, (1988). INRIA, Sophia Antipolis, France."
+          },
+          {
+            "key": "2062297",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Ph. Wenger, D. Chablat, Uniqueness Domains in the Workspace of Parallel Manipulators, IFAC-SYROCO, (1997) 431-436, Nantes.",
+            "DOI": "10.1016/s1474-6670(17)44297-2"
+          },
+          {
+            "key": "2062298",
+            "doi-asserted-by": "publisher",
+            "unstructured": "J. Sefrioui, C.M. Gosselin, On the quadratic nature of the singularity curves of planar three-degree-of-freedom parallel manipulators, Mechanism and Machine Theory, 30 (1994), No. 4, 533-551.",
+            "DOI": "10.1016/0094-114x(94)00052-m"
+          },
+          {
+            "key": "2062299",
+            "unstructured": "D. Chablat, Domaines d'unicité et Parcourabilité pour les Manipulateurs Pleinement Parallèles, Ph.D. Thesis, École Centrale de Nantes, Nantes, France, (1998)."
+          },
+          {
+            "key": "2062300",
+            "unstructured": "M. Zein, Analyse cinématique des manipulateurs sériels 3r orthogonaux et des manipulateurs parallèles plans, Ph.D. Thesis, l'École Centrale de Nantes et l'Université de Nantes, Juillet (2007)."
+          },
+          {
+            "key": "2062301",
+            "unstructured": "E. Macho, O. Altuzarra, C. Pinto, A. Hernandez, Singularity free change of assembly mode in parallel manipulators Application to the 3-RPR planar platform, in Proceedings of the 12th World Congress, Besancon, France, (2007)."
+          }
+        ],
+        "container-title": [
+          "Applied Mechanics and Materials"
+        ],
+        "link": [
+          {
+            "URL": "https://www.scientific.net/AMM.162.131.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              12
+            ]
+          ],
+          "date-time": "2021-01-12T21:26:17Z",
+          "timestamp": 1610486777000
+        },
+        "score": 33.238564,
+        "resource": {
+          "primary": {
+            "URL": "https://www.scientific.net/AMM.162.131"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              3
+            ]
+          ]
+        },
+        "references-count": 27,
+        "URL": "https://doi.org/10.4028/www.scientific.net/amm.162.131",
+        "ISSN": [
+          "1662-7482"
+        ],
+        "issn-type": [
+          {
+            "value": "1662-7482",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              3
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

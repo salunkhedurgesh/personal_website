@@ -1,0 +1,1212 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5415975,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2026-04-27T19:00:04Z",
+          "timestamp": 1777316404240,
+          "version": "3.51.4"
+        },
+        "reference-count": 147,
+        "publisher": "MDPI AG",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  2,
+                  11
+                ]
+              ],
+              "date-time": "2021-02-11T00:00:00Z",
+              "timestamp": 1613001600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Sensors"
+        ],
+        "abstract": "<jats:p>Dexterous manipulation of the robot is an important part of realizing intelligence, but manipulators can only perform simple tasks such as sorting and packing in a structured environment. In view of the existing problem, this paper presents a state-of-the-art survey on an intelligent robot with the capability of autonomous deciding and learning. The paper first reviews the main achievements and research of the robot, which were mainly based on the breakthrough of automatic control and hardware in mechanics. With the evolution of artificial intelligence, many pieces of research have made further progresses in adaptive and robust control. The survey reveals that the latest research in deep learning and reinforcement learning has paved the way for highly complex tasks to be performed by robots. Furthermore, deep reinforcement learning, imitation learning, and transfer learning in robot control are discussed in detail. Finally, major achievements based on these methods are summarized and analyzed thoroughly, and future research challenges are proposed.</jats:p>",
+        "DOI": "10.3390/s21041278",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2021-02-12T16:12:10Z",
+          "timestamp": 1613146330000
+        },
+        "page": "1278",
+        "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 200,
+        "title": [
+          "Learning for a Robot: Deep Reinforcement Learning, Imitation Learning, Transfer Learning"
+        ],
+        "prefix": "10.3390",
+        "volume": "21",
+        "author": [
+          {
+            "given": "Jiang",
+            "family": "Hua",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Metallurgical Equipment and Control Technology, Ministry of Education, Wuhan University of Science and Technology, Wuhan 430081, China"
+              }
+            ]
+          },
+          {
+            "given": "Liangcai",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Metallurgical Equipment and Control Technology, Ministry of Education, Wuhan University of Science and Technology, Wuhan 430081, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2695-2742",
+            "authenticated-orcid": false,
+            "given": "Gongfa",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Metallurgical Equipment and Control Technology, Ministry of Education, Wuhan University of Science and Technology, Wuhan 430081, China"
+              }
+            ]
+          },
+          {
+            "given": "Zhaojie",
+            "family": "Ju",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computing, University of Portsmouth, Portsmouth 03801, UK"
+              }
+            ]
+          }
+        ],
+        "member": "1968",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              11
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Billard, A., and Kragic, D. (2019). Trends and challenges in robot manipulation. Science, 364.",
+            "DOI": "10.1126/science.aat8414"
+          },
+          {
+            "key": "ref_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "116",
+            "DOI": "10.1016/j.jecp.2009.10.003",
+            "article-title": "Developing Motor Planning over Ages",
+            "volume": "105",
+            "author": "Thibaut",
+            "year": "2010",
+            "journal-title": "J. Exp. Child Psychol."
+          },
+          {
+            "key": "ref_3",
+            "doi-asserted-by": "crossref",
+            "first-page": "162",
+            "DOI": "10.1109/TCDS.2018.2800167",
+            "article-title": "Multimodal Human Hand Motion Sensing and Analysis—A Review",
+            "volume": "11",
+            "author": "Xue",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "key": "ref_4",
+            "doi-asserted-by": "crossref",
+            "first-page": "66",
+            "DOI": "10.1109/THMS.2015.2470657",
+            "article-title": "The GRASP Taxonomy of Human Grasp Types",
+            "volume": "46",
+            "author": "Feix",
+            "year": "2016",
+            "journal-title": "IEEE Trans. Hum. Mach. Syst."
+          },
+          {
+            "key": "ref_5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Homberg, B.S., Katzschmann, R.K., Dogar, M.R., and Rus, D. (October, January 28). Haptic identification of objects using a modular soft robotic gripper. Proceedings of the 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hamburg, Germany.",
+            "DOI": "10.1109/IROS.2015.7353596"
+          },
+          {
+            "key": "ref_6",
+            "doi-asserted-by": "crossref",
+            "first-page": "357",
+            "DOI": "10.1016/j.chb.2018.08.027",
+            "article-title": "Evaluations of an artificial intelligence instructor’s voice: Social Identity Theory in human-robot interactions",
+            "volume": "90",
+            "author": "Edwards",
+            "year": "2019",
+            "journal-title": "Comput. Hum. Behav."
+          },
+          {
+            "key": "ref_7",
+            "doi-asserted-by": "crossref",
+            "first-page": "326",
+            "DOI": "10.1016/j.robot.2011.07.016",
+            "article-title": "An overview of 3D object grasp synthesis algorithms",
+            "volume": "60",
+            "author": "Sahbani",
+            "year": "2012",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "ref_8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pinto, L., and Gupta, A. (2016, January 16–21). Supersizing self-supervision: Learning to grasp from 50K tries and 700 robot hours. Proceedings of the 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden.",
+            "DOI": "10.1109/ICRA.2016.7487517"
+          },
+          {
+            "key": "ref_9",
+            "unstructured": "Vecerik, M., Hester, T., Scholz, J., Wang, F., Pietquin, O., Piot, B., Heess, N., Rothorl, T., Lampe, T., and Riedmiller, M. (2017). Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards. arXiv."
+          },
+          {
+            "key": "ref_10",
+            "unstructured": "Kroemer, O., Niekum, S., and Konidaris, G. (2019). A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms. arXiv."
+          },
+          {
+            "key": "ref_11",
+            "doi-asserted-by": "crossref",
+            "first-page": "289",
+            "DOI": "10.1109/TRO.2013.2289018",
+            "article-title": "Data-Driven Grasp Synthesis—A Survey",
+            "volume": "30",
+            "author": "Bohg",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "key": "ref_12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Li, Y.H., Lei, Q.J., Cheng, C., Zhang, G., Wang, W., and Xu, Z. (2019, January 1–3). A review: Machine learning on robotic grasping. Proceedings of the Eleventh International Conference on Machine Vision (ICMV 2018), International Society for Optics and Photonics, Munich, Germany.",
+            "DOI": "10.1117/12.2522945"
+          },
+          {
+            "key": "ref_13",
+            "unstructured": "Bicchi, A., and Kumar, V. (2000, January 24–28). Robotic grasping and contact: A review. Proceedings of the 2000 ICRA, Millennium Conference, IEEE International Conference on Robotics and Automation, Symposia Proceedings (Cat. No. 00CH37065), San Francisco, CA, USA."
+          },
+          {
+            "key": "ref_14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Colomé, A., Pardo, D., Alenya, G., and Torras, C. (2013, January 6–10). External force estimation during compliant robot manipulation. Proceedings of the 2013 IEEE International Conference on Robotics and Automation, Karlsruhe, Germany.",
+            "DOI": "10.1109/ICRA.2013.6631072"
+          },
+          {
+            "key": "ref_15",
+            "doi-asserted-by": "crossref",
+            "first-page": "319",
+            "DOI": "10.1177/027836499501400402",
+            "article-title": "On the closure properties of robotic grasping",
+            "volume": "14",
+            "author": "Bicchi",
+            "year": "1995",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_16",
+            "doi-asserted-by": "crossref",
+            "first-page": "155",
+            "DOI": "10.1109/TRA.2002.806774",
+            "article-title": "On computing three-finger force-closure grasps of 2-D and 3-D objects",
+            "volume": "19",
+            "author": "Li",
+            "year": "2003",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "key": "ref_17",
+            "doi-asserted-by": "crossref",
+            "first-page": "1195",
+            "DOI": "10.1177/0278364915583880",
+            "article-title": "Grasp planning to maximize task coverage",
+            "volume": "34",
+            "author": "Lin",
+            "year": "2015",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_18",
+            "doi-asserted-by": "crossref",
+            "first-page": "20",
+            "DOI": "10.1109/MRA.2007.339604",
+            "article-title": "Challenges for robot manipulation in human environments [grand challenges of robotics]",
+            "volume": "14",
+            "author": "Kemp",
+            "year": "2007",
+            "journal-title": "IEEE Robot. Autom. Mag."
+          },
+          {
+            "key": "ref_19",
+            "doi-asserted-by": "crossref",
+            "first-page": "362",
+            "DOI": "10.1007/s41315-019-00103-5",
+            "article-title": "Survey of imitation learning for robotic manipulation",
+            "volume": "3",
+            "author": "Fang",
+            "year": "2019",
+            "journal-title": "Int. J. Intell. Robot. Appl."
+          },
+          {
+            "key": "ref_20",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Alexandrova, S., Cakmak, M., Hsiao, K., and Takayama, L. (2014). Robot Programming by Demonstration with Interactive Action Visualizations. Robot. Sci. Syst., 10.",
+            "DOI": "10.15607/RSS.2014.X.048"
+          },
+          {
+            "key": "ref_21",
+            "unstructured": "Huang, D., Ma, M., Ma, W., and Kitani, K.M. (2015, January 7–12). How do we use our hands?Discovering a diverse set of common grasps. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Boston, MA, USA."
+          },
+          {
+            "key": "ref_22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pérez-D’Arpino, C., and Shah, J.A. (2015, January 26–30). Fast target prediction of human reaching motion for cooperative human-robot manipulation tasks using time series classification. Proceedings of the 2015 IEEE International Conference on Robotics and Automation (ICRA), Seattle, WA, USA.",
+            "DOI": "10.1109/ICRA.2015.7140066"
+          },
+          {
+            "key": "ref_23",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yang, Y., Fermuller, C., Li, Y., and Aloimonos, Y. (2015). Grasp type revisited: A modern perspective on a classical feature for vision. Comput. Vis. Pattern Recognit., 400–408.",
+            "DOI": "10.1109/CVPR.2015.7298637"
+          },
+          {
+            "key": "ref_24",
+            "doi-asserted-by": "crossref",
+            "first-page": "705",
+            "DOI": "10.1177/0278364914549607",
+            "article-title": "Deep Learning for Detecting Robotic Grasps",
+            "volume": "34",
+            "author": "Lenz",
+            "year": "2013",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_25",
+            "doi-asserted-by": "crossref",
+            "first-page": "436",
+            "DOI": "10.1038/nature14539",
+            "article-title": "Deep learning",
+            "volume": "521",
+            "author": "Lecun",
+            "year": "2015",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "ref_26",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Redmon, J., and Angelova, A. (2015). Real-Time Grasp Detection Using Convolutional Neural Networks. Int. Conf. Robot. Autom., 1316–1322.",
+            "DOI": "10.1109/ICRA.2015.7139361"
+          },
+          {
+            "key": "ref_27",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Varley, J., Weisz, J., Weiss, J., and Allen, P.K. (2015). Generating multi-fingered robotic grasps via deep learning. Intell. Robot. Syst., 4415–4420.",
+            "DOI": "10.1109/IROS.2015.7354004"
+          },
+          {
+            "key": "ref_28",
+            "unstructured": "BCS, M. (2016). Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation. arXiv."
+          },
+          {
+            "key": "ref_29",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hou, Z., Fei, J., Deng, Y., and Xu, J. (2020). Data-efficient Hierarchical Reinforcement Learning for Robotic Assembly Control Applications. IEEE Trans. Ind. Electron.",
+            "DOI": "10.1109/TIE.2020.3038072"
+          },
+          {
+            "key": "ref_30",
+            "unstructured": "Kiran, B.R., Sobh, I., Talpaert, V., Mannion, P., Sallab, A.A.A., Yogamani, S., and Perez, P. (2020). Deep Reinforcement Learning for Autonomous Driving: A Survey. arXiv."
+          },
+          {
+            "key": "ref_31",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhu, Y., Wang, Z., Merel, J., Rusu, A.A., Erez, T., Cabi, S., Tunyasuvunakool, S., Kramar, J., Hadsell, R., and De Freitas, N. (2018). Reinforcement and Imitation Learning for Diverse Visuomotor Skills. arXiv.",
+            "DOI": "10.15607/RSS.2018.XIV.009"
+          },
+          {
+            "key": "ref_32",
+            "doi-asserted-by": "crossref",
+            "first-page": "17",
+            "DOI": "10.3390/robotics7020017",
+            "article-title": "Robot Learning from Demonstration in Robotic Assembly: A Survey",
+            "volume": "7",
+            "author": "Zhu",
+            "year": "2018",
+            "journal-title": "Robotics"
+          },
+          {
+            "key": "ref_33",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/0278364919887447",
+            "article-title": "Learning Dexterous in-Hand Manipulation",
+            "volume": "39",
+            "author": "Andrychowicz",
+            "year": "2020",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_34",
+            "first-page": "19",
+            "article-title": "Nonlinear Inverse Reinforcement Learning with Gaussian Processes",
+            "volume": "24",
+            "author": "Levine",
+            "year": "2011",
+            "journal-title": "Adv. Neural Inf. Process. Syst."
+          },
+          {
+            "key": "ref_35",
+            "doi-asserted-by": "crossref",
+            "first-page": "1238",
+            "DOI": "10.1177/0278364913495721",
+            "article-title": "Reinforcement learning in robotics: A survey",
+            "volume": "32",
+            "author": "Kober",
+            "year": "2013",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_36",
+            "doi-asserted-by": "crossref",
+            "first-page": "3133",
+            "DOI": "10.1109/COMST.2019.2916583",
+            "article-title": "Applications of deep reinforcement learning in communications and networking: A survey",
+            "volume": "21",
+            "author": "Luong",
+            "year": "2019",
+            "journal-title": "IEEE Commun. Surv. Tutorials"
+          },
+          {
+            "key": "ref_37",
+            "doi-asserted-by": "crossref",
+            "first-page": "26",
+            "DOI": "10.1109/MSP.2017.2743240",
+            "article-title": "Deep Reinforcement Learning: A Brief Survey",
+            "volume": "34",
+            "author": "Arulkumaran",
+            "year": "2017",
+            "journal-title": "IEEE Signal Process. Mag."
+          },
+          {
+            "key": "ref_38",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Nguyen, H., and La, H. (2019, January 25–27). Review of deep reinforcement learning for robot manipulation. Proceedings of the 2019 Third IEEE International Conference on Robotic Computing (IRC), Naples, Italy.",
+            "DOI": "10.1109/IRC.2019.00120"
+          },
+          {
+            "key": "ref_39",
+            "unstructured": "Fan, L., Zhu, Y., Zhu, J., Liu, Z., Zeng, O., Gupta, A., Creus-Costa, J., Savarese, S., and Fei-Fei, L. (2018, January 29–31). Surreal: Open-source reinforcement learning framework and robot manipulation benchmark. Proceedings of the Conference on Robot Learning, Zürich, Switzerland."
+          },
+          {
+            "key": "ref_40",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hester, T., Quinlan, M., and Stone, P. (2010, January 3–7). Generalized model learning for Reinforcement Learning on a humanoid robot. Proceedings of the 2010 IEEE International Conference on Robotics and Automation, Anchorage, AK, USA.",
+            "DOI": "10.1109/ROBOT.2010.5509181"
+          },
+          {
+            "key": "ref_41",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lioutikov, R., Paraschos, A., Peters, J., and Neumann, G. (June, January 31). Sample-Based Information-Theoretic Stochastic Optimal Control. Proceedings of the 2014 IEEE International Conference on Robotics and Automation (ICRA), Hong Kong, China.",
+            "DOI": "10.1109/ICRA.2014.6907424"
+          },
+          {
+            "key": "ref_42",
+            "unstructured": "Schenck, C., Tompson, J., Fox, D., and Levine, S. (2017, January 13–15). Learning Robotic Manipulation of Granular Media. Proceedings of the Conference on Robot Learning, PMLR, Mountain View, CA, USA."
+          },
+          {
+            "key": "ref_43",
+            "unstructured": "Ross, S., Gordon, G.J., and Bagnell, J.A. (2011, January 11–13). A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning. Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics, Fort Lauderdale, FL, USA."
+          },
+          {
+            "key": "ref_44",
+            "unstructured": "Sutton, R.S., Mcallester, D., Singh, S., and Mansour, Y. (December, January 29). Policy Gradient Methods for Reinforcement Learning with Function Approximation. Proceedings of the NIPs, Denver, CO, USA."
+          },
+          {
+            "key": "ref_45",
+            "doi-asserted-by": "crossref",
+            "first-page": "682",
+            "DOI": "10.1016/j.neunet.2008.02.003",
+            "article-title": "2008 Special Issue: Reinforcement learning of motor skills with policy gradients",
+            "volume": "21",
+            "author": "Peters",
+            "year": "2008",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "key": "ref_46",
+            "doi-asserted-by": "crossref",
+            "first-page": "213",
+            "DOI": "10.1177/0278364907084980",
+            "article-title": "Learning CPG-based Biped Locomotion with a Policy Gradient Method: Application to a Humanoid Robot",
+            "volume": "27",
+            "author": "Endo",
+            "year": "2008",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_47",
+            "unstructured": "Deisenroth, M.P., and Rasmussen, C.E. (July, January 28). PILCO: A Model-Based and Data-Efficient Approach to Policy Search. Proceedings of the 28th International Conference on Machine Learning (ICML-11), Bellevue, WA, USA."
+          },
+          {
+            "key": "ref_48",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yahya, A., Li, A., Kalakrishnan, M., Chebotar, Y., and Levine, S. (2017, January 24–28). Collective robot reinforcement learning with distributed asynchronous guided policy search. Proceedings of the 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada.",
+            "DOI": "10.1109/IROS.2017.8202141"
+          },
+          {
+            "key": "ref_49",
+            "doi-asserted-by": "crossref",
+            "first-page": "800",
+            "DOI": "10.2307/2965754",
+            "article-title": "Encyclopedia of Operations Research and Management Science",
+            "volume": "92",
+            "author": "Gass",
+            "year": "1997",
+            "journal-title": "J. Am. Stat. Assoc."
+          },
+          {
+            "key": "ref_50",
+            "first-page": "1334",
+            "article-title": "End-to-end training of deep visuomotor policies",
+            "volume": "17",
+            "author": "Levine",
+            "year": "2016",
+            "journal-title": "J. Mach. Learn. Res."
+          },
+          {
+            "key": "ref_51",
+            "doi-asserted-by": "crossref",
+            "first-page": "421",
+            "DOI": "10.1177/0278364917710318",
+            "article-title": "Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection",
+            "volume": "37",
+            "author": "Levine",
+            "year": "2018",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_52",
+            "doi-asserted-by": "crossref",
+            "first-page": "2393",
+            "DOI": "10.1109/TII.2019.2936167",
+            "article-title": "End-to-end navigation strategy with deep reinforcement learning for mobile robots",
+            "volume": "16",
+            "author": "Shi",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Ind. Inform."
+          },
+          {
+            "key": "ref_53",
+            "doi-asserted-by": "crossref",
+            "first-page": "1105",
+            "DOI": "10.1016/j.robot.2010.06.001",
+            "article-title": "Combining active learning and reactive control for robot grasping",
+            "volume": "58",
+            "author": "Kroemer",
+            "year": "2010",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "ref_54",
+            "doi-asserted-by": "crossref",
+            "first-page": "485",
+            "DOI": "10.1109/LRA.2019.2891311",
+            "article-title": "Robot-assisted training in laparoscopy using deep reinforcement learning",
+            "volume": "4",
+            "author": "Tan",
+            "year": "2019",
+            "journal-title": "IEEE Robot. Autom. Lett."
+          },
+          {
+            "key": "ref_55",
+            "doi-asserted-by": "crossref",
+            "first-page": "279",
+            "DOI": "10.1007/BF00117447",
+            "article-title": "Purposive behavior acquisition for a real robot by vision-based reinforcement learning",
+            "volume": "23",
+            "author": "Asada",
+            "year": "1996",
+            "journal-title": "Mach. Learn."
+          },
+          {
+            "key": "ref_56",
+            "unstructured": "Wulfmeier, M., Ondruska, P., and Posner, I. (2015). Maximum Entropy Deep Inverse Reinforcement Learning. arXiv."
+          },
+          {
+            "key": "ref_57",
+            "unstructured": "Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., and Riedmiller, M. (2013). Playing Atari with Deep Reinforcement Learning. arXiv."
+          },
+          {
+            "key": "ref_58",
+            "unstructured": "Zhang, F., Leitner, J., Milford, M., Upcroft, B., and Corke, P. (2015). Towards vision-based deep reinforcement learning for robotic motion control. arXiv."
+          },
+          {
+            "key": "ref_59",
+            "unstructured": "Hausknecht, M., and Stone, P. (2015). Deep Recurrent Q-Learning for Partially Observable MDPs. arXiv."
+          },
+          {
+            "key": "ref_60",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cao, J., Liu, W., Liu, Y., and Yang, J. (2020). Generalize Robot Learning From Demonstration to Variant Scenarios with Evolutionary Policy Gradient. Front. Neurorobot., 14.",
+            "DOI": "10.3389/fnbot.2020.00021"
+          },
+          {
+            "key": "ref_61",
+            "doi-asserted-by": "crossref",
+            "first-page": "281",
+            "DOI": "10.1109/TCDS.2018.2866477",
+            "article-title": "Biologically Inspired Motion Modeling and Neural Control for Robot Learning From Demonstrations",
+            "volume": "11",
+            "author": "Yang",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "key": "ref_62",
+            "unstructured": "Levine, S., and Koltun, V. (2014, January 21–26). Learning Complex Neural Network Policies with Trajectory Optimization. Proceedings of the International Conference on Machine Learning, Beijing, China."
+          },
+          {
+            "key": "ref_63",
+            "unstructured": "Schulman, J., Levine, S., Abbeel, P., Jordan, M.I., and Moritz, P. (2015, January 6–11). Trust Region Policy Optimization. Proceedings of the International Conference on Machine Learning, Lille, France."
+          },
+          {
+            "key": "ref_64",
+            "unstructured": "Mirowski, P., Pascanu, R., Viola, F., Soyer, H., Ballard, A.J., Banino, A., Denil, M., Goroshin, R., Sifre, L., and Kavukcuoglu, K. (2016). Learning to Navigate in Complex Environments. arXiv."
+          },
+          {
+            "key": "ref_65",
+            "unstructured": "Mnih, V., Badia, A.P., Mirza, M., Graves, A., Harley, T., Lillicrap, T., Silver, D., and Kavukcuoglu, K. (2016, January 19–24). Asynchronous methods for deep reinforcement learning. Proceedings of the International Conference on Machine Learning, New York, NY, USA."
+          },
+          {
+            "key": "ref_66",
+            "unstructured": "Lillicrap, T., Hunt, J.J., Pritzel, A., Heess, N., Erez, T., Tassa, Y., Silver, D., and Wierstra, D. (2016). Continuous control with deep reinforcement learning. arXiv."
+          },
+          {
+            "key": "ref_67",
+            "unstructured": "Gu, S., Lillicrap, T., Sutskever, I., and Levine, S. (2016, January 19–24). Continuous Deep Q-Learning with Model-based Acceleration. Proceedings of the 33rd International Conference on Machine Learning, New York, NY, USA."
+          },
+          {
+            "key": "ref_68",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gu, S., Holly, E., Lillicrap, T., and Levine, S. (June, January 29). Deep reinforcement learning for robotic manipulation with asynchronous off-policy updates. Proceedings of the 2017 IEEE International conference on Robotics and Automation (ICRA), Singapore.",
+            "DOI": "10.1109/ICRA.2017.7989385"
+          },
+          {
+            "key": "ref_69",
+            "unstructured": "Haarnoja, T., Zhou, A., Abbeel, P., and Levine, S. (2018, January 10–15). Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor. Proceedings of the International Conference on Machine Learning, Stockholm, Sweden."
+          },
+          {
+            "key": "ref_70",
+            "unstructured": "Bojarski, M., Testa, D.D., Dworakowski, D., Firner, B., Flepp, B., Goyal, P., Jackel, L.D., Monfort, M., Muller, U.A., and Zhang, J. (2016). End to End Learning for Self-Driving Cars. arXiv."
+          },
+          {
+            "key": "ref_71",
+            "unstructured": "Kumar, V., Gupta, A., Todorov, E., and Levine, S. (2016). Learning Dexterous Manipulation Policies from Experience and Imitation. arXiv."
+          },
+          {
+            "key": "ref_72",
+            "unstructured": "Wu, Y., Charoenphakdee, N., Bao, H., Tangkaratt, V., and Sugiyama, M. (2019, January 10–15). Imitation Learning from Imperfect Demonstration. Proceedings of the International Conference on Machine Learning, Long Beach, CA, USA."
+          },
+          {
+            "key": "ref_73",
+            "doi-asserted-by": "crossref",
+            "first-page": "699",
+            "DOI": "10.1109/TIE.2007.891642",
+            "article-title": "Dance Step Estimation Method Based on HMM for Dance Partner Robot",
+            "volume": "54",
+            "author": "Takeda",
+            "year": "2007",
+            "journal-title": "IEEE Trans. Ind. Electron."
+          },
+          {
+            "key": "ref_74",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Calinon, S., and Billard, A. (2007, January 10–12). Incremental learning of gestures by imitation in a humanoid robot. Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction, Arlington, VA, USA.",
+            "DOI": "10.1145/1228716.1228751"
+          },
+          {
+            "key": "ref_75",
+            "doi-asserted-by": "crossref",
+            "first-page": "44",
+            "DOI": "10.1109/MRA.2010.936947",
+            "article-title": "Learning and Reproduction of Gestures by Imitation",
+            "volume": "17",
+            "author": "Calinon",
+            "year": "2010",
+            "journal-title": "IEEE Robot. Autom. Mag."
+          },
+          {
+            "key": "ref_76",
+            "doi-asserted-by": "crossref",
+            "first-page": "816",
+            "DOI": "10.1109/TRO.2014.2304775",
+            "article-title": "Coupling Movement Primitives: Interaction with the Environment and Bimanual Tasks",
+            "volume": "30",
+            "author": "Gams",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "ref_77",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhang, T., Mccarthy, Z., Jowl, O., Lee, D., Chen, X., Goldberg, K., and Abbeel, P. (2018, January 21–25). Deep Imitation Learning for Complex Manipulation Tasks from Virtual Reality Teleoperation. Proceedings of the 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, Australia.",
+            "DOI": "10.1109/ICRA.2018.8461249"
+          },
+          {
+            "key": "ref_78",
+            "unstructured": "Ng, A.Y., and Russell, S. (2000). Algorithms for Inverse Reinforcement Learning, ICML."
+          },
+          {
+            "key": "ref_79",
+            "doi-asserted-by": "crossref",
+            "first-page": "126",
+            "DOI": "10.1177/0278364918784350",
+            "article-title": "SWIRL: A sequential windowed inverse reinforcement learning algorithm for robot tasks with delayed rewards",
+            "volume": "38",
+            "author": "Krishnan",
+            "year": "2019",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "ref_80",
+            "doi-asserted-by": "crossref",
+            "first-page": "102348",
+            "DOI": "10.1016/j.mechatronics.2020.102348",
+            "article-title": "Multi-hierarchy interaction control of a redundant robot using impedance learning",
+            "volume": "67",
+            "author": "Jiang",
+            "year": "2020",
+            "journal-title": "Mechatronics"
+          },
+          {
+            "key": "ref_81",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Abbeel, P., and Ng, A.Y. (2004, January 4–8). Apprenticeship learning via inverse reinforcement learning. Proceedings of the Twenty-First International Conference on Machine Learning, Banff Alberta, AL, Canada.",
+            "DOI": "10.1145/1015330.1015430"
+          },
+          {
+            "key": "ref_82",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ratliff, N., Bagnell, J.A., and Zinkevich, M. (2006, January 25–29). Maximum margin planning. Proceedings of the 23rd International Conference on Machine Learning, Pittsburgh, PA, USA.",
+            "DOI": "10.1145/1143844.1143936"
+          },
+          {
+            "key": "ref_83",
+            "unstructured": "Klein, E., Geist, M., Piot, B., and Pietquin, O. (2012, January 3–6). Inverse Reinforcement Learning through Structured Classification. Proceedings of the NIPS, Lake Tahoe, NV, USA."
+          },
+          {
+            "key": "ref_84",
+            "unstructured": "Ho, J., Gupta, J.K., and Ermon, S. (2016, January 19–24). Model-Free Imitation Learning with Policy Optimization. Proceedings of the International Conference on Machine Learning, New York, NY, USA."
+          },
+          {
+            "key": "ref_85",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.robot.2016.06.003",
+            "article-title": "Neural inverse reinforcement learning in autonomous navigation",
+            "volume": "84",
+            "author": "Xia",
+            "year": "2016",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "ref_86",
+            "unstructured": "Finn, C., Abbeel, P., and Levine, S. (2017, January 6–11). Model-agnostic meta-learning for fast adaptation of deep networks. Proceedings of the International Conference on Machine Learning, Sydney, Australia."
+          },
+          {
+            "key": "ref_87",
+            "unstructured": "Ziebart, B.D., Maas, A.L., Bagnell, J.A., and Dey, A.K. (2008). Maximum Entropy Inverse Reinforcement Learning, The AAAI Press."
+          },
+          {
+            "key": "ref_88",
+            "unstructured": "Finn, C., Levine, S., and Abbeel, P. (2016, January 19–24). Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization. Proceedings of the International Conference on Machine Learning, New York, NY, USA."
+          },
+          {
+            "key": "ref_89",
+            "unstructured": "Boularias, A., Kober, J., and Peters, J. (2011, January 11–13). Relative Entropy Inverse Reinforcement Learning. Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics, Fort Lauderdale, FL, USA."
+          },
+          {
+            "key": "ref_90",
+            "doi-asserted-by": "crossref",
+            "first-page": "143",
+            "DOI": "10.1145/3197517.3201311",
+            "article-title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
+            "volume": "37",
+            "author": "Peng",
+            "year": "2018",
+            "journal-title": "ACM Trans. Graph."
+          },
+          {
+            "key": "ref_91",
+            "unstructured": "Cai, Q., Hong, M., Chen, Y., and Wang, Z. (2019). On the Global Convergence of Imitation Learning: A Case for Linear Quadratic Regulator. arXiv."
+          },
+          {
+            "key": "ref_92",
+            "unstructured": "Ho, J., and Ermon, S. (2016). Generative Adversarial Imitation Learning. arXiv."
+          },
+          {
+            "key": "ref_93",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kuefler, A., Morton, J., Wheeler, T.A., and Kochenderfer, M.J. (2017, January 11–14). Imitating driver behavior with generative adversarial networks. Proceedings of the 2017 IEEE Intelligent Vehicles Symposium (IV), Los Angeles, CA, USA.",
+            "DOI": "10.1109/IVS.2017.7995721"
+          },
+          {
+            "key": "ref_94",
+            "unstructured": "Baram, N., Anschel, O., Caspi, I., and Mannor, S. (2017, January 6–11). End-to-End Differentiable Adversarial Imitation Learning. Proceedings of the International Conference on Machine Learning, Sydney, Australia."
+          },
+          {
+            "key": "ref_95",
+            "unstructured": "Merel, J., Tassa, Y., Dhruva, T.B., Srinivasan, S., Lemmon, J., Wang, Z., Wayne, G., and Heess, N. (2017). Learning human behaviors from motion capture by adversarial imitation. arXiv."
+          },
+          {
+            "key": "ref_96",
+            "unstructured": "Wang, Z., Merel, J., Reed, S., Wayne, G., De Freitas, N., and Heess, N. (2017). Robust Imitation of Diverse Behaviors. arXiv."
+          },
+          {
+            "key": "ref_97",
+            "unstructured": "Stadie, B.C., Abbeel, P., and Sutskever, I. (2017). Third-Person Imitation Learning. arXiv."
+          },
+          {
+            "key": "ref_98",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Liu, Y., Gupta, A., Abbeel, P., and Levine, S. (2018, January 21–25). Imitation from Observation: Learning to Imitate Behaviors from Raw Video via Context Translation. Proceedings of the 2018 IEEE International Conference on Robotics and Automation, Brisbane, Australia.",
+            "DOI": "10.1109/ICRA.2018.8462901"
+          },
+          {
+            "key": "ref_99",
+            "unstructured": "Gupta, A., Devin, C., Liu, Y., Abbeel, P., and Levine, S. (2017). Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning. arXiv."
+          },
+          {
+            "key": "ref_100",
+            "unstructured": "Raileanu, R., Goldstein, M., Szlam, A., and Fergus, R. (2020). Fast Adaptation via Policy-Dynamics Value Functions. arXiv."
+          },
+          {
+            "key": "ref_101",
+            "unstructured": "Charles, R.N., Guillaume, D., Andreialexandru, R., Koray, K., Thais, H.R., Razvan, P., James, K., and Josef, S.H. (2017). Progressive Neural Networks. arXiv."
+          },
+          {
+            "key": "ref_102",
+            "unstructured": "Tzeng, E., Devin, C., Hoffman, J., Finn, C., Abbeel, P., Levine, S., Saenko, K., and Darrell, T. (2015). Adapting Deep Visuomotor Representations with Weak Pairwise Constraints. Algorithmic Foundations of Robotics XII, Springer."
+          },
+          {
+            "key": "ref_103",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhu, Y., Mottaghi, R., Kolve, E., Lim, J.J., Gupta, A., Feifei, L., and Farhadi, A. (June, January 29). Target-driven visual navigation in indoor scenes using deep reinforcement learning. Proceedings of the 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore.",
+            "DOI": "10.1109/ICRA.2017.7989381"
+          },
+          {
+            "key": "ref_104",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Peng, X.B., Andrychowicz, M., Zaremba, W., and Abbeel, P. (2018, January 21–25). Sim-to-Real Transfer of Robotic Control with Dynamics Randomization. Proceedings of the 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, Australia.",
+            "DOI": "10.1109/ICRA.2018.8460528"
+          },
+          {
+            "key": "ref_105",
+            "unstructured": "Ammar, H.B., Eaton, E., Ruvolo, P., and Taylor, M.E. (2014, January 21–26). Online Multi-Task Learning for Policy Gradient Methods. Proceedings of the International Conference on Machine Learning, Beijing, China."
+          },
+          {
+            "key": "ref_106",
+            "unstructured": "Rusu, A.A., Vecerik, M., Rothorl, T., Heess, N., Pascanu, R., and Hadsell, R. (2017, January 13–15). Sim-to-Real Robot Learning from Pixels with Progressive Nets. Proceedings of the Conference on Robot Learning, Mountain View, CA, USA."
+          },
+          {
+            "key": "ref_107",
+            "unstructured": "He, Z., Julian, R., Heiden, E., Zhang, H., Schaal, S., Lim, J.J., Sukhatme, G.S., and Hausman, K. (2018). Zero-Shot Skill Composition and Simulation-to-Real Transfer by Learning Task Representations. arXiv."
+          },
+          {
+            "key": "ref_108",
+            "doi-asserted-by": "crossref",
+            "first-page": "191",
+            "DOI": "10.1613/jair.1.11436",
+            "article-title": "Blind Spot Detection for Safe Sim-to-Real Transfer",
+            "volume": "67",
+            "author": "Ramakrishnan",
+            "year": "2020",
+            "journal-title": "J. Artif. Intell. Res."
+          },
+          {
+            "key": "ref_109",
+            "unstructured": "Hwasser, M., Kragic, D., and Antonova, R. (31, January 31). Variational Auto-Regularized Alignment for Sim-to-Real Control. Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), Paris, France."
+          },
+          {
+            "key": "ref_110",
+            "unstructured": "Golemo, F., Taiga, A.A., Courville, A., and Oudeyer, P.Y. (2018, January 29–31). Sim-to-real transfer with neural-augmented robot simulation. Proceedings of the Conference on Robot Learning, New York, NY, USA."
+          },
+          {
+            "key": "ref_111",
+            "unstructured": "Jeong, R., Kay, J., Romano, F., Lampe, T., Rothorl, T., Abdolmaleki, A., Erez, T., Tassa, Y., and Nori, F. (2019). Modelling Generalized Forces with Reinforcement Learning for Sim-to-Real Transfer. arXiv."
+          },
+          {
+            "key": "ref_112",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hwangbo, J., Lee, J., Dosovitskiy, A., Bellicoso, D., Tsounis, V., Koltun, V., and Hutter, M. (2019). Learning agile and dynamic motor skills for legged robots. Sci. Robot., 4.",
+            "DOI": "10.1126/scirobotics.aau5872"
+          },
+          {
+            "key": "ref_113",
+            "unstructured": "Matas, J., James, S., and Davison, A.J. (2018, January 29–31). Sim-to-Real Reinforcement Learning for Deformable Object Manipulation. Proceedings of the Conference on Robot Learning, Zürich, Switzerland."
+          },
+          {
+            "key": "ref_114",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sadeghi, F., Toshev, A., Jang, E., and Levine, S. (2017). Sim2Real View Invariant Visual Servoing by Recurrent Control. arXiv.",
+            "DOI": "10.1109/CVPR.2018.00493"
+          },
+          {
+            "key": "ref_115",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mees, O., Merklinger, M., Kalweit, G., and Burgard, W. (June, January 30). Adversarial skill networks: Unsupervised robot skill learning from video. Proceedings of the 2020 IEEE International Conference on Robotics and Automation (ICRA), Paris, France.",
+            "DOI": "10.1109/ICRA40945.2020.9196582"
+          },
+          {
+            "key": "ref_116",
+            "unstructured": "Ogenyi, U.E., Liu, J., Yang, C., Ju, Z., and Liu, H. (2019). Physical human-robot collaboration: Robotic systems, learning methods, collaborative strategies, sensors and actuators. IEEE Trans. Syst. Man Cybern., 1–14."
+          },
+          {
+            "key": "ref_117",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gribovskaya, E., Kheddar, A., and Billard, A. (2011, January 9–13). Motion learning and adaptive impedance for robot control during physical interaction with humans. Proceedings of the 2011 IEEE International Conference on Robotics and Automation, Shanghai, China.",
+            "DOI": "10.1109/ICRA.2011.5980070"
+          },
+          {
+            "key": "ref_118",
+            "doi-asserted-by": "crossref",
+            "first-page": "513",
+            "DOI": "10.1109/TRO.2016.2540623",
+            "article-title": "Learning physical collaborative robot behaviors from human demonstrations",
+            "volume": "32",
+            "author": "Rozo",
+            "year": "2016",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "ref_119",
+            "unstructured": "Calinon, S., Evrard, P., Gribovskaya, E., Billard, A., and Kheddar, A. (2009, January 22–26). Learning collaborative manipulation tasks by demonstration using a haptic interface. Proceedings of the 2009 International Conference on Advanced Robotics, Munich, Germany."
+          },
+          {
+            "key": "ref_120",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Evrard, P., Gribovskaya, E., Calinon, S., Billard, A., and Kheddar, A. (2009, January 7–10). Teaching physical collaborative tasks: Object-lifting case study with a humanoid. Proceedings of the 2009 9th IEEE-RAS International Conference on Humanoid Robots, Paris, France.",
+            "DOI": "10.1109/ICHR.2009.5379513"
+          },
+          {
+            "key": "ref_121",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Levine, S., Wagener, N., and Abbeel, P. (2015, January 26–30). Learning contact-rich manipulation skills with guided policy search. Proceedings of the 2015 IEEE International Conference on Robotics and Automation (ICRA), Seattle, WA, USA.",
+            "DOI": "10.1109/ICRA.2015.7138994"
+          },
+          {
+            "key": "ref_122",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kaelbling, L.P., and Lozanoperez, T. (2012, January 14–18). Unifying perception, estimation and action for mobile manipulation via belief space planning. Proceedings of the 2012 IEEE International Conference on Robotics and Automation, St. Paul, MN, USA.",
+            "DOI": "10.1109/ICRA.2012.6225237"
+          },
+          {
+            "key": "ref_123",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Platt, R.W., Kaelbling, L.P., Lozanoperez, T., and Tedrake, R. (2017). Efficient Planning in Non-Gaussian Belief Spaces and Its Application to Robot Grasping. Robotics Research, Springer.",
+            "DOI": "10.1007/978-3-319-29363-9_15"
+          },
+          {
+            "key": "ref_124",
+            "doi-asserted-by": "crossref",
+            "first-page": "121",
+            "DOI": "10.1109/TMECH.2017.2717461",
+            "article-title": "Reinforcement Learning of Manipulation and Grasping Using Dynamical Movement Primitives for a Humanoidlike Mobile Manipulator",
+            "volume": "23",
+            "author": "Li",
+            "year": "2017",
+            "journal-title": "IEEE-ASME Trans. Mechatron."
+          },
+          {
+            "key": "ref_125",
+            "doi-asserted-by": "crossref",
+            "first-page": "1450",
+            "DOI": "10.1016/j.robot.2013.07.009",
+            "article-title": "Interaction learning for dynamic movement primitives used in cooperative robotic tasks",
+            "volume": "61",
+            "author": "Kulvicius",
+            "year": "2013",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "ref_126",
+            "doi-asserted-by": "crossref",
+            "first-page": "18",
+            "DOI": "10.1109/TCDS.2018.2868921",
+            "article-title": "Cooperative Manipulation for a Mobile Dual-Arm Robot Using Sequences of Dynamic Movement Primitives",
+            "volume": "12",
+            "author": "Zhao",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "key": "ref_127",
+            "doi-asserted-by": "crossref",
+            "first-page": "387",
+            "DOI": "10.1016/j.robot.2011.07.012",
+            "article-title": "Autonomous grasp and manipulation planning using a ToF camera",
+            "volume": "60",
+            "author": "Xue",
+            "year": "2012",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "ref_128",
+            "doi-asserted-by": "crossref",
+            "first-page": "407",
+            "DOI": "10.1007/s10514-015-9459-7",
+            "article-title": "Learning state representations with robotic priors",
+            "volume": "39",
+            "author": "Jonschkowski",
+            "year": "2015",
+            "journal-title": "Auton. Robot."
+          },
+          {
+            "key": "ref_129",
+            "doi-asserted-by": "crossref",
+            "first-page": "38565",
+            "DOI": "10.1038/srep38565",
+            "article-title": "Noninvasive Electroencephalogram Based Control of a Robotic Arm for Reach and Grasp Tasks",
+            "volume": "6",
+            "author": "Meng",
+            "year": "2016",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "ref_130",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hahne, J.M., Schweisfurth, M.A., Koppe, M., and Farina, D. (2018). Simultaneous control of multiple functions of bionic hand prostheses: Performance and robustness in end users. Sci. Robot., 3.",
+            "DOI": "10.1126/scirobotics.aat3630"
+          },
+          {
+            "key": "ref_131",
+            "doi-asserted-by": "crossref",
+            "first-page": "5296",
+            "DOI": "10.1109/TSMC.2018.2871196",
+            "article-title": "Human-Inspired Control of Dual-Arm Exoskeleton Robots with Force and Impedance Adaptation",
+            "volume": "50",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Syst. Man Cybern."
+          },
+          {
+            "key": "ref_132",
+            "doi-asserted-by": "crossref",
+            "first-page": "81",
+            "DOI": "10.1016/j.cmpb.2013.12.015",
+            "article-title": "Human-robot skills transfer interfaces for a flexible surgical robot",
+            "volume": "116",
+            "author": "Calinon",
+            "year": "2014",
+            "journal-title": "Comput. Methods Programs Biomed."
+          },
+          {
+            "key": "ref_133",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hu, D., Gong, Y., Hannaford, B., and Seibel, E.J. (2015, January 26–30). Semi-autonomous simulated brain tumor ablation with RAVENII Surgical Robot using behavior tree. Proceedings of the 2015 IEEE International Conference on Robotics and Automation (ICRA), Seattle, WA, USA.",
+            "DOI": "10.1109/ICRA.2015.7139738"
+          },
+          {
+            "key": "ref_134",
+            "doi-asserted-by": "crossref",
+            "first-page": "112",
+            "DOI": "10.1109/TCYB.2018.2864784",
+            "article-title": "A Learning-Based Hierarchical Control Scheme for an Exoskeleton Robot in Human—Robot Cooperative Manipulation",
+            "volume": "50",
+            "author": "Deng",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Cybern."
+          },
+          {
+            "key": "ref_135",
+            "doi-asserted-by": "crossref",
+            "first-page": "3826",
+            "DOI": "10.1109/TCYB.2020.2977374",
+            "article-title": "Deep Reinforcement Learning for Multiagent Systems: A Review of Challenges, Solutions, and Applications",
+            "volume": "50",
+            "author": "Nguyen",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Cybern."
+          },
+          {
+            "key": "ref_136",
+            "doi-asserted-by": "crossref",
+            "first-page": "2346",
+            "DOI": "10.1109/TCYB.2019.2890974",
+            "article-title": "Online Reinforcement Learning Control for the Personalization of a Robotic Knee Prosthesis",
+            "volume": "50",
+            "author": "Wen",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Cybern."
+          },
+          {
+            "key": "ref_137",
+            "unstructured": "Duan, Y., Schulman, J., Chen, X., Bartlett, P.L., Sutskever, I., and Abbeel, P. (2017). Fast Reinforcement Learning via Slow Reinforcement Learning. arXiv."
+          },
+          {
+            "key": "ref_138",
+            "unstructured": "Sutton, R.S., and Barto, A.G. (1999). Reinforcement Learning: An Introduction, The MIT Press."
+          },
+          {
+            "key": "ref_139",
+            "unstructured": "Santoro, A., Bartunov, S., Botvinick, M., Wierstra, D., and Lillicrap, T. (2016, January 19–24). Meta-learning with memory-augmented neural networks. Proceedings of the International Conference on Machine Learning, New York, NY, USA."
+          },
+          {
+            "key": "ref_140",
+            "unstructured": "Andrychowicz, M., Denil, M., Gomez, S., Hoffman, M.W., Pfau, D., Schaul, T., Shillingford, B., and De Freitas, N. (2016). Learning to learn by gradient descent by gradient descent. arXiv."
+          },
+          {
+            "key": "ref_141",
+            "unstructured": "Vinyals, O., Blundell, C., Lillicrap, T., Kavukcuoglu, K., and Wierstra, D. (2016). Matching networks for one shot learning. arXiv."
+          },
+          {
+            "key": "ref_142",
+            "unstructured": "Ravi, S., and Larochelle, H. (2017). Optimization as a Model for Few-Shot Learning, ICLR."
+          },
+          {
+            "key": "ref_143",
+            "unstructured": "Sung, F., Zhang, L., Xiang, T., Hospedales, T.M., and Yang, Y. (2017). Learning to Learn: Meta-Critic Networks for Sample Efficient Learning. arXiv."
+          },
+          {
+            "key": "ref_144",
+            "unstructured": "Duan, Y., Andrychowicz, M., Stadie, B.C., Ho, J., Schneider, J., Sutskever, I., Abbeel, P., and Zaremba, W. (2017). One-Shot Imitation Learning. Neural Inf. Process. Syst., 1087–1098."
+          },
+          {
+            "key": "ref_145",
+            "unstructured": "Finn, C., Yu, T., Zhang, T., Abbeel, P., and Levine, S. (2017, January 13–15). One-Shot Visual Imitation Learning via Meta-Learning. Proceedings of the Conference on Robot Learning, Mountain View, CA, USA."
+          },
+          {
+            "key": "ref_146",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yu, T., Finn, C., Xie, A., Dasari, S., Zhang, T., Abbeel, P., and Levine, S. (2018). One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning. arXiv.",
+            "DOI": "10.15607/RSS.2018.XIV.002"
+          },
+          {
+            "key": "ref_147",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Xu, D., Nair, S., Zhu, Y., Gao, J., Garg, A., Feifei, L., and Savarese, S. (2018, January 21–25). Neural Task Programming: Learning to Generalize Across Hierarchical Tasks. Proceedings of the 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, Australia.",
+            "DOI": "10.1109/ICRA.2018.8460689"
+          }
+        ],
+        "container-title": [
+          "Sensors"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/1424-8220/21/4/1278/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              11
+            ]
+          ],
+          "date-time": "2025-10-11T05:22:45Z",
+          "timestamp": 1760160165000
+        },
+        "score": 34.565475,
+        "resource": {
+          "primary": {
+            "URL": "https://www.mdpi.com/1424-8220/21/4/1278"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              11
+            ]
+          ]
+        },
+        "references-count": 147,
+        "journal-issue": {
+          "issue": "4",
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "s21041278"
+        ],
+        "URL": "https://doi.org/10.3390/s21041278",
+        "ISSN": [
+          "1424-8220"
+        ],
+        "issn-type": [
+          {
+            "value": "1424-8220",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              11
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

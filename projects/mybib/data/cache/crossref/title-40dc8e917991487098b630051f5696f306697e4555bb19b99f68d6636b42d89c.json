@@ -1,0 +1,933 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3142494,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              24
+            ]
+          ],
+          "date-time": "2026-04-24T15:35:00Z",
+          "timestamp": 1777044900580,
+          "version": "3.51.4"
+        },
+        "reference-count": 46,
+        "publisher": "Wiley",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  1,
+                  23
+                ]
+              ],
+              "date-time": "2015-01-23T00:00:00Z",
+              "timestamp": 1421971200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100000104",
+            "name": "National Aeronautics and Space Administration",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000104",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Journal of Field Robotics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In December 2013, 16 teams from around the world gathered at Homestead Speedway near Miami, FL to participate in the DARPA Robotics Challenge (DRC) Trials, an aggressive robotics competition partly inspired by the aftermath of the Fukushima Daiichi reactor incident. While the focus of the DRC Trials is to advance robotics for use in austere and inhospitable environments, the objectives of the DRC are to progress the areas of supervised autonomy and mobile manipulation for everyday robotics. NASA's Johnson Space Center led a team comprised of numerous partners to develop Valkyrie, NASA's first bipedal humanoid robot. Valkyrie is a 44 degree‐of‐freedom, series elastic actuator‐based robot that draws upon over 18 years of humanoid robotics design heritage. Valkyrie's application intent is aimed at not only responding to events like Fukushima, but also advancing human spaceflight endeavors in extraterrestrial planetary settings. This paper presents a brief system overview, detailing Valkyrie's mechatronic subsystems, followed by a summarization of the inverse kinematics‐based walking algorithm employed at the Trials. Next, the software and control architectures are highlighted along with a description of the operator interface tools. Finally, some closing remarks are given about the competition, and a vision of future work is provided.</jats:p>",
+        "DOI": "10.1002/rob.21560",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              23
+            ]
+          ],
+          "date-time": "2015-01-23T20:55:53Z",
+          "timestamp": 1422046553000
+        },
+        "page": "397-419",
+        "source": "Crossref",
+        "is-referenced-by-count": 269,
+        "title": [
+          "Valkyrie: NASA's First Bipedal Humanoid Robot"
+        ],
+        "prefix": "10.1002",
+        "volume": "32",
+        "author": [
+          {
+            "given": "Nicolaus A.",
+            "family": "Radford",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Philip",
+            "family": "Strawser",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Kimberly",
+            "family": "Hambuchen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Joshua S.",
+            "family": "Mehling",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "William K.",
+            "family": "Verdeyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "A. Stuart",
+            "family": "Donnan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "James",
+            "family": "Holley",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Jairo",
+            "family": "Sanchez",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Vienny",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Lyndon",
+            "family": "Bridgwater",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Reginald",
+            "family": "Berka",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Robert",
+            "family": "Ambrose",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Mason",
+            "family": "Myles Markee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "N. J.",
+            "family": "Fraser‐Chanpong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Johnson Space Center"
+              }
+            ]
+          },
+          {
+            "given": "Christopher",
+            "family": "McQuin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NASA Jet Propulsion Lab"
+              }
+            ]
+          },
+          {
+            "given": "John D.",
+            "family": "Yamokoski",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Human Machine Cognition"
+              }
+            ]
+          },
+          {
+            "given": "Stephen",
+            "family": "Hart",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "General Motors"
+              }
+            ]
+          },
+          {
+            "given": "Raymond",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "General Motors"
+              }
+            ]
+          },
+          {
+            "given": "Adam",
+            "family": "Parsons",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Brian",
+            "family": "Wightman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Paul",
+            "family": "Dinh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Barrett",
+            "family": "Ames",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Charles",
+            "family": "Blakely",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Courtney",
+            "family": "Edmondson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Brett",
+            "family": "Sommers",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Rochelle",
+            "family": "Rea",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Chad",
+            "family": "Tobler",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Heather",
+            "family": "Bibby",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oceaneering Space Systems"
+              }
+            ]
+          },
+          {
+            "given": "Brice",
+            "family": "Howard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jacobs Engineering"
+              }
+            ]
+          },
+          {
+            "given": "Lei",
+            "family": "Niu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jacobs Engineering"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jacobs Engineering"
+              }
+            ]
+          },
+          {
+            "given": "Michael",
+            "family": "Conover",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jacobs Engineering"
+              }
+            ]
+          },
+          {
+            "given": "Lily",
+            "family": "Truong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jacobs Engineering"
+              }
+            ]
+          },
+          {
+            "given": "Ryan",
+            "family": "Reed",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jacobs Engineering"
+              }
+            ]
+          },
+          {
+            "given": "David",
+            "family": "Chesney",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wyle Laboratories"
+              }
+            ]
+          },
+          {
+            "suffix": "Jr",
+            "given": "Robert",
+            "family": "Platt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Northeastern University"
+              }
+            ]
+          },
+          {
+            "given": "Gwendolyn",
+            "family": "Johnson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas Austin"
+              }
+            ]
+          },
+          {
+            "given": "Chien‐Liang",
+            "family": "Fok",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas Austin"
+              }
+            ]
+          },
+          {
+            "given": "Nicholas",
+            "family": "Paine",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas Austin"
+              }
+            ]
+          },
+          {
+            "given": "Luis",
+            "family": "Sentis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas Austin"
+              }
+            ]
+          },
+          {
+            "given": "Eric",
+            "family": "Cousineau",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University"
+              }
+            ]
+          },
+          {
+            "given": "Ryan",
+            "family": "Sinnet",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University"
+              }
+            ]
+          },
+          {
+            "given": "Jordan",
+            "family": "Lack",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University"
+              }
+            ]
+          },
+          {
+            "given": "Matthew",
+            "family": "Powell",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University"
+              }
+            ]
+          },
+          {
+            "given": "Benjamin",
+            "family": "Morris",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University"
+              }
+            ]
+          },
+          {
+            "given": "Aaron",
+            "family": "Ames",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University"
+              }
+            ]
+          },
+          {
+            "given": "Jide",
+            "family": "Akinyode",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hamilton Sundstrand"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_9_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/5254.867913"
+          },
+          {
+            "key": "e_1_2_9_3_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ames A. D. Cousineau E. A. &Powell M. J.(2012).Dynamically stable bipedal robotic walking with NAO via human‐inspired hybrid zero dynamics. Proceedings of the 15th ACM international conference on Hybrid Systems: Computation and Control (pp.135–144) Beijing.",
+            "DOI": "10.1145/2185632.2185655"
+          },
+          {
+            "key": "e_1_2_9_4_1",
+            "unstructured": "Asokan P. &Platt R.(2014).Ellipsoid consensus: An approach to localizing handles for grasping in 3d point clouds.In ICRA. IEEE."
+          },
+          {
+            "key": "e_1_2_9_5_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bridgwater L. Ihrke C. Diftler M. Abdallah M. Radford N. Rogers J. M. Yayathi S. Askew R. S. &Linn D.(2012).The robonaut 2 hand‐designed to do work with tools. InIEEE International Conference on Robotics and Automation (ICRA)(pp.3425–3430).",
+            "DOI": "10.1109/ICRA.2012.6224772"
+          },
+          {
+            "key": "e_1_2_9_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1207/S15326969ECO1502_5"
+          },
+          {
+            "key": "e_1_2_9_7_1",
+            "first-page": "2543",
+            "volume-title": "Proceedings of the IEEE International Conference on Robotics and Automation",
+            "author": "Diftler M.",
+            "year": "2003"
+          },
+          {
+            "key": "e_1_2_9_8_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Diftler M. Mehling J. Abdallah M. Radford N. Bridgwater L. Sanders A. Askew R. Linn D. Yamokoski J. Permenter F. Hargrave B. Platt R. Savely R. &Ambrose R.(2011).Robonaut 2—The first humanoid robot in space. InProceedings of the IEEE Conference on Robotics and Automation (ICRA) Shanghai China.",
+            "DOI": "10.1109/ICRA.2011.5979830"
+          },
+          {
+            "key": "e_1_2_9_9_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Fowler J.(2000).Qccpack: An open‐source software library for quantization compression and coding. InApplications of Digital Image Processing XXIII(pp.243–250). SPIE.",
+            "DOI": "10.1117/12.411554"
+          },
+          {
+            "key": "e_1_2_9_10_1",
+            "first-page": "67",
+            "volume-title": "Perceiving, acting and knowing: Toward an ecological psychology",
+            "author": "Gibson J. J.",
+            "year": "1977"
+          },
+          {
+            "key": "e_1_2_9_11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MRA.2011.943230"
+          },
+          {
+            "key": "e_1_2_9_12_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Grizzle J. Chevallereau C. Ames A. D. &Sinnet R. W.(2010).3d bipedal robotic walking: Models feedback control and open problems. InProceedings of the IFAC Symposium On Nonlinear Control Systems.",
+            "DOI": "10.3182/20100901-3-IT-2016.00302"
+          },
+          {
+            "key": "e_1_2_9_13_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Guo R. Nguyen V. Niu L. &Bridgwater L.(2014).Design and analysis of a tendon‐driven under‐actuated robotic hand. InProceedings of the ASME 2014 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference Buffalo NY. IDETC/CIE.",
+            "DOI": "10.1115/DETC2014-35069"
+          },
+          {
+            "key": "e_1_2_9_14_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Harrison D. A. Ambrose R. Bluethmann B. &Junkin L.(2008).Next generation rover for lunar exploration. InIEEE Aerospace Conference(pp.1–14).",
+            "DOI": "10.1109/AERO.2008.4526234"
+          },
+          {
+            "key": "e_1_2_9_15_1",
+            "unstructured": "Hart S. Dinh P. &Hambuchen K.(2014a).Affordance templates for shared robot control. InArtificial Intelligence and Human‐Robot Interaction AAAI Fall Symposium Series Arlington VA."
+          },
+          {
+            "key": "e_1_2_9_16_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hart S. Dinh P. Yamokoski J. Wightman B. &Radford N.(2014b).Robot task commander: A framework and IDE for robot application development. InInternational Conference on Intelligent Robots and Systems (IROS) Chicago. IEEE/RSJ.",
+            "DOI": "10.1109/IROS.2014.6942761"
+          },
+          {
+            "key": "e_1_2_9_17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-32375-1_12"
+          },
+          {
+            "key": "e_1_2_9_18_1",
+            "unstructured": "Ihrke C. A. Mehling J. S. Parsons A. H. Griffith B. K. Radford N. A. Permenter F. N. Davis D. R. Ambrose R. O. Junkin L. Q. et al. (2012).Rotary series elastic actuator.U.S. Patent 8 291 788."
+          },
+          {
+            "key": "e_1_2_9_19_1",
+            "unstructured": "iMatix Corporation(2007).ZeroMQ: Distributed computing made simple."
+          },
+          {
+            "key": "e_1_2_9_20_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JRA.1987.1087068"
+          },
+          {
+            "key": "e_1_2_9_21_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lack J. Powell M. J. &Ames A. D.(2014).Planar multi‐contact bipedal walking using hybrid zero dynamics. InIEEE International Conference on Robotics and Automation. IEEE.",
+            "DOI": "10.1109/ICRA.2014.6907229"
+          },
+          {
+            "key": "e_1_2_9_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1997.619332"
+          },
+          {
+            "key": "e_1_2_9_23_1",
+            "first-page": "907",
+            "volume-title": "Proceedings of the IEEE International Conference on Robotics and Automation",
+            "author": "Lovchik C.",
+            "year": "1999"
+          },
+          {
+            "key": "e_1_2_9_24_1",
+            "unstructured": "Meeussen W.(2013).ros_control."
+          },
+          {
+            "key": "e_1_2_9_25_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mehling J. S. Strawser P. Bridgwater L. Verdeyen W. &Rovekamp R.(2007).Centaur: Nasa's mobile humanoid designed for field work. InIEEE International Conference on Robotics and Automation(pp.2928–2933).",
+            "DOI": "10.1109/ROBOT.2007.363916"
+          },
+          {
+            "key": "e_1_2_9_26_1",
+            "volume-title": "Technical report, Department of Computer Science",
+            "author": "Meredith M.",
+            "year": "2004"
+          },
+          {
+            "key": "e_1_2_9_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/18.42210"
+          },
+          {
+            "key": "e_1_2_9_28_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mistry M. Nakanishi J. Cheng G. &Schaal S.(2008).Inverse kinematics with floating base and constraints for full body humanoid robot control. In8th IEEE‐RAS International Conference on Humanoid Robots (pp. 22–27). Look into control techniques. How does using velocity affect the base coordinates? Since it is not iterative maybe incorporating the constraints allows for the true orientation to work its way in.",
+            "DOI": "10.1109/ICHR.2008.4755926"
+          },
+          {
+            "key": "e_1_2_9_29_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Morris B. Powell M. J. &Ames A. D.(2013).Sufficient conditions for the Lipschitz continuity of qp‐based multi‐objective control of humanoid robots. InIEEE 52nd Annual Conference on Decision and Control (CDC) (pp. 2920–2926). IEEE.",
+            "DOI": "10.1109/CDC.2013.6760327"
+          },
+          {
+            "key": "e_1_2_9_30_1",
+            "volume-title": "Advanced robotics: Redundancy and optimization",
+            "author": "Nakamura Y.",
+            "year": "1991"
+          },
+          {
+            "key": "e_1_2_9_31_1",
+            "unstructured": "Office of Management and Budget(2013).Impacts and costs of the October 2013 federal government shutdown.http://www.whitehouse.gov/sites/default/files/omb/reports/impacts‐and‐costs‐of‐october‐2013‐federal‐government‐shutdown‐report.pdf."
+          },
+          {
+            "key": "e_1_2_9_32_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Paine N. Mehling J. S. Holley J. Radford N. Johnson G. Fok C. &Sentis L.(2014).Actuator control for the NASA‐JSC Valkyrie humanoid robot: A decoupled dynamics approach for torque control of series elastic robots.Journal of Field Robotics(submitted).",
+            "DOI": "10.1002/rob.21556"
+          },
+          {
+            "key": "e_1_2_9_33_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "PlattJr R. Abdallah M. E. &Wampler C. W.(2010).Multi‐priority Cartesian impedance control.Robotics and Automation (ICRA) 2011 IEEE International Conference on vol. no. pp. 6033 6038 9–13 May 2011.",
+            "DOI": "10.1109/ICRA.2011.5980228"
+          },
+          {
+            "key": "e_1_2_9_34_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pratt J. Carff J. Drakunov S. &Goswami A.(2006).Capture point: A step toward humanoid push recovery. In6th IEEE‐RAS International Conference on Humanoid Robots (pp. 200–207). IEEE.",
+            "DOI": "10.1109/ICHR.2006.321385"
+          },
+          {
+            "key": "e_1_2_9_35_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Rea R. Beck C. Rovekamp R. Diftler M. &Neuhaus P.(2013).X1: A robotic exoskeleton for in‐space countermeasures and dynamometry.In AIAA SPACE 2013 Conference and Exposition.",
+            "DOI": "10.2514/6.2013-5510"
+          },
+          {
+            "key": "e_1_2_9_36_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Said A. &Pearlman W.(1996).A new fast and efficient image codec based on set partitioning in hierarchical trees. InIEEE Transactions on Circuits and Systems for Video Technology (pp. 243–250). IEEE.",
+            "DOI": "10.1109/76.499834"
+          },
+          {
+            "key": "e_1_2_9_37_1",
+            "volume-title": "The 16th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision'2008",
+            "author": "Schnabel R.",
+            "year": "2008"
+          },
+          {
+            "key": "e_1_2_9_38_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sentis L. &Khatib O.(2005a).Control of free‐floating humanoid robots through task prioritization. InProceedings of the 2005 IEEE International Conference on Robotics and Automation (pp. 1718–1723).",
+            "DOI": "10.1109/ROBOT.2005.1570361"
+          },
+          {
+            "key": "e_1_2_9_39_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/S0219843605000594"
+          },
+          {
+            "key": "e_1_2_9_40_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2010.2043757"
+          },
+          {
+            "key": "e_1_2_9_41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-013-9358-8"
+          },
+          {
+            "key": "e_1_2_9_42_1",
+            "volume-title": "Telerobotics, Automation, and Human Supervisory Control",
+            "author": "Sheridan T. B.",
+            "year": "1992"
+          },
+          {
+            "key": "e_1_2_9_43_1",
+            "volume-title": "Proceedings of the AAAI Spring Symposium on Developmental Robotics",
+            "author": "Stoytchev A.",
+            "year": "2005"
+          },
+          {
+            "key": "e_1_2_9_44_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "ten Pas A. &Platt R.(2014).Localizing grasp affordances in 3‐d points clouds using taubin quadric fitting.In ICRA. IEEE.",
+            "DOI": "10.1007/978-3-319-23778-7_41"
+          },
+          {
+            "key": "e_1_2_9_45_1",
+            "unstructured": "Tevatia G. &Schaal S.(2000).Inverse kinematics for humanoid robots. InProceedings of the International Conference on Robotics and Automation (pp. 294–299)."
+          },
+          {
+            "key": "e_1_2_9_46_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3426611"
+          },
+          {
+            "key": "e_1_2_9_47_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhao Y. Kim D. Fernandez B. &Sentis L.(2013).Phase space planning and robust control for data‐driven locomotion behaviors. In13th IEEE‐RAS International Conference on Humanoid Robots Atlanta.",
+            "DOI": "10.1109/HUMANOIDS.2013.7029959"
+          }
+        ],
+        "container-title": [
+          "Journal of Field Robotics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Frob.21560",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Frob.21560",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21560",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              17
+            ]
+          ],
+          "date-time": "2025-05-17T16:43:38Z",
+          "timestamp": 1747500218000
+        },
+        "score": 58.16908,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/rob.21560"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              23
+            ]
+          ]
+        },
+        "references-count": 46,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2015,
+                5
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1002/rob.21560"
+        ],
+        "URL": "https://doi.org/10.1002/rob.21560",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "1556-4959",
+          "1556-4967"
+        ],
+        "issn-type": [
+          {
+            "value": "1556-4959",
+            "type": "print"
+          },
+          {
+            "value": "1556-4967",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

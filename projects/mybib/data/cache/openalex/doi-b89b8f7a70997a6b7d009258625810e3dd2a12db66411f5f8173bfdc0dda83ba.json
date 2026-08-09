@@ -1,0 +1,281 @@
+{
+  "id": "https://openalex.org/W4206966274",
+  "doi": "https://doi.org/10.5194/wcd-2020-58-rc2",
+  "title": "Wang et al.",
+  "display_name": "Wang et al.",
+  "publication_year": 2021,
+  "publication_date": "2021-01-05",
+  "ids": {
+    "openalex": "https://openalex.org/W4206966274",
+    "doi": "https://doi.org/10.5194/wcd-2020-58-rc2"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.5194/wcd-2020-58-rc2",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+    "pdf_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "type": "peer-review",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+    "any_repository_has_fulltext": null
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.2962334156036377
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.2962334156036377
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5194/wcd-2020-58-rc2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+      "pdf_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "peer-review"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.5194/wcd-2020-58-rc2",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+    "pdf_url": "https://doi.org/10.5194/wcd-2020-58-rc2",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4206966274.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4206966274.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W6209764",
+    "https://openalex.org/W32757476",
+    "https://openalex.org/W29030106",
+    "https://openalex.org/W23728064",
+    "https://openalex.org/W25731210",
+    "https://openalex.org/W12753283",
+    "https://openalex.org/W17732542",
+    "https://openalex.org/W32519568",
+    "https://openalex.org/W28742808",
+    "https://openalex.org/W22526633"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "research": [
+      1
+    ],
+    "presented": [
+      2
+    ],
+    "by": [
+      3
+    ],
+    "Weng": [
+      4
+    ],
+    "et": [
+      5
+    ],
+    "al.": [
+      6
+    ],
+    "deals": [
+      7
+    ],
+    "in": [
+      8,
+      15,
+      33,
+      40
+    ],
+    "detail": [
+      9
+    ],
+    "with": [
+      10
+    ],
+    "winter": [
+      11
+    ],
+    "2016": [
+      12
+    ],
+    "AR": [
+      13
+    ],
+    "event": [
+      14
+    ],
+    "Norway.Although": [
+      16
+    ],
+    "the": [
+      17,
+      46
+    ],
+    "study": [
+      18
+    ],
+    "is": [
+      19,
+      30,
+      48
+    ],
+    "really": [
+      20
+    ],
+    "interesting,": [
+      21
+    ],
+    "some": [
+      22
+    ],
+    "parts": [
+      23,
+      34
+    ],
+    "are": [
+      24
+    ],
+    "a": [
+      25
+    ],
+    "bit": [
+      26
+    ],
+    "hard": [
+      27
+    ],
+    "to": [
+      28
+    ],
+    "read.This": [
+      29
+    ],
+    "especially": [
+      31
+    ],
+    "obvious": [
+      32
+    ],
+    "of": [
+      35,
+      45
+    ],
+    "introduction,": [
+      36
+    ],
+    "but": [
+      37
+    ],
+    "as": [
+      38
+    ],
+    "well": [
+      39
+    ],
+    "discussion.In": [
+      41
+    ],
+    "general,": [
+      42
+    ],
+    "discussion": [
+      43
+    ],
+    "part": [
+      44
+    ],
+    "paper": [
+      47
+    ],
+    "lacking": [
+      49
+    ],
+    "references.": [
+      50
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-01-26T00:00:00"
+}

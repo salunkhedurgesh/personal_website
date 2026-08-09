@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kinematic Design of Redundant Robotic Manipulators for Spatial Positioning that are Optimally Fault Tolerant</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Khaled</forename><forename type="middle">M</forename><surname>Ben-Gharbia</surname></persName>
+							<email>khaled.ben-gharbia@colostate.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">A</forename><surname>Maciejewski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rodney</forename><forename type="middle">G</forename><surname>Roberts</surname></persName>
+							<email>rroberts@eng.fsu.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="institution">Colorado State University</orgName>
+								<address>
+									<postCode>80523-1373</postCode>
+									<settlement>Fort Collins</settlement>
+									<region>CO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical and Computer Engineer- ing</orgName>
+								<orgName type="institution">Florida A&amp;M-Florida State University</orgName>
+								<address>
+									<postCode>32310-6046</postCode>
+									<settlement>Tallahassee</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kinematic Design of Redundant Robotic Manipulators for Spatial Positioning that are Optimally Fault Tolerant</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2F6625BD0F9CFD8F44287AC6C2F58906</idno>
+					<idno type="DOI">10.1109/TRO.2013.2266855</idno>
+					<note type="submission">Authorized licensed use limited to: University of Nantes. Downloaded on April 23,2021 at 15:32:01 UTC from IEEE Xplore. Restrictions apply.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Fault-tolerant robots</term>
+					<term>redundant robots</term>
+					<term>robot kinematics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This work presents a method for identifying all the kinematic designs of spatial positioning manipulators that are optimally fault tolerant in a local sense. We use a common definition of fault tolerance, i.e., the post-failure Jacobian possesses the largest possible minimum singular value over all possible single locked-joint failures. The large family of physical manipulators that can achieve this optimally failure tolerant configuration is then parameterized and categorized. We develop a general computational technique to evaluate the resulting manipulators in terms of their global kinematic properties, with an emphasis on failure tolerance. Several manipulators with a range of desirable kinematic properties are presented and analyzed, with a specific example of optimizing over a given class of manipulators that possess a specified kinematic constraint.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

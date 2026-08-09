@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Inverse Kinematics Algorithm with Smooth Task Switching for Redundant Robots</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Hannes</forename><surname>Gamper</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><forename type="middle">Rodrigo</forename><surname>Pérez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andreas</forename><surname>Mueller</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alejandro</forename><forename type="middle">Díaz</forename><surname>Rosales</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mario</forename><forename type="middle">Di</forename><surname>Castro</surname></persName>
+						</author>
+						<title level="a" type="main">An Inverse Kinematics Algorithm with Smooth Task Switching for Redundant Robots</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9C8101F52DA53C7BEC68B52DE76EADF0</idno>
+					<idno type="DOI">10.1109/LRA.2024.3379860</idno>
+					<note type="submission">This article has been accepted for publication in IEEE Robotics and Automation Letters.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Kinematics</term>
+					<term>Redundant Robots</term>
+					<term>Motion Control</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper presents an inverse kinematics approach that combines two well-known Jacobian based methods, the taskpriority framework and an optimization-based approach, such that tracking and optimization tasks can be executed simultaneously. The novelty of the proposed algorithm lies in the ability to smoothly switch between different tasks and thus to allow for a seamless and safe transition during robot operation. This has shown to improve the efficiency and user experience, especially during tele-operated interventions in complex environments.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

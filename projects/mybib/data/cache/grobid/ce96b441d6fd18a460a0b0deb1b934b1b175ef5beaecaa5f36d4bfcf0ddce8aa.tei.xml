@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimum design of spherical parallel manipulators for a prescribed workspace</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2009-10-21">21 October 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Shaoping</forename><surname>Bai</surname></persName>
+							<email>baishaoping@yahoo.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Aalborg University</orgName>
+								<address>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimum design of spherical parallel manipulators for a prescribed workspace</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2009-10-21">21 October 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6E9BCA1145B53F09FC4BF8912DDDA11F</idno>
+					<idno type="DOI">10.1016/j.mechmachtheory.2009.06.007</idno>
+					<note type="submission">Received 23 July 2007 Received in revised form 18 November 2008 Accepted 28 June 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Spherical parallel manipulator Design space Numerical optimization Workspace analysis Dexterity</keywords>
+			</textClass>
+			<abstract>
+				<p>The optimum design of spherical parallel manipulators (SPM) is studied for a prescribed workspace. A numerical method is developed to find optimal design parameters including link dimensions and architecture parameters for a maximum dexterity. In the method, the objective function is formulated in such a way that the optimal problem is converted to a nonlinear least squares problem, which can be readily solved. Moreover, the problem of design space is addressed. A system of inequalities in terms of link dimensions is derived to describe the design space for feasible SPMs. Examples are included to illustrate the application of the method.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

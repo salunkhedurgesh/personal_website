@@ -1,0 +1,174 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1058815,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              19
+            ]
+          ],
+          "date-time": "2025-09-19T11:13:22Z",
+          "timestamp": 1758280402199
+        },
+        "reference-count": 0,
+        "publisher": "Informa UK Limited",
+        "issue": "6",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "The American Mathematical Monthly"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1994,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1080/00029890.1994.11996998",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2018-04-18T20:31:19Z",
+          "timestamp": 1524083479000
+        },
+        "page": "582-586",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Ideals, Varieties, and Algorithms. By David Cox, John Little"
+        ],
+        "prefix": "10.1080",
+        "volume": "101",
+        "author": [
+          {
+            "given": "Moss",
+            "family": "Sweedler",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics Cornell University Ithaca, NY 14853-7901"
+              }
+            ]
+          }
+        ],
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "The American Mathematical Monthly"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00029890.1994.11996998",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2018-04-18T20:32:06Z",
+          "timestamp": 1524083526000
+        },
+        "score": 44.36705,
+        "resource": {
+          "primary": {
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/00029890.1994.11996998"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1994,
+              6
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "6",
+          "published-online": {
+            "date-parts": [
+              [
+                2018,
+                4,
+                18
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1994,
+                6
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1080/00029890.1994.11996998"
+        ],
+        "URL": "https://doi.org/10.1080/00029890.1994.11996998",
+        "ISSN": [
+          "0002-9890",
+          "1930-0972"
+        ],
+        "issn-type": [
+          {
+            "value": "0002-9890",
+            "type": "print"
+          },
+          {
+            "value": "1930-0972",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1994,
+              6
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

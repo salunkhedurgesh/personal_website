@@ -1,0 +1,244 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 235,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2024-09-10T13:10:24Z",
+          "timestamp": 1725973824641
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 9,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789402410365"
+          },
+          {
+            "type": "electronic",
+            "value": "9789402410365"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2018-01-01T00:00:00Z",
+              "timestamp": 1514764800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-024-1036-5_320-1",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2018-04-21T01:30:51Z",
+          "timestamp": 1524274251000
+        },
+        "page": "1-4",
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Prarthana Samaj"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Mithilesh Kumar",
+            "family": "Jha",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "1",
+            "key": "320-1_CR1",
+            "doi-asserted-by": "crossref",
+            "first-page": "47",
+            "DOI": "10.1080/13688790802616316",
+            "volume": "12",
+            "author": "A Devare",
+            "year": "2009",
+            "unstructured": "Devare A (2009) Historicity meets its limits: M G Ranade and faith-based private/public sphere. Postcolonial Stud 12(1):47–67",
+            "journal-title": "Postcolonial Stud"
+          },
+          {
+            "key": "320-1_CR2",
+            "volume-title": "Modern religious movements in India",
+            "author": "JN Farquhar",
+            "year": "1915",
+            "unstructured": "Farquhar JN (1915) Modern religious movements in India. The Macmillan Company, New York"
+          },
+          {
+            "key": "320-1_CR3",
+            "volume-title": "Ranade: the prophet of liberated India",
+            "author": "DG Karve",
+            "year": "1942",
+            "unstructured": "Karve DG (1942) Ranade: the prophet of liberated India. Aryabhushan Press, Poona"
+          },
+          {
+            "key": "320-1_CR4",
+            "volume-title": "Philosophical trends in modern Maharashtra",
+            "author": "M Lederle",
+            "year": "1976",
+            "unstructured": "Lederle M (1976) Philosophical trends in modern Maharashtra. Pouplar Prakashan, Bombay"
+          },
+          {
+            "key": "320-1_CR5",
+            "volume-title": "Towards nationalism: group affiliations and the politics of public associations in nineteenth century western India",
+            "author": "J Masselos",
+            "year": "1974",
+            "unstructured": "Masselos J (1974) Towards nationalism: group affiliations and the politics of public associations in nineteenth century western India. Popular Prakashan, Bombay"
+          },
+          {
+            "key": "320-1_CR6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9780511563379",
+            "volume-title": "Caste, conflict and ideology: mahatma Jotirao Phule and low caste protest in nineteenth century western India",
+            "author": "R O’hanlon",
+            "year": "1985",
+            "unstructured": "O’hanlon R (1985) Caste, conflict and ideology: mahatma Jotirao Phule and low caste protest in nineteenth century western India. Cambridge University Press, Cambridge"
+          },
+          {
+            "key": "320-1_CR7",
+            "unstructured": "Ramabai P (1889) The peoples of the United States (trans: & ed Meera Kosambi). 2003. Indiana University Press, Bloomington"
+          },
+          {
+            "key": "320-1_CR8",
+            "volume-title": "Teaching: religious and social reforms",
+            "author": "MG Ranade",
+            "year": "1902",
+            "unstructured": "Ranade MG (1902) Teaching: religious and social reforms. Claridge, Bombay"
+          },
+          {
+            "key": "320-1_CR9",
+            "volume-title": "The theistic directory",
+            "author": "VR Shinde",
+            "year": "1912",
+            "unstructured": "Shinde VR (1912) The theistic directory. Prarthana Samaj, Bombay"
+          }
+        ],
+        "container-title": [
+          "Encyclopedia of Indian Religions",
+          "Hinduism and Tribal Religions"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-024-1036-5_320-1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2018-04-21T01:31:03Z",
+          "timestamp": 1524274263000
+        },
+        "score": 21.291286,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-94-024-1036-5_320-1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789402410365",
+          "9789402410365"
+        ],
+        "references-count": 9,
+        "URL": "https://doi.org/10.1007/978-94-024-1036-5_320-1",
+        "ISSN": [
+          "2542-7628",
+          "2542-7636"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2542-7628"
+          },
+          {
+            "type": "electronic",
+            "value": "2542-7636"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

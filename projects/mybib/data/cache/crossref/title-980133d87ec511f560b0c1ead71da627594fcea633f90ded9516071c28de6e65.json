@@ -1,0 +1,228 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 991433,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2025-10-09T21:06:46Z",
+          "timestamp": 1760044006510
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 9,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789401041478"
+          },
+          {
+            "type": "electronic",
+            "value": "9789401103336"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1995
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-011-0333-6_21",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              16
+            ]
+          ],
+          "date-time": "2011-09-16T08:37:52Z",
+          "timestamp": 1316162272000
+        },
+        "page": "203-212",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "Designing a Parallel Manipulator for a Specific Workspace"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "J-P.",
+            "family": "Merlet",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "21_CR1",
+            "first-page": "7",
+            "volume-title": "36th Congress of the IAF",
+            "author": "B Claudinon",
+            "year": "1985",
+            "unstructured": "Claudinon B. and Lievre J. Testfacility for rendez-vous and docking. In 36th Congress of the IAF,pages1-6, Stockholm, October 7–12, 1985."
+          },
+          {
+            "key": "21_CR2",
+            "volume-title": "Ph.D.Thesis, McGill",
+            "author": "C Gosselin",
+            "year": "1988",
+            "unstructured": "Gosselin C. Kinematic analysisoptimization and programming of parallel robotic manipulators.Ph.D.Thesis, McGill University, Montreal, June 15, 1988."
+          },
+          {
+            "issue": "3",
+            "key": "21_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "331",
+            "DOI": "10.1115/1.2912612",
+            "volume": "112",
+            "author": "C Gosselin",
+            "year": "1990",
+            "unstructured": "Gosselin C. Determination of theworkspace of 6-dof parallel manipulators. J. of Mechanical Design,112(3):331–336,September, 1990.",
+            "journal-title": "J. of Mechanical Design"
+          },
+          {
+            "issue": "1",
+            "key": "21_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "35",
+            "DOI": "10.1115/1.3258901",
+            "volume": "110",
+            "author": "C Gosselin",
+            "year": "1988",
+            "unstructured": "Gosselin C. and Angeles J. Theoptimum kinematic design of a planar three-degree-of-freedom parallelmanipulator. J. of Mechanisms, Transmissions and Automation in Design,110(1):35–41,March, 1988.",
+            "journal-title": "J. of Mechanisms, Transmissions and Automation in Design"
+          },
+          {
+            "key": "21_CR5",
+            "first-page": "323",
+            "volume-title": "22nd BiennialMechanisms Conf",
+            "author": "C Gosselin",
+            "year": "1992",
+            "unstructured": "Gosselin C., Lavoie E., and ToutantP. An efficient algorithm for the graphical representation of thethree-dimensional workspace of parallel manipulators. In 22nd BiennialMechanisms Conf.,pages 323–328, Scotsdale, September 13-16, 1992."
+          },
+          {
+            "issue": "2",
+            "key": "21_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "282",
+            "DOI": "10.1109/41.222651",
+            "volume": "40",
+            "author": "K Liu",
+            "year": "1993",
+            "unstructured": "Liu K., Fitzgerald M.K., and LewisF. Kinematic analysis of a Stewart platform manipulator. IEEE Trans. onIndustrial Electronics,40(2):282–293, April, 1993.",
+            "journal-title": "IEEE Trans. onIndustrial Electronics"
+          },
+          {
+            "issue": "8",
+            "key": "21_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "1099",
+            "DOI": "10.1016/0094-114X(94)90002-7",
+            "volume": "29",
+            "author": "JP Merlet",
+            "year": "1994",
+            "unstructured": "Merlet J-P. Détermination de l’espace de travail d’un robot parallele pour uneorientation constante. Mechanism and Machine Theory,29(8): 1099–1113,November, 1994.",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "21_CR8",
+            "volume-title": "Research Report",
+            "author": "JP Merlet",
+            "year": "1995",
+            "unstructured": "Merlet J-P. Designing a parallelrobot for a specific workspace. Research Report 2527, INRIA, April, 1995."
+          },
+          {
+            "key": "21_CR9",
+            "first-page": "73",
+            "volume-title": "ASME Design Automation Conf",
+            "author": "R Stoughton",
+            "year": "1987",
+            "unstructured": "Stoughton R. and Kokkinis T. Someproperties of a new kinematic structure for robot manipulators. In ASMEDesign Automation Conf.,pages 73–79, Boston, June 28, 1987."
+          }
+        ],
+        "container-title": [
+          "Solid Mechanics and Its Applications",
+          "Computational Kinematics ’95"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-011-0333-6_21",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2019-04-06T14:21:52Z",
+          "timestamp": 1554560512000
+        },
+        "score": 32.460976,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-94-011-0333-6_21"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1995
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789401041478",
+          "9789401103336"
+        ],
+        "references-count": 9,
+        "URL": "https://doi.org/10.1007/978-94-011-0333-6_21",
+        "ISSN": [
+          "0925-0042"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0925-0042"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1995
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

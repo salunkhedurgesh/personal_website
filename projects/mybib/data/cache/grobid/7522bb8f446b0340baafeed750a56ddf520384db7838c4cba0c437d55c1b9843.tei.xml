@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">POLYNOMIAL INVERSE KINEMATIC SOLUTION OF THE JACO ROBOT</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Cl</forename><surname>Ément Gosselin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">D épartement de G énie M écanique Universit é Laval</orgName>
+								<address>
+									<addrLine>1065 Avenue de la M édecine Qu ébec</addrLine>
+									<postCode>G1V0A6</postCode>
+									<region>Qc</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hanwei</forename><surname>Liu</surname></persName>
+							<email>hanwei.liu.1@ulaval.ca</email>
+							<affiliation key="aff1">
+								<orgName type="institution">D épartement de G énie M écanique Universit é Laval</orgName>
+								<address>
+									<addrLine>1065 Avenue de la M édecine Qu ébec</addrLine>
+									<postCode>G1V 0A6</postCode>
+									<settlement>Buffalo</settlement>
+									<region>Qc New York</region>
+									<country>Canada USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">POLYNOMIAL INVERSE KINEMATIC SOLUTION OF THE JACO ROBOT</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4C6E8D9B6114BE037BC73FB42A6E4099</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This article presents a polynomial solution to the inverse kinematic problem of the 6R serial Jaco robot. The solution is specifically tailored to the Jaco robot, which is not wristpartitioned. The derivation of the univariate 16-degree polynomial is presented, starting from the direct kinematic equations providing the position and orientation of the end-effector as a function of the joint variables. Upon calculation of the roots of the polynomial, all joint variables are obtained by backsubstitution, leading to a unique set of joint variables for each of the roots. Also, it is shown that for certain configurations, the 16degree polynomial contains only terms of even powers while all terms are not zero in general. Two numerical examples are given to demonstrate the effectiveness of the solution process.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

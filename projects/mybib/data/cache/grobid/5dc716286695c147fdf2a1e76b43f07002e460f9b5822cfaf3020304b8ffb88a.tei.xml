@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the Kinetostatic Optimization of Revolute-Coupled Planar Manipulators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2007-05-08">8 May 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Chablat</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jorge</forename><surname>Angeles</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Communications et Cybernétique de Nantes</orgName>
+								<address>
+									<addrLine>1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Mechanical Engineering, Centre for Intelligent Machines</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>817 Sherbrooke Street West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the Kinetostatic Optimization of Revolute-Coupled Planar Manipulators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2007-05-08">8 May 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">625AB1DCFC2A9CCE2D0FAF720A1FE2C4</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Proposed in this paper is a kinetostatic performance index for the optimum dimensioning of planar manipulators of the serial type. The index is based on the concept of distance of the underlying Jacobian matrix to a given isotropic matrix that is used as a reference model for purposes of performance evaluation. Applications of the index fall in the realm of design, but control applications are outlined. The paper focuses on planar manipulators, the basic concepts being currently extended to their three-dimensional counterparts.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

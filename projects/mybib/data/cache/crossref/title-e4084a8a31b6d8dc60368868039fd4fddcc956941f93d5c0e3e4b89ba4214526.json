@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5554883,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2026-02-28T05:33:03Z",
+          "timestamp": 1772256783078,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Copernicus GmbH",
+        "content-domain": {
+          "domain": []
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              14
+            ]
+          ]
+        },
+        "DOI": "10.5194/acp-2016-349-rc3",
+        "type": "peer-review",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              31
+            ]
+          ],
+          "date-time": "2016-07-31T13:56:17Z",
+          "timestamp": 1469973377000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Review  Xu et al., 2016"
+        ],
+        "prefix": "10.5194",
+        "member": "3145",
+        "review": {
+          "type": "referee-report",
+          "running-number": "RC3",
+          "stage": "pre-publication",
+          "recommendation": "major-revision",
+          "language": "en"
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              8
+            ]
+          ],
+          "date-time": "2025-02-08T21:30:23Z",
+          "timestamp": 1739050223000
+        },
+        "score": 35.726055,
+        "resource": {
+          "primary": {
+            "URL": "https://acp.copernicus.org/preprints/acp-2016-349/acp-2016-349-RC3.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              14
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5194/acp-2016-349-rc3",
+        "relation": {
+          "is-review-of": [
+            {
+              "id-type": "doi",
+              "id": "10.5194/acp-17-3385-2017",
+              "asserted-by": "subject"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/acp-17-3385-2017",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/acp-2016-349",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              14
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

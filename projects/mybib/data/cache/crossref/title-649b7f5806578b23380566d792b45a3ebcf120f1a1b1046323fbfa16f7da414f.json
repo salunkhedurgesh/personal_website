@@ -1,0 +1,493 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4973131,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2026-04-13T23:36:46Z",
+          "timestamp": 1776123406579,
+          "version": "3.50.1"
+        },
+        "reference-count": 31,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2012,
+                  3,
+                  23
+                ]
+              ],
+              "date-time": "2012-03-23T00:00:00Z",
+              "timestamp": 1332460800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Auton Robot"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10514-012-9287-y",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              23
+            ]
+          ],
+          "date-time": "2012-03-23T11:50:14Z",
+          "timestamp": 1332503414000
+        },
+        "page": "433-454",
+        "source": "Crossref",
+        "is-referenced-by-count": 232,
+        "title": [
+          "A dynamical system approach to realtime obstacle avoidance"
+        ],
+        "prefix": "10.1007",
+        "volume": "32",
+        "author": [
+          {
+            "given": "Seyed Mohammad",
+            "family": "Khansari-Zadeh",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Aude",
+            "family": "Billard",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "9287_CR1",
+            "first-page": "2755",
+            "volume-title": "IEEE int. conf. on robotics and automation",
+            "author": "M. Barbehenn",
+            "year": "1994",
+            "unstructured": "Barbehenn, M., Chen, P. C., & Hutchinson, S. (1994). An efficient hybrid planner in changing environments. In IEEE int. conf. on robotics and automation (Vol. 4, pp. 2755–2760)."
+          },
+          {
+            "key": "9287_CR2",
+            "first-page": "483",
+            "volume-title": "Proc. IEEE int. conf. on robotics and automation",
+            "author": "M. Benallegue",
+            "year": "2009",
+            "unstructured": "Benallegue, M., Escande, A., Miossec, S., & Kheddar, A. (2009). Fast C1 proximity queries using support mapping of sphere-torus-patches bounding volumes. In Proc. IEEE int. conf. on robotics and automation (pp. 483–488)."
+          },
+          {
+            "key": "9287_CR3",
+            "doi-asserted-by": "crossref",
+            "first-page": "278",
+            "DOI": "10.1109/70.88137",
+            "volume": "7",
+            "author": "J. Borenstein",
+            "year": "1991",
+            "unstructured": "Borenstein, J., & Koren, Y. (1991). The vector field histogram—fast obstacle avoidance for mobile robots. IEEE Transactions on Robotics and Automation, 7, 278–288.",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "issue": "12",
+            "key": "9287_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "1031",
+            "DOI": "10.1177/0278364902021012002",
+            "volume": "21",
+            "author": "O. Brock",
+            "year": "2002",
+            "unstructured": "Brock, O., & Khatib, O. (2002). Elastic strips: A framework for motion generation in human environments. The International Journal of Robotics Research, 21(12), 1031–1052.",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "key": "9287_CR5",
+            "volume-title": "Proc. of robotics: science and systems",
+            "author": "B. Burns",
+            "year": "2005",
+            "unstructured": "Burns, B., & Brock, O. (2005). Toward optimal configuration space sampling. In Proc. of robotics: science and systems."
+          },
+          {
+            "key": "9287_CR6",
+            "first-page": "1",
+            "volume-title": "Proc. of IEEE/RSJ int. conf. on robots and systems (IROS)",
+            "author": "R. Diankov",
+            "year": "2007",
+            "unstructured": "Diankov, R., & Kuffner, J. (2007). Randomized statistical path planning. In Proc. of IEEE/RSJ int. conf. on robots and systems (IROS) (pp. 1–6)."
+          },
+          {
+            "key": "9287_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "874",
+            "DOI": "10.1109/ROBOT.1997.620144",
+            "volume-title": "Proc. of IEEE int. conf. on robotics and automation (ICRA)",
+            "author": "H. J. S. Feder",
+            "year": "1997",
+            "unstructured": "Feder, H. J. S., & Slotine, J.-J. E. (1997). Real-time path planning using harmonic potentials in dynamic environments. In Proc. of IEEE int. conf. on robotics and automation (ICRA) (Vol. 1, pp. 874–881)."
+          },
+          {
+            "key": "9287_CR8",
+            "first-page": "1028",
+            "volume-title": "Proc. of the IEEE int. conf. on advanced robotics",
+            "author": "T. Fraichard",
+            "year": "1991",
+            "unstructured": "Fraichard, T., Hassoun, M., & Laugier, C. (1991). Reactive motion planning in a dynamic world. In Proc. of the IEEE int. conf. on advanced robotics (pp. 1028–1032)."
+          },
+          {
+            "key": "9287_CR9",
+            "first-page": "2587",
+            "volume-title": "Proc. of int. conf. on robotics and automation",
+            "author": "H. Hoffmann",
+            "year": "2009",
+            "unstructured": "Hoffmann, H., Pastor, P., Park, D.-H., & Schaal, S. (2009). Biologically-inspired dynamical systems for movement generation: automatic real-time goal adaptation and obstacle avoidance. In Proc. of int. conf. on robotics and automation (pp. 2587–2592)."
+          },
+          {
+            "key": "9287_CR10",
+            "first-page": "580",
+            "volume-title": "Proc. of the IEEE int. conf. on intelligent robots and systems (IROS)",
+            "author": "I. Iossifidis",
+            "year": "2006",
+            "unstructured": "Iossifidis, I., & Schöner, G. (2006). Dynamical systems approach for the autonomous avoidance of obstacles and joint-limits for a redundant robot arm. In Proc. of the IEEE int. conf. on intelligent robots and systems (IROS) (pp. 580–585)."
+          },
+          {
+            "issue": "4",
+            "key": "9287_CR11",
+            "doi-asserted-by": "crossref",
+            "first-page": "566",
+            "DOI": "10.1109/70.508439",
+            "volume": "12",
+            "author": "L. E. Kavraki",
+            "year": "1996",
+            "unstructured": "Kavraki, L. E., Svestka, P., Latombe, J.-C., & Overmars, M. H. (1996). Probabilistic roadmaps for path planning in high-dimensional configuration spaces. IEEE Transactions on Robotics and Automation, 12(4), 566–580.",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "issue": "5",
+            "key": "9287_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "943",
+            "DOI": "10.1109/TRO.2011.2159412",
+            "volume": "27",
+            "author": "S. M. Khansari-Zadeh",
+            "year": "2011",
+            "unstructured": "Khansari-Zadeh, S. M., & Billard, A. (2011). Learning stable nonlinear dynamical systems with Gaussian mixture models. IEEE Transactions on Robotics, 27(5), 943–957. ISSN 1552-3098. doi: 10.1109/TRO.2011.2159412 .",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "key": "9287_CR13",
+            "doi-asserted-by": "crossref",
+            "first-page": "90",
+            "DOI": "10.1177/027836498600500106",
+            "volume": "5",
+            "author": "O. Khatib",
+            "year": "1986",
+            "unstructured": "Khatib, O. (1986). Real-time obstacle avoidance for manipulators and mobile robots. The International Journal of Robotics Research, 5, 90–98.",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "3",
+            "key": "9287_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "338",
+            "DOI": "10.1109/70.143352",
+            "volume": "8",
+            "author": "J.-O. Kim",
+            "year": "1992",
+            "unstructured": "Kim, J.-O., & Khosla, P. K. (1992). Real-time obstacle avoidance using harmonic potential functions. IEEE Transactions on Robotics and Automation, 8(3), 338–349.",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "key": "9287_CR15",
+            "first-page": "995",
+            "volume-title": "Proc. of IEEE int. conf. on robotics and automation",
+            "author": "J. J. Kuffner",
+            "year": "2000",
+            "unstructured": "Kuffner, J. J., & LaValle, S. M. (2000). RRT-connect: An efficient approach to single-query path planning. In Proc. of IEEE int. conf. on robotics and automation (Vol. 2, pp. 995–1001)."
+          },
+          {
+            "issue": "10",
+            "key": "9287_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "2333",
+            "DOI": "10.1118/1.1312808",
+            "volume": "27",
+            "author": "M. Lahanas",
+            "year": "2000",
+            "unstructured": "Lahanas, M., Kemmerer, T., Milickovic, N., Karouzakis, K., Baltas, D., & Zamboglou, N. (2000). Optimized bounding boxes for three-dimensional treatment planning in brachytherapy. Medical Physics, 27(10), 2333–2342.",
+            "journal-title": "Medical Physics"
+          },
+          {
+            "key": "9287_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "108",
+            "DOI": "10.1109/TC.1983.1676196",
+            "volume": "30",
+            "author": "T. Lozano-Perez",
+            "year": "1983",
+            "unstructured": "Lozano-Perez, T. (1983). Spatial planning: A configuration space approach. IEEE Transactions on Computers, 30, 108–120.",
+            "journal-title": "IEEE Transactions on Computers"
+          },
+          {
+            "key": "9287_CR18",
+            "doi-asserted-by": "crossref",
+            "first-page": "1058",
+            "DOI": "10.1109/21.59969",
+            "volume": "20",
+            "author": "V. Lumelsky",
+            "year": "1990",
+            "unstructured": "Lumelsky, V., & Skewis, T. (1990). Incorporating range sensing in the robot navigation function. IEEE Transactions on Systems, Man, and Cybernetics, 20, 1058–1069.",
+            "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics"
+          },
+          {
+            "key": "9287_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "109",
+            "DOI": "10.1177/027836498500400308",
+            "volume": "4",
+            "author": "A. A. Maciejewski",
+            "year": "1985",
+            "unstructured": "Maciejewski, A. A., & Klein, C. A. (1985). Obstacle avoidance for kinematically redundant manipulators in dynamically varying environments. The International Journal of Robotics Research, 4, 109–116.",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "key": "9287_CR20",
+            "volume-title": "Theoretical hydrodynamics",
+            "author": "L. M. Milne-Thomson",
+            "year": "1960",
+            "unstructured": "Milne-Thomson, L. M. (1960). Theoretical hydrodynamics (4th edn.) London: Macmillan.",
+            "edition": "4"
+          },
+          {
+            "key": "9287_CR21",
+            "first-page": "91",
+            "volume-title": "Proc. of the IEEE int. conf. on humanoid robotics",
+            "author": "D.-H. Park",
+            "year": "2008",
+            "unstructured": "Park, D.-H., Hoffmann, H., Pastor, P., & Schaal, S. (2008). Movement reproduction and obstacle avoidance with dynamic movement primitives and potential fields. In Proc. of the IEEE int. conf. on humanoid robotics (pp. 91–98)."
+          },
+          {
+            "key": "9287_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "802",
+            "DOI": "10.1109/ROBOT.1993.291936",
+            "volume-title": "Proc. of the IEEE int. conf. on robotics and automation (ICRA)",
+            "author": "S. Quinlan",
+            "year": "1993",
+            "unstructured": "Quinlan, S., & Khatib, O. (1993). Elastic bands: connecting path planning and control. In Proc. of the IEEE int. conf. on robotics and automation (ICRA) (Vol. 2, pp. 802–807)."
+          },
+          {
+            "key": "9287_CR23",
+            "volume-title": "Shape modeling international",
+            "author": "Ph. Shilane",
+            "year": "2004",
+            "unstructured": "Shilane, Ph., Min, P., Kazhdan, M., & Funkhouser, Th. (2004). The Princeton shape benchmark. In Shape modeling international, Italy."
+          },
+          {
+            "key": "9287_CR24",
+            "doi-asserted-by": "crossref",
+            "first-page": "3375",
+            "DOI": "10.1109/ROBOT.1996.511023",
+            "volume-title": "Proc. of the IEEE int. conf. on robotics and automation",
+            "author": "R. Simmons",
+            "year": "1996",
+            "unstructured": "Simmons, R. (1996). The curvature-velocity method for local obstacle avoidance. In Proc. of the IEEE int. conf. on robotics and automation (Vol. 4, pp. 3375–3382)."
+          },
+          {
+            "key": "9287_CR25",
+            "first-page": "72",
+            "volume-title": "Proc. of IEEE int. conf. on robotics and automation (ICRA)",
+            "author": "Ch. Sprunk",
+            "year": "2011",
+            "unstructured": "Sprunk, Ch., Lau, B., Pfaffz, P., & Burgard, W. (2011). Online generation of kinodynamic trajectories for non-circular omnidirectional robots. In Proc. of IEEE int. conf. on robotics and automation (ICRA) (pp. 72–77)."
+          },
+          {
+            "key": "9287_CR26",
+            "first-page": "1049",
+            "volume-title": "25th int. conf. on machine learning (ICML)",
+            "author": "M. Toussaint",
+            "year": "2009",
+            "unstructured": "Toussaint, M. (2009). Robot trajectory optimization using approximate inference. In 25th int. conf. on machine learning (ICML) (pp. 1049–1056)."
+          },
+          {
+            "key": "9287_CR27",
+            "doi-asserted-by": "crossref",
+            "first-page": "1199",
+            "DOI": "10.1109/TRO.2008.2003277",
+            "volume": "24",
+            "author": "J. Vannoy",
+            "year": "2008",
+            "unstructured": "Vannoy, J., & Xiao, J. (2008). Real-time adaptive motion planning (ramp) of mobile manipulators in dynamic environments with unforeseen changes. IEEE Transactions on Robotics, 24, 1199–1212.",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "key": "9287_CR28",
+            "first-page": "2484",
+            "volume-title": "Proc. of the IEEE int. conf. on the robotics and automation (ICRA)",
+            "author": "S. Waydo",
+            "year": "2003",
+            "unstructured": "Waydo, S., & Murray, R. M. (2003). Vehicle motion planning using stream functions. In Proc. of the IEEE int. conf. on the robotics and automation (ICRA) (Vol. 2, pp. 2484–2491)."
+          },
+          {
+            "key": "9287_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "359",
+            "DOI": "10.1007/BFb0038202",
+            "volume-title": "New results and new trends in computer science",
+            "author": "E. Welzl",
+            "year": "1991",
+            "unstructured": "Welzl, E. (1991). Smallest enclosing disks (balls and ellipsoids). In H. Maurer (Ed.), New results and new trends in computer science (Vol. 555, pp. 359–370). Berlin/Heidelberg: Springer."
+          },
+          {
+            "key": "9287_CR30",
+            "volume-title": "Proc. robotics: science and systems",
+            "author": "Y. Yang",
+            "year": "2007",
+            "unstructured": "Yang, Y., & Brock, O. (2007). Elastic roadmaps: Globally task-consistent motion for autonomous mobile manipulation in dynamic environments. In Proc. robotics: science and systems."
+          },
+          {
+            "key": "9287_CR31",
+            "first-page": "5457",
+            "volume-title": "Proc. IEEE int. conf. on robotics and automation",
+            "author": "E. Yoshida",
+            "year": "2011",
+            "unstructured": "Yoshida, E., & Kanehiro, F. (2011). Reactive robot motion using path replanning and deformation. In Proc. IEEE int. conf. on robotics and automation (pp. 5457–5462)."
+          }
+        ],
+        "container-title": [
+          "Autonomous Robots"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10514-012-9287-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s10514-012-9287-y/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10514-012-9287-y",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              29
+            ]
+          ],
+          "date-time": "2019-05-29T19:15:59Z",
+          "timestamp": 1559157359000
+        },
+        "score": 40.699127,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s10514-012-9287-y"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              23
+            ]
+          ]
+        },
+        "references-count": 31,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2012,
+                5
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "9287"
+        ],
+        "URL": "https://doi.org/10.1007/s10514-012-9287-y",
+        "ISSN": [
+          "0929-5593",
+          "1573-7527"
+        ],
+        "issn-type": [
+          {
+            "value": "0929-5593",
+            "type": "print"
+          },
+          {
+            "value": "1573-7527",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

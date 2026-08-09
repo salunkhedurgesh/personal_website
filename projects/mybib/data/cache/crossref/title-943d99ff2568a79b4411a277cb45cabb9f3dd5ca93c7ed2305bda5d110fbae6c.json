@@ -1,0 +1,3460 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4870886,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2026-05-05T01:30:31Z",
+          "timestamp": 1777944631452,
+          "version": "3.51.4"
+        },
+        "reference-count": 288,
+        "publisher": "Elsevier BV",
+        "issue": "9993",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2015-08-01T00:00:00Z",
+              "timestamp": 1438387200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2015-08-01T00:00:00Z",
+              "timestamp": 1438387200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  2,
+                  9
+                ]
+              ],
+              "date-time": "2016-02-09T00:00:00Z",
+              "timestamp": 1454976000000
+            },
+            "content-version": "am",
+            "delay-in-days": 192,
+            "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100003748",
+            "name": "Swedish Society for Medical Research",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100003748",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Swedish Society of Medicine"
+          },
+          {
+            "name": "Ethicon"
+          },
+          {
+            "DOI": "10.13039/501100000834",
+            "name": "Association of Anaesthetists of Great Britain and Ireland",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100000834",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Babson College"
+          },
+          {
+            "DOI": "10.13039/100000865",
+            "name": "Bill & Melinda Gates Foundation",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000865",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100006823",
+            "name": "Boston Children's Hospital",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100006823",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Dubai Harvard Foundation for Medical Research"
+          },
+          {
+            "DOI": "10.13039/501100001807",
+            "name": "FAPESP Fundacao de Amparo a Pesquisa de Sao Paolo",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100001807",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100007300",
+            "name": "Harvard Business School",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100007300",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Harvard Medical School Center for Global Health Delivery-Dubai"
+          },
+          {
+            "DOI": "10.13039/100006691",
+            "name": "Harvard Medical School Department of Global Health and Social Medicine",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100006691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100005807",
+            "name": "Indian Institute of Management Bangalore",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100005807",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100000764",
+            "name": "King's College London",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100000764",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100003252",
+            "name": "Lund University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100003252",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Melbourne Business School"
+          },
+          {
+            "DOI": "10.13039/100000054",
+            "name": "National Cancer Institute",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000054",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Operation Smile"
+          },
+          {
+            "name": "Pershing Square"
+          },
+          {
+            "name": "Steven C. and Carmella R. Kletjian Foundation, Inc."
+          },
+          {
+            "name": "Royal College of Surgeons in Ireland"
+          },
+          {
+            "DOI": "10.13039/501100000692",
+            "name": "The Royal College of Surgeons of Edinburgh",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100000692",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100000877",
+            "name": "The Rockefeller Foundation",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000877",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100008193",
+            "name": "University of Virgina Darden School of Business",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100008193",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "clinicalkey.com",
+            "clinicalkey.com.au",
+            "clinicalkey.es",
+            "clinicalkey.fr",
+            "clinicalkey.jp",
+            "em-consulte.com",
+            "thelancet.com",
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "The Lancet"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0140-6736(15)60160-x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2015-04-26T19:45:16Z",
+          "timestamp": 1430077516000
+        },
+        "page": "569-624",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 2906,
+        "title": [
+          "Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development"
+        ],
+        "prefix": "10.1016",
+        "volume": "386",
+        "author": [
+          {
+            "given": "John G",
+            "family": "Meara",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Andrew J M",
+            "family": "Leather",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Lars",
+            "family": "Hagander",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Blake C",
+            "family": "Alkire",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nivaldo",
+            "family": "Alonso",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Emmanuel A",
+            "family": "Ameh",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stephen W",
+            "family": "Bickler",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Lesong",
+            "family": "Conteh",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Anna J",
+            "family": "Dare",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Justine",
+            "family": "Davies",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Eunice Dérivois",
+            "family": "Mérisier",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Shenaaz",
+            "family": "El-Halabi",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Paul E",
+            "family": "Farmer",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Atul",
+            "family": "Gawande",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Rowan",
+            "family": "Gillies",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Sarah L M",
+            "family": "Greenberg",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Caris E",
+            "family": "Grimes",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Russell L",
+            "family": "Gruen",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Edna Adan",
+            "family": "Ismail",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Thaim Buya",
+            "family": "Kamara",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Chris",
+            "family": "Lavy",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ganbold",
+            "family": "Lundeg",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nyengo C",
+            "family": "Mkandawire",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nakul P",
+            "family": "Raykar",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Johanna N",
+            "family": "Riesel",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Edgar",
+            "family": "Rodas",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "John",
+            "family": "Rose",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nobhojit",
+            "family": "Roy",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Mark G",
+            "family": "Shrime",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Richard",
+            "family": "Sullivan",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stéphane",
+            "family": "Verguet",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "David",
+            "family": "Watters",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Thomas G",
+            "family": "Weiser",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Iain H",
+            "family": "Wilson",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Gavin",
+            "family": "Yamey",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Winnie",
+            "family": "Yip",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib1",
+            "author": "Kim"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "S8",
+            "DOI": "10.1016/S2214-109X(14)70384-5",
+            "article-title": "Global burden of surgical disease: an estimation from the provider perspective",
+            "volume": "3",
+            "author": "Shrime",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "2095",
+            "DOI": "10.1016/S0140-6736(12)61728-0",
+            "article-title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+            "volume": "380",
+            "author": "Lozano",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib4",
+            "series-title": "Disease control priorities, 3rd edn, vol 1. Essential surgery",
+            "first-page": "9",
+            "article-title": "Global burden of surgical conditions",
+            "author": "Bickler",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib5",
+            "first-page": "2006",
+            "article-title": "Surgery",
+            "author": "Debas",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "1470",
+            "DOI": "10.1007/s00268-012-1732-8",
+            "article-title": "Disparities in access to surgical care within a lower income country: an alarming inequity",
+            "volume": "37",
+            "author": "Zafar",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "S11",
+            "DOI": "10.1016/S0140-6736(15)60806-6",
+            "article-title": "Estimate of the global volume of surgery in 2012: an assessment supporting improved health outcomes",
+            "volume": "385",
+            "author": "Weiser",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "1055",
+            "DOI": "10.1016/S0140-6736(10)60392-3",
+            "article-title": "Global operating theatre distribution and pulse oximetry supply: an estimation from reported data",
+            "volume": "376",
+            "author": "Funk",
+            "year": "2010",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "e89693",
+            "DOI": "10.1371/journal.pone.0089693",
+            "article-title": "The role of surgery in global health: analysis of United States inpatient procedure frequency by condition using the Global Burden of Disease 2010 framework",
+            "volume": "9",
+            "author": "Rose",
+            "year": "2014",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "2197",
+            "DOI": "10.1016/S0140-6736(12)61689-4",
+            "article-title": "Disability-adjusted life years (DALYs) for 291 diseases and injuries in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+            "volume": "380",
+            "author": "Murray",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "374",
+            "DOI": "10.1007/s00268-009-0261-6",
+            "article-title": "Key concepts for estimating the burden of surgical conditions and the unmet need for surgical care",
+            "volume": "34",
+            "author": "Bickler",
+            "year": "2010",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "12",
+            "DOI": "10.1016/S0140-6736(13)62345-4",
+            "article-title": "Surgery and global health: a Lancet Commission",
+            "volume": "383",
+            "author": "Meara",
+            "year": "2014",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "2245",
+            "DOI": "10.1016/S0140-6736(14)60237-3",
+            "article-title": "Global surgery: defining an emerging global health field",
+            "volume": "384",
+            "author": "Dare",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1001006",
+            "DOI": "10.1371/journal.pmed.1001006",
+            "article-title": "The imperfect world of global health estimates",
+            "volume": "7",
+            "author": "Byass",
+            "year": "2010",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1001477",
+            "DOI": "10.1371/journal.pmed.1001477",
+            "article-title": "Reflections on the global burden of disease 2010 estimates",
+            "volume": "10",
+            "author": "Byass",
+            "year": "2013",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib16",
+            "first-page": "171",
+            "article-title": "Counting the dead and what they died from: an assessment of the global status of cause of death data",
+            "volume": "83",
+            "author": "Mathers",
+            "year": "2005",
+            "journal-title": "Bull World Health Organ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "1569",
+            "DOI": "10.1016/S0140-6736(07)61307-5",
+            "article-title": "A scandal of invisibility: making everyone count by counting everyone",
+            "volume": "370",
+            "author": "Setel",
+            "year": "2007",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "1726",
+            "DOI": "10.1016/S0140-6736(07)61309-9",
+            "article-title": "Interim measures for meeting needs for health sector data: births, deaths, and causes of death",
+            "volume": "370",
+            "author": "Hill",
+            "year": "2007",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "2060",
+            "DOI": "10.1016/S0140-6736(12)62121-7",
+            "article-title": "Should the GBD risk factor rankings be used to guide policy?",
+            "volume": "380",
+            "author": "Watts",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib23",
+            "series-title": "Monitoring emergency obstetric care—a handbook",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib24",
+            "unstructured": "Dare AJ, Anderson BO, Sullivan RS, et al. Surgical services for cancer cure. In: Disease control priorities, 3rd edn. Cancer. Washington, DC: World Bank (in press)."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib25",
+            "unstructured": "Alkire BC, Raykar NP, Shrime MG, et-al. Global access to surgical care: a modelling exercise. Lancet Global Health (in press)."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib26",
+            "series-title": "Global status report on road safety 2013: supporting a decade of action",
+            "year": "2013"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "S13",
+            "DOI": "10.1016/S2214-109X(15)70087-2",
+            "article-title": "Estimated need for surgery worldwide based on prevalence of diseases: a modelling study",
+            "volume": "3",
+            "author": "Rose",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "S38",
+            "DOI": "10.1016/S2214-109X(15)70085-9",
+            "article-title": "Catastrophic expenditure to pay for surgery: a modelling study",
+            "volume": "3",
+            "author": "Shrime",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib29",
+            "doi-asserted-by": "crossref",
+            "first-page": "2063",
+            "DOI": "10.1016/S0140-6736(12)61899-6",
+            "article-title": "GBD 2010: design, definitions, and metrics",
+            "volume": "380",
+            "author": "Murray",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib30",
+            "doi-asserted-by": "crossref",
+            "first-page": "208",
+            "DOI": "10.1016/j.ijgo.2004.09.027",
+            "article-title": "Availability and use of emergency obstetric services: Kenya, Rwanda, Southern Sudan, and Uganda",
+            "volume": "88",
+            "author": "Pearson",
+            "year": "2005",
+            "journal-title": "Int J Gynaecol Obstet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "183",
+            "DOI": "10.1111/1471-0528.13230",
+            "article-title": "The global met need for emergency obstetric care: a systematic review",
+            "volume": "122",
+            "author": "Holmer",
+            "year": "2015",
+            "journal-title": "BJOG"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1038/sj.bjc.6604435",
+            "article-title": "Cancer of the breast: 5-year survival in a tertiary hospital in Uganda",
+            "volume": "99",
+            "author": "Gakwaya",
+            "year": "2008",
+            "journal-title": "Br J Cancer"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "545",
+            "DOI": "10.1177/000313480907500703",
+            "article-title": "Patterns of breast cancer presentation in the United States: does geography matter?",
+            "volume": "75",
+            "author": "Sariego",
+            "year": "2009",
+            "journal-title": "Am Surg"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib34",
+            "doi-asserted-by": "crossref",
+            "first-page": "S32",
+            "DOI": "10.1016/S0140-6736(15)60827-3",
+            "article-title": "Deaths from acute abdominal conditions and geographic access to surgical care in India: a nationally representative population-based spatial analysis",
+            "volume": "385",
+            "author": "Ng-Kamstra",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib35",
+            "unstructured": "Hider P, Wilson L, Rose J, Weiser TG, Gruen R, Bickler SW. The role of facility-based surgical services in addressing the national burden of disease in New Zealand: an index of procedure frequency based on country-specific disease prevalence. Surgery (in press)."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib36",
+            "unstructured": "Shrime MG DK, Daniels K, Meara JGM. Half a billion surgical cases: aligning surgical delivery with best-performing health systems. Surgery (in press)."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib39",
+            "series-title": "Monitoring progress towards universal health coverage at country and global levels. May, 2014",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib40",
+            "series-title": "Everybody's business: strengthening health systems to improve health outcomes. WHO's framework for action, 2007",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib41",
+            "series-title": "Towards universal health care coverage: a goal-oriented framework for policy analysis",
+            "author": "Kutzin",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "179",
+            "DOI": "10.1016/S0140-6736(13)60062-8",
+            "article-title": "Universal health coverage: the post-2015 development agenda",
+            "volume": "381",
+            "author": "Vega",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib43",
+            "doi-asserted-by": "crossref",
+            "first-page": "921",
+            "DOI": "10.1377/hlthaff.26.4.921",
+            "article-title": "Financing global health: mission unaccomplished",
+            "volume": "26",
+            "author": "Scheiber",
+            "year": "2007",
+            "journal-title": "Health Aff"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib44",
+            "doi-asserted-by": "crossref",
+            "first-page": "111",
+            "DOI": "10.1016/S0140-6736(03)13861-5",
+            "article-title": "Household catastrophic health expenditure: a multicountry analysis",
+            "volume": "362",
+            "author": "Xu",
+            "year": "2003",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib45",
+            "doi-asserted-by": "crossref",
+            "first-page": "1357",
+            "DOI": "10.1016/S0140-6736(06)69560-3",
+            "article-title": "Effect of payments for health care on poverty estimates in 11 countries in Asia: an analysis of household survey data",
+            "volume": "368",
+            "author": "van Doorslaer",
+            "year": "2006",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib46",
+            "doi-asserted-by": "crossref",
+            "first-page": "421",
+            "DOI": "10.1007/s40258-014-0100-2",
+            "article-title": "Disease-specific impoverishment impact of out-of-pocket payments for health care: evidence from rural Bangladesh",
+            "volume": "12",
+            "author": "Hamid",
+            "year": "2014",
+            "journal-title": "Appl Health Econ Health Policy"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib47",
+            "unstructured": "Jan S, Kimman M, Peters SA, Woodward M. Socioeconomic consequences of surgery for cancer in South-East Asia: results from the ACTION Study. Surgery (in press)."
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib48",
+            "doi-asserted-by": "crossref",
+            "first-page": "S28",
+            "DOI": "10.1016/S2214-109X(15)70086-0",
+            "article-title": "Timing and cost of scaling up surgical services in low-income and middle-income countries from 2012 to 2030: a modelling study",
+            "volume": "3",
+            "author": "Verguet",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib49",
+            "doi-asserted-by": "crossref",
+            "first-page": "1492",
+            "DOI": "10.1007/s00268-012-1763-1",
+            "article-title": "Improving surgical care in Mongolia: a model for sustainable development",
+            "volume": "37",
+            "author": "Price",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib50",
+            "unstructured": "Esquivel MM, Molina G, Uribe-Leitz T, et al. Proposed minimum rates of surgery to support desirable health outcomes: an observational study based on four strategies. World J Surg (in press)."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib51",
+            "doi-asserted-by": "crossref",
+            "first-page": "151",
+            "DOI": "10.1093/heapol/czs143",
+            "article-title": "Estimates of performance in the rate of decline of under-five mortality for 113 low- and middle-income countries, 1970–2010",
+            "volume": "29",
+            "author": "Verguet",
+            "year": "2014",
+            "journal-title": "Health Policy Plan"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib52",
+            "doi-asserted-by": "crossref",
+            "first-page": "e698",
+            "DOI": "10.1016/S2214-109X(14)70316-X",
+            "article-title": "Annual rates of decline in child, maternal, HIV, and tuberculosis mortality across 109 countries of low and middle income from 1990 to 2013: an assessment of the feasibility of post-2015 goals",
+            "volume": "2",
+            "author": "Verguet",
+            "year": "2014",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib53",
+            "doi-asserted-by": "crossref",
+            "first-page": "e334",
+            "DOI": "10.1016/S2214-109X(14)70213-X",
+            "article-title": "Cost-effectiveness of surgery and its policy implications for global health: a systematic review and analysis",
+            "volume": "2",
+            "author": "Chao",
+            "year": "2014",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib54",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/S0140-6736(15)60091-5",
+            "article-title": "Essential surgery: key messages from Disease Control Priorities, 3rd edition",
+            "author": "Mock",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib55",
+            "series-title": "The global economic burden of noncommunicable diseases",
+            "author": "Bloom",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib56",
+            "doi-asserted-by": "crossref",
+            "first-page": "1898",
+            "DOI": "10.1016/S0140-6736(13)62105-4",
+            "article-title": "Global health 2035: a world converging within a generation",
+            "volume": "382",
+            "author": "Jamison",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib57",
+            "doi-asserted-by": "crossref",
+            "first-page": "S21",
+            "DOI": "10.1016/S2214-109X(15)70088-4",
+            "article-title": "Global economic consequences of selected surgical diseases: a modelling study",
+            "volume": "3",
+            "author": "Alkire",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib58",
+            "doi-asserted-by": "crossref",
+            "first-page": "S33",
+            "DOI": "10.1016/S0140-6736(15)60828-5",
+            "article-title": "Avoidable maternal and neonatal deaths associated with improving access to caesarean delivery in countries with low caesarean delivery rates: an ecological modelling analysis",
+            "volume": "385",
+            "author": "Molina",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib59",
+            "doi-asserted-by": "crossref",
+            "first-page": "239",
+            "DOI": "10.1016/S0140-6736(14)61591-9",
+            "article-title": "Avoiding 40% of the premature deaths in each country, 2010–30: review of national mortality trends to help quantify the UN Sustainable Development Goal for health",
+            "volume": "385",
+            "author": "Norheim",
+            "year": "2014",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib60",
+            "author": "Mahler"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib61",
+            "series-title": "Copenhagen Consensus 2008—Results",
+            "year": "2008"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib62",
+            "doi-asserted-by": "crossref",
+            "first-page": "e182",
+            "DOI": "10.1371/journal.pmed.0050182",
+            "article-title": "A crucial role for surgery in reaching the UN Millennium Development Goals",
+            "volume": "5",
+            "year": "2008",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib63",
+            "doi-asserted-by": "crossref",
+            "first-page": "533",
+            "DOI": "10.1007/s00268-008-9525-9",
+            "article-title": "Surgery and global health: a view from beyond the OR",
+            "volume": "32",
+            "author": "Farmer",
+            "year": "2008",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib64",
+            "article-title": "Ebola's front lines",
+            "author": "Farmer",
+            "year": "2014",
+            "journal-title": "Boston Globe (Boston)"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib65",
+            "doi-asserted-by": "crossref",
+            "first-page": "1060",
+            "DOI": "10.1016/S0140-6736(13)61047-8",
+            "article-title": "Redefining global health-care delivery",
+            "volume": "382",
+            "author": "Kim",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib66",
+            "doi-asserted-by": "crossref",
+            "first-page": "552",
+            "DOI": "10.1056/NEJMra1110897",
+            "article-title": "Health care systems in low- and middle-income countries",
+            "volume": "370",
+            "author": "Mills",
+            "year": "2014",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib67",
+            "article-title": "The regulation of private hospitals in Asia",
+            "author": "Morgan",
+            "year": "2014",
+            "journal-title": "Int J Health Plann Manage"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib68",
+            "doi-asserted-by": "crossref",
+            "first-page": "1091",
+            "DOI": "10.1016/0277-9536(94)90226-7",
+            "article-title": "Too far to walk: maternal mortality in context",
+            "volume": "38",
+            "author": "Thaddeus",
+            "year": "1994",
+            "journal-title": "Soc Sci Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib69",
+            "doi-asserted-by": "crossref",
+            "first-page": "941",
+            "DOI": "10.1007/s00268-011-1010-1",
+            "article-title": "Systematic review of barriers to surgical care in low-income and middle-income countries",
+            "volume": "35",
+            "author": "Grimes",
+            "year": "2011",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib70",
+            "author": "DeJong"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib72",
+            "doi-asserted-by": "crossref",
+            "first-page": "381",
+            "DOI": "10.3109/10903127.2012.664245",
+            "article-title": "Assessment of the status of prehospital care in 13 low- and middle-income countries",
+            "volume": "16",
+            "author": "Nielsen",
+            "year": "2012",
+            "journal-title": "Prehosp Emerg Care"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib73",
+            "doi-asserted-by": "crossref",
+            "first-page": "923",
+            "DOI": "10.2471/BLT.12.116798",
+            "article-title": "Monitoring service delivery for universal health coverage: the Service Availability and Readiness Assessment",
+            "volume": "91",
+            "author": "O'Neill",
+            "year": "2013",
+            "journal-title": "Bull World Health Organ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib74",
+            "doi-asserted-by": "crossref",
+            "first-page": "154",
+            "DOI": "10.1001/archsurg.2009.263",
+            "article-title": "Addressing the Millennium Development Goals from a surgical perspective: essential surgery and anesthesia in 8 low- and middle-income countries",
+            "volume": "145",
+            "author": "Kushner",
+            "year": "2010",
+            "journal-title": "Arch Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib76",
+            "doi-asserted-by": "crossref",
+            "first-page": "2811",
+            "DOI": "10.1007/s00268-012-1764-0",
+            "article-title": "A survey of surgical capacity in rural southern Nigeria: opportunities for change",
+            "volume": "36",
+            "author": "Henry",
+            "year": "2012",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib77",
+            "doi-asserted-by": "crossref",
+            "first-page": "791",
+            "DOI": "10.1111/tmi.12314",
+            "article-title": "Stock-outs of essential health products in Mozambique—longitudinal analyses from 2011 to 2013",
+            "volume": "19",
+            "author": "Wagenaar",
+            "year": "2014",
+            "journal-title": "Trop Med Int Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib78",
+            "doi-asserted-by": "crossref",
+            "first-page": "1746",
+            "DOI": "10.1016/S0140-6736(13)62147-9",
+            "article-title": "Harnessing pluralism for better health in Bangladesh",
+            "volume": "382",
+            "author": "Ahmed",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib79",
+            "author": "Gallien"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib80",
+            "doi-asserted-by": "crossref",
+            "first-page": "365",
+            "DOI": "10.1016/j.surg.2013.10.008",
+            "article-title": "Prioritizing essential surgery and safe anesthesia for the post-2015 Development Agenda: operative capacities of 78 district hospitals in 7 low- and middle-income countries",
+            "volume": "155",
+            "author": "LeBrun",
+            "year": "2014",
+            "journal-title": "Surgery"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib82",
+            "doi-asserted-by": "crossref",
+            "first-page": "719",
+            "DOI": "10.1007/s11517-011-0786-3",
+            "article-title": "Effectiveness of medical equipment donations to improve health systems: how much medical equipment is broken in the developing world?",
+            "volume": "49",
+            "author": "Perry",
+            "year": "2011",
+            "journal-title": "Med Biol Eng Comput"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib83",
+            "doi-asserted-by": "crossref",
+            "first-page": "913",
+            "DOI": "10.1016/j.jacr.2014.03.026",
+            "article-title": "White paper report of the 2013 RAD-AID Conference: improving radiology in resource-limited regions and developing countries",
+            "volume": "11",
+            "author": "Mollura",
+            "year": "2014",
+            "journal-title": "J Am Coll Radiol"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib84",
+            "doi-asserted-by": "crossref",
+            "first-page": "2371",
+            "DOI": "10.1007/s00268-012-1659-0",
+            "article-title": "Trauma care in Africa: a status report from Botswana, guided by the World Health Organization's “Guidelines for Essential Trauma Care”",
+            "volume": "36",
+            "author": "Hanche-Olsen",
+            "year": "2012",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib85",
+            "doi-asserted-by": "crossref",
+            "first-page": "1636",
+            "DOI": "10.5858/2007-131-1636-PSIDCA",
+            "article-title": "Pathology services in developing countries: a challenge",
+            "volume": "131",
+            "author": "Benediktsson",
+            "year": "2007",
+            "journal-title": "Arch Pathol Lab Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib86",
+            "doi-asserted-by": "crossref",
+            "first-page": "946",
+            "DOI": "10.1007/s00268-005-0768-4",
+            "article-title": "Evaluation of trauma care capabilities in four countries using the WHO-IATSIC Guidelines for Essential Trauma Care",
+            "volume": "30",
+            "author": "Mock",
+            "year": "2006",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib87",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1111/j.1365-3148.2009.00958.x",
+            "article-title": "The blood donor in sub-Saharan Africa: a review",
+            "volume": "20",
+            "author": "Tagny",
+            "year": "2010",
+            "journal-title": "Transfus Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib88",
+            "author": "Tapko"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib90",
+            "doi-asserted-by": "crossref",
+            "first-page": "285",
+            "DOI": "10.1046/j.1423-0410.2002.00239.x",
+            "article-title": "Paying for blood donations: still a risk?",
+            "volume": "83",
+            "author": "van der Poel",
+            "year": "2002",
+            "journal-title": "Vox Sang"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib91",
+            "doi-asserted-by": "crossref",
+            "first-page": "448",
+            "DOI": "10.1097/01.mlr.0000257231.86368.09",
+            "article-title": "Hospital workload and adverse events",
+            "volume": "45",
+            "author": "Weissman",
+            "year": "2007",
+            "journal-title": "Med Care"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib92",
+            "first-page": "233",
+            "article-title": "Emergency section and overcrowding in a university hospital of Karachi, Pakistan",
+            "volume": "54",
+            "author": "Rehmani",
+            "year": "2004",
+            "journal-title": "J Pak Med Assoc"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib93",
+            "doi-asserted-by": "crossref",
+            "first-page": "8",
+            "DOI": "10.1007/s00268-011-1330-1",
+            "article-title": "Systematic review of met and unmet need of surgical disease in rural sub-Saharan Africa",
+            "volume": "36",
+            "author": "Grimes",
+            "year": "2012",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib94",
+            "doi-asserted-by": "crossref",
+            "first-page": "2520",
+            "DOI": "10.1007/s00268-013-2172-9",
+            "article-title": "Hospital management practices and availability of surgery in sub-Saharan Africa: a pilot study of three hospitals",
+            "volume": "37",
+            "author": "Funk",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib95",
+            "doi-asserted-by": "crossref",
+            "first-page": "195",
+            "DOI": "10.1097/01.aco.0000162840.02087.15",
+            "article-title": "Operating room efficiency and scheduling",
+            "volume": "18",
+            "author": "Dexter",
+            "year": "2005",
+            "journal-title": "Curr Opin Anaesthesiol"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib96",
+            "doi-asserted-by": "crossref",
+            "first-page": "S15",
+            "DOI": "10.1016/S0140-6736(15)60810-8",
+            "article-title": "A qualitative study exploring contextual challenges to surgical care provision in 21 LMICs",
+            "volume": "385",
+            "author": "Raykar",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib97",
+            "doi-asserted-by": "crossref",
+            "first-page": "787",
+            "DOI": "10.1186/1471-2458-10-787",
+            "article-title": "Turning around an ailing district hospital: a realist evaluation of strategic changes at Ho Municipal Hospital (Ghana)",
+            "volume": "10",
+            "author": "Marchal",
+            "year": "2010",
+            "journal-title": "BMC Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib98",
+            "series-title": "Primary surgery, vol 1. Non-trauma",
+            "year": "1990"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib99",
+            "doi-asserted-by": "crossref",
+            "first-page": "529",
+            "DOI": "10.1017/S174413311000023X",
+            "article-title": "Dying of corruption",
+            "volume": "6",
+            "author": "Holmberg",
+            "year": "2011",
+            "journal-title": "Health Econ Policy Law"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib100",
+            "doi-asserted-by": "crossref",
+            "first-page": "e23",
+            "DOI": "10.1016/S0140-6736(13)62364-8",
+            "article-title": "Tackling corruption in Indian medicine",
+            "volume": "382",
+            "author": "Sachan",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib101",
+            "doi-asserted-by": "crossref",
+            "first-page": "S55",
+            "DOI": "10.1016/S0140-6736(15)60850-9",
+            "article-title": "Mapping the playing field—a novel web-based strategy to identify non-governmental actors in global surgery",
+            "volume": "385",
+            "author": "Ng-Kamstra",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib102",
+            "doi-asserted-by": "crossref",
+            "first-page": "466",
+            "DOI": "10.1007/s00268-009-0373-z",
+            "article-title": "Seven sins of humanitarian medicine",
+            "volume": "34",
+            "author": "Welling",
+            "year": "2010",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib103",
+            "series-title": "Reimagining global health: an introduction",
+            "author": "Farmer",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib104",
+            "doi-asserted-by": "crossref",
+            "first-page": "26",
+            "DOI": "10.1186/1478-4491-11-26",
+            "article-title": "Vertical funding, non-governmental organizations, and health system strengthening: perspectives of public sector health workers in Mozambique",
+            "volume": "11",
+            "author": "Mussa",
+            "year": "2013",
+            "journal-title": "Hum Resour Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib105",
+            "doi-asserted-by": "crossref",
+            "first-page": "2510",
+            "DOI": "10.1007/s00268-009-0239-4",
+            "article-title": "Strengthening prehospital trauma care in the absence of formal emergency medical services",
+            "volume": "33",
+            "author": "Mock",
+            "year": "2009",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib106",
+            "author": "Hadi"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib107",
+            "series-title": "Safe motherhood strategies: a review of the evidence",
+            "first-page": "77",
+            "article-title": "The role of traditional birth attendants in the reduction of maternal mortality",
+            "author": "Bergström",
+            "year": "2001"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib108",
+            "doi-asserted-by": "crossref",
+            "first-page": "419",
+            "DOI": "10.1002/msj.20260",
+            "article-title": "Community health workers in global health: scale and scalability",
+            "volume": "78",
+            "author": "Liu",
+            "year": "2011",
+            "journal-title": "Mt Sinai J Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib109",
+            "doi-asserted-by": "crossref",
+            "first-page": "145",
+            "DOI": "10.1017/S1049023X00007883",
+            "article-title": "Where there are no emergency medical services-prehospital care for the injured in Mumbai, India",
+            "volume": "25",
+            "author": "Roy",
+            "year": "2010",
+            "journal-title": "Prehosp Disaster Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib110",
+            "author": "Dechert"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib111",
+            "doi-asserted-by": "crossref",
+            "first-page": "237",
+            "DOI": "10.1136/emj.2002.002097",
+            "article-title": "A model of prehospital trauma training for lay persons devised in Africa",
+            "volume": "21",
+            "author": "Tiska",
+            "year": "2004",
+            "journal-title": "Emerg Med J"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib112",
+            "doi-asserted-by": "crossref",
+            "first-page": "e6955",
+            "DOI": "10.1371/journal.pone.0006955",
+            "article-title": "First things first: effectiveness and scalability of a basic prehospital trauma care program for lay first-responders in Kampala, Uganda",
+            "volume": "4",
+            "author": "Jayaraman",
+            "year": "2009",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib113",
+            "doi-asserted-by": "crossref",
+            "first-page": "1743",
+            "DOI": "10.1001/jama.1988.03410120089033",
+            "article-title": "The quality of care. How can it be assessed?",
+            "volume": "260",
+            "author": "Donabedian",
+            "year": "1988",
+            "journal-title": "JAMA"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib114",
+            "first-page": "49",
+            "article-title": "Twenty years of primary care surgery in Ibarapa",
+            "volume": "11",
+            "author": "Awojobi",
+            "year": "2003",
+            "journal-title": "Nig J Ophthalmol"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib116",
+            "doi-asserted-by": "crossref",
+            "first-page": "279",
+            "DOI": "10.2471/BLT.06.033647",
+            "article-title": "The availability and affordability of selected essential medicines for chronic diseases in six low- and middle-income countries",
+            "volume": "85",
+            "author": "Mendis",
+            "year": "2007",
+            "journal-title": "Bull World Health Organ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib117",
+            "series-title": "WHO guidelines for safe surgery",
+            "year": "2008"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib118",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1000200",
+            "DOI": "10.1371/journal.pmed.1000200",
+            "article-title": "Increasing access to surgical services in sub-Saharan Africa: priorities for national and international agencies recommended by the Bellagio Essential Surgery Group",
+            "volume": "6",
+            "author": "Luboga",
+            "year": "2009",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib119",
+            "doi-asserted-by": "crossref",
+            "first-page": "297",
+            "DOI": "10.1016/S0304-3878(02)00063-9",
+            "article-title": "Designing incentives for rural health care providers in developing countries",
+            "volume": "69",
+            "author": "Hammer",
+            "year": "2002",
+            "journal-title": "J Dev Econ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib120",
+            "first-page": "2009",
+            "article-title": "Healthcare information for all by 2015",
+            "volume": "26",
+            "author": "Pakenham-Walsh",
+            "year": "2006",
+            "journal-title": "Presentation"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib121",
+            "doi-asserted-by": "crossref",
+            "first-page": "1096",
+            "DOI": "10.1016/S0140-6736(11)60278-X",
+            "article-title": "The importance of early treatment with tranexamic acid in bleeding trauma patients: an exploratory analysis of the CRASH-2 randomised controlled trial",
+            "volume": "377",
+            "author": "Roberts",
+            "year": "2011",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib122",
+            "doi-asserted-by": "crossref",
+            "first-page": "18",
+            "DOI": "10.1186/1744-8603-6-18",
+            "article-title": "Turning a blind eye: the mobilization of radiology services in resource-poor regions",
+            "volume": "6",
+            "author": "Maru",
+            "year": "2010",
+            "journal-title": "Global Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib123",
+            "doi-asserted-by": "crossref",
+            "first-page": "1067",
+            "DOI": "10.7863/jum.2009.28.8.1067",
+            "article-title": "Compact ultrasound for improving maternal and perinatal care in low-resource settings: review of the potential benefits, implementation challenges, and public health issues",
+            "volume": "28",
+            "author": "Harris",
+            "year": "2009",
+            "journal-title": "J Ultrasound Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib124",
+            "series-title": "Clinical engineering handbook",
+            "author": "Dyro",
+            "year": "2004"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib125",
+            "author": "Mullally"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib127",
+            "series-title": "Building Academic Partnerships to reduce maternal morbidity and mortality",
+            "author": "Anderson",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib128",
+            "doi-asserted-by": "crossref",
+            "first-page": "14",
+            "DOI": "10.1177/1757913913514703",
+            "article-title": "Health in Africa: challenges and opportunities",
+            "volume": "134",
+            "author": "Folaranmi",
+            "year": "2014",
+            "journal-title": "Perspect Public Health"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib129",
+            "doi-asserted-by": "crossref",
+            "first-page": "S47",
+            "DOI": "10.1016/S0140-6736(15)60842-X",
+            "article-title": "Community health workers and smartphones for the detection of surgical site infections in rural Haiti: a pilot study",
+            "volume": "385",
+            "author": "Matousek",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib130",
+            "doi-asserted-by": "crossref",
+            "first-page": "1208",
+            "DOI": "10.1007/s00268-008-9473-4",
+            "article-title": "The neglect of the global surgical workforce: experience and evidence from Uganda",
+            "volume": "32",
+            "author": "Ozgediz",
+            "year": "2008",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib131",
+            "author": "Lemaire"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib132",
+            "doi-asserted-by": "crossref",
+            "first-page": "275",
+            "DOI": "10.3389/fpubh.2014.00275",
+            "article-title": "Scaling up a mobile telemedicine solution in Botswana: keys to sustainability",
+            "volume": "2",
+            "author": "Ndlovu",
+            "year": "2014",
+            "journal-title": "Front Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib133",
+            "doi-asserted-by": "crossref",
+            "first-page": "183",
+            "DOI": "10.5858/2008-0432-CCR.1",
+            "article-title": "Pathology services in developing countries-the West African experience",
+            "volume": "135",
+            "author": "Adeyi",
+            "year": "2011",
+            "journal-title": "Arch Pathol Lab Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib134",
+            "author": "Kotsi"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib135",
+            "doi-asserted-by": "crossref",
+            "first-page": "581",
+            "DOI": "10.1016/j.ijsu.2010.07.291",
+            "article-title": "Provision of essential surgery in remote and rural areas of developed as well as low and middle income countries",
+            "volume": "8",
+            "author": "Atiyeh",
+            "year": "2010",
+            "journal-title": "Int J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib136",
+            "doi-asserted-by": "crossref",
+            "first-page": "255",
+            "DOI": "10.1056/NEJMsa043778",
+            "article-title": "Quality of care in U.S. hospitals as reflected by standardized measures, 2002–2004",
+            "volume": "353",
+            "author": "Williams",
+            "year": "2005",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib137",
+            "doi-asserted-by": "crossref",
+            "first-page": "491",
+            "DOI": "10.1056/NEJMsa0810119",
+            "article-title": "A surgical safety checklist to reduce morbidity and mortality in a global population",
+            "volume": "360",
+            "author": "Haynes",
+            "year": "2009",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib138",
+            "doi-asserted-by": "crossref",
+            "first-page": "633",
+            "DOI": "10.1097/SLA.0b013e3182777fa4",
+            "article-title": "Implementation of the World Health Organization surgical safety checklist, including introduction of pulse oximetry, in a resource-limited setting",
+            "volume": "257",
+            "author": "Kwok",
+            "year": "2013",
+            "journal-title": "Ann Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib139",
+            "doi-asserted-by": "crossref",
+            "first-page": "377",
+            "DOI": "10.1111/j.1937-5956.2011.01315.x",
+            "article-title": "Supply chains and global health: an imperative for bringing operations management scholarship into action",
+            "volume": "22",
+            "author": "Kraiselburd",
+            "year": "2013",
+            "journal-title": "Prod Oper Manag"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib140",
+            "series-title": "Improving procurement practices in developing country health programs",
+            "author": "Arney",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib141",
+            "series-title": "Organization of referral systems—a summary of key processes to guide health services managers",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib142",
+            "series-title": "Referral guidelines for the common conditions for institutions under DME & DHS in Kerala",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib143",
+            "doi-asserted-by": "crossref",
+            "first-page": "689",
+            "DOI": "10.1111/j.1937-5956.2007.tb00289.x",
+            "article-title": "Surgical suites' operations management",
+            "volume": "16",
+            "author": "Gupta",
+            "year": "2007",
+            "journal-title": "Prod Oper Manag"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib145",
+            "doi-asserted-by": "crossref",
+            "first-page": "318",
+            "DOI": "10.1111/j.1445-2197.2012.06036.x",
+            "article-title": "Three phases of the Pacific Islands Project (1995–2010)",
+            "volume": "82",
+            "author": "Watters",
+            "year": "2012",
+            "journal-title": "ANZ J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib146",
+            "doi-asserted-by": "crossref",
+            "first-page": "949",
+            "DOI": "10.1016/j.suc.2007.07.018",
+            "article-title": "The global impact of surgical volunteerism",
+            "volume": "87",
+            "author": "Casey",
+            "year": "2007",
+            "journal-title": "Surg Clin North Am"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib147",
+            "author": "Shukla"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib148",
+            "author": "Chêne"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib149",
+            "series-title": "The world health report 2006: working together for health",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib150",
+            "author": "Campbell"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib151",
+            "doi-asserted-by": "crossref",
+            "first-page": "S9",
+            "DOI": "10.1016/S2214-109X(14)70349-3",
+            "article-title": "Global distribution of surgeons, anaesthesiologists, and obstetricians",
+            "volume": "3",
+            "author": "Holmer",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib152",
+            "doi-asserted-by": "crossref",
+            "first-page": "S40",
+            "DOI": "10.1016/S0140-6736(15)60835-2",
+            "article-title": "Towards closing the gap of the global surgeon, anaesthesiologist and obstetrician workforce: thresholds and projections towards 2030",
+            "volume": "385",
+            "author": "Holmer",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib154",
+            "doi-asserted-by": "crossref",
+            "first-page": "S41",
+            "DOI": "10.1016/S0140-6736(15)60836-4",
+            "article-title": "The scale-up of the surgical workforce",
+            "volume": "385",
+            "author": "Daniels",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib155",
+            "doi-asserted-by": "crossref",
+            "first-page": "S16",
+            "DOI": "10.1016/S0140-6736(15)60811-X",
+            "article-title": "Geospatial mapping to estimate timely access to surgical care in nine low-income and middle-income countries",
+            "volume": "385",
+            "author": "Raykar",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib156",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1000078",
+            "DOI": "10.1371/journal.pmed.1000078",
+            "article-title": "Surgical task shifting in sub-Saharan Africa",
+            "volume": "6",
+            "author": "Chu",
+            "year": "2009",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib157",
+            "doi-asserted-by": "crossref",
+            "first-page": "2385",
+            "DOI": "10.1007/s11999-008-0366-5",
+            "article-title": "Orthopaedic clinical officer program in Malawi: a model for providing orthopaedic care",
+            "volume": "466",
+            "author": "Mkandawire",
+            "year": "2008",
+            "journal-title": "Clin Orthop Relat Res"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib158",
+            "doi-asserted-by": "crossref",
+            "first-page": "17",
+            "DOI": "10.1186/1478-4491-5-17",
+            "article-title": "Postoperative outcome of caesarean sections and other major emergency obstetric surgery by clinical officers and medical officers in Malawi",
+            "volume": "5",
+            "author": "Chilopora",
+            "year": "2007",
+            "journal-title": "Hum Resour Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib159",
+            "doi-asserted-by": "crossref",
+            "first-page": "1530",
+            "DOI": "10.1111/j.1471-0528.2007.01489.x",
+            "article-title": "Meeting the need for emergency obstetric care in Mozambique: work performance and histories of medical doctors and assistant medical officers trained for surgery",
+            "volume": "114",
+            "author": "Pereira",
+            "year": "2007",
+            "journal-title": "BJOG"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib161",
+            "doi-asserted-by": "crossref",
+            "first-page": "567",
+            "DOI": "10.1016/S0140-6736(75)90165-8",
+            "article-title": "Tubectomy by paraprofessional surgeons in rural Bangladesh",
+            "volume": "2",
+            "author": "Chowdhury",
+            "year": "1975",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib162",
+            "series-title": "Disease control priorities, 3rd edn, vol 1. Essential surgery",
+            "first-page": "307",
+            "article-title": "Workforce innovations to expand the capacity for surgical services",
+            "author": "Bergström",
+            "year": "2015"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib164",
+            "doi-asserted-by": "crossref",
+            "first-page": "S46",
+            "DOI": "10.1016/S0140-6736(15)60841-8",
+            "article-title": "Global surgical and anaesthetic task shifting: a systematic literature review and survey",
+            "volume": "385",
+            "author": "Federspiel",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib165",
+            "doi-asserted-by": "crossref",
+            "first-page": "495",
+            "DOI": "10.1007/s00268-005-0093-y",
+            "article-title": "Rural surgery in southern Sudan",
+            "volume": "30",
+            "author": "Meo",
+            "year": "2006",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib166",
+            "doi-asserted-by": "crossref",
+            "first-page": "612",
+            "DOI": "10.1016/S0140-6736(87)92996-5",
+            "article-title": "Emergency obstetric surgery performed by nurses in Zaïre",
+            "volume": "2",
+            "author": "White",
+            "year": "1987",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib167",
+            "doi-asserted-by": "crossref",
+            "first-page": "292",
+            "DOI": "10.1186/1472-6963-13-292",
+            "article-title": "Use of surgical task shifting to scale up essential surgical services: a feasibility analysis at facility level in Uganda",
+            "volume": "13",
+            "author": "Galukande",
+            "year": "2013",
+            "journal-title": "BMC Health Serv Res"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib168",
+            "doi-asserted-by": "crossref",
+            "first-page": "d2600",
+            "DOI": "10.1136/bmj.d2600",
+            "article-title": "A comparison of clinical officers with medical doctors on outcomes of caesarean section in the developing world: meta-analysis of controlled studies",
+            "volume": "342",
+            "author": "Wilson",
+            "year": "2011",
+            "journal-title": "BMJ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib169",
+            "doi-asserted-by": "crossref",
+            "first-page": "12",
+            "DOI": "10.1186/1752-1505-5-12",
+            "article-title": "Providing surgical care in Somalia: a model of task shifting",
+            "volume": "5",
+            "author": "Chu",
+            "year": "2011",
+            "journal-title": "Confl Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib170",
+            "doi-asserted-by": "crossref",
+            "first-page": "509",
+            "DOI": "10.1016/j.ijsu.2014.02.009",
+            "article-title": "Delivery of operative pediatric surgical care by physicians and non-physician clinicians in Malawi",
+            "volume": "12",
+            "author": "Tyson",
+            "year": "2014",
+            "journal-title": "Int J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib171",
+            "doi-asserted-by": "crossref",
+            "first-page": "e002875",
+            "DOI": "10.1136/bmjopen-2013-002875",
+            "article-title": "Influence of the US President's Emergency Plan for AIDS Relief (PEPfAR) on career choices and emigration of health-profession graduates from a Ugandan medical school: a cross-sectional study",
+            "volume": "3",
+            "author": "Bajunirwe",
+            "year": "2013",
+            "journal-title": "BMJ Open"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib172",
+            "doi-asserted-by": "crossref",
+            "first-page": "209",
+            "DOI": "10.1016/j.ijsu.2012.03.003",
+            "article-title": "The future of trauma care in a developing country: interest of medical students and interns in surgery and surgical specialties",
+            "volume": "10",
+            "author": "Abioye",
+            "year": "2012",
+            "journal-title": "Int J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib173",
+            "first-page": "96",
+            "article-title": "General surgery in crisis—comparatively low levels of remuneration",
+            "volume": "44",
+            "author": "Kahn",
+            "year": "2006",
+            "journal-title": "S Afr J Surg"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib174",
+            "doi-asserted-by": "crossref",
+            "first-page": "S11",
+            "DOI": "10.1016/S2214-109X(15)70084-7",
+            "article-title": "International migration of surgeons, anaesthesiologists, and obstetricians",
+            "volume": "3",
+            "author": "Lantz",
+            "year": "2015",
+            "journal-title": "Lancet Global Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib175",
+            "doi-asserted-by": "crossref",
+            "first-page": "1810",
+            "DOI": "10.1056/NEJMsa050004",
+            "article-title": "The metrics of the physician brain drain",
+            "volume": "353",
+            "author": "Mullan",
+            "year": "2005",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib176",
+            "doi-asserted-by": "crossref",
+            "first-page": "614",
+            "DOI": "10.4103/1357-6283.101416",
+            "article-title": "Career intentions of medical students trained in six sub-Saharan African countries",
+            "volume": "24",
+            "author": "Burch",
+            "year": "2011",
+            "journal-title": "Educ Health (Abingdon)"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib177",
+            "first-page": "348",
+            "article-title": "Barriers facing junior doctors in rural practice",
+            "volume": "5",
+            "author": "Smith",
+            "year": "2005",
+            "journal-title": "Rural Remote Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib178",
+            "first-page": "106",
+            "article-title": "Surgery in rural Nigeria—problems, challenges and recommendations",
+            "volume": "31",
+            "author": "Attah",
+            "year": "1993",
+            "journal-title": "S Afr J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib179",
+            "doi-asserted-by": "crossref",
+            "first-page": "1113",
+            "DOI": "10.1016/S0140-6736(10)61961-7",
+            "article-title": "Medical schools in sub-Saharan Africa",
+            "volume": "377",
+            "author": "Mullan",
+            "year": "2011",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib180",
+            "doi-asserted-by": "crossref",
+            "first-page": "1923",
+            "DOI": "10.1016/S0140-6736(10)61854-5",
+            "article-title": "Health professionals for a new century: transforming education to strengthen health systems in an interdependent world",
+            "volume": "376",
+            "author": "Frenk",
+            "year": "2010",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib181",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.1186/1478-4491-5-27",
+            "article-title": "Major surgery delegation to mid-level health practitioners in Mozambique: health professionals' perceptions",
+            "volume": "5",
+            "author": "Cumbi",
+            "year": "2007",
+            "journal-title": "Hum Resour Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib182",
+            "doi-asserted-by": "crossref",
+            "first-page": "359",
+            "DOI": "10.1177/0310057X1304100313",
+            "article-title": "Has the middle-level anaesthesia manpower training program of the West African College of Surgeons fulfilled its objectives?",
+            "volume": "41",
+            "author": "Bode",
+            "year": "2013",
+            "journal-title": "Anaesth Intensive Care"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib183",
+            "doi-asserted-by": "crossref",
+            "first-page": "2054",
+            "DOI": "10.1056/NEJMsr1302176",
+            "article-title": "The human resources for health program in Rwanda—new partnership",
+            "volume": "369",
+            "author": "Binagwaho",
+            "year": "2013",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "issue": "suppl 8",
+            "key": "10.1016/S0140-6736(15)60160-X_bib184",
+            "doi-asserted-by": "crossref",
+            "first-page": "S19",
+            "DOI": "10.1097/ACM.0000000000000345",
+            "article-title": "Growing partnerships: leveraging the power of collaboration through the Medical Education Partnership Initiative",
+            "volume": "89",
+            "author": "Olapade-Olaopa",
+            "year": "2014",
+            "journal-title": "Acad Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib185",
+            "doi-asserted-by": "crossref",
+            "first-page": "2",
+            "DOI": "10.1186/1472-6920-14-2",
+            "article-title": "Specialization training in Malawi: a qualitative study on the perspectives of medical students graduating from the University of Malawi College of Medicine",
+            "volume": "14",
+            "author": "Sawatsky",
+            "year": "2014",
+            "journal-title": "BMC Med Educ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib186",
+            "author": "Grady"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib188",
+            "doi-asserted-by": "crossref",
+            "first-page": "585",
+            "DOI": "10.1016/j.surg.2013.11.007",
+            "article-title": "Evaluating international global health collaborations: perspectives from surgery and anesthesia trainees in Uganda",
+            "volume": "155",
+            "author": "Elobu",
+            "year": "2014",
+            "journal-title": "Surgery"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib189",
+            "doi-asserted-by": "crossref",
+            "first-page": "950",
+            "DOI": "10.1056/NEJMra1111610",
+            "article-title": "Global supply of health professionals",
+            "volume": "370",
+            "author": "Crisp",
+            "year": "2014",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib190",
+            "doi-asserted-by": "crossref",
+            "first-page": "e501",
+            "DOI": "10.3109/0142159X.2010.519065",
+            "article-title": "A framework for enhancing continuing medical education for rural physicians: a summary of the literature",
+            "volume": "32",
+            "author": "Curran",
+            "year": "2010",
+            "journal-title": "Med Teach"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib191",
+            "first-page": "6",
+            "article-title": "A review of surgical capacity and surgical education programmes in the COSECSA region",
+            "volume": "16",
+            "author": "Kakande",
+            "year": "2011",
+            "journal-title": "East Cent Afr J Surg"
+          },
+          {
+            "issue": "suppl 1",
+            "key": "10.1016/S0140-6736(15)60160-X_bib192",
+            "doi-asserted-by": "crossref",
+            "first-page": "S159",
+            "DOI": "10.2105/AJPH.2013.301581",
+            "article-title": "The public health impact of training physicians to become obstetricians and gynecologists in Ghana",
+            "volume": "104",
+            "author": "Anderson",
+            "year": "2014",
+            "journal-title": "Am J Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib193",
+            "doi-asserted-by": "crossref",
+            "first-page": "972",
+            "DOI": "10.1007/s00268-003-7102-9",
+            "article-title": "Collaboration, communication, management, and advocacy: teaching surgeons new skills through the CanMEDS Project",
+            "volume": "27",
+            "author": "Frank",
+            "year": "2003",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib194",
+            "doi-asserted-by": "crossref",
+            "first-page": "1278",
+            "DOI": "10.1197/aemj.9.11.1278",
+            "article-title": "Assessing the ACGME general competencies: general considerations and assessment methods",
+            "volume": "9",
+            "author": "Swing",
+            "year": "2002",
+            "journal-title": "Acad Emerg Med"
+          },
+          {
+            "issue": "suppl 1",
+            "key": "10.1016/S0140-6736(15)60160-X_bib196",
+            "first-page": "S76",
+            "article-title": "Need for a global obstetric fistula training strategy",
+            "volume": "119",
+            "author": "Rushwan",
+            "year": "2012",
+            "journal-title": "Int J Gynaecol Obstet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib197",
+            "doi-asserted-by": "crossref",
+            "first-page": "706",
+            "DOI": "10.1097/ACM.0b013e318217e119",
+            "article-title": "Does simulation-based medical education with deliberate practice yield better results than traditional clinical education? A meta-analytic comparative review of the evidence",
+            "volume": "86",
+            "author": "McGaghie",
+            "year": "2011",
+            "journal-title": "Acad Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib198",
+            "doi-asserted-by": "crossref",
+            "first-page": "267",
+            "DOI": "10.1080/08858190802188883",
+            "article-title": "An evaluation of the Train the Trainer International Breast Health and Breast Cancer Education: lessons learned",
+            "volume": "23",
+            "author": "Meneses",
+            "year": "2008",
+            "journal-title": "J Cancer Educ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib199",
+            "article-title": "Financial interventions and movement restrictions for managing the movement of health workers between public and private organizations in low- and middle-income countries",
+            "volume": "2",
+            "author": "Rutebemberwa",
+            "year": "2014",
+            "journal-title": "Cochrane Database Syst Rev"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib200",
+            "first-page": "700",
+            "article-title": "Making a difference: education and training retains and supports rural and remote doctors in Queensland",
+            "volume": "7",
+            "author": "White",
+            "year": "2007",
+            "journal-title": "Rural Remote Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib201",
+            "doi-asserted-by": "crossref",
+            "first-page": "637",
+            "DOI": "10.2471/BLT.09.072371",
+            "article-title": "Building and retaining the neglected anaesthesia health workforce: is it crucial for health systems strengthening through primary health care?",
+            "volume": "88",
+            "author": "Cherian",
+            "year": "2010",
+            "journal-title": "Bull World Health Organ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib202",
+            "first-page": "129",
+            "article-title": "Rural allowance and the retention of health professionals in selected hospitals in the North West Province of South Africa",
+            "volume": "44",
+            "author": "Makapela",
+            "year": "2013",
+            "journal-title": "J Hum Ergol (Tokyo)"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib203",
+            "doi-asserted-by": "crossref",
+            "first-page": "196",
+            "DOI": "10.1002/hec.1581",
+            "article-title": "How to make rural jobs more attractive to health workers. Findings from a discrete choice experiment in Tanzania",
+            "volume": "20",
+            "author": "Kolstad",
+            "year": "2011",
+            "journal-title": "Health Econ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib204",
+            "doi-asserted-by": "crossref",
+            "first-page": "503",
+            "DOI": "10.1007/s00268-007-9308-8",
+            "article-title": "The rural surgeon and ivory towers",
+            "volume": "32",
+            "author": "Isah",
+            "year": "2008",
+            "journal-title": "World J Surg"
+          },
+          {
+            "issue": "suppl 1",
+            "key": "10.1016/S0140-6736(15)60160-X_bib206",
+            "doi-asserted-by": "crossref",
+            "first-page": "S5",
+            "DOI": "10.1186/1472-698X-11-S1-S5",
+            "article-title": "Perception and valuations of community-based education and service by alumni at Makerere University College of Health Sciences",
+            "volume": "11",
+            "author": "Mwanika",
+            "year": "2011",
+            "journal-title": "BMC Int Health Hum Rights"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib207",
+            "doi-asserted-by": "crossref",
+            "first-page": "86",
+            "DOI": "10.1186/1472-6963-9-86",
+            "article-title": "Financial incentives for return of service in underserved areas: a systematic review",
+            "volume": "9",
+            "author": "Bärnighausen",
+            "year": "2009",
+            "journal-title": "BMC Health Serv Res"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib208",
+            "doi-asserted-by": "crossref",
+            "first-page": "59",
+            "DOI": "10.1097/AIA.0b013e3181cd15ef",
+            "article-title": "Teaching nonphysician anesthesia providers in Tanzania: a movement toward sustainable healthcare development",
+            "volume": "48",
+            "author": "Edler",
+            "year": "2010",
+            "journal-title": "Int Anesthesiol Clin"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib209",
+            "first-page": "272",
+            "article-title": "The National Health Service Corps: rural physician service and retention",
+            "volume": "10",
+            "author": "Cullen",
+            "year": "1997",
+            "journal-title": "J Am Board Fam Pract"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib210",
+            "doi-asserted-by": "crossref",
+            "first-page": "493",
+            "DOI": "10.1007/s00268-010-0936-z",
+            "article-title": "Is it possible to train surgeons for rural Africa? A report of a successful international program",
+            "volume": "35",
+            "author": "Pollock",
+            "year": "2011",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib212",
+            "doi-asserted-by": "crossref",
+            "first-page": "825",
+            "DOI": "10.1016/j.suc.2007.06.004",
+            "article-title": "Certification and maintenance of certification in surgery",
+            "volume": "87",
+            "author": "Rhodes",
+            "year": "2007",
+            "journal-title": "Surg Clin North Am"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib213",
+            "doi-asserted-by": "crossref",
+            "first-page": "604",
+            "DOI": "10.1016/S1072-7515(03)00008-5",
+            "article-title": "Continuing medical education activity and American Board of Surgery examination performance",
+            "volume": "196",
+            "author": "Rhodes",
+            "year": "2003",
+            "journal-title": "J Am Coll Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib214",
+            "doi-asserted-by": "crossref",
+            "first-page": "765",
+            "DOI": "10.1177/0310057X0603400604",
+            "article-title": "Continuing medical education: a needs analysis of anaesthetists",
+            "volume": "34",
+            "author": "Tucker",
+            "year": "2006",
+            "journal-title": "Anaesth Intensive Care"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib215",
+            "doi-asserted-by": "crossref",
+            "first-page": "136",
+            "DOI": "10.1016/j.amjsurg.2013.12.039",
+            "article-title": "Evaluation of a blended learning surgical skills course for rural surgeons",
+            "volume": "208",
+            "author": "Halverson",
+            "year": "2014",
+            "journal-title": "Am J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib216",
+            "doi-asserted-by": "crossref",
+            "first-page": "e15431",
+            "DOI": "10.1371/journal.pone.0015431",
+            "article-title": "Does cataract surgery alleviate poverty? Evidence from a multi-centre intervention study conducted in Kenya, the Philippines and Bangladesh",
+            "volume": "5",
+            "author": "Kuper",
+            "year": "2010",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib217",
+            "doi-asserted-by": "crossref",
+            "first-page": "e44268",
+            "DOI": "10.1371/journal.pone.0044268",
+            "article-title": "The impact of successful cataract surgery on quality of life, household income and social status in South India",
+            "volume": "7",
+            "author": "Finger",
+            "year": "2012",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib218",
+            "doi-asserted-by": "crossref",
+            "first-page": "2138",
+            "DOI": "10.1016/j.ophtha.2014.05.014",
+            "article-title": "A multicenter prospective cohort study of quality of life and economic outcomes after cataract surgery in Vietnam: the VISIONARY study",
+            "volume": "121",
+            "author": "Essue",
+            "year": "2014",
+            "journal-title": "Ophthalmology"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib219",
+            "doi-asserted-by": "crossref",
+            "first-page": "1194",
+            "DOI": "10.1007/s00268-011-1055-1",
+            "article-title": "Potential economic benefit of cleft lip and palate repair in sub-Saharan Africa",
+            "volume": "35",
+            "author": "Alkire",
+            "year": "2011",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib220",
+            "doi-asserted-by": "crossref",
+            "first-page": "c924",
+            "DOI": "10.1136/bmj.c924",
+            "article-title": "Economic impact of disease and injury: counting what matters",
+            "volume": "340",
+            "author": "Chisholm",
+            "year": "2010",
+            "journal-title": "BMJ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib221",
+            "doi-asserted-by": "crossref",
+            "first-page": "1396",
+            "DOI": "10.1021/es990733n",
+            "article-title": "Valuing mortality risk: theory and practice",
+            "volume": "34",
+            "author": "Hammitt",
+            "year": "2000",
+            "journal-title": "Environ Sci Technol"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib222",
+            "doi-asserted-by": "crossref",
+            "first-page": "5",
+            "DOI": "10.1023/A:1025598106257",
+            "article-title": "The value of a statistical life: a critical review of market estimates throughout the world",
+            "volume": "27",
+            "author": "Viscusi",
+            "year": "2003",
+            "journal-title": "J Risk Uncertain"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib223",
+            "doi-asserted-by": "crossref",
+            "first-page": "e6637",
+            "DOI": "10.1136/bmj.e6637",
+            "article-title": "Could a passage to India be the way to get more surgical experience?",
+            "volume": "345",
+            "author": "Davies",
+            "year": "2012",
+            "journal-title": "BMJ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib224",
+            "series-title": "Cases in global health delivery. The indus hospital: delivering free health care in Pakistan",
+            "author": "Arnquist",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib225",
+            "series-title": "The Global Innovation Index 2011",
+            "article-title": "Innovation in India: affordable innovations",
+            "author": "Singh",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib226",
+            "series-title": "Generalized cost-effectiveness anlaysis: an aid to decision making in health",
+            "author": "Hutubessy",
+            "year": "2003"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib227",
+            "doi-asserted-by": "crossref",
+            "first-page": "545",
+            "DOI": "10.1016/j.socscimed.2007.10.001",
+            "article-title": "Paying the price: the cost and consequences of emergency obstetric care in Burkina Faso",
+            "volume": "66",
+            "author": "Storeng",
+            "year": "2008",
+            "journal-title": "Soc Sci Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib228",
+            "doi-asserted-by": "crossref",
+            "first-page": "383",
+            "DOI": "10.1093/heapol/czg046",
+            "article-title": "Costs of near-miss obstetric complications for women and their families in Benin and Ghana",
+            "volume": "18",
+            "author": "Borghi",
+            "year": "2003",
+            "journal-title": "Health Policy Plan"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib229",
+            "doi-asserted-by": "crossref",
+            "first-page": "10",
+            "DOI": "10.1016/S0968-8080(11)37559-3",
+            "article-title": "Affordability of emergency obstetric and neonatal care at public hospitals in Madagascar",
+            "volume": "19",
+            "author": "Honda",
+            "year": "2011",
+            "journal-title": "Reprod Health Matters"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib230",
+            "doi-asserted-by": "crossref",
+            "first-page": "237",
+            "DOI": "10.1093/heapol/czp060",
+            "article-title": "Expenditure on obstetric care and the protective effect of insurance on the poor: lessons from two Indonesian districts",
+            "volume": "25",
+            "author": "Quayyum",
+            "year": "2010",
+            "journal-title": "Health Policy Plan"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib231",
+            "doi-asserted-by": "crossref",
+            "first-page": "1208",
+            "DOI": "10.1007/s00268-013-1977-x",
+            "article-title": "Obstacles to surgical services in a rural Cameroonian district hospital",
+            "volume": "37",
+            "author": "Ilbawi",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib232",
+            "doi-asserted-by": "crossref",
+            "first-page": "43",
+            "DOI": "10.3109/09286586.2011.628135",
+            "article-title": "Eye care in Fiji: a population-based study of use and barriers",
+            "volume": "19",
+            "author": "Brian",
+            "year": "2012",
+            "journal-title": "Ophthalmic Epidemiol"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib233",
+            "doi-asserted-by": "crossref",
+            "first-page": "297",
+            "DOI": "10.1016/S0020-7292(01)00526-4",
+            "article-title": "Efficient and effective emergency obstetric care in a rural Indian community where most deliveries are at home",
+            "volume": "75",
+            "author": "McCord",
+            "year": "2001",
+            "journal-title": "Int J Gynaecol Obstet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib234",
+            "series-title": "Disease control priorities in developing countries",
+            "first-page": "225",
+            "article-title": "Financing health systems in the 21st Century",
+            "author": "Schieber",
+            "year": "2006"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib235",
+            "doi-asserted-by": "crossref",
+            "first-page": "S2",
+            "DOI": "10.1016/S2214-109X(15)70075-6",
+            "article-title": "Tracking global expenditures on surgery: gaps in knowledge hinder progress",
+            "volume": "3",
+            "author": "Dielman",
+            "year": "2015",
+            "journal-title": "Lancet Glob Health"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib236",
+            "doi-asserted-by": "crossref",
+            "first-page": "S51",
+            "DOI": "10.1016/S0140-6736(15)60846-7",
+            "article-title": "Funding flows to global surgery; an analysis of contributions from the US",
+            "volume": "385",
+            "author": "Gutnik",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib237",
+            "doi-asserted-by": "crossref",
+            "first-page": "107",
+            "DOI": "10.1111/tmi.12215",
+            "article-title": "Individual and community perceptions of surgical care in Sierra Leone",
+            "volume": "19",
+            "author": "Groen",
+            "year": "2014",
+            "journal-title": "Trop Med Int Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib238",
+            "doi-asserted-by": "crossref",
+            "first-page": "49",
+            "DOI": "10.1016/j.healthpol.2005.02.002",
+            "article-title": "Effective financing of maternal health services: a review of the literature",
+            "volume": "75",
+            "author": "Ensor",
+            "year": "2005",
+            "journal-title": "Health Policy"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib239",
+            "doi-asserted-by": "crossref",
+            "first-page": "e95",
+            "DOI": "10.1002/hpm.2146",
+            "article-title": "Removal of user fees for caesareans and under-fives in northern Sudan: a review of policy implementation and effectiveness",
+            "volume": "28",
+            "author": "Witter",
+            "year": "2013",
+            "journal-title": "Int J Health Plann Manage"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib240",
+            "doi-asserted-by": "crossref",
+            "first-page": "384",
+            "DOI": "10.1093/heapol/czq013",
+            "article-title": "The national free delivery and caesarean policy in Senegal: evaluating process and outcomes",
+            "volume": "25",
+            "author": "Witter",
+            "year": "2010",
+            "journal-title": "Health Policy Plan"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib241",
+            "doi-asserted-by": "crossref",
+            "first-page": "1216",
+            "DOI": "10.1007/s00268-013-1993-x",
+            "article-title": "Free health care for under 5 year olds increases access to surgical care in Sierra Leone: an analysis of case load and patient characteristics",
+            "volume": "37",
+            "author": "Groen",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib242",
+            "doi-asserted-by": "crossref",
+            "first-page": "260",
+            "DOI": "10.1016/j.ophtha.2012.07.087",
+            "article-title": "Implementation of a free cataract surgery program in rural China: a community-based randomized interventional study",
+            "volume": "120",
+            "author": "Zhang",
+            "year": "2013",
+            "journal-title": "Ophthalmology"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib243",
+            "series-title": "Disease control priorities, 3rd edn, vol 1. Essential surgery",
+            "first-page": "339",
+            "article-title": "Task-sharing or public finance for the expansion of surgical access in rural Ethiopia: an extended cost-effectiveness analysis",
+            "author": "Shrime",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib244",
+            "series-title": "Health insurance schemes for people outside formal sector employment. Analysis, Research & Assessment Division",
+            "author": "Bennett",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib245",
+            "series-title": "Income distribution and tax and government social spending policies in developing countries. IMF Working Paper 62",
+            "author": "Chu",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib246",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1001580",
+            "DOI": "10.1371/journal.pmed.1001580",
+            "article-title": "Improving women's health through universal health coverage",
+            "volume": "11",
+            "author": "Quick",
+            "year": "2014",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib247",
+            "doi-asserted-by": "crossref",
+            "first-page": "f65",
+            "DOI": "10.1136/bmj.f65",
+            "article-title": "Reduced premature mortality in Rwanda: lessons from success",
+            "volume": "346",
+            "author": "Farmer",
+            "year": "2013",
+            "journal-title": "BMJ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib248",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1001244",
+            "DOI": "10.1371/journal.pmed.1001244",
+            "article-title": "Comparative performance of private and public healthcare systems in low- and middle-income countries: a systematic review",
+            "volume": "9",
+            "author": "Basu",
+            "year": "2012",
+            "journal-title": "PLoS Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib250",
+            "doi-asserted-by": "crossref",
+            "first-page": "184",
+            "DOI": "10.1111/j.1756-5391.2009.01024.x",
+            "article-title": "Can paying for results help to achieve the Millennium Development Goals? A critical review of selected evaluations of results-based financing",
+            "volume": "2",
+            "author": "Oxman",
+            "year": "2009",
+            "journal-title": "J Evid Based Med"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib251",
+            "doi-asserted-by": "crossref",
+            "first-page": "1421",
+            "DOI": "10.1016/S0140-6736(11)60177-3",
+            "article-title": "Effect on maternal and child health services in Rwanda of payment to primary health-care providers for performance: an impact evaluation",
+            "volume": "377",
+            "author": "Basinga",
+            "year": "2011",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib252",
+            "series-title": "Is aid effectiveness giving us better health results?",
+            "author": "Dickinson",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib255",
+            "doi-asserted-by": "crossref",
+            "first-page": "285",
+            "DOI": "10.1016/j.ijgo.2005.07.023",
+            "article-title": "A sector-wide approach to emergency obstetric care in Uganda",
+            "volume": "91",
+            "author": "Orinda",
+            "year": "2005",
+            "journal-title": "Int J Gynaecol Obstet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib256",
+            "series-title": "Rethinking Health Sector Wide Approaches through the lens of aid effectiveness",
+            "author": "McNee",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib257",
+            "series-title": "Rethinking health sector wide approaches through the lens of aid effectiveness. Development Policy Centre Discussion Paper 14",
+            "author": "McNee",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib258",
+            "doi-asserted-by": "crossref",
+            "first-page": "e9",
+            "DOI": "10.1002/bjs.9329",
+            "article-title": "Global disease burden of conditions requiring emergency surgery",
+            "volume": "101",
+            "author": "Stewart",
+            "year": "2014",
+            "journal-title": "Br J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib259",
+            "doi-asserted-by": "crossref",
+            "first-page": "993",
+            "DOI": "10.1016/S0140-6736(13)60707-2",
+            "article-title": "Time-critical mortality conditions in low-income and middle-income countries",
+            "volume": "381",
+            "author": "Hsiao",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib260",
+            "doi-asserted-by": "crossref",
+            "first-page": "676",
+            "DOI": "10.1016/S0140-6736(05)67140-1",
+            "article-title": "Buying results? Contracting for health service delivery in developing countries",
+            "volume": "366",
+            "author": "Loevinsohn",
+            "year": "2005",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib261",
+            "article-title": "The impact of contracting out on health outcomes and use of health services in low and middle-income countries",
+            "volume": "4",
+            "author": "Lagarde",
+            "year": "2009",
+            "journal-title": "Cochrane Database Syst Rev"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib262",
+            "series-title": "Health systems financing: the path to universal coverage",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib263",
+            "doi-asserted-by": "crossref",
+            "first-page": "S7",
+            "DOI": "10.1016/S0140-6736(13)60293-7",
+            "article-title": "Universal health coverage in Rwanda: a report of innovations to increase enrolment in community-based health insurance",
+            "volume": "380",
+            "author": "Makaka",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib264",
+            "doi-asserted-by": "crossref",
+            "first-page": "933",
+            "DOI": "10.1016/S0140-6736(12)61147-7",
+            "article-title": "Moving towards universal health coverage: health insurance reforms in nine developing countries in Africa and Asia",
+            "volume": "380",
+            "author": "Lagomarsino",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib265",
+            "doi-asserted-by": "crossref",
+            "first-page": "1259",
+            "DOI": "10.1016/S0140-6736(12)61068-X",
+            "article-title": "The quest for universal health coverage: achieving social protection for all in Mexico",
+            "volume": "380",
+            "author": "Knaul",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "issue": "suppl 1",
+            "key": "10.1016/S0140-6736(15)60160-X_bib266",
+            "doi-asserted-by": "crossref",
+            "first-page": "S6",
+            "DOI": "10.1186/1471-2458-12-S1-S6",
+            "article-title": "Why has the Universal Coverage Scheme in Thailand achieved a pro-poor public subsidy for health care?",
+            "volume": "12",
+            "author": "Limwattananon",
+            "year": "2012",
+            "journal-title": "BMC Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib268",
+            "series-title": "Disease control priorities in developing countries",
+            "first-page": "1018",
+            "article-title": "Information to improve decision making for health",
+            "author": "SStansfield",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib269",
+            "series-title": "Household sample surveys in developing and transition countries",
+            "first-page": "523",
+            "article-title": "Living standards measurement study surveys",
+            "author": "Kinnon",
+            "year": "2005"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib276",
+            "doi-asserted-by": "crossref",
+            "first-page": "30",
+            "DOI": "10.1186/1471-2474-8-30",
+            "article-title": "Musculoskeletal impairment survey in Rwanda: design of survey tool, survey methodology, and results of the pilot study (a cross sectional survey)",
+            "volume": "8",
+            "author": "Atijosan",
+            "year": "2007",
+            "journal-title": "BMC Musculoskelet Disord"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib277",
+            "doi-asserted-by": "crossref",
+            "first-page": "771",
+            "DOI": "10.1007/s00268-012-1448-9",
+            "article-title": "Pilot testing of a population-based surgical survey tool in Sierra Leone",
+            "volume": "36",
+            "author": "Groen",
+            "year": "2012",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib278",
+            "first-page": "955",
+            "article-title": "Incidence and outcome of injury in Ghana: a community-based survey",
+            "volume": "77",
+            "author": "Mock",
+            "year": "1999",
+            "journal-title": "Bull World Health Organ"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib279",
+            "doi-asserted-by": "crossref",
+            "first-page": "846",
+            "DOI": "10.1046/j.1365-3156.1999.00490.x",
+            "article-title": "Survey of surgical emergencies in a rural population in the Northern Areas of Pakistan",
+            "volume": "4",
+            "author": "Ahmed",
+            "year": "1999",
+            "journal-title": "Trop Med Int Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib280",
+            "doi-asserted-by": "crossref",
+            "first-page": "504",
+            "DOI": "10.1097/00005373-199703000-00019",
+            "article-title": "Low Utilization of Formal Medical Services by Injured Persons in a Developing Nation: Health Service Data Underestimate the Importance of Trauma",
+            "volume": "42",
+            "author": "Mock",
+            "year": "1997",
+            "journal-title": "J Trauma Inj Infect Crit Care"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib281",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Linden A, Maine R, Hedt-Gauthier B, et al. Validation of a Community-Based Survey Assessing Non-Obstetric Surgical Conditions in Burera District, Rwanda. Full paper submitted for publication; 2015.",
+            "DOI": "10.1016/S0140-6736(15)60803-0"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib282",
+            "doi-asserted-by": "crossref",
+            "first-page": "e002621",
+            "DOI": "10.1136/bmjopen-2013-002621",
+            "article-title": "Road traffic injury mortality and its mechanisms in India: nationally representative mortality survey of 1.1 million homes",
+            "volume": "3",
+            "author": "Hsiao",
+            "year": "2013",
+            "journal-title": "BMJ Open"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib283",
+            "doi-asserted-by": "crossref",
+            "first-page": "487",
+            "DOI": "10.1186/1471-2458-12-487",
+            "article-title": "Unintentional injury mortality in India, 2005: nationally representative mortality survey of 1·1 million homes",
+            "volume": "12",
+            "author": "Jagnoor",
+            "year": "2012",
+            "journal-title": "BMC Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib284",
+            "doi-asserted-by": "crossref",
+            "first-page": "1807",
+            "DOI": "10.1016/S0140-6736(12)60358-4",
+            "article-title": "Cancer mortality in India: a nationally representative survey",
+            "volume": "379",
+            "author": "Dikshit",
+            "year": "2012",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib285",
+            "doi-asserted-by": "crossref",
+            "first-page": "151",
+            "DOI": "10.1136/ip.2010.029934",
+            "article-title": "Unintentional injury deaths among children younger than 5 years of age in India: a nationally representative study",
+            "volume": "17",
+            "author": "Jagnoor",
+            "year": "2011",
+            "journal-title": "Inj Prev"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib287",
+            "doi-asserted-by": "crossref",
+            "first-page": "728",
+            "DOI": "10.1002/bjs.9457",
+            "article-title": "Prevalence of treated and untreated groin hernia in eastern Uganda",
+            "volume": "101",
+            "author": "Löfgren",
+            "year": "2014",
+            "journal-title": "Br J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib288",
+            "doi-asserted-by": "crossref",
+            "first-page": "500",
+            "DOI": "10.1007/s00268-010-0918-1",
+            "article-title": "Validation of the World Health Organization tool for situational analysis to assess emergency and essential surgical care at district hospitals in Ghana",
+            "volume": "35",
+            "author": "Osen",
+            "year": "2011",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib289",
+            "doi-asserted-by": "crossref",
+            "first-page": "2195",
+            "DOI": "10.1007/s00268-014-2522-2",
+            "article-title": "Inter-rater reliability of the PIPES tool: validation of a surgical capacity index for use in resource-limited settings",
+            "volume": "38",
+            "author": "Markin",
+            "year": "2014",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib290",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/s00268-014-2938-8",
+            "article-title": "Moving from data collection to application: a systematic literature review of surgical capacity assessments and their applications",
+            "author": "Carlson",
+            "year": "2015",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib291",
+            "author": "Ekanem"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib292",
+            "doi-asserted-by": "crossref",
+            "first-page": "713",
+            "DOI": "10.1016/j.injury.2013.02.003",
+            "article-title": "Trauma registries in developing countries: a review of the published experience",
+            "volume": "44",
+            "author": "O'Reilly",
+            "year": "2013",
+            "journal-title": "Injury"
+          },
+          {
+            "issue": "suppl 1",
+            "key": "10.1016/S0140-6736(15)60160-X_bib293",
+            "first-page": "97",
+            "article-title": "Indicators of the quality of trauma care and the performance of trauma systems",
+            "volume": "99",
+            "author": "Gruen",
+            "year": "2012",
+            "journal-title": "Br J Surg"
+          },
+          {
+            "issue": "suppl 4",
+            "key": "10.1016/S0140-6736(15)60160-X_bib294",
+            "doi-asserted-by": "crossref",
+            "first-page": "S70",
+            "DOI": "10.1016/S0020-1383(13)70216-X",
+            "article-title": "Establishing hospital-based trauma registry systems: lessons from Kenya",
+            "volume": "44",
+            "author": "Stevens",
+            "year": "2013",
+            "journal-title": "Injury"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib295",
+            "first-page": "807",
+            "article-title": "Trauma registry—needs and challenges in developing countries",
+            "volume": "59",
+            "author": "Mehmood",
+            "year": "2009",
+            "journal-title": "J Pak Med Assoc"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib299",
+            "doi-asserted-by": "crossref",
+            "first-page": "1370",
+            "DOI": "10.1016/S0140-6736(07)61579-7",
+            "article-title": "Generation of political priority for global health initiatives: a framework and case study of maternal mortality",
+            "volume": "370",
+            "author": "Shiffman",
+            "year": "2007",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib300",
+            "doi-asserted-by": "crossref",
+            "first-page": "623",
+            "DOI": "10.2105/AJPH.2012.300919",
+            "article-title": "Generating political priority for neonatal mortality reduction in Bangladesh",
+            "volume": "103",
+            "author": "Shiffman",
+            "year": "2013",
+            "journal-title": "Am J Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib301",
+            "doi-asserted-by": "crossref",
+            "first-page": "1113",
+            "DOI": "10.1016/S0140-6736(09)61161-2",
+            "article-title": "Standardised metrics for global surgical surveillance",
+            "volume": "374",
+            "author": "Weiser",
+            "year": "2009",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib302",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1007/s00268-008-9799-y",
+            "article-title": "Population health metrics for surgery: effective coverage of surgical services in low-income and middle-income countries",
+            "volume": "33",
+            "author": "Ozgediz",
+            "year": "2009",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib303",
+            "doi-asserted-by": "crossref",
+            "first-page": "2507",
+            "DOI": "10.1007/s00268-013-2182-7",
+            "article-title": "A square peg in a round hole? Challenges with DALY-based “burden of disease” calculations in surgery and a call for alternative metrics",
+            "volume": "37",
+            "author": "Gosselin",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib304",
+            "doi-asserted-by": "crossref",
+            "first-page": "483",
+            "DOI": "10.1016/j.ijsu.2014.01.021",
+            "article-title": "Burden, need, or backlog: a call for improved metrics for the global burden of surgical disease",
+            "volume": "12",
+            "author": "Poenaru",
+            "year": "2014",
+            "journal-title": "Int J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib307",
+            "doi-asserted-by": "crossref",
+            "first-page": "25",
+            "DOI": "10.1146/annurev.publhealth.24.012902.141012",
+            "article-title": "GIS and health care",
+            "volume": "24",
+            "author": "McLafferty",
+            "year": "2003",
+            "journal-title": "Annu Rev Public Health"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib308",
+            "doi-asserted-by": "crossref",
+            "first-page": "200",
+            "DOI": "10.1186/1472-6963-9-200",
+            "article-title": "Comparison of distance measures in spatial analytical modeling for health service planning",
+            "volume": "9",
+            "author": "Shahid",
+            "year": "2009",
+            "journal-title": "BMC Health Serv Res"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib309",
+            "doi-asserted-by": "crossref",
+            "first-page": "15",
+            "DOI": "10.1186/1476-072X-11-15",
+            "article-title": "Measuring geographic access to health care: raster and network-based methods",
+            "volume": "11",
+            "author": "Delamater",
+            "year": "2012",
+            "journal-title": "Int J Health Geogr"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib310",
+            "article-title": "Perioperative mortality rate (POMR): A global indicator of access to safe surgery and anaesthesia",
+            "author": "Watters",
+            "year": "2014",
+            "journal-title": "World J Surg"
+          },
+          {
+            "issue": "Global Surgery special issue",
+            "key": "10.1016/S0140-6736(15)60160-X_bib311",
+            "doi-asserted-by": "crossref",
+            "first-page": "S29",
+            "DOI": "10.1016/S0140-6736(15)60824-8",
+            "article-title": "Use and definitions of perioperative mortality rates in low-income and middle-income countries: a systematic review",
+            "volume": "385",
+            "author": "Ng-Kamstra",
+            "year": "2015",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib312",
+            "unstructured": "Ariyaratnam R, Palmqvist CL, Hider P, et al. Towards a standard approach to measurement and reporting of peri-operative mortality rate as a global surgical indicator. Surgery (in press)."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib313",
+            "doi-asserted-by": "crossref",
+            "first-page": "1286",
+            "DOI": "10.1016/S0140-6736(13)61046-6",
+            "article-title": "Mapping of available health research and development data: what's there, what's missing, and what role is there for a global observatory?",
+            "volume": "382",
+            "author": "Røttingen",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib314",
+            "author": "Moran"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib317",
+            "doi-asserted-by": "crossref",
+            "first-page": "488",
+            "DOI": "10.1007/s00268-012-1848-x",
+            "article-title": "Surgery and anesthesia capacity-building in resource-poor settings: description of an ongoing academic partnership in Uganda",
+            "volume": "37",
+            "author": "Lipnick",
+            "year": "2013",
+            "journal-title": "World J Surg"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib318",
+            "series-title": "Global Action Plan for the Prevention and Conrol of Noncommunicalbe Diseases 2013–2020",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib319",
+            "first-page": "17",
+            "article-title": "Major and minor surgery output at district level in Kenya: review and issues in need of further research",
+            "volume": "9",
+            "author": "Nordberg",
+            "year": "2002",
+            "journal-title": "Afr J Health Sci"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib320",
+            "first-page": "206",
+            "article-title": "Output of major surgery in developing countries. Towards a quantitative evaluation and planning tool",
+            "volume": "47",
+            "author": "Nordberg",
+            "year": "1995",
+            "journal-title": "Trop Geogr Med"
+          },
+          {
+            "issue": "suppl",
+            "key": "10.1016/S0140-6736(15)60160-X_bib321",
+            "first-page": "1",
+            "article-title": "Surgical operations in eastern Africa: a review with conclusions regarding the need for further research",
+            "volume": "67",
+            "author": "Nordberg",
+            "year": "1990",
+            "journal-title": "East Afr Med J"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib115",
+            "doi-asserted-by": "crossref",
+            "first-page": "66",
+            "DOI": "10.1067/msy.1999.98664",
+            "article-title": "The incidence and nature of surgical adverse events in Colorado and Utah in 1992",
+            "volume": "126",
+            "author": "Gawande",
+            "year": "1999",
+            "journal-title": "Surgery"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib249",
+            "doi-asserted-by": "crossref",
+            "first-page": "795",
+            "DOI": "10.1016/S0140-6736(11)60783-6",
+            "article-title": "The effect of mobile phone text-message reminders on Kenyan health workers' adherence to malaria treatment guidelines: a cluster randomised trial",
+            "volume": "378",
+            "author": "Zurovac",
+            "year": "2011",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib267",
+            "unstructured": "Sadana RM, Lopez CD, Murray AD, Christopher JL, Iburg KM. Comparative analyses of more than 50 household surveys on health status_GPE Discussion Paper Series: No.15. Geneva: World Health Organization."
+          },
+          {
+            "key": "10.1016/S0140-6736(15)60160-X_bib316",
+            "doi-asserted-by": "crossref",
+            "first-page": "1699",
+            "DOI": "10.1016/S0277-9536(01)00338-0",
+            "article-title": "Research capacity strengthening in the South",
+            "volume": "54",
+            "author": "Nchinda",
+            "year": "2002",
+            "journal-title": "Soc Sci Med"
+          }
+        ],
+        "container-title": [
+          "The Lancet"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S014067361560160X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S014067361560160X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2025-09-26T00:07:31Z",
+          "timestamp": 1758845251000
+        },
+        "score": 29.74811,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S014067361560160X"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "references-count": 288,
+        "journal-issue": {
+          "issue": "9993",
+          "published-print": {
+            "date-parts": [
+              [
+                2015,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S014067361560160X"
+        ],
+        "URL": "https://doi.org/10.1016/s0140-6736(15)60160-x",
+        "ISSN": [
+          "0140-6736"
+        ],
+        "issn-type": [
+          {
+            "value": "0140-6736",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "The Lancet",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/S0140-6736(15)60160-X",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "https://doi.org/10.1016/S0140-6736(15)60465-2",
+            "name": "associatedlink",
+            "label": "CrossRef DOI link to the associated document"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2015 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

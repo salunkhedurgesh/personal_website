@@ -1,0 +1,120 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1083962,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              30
+            ]
+          ],
+          "date-time": "2026-03-30T16:25:07Z",
+          "timestamp": 1774887907937,
+          "version": "3.50.1"
+        },
+        "publisher-location": "New York",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "052179207X",
+            "type": "print"
+          },
+          {
+            "value": "9780521792073",
+            "type": "print"
+          },
+          {
+            "value": "0521796490",
+            "type": "print"
+          },
+          {
+            "value": "9780521796491",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1017/ccol052179207x.002",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2008-12-15T05:02:04Z",
+          "timestamp": 1229317324000
+        },
+        "page": "31-47",
+        "source": "Crossref",
+        "is-referenced-by-count": 26,
+        "title": [
+          "Investigating Causal Relations by Econometric Models and Cross-Spectral Methods"
+        ],
+        "prefix": "10.1017",
+        "author": [
+          {
+            "given": "C. W. J.",
+            "family": "Granger",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "56",
+        "container-title": [
+          "Essays in Econometrics vol II: Collected Papers of Clive W. J. Granger"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2008,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2008-12-15T04:29:09Z",
+          "timestamp": 1229315349000
+        },
+        "score": 32.481846,
+        "resource": {
+          "primary": {
+            "URL": "http://cco.cambridge.org/extract?id=ccol052179207x_CCOL052179207XA004"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "ISBN": [
+          "052179207X",
+          "9780521792073",
+          "0521796490",
+          "9780521796491"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/ccol052179207x.002"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

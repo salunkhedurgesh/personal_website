@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 415205,
+    "items": [
+      {
+        "institution": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02en5vm52",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Sorbonne université"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T02:11:21Z",
+          "timestamp": 1775527881034,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Agence Bibliographique de l'Enseignement Supérieur",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:title>Explicabilité des systèmes à base de règles possibilistes et floues</jats:title>\n                <jats:p xml:lang=\"fr\">Aujourd'hui, les progrès de l'Intelligence Artificielle (IA) ont conduit à l'émergence de systèmes capables d'automatiser des processus complexes, en utilisant des modèles qui peuvent être difficiles à comprendre par les humains. Lorsque les humains utilisent ces systèmes d'IA, il est bien connu qu'ils veulent comprendre leurs comportements et leurs actions, car ils ont davantage confiance dans les systèmes qui peuvent expliquer leurs choix, leurs hypothèses et leurs raisonnements. La capacité d'explication des systèmes d'IA est devenue une exigence des utilisateurs, en particulier dans les environnements à risque pour l'homme, comme les véhicules autonomes ou la médecine. Cette exigence reflète le récent regain d'intérêt pour l'intelligence artificielle eXplicable (abrégée en XAI), un domaine de recherche qui vise à développer des systèmes d'IA capables d'expliquer leurs résultats d'une manière compréhensible pour les humains. Dans ce contexte, nous introduisons des paradigmes explicatifs pour deux types de systèmes d'IA : un système à base de règles possibilistes (où les règles encodent des informations négatives) et un système à base de règles floues composé de règles à possibilité, qui encodent des informations positives. Nous développons une interface possibiliste entre l'apprentissage et le raisonnement basé sur des règles si-alors qui établit des points de rencontre entre Knowledge Representation and Reasoning (KRR) et Machine Learning (ML). Cette interface est construite en généralisant le système d'équations min-max de Henri Farreny et Henri Prade, qui a été développé pour l'explicabilité des systèmes à base de règles possibilistes. Dans le cas d'une cascade, c'est-à-dire lorsqu'un système utilise deux ensembles de règles possibilistes chaînés, nous montrons que nous pouvons représenter son système d'équations associé par un réseau de neurones min-max explicite. Cette interface peut permettre le développement de méthodes d'apprentissage possibilistes qui seraient cohérentes avec le raisonnement à base de règles. Pour XAI, nous introduisons des méthodes pour justifier les résultats d'inférence des systèmes à base de règles possibilistes et floues. Nos méthodes conduisent à former deux types d'explications d'un résultat d'inférence de ces systèmes : sa justification et son caractère inattendu (un ensemble d'énoncés logiques qui ne sont pas impliqués dans la détermination du résultat considéré tout en étant liés à celui-ci). Enfin, nous proposons une représentation graphique de l'explication d'un résultat d'inférence d'un système à base de règles possibilistes ou floues en termes de graphes conceptuels. Pour un résultat d'inférence, nous représentons sa justification, son caractère inattendu et une combinaison de sa justification et de son caractère inattendu.</jats:p>",
+        "DOI": "10.70675/a0a60f05z4d42z4169z92cfz1b841e53be1a",
+        "type": "dissertation",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T01:33:27Z",
+          "timestamp": 1775525607000
+        },
+        "approved": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              27
+            ]
+          ]
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Explainability of possibilistic and fuzzy rule-based systems"
+        ],
+        "prefix": "10.70675",
+        "author": [
+          {
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5135-8924",
+            "authenticated-orcid": false,
+            "given": "Ismaïl",
+            "family": "Baaj",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/02en5vm52",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Sorbonne université"
+              }
+            ]
+          }
+        ],
+        "member": "51494",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T01:33:29Z",
+          "timestamp": 1775525609000
+        },
+        "score": 40.810196,
+        "degree": [
+          "Doctorat ès Informatique",
+          "PhD"
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://theses.fr/2022SORUS021"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "2022SORUS021"
+        ],
+        "URL": "https://doi.org/10.70675/a0a60f05z4d42z4169z92cfz1b841e53be1a"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

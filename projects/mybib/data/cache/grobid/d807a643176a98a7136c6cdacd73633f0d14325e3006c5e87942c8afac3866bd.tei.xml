@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">UvA-DARE (Digital Academic Repository) The Construction of 3D Conformal Motions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-03-28">28 March 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Leo</forename><surname>Dorst</surname></persName>
+							<email>l.dorst@uva.nl</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Vision Group</orgName>
+								<orgName type="institution">University of Amsterdam</orgName>
+								<address>
+									<addrLine>Secretariat, Singel 425</addrLine>
+									<postCode>1012 WP</postCode>
+									<settlement>Amsterdam</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Informatics Institute</orgName>
+								<orgName type="institution">University of Amsterdam</orgName>
+								<address>
+									<settlement>Amsterdam</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">UvA-DARE (Digital Academic Repository) The Construction of 3D Conformal Motions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-03-28">28 March 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FF14A8F326FD56BA40A989D448C824C4</idno>
+					<idno type="DOI">10.1007/s11786-016-0250-8</idno>
+					<note type="submission">Received: 10 June 2015 / Revised: 11 February 2016 / Accepted: 22 March 2016 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Conformal mappings</term>
+					<term>Cyclides</term>
+					<term>Geometric algebra</term>
+					<term>CGA</term>
+					<term>Bivector decomposition</term>
+					<term>Rotor logarithm Mathematics Subject Classification 15A66</term>
+					<term>30C30</term>
+					<term>30C35</term>
+					<term>53A30</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>You will be contacted as soon as possible.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

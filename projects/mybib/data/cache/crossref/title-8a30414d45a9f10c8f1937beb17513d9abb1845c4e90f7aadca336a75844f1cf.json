@@ -1,0 +1,295 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 947203,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              11
+            ]
+          ],
+          "date-time": "2025-11-11T12:27:10Z",
+          "timestamp": 1762864030276
+        },
+        "reference-count": 12,
+        "publisher": "Elsevier BV",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2002,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2002-04-01T00:00:00Z",
+              "timestamp": 1017619200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0094-114x(01)00081-7",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2002-10-14T22:58:33Z",
+          "timestamp": 1034636313000
+        },
+        "page": "351-374",
+        "source": "Crossref",
+        "is-referenced-by-count": 20,
+        "title": [
+          "On the kinetostatic optimization of revolute-coupled planar manipulators"
+        ],
+        "prefix": "10.1016",
+        "volume": "37",
+        "author": [
+          {
+            "given": "D",
+            "family": "Chablat",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "J",
+            "family": "Angeles",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "27–28",
+            "key": "10.1016/S0094-114X(01)00081-7_BIB1",
+            "first-page": "5",
+            "article-title": "Details of kinematics of manipulators with the method of volumes",
+            "author": "Vinogradov",
+            "year": "1971",
+            "journal-title": "Mekh. Mashin"
+          },
+          {
+            "key": "10.1016/S0094-114X(01)00081-7_BIB2",
+            "doi-asserted-by": "crossref",
+            "first-page": "665",
+            "DOI": "10.1115/1.3254968",
+            "article-title": "The workspace of a mechanical manipulator",
+            "author": "Kumar",
+            "year": "1981",
+            "journal-title": "ASME J. Mech. Design"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/S0094-114X(01)00081-7_BIB3",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/027836498500400201",
+            "article-title": "Manipulability of robotic mechanisms",
+            "volume": "4",
+            "author": "Yoshikawa",
+            "year": "1985",
+            "journal-title": "Int. J. Robotics Res."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/S0094-114X(01)00081-7_BIB4",
+            "doi-asserted-by": "crossref",
+            "first-page": "1081",
+            "DOI": "10.1177/027836499801701005",
+            "article-title": "A practical quality index based on the octahedral manipulator",
+            "volume": "17",
+            "author": "Lee",
+            "year": "1998",
+            "journal-title": "Int. J. Robotic Res."
+          },
+          {
+            "key": "10.1016/S0094-114X(01)00081-7_BIB5",
+            "series-title": "Fundamentals of Robotic Mechanical Systems",
+            "author": "Angeles",
+            "year": "1997"
+          },
+          {
+            "key": "10.1016/S0094-114X(01)00081-7_BIB6",
+            "series-title": "Matrix Computations",
+            "author": "Golub",
+            "year": "1989"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/S0094-114X(01)00081-7_BIB7",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1177/027836498200100102",
+            "article-title": "Articulated hands: force control and kinematic issues",
+            "volume": "1",
+            "author": "Salisbury",
+            "year": "1982",
+            "journal-title": "Int. J. Robotics Res."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/S0094-114X(01)00081-7_BIB8",
+            "doi-asserted-by": "crossref",
+            "first-page": "560",
+            "DOI": "10.1177/027836499201100605",
+            "article-title": "Kinematic isotropy and the conditioning index of serial manipulators",
+            "volume": "11",
+            "author": "Angeles",
+            "year": "1992",
+            "journal-title": "Int. J. Robotics Res."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/S0094-114X(01)00081-7_BIB9",
+            "doi-asserted-by": "crossref",
+            "first-page": "43",
+            "DOI": "10.1177/027836498800700204",
+            "article-title": "Optimal kinematic design of 6R manipulator",
+            "volume": "7",
+            "author": "Paden",
+            "year": "1988",
+            "journal-title": "Int. J. Robotics Res."
+          },
+          {
+            "key": "10.1016/S0094-114X(01)00081-7_BIB10",
+            "doi-asserted-by": "crossref",
+            "first-page": "21",
+            "DOI": "10.1007/BF01254006",
+            "article-title": "The mechanical design of a seven-axes manipulator with kinematic isotropy",
+            "volume": "14",
+            "author": "Ranjbaran",
+            "year": "1995",
+            "journal-title": "J. Intell. Robotic Syst."
+          },
+          {
+            "key": "10.1016/S0094-114X(01)00081-7_BIB11",
+            "series-title": "Theorical Kinematics",
+            "author": "Bottema",
+            "year": "1979"
+          },
+          {
+            "key": "10.1016/S0094-114X(01)00081-7_BIB12",
+            "series-title": "Computational Methods in Mechanical Systems",
+            "first-page": "233",
+            "volume": "vol. 161",
+            "author": "Nielsen",
+            "year": "1998"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X01000817?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X01000817?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2019-05-03T07:59:01Z",
+          "timestamp": 1556870341000
+        },
+        "score": 34.72867,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X01000817"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2002,
+              4
+            ]
+          ]
+        },
+        "references-count": 12,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2002,
+                4
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0094114X01000817"
+        ],
+        "URL": "https://doi.org/10.1016/s0094-114x(01)00081-7",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2002,
+              4
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

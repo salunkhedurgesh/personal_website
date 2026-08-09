@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Dynamical System Approach to Motion and Force Generation in Contact Tasks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><roleName>Mahdi Khoramshahi</roleName><forename type="first">Walid</forename><surname>Amanhoud</surname></persName>
+							<email>walid.amanhoud@epfl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">LASA Laboratory</orgName>
+								<orgName type="institution">Ecole Polytechnique Federal de Lausanne (EPFL)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aude</forename><surname>Billard</surname></persName>
+							<email>aude.billard@epfl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">LASA Laboratory</orgName>
+								<orgName type="institution">Ecole Polytechnique Federal de Lausanne (EPFL)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Dynamical System Approach to Motion and Force Generation in Contact Tasks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">25D88D8224CC80057AE59395EE3856FD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Many tasks require the robot to enter in contact with surfaces, be it to take support, to polish or to grasp an object. It is crucial that the robot controls forces both upon making contact and while in contact. While many solutions exist to control for contact, none offer the required robustness to adapt to real-world uncertainties, such as sudden displacement of the object prior and once in contact. To adapt to such disturbances require to re-plan on the fly both the trajectory and the force. Dynamical systems (DS) offer a framework for instant re-planning of trajectories. They are however limited to control of motions. We extend this framework here to enable generating contact forces and trajectories through DS. The framework allows also to modulate the impedance so as to show rigidity to maintain contact, and compliance to ensure safe interaction with humans. We validate the approach in single and dual arm setting using KUKA LWR 4+ robotic arms. We show that the approach allows 1) to make smooth contact while applying large forces, 2) to maintain desired contact force when scanning non-linear surfaces, even when the surface is moved, and 3) to grasp and lift smoothly an object in the air, and to re-balance forces on the fly to maintain the grasp even when subjected to strong external disturbances.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,1311 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4784632,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2026-05-02T10:02:44Z",
+          "timestamp": 1777716164991,
+          "version": "3.51.4"
+        },
+        "reference-count": 169,
+        "publisher": "SAGE Publications",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  9,
+                  13
+                ]
+              ],
+              "date-time": "2024-09-13T00:00:00Z",
+              "timestamp": 1726185600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  9,
+                  13
+                ]
+              ],
+              "date-time": "2024-09-13T00:00:00Z",
+              "timestamp": 1726185600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+          }
+        ],
+        "funder": [
+          {
+            "name": "euROBIN",
+            "award": [
+              "101070596"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "101070596"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "journals.sagepub.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Transfer learning is a conceptually-enticing paradigm in pursuit of truly intelligent embodied agents. The core concept—reusing prior knowledge to learn in and from novel situations—is successfully leveraged by humans to handle novel situations. In recent years, transfer learning has received renewed interest from the community from different perspectives, including imitation learning, domain adaptation, and transfer of experience from simulation to the real world, among others. In this paper, we unify the concept of transfer learning in robotics and provide the first taxonomy of its kind considering the key concepts of robot, task, and environment. Through a review of the promises and challenges in the field, we identify the need of transferring at different abstraction levels, the need of quantifying the transfer gap and the quality of transfer, as well as the dangers of negative transfer. Via this position paper, we hope to channel the effort of the community towards the most significant roadblocks to realize the full potential of transfer learning in robotics.</jats:p>",
+        "DOI": "10.1177/02783649241273565",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              14
+            ]
+          ],
+          "date-time": "2024-09-14T00:17:04Z",
+          "timestamp": 1726273024000
+        },
+        "page": "465-485",
+        "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 34,
+        "title": [
+          "Transfer learning in robotics: An upcoming breakthrough? A review of promises and challenges"
+        ],
+        "prefix": "10.1177",
+        "volume": "44",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3565-9414",
+            "authenticated-orcid": false,
+            "given": "Noémie",
+            "family": "Jaquier",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Karlsruhe Institute of Technology"
+              }
+            ]
+          },
+          {
+            "given": "Michael C",
+            "family": "Welle",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "KTH Royal Institute of Technology"
+              }
+            ]
+          },
+          {
+            "given": "Andrej",
+            "family": "Gams",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jožef Stefan Institute"
+              }
+            ]
+          },
+          {
+            "given": "Kunpeng",
+            "family": "Yao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ecole Polytechnique Fédérale de Lausanne"
+              }
+            ]
+          },
+          {
+            "given": "Bernardo",
+            "family": "Fichera",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ecole Polytechnique Fédérale de Lausanne"
+              }
+            ]
+          },
+          {
+            "given": "Aude",
+            "family": "Billard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ecole Polytechnique Fédérale de Lausanne"
+              }
+            ]
+          },
+          {
+            "given": "Aleš",
+            "family": "Ude",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jožef Stefan Institute"
+              },
+              {
+                "name": "University of Ljubljana"
+              }
+            ]
+          },
+          {
+            "given": "Tamim",
+            "family": "Asfour",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Karlsruhe Institute of Technology"
+              }
+            ]
+          },
+          {
+            "given": "Danica",
+            "family": "Kragic",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "KTH Royal Institute of Technology"
+              }
+            ]
+          }
+        ],
+        "member": "179",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              13
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_3_4_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3386569.3392462"
+          },
+          {
+            "key": "e_1_3_4_3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574722000625"
+          },
+          {
+            "key": "e_1_3_4_4_1",
+            "unstructured": "Ahn M Brohan A Brown N et al. (2022) Do as I can not as I say: grounding language in robotic affordances. https://arxiv.org/abs/2204.01691"
+          },
+          {
+            "key": "e_1_3_4_5_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICHR.2006.321380"
+          },
+          {
+            "key": "e_1_3_4_6_1",
+            "unstructured": "Autodesk INC (2019) Maya."
+          },
+          {
+            "key": "e_1_3_4_7_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1037/0033-2909.128.4.612"
+          },
+          {
+            "key": "e_1_3_4_8_1",
+            "first-page": "501",
+            "volume-title": "International Conference on Machine Learning",
+            "author": "Barreto A",
+            "year": "2018",
+            "unstructured": "Barreto A, Borsa D, Quan J, et al. (2018) Transfer in deep reinforcement learning using successor features and generalised policy improvement. In: International Conference on Machine Learning. PMLR, pp. 501–510."
+          },
+          {
+            "key": "e_1_3_4_9_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICPR48806.2021.9412010"
+          },
+          {
+            "key": "e_1_3_4_10_1",
+            "unstructured": "Bechtle S Righetti L Meier F (2022) Meta learning via learned loss. https://arxiv.org/abs/2204.02210"
+          },
+          {
+            "key": "e_1_3_4_11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2019.8794273"
+          },
+          {
+            "key": "e_1_3_4_12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10994-009-5152-4"
+          },
+          {
+            "key": "e_1_3_4_13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2019.8794310"
+          },
+          {
+            "key": "e_1_3_4_14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-30301-5_60"
+          },
+          {
+            "key": "e_1_3_4_15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3115/1610075.1610094"
+          },
+          {
+            "key": "e_1_3_4_16_1",
+            "unstructured": "Bommasani R Hudson DA Adeli E et al. (2021) On the opportunities and risks of foundation models. https://arxiv.org/abs/2108.07258."
+          },
+          {
+            "key": "e_1_3_4_17_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Bonilla EV",
+            "year": "2007",
+            "unstructured": "Bonilla EV, Chai K, Williams C (2007) Multi-task Gaussian process prediction. In: Neural Information Processing Systems (NeurIPS), Vol. volume 20. https://papers.nips.cc/paper_files/paper/2007/hash/66368270ffd51418ec58bd793f2d9b1b-Abstract.html"
+          },
+          {
+            "key": "e_1_3_4_18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2018.8460875"
+          },
+          {
+            "key": "e_1_3_4_19_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2018.2876782"
+          },
+          {
+            "key": "e_1_3_4_20_1",
+            "volume-title": "Design, implementation and testing of a data glove with force feedback for virtual and real objects telemanipulation, PhD Thesis",
+            "author": "Bouzit M",
+            "year": "1996",
+            "unstructured": "Bouzit M (1996) Design, implementation and testing of a data glove with force feedback for virtual and real objects telemanipulation, PhD Thesis. Laboratoire de Robotique de Paris, University of Pierre Et Marie Curie."
+          },
+          {
+            "key": "e_1_3_4_21_1",
+            "unstructured": "Brohan A Brown N Carbajal J et al. (2023a) RT-2: vision-language-action models transfer web knowledge to robotic control. https://arxiv.org/abs/2307.15818."
+          },
+          {
+            "key": "e_1_3_4_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2023.XIX.025"
+          },
+          {
+            "key": "e_1_3_4_23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-60916-4_7"
+          },
+          {
+            "key": "e_1_3_4_24_1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Calli B Singh A Walsman A et al. (2015) The ycb object and model set: towards common benchmarks for manipulation research. In: 2015 International Conference on Advanced Robotics (ICAR). IEEE 510–517. DOI: 10.1109/ICAR.2015.7251504.",
+            "DOI": "10.1109/ICAR.2015.7251504"
+          },
+          {
+            "key": "e_1_3_4_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.plrev.2010.02.001"
+          },
+          {
+            "key": "e_1_3_4_26_1",
+            "first-page": "9912",
+            "article-title": "Unsupervised learning of visual features by contrasting cluster assignments",
+            "volume": "33",
+            "author": "Caron M",
+            "year": "2020",
+            "unstructured": "Caron M, Misra I, Mairal J, et al. (2020) Unsupervised learning of visual features by contrasting cluster assignments. Neural Information Processing Systems (NeurIPS) 33: 9912–9924. https://proceedings.neurips.cc/paper_files/paper/2020/hash/70feb62b69f16e0238f741fab228fec2-Abstract.html",
+            "journal-title": "Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "e_1_3_4_27_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cer D Yang Y Kong S et al. (2018) Universal sentence encoder. https://arxiv.org/abs/1803.11175.",
+            "DOI": "10.18653/v1/D18-2029"
+          },
+          {
+            "key": "e_1_3_4_28_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Chen T",
+            "year": "2018",
+            "unstructured": "Chen T, Murali A, Gupta A (2018) Hardware conditioned policies for multi-robot transfer learning. In: Neural Information Processing Systems (NeurIPS), Vol. volume 31. https://proceedings.neurips.cc/paper_files/paper/2018/hash/b8cfbf77a3d250a4523ba67a65a7d031-Abstract.html"
+          },
+          {
+            "key": "e_1_3_4_29_1",
+            "first-page": "1597",
+            "article-title": "A simple framework for contrastive learning of visual representations",
+            "volume": "119",
+            "author": "Chen T",
+            "year": "2020",
+            "unstructured": "Chen T, Kornblith S, Norouzi M, et al. (2020) A simple framework for contrastive learning of visual representations. Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research 119: 1597–1607. https://proceedings.mlr.press/v119/chen20j.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_30_1",
+            "unstructured": "Chen M Gao Z Zhao S et al. (2023a) A study of unsupervised evaluation metrics for practical and automatic domain adaptation. https://arxiv.org/abs/2308.00287"
+          },
+          {
+            "key": "e_1_3_4_31_1",
+            "unstructured": "Chen X Djolonga J Padlewski P et al. (2023b) PaLI-X: on scaling up a multilingual vision and language model. https://arxiv.org/abs/2305.18565."
+          },
+          {
+            "key": "e_1_3_4_32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2019.8793591"
+          },
+          {
+            "key": "e_1_3_4_33_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2016.350"
+          },
+          {
+            "key": "e_1_3_4_34_1",
+            "unstructured": "Coumans E Bai Y (2016) Pybullet a python module for physics simulation for games. https://pybullet.org/"
+          },
+          {
+            "key": "e_1_3_4_35_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2008.4651104"
+          },
+          {
+            "key": "e_1_3_4_36_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.7551/mitpress/3676.001.0001"
+          },
+          {
+            "key": "e_1_3_4_37_1",
+            "unstructured": "Deleu T Bengio Y (2018) The effects of negative adaptation in model-agnostic meta-learning. https://arxiv.org/abs/1812.02159."
+          },
+          {
+            "key": "e_1_3_4_38_1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Deng J Dong W Socher R et al. (2009) Imagenet: a large-scale hierarchical image database. In: IEEE Conf. On Computer Vision and Pattern Recognition (CVPR) 248–255. DOI: 10.1109/CVPR.2009.5206848.",
+            "DOI": "10.1109/CVPR.2009.5206848"
+          },
+          {
+            "key": "e_1_3_4_39_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2015.2510165"
+          },
+          {
+            "key": "e_1_3_4_40_1",
+            "unstructured": "Driess D Xia F Sajjadi MSM et al. (2023) PaLM-E: an embodied multimodal language model. arXiv preprint 2303.03378 URL https://arxiv.org/abs/2303.03378"
+          },
+          {
+            "key": "e_1_3_4_41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2022.3152865"
+          },
+          {
+            "key": "e_1_3_4_42_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1014052.1014067"
+          },
+          {
+            "key": "e_1_3_4_43_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2010.03.007"
+          },
+          {
+            "key": "e_1_3_4_44_1",
+            "first-page": "1126",
+            "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+            "volume": "70",
+            "author": "Finn C",
+            "year": "2017",
+            "unstructured": "Finn C, Abbeel P, Levine S (2017) Model-agnostic meta-learning for fast adaptation of deep networks. Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research 70: 1126–1135. https://proceedings.mlr.press/v70/finn17a.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_45_1",
+            "unstructured": "Gadre SY Wortsman M Ilharco G et al. (2022) Clip on wheels: zero-shot object navigation as object localization and exploration. https://arxiv.org/abs/2203.10421."
+          },
+          {
+            "key": "e_1_3_4_46_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52729.2023.00661"
+          },
+          {
+            "key": "e_1_3_4_47_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2020.2981604"
+          },
+          {
+            "key": "e_1_3_4_48_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pone.0183784"
+          },
+          {
+            "key": "e_1_3_4_49_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS51168.2021.9636628"
+          },
+          {
+            "key": "e_1_3_4_50_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364913490533"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_3_4_51_1",
+            "first-page": "723",
+            "article-title": "A kernel two-sample test",
+            "volume": "13",
+            "author": "Gretton A",
+            "year": "2012",
+            "unstructured": "Gretton A, Borgwardt KM, Rasch MJ, et al. (2012) A kernel two-sample test. Journal of Machine Learning Research 13(1): 723–773. https://jmlr.csail.mit.edu/papers/v13/gretton12a.html",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_52_1",
+            "volume-title": "Intl. Conf. On Learning Representations (ICLR)",
+            "author": "Gu A",
+            "year": "2019",
+            "unstructured": "Gu A, Sala F, Gunel B, et al. (2019) Learning mixed-curvature representations in products of model spaces. In: Intl. Conf. On Learning Representations (ICLR). https://openreview.net/pdf?id=HJxeWnCcF7."
+          },
+          {
+            "key": "e_1_3_4_53_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR42600.2020.00975"
+          },
+          {
+            "key": "e_1_3_4_54_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/s1364-6613(00)01661-2"
+          },
+          {
+            "key": "e_1_3_4_55_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TASE.2021.3064065"
+          },
+          {
+            "key": "e_1_3_4_56_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Huang J",
+            "year": "2006",
+            "unstructured": "Huang J, Gretton A, Borgwardt K, et al. (2006) Correcting sample selection bias by unlabeled data. In: Neural Information Processing Systems (NeurIPS), Vol. volume 19. https://papers.nips.cc/paper_files/paper/2006/hash/a2186aa7c086b46ad4e8bf81e2a3a19b-Abstract.html"
+          },
+          {
+            "key": "e_1_3_4_57_1",
+            "first-page": "9118",
+            "article-title": "Language models as zero-shot planners: extracting actionable knowledge for embodied agents",
+            "volume": "162",
+            "author": "Huang W",
+            "year": "2022",
+            "unstructured": "Huang W, Abbeel P, Pathak D, et al. (2022) Language models as zero-shot planners: extracting actionable knowledge for embodied agents. Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research 162: 9118–9147. https://proceedings.mlr.press/v162/huang22a.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_58_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2002.1014739"
+          },
+          {
+            "key": "e_1_3_4_59_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/NECO_a_00393"
+          },
+          {
+            "key": "e_1_3_4_60_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS45743.2020.9341353"
+          },
+          {
+            "key": "e_1_3_4_61_1",
+            "volume-title": "Intl. Conf. On Machine Learning (ICML)",
+            "author": "Jaquier N",
+            "year": "2024",
+            "unstructured": "Jaquier N, Rozo L, González-Duque M, et al. (2024) Bringing robotics taxonomies to continuous domains via GPLVM on hyperbolic manifolds. In: Intl. Conf. On Machine Learning (ICML). https://openreview.net/forum?id=ndVXXmxSC5"
+          },
+          {
+            "key": "e_1_3_4_62_1",
+            "unstructured": "Jiang J Chen B Fu B et al. (2020) Transfer-learning-library. https://github.com/thuml/Transfer-Learning-Library."
+          },
+          {
+            "key": "e_1_3_4_63_1",
+            "unstructured": "Jiang Y Gupta A Zhang Z et al. (2022) Vima: general robot manipulation with multimodal prompts. https://arxiv.org/abs/2210.03094"
+          },
+          {
+            "key": "e_1_3_4_64_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364912445831"
+          },
+          {
+            "key": "e_1_3_4_65_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSMC.2023.3262954"
+          },
+          {
+            "key": "e_1_3_4_66_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52688.2022.01441"
+          },
+          {
+            "key": "e_1_3_4_67_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2011.2159412"
+          },
+          {
+            "key": "e_1_3_4_68_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/267658.267738"
+          },
+          {
+            "key": "e_1_3_4_69_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS47612.2022.9982127"
+          },
+          {
+            "key": "e_1_3_4_70_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2016.7803346"
+          },
+          {
+            "key": "e_1_3_4_71_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-27005-6_13"
+          },
+          {
+            "key": "e_1_3_4_72_1",
+            "unstructured": "Krizhevsky A (2009) Learning multiple layers of features from tiny images. https://www.cs.toronto.edu/∼kriz/learning-features-2009-TR.pdf"
+          },
+          {
+            "key": "e_1_3_4_73_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2011.05.009"
+          },
+          {
+            "key": "e_1_3_4_74_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1214/aoms/1177729694"
+          },
+          {
+            "key": "e_1_3_4_75_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS47612.2022.9981091"
+          },
+          {
+            "key": "e_1_3_4_76_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/3477.552188"
+          },
+          {
+            "key": "e_1_3_4_77_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1015330.1015382"
+          },
+          {
+            "key": "e_1_3_4_78_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/scirobotics.abc5986"
+          },
+          {
+            "key": "e_1_3_4_79_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2019.2959445"
+          },
+          {
+            "key": "e_1_3_4_80_1",
+            "volume-title": "Conference on Robot Learning (CoRL)",
+            "author": "Li T",
+            "year": "2023",
+            "unstructured": "Li T, Figueroa N (2023) Task generalization with stability guarantees via elastic dynamical system motion policies. In: Conference on Robot Learning (CoRL). PMLR. https://openreview.net/pdf?id=8scj3Y0RLq"
+          },
+          {
+            "key": "e_1_3_4_81_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2012.04.054"
+          },
+          {
+            "key": "e_1_3_4_82_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-10602-1_48"
+          },
+          {
+            "key": "e_1_3_4_83_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52688.2022.01496"
+          },
+          {
+            "key": "e_1_3_4_84_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2022.3188163"
+          },
+          {
+            "key": "e_1_3_4_85_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2018.8462901"
+          },
+          {
+            "key": "e_1_3_4_86_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2020.103515"
+          },
+          {
+            "key": "e_1_3_4_87_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/Humanoids53995.2022.10000095"
+          },
+          {
+            "key": "e_1_3_4_88_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Long M",
+            "year": "2017",
+            "unstructured": "Long M, Cao Z, Wang J, et al. (2017) Learning multiple tasks with multilinear relationship networks. In: Neural Information Processing Systems (NeurIPS), Vol. volume 30. https://papers.nips.cc/paper_files/paper/2017/hash/03e0704b5690a2dee1861dc3ad3316c9-Abstract.html"
+          },
+          {
+            "key": "e_1_3_4_89_1",
+            "unstructured": "Longhini A Moletta M Reichlin A et al. (2022) EDO-Net: learning elastic properties of deformable objects from graph dynamics. https://arxiv.org/abs/2209.08996."
+          },
+          {
+            "key": "e_1_3_4_90_1",
+            "first-page": "7090",
+            "article-title": "Symmetric spaces for graph embeddings: a Finsler-Riemannian approach",
+            "volume": "139",
+            "author": "López F",
+            "year": "2021",
+            "unstructured": "López F, Pozzetti B, Trettel S, et al. (2021) Symmetric spaces for graph embeddings: a Finsler-Riemannian approach. Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research 139: 7090–7101. https://proceedings.mlr.press/v139/lopez21a.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_91_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2016.2525038"
+          },
+          {
+            "key": "e_1_3_4_92_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/scirobotics.aau4984"
+          },
+          {
+            "key": "e_1_3_4_93_1",
+            "unstructured": "Majumdar A Yadav K Arnaud S et al. (2023) Where are we in the search for an artificial visual cortex for embodied intelligence? https://openreview.net/pdf?id=NJtSbIWmt2T"
+          },
+          {
+            "key": "e_1_3_4_94_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2020.XVI.061"
+          },
+          {
+            "key": "e_1_3_4_95_1",
+            "volume-title": "Intl. Conf. On Learning Representations (ICLR)",
+            "author": "Mendez JA",
+            "year": "2021",
+            "unstructured": "Mendez JA, Eaton E (2021) Lifelong learning of compositional structures. In: Intl. Conf. On Learning Representations (ICLR). https://openreview.net/forum?id=ADWd4TJO13G"
+          },
+          {
+            "key": "e_1_3_4_96_1",
+            "volume-title": "Transactions on Machine Learning Research URL",
+            "author": "Mendez JA",
+            "year": "2023",
+            "unstructured": "Mendez JA, Eaton E (2023) How to reuse and compose knowledge for a lifetime of tasks: a survey on continual learning and functional composition. In: Transactions on Machine Learning Research URL. https://openreview.net/forum?id=VynY6Bk03b"
+          },
+          {
+            "key": "e_1_3_4_97_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mittal M Yu C Yu Q et al. (2023) ORBIT: a unified simulation framework for interactive robot learning environments. https://arxiv.org/abs/2301.04195",
+            "DOI": "10.1109/LRA.2023.3270034"
+          },
+          {
+            "key": "e_1_3_4_98_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Montanaro A",
+            "year": "2022",
+            "unstructured": "Montanaro A, Valsesia D, Magli E (2022) Rethinking the compositionality of point clouds through regularization in the hyperbolic space. In: Neural Information Processing Systems (NeurIPS), Vol. volume 35. https://papers.nips.cc/paper_files/paper/2022/hash/da8f9fc2b555d122369f36a9684415c1-Abstract-Conference.html"
+          },
+          {
+            "key": "e_1_3_4_99_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2007.914848"
+          },
+          {
+            "key": "e_1_3_4_100_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/frobt.2022.799893"
+          },
+          {
+            "key": "e_1_3_4_101_1",
+            "first-page": "1303",
+            "article-title": "Learning language-conditioned robot behavior from offline data and crowd-sourced annotation",
+            "volume": "164",
+            "author": "Nair S",
+            "year": "2022",
+            "unstructured": "Nair S, Mitchell E, Chen K, et al. (2022) Learning language-conditioned robot behavior from offline data and crowd-sourced annotation. Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research 164: 1303–1315. https://proceedings.mlr.press/v164/nair22a.html",
+            "journal-title": "Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_102_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Narang Y Storey K Akinola I et al. (2022) Factory: fast contact for robotic assembly. https://arxiv.org/abs/2205.03532",
+            "DOI": "10.15607/RSS.2022.XVIII.035"
+          },
+          {
+            "issue": "181",
+            "key": "e_1_3_4_103_1",
+            "first-page": "1",
+            "article-title": "Curriculum learning for reinforcement learning domains: a framework and survey",
+            "volume": "21",
+            "author": "Narvekar S",
+            "year": "2020",
+            "unstructured": "Narvekar S, Peng B, Leonetti M, et al. (2020) Curriculum learning for reinforcement learning domains: a framework and survey. Journal of Machine Learning Research 21(181): 1–50. https://jmlr.org/papers/volume21/20-212/20-212.pdf",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_104_1",
+            "volume-title": "On First-Order Meta-Learning Algorithms",
+            "author": "Nichol A",
+            "year": "2018",
+            "unstructured": "Nichol A, Achiam J, Schulman J (2018) On First-Order Meta-Learning Algorithms."
+          },
+          {
+            "key": "e_1_3_4_105_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Nickel M",
+            "year": "2017",
+            "unstructured": "Nickel M, Kiela D (2017) Poincaré embeddings for learning hierarchical representations Neural Information Processing Systems (NeurIPS), Vol. volume 30. URL https://papers.nips.cc/paper_files/paper/2017/hash/59dfa2df42d9e3d41f5b02bfc32229dd-Abstract.html."
+          },
+          {
+            "key": "e_1_3_4_106_1",
+            "unstructured": "Nvidia (2023) Universal scene description. https://developer.nvidia.com/usd."
+          },
+          {
+            "key": "e_1_3_4_107_1",
+            "unstructured": "Padalkar A Pooley A Jain A et al. (2023) Open X-Embodiment: robotic learning datasets and RT-X models. https://arxiv.org/abs/2310.08864."
+          },
+          {
+            "key": "e_1_3_4_108_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TKDE.2009.191"
+          },
+          {
+            "key": "e_1_3_4_109_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1772690.1772767"
+          },
+          {
+            "key": "e_1_3_4_110_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/2999792.2999904"
+          },
+          {
+            "key": "e_1_3_4_111_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2022.XVIII.010"
+          },
+          {
+            "key": "e_1_3_4_112_1",
+            "first-page": "17359",
+            "article-title": "The (un)surprising effectiveness of pre-trained vision models for control",
+            "volume": "162",
+            "author": "Parisi S",
+            "year": "2022",
+            "unstructured": "Parisi S, Rajeswaran A, Purushwalkam S, et al. (2022) The (un)surprising effectiveness of pre-trained vision models for control. Intl. Conf. on Machine Learning (ICML) 162: 17359–17371. https://proceedings.mlr.press/v162/parisi22a.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML)"
+          },
+          {
+            "key": "e_1_3_4_113_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROMAN.2008.4600710"
+          },
+          {
+            "key": "e_1_3_4_114_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2018.8624943"
+          },
+          {
+            "key": "e_1_3_4_115_1",
+            "first-page": "3942",
+            "article-title": "Film: visual reasoning with a general conditioning layer",
+            "volume": "32",
+            "author": "Perez E",
+            "year": "2018",
+            "unstructured": "Perez E, Strub F, De Vries H, et al. (2018) Film: visual reasoning with a general conditioning layer. AAAI Conf. on Artificial Intelligence volume 32: 3942–3951.",
+            "journal-title": "AAAI Conf. on Artificial Intelligence"
+          },
+          {
+            "key": "e_1_3_4_116_1",
+            "first-page": "47",
+            "volume-title": "The International Encyclopedia of Education",
+            "author": "Perkins DN",
+            "year": "1992",
+            "unstructured": "Perkins DN, Salomon G (1992) Transfer of learning. In: Husén T, Postlethwaite TN (eds) The International Encyclopedia of Education, 47–79."
+          },
+          {
+            "key": "e_1_3_4_117_1",
+            "first-page": "8748",
+            "volume-title": "International Conference on Machine Learning",
+            "author": "Radford A",
+            "year": "2021",
+            "unstructured": "Radford A, Kim JW, Hallacy C, et al. (2021) Learning transferable visual models from natural language supervision. In: International Conference on Machine Learning. PMLR, 8748–8763."
+          },
+          {
+            "key": "e_1_3_4_118_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2909824.3020254"
+          },
+          {
+            "key": "e_1_3_4_119_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev-control-100819-063206"
+          },
+          {
+            "key": "e_1_3_4_120_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1098/rstb.2015.0182"
+          },
+          {
+            "key": "e_1_3_4_121_1",
+            "first-page": "1531",
+            "volume-title": "Conference on Robot Learning (CoRL)",
+            "author": "Ren AZ",
+            "year": "2023",
+            "unstructured": "Ren AZ, Govil B, Yang TY, et al. (2023) Leveraging language for accelerated learning of tool manipulation. In: Conference on Robot Learning (CoRL). PMLR, 1531–1541. https://openreview.net/pdf?id=nPw7jaGBrCG."
+          },
+          {
+            "key": "e_1_3_4_122_1",
+            "volume-title": "NIPS Workshop on Transfer Learning",
+            "author": "Rosenstein MT",
+            "year": "2005",
+            "unstructured": "Rosenstein MT, Marx Z, Kaelbling LP, et al. (2005) To transfer or not to transfer. In: NIPS Workshop on Transfer Learning, Vol. 898."
+          },
+          {
+            "key": "e_1_3_4_123_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2016.2540623"
+          },
+          {
+            "key": "e_1_3_4_124_1",
+            "first-page": "12786",
+            "article-title": "Tokenlearner: adaptive space-time tokenization for videos",
+            "volume": "34",
+            "author": "Ryoo M",
+            "year": "2021",
+            "unstructured": "Ryoo M, Piergiovanni A, Arnab A, et al. (2021) Tokenlearner: adaptive space-time tokenization for videos. Neural Information Processing Systems (NeurIPS) 34: 12786–12797, https://proceedings.neurips.cc/paper/2021/hash/6a30e32e56fce5cf381895dfe6ca7b6f-Abstract.html",
+            "journal-title": "Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "e_1_3_4_125_1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Saenko K Kulis B Fritz M et al. (2010) Adapting visual category models to new domains. In: European Conference on Computer Vision. ECCV). Springer 213–226. DOI: 10.1007/978-3-642-15561-1_16.",
+            "DOI": "10.1007/978-3-642-15561-1_16"
+          },
+          {
+            "key": "e_1_3_4_126_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Saito K Kim D Teterwak P et al. (2021) Tune it the right way: unsupervised validation of domain adaptation via soft neighborhood density. In: Proceedings of the IEEE/CVF International Conference on Computer Vision 9184–9193.",
+            "DOI": "10.1109/ICCV48922.2021.00905"
+          },
+          {
+            "key": "e_1_3_4_127_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S1364-6613(99)01327-3"
+          },
+          {
+            "key": "e_1_3_4_128_1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Schmidt RA Young DE (1987) Transfer of movement control in motor skill learning. In: Transfer of Learning: Contemporary Research and Applications 47–79. DOI: 10.1016/b978-0-12-188950-0.50009-6.",
+            "DOI": "10.1016/b978-0-12-188950-0.50009-6"
+          },
+          {
+            "key": "e_1_3_4_129_1",
+            "first-page": "9465",
+            "article-title": "RRL: resnet as representation for reinforcement learning",
+            "volume": "139",
+            "author": "Shah R",
+            "year": "2021",
+            "unstructured": "Shah R, Kumar V (2021) RRL: resnet as representation for reinforcement learning. Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research 139: 9465–9476. https://proceedings.mlr.press/v139/shah21a.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_130_1",
+            "first-page": "44",
+            "article-title": "LM-nav: robotic navigation with large pre-trained models of language, vision, and action",
+            "volume": "205",
+            "author": "Shah D",
+            "year": "2023",
+            "unstructured": "Shah D, Osinski B, Ichter B, et al. (2023) LM-nav: robotic navigation with large pre-trained models of language, vision, and action. Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research 205: 44–54. https://proceedings.mlr.press/v205/shah23a.html",
+            "journal-title": "Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_131_1",
+            "first-page": "1192",
+            "volume-title": "Proc. Of the Intl Conf. on Autonomous Agents and MultiAgent Systems (AAMAS)",
+            "author": "Shukla Y",
+            "year": "2022",
+            "unstructured": "Shukla Y, Thierauf C, Hosseini R, et al. (2022) Acute: automatic curriculum transfer from simple to complex environments. In: Proc. Of the Intl Conf. on Autonomous Agents and MultiAgent Systems (AAMAS), 1192–1200."
+          },
+          {
+            "key": "e_1_3_4_132_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS55552.2023.10342477"
+          },
+          {
+            "key": "e_1_3_4_133_1",
+            "unstructured": "SideFX (2022) Sidefx. https://www.sidefx.com/"
+          },
+          {
+            "key": "e_1_3_4_134_1",
+            "first-page": "1260",
+            "volume-title": "Proc. Of the Intl Conf. on Autonomous Agents and MultiAgent Systems (AAMAS)",
+            "author": "Silva R",
+            "year": "2020",
+            "unstructured": "Silva R, Vasco M, Melo FS, et al. (2020) Playing games in the dark: an approach for cross-modality transfer in reinforcement learning. In: Proc. Of the Intl Conf. on Autonomous Agents and MultiAgent Systems (AAMAS), 1260–1268."
+          },
+          {
+            "key": "e_1_3_4_135_1",
+            "unstructured": "So P Wittmann J Ruhkamp P et al. (2022) Towards remote robotic competitions: an internet-connected task board and dashboard. https://arxiv.org/abs/2201.09565."
+          },
+          {
+            "key": "e_1_3_4_136_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA40945.2020.9196744"
+          },
+          {
+            "key": "e_1_3_4_137_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/lcsys.2020.3005886"
+          },
+          {
+            "key": "e_1_3_4_138_1",
+            "volume-title": "Conference on Robot Learning (CoRL)",
+            "author": "Stone A",
+            "year": "2023",
+            "unstructured": "Stone A, Xiao T, Lu Y, et al. (2023) Open-world object manipulation using pre-trained vision-language models. In: Conference on Robot Learning (CoRL). https://openreview.net/pdf?id=9al6taqfTzr"
+          },
+          {
+            "key": "e_1_3_4_139_1",
+            "unstructured": "Studio PU (2023) Universal scene description. https://github.com/PixarAnimationStudios/OpenUSD"
+          },
+          {
+            "key": "e_1_3_4_140_1",
+            "first-page": "6105",
+            "article-title": "Efficientnet: rethinking model scaling for convolutional neural networks",
+            "volume": "97",
+            "author": "Tan M",
+            "year": "2019",
+            "unstructured": "Tan M, Le Q (2019) Efficientnet: rethinking model scaling for convolutional neural networks. Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research 97: 6105–6114. https://proceedings.mlr.press/v97/tan19a.html",
+            "journal-title": "Intl. Conf. on Machine Learning (ICML), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_141_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS45743.2020.9340770"
+          },
+          {
+            "key": "e_1_3_4_142_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA48891.2023.10160811"
+          },
+          {
+            "issue": "7",
+            "key": "e_1_3_4_143_1",
+            "article-title": "Transfer learning for reinforcement learning domains: a survey",
+            "volume": "10",
+            "author": "Taylor ME",
+            "year": "2009",
+            "unstructured": "Taylor ME, Stone P (2009) Transfer learning for reinforcement learning domains: a survey. Journal of Machine Learning Research 10(7).",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "issue": "9",
+            "key": "e_1_3_4_144_1",
+            "article-title": "Transfer learning via inter-task mappings for temporal difference learning",
+            "volume": "8",
+            "author": "Taylor ME",
+            "year": "2007",
+            "unstructured": "Taylor ME, Stone P, Liu Y (2007) Transfer learning via inter-task mappings for temporal difference learning. Journal of Machine Learning Research 8(9).",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_145_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4615-5529-2_1"
+          },
+          {
+            "key": "e_1_3_4_146_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2012.6386109"
+          },
+          {
+            "key": "e_1_3_4_147_1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Towers M Terry JK Kwiatkowski A et al. (2023) Gymnasium. DOI: 10.5281/zenodo.8127026.",
+            "DOI": "10.5281/zenodo.8127026"
+          },
+          {
+            "key": "e_1_3_4_148_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2010.2065430"
+          },
+          {
+            "key": "e_1_3_4_149_1",
+            "volume-title": "Neural Information Processing Systems (NeurIPS)",
+            "author": "Vaswani A",
+            "year": "2017",
+            "unstructured": "Vaswani A, Shazeer N, Parmar N, et al. (2017) Attention is all you need. In: Neural Information Processing Systems (NeurIPS), Vol. volume 30. https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+          },
+          {
+            "key": "e_1_3_4_150_1",
+            "first-page": "471",
+            "article-title": "Where to start? Transferring simple skills to complex environments",
+            "volume": "205",
+            "author": "Vosylius V",
+            "year": "2023",
+            "unstructured": "Vosylius V, Johns E (2023) Where to start? Transferring simple skills to complex environments. Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research 205: 471–481. https://proceedings.mlr.press/v205/vosylius23a.html",
+            "journal-title": "Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_151_1",
+            "volume-title": "Contextual Factors in Second Language Acquisition",
+            "author": "Walqui A",
+            "year": "2000",
+            "unstructured": "Walqui A (2000) Contextual Factors in Second Language Acquisition. https://files.eric.ed.gov/fulltext/ED444381.pdf"
+          },
+          {
+            "key": "e_1_3_4_152_1",
+            "volume-title": "Mitigating Negative Transfer for Better Generalization and Efficiency in Transfer Learning",
+            "author": "Wang Z",
+            "year": "2021",
+            "unstructured": "Wang Z (2021) Mitigating Negative Transfer for Better Generalization and Efficiency in Transfer Learning. Carnegie Mellon University."
+          },
+          {
+            "key": "e_1_3_4_153_1",
+            "first-page": "1130",
+            "article-title": "Domain adaptation using system invariant dynamics models",
+            "volume": "144",
+            "author": "Wang SJ",
+            "year": "2021",
+            "unstructured": "Wang SJ, Johnson AM (2021) Domain adaptation using system invariant dynamics models. Conference on Learning for Dynamics and Control (L4DC), Proceedings of Machine Learning Research 144: 1130–1141. https://proceedings.mlr.press/v144/wang21c.html",
+            "journal-title": "Conference on Learning for Dynamics and Control (L4DC), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_154_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wang A Kurutach T Liu K et al. (2019) Learning robotic manipulation through visual planning and acting. https://www.roboticsproceedings.org/rss15/p74.pdf.",
+            "DOI": "10.15607/RSS.2019.XV.074"
+          },
+          {
+            "key": "e_1_3_4_155_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0065-3454(08)60146-1"
+          },
+          {
+            "key": "e_1_3_4_156_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3758/BF03196005"
+          },
+          {
+            "key": "e_1_3_4_157_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2018.00393"
+          },
+          {
+            "key": "e_1_3_4_158_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/9781139061773"
+          },
+          {
+            "key": "e_1_3_4_159_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA40945.2020.9197331"
+          },
+          {
+            "key": "e_1_3_4_160_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00138-023-01399-x"
+          },
+          {
+            "key": "e_1_3_4_161_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2019.00283"
+          },
+          {
+            "key": "e_1_3_4_162_1",
+            "first-page": "537",
+            "article-title": "Xirl: cross-embodiment inverse reinforcement learning",
+            "volume": "164",
+            "author": "Zakka K",
+            "year": "2022",
+            "unstructured": "Zakka K, Zeng A, Florence P, et al. (2022) Xirl: cross-embodiment inverse reinforcement learning. Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research 164: 537–546. https://proceedings.mlr.press/v164/zakka22a.html",
+            "journal-title": "Conference on Robot Learning (CoRL), Proceedings of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_4_163_1",
+            "first-page": "7404",
+            "volume-title": "International Conference on Machine Learning",
+            "author": "Zhang Y",
+            "year": "2019",
+            "unstructured": "Zhang Y, Liu T, Long M, et al. (2019) Bridging theory and algorithm for domain adaptation. In: International Conference on Machine Learning. PMLR, 7404–7413."
+          },
+          {
+            "key": "e_1_3_4_164_1",
+            "unstructured": "Zhang LM Plappert M Zaremba W (2020) Predicting sim-to-real transfer with probabilistic dynamics models. https://arxiv.org/abs/2009.12864"
+          },
+          {
+            "key": "e_1_3_4_165_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SSCI47803.2020.9308468"
+          },
+          {
+            "key": "e_1_3_4_166_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MRA.2020.2980591"
+          },
+          {
+            "key": "e_1_3_4_167_1",
+            "unstructured": "Zhu Z Lin K Dai B et al. (2020a) Learning sparse rewarded tasks from sub-optimal demonstrations."
+          },
+          {
+            "key": "e_1_3_4_168_1",
+            "first-page": "12402",
+            "article-title": "Off-policy imitation learning from observations",
+            "volume": "33",
+            "author": "Zhu Z",
+            "year": "2020",
+            "unstructured": "Zhu Z, Lin K, Dai B, et al. (2020b) Off-policy imitation learning from observations. Advances in Neural Information Processing Systems 33: 12402–12413.",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "e_1_3_4_169_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2023.3292075"
+          },
+          {
+            "key": "e_1_3_4_170_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JPROC.2020.3004555"
+          }
+        ],
+        "container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/02783649241273565",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/02783649241273565",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/02783649241273565",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T10:17:32Z",
+          "timestamp": 1777457852000
+        },
+        "score": 26.703,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.sagepub.com/doi/10.1177/02783649241273565"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              13
+            ]
+          ]
+        },
+        "references-count": 169,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1177/02783649241273565"
+        ],
+        "URL": "https://doi.org/10.1177/02783649241273565",
+        "ISSN": [
+          "0278-3649",
+          "1741-3176"
+        ],
+        "issn-type": [
+          {
+            "value": "0278-3649",
+            "type": "print"
+          },
+          {
+            "value": "1741-3176",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              13
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

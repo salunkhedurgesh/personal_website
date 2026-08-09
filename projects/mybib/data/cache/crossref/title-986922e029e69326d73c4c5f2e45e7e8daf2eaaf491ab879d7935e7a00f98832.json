@@ -1,0 +1,220 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 778698,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              26
+            ]
+          ],
+          "date-time": "2025-05-26T06:45:48Z",
+          "timestamp": 1748241948670
+        },
+        "reference-count": 6,
+        "publisher": "Elsevier BV",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1993,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1993-01-01T00:00:00Z",
+              "timestamp": 725846400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1993,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/0094-114x(93)90046-x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2003,
+              3,
+              14
+            ]
+          ],
+          "date-time": "2003-03-14T23:54:37Z",
+          "timestamp": 1047686077000
+        },
+        "page": "53-64",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "Generic maps of mechanical manipulators"
+        ],
+        "prefix": "10.1016",
+        "volume": "28",
+        "author": [
+          {
+            "given": "Kao Y",
+            "family": "Tsai",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "James",
+            "family": "Arnold",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Dilip",
+            "family": "Kohli",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/0094-114X(93)90046-X_BIB1",
+            "author": "Tsai",
+            "year": "1990"
+          },
+          {
+            "key": "10.1016/0094-114X(93)90046-X_BIB2",
+            "author": "Burdick",
+            "year": "1988"
+          },
+          {
+            "key": "10.1016/0094-114X(93)90046-X_BIB3",
+            "series-title": "Proc. IEEE Conf. Robotics and Automation",
+            "first-page": "738",
+            "author": "Pai",
+            "year": "1989"
+          },
+          {
+            "key": "10.1016/0094-114X(93)90046-X_BIB4",
+            "series-title": "Stable Mapping and Their Singularities",
+            "author": "Golubitsky",
+            "year": "1983"
+          },
+          {
+            "key": "10.1016/0094-114X(93)90046-X_BIB5",
+            "series-title": "Differential Topology",
+            "author": "Guillemin",
+            "year": "1974"
+          },
+          {
+            "key": "10.1016/0094-114X(93)90046-X_BIB6",
+            "volume": "Vol. I",
+            "author": "Arnold",
+            "year": "1985"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X9390046X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X9390046X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2019-03-25T06:55:00Z",
+          "timestamp": 1553496900000
+        },
+        "score": 39.222233,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/0094114X9390046X"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1993,
+              1
+            ]
+          ]
+        },
+        "references-count": 6,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                1993,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "0094114X9390046X"
+        ],
+        "URL": "https://doi.org/10.1016/0094-114x(93)90046-x",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1993,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

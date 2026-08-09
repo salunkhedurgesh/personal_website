@@ -1,0 +1,356 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5844863,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2025-03-27T03:01:41Z",
+          "timestamp": 1743044501835,
+          "version": "3.40.3"
+        },
+        "publisher-location": "London",
+        "reference-count": 22,
+        "publisher": "Springer London",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9780857298102"
+          },
+          {
+            "type": "electronic",
+            "value": "9780857298119"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2011-01-01T00:00:00Z",
+              "timestamp": 1293840000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2011-01-01T00:00:00Z",
+              "timestamp": 1293840000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-0-85729-811-9_3",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              27
+            ]
+          ],
+          "date-time": "2011-08-27T09:40:27Z",
+          "timestamp": 1314438027000
+        },
+        "page": "47-62",
+        "source": "Crossref",
+        "is-referenced-by-count": 12,
+        "title": [
+          "Inverse Kinematics Solutions Using Conformal Geometric Algebra"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Andreas",
+            "family": "Aristidou",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Joan",
+            "family": "Lasenby",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "3_CR1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-94-009-6292-7",
+            "volume-title": "Clifford Algebra to Geometric Calculus: A Unified Language for Mathematics and Physics",
+            "author": "D. Hestens",
+            "year": "1984",
+            "unstructured": "Hestens, D., Sobczyk, G.: Clifford Algebra to Geometric Calculus: A Unified Language for Mathematics and Physics. Reidel, Dordrecht (1984)"
+          },
+          {
+            "key": "3_CR2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9780511807497",
+            "volume-title": "Geometric Algebra for Physicists",
+            "author": "C. Doran",
+            "year": "2003",
+            "unstructured": "Doran, C., Lasenby, A.: Geometric Algebra for Physicists. Cambridge University Press, Cambridge (2003)"
+          },
+          {
+            "key": "3_CR3",
+            "unstructured": "Aristidou, A., Lasenby, J.: Inverse kinematics: a review of existing techniques and introduction of a new fast iterative solver. Cambridge University Department of Engineering Technical Report, CUED/F-INFENG/TR-632 (2009)"
+          },
+          {
+            "key": "3_CR4",
+            "volume-title": "Geometric Algebra for Computer Science: An Object-Oriented Approach to Geometry",
+            "author": "L. Dorst",
+            "year": "2009",
+            "unstructured": "Dorst, L., Fontijne, D., Mann, S.: Geometric Algebra for Computer Science: An Object-Oriented Approach to Geometry. Morgan Kaufmann, San Mateo (2009)"
+          },
+          {
+            "issue": "9",
+            "key": "3_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "495",
+            "DOI": "10.1002/1097-4563(200009)17:9<495::AID-ROB4>3.0.CO;2-S",
+            "volume": "17",
+            "author": "E. Bayro-Corrochano",
+            "year": "2000",
+            "unstructured": "Bayro-Corrochano, E., Kähler, D.: Motor algebra approach for computing the kinematics of robot manipulators. J. Robot. Syst. 17(9), 495–516 (2000)",
+            "journal-title": "J. Robot. Syst."
+          },
+          {
+            "key": "3_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "405",
+            "DOI": "10.1007/3-540-28247-5_13",
+            "volume-title": "Handbook of Geometric Computing",
+            "author": "E. Bayro-Corrochano",
+            "year": "2005",
+            "unstructured": "Bayro-Corrochano, E.: Robot perception and action using conformal geometric algebra. In: Handbook of Geometric Computing, pp. 405–458, Chap. 13. Springer, Berlin (2005)"
+          },
+          {
+            "key": "3_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "3841",
+            "DOI": "10.1109/IROS.2004.1390013",
+            "volume-title": "Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS ’04), vol. 4",
+            "author": "J. Zamora",
+            "year": "2004",
+            "unstructured": "Zamora, J., Bayro-Corrochano, E.: Inverse kinematics, fixation and grasping using conformal geometric algebra. In: Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS ’04), vol. 4, pp. 3841–3846 (2004). doi:10.1109/IROS.2004.1390013"
+          },
+          {
+            "issue": "5",
+            "key": "3_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "795",
+            "DOI": "10.1016/j.cag.2005.08.028",
+            "volume": "29",
+            "author": "D. Hildenbrand",
+            "year": "2005",
+            "unstructured": "Hildenbrand, D.: Tutorial: Geometric computing in computer graphics using conformal geometric algebra. Comput. Graph. 29(5), 795–803 (2005)",
+            "journal-title": "Comput. Graph."
+          },
+          {
+            "key": "3_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "473",
+            "DOI": "10.1007/978-1-4020-4941-5_51",
+            "volume-title": "Advances in Robot Kinematics",
+            "author": "J. Zamora",
+            "year": "2006",
+            "unstructured": "Zamora, J., Bayro-Corrochano, E.: Kinematics and grasping using conformal geometric algebra. In: Lenarčič, J., Roth, B. (eds.) Advances in Robot Kinematics, pp. 473–480. Springer, Berlin (2006)"
+          },
+          {
+            "key": "3_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "699",
+            "DOI": "10.1007/s00006-008-0096-5",
+            "volume": "18",
+            "author": "D. Hildenbrand",
+            "year": "2008",
+            "unstructured": "Hildenbrand, D., Zamora, J., Bayro-Corrochano, E.: Inverse kinematics computation in computer graphics and robotics using conformal geometric algebra. Adv. Appl. Clifford Algebras 18, 699–713 (2008)",
+            "journal-title": "Adv. Appl. Clifford Algebras"
+          },
+          {
+            "key": "3_CR11",
+            "unstructured": "Hildenbrand, D., Fontijne, D., Wang, Y., Alexa, M., Dorst, L.: Competitive runtime performance for inverse kinematics algorithms using conformal geometric algebra. In: Proceedings of Eurographics Conference, 2006"
+          },
+          {
+            "key": "3_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "39",
+            "DOI": "10.1007/978-1-4020-8600-7_5",
+            "volume-title": "Advances in Robot Kinematics: Analysis and Design",
+            "author": "T.K. Tanev",
+            "year": "2008",
+            "unstructured": "Tanev, T.K.: Geometric algebra approach to singularity of parallel manipulators with limited mobility. In Lenarcic, J., Wenger, P. (eds.) Advances in Robot Kinematics: Analysis and Design, pp. 39–48. Springer, Dordrecht (2008)"
+          },
+          {
+            "issue": "1",
+            "key": "3_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "43",
+            "DOI": "10.1017/S0263574706002980",
+            "volume": "25",
+            "author": "E. Bayro-Corrochano",
+            "year": "2007",
+            "unstructured": "Bayro-Corrochano, E., Zamora, J.: Differential and inverse kinematics of robot devices using conformal geometric algebra. Robotica 25(1), 43–61 (2007)",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "3_CR14",
+            "unstructured": "Hildenbrand, D., Lange, H., Stock, F., Koch, A.: Efficient inverse kinematics algorithm based on conformal geometric algebra (using reconfigurable hardware). In: Proceedings of the 3rd International Conference on Computer Graphics Theory and Applications, Madeira, Portugal, 2008"
+          },
+          {
+            "issue": "4",
+            "key": "3_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "489",
+            "DOI": "10.1109/70.86079",
+            "volume": "7",
+            "author": "L.-C.T. Wang",
+            "year": "1991",
+            "unstructured": "Wang, L.-C.T., Chen, C.C.: A combined optimization method for solving the inverse kinematics problems of mechanical manipulators. IEEE Trans. Robot. Autom. 7(4), 489–499 (1991)",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "issue": "5",
+            "key": "3_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "243",
+            "DOI": "10.1016/j.gmod.2011.05.003",
+            "volume": "73",
+            "author": "A. Aristidou",
+            "year": "2011",
+            "unstructured": "Aristidou, A., Lasenby, J.: FABRIK: a fast, iterative solver for the inverse kinematics problem. Graph. Models 73(5), 243–260 (2011)",
+            "journal-title": "Graph. Models"
+          },
+          {
+            "key": "3_CR17",
+            "unstructured": "PhaseSpace Inc: Optical motion capture systems. http://www.phasespace.com"
+          },
+          {
+            "key": "3_CR18",
+            "unstructured": "Lasenby, A.N., Lasenby, J., Wareham, R.: A covariant approach to geometry using geometric algebra. Cambridge University Department of Engineering Technical Report, CUED/F-INFENG/TR-483 (2004)"
+          },
+          {
+            "issue": "3",
+            "key": "3_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "191",
+            "DOI": "10.1023/A:1007901028047",
+            "volume": "26",
+            "author": "J. Lasenby",
+            "year": "1998",
+            "unstructured": "Lasenby, J., Fitzgerald, W.J., Lasenby, A.N., Doran, C.J.L.: New geometric methods for computer vision: an application to structure and motion estimation. Int. J. Comput. Vis. 26(3), 191–213 (1998)",
+            "journal-title": "Int. J. Comput. Vis."
+          },
+          {
+            "key": "3_CR20",
+            "unstructured": "Aristidou, A.: Tracking and modelling motion for biomechanical analysis. PhD Thesis, University of Cambridge, Cambridge, UK (October 2010)"
+          },
+          {
+            "key": "3_CR21",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kaimakis, P., Lasenby, J.: Physiological modelling for improved reliability in silhouette-driven gradient-based hand tracking. In: Proceedings of the International Conference on Computer Vision and Pattern Recognition, Miami, USA, 25 June 2009, pp. 19–26",
+            "DOI": "10.1109/CVPRW.2009.5204252"
+          },
+          {
+            "key": "3_CR22",
+            "unstructured": "The Mathworks—MATLAB and Simulink for technical computing. http://www.mathworks.com"
+          }
+        ],
+        "container-title": [
+          "Guide to Geometric Algebra in Practice"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-0-85729-811-9_3",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              18
+            ]
+          ],
+          "date-time": "2023-02-18T08:45:08Z",
+          "timestamp": 1676709908000
+        },
+        "score": 40.00721,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-0-85729-811-9_3"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780857298102",
+          "9780857298119"
+        ],
+        "references-count": 22,
+        "URL": "https://doi.org/10.1007/978-0-85729-811-9_3",
+        "published": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

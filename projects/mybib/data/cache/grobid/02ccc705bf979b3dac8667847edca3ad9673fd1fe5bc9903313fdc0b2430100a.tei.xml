@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Robot Kinematics Using Dual Quaternions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Mahmoud</forename><surname>Gouasmi</surname></persName>
+							<email>ygouasmi@hotmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammed</forename><surname>Ouali</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fernini</forename><surname>Brahim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">First</forename><surname>Author</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Université Saad Dahleb -Blida</orgName>
+								<address>
+									<addrLine>1Chargé de cours Algérie. 2Professeur</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Université Saad Dahleb -Blida</orgName>
+								<address>
+									<addrLine>Algérie. 3Ingénieur post-graduant</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Laboratoire de recherche &quot;STRUCTURES</orgName>
+								<orgName type="institution">Université Saad Dahleb -Blida</orgName>
+								<address>
+									<country key="DZ">Algérie</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Chargé de cours</orgName>
+								<orgName type="institution" key="instit2">Université Saad Dahleb -Blida</orgName>
+								<address>
+									<country key="DZ">Algérie</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Robot Kinematics Using Dual Quaternions</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">2089-4856 13</idno>
+					</monogr>
+					<idno type="MD5">F326E287CAD31A8DF77C3A9F4D58F325</idno>
+					<note type="submission">Received Feb 13, 2012 Revised Mar 17, 2012 Accepted Mar 21, 2012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>From the point of view of classical mechanics, deriving the equations of motion for systems of coupled rigid bodies is regarded as a straightforward procedure: once a suitable set of generalized coordinates and reference frames have been chosen, what remains is to either apply Lagrange&apos;s equations or Newton and Euler&apos;s equations to obtain the differential equations of motion. As the complexity of multibody system increases, the need for more elegant formulation of the equation of motion becomes an issue of paramount importance. Our primary focus is on the kinematic analysis of rigid bodies and serial manipulators (robotic systems) using simultaneously, both homogeneous transformations (4x4) matrices and Dual Quaternions, for the sake of results comparisons (cost, complexity, storage capacity etc.). This paper has been done mainly for educational and pedagogical purposes, hoping that the scientific community will finally adopt and use Dual Quaternions at least when dealing with multibody systems and specially robotics.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

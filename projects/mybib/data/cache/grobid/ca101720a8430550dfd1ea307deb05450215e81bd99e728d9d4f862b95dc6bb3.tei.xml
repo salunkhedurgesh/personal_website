@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Knowledge-Based Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-10-01">1 October 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Adrien</forename><surname>Bennetot</surname></persName>
+							<email>adrien.bennetot@ensta-paris.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">U2IS</orgName>
+								<orgName type="institution" key="instit1">ENSTA</orgName>
+								<orgName type="institution" key="instit2">Institut Polytechnique Paris and Inria Flowers</orgName>
+								<address>
+									<postCode>91762</postCode>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Segula Technologies</orgName>
+								<address>
+									<addrLine>Parc d&apos;activité de Pissaloup</addrLine>
+									<settlement>Trappes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Sorbonne Université</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gianni</forename><surname>Franchi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">U2IS</orgName>
+								<orgName type="institution" key="instit1">ENSTA</orgName>
+								<orgName type="institution" key="instit2">Institut Polytechnique Paris and Inria Flowers</orgName>
+								<address>
+									<postCode>91762</postCode>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Javier</forename><forename type="middle">Del</forename><surname>Ser</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">TECNALIA</orgName>
+								<orgName type="institution" key="instit2">Basque Research and Technology Alliance (BRTA)</orgName>
+								<address>
+									<postCode>48160</postCode>
+									<settlement>Derio Bizkaia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">University of the Basque Country (UPV/EHU)</orgName>
+								<address>
+									<postCode>48013</postCode>
+									<settlement>Bilbao</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raja</forename><surname>Chatila</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Sorbonne Université</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Natalia</forename><surname>Díaz-Rodríguez</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI)</orgName>
+								<orgName type="institution" key="instit2">University of Granada</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">U2IS</orgName>
+								<orgName type="institution" key="instit2">ENSTA</orgName>
+								<orgName type="institution" key="instit3">Institut Polytechnique Paris and Inria Flowers</orgName>
+								<address>
+									<postCode>91762</postCode>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Knowledge-Based Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-10-01">1 October 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C4BD403D01963366808C173A36793CCA</idno>
+					<idno type="DOI">10.1016/j.knosys.2022.109947</idno>
+					<note type="submission">Received 20 February 2022 Received in revised form 20 September 2022 Accepted 25 September 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Explainable artificial intelligence Computer vision Deep learning Part-based object classification Compositional models Neural-symbolic learning and reasoning</keywords>
+			</textClass>
+			<abstract>
+				<p>Although Deep Neural Networks (DNNs) have great generalization and prediction capabilities, their functioning does not allow a detailed explanation of their behavior. Opaque deep learning models are increasingly used to make important predictions in critical environments, and the danger is that they make and use predictions that cannot be justified or legitimized. Several eXplainable Artificial Intelligence (XAI) methods that separate explanations from machine learning models have emerged, but have shortcomings in faithfulness to the model actual functioning and robustness. As a result, there is a widespread agreement on the importance of endowing Deep Learning models with explanatory capabilities so that they can themselves provide an answer to why a particular prediction was made. First, we address the problem of the lack of universal criteria for XAI by formalizing what an explanation is. We also introduced a set of axioms and definitions to clarify XAI from a mathematical perspective. Finally, we present the Greybox XAI, a framework that composes a DNN and a transparent model thanks to the use of a symbolic Knowledge Base (KB). We extract a KB from the dataset and use it to train a transparent model (i.e., a logistic regression). An encoder-decoder architecture is trained on RGB images to produce an output similar to the KB used by the transparent model. Once the two models are trained independently, they are used compositionally to form an explainable predictive model. We show how this new architecture is accurate and explainable in several datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

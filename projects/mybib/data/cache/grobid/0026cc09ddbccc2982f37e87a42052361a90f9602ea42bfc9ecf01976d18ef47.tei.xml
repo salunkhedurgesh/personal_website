@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Computer Methods in Biomechanics and Biomedical Engineering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2006-08-20">20 Aug 2006</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">R</forename><surname>Dumas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center de recherche du CHUM</orgName>
+								<orgName type="laboratory">Laboratoire de recherche en imagerie et orthope ´die</orgName>
+								<address>
+									<addrLine>Pavillon J.A. de Se `ve -local Y-1615 1560, rue Sherbrooke Est Montre ´al</addrLine>
+									<postCode>H2L 4M1</postCode>
+									<region>Que</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">R</forename><surname>Aissaoui</surname></persName>
+							<email>rachid.aissaoui@etsmtl.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center de recherche du CHUM</orgName>
+								<orgName type="laboratory">Laboratoire de recherche en imagerie et orthope ´die</orgName>
+								<address>
+									<addrLine>Pavillon J.A. de Se `ve -local Y-1615 1560, rue Sherbrooke Est Montre ´al</addrLine>
+									<postCode>H2L 4M1</postCode>
+									<region>Que</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">De ´partement de ge ´nie de la production automatise ´e</orgName>
+								<orgName type="institution">Ecole de technologie supe ´rieure</orgName>
+								<address>
+									<addrLine>1100, rue Notre Dame Montre ´al</addrLine>
+									<postCode>H3C 1K3</postCode>
+									<settlement>Ouest</settlement>
+									<region>Que</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>De Guise</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center de recherche du CHUM</orgName>
+								<orgName type="laboratory">Laboratoire de recherche en imagerie et orthope ´die</orgName>
+								<address>
+									<addrLine>Pavillon J.A. de Se `ve -local Y-1615 1560, rue Sherbrooke Est Montre ´al</addrLine>
+									<postCode>H2L 4M1</postCode>
+									<region>Que</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">De ´partement de ge ´nie de la production automatise ´e</orgName>
+								<orgName type="institution">Ecole de technologie supe ´rieure</orgName>
+								<address>
+									<addrLine>1100, rue Notre Dame Montre ´al</addrLine>
+									<postCode>H3C 1K3</postCode>
+									<settlement>Ouest</settlement>
+									<region>Que</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Computer Methods in Biomechanics and Biomedical Engineering</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1025-5842 (Print) 1476-8259</idno>
+						<imprint>
+							<date type="published" when="2006-08-20">20 Aug 2006</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BEE7F534D7CB0310D0BAAE6C2A4C9D39</idno>
+					<idno type="DOI">10.1080/10255840410001727805</idno>
+					<note type="submission">Received 22 May 2003; In final form 20 May 2004</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>3D inverse dynamics</term>
+					<term>Wrench notation</term>
+					<term>Quaternion algebra</term>
+					<term>Inertial coordinate system</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In the literature, conventional 3D inverse dynamic models are limited in three aspects related to inverse dynamic notation, body segment parameters and kinematic formalism. First, conventional notation yields separate computations of the forces and moments with successive coordinate system transformations. Secondly, the way conventional body segment parameters are defined is based on the assumption that the inertia tensor is principal and the centre of mass is located between the proximal and distal ends. Thirdly, the conventional kinematic formalism uses Euler or Cardanic angles that are sequence-dependent and suffer from singularities. In order to overcome these limitations, this paper presents a new generic method for inverse dynamics. This generic method is based on wrench notation for inverse dynamics, a general definition of body segment parameters and quaternion algebra for the kinematic formalism.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

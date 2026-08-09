@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quadrotor Quaternion Control</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><surname>Cariño</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Abaunza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Castillo</surname></persName>
+						</author>
+						<title level="a" type="main">Quadrotor Quaternion Control</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E3B7F30CE0566C87D7B8CDDFEFE188A8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents the design and practical implementation of a quaternion control scheme to globally stabilize a quadrotor aerial vehicle. First an attitude control law is proposed to stabilize the vehicle&apos;s heading, then a position control law is proposed to stabilize the vehicle in all its states. Using the position references, a smooth trajectory is calculated for the attitude controller to follow so that the position of the vehicle becomes stable. The proposed control law is such that the quadrotor system can be analyzed and controlled as a linear system. This model and control law are then numerically simulated to corroborate the closed-loop system&apos;s stability. At last, experimental flight tests were performed to validate practical results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

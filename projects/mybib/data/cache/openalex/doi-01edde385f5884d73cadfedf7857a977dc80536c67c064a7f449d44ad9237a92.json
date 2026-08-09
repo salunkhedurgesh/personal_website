@@ -1,0 +1,685 @@
+{
+  "id": "https://openalex.org/W4213330349",
+  "doi": "https://doi.org/10.1177/075910639203700105",
+  "title": "Institut national de recherche en informatique et en automatique",
+  "display_name": "Institut national de recherche en informatique et en automatique",
+  "publication_year": 1992,
+  "publication_date": "1992-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4213330349",
+    "doi": "https://doi.org/10.1177/075910639203700105"
+  },
+  "language": "fr",
+  "primary_location": {
+    "id": "doi:10.1177/075910639203700105",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1177/075910639203700105",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210226991",
+      "display_name": "Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique",
+      "issn_l": "0759-1063",
+      "issn": [
+        "0759-1063",
+        "2070-2779"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+        "SAGE Publishing"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": null,
+        "display_name": "Vprn Solution For",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Vprn Solution For",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Lina Alchaal",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lina Alchaal",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Vincent Roca",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Vincent Roca",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Ayman El-sayed",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ayman El-sayed",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Michel Habert",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Michel Habert",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.0525,
+  "has_fulltext": false,
+  "cited_by_count": 44,
+  "citation_normalized_percentile": {
+    "value": 0.78833198,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "37",
+    "issue": "1",
+    "first_page": "55",
+    "last_page": "57"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10651",
+    "display_name": "IPv6, Mobility, Handover, Networks, Security",
+    "score": 0.11559999734163284,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2208",
+      "display_name": "Electrical and Electronic Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10651",
+      "display_name": "IPv6, Mobility, Handover, Networks, Security",
+      "score": 0.11559999734163284,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11498",
+      "display_name": "Security in Wireless Sensor Networks",
+      "score": 0.11180000007152557,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14067",
+      "display_name": "Cloud Computing and Remote Desktop Technologies",
+      "score": 0.0658000037074089,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/humanities",
+      "display_name": "Humanities",
+      "score": 0.36847251653671265
+    },
+    {
+      "id": "https://openalex.org/keywords/political-science",
+      "display_name": "Political science",
+      "score": 0.3364155888557434
+    },
+    {
+      "id": "https://openalex.org/keywords/art",
+      "display_name": "Art",
+      "score": 0.2797289490699768
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15708023",
+      "wikidata": "https://www.wikidata.org/wiki/Q80083",
+      "display_name": "Humanities",
+      "level": 1,
+      "score": 0.36847251653671265
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.3364155888557434
+    },
+    {
+      "id": "https://openalex.org/C142362112",
+      "wikidata": "https://www.wikidata.org/wiki/Q735",
+      "display_name": "Art",
+      "level": 0,
+      "score": 0.2797289490699768
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1177/075910639203700105",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1177/075910639203700105",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210226991",
+        "display_name": "Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique",
+        "issn_l": "0759-1063",
+        "issn": [
+          "0759-1063",
+          "2070-2779"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Bulletin of Sociological Methodology/Bulletin de Méthodologie Sociologique",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.14.293",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.293",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.inrialpes.fr/planete/people/elsayed/phd/rr03_vprn.pdf",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W93312527",
+    "https://openalex.org/W2603296253",
+    "https://openalex.org/W1589203209",
+    "https://openalex.org/W2557454913",
+    "https://openalex.org/W828925460",
+    "https://openalex.org/W11365241",
+    "https://openalex.org/W2888947023",
+    "https://openalex.org/W3003325775"
+  ],
+  "abstract_inverted_index": {
+    "In": [
+      0
+    ],
+    "this": [
+      1
+    ],
+    "paper": [
+      2,
+      44
+    ],
+    "we": [
+      3
+    ],
+    "show": [
+      4,
+      63
+    ],
+    "how": [
+      5
+    ],
+    "to": [
+      6,
+      41,
+      73,
+      87
+    ],
+    "build": [
+      7
+    ],
+    "a": [
+      8,
+      26,
+      46,
+      55,
+      119
+    ],
+    "fully": [
+      9
+    ],
+    "secure": [
+      10
+    ],
+    "and": [
+      11,
+      58,
+      71,
+      94,
+      112
+    ],
+    "efficient": [
+      12
+    ],
+    "group": [
+      13,
+      52,
+      120
+    ],
+    "communication": [
+      14,
+      121
+    ],
+    "service": [
+      15,
+      20
+    ],
+    "between": [
+      16,
+      35
+    ],
+    "several": [
+      17
+    ],
+    "sites.": [
+      18
+    ],
+    "This": [
+      19,
+      43,
+      83
+    ],
+    "is": [
+      21,
+      45,
+      107
+    ],
+    "built": [
+      22
+    ],
+    "on": [
+      23,
+      51,
+      59
+    ],
+    "top": [
+      24
+    ],
+    "of": [
+      25,
+      48,
+      76,
+      118
+    ],
+    "VPN": [
+      27,
+      56
+    ],
+    "environment": [
+      28,
+      57
+    ],
+    "where": [
+      29
+    ],
+    "IPSec": [
+      30
+    ],
+    "tunnels": [
+      31
+    ],
+    "are": [
+      32,
+      103
+    ],
+    "created,": [
+      33
+    ],
+    "on-demand,": [
+      34
+    ],
+    "the": [
+      36,
+      74,
+      90,
+      98,
+      115
+    ],
+    "various": [
+      37
+    ],
+    "sites": [
+      38
+    ],
+    "that": [
+      39,
+      64,
+      105
+    ],
+    "need": [
+      40
+    ],
+    "communicate.": [
+      42
+    ],
+    "follow-up": [
+      47
+    ],
+    "previous": [
+      49
+    ],
+    "work": [
+      50
+    ],
+    "communications": [
+      53
+    ],
+    "in": [
+      54,
+      95,
+      109
+    ],
+    "application-level": [
+      60
+    ],
+    "multicast.": [
+      61
+    ],
+    "We": [
+      62,
+      102
+    ],
+    "these": [
+      65
+    ],
+    "proposals": [
+      66
+    ],
+    "naturally": [
+      67
+    ],
+    "fit": [
+      68
+    ],
+    "with": [
+      69
+    ],
+    "one-another": [
+      70
+    ],
+    "lead": [
+      72
+    ],
+    "concept": [
+      75,
+      84
+    ],
+    "Virtual": [
+      77
+    ],
+    "Private": [
+      78
+    ],
+    "Routed": [
+      79
+    ],
+    "Network,": [
+      80
+    ],
+    "or": [
+      81
+    ],
+    "VPRN.": [
+      82
+    ],
+    "enables": [
+      85
+    ],
+    "us": [
+      86
+    ],
+    "largely": [
+      88
+    ],
+    "improve": [
+      89
+    ],
+    "data": [
+      91
+    ],
+    "distribution": [
+      92
+    ],
+    "efficiency,": [
+      93
+    ],
+    "particular": [
+      96
+    ],
+    "reduces": [
+      97
+    ],
+    "physical": [
+      99
+    ],
+    "link": [
+      100
+    ],
+    "stress.": [
+      101
+    ],
+    "convinced": [
+      104
+    ],
+    "security": [
+      106
+    ],
+    "critical": [
+      108
+    ],
+    "many": [
+      110
+    ],
+    "situations": [
+      111
+    ],
+    "must": [
+      113
+    ],
+    "be": [
+      114
+    ],
+    "primary": [
+      116
+    ],
+    "concern": [
+      117
+    ],
+    "service.": [
+      122
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-03-03T08:47:05.690250",
+  "created_date": "2025-10-10T00:00:00"
+}

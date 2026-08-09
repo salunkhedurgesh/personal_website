@@ -1,0 +1,676 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5912255,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              24
+            ]
+          ],
+          "date-time": "2026-04-24T03:45:46Z",
+          "timestamp": 1777002346106,
+          "version": "3.51.4"
+        },
+        "reference-count": 36,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2021-12-01T00:00:00Z",
+              "timestamp": 1638316800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "clinicalkey.com",
+            "clinicalkey.com.au",
+            "clinicalkey.es",
+            "clinicalkey.fr",
+            "clinicalkey.jp",
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Journal of Biomechanics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.jbiomech.2021.110820",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2021-10-25T07:15:21Z",
+          "timestamp": 1635146121000
+        },
+        "page": "110820",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 20,
+        "special_numbering": "C",
+        "title": [
+          "Comparing shallow, deep, and transfer learning in predicting joint moments in running"
+        ],
+        "prefix": "10.1016",
+        "volume": "129",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7057-7548",
+            "authenticated-orcid": false,
+            "given": "Bernard X.W.",
+            "family": "Liew",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "David",
+            "family": "Rügamer",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1030-8311",
+            "authenticated-orcid": false,
+            "given": "Xiaojun",
+            "family": "Zhai",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2288-0734",
+            "authenticated-orcid": false,
+            "given": "Yucheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Susan",
+            "family": "Morris",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Kevin",
+            "family": "Netto",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "287",
+            "DOI": "10.1016/0021-9290(86)90003-5",
+            "article-title": "An energy 'sources' and 'fractions' approach to the mechanical energy expenditure problem–I. Basic concepts, description of the model, analysis of a one-link system movement",
+            "volume": "19",
+            "author": "Aleshinsky",
+            "year": "1986",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "307",
+            "DOI": "10.1016/0021-9290(86)90006-0",
+            "article-title": "An energy 'sources' and 'fractions' approach to the mechanical energy expenditure problem–IV. Criticism of the concept of 'energy transfers within and between links'",
+            "volume": "19",
+            "author": "Aleshinsky",
+            "year": "1986",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0015",
+            "unstructured": "Allaire, J., Chollet, F., 2020. keras: R Interface to 'Keras'. R package version 2.3.0.0. https://CRAN.R-project.org/package=keras."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0020",
+            "unstructured": "Allaire, J., Tang, Y., 2020. tensorflow: R Interface to 'TensorFlow'. R package version 2.2.0. https://CRAN.R-project.org/package=tensorflow."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0025",
+            "unstructured": "Barthelme, S., 2020. imager: Image Processing Library Based on 'CImg'. R package version 0.42.3. https://CRAN.R-project.org/package=imager."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0030",
+            "doi-asserted-by": "crossref",
+            "first-page": "346",
+            "DOI": "10.1016/j.joca.2020.12.017",
+            "article-title": "A neural network to predict the knee adduction moment in patients with osteoarthritis using anatomical landmarks obtainable from 2D video analysis",
+            "volume": "29",
+            "author": "Boswell",
+            "year": "2021",
+            "journal-title": "Osteoarthr Cartil"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0035",
+            "series-title": "In Proceedings of the IEEE 19th World Symposium on Applied Machine Intelligence and Informatics (SAMI)",
+            "article-title": "Improving the activity recognition using GMAF and transfer learning in post-stroke rehabilitation assessment",
+            "author": "Boukhennoufa",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0040",
+            "article-title": "Boosting Functional Regression Models with FDboost",
+            "volume": "64",
+            "author": "Brockhaus",
+            "year": "2020",
+            "journal-title": "J. Stat. Softw."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0045",
+            "doi-asserted-by": "crossref",
+            "first-page": "344",
+            "DOI": "10.1115/1.2895496",
+            "article-title": "Application of the joint coordinate system to three-dimensional joint attitude and movement representation: A standardization proposal",
+            "volume": "115",
+            "author": "Cole",
+            "year": "1993",
+            "journal-title": "J. Biomech. Eng."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0050",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.7717/peerj.4640",
+            "article-title": "A public dataset of overground and treadmill walking kinematics and kinetics in healthy individuals",
+            "volume": "6",
+            "author": "Fukuchi",
+            "year": "2018",
+            "journal-title": "PeerJ"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0055",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.7717/peerj.3298",
+            "article-title": "A public dataset of running biomechanics and the effects of running speed on lower extremity kinematics and kinetics",
+            "volume": "5",
+            "author": "Fukuchi",
+            "year": "2017",
+            "journal-title": "PeerJ"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0060",
+            "unstructured": "Goldsmith, J., Scheipl, F., Huang, L., Wrobel, J., Chongzhi, D., Gellar, J., . . . Reiss, P., 2020 refund: Regression with Functional Data. R package version 0.1-23. https://CRAN.R-project.org/package=refund."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0065",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1136/bmjopen-2014-005368",
+            "article-title": "Is there a causal link between knee loading and knee osteoarthritis progression? A systematic review and meta-analysis of cohort studies and randomised trials",
+            "volume": "4",
+            "author": "Henriksen",
+            "year": "2014",
+            "journal-title": "BMJ open"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "689",
+            "DOI": "10.1109/TBME.2018.2854632",
+            "article-title": "Predicting Athlete Ground Reaction Forces and Moments From Spatio-Temporal Driven CNN Models",
+            "volume": "66",
+            "author": "Johnson",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Biomed. Eng."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0075",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1016/j.jbiomech.2019.07.002",
+            "article-title": "On-field player workload exposure and knee injury risk monitoring via deep learning",
+            "volume": "93",
+            "author": "Johnson",
+            "year": "2019",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "666",
+            "DOI": "10.1016/j.jbiomech.2011.12.011",
+            "article-title": "Effect of low pass filtering on joint moments from inverse dynamics: Implications for injury prevention",
+            "volume": "45",
+            "author": "Kristianslund",
+            "year": "2012",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0085",
+            "first-page": "1097",
+            "article-title": "Imagenet classification with deep convolutional neural networks",
+            "volume": "25",
+            "author": "Krizhevsky",
+            "year": "2012",
+            "journal-title": "Adv Neural Inf Process Syst"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "445",
+            "DOI": "10.1186/s12891-016-1271-9",
+            "article-title": "Effects of two neuromuscular training programs on running biomechanics with load carriage: A study protocol for a randomised controlled trial",
+            "volume": "17",
+            "author": "Liew",
+            "year": "2016",
+            "journal-title": "BMC Musculoskelet Disord"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0095",
+            "doi-asserted-by": "crossref",
+            "first-page": "3275",
+            "DOI": "10.1016/j.jbiomech.2016.08.012",
+            "article-title": "The effects of load carriage on joint work at different running velocities",
+            "volume": "49",
+            "author": "Liew",
+            "year": "2016",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "1845",
+            "DOI": "10.1007/s00586-020-06356-0",
+            "article-title": "Interpretable machine learning models for classifying low back pain status using functional physiological variables",
+            "volume": "29",
+            "author": "Liew",
+            "year": "2020",
+            "journal-title": "Eur. Spine J."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0105",
+            "doi-asserted-by": "crossref",
+            "first-page": "906",
+            "DOI": "10.1016/j.jbiomech.2009.01.033",
+            "article-title": "Lower extremity joint torque predicted by using artificial neural network during vertical jump",
+            "volume": "42",
+            "author": "Liu",
+            "year": "2009",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "118",
+            "DOI": "10.1136/bjsports-2013-092536",
+            "article-title": "High knee abduction moments are common risk factors for patellofemoral pain (PFP) and anterior cruciate ligament (ACL) injury in girls: is PFP itself a predictor for subsequent ACL injury?",
+            "volume": "49",
+            "author": "Myer",
+            "year": "2015",
+            "journal-title": "Br. J. Sports Med."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "2750",
+            "DOI": "10.1016/j.jbiomech.2008.06.001",
+            "article-title": "Whole body inverse dynamics over a complete gait cycle based only on measured kinematics",
+            "volume": "41",
+            "author": "Ren",
+            "year": "2008",
+            "journal-title": "J. Biomech."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "1203",
+            "DOI": "10.1016/j.joca.2018.04.011",
+            "article-title": "Relationship between knee joint contact forces and external knee joint moments in patients with medial knee osteoarthritis: effects of gait modifications",
+            "volume": "26",
+            "author": "Richards",
+            "year": "2018",
+            "journal-title": "Osteoarthritis Cartilage"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "1269",
+            "DOI": "10.1249/MSS.0000000000000236",
+            "article-title": "Impact of knee modeling approach on indicators and classification of anterior cruciate ligament injury risk",
+            "volume": "46",
+            "author": "Robinson",
+            "year": "2014",
+            "journal-title": "Med. Sci. Sports Exerc."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "621",
+            "DOI": "10.1111/rssc.12241",
+            "article-title": "Boosting factor-specific functional historical models for the detection of synchronization in bioelectrical signals",
+            "volume": "67",
+            "author": "Rügamer",
+            "year": "2018",
+            "journal-title": "J. R. Stat. Soc. Ser. C Appl. Stat."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0135",
+            "doi-asserted-by": "crossref",
+            "first-page": "440",
+            "DOI": "10.1016/j.gaitpost.2006.05.018",
+            "article-title": "On the expression of joint moments during gait",
+            "volume": "25",
+            "author": "Schache",
+            "year": "2007",
+            "journal-title": "Gait Posture"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "477",
+            "DOI": "10.1080/10618600.2014.901914",
+            "article-title": "Functional Additive Mixed Models",
+            "volume": "24",
+            "author": "Scheipl",
+            "year": "2015",
+            "journal-title": "J. Comput. Graph Stat."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0145",
+            "unstructured": "Simonyan, K., Zisserman, A., 2015. Very Deep Convolutional Networks for Large-Scale Image Recognition."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "9",
+            "DOI": "10.3389/fbioe.2020.00009",
+            "article-title": "A Machine Learning and Wearable Sensor Based Approach to Estimate External Knee Flexion and Adduction Moments During Various Locomotion Tasks",
+            "volume": "8",
+            "author": "Stetter",
+            "year": "2020",
+            "journal-title": "Front. Bioeng. Biotechnol."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0155",
+            "doi-asserted-by": "crossref",
+            "first-page": "3011",
+            "DOI": "10.1007/s00221-016-4703-8",
+            "article-title": "The motor and the brake of the trailing leg in human walking: leg force control through ankle modulation and knee covariance",
+            "volume": "234",
+            "author": "Toney",
+            "year": "2016",
+            "journal-title": "Exp. Brain Res."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0160",
+            "unstructured": "Ushey, K., Allaire, J., Tang, Y., 2021. reticulate: Interface to 'Python'. R package version 1.18-9006. https://github.com/rstudio/reticulate."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0165",
+            "doi-asserted-by": "crossref",
+            "first-page": "888",
+            "DOI": "10.1109/TNSRE.2020.2978537",
+            "article-title": "Real-Time Estimation of Knee Adduction Moment for Gait Retraining in Patients With Knee Osteoarthritis",
+            "volume": "28",
+            "author": "Wang",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Neural Syst. Rehabil. Eng."
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0170",
+            "series-title": "Proceedings of the 24th International Conference on Artificial Intelligence",
+            "first-page": "3939",
+            "article-title": "Imaging time-series to improve classification and imputation",
+            "author": "Wang",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0175",
+            "doi-asserted-by": "crossref",
+            "first-page": "9",
+            "DOI": "10.1186/s40537-016-0043-6",
+            "article-title": "A survey of transfer learning",
+            "volume": "3",
+            "author": "Weiss",
+            "year": "2016",
+            "journal-title": "J. Big Data"
+          },
+          {
+            "key": "10.1016/j.jbiomech.2021.110820_b0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "301",
+            "DOI": "10.1016/j.gaitpost.2011.09.105",
+            "article-title": "Reliability and Minimal Detectible Change values for gait kinematics and kinetics in healthy adults",
+            "volume": "35",
+            "author": "Wilken",
+            "year": "2012",
+            "journal-title": "Gait Posture"
+          }
+        ],
+        "container-title": [
+          "Journal of Biomechanics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0021929021005807?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0021929021005807?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              19
+            ]
+          ],
+          "date-time": "2025-09-19T01:38:11Z",
+          "timestamp": 1758245891000
+        },
+        "score": 58.429703,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0021929021005807"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "references-count": 36,
+        "alternative-id": [
+          "S0021929021005807"
+        ],
+        "URL": "https://doi.org/10.1016/j.jbiomech.2021.110820",
+        "ISSN": [
+          "0021-9290"
+        ],
+        "issn-type": [
+          {
+            "value": "0021-9290",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Comparing shallow, deep, and transfer learning in predicting joint moments in running",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Journal of Biomechanics",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.jbiomech.2021.110820",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2021 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "110820"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2342166,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2025-10-09T21:02:01Z",
+          "timestamp": 1760043721060,
+          "version": "3.41.2"
+        },
+        "reference-count": 31,
+        "publisher": "ASME International",
+        "issue": "1",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This paper shows how the computation of the singularity locus of a 3R robot can be reduced to the analysis of the relative position of two coplanar ellipses. Since the relative position of two conics is a projective invariant and the basic projective geometric invariants are determinants, it is not surprising that, using distance geometry, the computation of the singularity locus of a 3R robot can be fully expressed in terms of determinants. Geometric invariants have the benefit of simplifying symbolic manipulations. This paper shows how their use leads to a simpler characterization, compared to previous approaches, of the cusps and nodes in the singularity loci of 3R robots.</jats:p>",
+        "DOI": "10.1115/1.4029500",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              7
+            ]
+          ],
+          "date-time": "2015-01-07T17:30:51Z",
+          "timestamp": 1420651851000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 10,
+        "title": [
+          "A Distance Geometry Approach to the Singularity Analysis of 3R Robots"
+        ],
+        "prefix": "10.1115",
+        "volume": "8",
+        "author": [
+          {
+            "given": "Federico",
+            "family": "Thomas",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institut de Robòtica i Informàtica Industrial, CSIC-UPC, Llorens Artigas 4-6, Barcelona 08028, Spain e-mail:"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              18
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "6",
+            "key": "2019100617195693000_bib1",
+            "doi-asserted-by": "publisher",
+            "first-page": "677",
+            "DOI": "10.1017/S0263574707003761",
+            "article-title": "Cuspidal and Non-Cuspidal Robot Manipulators",
+            "volume": "25",
+            "year": "2007",
+            "journal-title": "Robotica"
+          },
+          {
+            "issue": "3",
+            "key": "2019100617195693000_bib2",
+            "doi-asserted-by": "publisher",
+            "first-page": "437",
+            "DOI": "10.1016/S0094-114X(99)00015-4",
+            "article-title": "Some Guidelines for the Kinematic Design of New Manipulators",
+            "volume": "35",
+            "year": "2000",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "2",
+            "key": "2019100617195693000_bib3",
+            "doi-asserted-by": "publisher",
+            "first-page": "32",
+            "DOI": "10.1177/027836498600500204",
+            "article-title": "Computationally Efficient Kinematics for Manipulators With Spherical Wrists Based on the Homogeneous Transformation Representation",
+            "volume": "5",
+            "year": "1986",
+            "journal-title": "Int. J. Rob. Res."
+          },
+          {
+            "key": "2019100617195693000_bib4",
+            "doi-asserted-by": "publisher",
+            "first-page": "411",
+            "DOI": "10.1007/978-1-4020-8600-7_43",
+            "article-title": "A Geometrical Characterization of Workspace Singularities in 3R Manipulators",
+            "volume-title": "Advances in Robot Kinematics: Analysis and Design",
+            "year": "2008"
+          },
+          {
+            "year": "1968",
+            "key": "2019100617195693000_bib5",
+            "article-title": "The Kinematics of Manipulators Under Computer Control"
+          },
+          {
+            "key": "2019100617195693000_bib6",
+            "doi-asserted-by": "publisher",
+            "first-page": "27",
+            "DOI": "10.1007/978-94-015-8192-9_3",
+            "article-title": "On the Tangent-Half-Angle Substitution",
+            "volume-title": "Computational Kinematics",
+            "year": "1993"
+          },
+          {
+            "key": "2019100617195693000_bib7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Smith, D. R., and Lipkin, H., 1993, “Higher Order Singularities of Regional Manipulators,” IEEE International Conference on Robotics and Automation, Atlanta, GA, May 2–6, Vol. 1, pp. 194–199.10.1109/ROBOT.1993.291982",
+            "DOI": "10.1109/ROBOT.1993.291982"
+          },
+          {
+            "key": "2019100617195693000_bib8",
+            "unstructured": "Smith, D. R., and Lipkin, H., 1990, “Kinematic Analysis of Solvable Manipulators Using Conic Sections,” 21st ASME Mechanisms Conference, Chicago, IL, Sept. 16–19, pp. 16–19."
+          },
+          {
+            "key": "2019100617195693000_bib9",
+            "unstructured": "Ceccarelli, M., 1989, “On the Workspace of 3R Robot Arms,” 5th IFToMM International Symposium on Theory and Practice of Mechanism, Bucharest, Romania, July 6–11, Vol. II–1, pp. 37–46."
+          },
+          {
+            "year": "2007",
+            "key": "2019100617195693000_bib10",
+            "article-title": "Analyse cinématique des manipulateurs sériels 3R orthogonaux et des manipulateurs parallèles plans"
+          },
+          {
+            "issue": "4",
+            "key": "2019100617195693000_bib11",
+            "doi-asserted-by": "publisher",
+            "first-page": "765",
+            "DOI": "10.1109/TRO.2008.926863",
+            "article-title": "Assembly Mode Changing in Parallel Mechanisms",
+            "volume": "24",
+            "year": "2008",
+            "journal-title": "IEEE Trans. Rob."
+          },
+          {
+            "key": "2019100617195693000_bib12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Saramago, S. F. P., Ottaviano, E., and Ceccarelli, M., 2002, “A Characterization of the Workspace Boundary of Three-Revolute Manipulators,” ASME Paper No. DETC2002/MECH-34342. 10.1115/DETC2002/MECH-34342",
+            "DOI": "10.1115/DETC2002/MECH-34342"
+          },
+          {
+            "key": "2019100617195693000_bib13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wenger, P., 1997, “Design of Cuspidal and Non-Cuspidal Robot Manipulators,” IEEE International Conference on Robotics and Automation, Albuquerque, NM, Apr. 20–25, pp. 2172–2177.10.1109/ROBOT.1997.619284",
+            "DOI": "10.1109/ROBOT.1997.619284"
+          },
+          {
+            "year": "2004",
+            "key": "2019100617195693000_bib14",
+            "article-title": "Analyse et classification de manipulateurs 3R à axes orthogonaux"
+          },
+          {
+            "key": "2019100617195693000_bib15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Donelan, P., and Müller, A., 2011, “General Formulation of the Singularity Locus for a 3-DOF Regional Manipulator,” IEEE International Conference on Robotics and Automation (ICRA), Shanghai, China, May 9-13, pp. 3958–3963.10.1109/ICRA.2011.5980278",
+            "DOI": "10.1109/ICRA.2011.5980278"
+          },
+          {
+            "key": "2019100617195693000_bib16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thomas, F., 2014, “Computing Cusps of 3R Robots Using Distance Geometry,” 14th International Symposium on Advances in Robot Kinematics (ARK2014), Ljubljana, Slovenia, June 29–July 3.10.1007/978-3-319-06698-1_1",
+            "DOI": "10.1007/978-3-319-06698-1_1"
+          },
+          {
+            "issue": "1",
+            "key": "2019100617195693000_bib17",
+            "doi-asserted-by": "publisher",
+            "first-page": "93",
+            "DOI": "10.1109/TRO.2004.833793",
+            "article-title": "Revisiting Trilateration for Robot Localization",
+            "volume": "21",
+            "year": "2005",
+            "journal-title": "IEEE Trans. Rob."
+          },
+          {
+            "issue": "1",
+            "key": "2019100617195693000_bib18",
+            "doi-asserted-by": "publisher",
+            "first-page": "51",
+            "DOI": "10.2307/2975214",
+            "article-title": "A Geometric Interpretation of the Solution of the General Quartic Polynomial",
+            "volume": "103",
+            "year": "1996",
+            "journal-title": "Am. Math. Mon."
+          },
+          {
+            "first-page": "176",
+            "volume-title": "Plane Analytic Geometry",
+            "year": "1915",
+            "key": "2019100617195693000_bib19"
+          },
+          {
+            "issue": "2",
+            "key": "2019100617195693000_bib20",
+            "doi-asserted-by": "publisher",
+            "first-page": "213",
+            "DOI": "10.1109/TRO.2005.862479",
+            "article-title": "Continuous Collision Detection for Two Moving Elliptic Disks",
+            "volume": "22",
+            "year": "2006",
+            "journal-title": "IEEE Trans. Rob."
+          },
+          {
+            "first-page": "274",
+            "volume-title": "Analytical Conics",
+            "year": "1961",
+            "key": "2019100617195693000_bib21"
+          },
+          {
+            "first-page": "191",
+            "volume-title": "Perspectives on Projective Geometry: A Guided Tour Through Real and Complex Geometry",
+            "year": "2011",
+            "key": "2019100617195693000_bib22"
+          },
+          {
+            "volume-title": "A Treatise on Conic Sections",
+            "year": "1869",
+            "key": "2019100617195693000_bib23"
+          },
+          {
+            "key": "2019100617195693000_bib24",
+            "article-title": "On the Relative Position of Two Coplanar Ellipses"
+          },
+          {
+            "volume-title": "Elementary Theory of Equations",
+            "year": "1914",
+            "key": "2019100617195693000_bib25"
+          },
+          {
+            "issue": "6",
+            "key": "2019100617195693000_bib26",
+            "doi-asserted-by": "publisher",
+            "first-page": "94",
+            "DOI": "10.1109/38.888022",
+            "article-title": "Polynomial Discriminants. I. Matrix Magic",
+            "volume": "20",
+            "year": "2002",
+            "journal-title": "IEEE Comput. Graphics Appl."
+          },
+          {
+            "first-page": "107",
+            "volume-title": "Classical Algebraic Geometry: A Modern View",
+            "year": "2012",
+            "key": "2019100617195693000_bib27"
+          },
+          {
+            "issue": "2",
+            "key": "2019100617195693000_bib28",
+            "first-page": "110",
+            "article-title": "On the Conditions for the Double Contact of Two Conics",
+            "volume": "1",
+            "year": "1927",
+            "journal-title": "J. Mysore Univ."
+          },
+          {
+            "key": "2019100617195693000_bib29",
+            "first-page": "363",
+            "article-title": "Additions to the Articles'On a New Class of Theorems' and ‘On Pascal's Theorem",
+            "volume": "37",
+            "year": "1904",
+            "journal-title": "Philos. Mag."
+          },
+          {
+            "key": "2019100617195693000_bib30",
+            "doi-asserted-by": "publisher",
+            "first-page": "53",
+            "DOI": "10.1007/978-3-642-59195-2_4",
+            "article-title": "The Use of Computer Graphics for Solving Problems in Singularity Theory",
+            "volume-title": "Visualization and Mathematics, Experiments, Simulations and Environments",
+            "year": "1997"
+          },
+          {
+            "key": "2019100617195693000_bib31",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thomas, F., and Wenger, P., 2011, “On the Topological Characterization of Robot Singularity Loci. A Catastrophe-Theoretic Approach,” IEEE International Conference on Robotics and Automation (ICRA), Shanghai, China, May 9–13, pp. 3940–3945.10.1109/ICRA.2011.5979573",
+            "DOI": "10.1109/ICRA.2011.5979573"
+          }
+        ],
+        "container-title": [
+          "Journal of Mechanisms and Robotics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanismsrobotics/article-pdf/doi/10.1115/1.4029500/6253039/jmr_008_01_011001.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanismsrobotics/article-pdf/doi/10.1115/1.4029500/6253039/jmr_008_01_011001.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2025-05-16T12:33:40Z",
+          "timestamp": 1747398820000
+        },
+        "score": 28.548903,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/mechanismsrobotics/article/doi/10.1115/1.4029500/421767/A-Distance-Geometry-Approach-to-the-Singularity"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              18
+            ]
+          ]
+        },
+        "references-count": 31,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                2,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.4029500",
+        "ISSN": [
+          "1942-4302",
+          "1942-4310"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "1942-4302"
+          },
+          {
+            "type": "electronic",
+            "value": "1942-4310"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              18
+            ]
+          ]
+        },
+        "article-number": "011001"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Manual metadata corrections are applied after GROBID and Crossref.
+# Keys may be DOI, generated paper id, relative PDF path, or PDF filename.
+#
+# papers:
+#   "10.1126/scirobotics.xxxx":
+#     bibtex_key: "Salunkhe2026DemonstrateOnce"
+#     categories:
+#       - robot-learning
+#       - kinematic-intelligence
+#     projects:
+#       - cross-robot-skill-transfer
+#     tags:
+#       - LfD
+#       - kinematics
+#       - transfer-learning
+#     notes: "Important paper for Kinematic Intelligence project."
+papers: {}

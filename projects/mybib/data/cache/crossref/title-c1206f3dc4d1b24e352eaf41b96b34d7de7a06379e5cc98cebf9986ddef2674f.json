@@ -1,0 +1,1547 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3226070,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2026-04-27T18:59:59Z",
+          "timestamp": 1777316399271,
+          "version": "3.51.4"
+        },
+        "reference-count": 123,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2020-06-01T00:00:00Z",
+              "timestamp": 1590969600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2020-06-01T00:00:00Z",
+              "timestamp": 1590969600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "61625303"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "61625303"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "61751310"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "61751310"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100012166",
+            "name": "National Key Research and Development Program of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2017YFB1302302"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2017YFB1302302"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100012166",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100012166",
+            "name": "National Key Research and Development Program of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2018YFC2001600"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2018YFC2001600"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100012166",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100010816",
+            "name": "Anhui Science and Technology",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "17030901029"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "17030901029"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100010816",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Robotics and Autonomous Systems"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.robot.2020.103515",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              3
+            ]
+          ],
+          "date-time": "2020-04-03T10:36:48Z",
+          "timestamp": 1585910208000
+        },
+        "page": "103515",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 87,
+        "special_numbering": "C",
+        "title": [
+          "Skill transfer learning for autonomous robots and human–robot cooperation: A survey"
+        ],
+        "prefix": "10.1016",
+        "volume": "128",
+        "author": [
+          {
+            "given": "Yueyue",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Zhijun",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Huaping",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Zhen",
+            "family": "Kan",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b1",
+            "doi-asserted-by": "crossref",
+            "first-page": "115",
+            "DOI": "10.2976/1.2748612",
+            "article-title": "The new robotics—towards human centered machines",
+            "volume": "1",
+            "author": "Schaal",
+            "year": "2007",
+            "journal-title": "HFSP J."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.robot.2020.103515_b2",
+            "doi-asserted-by": "crossref",
+            "first-page": "262",
+            "DOI": "10.1007/s00170-003-1728-5",
+            "article-title": "Off-line programming of an industrial robot for manufacturing",
+            "volume": "26",
+            "author": "Mitsi",
+            "year": "2005",
+            "journal-title": "Int. J. Adv. Manuf. Technol."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b3",
+            "series-title": "Handbook of the Senses: Vol. 5-Somatosensation",
+            "article-title": "Tactile sensory control of object manipulation in human",
+            "author": "Johansson",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "H.H. Ehrsson, A. Fagergren, T. Jonsson, G. Westling, R.S. Johansson, H. Forssberg, Cortical activity in precision- versus power-grip tasks: An fMRI Study, J. Neurophysiol. 83 (1) 528–536.",
+            "DOI": "10.1152/jn.2000.83.1.528"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "A.C. Eliasson, H. Forssberg, K. Ikuta, I. Apel, G. Westling, R. Johansson, Development of human precision grip, Exp. Brain Res., 106 (3) 425–433.",
+            "DOI": "10.1007/BF00231065"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.robot.2020.103515_b6",
+            "doi-asserted-by": "crossref",
+            "first-page": "233",
+            "DOI": "10.1016/S1364-6613(99)01327-3",
+            "article-title": "Is imitation learning the route to humanoid robots",
+            "volume": "3",
+            "author": "Schaal",
+            "year": "1999",
+            "journal-title": "Trends Cogn. Sci."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b7",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/027836498400300401",
+            "article-title": "An approach to automatic robot programming based on inductive learning",
+            "volume": "3",
+            "author": "Dufay",
+            "year": "1984",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b8",
+            "doi-asserted-by": "crossref",
+            "first-page": "129",
+            "DOI": "10.1109/TCDS.2018.2885774",
+            "article-title": "Brain-computer interface-based stochastic navigation and control of a semiautonomous mobile robot in indoor environments",
+            "volume": "11",
+            "author": "Yuan",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b9",
+            "first-page": "1",
+            "article-title": "Adaptive neural control of a kinematically redundant exoskeleton robot using brain-machine interfaces",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Neural Netw."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b10",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1038/s41598-017-17222-3",
+            "article-title": "Motor cortical activity changes during neuroprosthetic-controlled object interaction",
+            "volume": "7",
+            "author": "Downey",
+            "year": "2017",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.robot.2020.103515_b11",
+            "doi-asserted-by": "crossref",
+            "first-page": "400",
+            "DOI": "10.1038/s42256-019-0093-5",
+            "article-title": "Shared human–robot proportional control of a dexterous myoelectric prosthesis",
+            "volume": "1",
+            "author": "Zhuang",
+            "year": "2019",
+            "journal-title": "Nat. Mach. Intell."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.robot.2020.103515_b12",
+            "doi-asserted-by": "crossref",
+            "first-page": "661",
+            "DOI": "10.1038/35090060",
+            "article-title": "Neurophysiological mechanisms underlying the understanding and imitation of action",
+            "volume": "2",
+            "author": "Rizzolatti",
+            "year": "2001",
+            "journal-title": "Nat. Rev. Neurosci."
+          },
+          {
+            "issue": "5853",
+            "key": "10.1016/j.robot.2020.103515_b13",
+            "doi-asserted-by": "crossref",
+            "first-page": "1088",
+            "DOI": "10.1126/science.1145803",
+            "article-title": "Self-organization, embodiment, and biologically inspired robotics",
+            "volume": "318",
+            "author": "Pfeifer",
+            "year": "2007",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.robot.2020.103515_b14",
+            "doi-asserted-by": "crossref",
+            "first-page": "1238",
+            "DOI": "10.1177/0278364913495721",
+            "article-title": "Reinforcement learning in robotics: A survey",
+            "volume": "32",
+            "author": "Kober",
+            "year": "2013",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.robot.2020.103515_b15",
+            "first-page": "2042",
+            "article-title": "Optimal and autonomous control using reinforcement learning: A survey",
+            "volume": "29",
+            "author": "Kiumarsi",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Neural Netw."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b16",
+            "series-title": "A survey on policy search algorithms for learning robot controllers in a handful of trials",
+            "author": "Chatzilygeroudis",
+            "year": "2018"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b17",
+            "doi-asserted-by": "crossref",
+            "first-page": "148",
+            "DOI": "10.1109/TCDS.2019.2897618",
+            "article-title": "Combined sensing, cognition, learning, and control for developing future neuro-robotics systems: A survey",
+            "volume": "11",
+            "author": "Li",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b18",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1109/TCDS.2016.2594134",
+            "article-title": "Affordances in psychology, neuroscience, and robotics: A survey",
+            "volume": "10",
+            "author": "Jamone",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b19",
+            "series-title": "Robotics Research",
+            "first-page": "17",
+            "article-title": "Perspectives on deep multimodel robot learning",
+            "author": "Burgard",
+            "year": "2020"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b20",
+            "doi-asserted-by": "crossref",
+            "unstructured": "L. Rozo, S. Calinon, D.G. Caldwell, P. Jimenez, C. Torras, Learning Physical collaborative robot behaviors from human demonstrations, IEEE Trans. Robot. 32 (3) 513–527.",
+            "DOI": "10.1109/TRO.2016.2540623"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b21",
+            "article-title": "A learning-based hierarchical control scheme for an exoskeleton robot in human-robot cooperative manipulation",
+            "author": "Mingdi",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Cybern."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b22",
+            "doi-asserted-by": "crossref",
+            "first-page": "286",
+            "DOI": "10.1109/TSMCB.2006.886952",
+            "article-title": "On learning, representing, and generalizing a task in a humanoid robot",
+            "volume": "37",
+            "author": "Calinon",
+            "year": "2007",
+            "journal-title": "IEEE Trans. Syst. Man Cybern. B"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b23",
+            "doi-asserted-by": "crossref",
+            "first-page": "1579",
+            "DOI": "10.1177/0278364917693927",
+            "article-title": "Phase estimation for fast action recognition and trajectory generation in human–robot collaboration",
+            "volume": "36",
+            "author": "Maeda",
+            "year": "2017",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b24",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1016/j.robot.2011.08.012",
+            "article-title": "Iterative learning of grasp adaptation through human corrections",
+            "volume": "60",
+            "author": "Sauser",
+            "year": "2012",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b25",
+            "doi-asserted-by": "crossref",
+            "first-page": "343",
+            "DOI": "10.1007/s12369-012-0160-0",
+            "article-title": "Keyframe-based learning from demonstration method and evaluation",
+            "volume": "4",
+            "author": "Akgun",
+            "year": "2012",
+            "journal-title": "Int. J. Soc. Robot."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.robot.2020.103515_b26",
+            "doi-asserted-by": "crossref",
+            "first-page": "2125",
+            "DOI": "10.1109/TSMC.2016.2615061",
+            "article-title": "Teleoperation control based on combination of wave variable and neural networks",
+            "volume": "47",
+            "author": "Yang",
+            "year": "2017",
+            "journal-title": "IEEE Trans. Syst. Man Cybern. A"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b27",
+            "series-title": "2009 9th IEEE-RAS International Conference on Humanoid Robots",
+            "first-page": "399",
+            "article-title": "Teaching physical collaborative tasks: Object-lifting case study with a humanoid",
+            "author": "Evrard",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b28",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S. Nakaoka, A. Nakazawa, F. Kanehiro, K. Kaneko, M. Morisawa, H. Hirukawa, K. Ikeuchi, learning from observation paradigm: Leg task models for enabling a biped humanoid robot to imitate human dances, Int. J. Robot. Res., 26 (8) 829–844.",
+            "DOI": "10.1177/0278364907079430"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b29",
+            "doi-asserted-by": "crossref",
+            "first-page": "110",
+            "DOI": "10.1007/s41315-018-0046-x",
+            "article-title": "An enhanced teaching interface for a robot using DMP and GMR",
+            "volume": "2",
+            "author": "Li",
+            "year": "2018",
+            "journal-title": "Int. J. Intell. Robot. Appl."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.robot.2020.103515_b30",
+            "first-page": "1",
+            "article-title": "Development of multi-fingered dexterous hand for grasping manipulation",
+            "volume": "57",
+            "author": "Lin",
+            "year": "2014",
+            "journal-title": "Sci. China F"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.robot.2020.103515_b31",
+            "first-page": "1169",
+            "article-title": "Development of sensory-motor fusion-based manipulation and grasping control for a robotic hand-eye system",
+            "volume": "47",
+            "author": "Hu",
+            "year": "2016",
+            "journal-title": "IEEE Trans. Syst. Man Cybern. A"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.robot.2020.103515_b32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1043",
+            "DOI": "10.1109/JBHI.2013.2286455",
+            "article-title": "SEMG-based joint force control for an upper-limb power-assist exoskeleton robot",
+            "volume": "18",
+            "author": "Li",
+            "year": "2014",
+            "journal-title": "IEEE J. Biomed. Health Inf."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b33",
+            "series-title": "2009 International Conference on Advanced Robotics",
+            "first-page": "1",
+            "article-title": "Learning collaborative manipulation tasks by demonstration using a haptic interface",
+            "author": "Calinon",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b34",
+            "series-title": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+            "first-page": "2416",
+            "article-title": "An experience-driven robotic assistant acquiring human knowledge to improve haptic cooperation",
+            "author": "Medina",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b35",
+            "doi-asserted-by": "crossref",
+            "unstructured": "E. Gribovskaya, A. Kheddar, A. Billard, Motion learning and adaptive impedance for robot control during physical interaction with humans, in: Proceedings - IEEE International Conference on Robotics and Automation, 2011.",
+            "DOI": "10.1109/ICRA.2011.5980070"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b36",
+            "series-title": "Learning contact-rich manipulation skills with guided policy search",
+            "author": "Levine",
+            "year": "2015"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b37",
+            "doi-asserted-by": "crossref",
+            "first-page": "145",
+            "DOI": "10.1016/S0921-8890(01)00155-5",
+            "article-title": "Learning human arm movements by imitation:: Evaluation of a biologically inspired connectionist architecture",
+            "volume": "37",
+            "author": "Billard",
+            "year": "2001",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b38",
+            "series-title": "2012 IEEE International Conference on Robotics and Automation",
+            "first-page": "2952",
+            "article-title": "Unifying perception, estimation and action for mobile manipulation via belief space planning",
+            "author": "Kaelbling",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b39",
+            "first-page": "153",
+            "article-title": "Object search by manipulation",
+            "volume": "vol. 36",
+            "author": "Dogar",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b40",
+            "series-title": "Robotics Research",
+            "first-page": "253",
+            "article-title": "Efficient planning in non-Gaussian belief spaces and its application to robot grasping",
+            "author": "Platt",
+            "year": "2017"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b41",
+            "doi-asserted-by": "crossref",
+            "first-page": "121",
+            "DOI": "10.1109/TMECH.2017.2717461",
+            "article-title": "Reinforcement learning of manipulation and grasping using dynamical movement primitives for a humanoidlike mobile manipulator",
+            "volume": "23",
+            "author": "Li",
+            "year": "2017",
+            "journal-title": "IEEE/ASME Trans. Mechatronics"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b42",
+            "first-page": "1",
+            "article-title": "Cooperative manipulation for a mobile dual-arm robot using sequences of dynamic movement primitives",
+            "author": "Zhao",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.robot.2020.103515_b43",
+            "doi-asserted-by": "crossref",
+            "first-page": "1105",
+            "DOI": "10.1016/j.robot.2010.06.001",
+            "article-title": "Combining active learning and reactive control for robot grasping",
+            "volume": "58",
+            "author": "Kroemer",
+            "year": "2010",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.robot.2020.103515_b44",
+            "doi-asserted-by": "crossref",
+            "first-page": "387",
+            "DOI": "10.1016/j.robot.2011.07.012",
+            "article-title": "Autonomous grasp and manipulation planning using a ToF camera",
+            "volume": "60",
+            "author": "Xue",
+            "year": "2012",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.robot.2020.103515_b45",
+            "doi-asserted-by": "crossref",
+            "first-page": "407",
+            "DOI": "10.1007/s10514-015-9459-7",
+            "article-title": "Learning state representations with robotic priors",
+            "volume": "39",
+            "author": "Jonschkowski",
+            "year": "2015",
+            "journal-title": "Auton. Robots"
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.robot.2020.103515_b46",
+            "doi-asserted-by": "crossref",
+            "first-page": "1565",
+            "DOI": "10.1177/0278364910369715",
+            "article-title": "Learning from demonstration for autonomous navigation in complex unstructured terrain",
+            "volume": "29",
+            "author": "Silver",
+            "year": "2010",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "13",
+            "key": "10.1016/j.robot.2020.103515_b47",
+            "doi-asserted-by": "crossref",
+            "first-page": "1608",
+            "DOI": "10.1177/0278364910371999",
+            "article-title": "Autonomous helicopter aerobatics through apprenticeship learning",
+            "volume": "29",
+            "author": "Abbeel",
+            "year": "2010",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b48",
+            "doi-asserted-by": "crossref",
+            "first-page": "175",
+            "DOI": "10.1177/0278364907087426",
+            "article-title": "Trajectory optimization using reinforcement learning for map exploration",
+            "volume": "27",
+            "author": "Kollar",
+            "year": "2008",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.robot.2020.103515_b49",
+            "doi-asserted-by": "crossref",
+            "first-page": "1450",
+            "DOI": "10.1016/j.robot.2013.07.009",
+            "article-title": "Interaction learning for dynamic movement primitives used in cooperative robotic tasks",
+            "volume": "61",
+            "author": "Kulvicius",
+            "year": "2013",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b50",
+            "doi-asserted-by": "crossref",
+            "first-page": "816",
+            "DOI": "10.1109/TRO.2014.2304775",
+            "article-title": "Coupling movement primitives: Interaction with the environment and bimanual tasks",
+            "volume": "30",
+            "author": "Gams",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b51",
+            "series-title": "Robotics: Science and Systems",
+            "first-page": "34",
+            "article-title": "Policy search via the signed derivative.",
+            "author": "Kolter",
+            "year": "2009"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.robot.2020.103515_b52",
+            "doi-asserted-by": "crossref",
+            "first-page": "911",
+            "DOI": "10.1016/j.robot.2006.05.012",
+            "article-title": "Learning CPG-based biped locomotion with a policy gradient method",
+            "volume": "54",
+            "author": "Matsubara",
+            "year": "2006",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "26",
+            "key": "10.1016/j.robot.2020.103515_b53",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1126/scirobotics.aau5872",
+            "article-title": "Learning agile and dynamic motor skills for legged robots",
+            "volume": "4",
+            "author": "Hwangbo",
+            "year": "2019",
+            "journal-title": "Sci. Robot."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b54",
+            "series-title": "2010 IEEE International Conference on Robotics and Automation",
+            "first-page": "2397",
+            "article-title": "Reinforcement learning of motor skills in high dimensions: A path integral approach",
+            "author": "Theodorou",
+            "year": "2010"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b55",
+            "doi-asserted-by": "crossref",
+            "first-page": "81",
+            "DOI": "10.1016/j.cmpb.2013.12.015",
+            "article-title": "Human–robot skills transfer interfaces for a flexible surgical robot",
+            "volume": "116",
+            "author": "Calinon",
+            "year": "2014",
+            "journal-title": "Comput. Methods Programs Biomed."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b56",
+            "doi-asserted-by": "crossref",
+            "first-page": "13",
+            "DOI": "10.1186/s40638-014-0013-4",
+            "article-title": "Learning by imitation with the STIFF-FLOP surgical robot: a biomimetic approach inspired by octopus movements",
+            "volume": "1",
+            "author": "Malekzadeh",
+            "year": "2014",
+            "journal-title": "Robot. Biomim."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b57",
+            "series-title": "2015 IEEE International Conference on Robotics and Automation, ICRA",
+            "first-page": "3868",
+            "article-title": "Semi-autonomous simulated brain tumor ablation with ravenii surgical robot using behavior tree",
+            "author": "Hu",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b58",
+            "series-title": "2016 IEEE International Conference on Robotics and Automation, ICRA",
+            "first-page": "4406",
+            "article-title": "Automate surgical tasks for a flexible serpentine manipulator via learning actuation space trajectory from demonstration",
+            "author": "Xu",
+            "year": "2016"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b59",
+            "series-title": "2015 IEEE International Conference on Robotics and Automation, ICRA",
+            "first-page": "1202",
+            "article-title": "Learning by observation for surgical subtasks: Multilateral cutting of 3d viscoelastic and 2d orthotropic tissue phantoms",
+            "author": "Murali",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b60",
+            "first-page": "1",
+            "article-title": "Human-inspired control of dual-arm exoskeleton robots with force and impedance adaptation",
+            "author": "Li",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Syst. Man Cybern."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b61",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1038/srep38565",
+            "article-title": "Noninvasive electroencephalogram based control of a robotic arm for reach and grasp tasks",
+            "volume": "6",
+            "author": "Meng",
+            "year": "2016",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b62",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D. Borton, S. Micera, J.d.R. Millan, G. Courtine, Personalized neuroprosthetics, Sci. Transl. Med. 5 (210) 210rv2–210rv2.",
+            "DOI": "10.1126/scitranslmed.3005968"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b63",
+            "unstructured": "J.M. Hahne, S.M. A., K. Mario, F. Dario, Simultaneous control of multiple functions of bionic hand prostheses: Performance and robustness in end users, Sci. Robot. 3 (19) eaat3630."
+          },
+          {
+            "issue": "9866",
+            "key": "10.1016/j.robot.2020.103515_b64",
+            "doi-asserted-by": "crossref",
+            "first-page": "557",
+            "DOI": "10.1016/S0140-6736(12)61816-9",
+            "article-title": "High-performance neuroprosthetic control by an individual with tetraplegia",
+            "volume": "381",
+            "author": "Collinger",
+            "year": "2013",
+            "journal-title": "Lancet"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b65",
+            "first-page": "210",
+            "article-title": "A human-assisting manipulator teleoperated by EMG signals and arm motions",
+            "volume": "vol. 19",
+            "author": "Fukuda",
+            "year": "2003"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b66",
+            "doi-asserted-by": "crossref",
+            "first-page": "319",
+            "DOI": "10.1007/s10339-011-0404-1",
+            "article-title": "Model learning for robot control: a survey",
+            "volume": "12",
+            "author": "Nguyentuong",
+            "year": "2011",
+            "journal-title": "Cogn. Process."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b67",
+            "unstructured": "S. Ross, G. Gordon, D. Bagnell, A reduction of imitation learning and structured prediction to no-regret online learning, in: Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics, 2011, pp. 627–635."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b68",
+            "doi-asserted-by": "crossref",
+            "unstructured": "P. Abbeel, A.Y. Ng, Apprenticeship learning via inverse reinforcement learning, in: Proceedings of the Twenty-First International Conference on Machine Learning, 2004, pp. 1.",
+            "DOI": "10.1145/1015330.1015430"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b69",
+            "series-title": "Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No. 02CH37292), Vol. 2",
+            "first-page": "1398",
+            "article-title": "Movement imitation with nonlinear dynamical systems in humanoid robots",
+            "author": "Ijspeert",
+            "year": "2002"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.robot.2020.103515_b70",
+            "doi-asserted-by": "crossref",
+            "first-page": "761",
+            "DOI": "10.1177/0278364908091153",
+            "article-title": "Incremental learning, clustering and hierarchy formation of whole body motion patterns using adaptive hidden Markov chains",
+            "volume": "27",
+            "author": "Kulic",
+            "year": "2008",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b71",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/0278364918816374",
+            "article-title": "Small-variance asymptotics for non-parametric online robot learning",
+            "volume": "38",
+            "author": "Tanwani",
+            "year": "2019",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b72",
+            "series-title": "2009 IEEE International Conference on Robotics and Automation",
+            "first-page": "763",
+            "article-title": "Learning and generalization of motor skills by learning from demonstration",
+            "author": "Pastor",
+            "year": "2009"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.robot.2020.103515_b73",
+            "doi-asserted-by": "crossref",
+            "first-page": "2581",
+            "DOI": "10.1109/TMECH.2015.2510165",
+            "article-title": "Learning compliant movement primitives through demonstration and statistical generalization",
+            "volume": "21",
+            "author": "Denisa",
+            "year": "2016",
+            "journal-title": "IEEE/ASME Trans. Mechatronics"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.robot.2020.103515_b74",
+            "doi-asserted-by": "crossref",
+            "first-page": "1636",
+            "DOI": "10.1109/TRO.2018.2861921",
+            "article-title": "Accelerated sensorimotor learning of compliant movement primitives",
+            "volume": "34",
+            "author": "Petric",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b75",
+            "series-title": "2015 IEEE International Conference on Robotics and Automation, ICRA",
+            "first-page": "1511",
+            "article-title": "Extracting low-dimensional control variables for movement primitives",
+            "author": "Rueckert",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b76",
+            "doi-asserted-by": "crossref",
+            "unstructured": "N.D. Ratliff, J. Bagnell, M.A. Zinkevich, Maximum margin planning, in: Proceedings of the 23rd International Conference on Machine Learning, 2006, pp. 729–736.",
+            "DOI": "10.1145/1143844.1143936"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b77",
+            "unstructured": "B.D. Ziebart, A.L. Maas, J.A. Bagnell, A.K. Dey, Maximum entropy inverse reinforcement learning., in: AAAI, Vol. 8, Chicago, IL, USA 2008, pp. 1433–1438."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b78",
+            "series-title": "Advances in Neural Information Processing Systems",
+            "first-page": "1342",
+            "article-title": "Feature construction for inverse reinforcement learning",
+            "author": "Levine",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b79",
+            "series-title": "Advances in Neural Information Processing Systems",
+            "first-page": "1153",
+            "article-title": "Boosting structured prediction for imitation learning",
+            "author": "Bagnell",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b80",
+            "series-title": "Advances in Neural Information Processing Systems",
+            "first-page": "19",
+            "article-title": "Nonlinear inverse reinforcement learning with gaussian processes",
+            "author": "Levine",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b81",
+            "series-title": "Maximum entropy deep inverse reinforcement learning",
+            "author": "Wulfmeier",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b82",
+            "unstructured": "C. Finn, S. Levine, P. Abbeel, Guided cost learning: Deep inverse optimal control via policy optimization, in: International Conference on Machine Learning, 2016, pp. 49–58."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b83",
+            "series-title": "Advances in Neural Information Processing Systems",
+            "first-page": "4565",
+            "article-title": "Generative adversarial imitation learning",
+            "author": "Ho",
+            "year": "2016"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b84",
+            "series-title": "2014 IEEE International Conference on Robotics and Automation, ICRA",
+            "first-page": "3896",
+            "article-title": "Sample-based informationl-theoretic stochastic optimal control",
+            "author": "Lioutikov",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b85",
+            "series-title": "Proceedings of the 1st Annual Conference on Robot Learning",
+            "first-page": "239",
+            "article-title": "Learning robotic manipulation of granular media",
+            "volume": "vol. 78",
+            "author": "Schenck",
+            "year": "2017"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b86",
+            "doi-asserted-by": "crossref",
+            "first-page": "682",
+            "DOI": "10.1016/j.neunet.2008.02.003",
+            "article-title": "2008 special issue: Reinforcement learning of motor skills with policy gradients",
+            "volume": "21",
+            "author": "Peters",
+            "year": "2008",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.robot.2020.103515_b87",
+            "doi-asserted-by": "crossref",
+            "first-page": "1360",
+            "DOI": "10.1109/TRO.2012.2210294",
+            "article-title": "Reinforcement learning with sequences of motion primitives for robust manipulation",
+            "volume": "28",
+            "author": "Stulp",
+            "year": "2012",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "issue": "5786",
+            "key": "10.1016/j.robot.2020.103515_b88",
+            "doi-asserted-by": "crossref",
+            "first-page": "504",
+            "DOI": "10.1126/science.1127647",
+            "article-title": "Reducing the dimensionality of data with neural networks",
+            "volume": "313",
+            "author": "Hinton",
+            "year": "2006",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b89",
+            "first-page": "1334",
+            "article-title": "End-to-end training of deep visuomotor policies",
+            "volume": "17",
+            "author": "Levine",
+            "year": "2016",
+            "journal-title": "J. Mach. Learn. Res."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b90",
+            "doi-asserted-by": "crossref",
+            "first-page": "421",
+            "DOI": "10.1177/0278364917710318",
+            "article-title": "Learning hand-eye coordination for robotic grasping with deep learning and large-scale data collection",
+            "volume": "37",
+            "author": "Levine",
+            "year": "2018",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "26",
+            "key": "10.1016/j.robot.2020.103515_b91",
+            "doi-asserted-by": "crossref",
+            "first-page": "eaau4984",
+            "DOI": "10.1126/scirobotics.aau4984",
+            "article-title": "Learning ambidextrous robot grasping policies",
+            "volume": "4",
+            "author": "Mahler",
+            "year": "2019",
+            "journal-title": "Sci. Robot."
+          },
+          {
+            "issue": "7540",
+            "key": "10.1016/j.robot.2020.103515_b92",
+            "doi-asserted-by": "crossref",
+            "first-page": "529",
+            "DOI": "10.1038/nature14236",
+            "article-title": "Human-level control through deep reinforcement learning",
+            "volume": "518",
+            "author": "Mnih",
+            "year": "2015",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b93",
+            "unstructured": "D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, M. Riedmiller, Deterministic policy gradient algorithms, in: International Conference on Machine Learning, 2014, pp. 387–395."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b94",
+            "series-title": "Continuous control with deep reinforcement learning",
+            "author": "Lillicrap",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b95",
+            "unstructured": "J. Schulman, S. Levine, P. Abbeel, M. Jordan, P. Moritz, Trust region policy optimization, in: International Conference on Machine Learning, 2015, pp. 1889–1897."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b96",
+            "unstructured": "S. Levine, V. Koltun, Guided policy search, in: International Conference on Machine Learning, 2013, pp. 1–9."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.robot.2020.103515_b97",
+            "doi-asserted-by": "crossref",
+            "first-page": "681",
+            "DOI": "10.1109/TAC.1984.1103644",
+            "article-title": "Adaptive control of mechanical impedance by coactivation of antagonist muscles",
+            "volume": "29",
+            "author": "Hogan",
+            "year": "1984",
+            "journal-title": "IEEE Trans. Automat. Control"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b98",
+            "doi-asserted-by": "crossref",
+            "first-page": "367",
+            "DOI": "10.1123/jab.20.4.367",
+            "article-title": "Neuromusculoskeletal modeling: Estimation of muscle forces and joint moments and movements from measurements of neural command",
+            "volume": "20",
+            "author": "Buchanan",
+            "year": "2004",
+            "journal-title": "J. Appl. Biomech."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b99",
+            "article-title": "EMG-based real-time linear-nonlinear cascade regression decoding of shoulder, elbow and wrist movements in able-bodied persons and stroke survivors",
+            "author": "Liu",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Biomed. Eng."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.robot.2020.103515_b100",
+            "first-page": "243",
+            "article-title": "A Russian bioelectric-controlled prosthesis",
+            "volume": "92",
+            "author": "Sherman",
+            "year": "1965",
+            "journal-title": "CMAJ"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.robot.2020.103515_b101",
+            "doi-asserted-by": "crossref",
+            "first-page": "848",
+            "DOI": "10.1109/TBME.2003.813539",
+            "article-title": "A robust, real-time control scheme for multifunction myoelectric control",
+            "volume": "50",
+            "author": "Englehart",
+            "year": "2003",
+            "journal-title": "IEEE Trans. Biomed. Eng."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.robot.2020.103515_b102",
+            "doi-asserted-by": "crossref",
+            "first-page": "1250",
+            "DOI": "10.1109/TBME.2012.2232293",
+            "article-title": "Classification of simultaneous movements using surface EMG pattern recognition",
+            "volume": "60",
+            "author": "Young",
+            "year": "2012",
+            "journal-title": "IEEE Trans. Biomed. Eng."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b103",
+            "doi-asserted-by": "crossref",
+            "first-page": "8",
+            "DOI": "10.1016/j.bspc.2014.03.006",
+            "article-title": "Real-time, simultaneous myoelectric control using visual target-based training paradigm",
+            "volume": "13",
+            "author": "Ameri",
+            "year": "2014",
+            "journal-title": "Biomed. Signal Process. Control"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b104",
+            "doi-asserted-by": "crossref",
+            "first-page": "269",
+            "DOI": "10.1109/TNSRE.2014.2305520",
+            "article-title": "Linear and nonlinear regression techniques for simultaneous and proportional myoelectric control",
+            "volume": "22",
+            "author": "Hahne",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Neural Syst. Rehabil. Eng."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b105",
+            "doi-asserted-by": "crossref",
+            "first-page": "107",
+            "DOI": "10.1186/s12938-018-0539-8",
+            "article-title": "PCA and deep learning based myoelectric grasping control of a prosthetic hand",
+            "volume": "17",
+            "author": "Li",
+            "year": "2018",
+            "journal-title": "Biomed. Eng. Online"
+          },
+          {
+            "issue": "5681",
+            "key": "10.1016/j.robot.2020.103515_b106",
+            "doi-asserted-by": "crossref",
+            "first-page": "258",
+            "DOI": "10.1126/science.1097938",
+            "article-title": "Cognitive control signals for neural prosthetics",
+            "volume": "305",
+            "author": "Musallam",
+            "year": "2004",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.robot.2020.103515_b107",
+            "doi-asserted-by": "crossref",
+            "first-page": "487",
+            "DOI": "10.1146/annurev.neuro.27.070203.144233",
+            "article-title": "Cortical neural prosthetics",
+            "volume": "27",
+            "author": "Schwartz",
+            "year": "2004",
+            "journal-title": "Annu. Rev. Neurosci."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.robot.2020.103515_b108",
+            "first-page": "536",
+            "article-title": "Brain-machine interfaces: past, present and future",
+            "volume": "29",
+            "author": "Lebedev",
+            "year": "2006",
+            "journal-title": "rends Neurosci."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b109",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1088/1741-2560/12/4/046021",
+            "article-title": "A combination strategy based brain–computer interface for two-dimensional movement control",
+            "volume": "12",
+            "author": "Xia",
+            "year": "2015",
+            "journal-title": "J. Neural Eng."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.robot.2020.103515_b110",
+            "doi-asserted-by": "crossref",
+            "first-page": "3432",
+            "DOI": "10.1523/JNEUROSCI.6107-09.2010",
+            "article-title": "Reconstructing three-dimensional hand movements from noninvasive electroencephalographic signals",
+            "volume": "30",
+            "author": "Bradberry",
+            "year": "2010",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.robot.2020.103515_b111",
+            "doi-asserted-by": "crossref",
+            "first-page": "414",
+            "DOI": "10.1109/TCDS.2018.2875052",
+            "article-title": "Motor-imagery-based teleoperation of a dual-arm robot performing manipulation tasks",
+            "volume": "11",
+            "author": "Liu",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Cogn. Dev. Syst."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.robot.2020.103515_b112",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1088/1741-2560/10/4/046003",
+            "article-title": "Quadcopter control in three-dimensional space using a noninvasive motor imagery-based brain–computer interface",
+            "volume": "10",
+            "author": "LaFleur",
+            "year": "2013",
+            "journal-title": "J. Neural Eng."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b113",
+            "doi-asserted-by": "crossref",
+            "first-page": "116",
+            "DOI": "10.1016/j.neucom.2014.09.078",
+            "article-title": "SVM-based brain-machine interface for controlling a robot arm through four mental tasks",
+            "volume": "151",
+            "author": "Hortal",
+            "year": "2015",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b114",
+            "doi-asserted-by": "crossref",
+            "first-page": "172",
+            "DOI": "10.3389/fnins.2013.00172",
+            "article-title": "A BMI-based occupational therapy assist suit: asynchronous control by SSVEP",
+            "volume": "7",
+            "author": "Sakurada",
+            "year": "2013",
+            "journal-title": "Front. Neurosci."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.robot.2020.103515_b115",
+            "doi-asserted-by": "crossref",
+            "first-page": "567",
+            "DOI": "10.1007/s11517-011-0750-2",
+            "article-title": "Combined motor imagery and SSVEP based BCI control of a 2 DoF artificial upper limb",
+            "volume": "49",
+            "author": "Horki",
+            "year": "2011",
+            "journal-title": "Med. Biol. Eng. Comput."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.robot.2020.103515_b116",
+            "doi-asserted-by": "crossref",
+            "first-page": "229",
+            "DOI": "10.1111/j.1085-9489.2005.10303.x",
+            "article-title": "A critical review of interfaces with the peripheral nervous system for the control of neuroprostheses and hybrid bionic systems",
+            "volume": "10",
+            "author": "Navarro",
+            "year": "2005",
+            "journal-title": "J. Peripher. Nerv. Syst."
+          },
+          {
+            "issue": "7398",
+            "key": "10.1016/j.robot.2020.103515_b117",
+            "doi-asserted-by": "crossref",
+            "first-page": "372",
+            "DOI": "10.1038/nature11076",
+            "article-title": "Reach and grasp by people with tetraplegia using a neurally controlled robotic arm",
+            "volume": "485",
+            "author": "Hochberg",
+            "year": "2012",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b118",
+            "series-title": "A closed-loop hand prosthesis with simultaneous intraneural tactile and position feedback",
+            "author": "Danna",
+            "year": "2018"
+          },
+          {
+            "issue": "222",
+            "key": "10.1016/j.robot.2020.103515_b119",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1126/scitranslmed.3006820",
+            "article-title": "Restoring natural sensory feedback in real-time bidirectional hand prostheses",
+            "volume": "6",
+            "author": "Raspopovic",
+            "year": "2014",
+            "journal-title": "Sci. Transl. Med."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b120",
+            "doi-asserted-by": "crossref",
+            "first-page": "0025",
+            "DOI": "10.1038/s41551-016-0025",
+            "article-title": "Man/machine interface based on the discharge timings of spinal motor neurons after targeted muscle reinnervation",
+            "volume": "1",
+            "author": "Farina",
+            "year": "2017",
+            "journal-title": "Nat. Biomed. Eng."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.robot.2020.103515_b121",
+            "doi-asserted-by": "crossref",
+            "first-page": "619",
+            "DOI": "10.1001/jama.2009.116",
+            "article-title": "Targeted muscle reinnervation for real-time myoelectric control of multifunction artificial arms.",
+            "volume": "301",
+            "author": "Kuiken",
+            "year": "2009",
+            "journal-title": "JAMA"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.robot.2020.103515_b122",
+            "doi-asserted-by": "crossref",
+            "first-page": "393",
+            "DOI": "10.1109/TRO.2009.2039378",
+            "article-title": "EMG-based control of a robot arm using low-dimensional embeddings",
+            "volume": "26",
+            "author": "Artemiadis",
+            "year": "2010",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "10.1016/j.robot.2020.103515_b123",
+            "series-title": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+            "first-page": "672",
+            "article-title": "EMG-based teleoperation and manipulation with the DLR LWR-III",
+            "author": "Vogel",
+            "year": "2011"
+          }
+        ],
+        "container-title": [
+          "Robotics and Autonomous Systems"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0921889019309972?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0921889019309972?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2025-10-13T04:28:47Z",
+          "timestamp": 1760329727000
+        },
+        "score": 23.303083,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0921889019309972"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "references-count": 123,
+        "alternative-id": [
+          "S0921889019309972"
+        ],
+        "URL": "https://doi.org/10.1016/j.robot.2020.103515",
+        "ISSN": [
+          "0921-8890"
+        ],
+        "issn-type": [
+          {
+            "value": "0921-8890",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Skill transfer learning for autonomous robots and human–robot cooperation: A survey",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Robotics and Autonomous Systems",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.robot.2020.103515",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2020 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "103515"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

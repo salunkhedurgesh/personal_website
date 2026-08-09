@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimal Design of the IRSBot-2 Based on an Optimized Test Trajectory</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Coralie</forename><surname>Germain</surname></persName>
+							<email>germain@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stéphane</forename><surname>Caro</surname></persName>
+							<email>caro@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sébastien</forename><surname>Briot</surname></persName>
+							<email>briot@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Wenger</surname></persName>
+							<email>wenger@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>St</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Ébastien Briot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institut de Recherche en Communications et Cybern étique de Nantes ∇ CNRS</orgName>
+								<orgName type="department" key="dep2">Institut de Recherche en Communications et Cybern étique de Nantes</orgName>
+								<orgName type="laboratory">UMR CNRS n • 6597</orgName>
+								<orgName type="institution" key="instit1">LUNAM Universit é</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimal Design of the IRSBot-2 Based on an Optimized Test Trajectory</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">13CE41DBD7C92EEAB4EB19E92624766C</idno>
+					<idno type="DOI">10.1115/DETC2013-13037</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper deals with the design optimization of the IRSBot-2 based on an optimized test trajectory for fast pick and place operations. The IRSBot-2 is a two degree-of-freedom translational parallel manipulator dedicated to fast and accurate pickand-place operations. First, an optimization problem is formulated to determine the optimal test trajectory. This problem aims at finding the path defined with s-curves and the time trajectory that minimize the cycle time while the maximum acceleration of the moving platform remains lower than 20 G and the time trajectory functions are C 2 continuous. Then, two design optimization problems are formulated to find the optimal design parameters of the IRSBot-2 based on the previous optimal test trajectory. These two problems are formulated so that they can be solved in cascade. The first problem aims to define the design parameters that affect the geometric and kinematic performances of the manipulator. The second problem is about the determination of the remaining parameters by considering elastostatic and dynamic performances. Finally, the optimal design parameters are given and will be used for the realization of an industrial prototype of the IRSBot-2.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

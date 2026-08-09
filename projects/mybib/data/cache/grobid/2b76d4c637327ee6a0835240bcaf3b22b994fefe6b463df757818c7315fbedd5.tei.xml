@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A branch and prune algorithm for the computation of generalized aspects of parallel robots ✩</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-02-18">18 February 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><surname>Caro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<settlement>IRCCyN Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Chablat</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<settlement>IRCCyN Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Goldsztejn</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR-6241)</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">LINA</orgName>
+								<address>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Ishii</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Tokyo Institute of Technology</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Jermann</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Université de Nantes</orgName>
+								<orgName type="institution" key="instit2">LINA (UMR-6241)</orgName>
+								<address>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A branch and prune algorithm for the computation of generalized aspects of parallel robots ✩</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-02-18">18 February 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F462F81DCB2702A4E161D2EE46DE298E</idno>
+					<idno type="DOI">10.1016/j.artint.2014.02.001</idno>
+					<note type="submission">Received 18 April 2013 Received in revised form 6 February 2014 Accepted 8 February 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Numerical constraints Parallel robots Singularities Generalized aspects</keywords>
+			</textClass>
+			<abstract>
+				<p>Parallel robots enjoy enhanced mechanical characteristics that have to be contrasted with a more complicated design. In particular, they often have parallel singularities at some poses, and the robots may become uncontrollable, and could even be damaged, in such configurations. The computation of the connected components in the set of nonsingular reachable configurations, called generalized aspects, is therefore a key issue in their design. This paper introduces a new method, based on numerical constraint programming, to compute a certified enclosure of the generalized aspects. Though this method does not allow counting their number rigorously, it constructs inner approximations of the nonsingular workspace that allow commanding parallel robots safely. It also provides a lower-bound on the exact number of generalized aspects. It is moreover the first general method able to handle any parallel robot in theory, though its computational complexity currently restricts its usage to robots with three degrees of freedom. Finally, the constraint programming paradigm it relies on makes it possible to consider various additional constraints (e.g., collision avoidance), making it suitable for practical considerations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,202 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1095021,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              16
+            ]
+          ],
+          "date-time": "2026-01-16T01:37:38Z",
+          "timestamp": 1768527458577,
+          "version": "3.49.0"
+        },
+        "reference-count": 0,
+        "publisher": "MM Publishing, s.r.o.",
+        "issue": "4",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "MM SJ"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The paper deals with the kinematic analysis of the robot model. The matrix method of kinematic analysis is used. The robot mechanism is an open kinematic chain. The position, velocity and acceleration vector of the end point of the robot arm is determined in the Matlab program. Computer simulation is also performed in the MSC Adams program.</jats:p>",
+        "DOI": "10.17973/mmsj.2022_11_2022093",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2022-11-05T11:47:30Z",
+          "timestamp": 1667648850000
+        },
+        "page": "6098-6108",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "ROBOT TRAJECTORY PLANNING"
+        ],
+        "prefix": "10.17973",
+        "volume": "2022",
+        "author": [
+          {
+            "name": "Technical University of Kosice, Faculty of Mechanical Engineering, Kosice, Slovakia",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "DARINA",
+            "family": "HRONCOVA",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "PETER JAN",
+            "family": "SINCAK",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "name": "Technical University of Kosice, Faculty of Mechanical Engineering, Kosice, Slovakia",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "TOMAS",
+            "family": "MERVA",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "name": "Technical University of Kosice, Faculty of Mechanical Engineering, Kosice, Slovakia",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "ROMAN",
+            "family": "MYKHAILYSHYN",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "name": "Texas Robotics, College of Natural Sciences and the Cockrell School of Engineering, The University of Texas at Austin, Austin, TX 78712, USA",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "7387",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "container-title": [
+          "MM Science Journal"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2022-11-05T11:47:37Z",
+          "timestamp": 1667648857000
+        },
+        "score": 29.1548,
+        "resource": {
+          "primary": {
+            "URL": "https://www.mmscience.eu/2022093"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "4",
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                16
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                16
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.17973/mmsj.2022_11_2022093",
+        "ISSN": [
+          "1803-1269",
+          "1805-0476"
+        ],
+        "issn-type": [
+          {
+            "value": "1803-1269",
+            "type": "print"
+          },
+          {
+            "value": "1805-0476",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              16
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

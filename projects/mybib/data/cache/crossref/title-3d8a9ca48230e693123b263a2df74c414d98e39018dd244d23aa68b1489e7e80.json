@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7032311,
+    "items": [
+      {
+        "institution": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03nh7d505",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Ecole centrale de Nantes"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T15:05:48Z",
+          "timestamp": 1775660748207,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Agence Bibliographique de l'Enseignement Supérieur",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:title>Conception et analyse de manipulateurs inspirés par la tenségrité</jats:title>\n                <jats:p xml:lang=\"fr\">Cette thèse étudie les articulations et les manipulateurs inspirés de la tenségrité, équipés de ressorts et actionnés de manière redondante par des câbles antagonistes. La redondance de l’actionnement est exploitée pour moduler leur rigidité dans une configuration donnée. La condition pour obtenir une corrélation positive entre les forces d’actionnement et la rigidité est obtenue pour une articulation générale à un seul degré de liberté (1-DDL). Ce phénomène, appelé coactivationdans les articulations biologiques, permet d’améliorer l’efficacité énergétique. Parmi les articulations à pivot (R) et les mécanismes symétriques à quatre barres, l’antiparallélogramme (X) offre la plus grande amplitude de mouvement avec coactivation. C’est pourquoi un manipulateur planaire 2-DDL avec deux articulations X est conçu. Deux schémas d’actionnement avec quatre et trois câbles, respectivement, sont examinés pour ce manipulateur. Les performances en termes d’espace de travail, de vitesse, de force et de rigidité sont comparées pour les deux schémas. Les considérations de conception de tels manipulateurs, à savoir les limites des articulations, la faisabilité mécanique des ressorts et la resistancedes barres, sont abordées. L’optimisation de la conception et la comparaison des manipulateurs 2-X et 2-R sont effectuées avec des spécifications identiques en matière de charge utile et d’espace de travail. Enfin, une articulation X modifiée est développée avec seulement des articulations sphériques, et un manipulateur spatial 3-X inspiré de la tenségrité est construit et étudié.</jats:p>",
+        "DOI": "10.70675/f2fa6be3z35c1z4e01zb744zfa810c057d92",
+        "type": "dissertation",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T14:25:16Z",
+          "timestamp": 1775658316000
+        },
+        "approved": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              6
+            ]
+          ]
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Design and analysis of tensegrity-inspired manipulators"
+        ],
+        "prefix": "10.70675",
+        "author": [
+          {
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8753-8548",
+            "authenticated-orcid": false,
+            "given": "Vimalesh",
+            "family": "Muralidharan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03nh7d505",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Ecole centrale de Nantes"
+              }
+            ]
+          }
+        ],
+        "member": "51494",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T14:25:17Z",
+          "timestamp": 1775658317000
+        },
+        "score": 32.144093,
+        "degree": [
+          "Doctorat ès Robotique",
+          "PhD"
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://theses.fr/2023ECDN0032"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "2023ECDN0032"
+        ],
+        "URL": "https://doi.org/10.70675/f2fa6be3z35c1z4e01zb744zfa810c057d92"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

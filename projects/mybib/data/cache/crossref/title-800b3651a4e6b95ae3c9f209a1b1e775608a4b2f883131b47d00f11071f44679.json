@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7284889,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2026-02-28T06:00:16Z",
+          "timestamp": 1772258416971,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Copernicus GmbH",
+        "content-domain": {
+          "domain": []
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.5194/bg-2015-641-rc1",
+        "type": "peer-review",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2016-02-01T05:19:11Z",
+          "timestamp": 1454303951000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Cox et al."
+        ],
+        "prefix": "10.5194",
+        "member": "3145",
+        "review": {
+          "type": "referee-report",
+          "running-number": "RC1",
+          "stage": "pre-publication",
+          "recommendation": "minor-revision",
+          "language": "en"
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              9
+            ]
+          ],
+          "date-time": "2025-02-09T19:32:37Z",
+          "timestamp": 1739129557000
+        },
+        "score": 27.794746,
+        "resource": {
+          "primary": {
+            "URL": "https://bg.copernicus.org/preprints/bg-2015-641/bg-2015-641-RC1.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5194/bg-2015-641-rc1",
+        "relation": {
+          "is-review-of": [
+            {
+              "id-type": "doi",
+              "id": "10.5194/bg-13-2179-2016",
+              "asserted-by": "subject"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/bg-2015-641",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/bg-13-2179-2016",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

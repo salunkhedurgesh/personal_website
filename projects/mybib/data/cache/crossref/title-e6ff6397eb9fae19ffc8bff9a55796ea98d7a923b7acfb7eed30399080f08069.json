@@ -1,0 +1,684 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2653248,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T16:45:09Z",
+          "timestamp": 1751388309419
+        },
+        "reference-count": 38,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2023-06-01T00:00:00Z",
+              "timestamp": 1685577600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2023-06-01T00:00:00Z",
+              "timestamp": 1685577600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Front. Mech. Eng."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11465-022-0743-x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2023-06-17T17:01:36Z",
+          "timestamp": 1687021296000
+        },
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Cusp points and assembly changing motions in the PRR-PR-PRR planar parallel manipulator"
+        ],
+        "prefix": "10.1007",
+        "volume": "18",
+        "author": [
+          {
+            "given": "Chengwei",
+            "family": "Shen",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jingjun",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Xu",
+            "family": "Pei",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              17
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "743_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "105931",
+            "DOI": "10.1016/j.ast.2020.105931",
+            "volume": "104",
+            "author": "J Sun",
+            "year": "2020",
+            "unstructured": "Sun J, Shao L, Fu L F, Han X Y, Li S H. Kinematic analysis and optimal design of a novel parallel pointing mechanism. Aerospace Science and Technology, 2020, 104: 105931",
+            "journal-title": "Aerospace Science and Technology"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "041006",
+            "DOI": "10.1115/1.4045847",
+            "volume": "12",
+            "author": "W X Zhang",
+            "year": "2020",
+            "unstructured": "Zhang W X, Zhang W, Ding X L, Sun L. Optimization of the rotational asymmetric parallel mechanism for hip rehabilitation with force transmission factors. Journal of Mechanisms and Robotics, 2020, 12(4): 041006",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "issue": "2",
+            "key": "743_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "150",
+            "DOI": "10.1177/027836499201100205",
+            "volume": "11",
+            "author": "J P Merlet",
+            "year": "1992",
+            "unstructured": "Merlet J P. Direct kinematics and assembly modes of parallel manipulators. The International Journal of Robotics Research, 1992, 11(2): 150–162",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "705",
+            "DOI": "10.1115/1.3258540",
+            "volume": "105",
+            "author": "K H Hunt",
+            "year": "1983",
+            "unstructured": "Hunt K H. Structural kinematics of in-parallel-actuated robot-arms. Journal of Mechanisms, Transmissions, and Automation in Design, 1983, 105(4): 705–712",
+            "journal-title": "Journal of Mechanisms, Transmissions, and Automation in Design"
+          },
+          {
+            "issue": "1",
+            "key": "743_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "73",
+            "DOI": "10.1115/1.2826679",
+            "volume": "120",
+            "author": "C Innocenti",
+            "year": "1998",
+            "unstructured": "Innocenti C, Parenti-Castelli V. Singularity-free evolution from one configuration to another in serial and fully-parallel manipulators. Journal of Mechanical Design, 1998, 120(1): 73–79",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "key": "743_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "117",
+            "DOI": "10.1007/978-94-015-9064-8_12",
+            "volume-title": "Advances in Robot Kinematics: Analysis and Control",
+            "author": "P Wenger",
+            "year": "1998",
+            "unstructured": "Wenger P, Chablat D. Workspace and assembly modes in fully-parallel manipulators: a descriptive study. In: Lenarčič J, Husty M L, eds. Advances in Robot Kinematics: Analysis and Control. Dordrecht: Springer, 1998, 117–126"
+          },
+          {
+            "issue": "5",
+            "key": "743_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "615",
+            "DOI": "10.1080/15397734.2020.1728547",
+            "volume": "49",
+            "author": "E J Haug",
+            "year": "2021",
+            "unstructured": "Haug E J. Parallel manipulator domains of singularity free functionality. Mechanics Based Design of Structures and Machines, 2021, 49(5): 615–639",
+            "journal-title": "Mechanics Based Design of Structures and Machines"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "041010",
+            "DOI": "10.1115/1.4054307",
+            "volume": "14",
+            "author": "X W Kong",
+            "year": "2022",
+            "unstructured": "Kong X W. Classification of 3-degree-of-freedom 3-UPU translational parallel mechanisms based on constraint singularity loci using Grobner cover. Journal of Mechanisms and Robotics, 2022, 14(4): 041010",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "issue": "2",
+            "key": "743_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "97",
+            "DOI": "10.1016/j.mechmachtheory.2010.10.005",
+            "volume": "46",
+            "author": "O Altuzarra",
+            "year": "2011",
+            "unstructured": "Altuzarra O, Petuya V, Urízar M, Hernández A. Design procedure for cuspidal parallel manipulators. Mechanism and Machine Theory, 2011, 46(2): 97–111",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "743_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "104733",
+            "DOI": "10.1016/j.mechmachtheory.2022.104733",
+            "volume": "171",
+            "author": "A Peidró",
+            "year": "2022",
+            "unstructured": "Peidró A, García-Martínez A, Marín J M, Payá L, Gil A, Reinoso O. Design of a mobile binary parallel robot that exploits nonsingular transitions. Mechanism and Machine Theory, 2022, 171: 104733",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "6",
+            "key": "743_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "556",
+            "DOI": "10.1177/02783649922066394",
+            "volume": "18",
+            "author": "P R McAree",
+            "year": "1999",
+            "unstructured": "McAree P R, Daniel R W. An explanation of never-special assembly changing motions for 3–3 parallel manipulators. The International Journal of Robotics Research, 1999, 18(6): 556–574",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "480",
+            "DOI": "10.1016/j.mechmachtheory.2007.03.011",
+            "volume": "43",
+            "author": "M Zein",
+            "year": "2008",
+            "unstructured": "Zein M, Wenger P, Chablat D. Non-singular assembly-mode changing motions for 3-RPR parallel manipulators. Mechanism and Machine Theory, 2008, 43(4): 480–490",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "6",
+            "key": "743_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "1438",
+            "DOI": "10.1109/TRO.2009.2030229",
+            "volume": "25",
+            "author": "A Hernandez",
+            "year": "2009",
+            "unstructured": "Hernandez A, Altuzarra O, Petuya V, Macho E. Defining conditions for nonsingular transitions between assembly modes. IEEE Transactions on Robotics, 2009, 25(6): 1438–1447",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "key": "743_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "182",
+            "DOI": "10.1016/j.mechmachtheory.2014.02.014",
+            "volume": "77",
+            "author": "F DallaLibera",
+            "year": "2014",
+            "unstructured": "DallaLibera F, Ishiguro H. Non-singular transitions between assembly modes of 2-DOF planar parallel manipulators with a passive leg. Mechanism and Machine Theory, 2014, 77: 182–197",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "743_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "51",
+            "DOI": "10.1007/978-3-642-01947-0_7",
+            "volume-title": "Computational Kinematics",
+            "author": "M L Husty",
+            "year": "2009",
+            "unstructured": "Husty M L. Non-singular assembly mode change in 3-RPR-parallel manipulators. In: Kecskeméthy A, Müller A, eds. Computational Kinematics. Berlin: Springer, 2009, 51–60"
+          },
+          {
+            "key": "743_CR16",
+            "first-page": "1245",
+            "volume-title": "Proceedings of ASME 2012 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+            "author": "S Caro",
+            "year": "2012",
+            "unstructured": "Caro S, Wenger P, Chablat D. Non-singular assembly mode changing trajectories of a 6-DOF parallel robot. In: Proceedings of ASME 2012 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Chicago: ASME, 2012, 1245–1254"
+          },
+          {
+            "key": "743_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "339",
+            "DOI": "10.1007/978-94-007-7214-4_38",
+            "volume-title": "Computational Kinematics",
+            "author": "M Husty",
+            "year": "2014",
+            "unstructured": "Husty M, Schadlbauer J, Caro S, Wenger P. The 3-RPS manipulator can have non-singular assembly-mode changes. In: Thomas F, Perez Gracia A, eds. Computational Kinematics. Dordrecht: Springer, 2014, 339–348"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "041005",
+            "DOI": "10.1115/1.4007306",
+            "volume": "4",
+            "author": "E Macho",
+            "year": "2012",
+            "unstructured": "Macho E, Petuya V, Altuzarra O, Hernandez A. Planning nonsingular transitions between solutions of the direct kinematic problem from the joint space. Journal of Mechanisms and Robotics, 2012, 4(4): 041005",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "765",
+            "DOI": "10.1109/TRO.2008.926863",
+            "volume": "24",
+            "author": "H Bamberger",
+            "year": "2008",
+            "unstructured": "Bamberger H, Wolf A, Shoham M. Assembly mode changing in parallel mechanisms. IEEE Transactions on Robotics, 2008, 24(4): 765–772",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "issue": "12",
+            "key": "743_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "122302",
+            "DOI": "10.1115/1.4031653",
+            "volume": "137",
+            "author": "A Peidró",
+            "year": "2015",
+            "unstructured": "Peidró A, María Marín J, Gil A, Reinoso Ó. Performing nonsingular transitions between assembly modes in analytic parallel manipulators by enclosing quadruple solutions. Journal of Mechanical Design, 2015, 137(12): 122302",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "key": "743_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "105",
+            "DOI": "10.1007/978-3-319-06698-1_12",
+            "volume-title": "Advances in Robot Kinematics",
+            "author": "M Coste",
+            "year": "2014",
+            "unstructured": "Coste M, Chablat D, Wenger P. Nonsingular change of assembly mode without any cusp. In: Lenarčič J, Khatib O, eds. Advances in Robot Kinematics. Cham: Springer, 2014, 105–112"
+          },
+          {
+            "key": "743_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "129",
+            "DOI": "10.1007/978-3-319-56802-7_14",
+            "volume-title": "Advances in Robot Kinematics 2016",
+            "author": "M Coste",
+            "year": "2018",
+            "unstructured": "Coste M, Wenger P, Chablat D. Hidden cusps. In: Lenarčič J, Merlet J P, eds. Advances in Robot Kinematics 2016. Cham: Springer, 2018, 129–138"
+          },
+          {
+            "issue": "11",
+            "key": "743_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "1555",
+            "DOI": "10.1016/j.mechmachtheory.2010.06.016",
+            "volume": "45",
+            "author": "G Moroz",
+            "year": "2010",
+            "unstructured": "Moroz G, Rouiller F, Chablat D, Wenger P. On the determination of cusp points of 3-RPR parallel manipulators. Mechanism and Machine Theory, 2010, 45(11): 1555–1567",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "041003",
+            "DOI": "10.1115/1.4006921",
+            "volume": "4",
+            "author": "M Manubens",
+            "year": "2012",
+            "unstructured": "Manubens M, Moroz G, Chablat D, Wenger P, Rouillier F. Cusp points in the parameter space of degenerate 3-RPR planar parallel manipulators. Journal of Mechanisms and Robotics, 2012, 4(4): 041003",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "issue": "1",
+            "key": "743_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "011001",
+            "DOI": "10.1115/1.4029500",
+            "volume": "8",
+            "author": "F Thomas",
+            "year": "2016",
+            "unstructured": "Thomas F. A distance geometry approach to the singularity analysis of 3R robots. Journal of Mechanisms and Robotics, 2016, 8(1): 011001",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "key": "743_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "104729",
+            "DOI": "10.1016/j.mechmachtheory.2022.104729",
+            "volume": "171",
+            "author": "D H Salunkhe",
+            "year": "2022",
+            "unstructured": "Salunkhe D H, Spartalis C, Capco J, Chablat D, Wenger P. Necessary and sufficient condition for a generic 3R serial manipulator to be cuspidal. Mechanism and Machine Theory, 2022, 171: 104729",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "743_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "65",
+            "DOI": "10.1007/978-3-031-08140-8_8",
+            "volume-title": "Advances in Robot Kinematics 2022",
+            "author": "D Salunkhe",
+            "year": "2022",
+            "unstructured": "Salunkhe D, Capco J, Chablat D, Wenger P. Geometry based analysis of 3R serial robots. In: Altuzarra O, Kecskeméthy A, eds. Advances in Robot Kinematics 2022. Cham: Springer, 2022, 65–72"
+          },
+          {
+            "issue": "2",
+            "key": "743_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "209",
+            "DOI": "10.1115/1.3258710",
+            "volume": "107",
+            "author": "D Kohli",
+            "year": "1985",
+            "unstructured": "Kohli D, Spanos J. Workspace analysis of mechanical manipulators using polynomial discriminants. Journal of Mechanisms, Transmissions, and Automation in Design, 1985, 107(2): 209–215",
+            "journal-title": "Journal of Mechanisms, Transmissions, and Automation in Design"
+          },
+          {
+            "issue": "5",
+            "key": "743_CR29",
+            "doi-asserted-by": "publisher",
+            "first-page": "473",
+            "DOI": "10.1177/027836499101000503",
+            "volume": "10",
+            "author": "K J Waldron",
+            "year": "1991",
+            "unstructured": "Waldron K J, Hunt K H. Series-parallel dualities in actively coordinated mechanisms. The International Journal of Robotics Research, 1991, 10(5): 473–480",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "1",
+            "key": "743_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "47",
+            "DOI": "10.1007/s11370-019-00294-7",
+            "volume": "13",
+            "author": "H Iqbal",
+            "year": "2020",
+            "unstructured": "Iqbal H, Khan M U A, Yi B J. Analysis of duality-based interconnected kinematics of planar serial and parallel manipulators using screw theory. Intelligent Service Robotics, 2020, 13(1): 47–62",
+            "journal-title": "Intelligent Service Robotics"
+          },
+          {
+            "key": "743_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "301",
+            "DOI": "10.1007/978-1-4020-8600-7_32",
+            "volume-title": "Advances in Robot Kinematics: Analysis and Design",
+            "author": "E Macho",
+            "year": "2008",
+            "unstructured": "Macho E, Altuzarra O, Pinto C, Hernandez A. Transitions between multiple solutions of the direct kinematic problem. In: Lenarčič J, Wenger P, eds. Advances in Robot Kinematics: Analysis and Design. Dordrecht: Springer, 2008, 301–310"
+          },
+          {
+            "issue": "4",
+            "key": "743_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "888",
+            "DOI": "10.1109/TRO.2013.2260679",
+            "volume": "29",
+            "author": "O Bohigas",
+            "year": "2013",
+            "unstructured": "Bohigas O, Henderson M E, Ros L, Manubens M, Porta J M. Planning singularity-free paths on closed-chain manipulators. IEEE Transactions on Robotics, 2013, 29(4): 888–898",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "issue": "3",
+            "key": "743_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "031002",
+            "DOI": "10.1115/1.4001734",
+            "volume": "2",
+            "author": "M Urízar",
+            "year": "2010",
+            "unstructured": "Urízar M, Petuya V, Altuzarra O, Macho E, Hernández A. Computing the configuration space for tracing paths between assembly modes. Journal of Mechanisms and Robotics, 2010, 2(3): 031002",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "key": "743_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "3940",
+            "DOI": "10.1109/ICRA.2011.5979573",
+            "volume-title": "Proceedings of 2011 IEEE International Conference on Robotics and Automation",
+            "author": "F Thomas",
+            "year": "2011",
+            "unstructured": "Thomas F, Wenger P. On the topological characterization of robot singularity loci. A catastrophe-theoretic approach. In: Proceedings of 2011 IEEE International Conference on Robotics and Automation. Shanghai: IEEE, 2011, 3940–3945"
+          },
+          {
+            "key": "743_CR35",
+            "volume-title": "The Theory of Equations: With an Introduction to the Theory of Binary Algebraic Forms",
+            "author": "W S Burnside",
+            "year": "1892",
+            "unstructured": "Burnside W S, Panton A W. The Theory of Equations: With an Introduction to the Theory of Binary Algebraic Forms. 3rd ed. Dublin: Hodges, Figgis and Co., Ltd., 1892",
+            "edition": "3"
+          },
+          {
+            "issue": "2",
+            "key": "743_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "86",
+            "DOI": "10.1109/38.988750",
+            "volume": "22",
+            "author": "J F Blinn",
+            "year": "2002",
+            "unstructured": "Blinn J F. Quartic discriminants and tensor invariants. IEEE Computer Graphics and Applications, 2002, 22(2): 86–91",
+            "journal-title": "IEEE Computer Graphics and Applications"
+          },
+          {
+            "issue": "2",
+            "key": "743_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "020906",
+            "DOI": "10.1115/1.4042475",
+            "volume": "11",
+            "author": "K Arikawa",
+            "year": "2019",
+            "unstructured": "Arikawa K. Kinematic analysis of mechanisms based on parametric polynomial system: basic concept of a method using Gröbner cover and its application to planar mechanisms. Journal of Mechanisms and Robotics, 2019, 11(2): 020906",
+            "journal-title": "Journal of Mechanisms and Robotics"
+          },
+          {
+            "issue": "3",
+            "key": "743_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "281",
+            "DOI": "10.1109/70.56660",
+            "volume": "6",
+            "author": "C Gosselin",
+            "year": "1990",
+            "unstructured": "Gosselin C, Angeles J. Singularity analysis of closed-loop kinematic chains. IEEE Transactions on Robotics and Automation, 1990, 6(3): 281–290",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          }
+        ],
+        "container-title": [
+          "Frontiers of Mechanical Engineering"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11465-022-0743-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11465-022-0743-x/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11465-022-0743-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2023-06-17T17:08:39Z",
+          "timestamp": 1687021719000
+        },
+        "score": 36.373627,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s11465-022-0743-x"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "references-count": 38,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                6
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "743"
+        ],
+        "URL": "https://doi.org/10.1007/s11465-022-0743-x",
+        "ISSN": [
+          "2095-0233",
+          "2095-0241"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2095-0233"
+          },
+          {
+            "type": "electronic",
+            "value": "2095-0241"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "19 July 2022",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "11 November 2022",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "17 June 2023",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ],
+        "article-number": "27"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

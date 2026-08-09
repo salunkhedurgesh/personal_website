@@ -1,0 +1,234 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3913296,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2024-10-29T14:04:28Z",
+          "timestamp": 1730210668707,
+          "version": "3.28.0"
+        },
+        "reference-count": 13,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/crc.2017.30",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2018-04-02T20:43:44Z",
+          "timestamp": 1522701824000
+        },
+        "page": "33-38",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Motion Planning of Automatic Press Line with Hybrid Type Transferring Robot"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Shihan",
+            "family": "Ma",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Baochen",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.neucom.2014.06.010"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2014.2302442"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.1983.1103181"
+          },
+          {
+            "key": "ref13",
+            "first-page": "65",
+            "article-title": "The robot trajectory interpolation method of research and analysis",
+            "volume": "6",
+            "author": "zhao",
+            "year": "2016",
+            "journal-title": "Manufacturing Technology and Machine Tool"
+          },
+          {
+            "journal-title": "System and method for controlling a robot",
+            "year": "2001",
+            "author": "neumann",
+            "key": "ref4"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574714001210"
+          },
+          {
+            "key": "ref6",
+            "article-title": "Exechon concept-parallel kinematic machines in research and practice",
+            "author": "neumann",
+            "year": "2006",
+            "journal-title": "The 5th Chemnitz Parallel Kinematics Seminar"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2004.840908"
+          },
+          {
+            "key": "ref8",
+            "first-page": "3186",
+            "article-title": "Motor Coordination and Motion Simulation of Robot and Press in a Press Line",
+            "volume": "24",
+            "author": "hou",
+            "year": "2013",
+            "journal-title": "China Mechanical Engineering"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2016.2527064"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.rcim.2011.02.003"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "crossref",
+            "first-page": "351",
+            "DOI": "10.1007/s00170-015-7336-3",
+            "article-title": "Dynamic characterization of machining robot and stability analysis",
+            "volume": "82",
+            "author": "mejri",
+            "year": "2016",
+            "journal-title": "The International Journal of Advanced Manufacturing Technology"
+          },
+          {
+            "key": "ref9",
+            "first-page": "668",
+            "article-title": "A General Virtual Manufacturing Concept for Programming, Verification and Optimisation of Complex Control Functions",
+            "author": "carlsson",
+            "year": "2008",
+            "journal-title": "In 18th International Conference on Flexible Automation and Intelligent Manufacturing (FAIM 2008)"
+          }
+        ],
+        "event": {
+          "name": "2017 2nd International Conference on Cybernetics, Robotics and Control (CRC)",
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                7,
+                21
+              ]
+            ]
+          },
+          "location": "Chengdu",
+          "end": {
+            "date-parts": [
+              [
+                2017,
+                7,
+                23
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2017 2nd International Conference on Cybernetics, Robotics and Control (CRC)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/8327305/8328026/08328042.pdf?arnumber=8328042",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              26
+            ]
+          ],
+          "date-time": "2022-01-26T05:19:14Z",
+          "timestamp": 1643174354000
+        },
+        "score": 38.782795,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/8328042/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        },
+        "references-count": 13,
+        "URL": "https://doi.org/10.1109/crc.2017.30",
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1548624,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              14
+            ]
+          ],
+          "date-time": "2026-04-14T21:06:34Z",
+          "timestamp": 1776200794140,
+          "version": "3.50.1"
+        },
+        "reference-count": 16,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2015-12-01T00:00:00Z",
+              "timestamp": 1448928000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100002428",
+            "name": "Austrian Science Fund (FWF)",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "W1214-N15"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "W1214-N15"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100002428",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2015.07.010",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              12
+            ]
+          ],
+          "date-time": "2015-08-12T08:06:37Z",
+          "timestamp": 1439366797000
+        },
+        "page": "1-8",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 34,
+        "special_numbering": "C",
+        "title": [
+          "A technique for deriving equational conditions on the Denavit–Hartenberg parameters of 6R linkages that are necessary for movability"
+        ],
+        "prefix": "10.1016",
+        "volume": "94",
+        "author": [
+          {
+            "given": "Zijia",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Josef",
+            "family": "Schicho",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1115/1.4011045",
+            "article-title": "A kinematic notation for lower-pair mechanisms based on matrices",
+            "volume": "22",
+            "author": "Denavit",
+            "year": "1955",
+            "journal-title": "Trans. ASME J. Appl. Mech."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "83",
+            "DOI": "10.1016/0094-114X(93)90049-2",
+            "article-title": "A comparative survey of the Bennett-based, 6-revolute kinematic loops",
+            "volume": "28",
+            "author": "Baker",
+            "year": "1993",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0015",
+            "series-title": "Einfach übergeschlossene Mechanismen mit Drehgelenken",
+            "author": "Dietmaier",
+            "year": "1995"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0020",
+            "series-title": "Explorations in the History of Machines and Mechanisms, volume 15 of History of Mechanism and Machine Science",
+            "doi-asserted-by": "crossref",
+            "first-page": "535",
+            "DOI": "10.1007/978-94-007-4132-4_37",
+            "article-title": "Spatial overconstrained linkages — the lost jade",
+            "author": "Chen",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "407",
+            "DOI": "10.1016/j.mechmachtheory.2013.08.004",
+            "article-title": "The theory of bonds: A new method for the analysis of linkages",
+            "volume": "70",
+            "author": "Hegedüs",
+            "year": "2013",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0030",
+            "first-page": "151",
+            "article-title": "The skew isogramm-mechanism",
+            "volume": "13",
+            "author": "Bennett",
+            "year": "1913",
+            "journal-title": "Proc. Lond. Math. Soc."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "75",
+            "DOI": "10.1115/1.2826120",
+            "article-title": "New and revised overconstrained mechanisms",
+            "volume": "117",
+            "author": "Mavroidis",
+            "year": "1995",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "103",
+            "DOI": "10.1016/S0094-114X(02)00097-6",
+            "article-title": "Overconstrained six-bars with parallel adjacent joint-axes",
+            "volume": "38",
+            "author": "Baker",
+            "year": "2003",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0045",
+            "series-title": "Nonlinear Computational Geometry, volume 151 of The IMA Volumes in Mathematics and its Applications",
+            "first-page": "85",
+            "article-title": "Algebraic geometry and kinematics",
+            "author": "Husty",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0050",
+            "doi-asserted-by": "crossref",
+            "first-page": "142",
+            "DOI": "10.1016/j.mechmachtheory.2013.05.010",
+            "article-title": "Factorization of rational curves in the study quadric",
+            "volume": "69",
+            "author": "Hegedüs",
+            "year": "2013",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0055",
+            "doi-asserted-by": "crossref",
+            "first-page": "372",
+            "DOI": "10.1016/j.mechmachtheory.2013.08.002",
+            "article-title": "Classification of angle-symmetric 6R linkages",
+            "volume": "70",
+            "author": "Li",
+            "year": "2013",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "Part 2",
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "167",
+            "DOI": "10.1016/j.jsc.2014.09.035",
+            "article-title": "The theory of bonds ii: closed 6R linkages with maximal genus",
+            "volume": "68",
+            "author": "Hegedüs",
+            "year": "2015",
+            "journal-title": "J. Symb. Comput."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0065",
+            "series-title": "Computational Kinematics, Volume 15 of Mechanisms and Machine Science",
+            "doi-asserted-by": "crossref",
+            "first-page": "111",
+            "DOI": "10.1007/978-94-007-7214-4_13",
+            "article-title": "Three types of parallel 6R linkages",
+            "author": "Li",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "031004",
+            "DOI": "10.1115/1.4004225",
+            "article-title": "Axis constraint analysis and its resultant 6R double-centered overconstrained mechanisms",
+            "volume": "3",
+            "author": "Cui",
+            "year": "2011",
+            "journal-title": "J. Mech. Robot."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0075",
+            "doi-asserted-by": "crossref",
+            "first-page": "267",
+            "DOI": "10.1016/0094-114X(80)90021-X",
+            "article-title": "An analysis of the Bricard linkages",
+            "volume": "15",
+            "author": "Baker",
+            "year": "1980",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2015.07.010_bb0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "2245",
+            "DOI": "10.1016/j.jpaa.2014.07.034",
+            "article-title": "An algebraic study of linkages with helical joints",
+            "volume": "219",
+            "author": "Ahmadinezhad",
+            "year": "2015",
+            "journal-title": "J. Pure Appl. Sci. Algebra"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X15001743?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X15001743?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2024-06-10T13:54:09Z",
+          "timestamp": 1718027649000
+        },
+        "score": 25.754478,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X15001743"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              12
+            ]
+          ]
+        },
+        "references-count": 16,
+        "alternative-id": [
+          "S0094114X15001743"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2015.07.010",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "A technique for deriving equational conditions on the Denavit–Hartenberg parameters of 6R linkages that are necessary for movability",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2015.07.010",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2015 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1467584,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2024-10-23T07:31:52Z",
+          "timestamp": 1729668712015,
+          "version": "3.28.0"
+        },
+        "reference-count": 11,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/sice.2007.4420951",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              1,
+              16
+            ]
+          ],
+          "date-time": "2008-01-16T03:41:19Z",
+          "timestamp": 1200454879000
+        },
+        "page": "60-67",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Orientation Estimation by Error-State Extended Kalman Filter in Quaternion vector space"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "family": "Mohammad Ahmadi",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "family": "Alireza Khayatian",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "family": "Paknush Karimaghaee",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2001.976367"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/PLANS.2004.1309003"
+          },
+          {
+            "article-title": "Applied Optimal Estimation",
+            "year": "1974",
+            "author": "gelb",
+            "key": "ref10"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1999.770398"
+          },
+          {
+            "article-title": "Simulation of Attitude Estimation Based on Quaternion Vector Space by Unscented Filter",
+            "year": "2006",
+            "author": "ahmadi",
+            "key": "ref11"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1999.772597"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "crossref",
+            "first-page": "53",
+            "DOI": "10.1109/70.127239",
+            "article-title": "Quaternion Kinematic and Dynamic Differential Equation",
+            "volume": "8",
+            "author": "jack",
+            "year": "1992",
+            "journal-title": "IEEE Transaction on Robotics and Automation"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S037346330400270X"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/VRAIS.1996.490527"
+          },
+          {
+            "article-title": "Strapdown Inertial Navigation Technology",
+            "year": "1997",
+            "author": "titterton",
+            "key": "ref9"
+          },
+          {
+            "key": "ref1",
+            "article-title": "Smoother based 3D Attitude Estimation for Mobile Robot Localization",
+            "author": "roumeliotis",
+            "year": "1998",
+            "journal-title": "IRIS Technical Report IRIS-98-364"
+          }
+        ],
+        "event": {
+          "name": "SICE Annual Conference 2007",
+          "start": {
+            "date-parts": [
+              [
+                2007,
+                9,
+                17
+              ]
+            ]
+          },
+          "location": "Takamatsu, Japan",
+          "end": {
+            "date-parts": [
+              [
+                2007,
+                9,
+                20
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "SICE Annual Conference 2007"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/4420927/4420928/04420951.pdf?arnumber=4420951",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2017-06-17T23:04:00Z",
+          "timestamp": 1497740640000
+        },
+        "score": 30.075136,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/4420951/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2007,
+              9
+            ]
+          ]
+        },
+        "references-count": 11,
+        "URL": "https://doi.org/10.1109/sice.2007.4420951",
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

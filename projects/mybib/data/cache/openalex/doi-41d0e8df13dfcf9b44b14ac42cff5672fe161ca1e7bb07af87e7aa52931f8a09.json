@@ -1,0 +1,122 @@
+{
+  "id": "https://openalex.org/W4239275837",
+  "doi": "https://doi.org/10.5194/bg-2015-641-rc1",
+  "title": "Cox et al.",
+  "display_name": "Cox et al.",
+  "publication_year": 2016,
+  "publication_date": "2016-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4239275837",
+    "doi": "https://doi.org/10.5194/bg-2015-641-rc1"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.5194/bg-2015-641-rc1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.5194/bg-2015-641-rc1",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "type": "peer-review",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.290942519903183
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.290942519903183
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5194/bg-2015-641-rc1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.5194/bg-2015-641-rc1",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "peer-review"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W78369665",
+    "https://openalex.org/W47249500",
+    "https://openalex.org/W48489418",
+    "https://openalex.org/W1301057",
+    "https://openalex.org/W57938817",
+    "https://openalex.org/W69848177",
+    "https://openalex.org/W23457798",
+    "https://openalex.org/W34921944",
+    "https://openalex.org/W31825106",
+    "https://openalex.org/W30862595"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-05-12T00:00:00"
+}

@@ -1,0 +1,247 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3151827,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              17
+            ]
+          ],
+          "date-time": "2026-03-17T15:31:31Z",
+          "timestamp": 1773761491375,
+          "version": "3.50.1"
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 12,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "value": "9781402085994",
+            "type": "print"
+          },
+          {
+            "value": "9781402086007",
+            "type": "electronic"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4020-8600-7_43",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              5,
+              28
+            ]
+          ],
+          "date-time": "2008-05-28T05:10:43Z",
+          "timestamp": 1211951443000
+        },
+        "page": "411-418",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "A Geometrical Characterization of Workspace Singularities in 3R Manipulators"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "M.",
+            "family": "Husty",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "E.",
+            "family": "Ottaviano",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "M.",
+            "family": "Ceccarelli",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "issue": "1",
+            "key": "43_CR512_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "71",
+            "DOI": "10.1016/0094-114X(94)00043-K",
+            "volume": "30",
+            "author": "JW Burdick",
+            "year": "1995",
+            "unstructured": "Burdick, J.W., A classification of 3R regional manipulator singularities and geometries, Mechanism and Machine Theory 30(1), 71-89, (1995).",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "43_CR513_Ref",
+            "unstructured": "Ceccarelli, M., On the workspace of 3R robot arms, in Proc. 5th IFToMM Int. Symp. on Theory and Practice of Mechanism, Bucharest, Vol. II-1, pp. 37-46 (1989)."
+          },
+          {
+            "key": "43_CR514_Ref",
+            "unstructured": "Ottaviano, E., Ceccarelli, M., Lanni, C., A characterization of ring void in workspace of three-revolute manipulators, in Proc. 10th World Congress on the Theory of Machines and Mechanisms, Oulu, Finland, Vol. 3, pp. 1039-1044 (1999)."
+          },
+          {
+            "key": "43_CR515_Ref",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ottaviano E., Husty M., Ceccarelli M. (2004), A Cartesian representation for the boundary workspace of 3R manipulators, in On Advances in Robot Kinematics, J. Lenar či č and C. Galletti (Eds.), Kluwer, Dordrecht, pp. 247-254 (2004).",
+            "DOI": "10.1007/978-1-4020-2249-4_27"
+          },
+          {
+            "issue": "1",
+            "key": "43_CR516_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "236",
+            "DOI": "10.1115/1.2120807",
+            "volume": "128",
+            "author": "E Ottaviano",
+            "year": "2006",
+            "unstructured": "Ottaviano, E., Husty, M., Ceccarelli, M., Identification of the workspace boundary of a general 3-R manipulator, ASME Journal of Mechanical Design 128(1), 236-242 (2006).",
+            "journal-title": "ASME Journal of Mechanical Design"
+          },
+          {
+            "key": "43_CR517_Ref",
+            "unstructured": "Ottaviano, E., Husty, M., Ceccarelli, M., Level-set method for workspace analysis of serial manipulator, in Advances in Robot Kinematics: Mechanisms and Motion, J. Lenar či č and B. Roth (Eds.), Springer, Dordrecht, pp. 307-314 (2006)."
+          },
+          {
+            "issue": "3",
+            "key": "43_CR518_Ref",
+            "doi-asserted-by": "crossref",
+            "first-page": "355",
+            "DOI": "10.5772/5679",
+            "volume": "4",
+            "author": "E Ottaviano",
+            "year": "2007",
+            "unstructured": "Ottaviano, E., Husty, M., Ceccarelli, M., Workspace topologies of industrial 3R manipulators, International Journal of Advanced Robotic Systems 4(3), 355-364 (2007).",
+            "journal-title": "International Journal of Advanced Robotic Systems"
+          },
+          {
+            "key": "43_CR519_Ref",
+            "unstructured": "Parenti-Castelli, V., Innocenti, C., Position analysis of robot manipulators: Regions and sub-regions, in Advances in Robot Kinematics, Ljubljana, pp. 150-158 (1988)."
+          },
+          {
+            "key": "43_CR520_Ref",
+            "volume-title": "Level-Set Methods and Fast Marching Methods",
+            "author": "JA Sethian",
+            "year": "1996",
+            "unstructured": "Sethian, J.A., Level-Set Methods and Fast Marching Methods, Cambridge University Press, Cambridge (1996)."
+          },
+          {
+            "issue": "8",
+            "key": "43_CR521_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "971",
+            "DOI": "10.1016/j.mechmachtheory.2006.03.013",
+            "volume": "41",
+            "author": "M Zein",
+            "year": "2006",
+            "unstructured": "Zein, M., Wenger, P., Chablat, D., An exhaustive study of the workspaces topologies of all 3R orthogonal manipulators with geometrical simplifications, Mechanism and Machine Theory 41(8),971-986 (2006).",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "3",
+            "key": "43_CR522_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "437",
+            "DOI": "10.1016/S0094-114X(99)00015-4",
+            "volume": "35",
+            "author": "P Wenger",
+            "year": "2000",
+            "unstructured": "Wenger, P., Some guidelines for the kinematic design of new manipulators, Mechanism and Machine Theory 35(3), 437-449 (2000).",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "4",
+            "key": "43_CR523_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "745",
+            "DOI": "10.1109/TRO.2004.829467",
+            "volume": "20",
+            "author": "P Wenger",
+            "year": "2004",
+            "unstructured": "Wenger, P., Uniqueness domains and regions of feasable paths for cuspidal manipulators, IEEE Transactions on Robotics 20(4), 745-750 (2004).",
+            "journal-title": "IEEE Transactions on Robotics"
+          }
+        ],
+        "container-title": [
+          "Advances in Robot Kinematics: Analysis and Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4020-8600-7_43.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2021-04-29T05:43:31Z",
+          "timestamp": 1619675011000
+        },
+        "score": 26.367508,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4020-8600-7_43"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781402085994",
+          "9781402086007"
+        ],
+        "references-count": 12,
+        "URL": "https://doi.org/10.1007/978-1-4020-8600-7_43",
+        "published": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

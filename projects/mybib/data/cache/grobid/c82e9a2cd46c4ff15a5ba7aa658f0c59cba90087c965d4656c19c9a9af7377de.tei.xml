@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Machine Tools and Production Technology</orgName>
+								<orgName type="institution">TU Braunschweig</orgName>
+								<address>
+									<postCode>38106</postCode>
+									<settlement>Braunschweig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6171DE51E5E9E62BBE12B68A117A159D</idno>
+					<idno type="DOI">10.1016/j.procir.2022.02.176</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>industrial robot</term>
+					<term>precision</term>
+					<term>optimization</term>
+					<term>trajectory planning</term>
+					<term>assembly</term>
+					<term>production</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Vertically articulated robot arms are widely used in various industries for the realization of conventional handling tasks due to their high flexibility, good workspace-to-footprint ratio and low price. However, due to their kinematic structure, their accuracy, precision and stiffness are highly dependent on the robots configuration. Standards such as EN-ISO-9283 define procedures for determining accuracy and precision by averaging measurements at different points in the robot&apos;s main workspace. While these averages can be used to estimate the robots overall performance, they do not support process developers in identifying precision optimal poses. This paper presents a generic and comprehensive routine for the combined identification of precision-optimal robot poses and trajectories for pick and place processes. The routine consists of several cascading optimization loops with the objectives of minimizing the structural and dimensional sensitivity costs of the trajectories&apos; start and end configurations, minimizing the number of actuated joints and minimizing the required direction changes of the joints in motion. Using a sampling-based trajectory planner (OMPL in MoveIt! / ROS), a smooth and collision free trajectory for an exemplary pick and place process is generated and experimentally validated for a KUKA LWR iiwa 14. The optimized trajectory is benchmarked against a conventional, unoptimized reference trajectory for the same handling task. The experimental validation shows a significant increase in the repeatability of the positioning of 36µm (at 3σ) compared to both the nominal repeatability of 150µm and the repeatability of the reference trajectory of 94µm (at 3σ, 2.6-fold increase). Transferring the developed routine to inherently more precise robot models will lead to highly precise vertically articulated robot arms capable of solving more demanding assembly tasks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

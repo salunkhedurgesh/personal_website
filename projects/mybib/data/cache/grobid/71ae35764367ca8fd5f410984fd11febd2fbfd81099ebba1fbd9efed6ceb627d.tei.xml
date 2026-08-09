@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Design and Realisation of a Novel Robotic Manipulator for Retinal Surgery</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">A</forename><surname>Gijbels</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Wouters</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Stalmans</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Van Brussel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Reynaerts</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Vander</forename><surname>Poorten</surname></persName>
+						</author>
+						<title level="a" type="main">Design and Realisation of a Novel Robotic Manipulator for Retinal Surgery</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8E15CA4629C9AA2E75BF4FA84AFE67E4</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Retinal Vein Occlusion (RVO) is a common retinal vascular disorder which may cause severe loss of vision. Retinal cannulation appears to be the most effective treatment, but given the small diameter of a retinal vein, it is too difficult and risky for a surgeon to perform this procedure manually. This work reports on the development of an innovative robotic manipulator to assist vitreoretinal surgeons during this procedure using a co-manipulation control strategy. The robotic manipulator features a new Remote-Center-of-Motion mechanism with four degrees of freedom. This mechanism is particularly interesting for applications in minimally invasive surgery where an instrument needs to be manoeuvred in a highly confined space around a fixed incision point. The developed manipulator is shown to be a great asset in improving the quality of retinal cannulations compared to the manual procedure. This is shown by cannulation experiments performed on a custom made eye model and an injectable retina model that effectively simulate real retinal cannulations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analyse qualitative de robots JURY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Romain</forename><surname>Benoit</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Mathématiques Discipline : Automatique, productique Spécialité : Automatique et informatique appliquées Unité de recherche</orgName>
+								<orgName type="laboratory">Laboratoire Angevin de Recherche en Ingénierie des Systèmes (LARIS EA7315</orgName>
+								<orgName type="institution" key="instit1">Mémoire présenté en vue de l&apos;obtention du grade de Docteur de l&apos;Université d&apos;Angers sous le sceau de l&apos;Université Bretagne Loire École doctorale : Sciences et Technologies de l&apos;Information</orgName>
+								<orgName type="institution" key="instit2">Université de Renne</orgName>
+								<orgName type="institution" key="instit3">Professeur des Universités</orgName>
+								<orgName type="institution" key="instit4">ENSIETA Brest Fabrice ROUILLIER</orgName>
+								<address>
+									<addrLine>Directeur de recherche</addrLine>
+									<region>INRIA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Professeur</roleName><forename type="first">Marie-Françoise</forename><surname>Roy</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Chargé de recherche</orgName>
+								<orgName type="institution" key="instit2">INRIA Michel COSTE</orgName>
+								<address>
+									<addrLine>Professeur Emérite</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Emérite</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Chargé de recherche</orgName>
+								<orgName type="institution" key="instit2">INRIA Michel COSTE</orgName>
+								<address>
+									<addrLine>Professeur Emérite</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luc</forename><surname>Jaulin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Université de Renne</orgName>
+								<address>
+									<addrLine>1 Invité : Damien CHABLAT Directeur de recherche</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guillaume</forename><surname>Moroz</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Directeur de recherche CNRS</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>LS2N Directeur de Thèse</addrLine>
+									<postCode>LS2N</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Wenger</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Maitre de conférences</orgName>
+								<orgName type="institution" key="instit2">Université d&apos;Angers Sébastien LAGRANGE</orgName>
+								<address>
+									<addrLine>Maitre de conférences</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicolas</forename><surname>Delanoue</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">Université d&apos;Angers</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analyse qualitative de robots JURY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EF3B0A3AF748F74A0926B02D08E60F05</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="fr">
+	</text>
+</TEI>

@@ -1,0 +1,103 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 291,
+    "items": [
+      {
+        "institution": [
+          {
+            "name": "European Space Agency",
+            "acronym": [
+              "ESA"
+            ],
+            "department": [
+              "D/SCI"
+            ]
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              29
+            ]
+          ],
+          "date-time": "2022-03-29T14:57:01Z",
+          "timestamp": 1648565821379
+        },
+        "description": "The first task to be carried out in the electrical verification of the f-96 chain is to transition to operational mode and to observe the thermal stability and the image stability in that mode.",
+        "reference-count": 0,
+        "publisher": "European Space Agency",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.5270/esa-cyof9gc",
+        "type": "dataset",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2021-03-01T12:49:14Z",
+          "timestamp": 1614602954000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "2108"
+        ],
+        "prefix": "10.5270",
+        "author": [
+          {
+            "name": "European Space Agency",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "3228",
+        "container-title": [
+          "2108"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2021-03-01T12:49:15Z",
+          "timestamp": 1614602955000
+        },
+        "score": 22.027977,
+        "resource": {
+          "primary": {
+            "URL": "https://archives.esac.esa.int/doi/html/data/astronomy/hst/2108.html"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5270/esa-cyof9gc"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4669396,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2026-03-10T01:40:47Z",
+          "timestamp": 1773106847737,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Robotics: Science and Systems Foundation",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.15607/rss.2021.xvii.082",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              27
+            ]
+          ],
+          "date-time": "2021-06-27T13:30:56Z",
+          "timestamp": 1624800656000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "title": [
+          "Learning Riemannian Manifolds for Geodesic Motion Skills"
+        ],
+        "prefix": "10.15607",
+        "author": [
+          {
+            "given": "Hadi",
+            "family": "Beik-Mohammadi",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Søren",
+            "family": "Hauberg",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Georgios",
+            "family": "Arvanitidis",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Gerhard",
+            "family": "Neumann",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Leonel",
+            "family": "Rozo",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "6920",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              12
+            ]
+          ]
+        },
+        "event": {
+          "name": "Robotics: Science and Systems 2021",
+          "acronym": "RSS2021"
+        },
+        "container-title": [
+          "Robotics: Science and Systems XVII"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              27
+            ]
+          ],
+          "date-time": "2021-06-27T13:31:58Z",
+          "timestamp": 1624800718000
+        },
+        "score": 53.632057,
+        "resource": {
+          "primary": {
+            "URL": "http://www.roboticsproceedings.org/rss17/p082.pdf"
+          }
+        },
+        "proceedings-subject": "Robotics",
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              12
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.15607/rss.2021.xvii.082",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              12
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

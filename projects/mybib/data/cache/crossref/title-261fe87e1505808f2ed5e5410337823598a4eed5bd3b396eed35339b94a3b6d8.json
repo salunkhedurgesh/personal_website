@@ -1,0 +1,1958 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2939800,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2026-04-27T05:15:11Z",
+          "timestamp": 1777266911417,
+          "version": "3.51.4"
+        },
+        "reference-count": 231,
+        "publisher": "Association for Computing Machinery (ACM)",
+        "issue": "10",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  2,
+                  2
+                ]
+              ],
+              "date-time": "2023-02-02T00:00:00Z",
+              "timestamp": 1675296000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Georg Forster Research Fellowship for Experienced Researchers"
+          },
+          {
+            "name": "Alexander von Humboldt-Stiftung/Foundation and Impact Oriented Interdisciplinary Research",
+            "award": [
+              "IIRG002C-19HWB"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "IIRG002C-19HWB"
+                ]
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004386",
+            "name": "University of Malaya",
+            "doi-asserted-by": "crossref",
+            "id": [
+              {
+                "id": "10.13039/501100004386",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001659",
+            "name": "German Research Foundation",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "TRR 169"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "TRR 169"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001659",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "dl.acm.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "ACM Comput. Surv."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Recent applications of autonomous agents and robots have brought attention to crucial trust-related challenges associated with the current generation of<jats:bold>artificial intelligence (AI)</jats:bold>systems. AI systems based on the connectionist deep learning neural network approach lack capabilities of explaining their decisions and actions to others, despite their great successes. Without symbolic interpretation capabilities, they are ‘black boxes’, which renders their choices or actions opaque, making it difficult to trust them in safety-critical applications. The recent stance on the explainability of AI systems has witnessed several approaches to<jats:bold>eXplainable Artificial Intelligence (XAI)</jats:bold>; however, most of the studies have focused on data-driven XAI systems applied in computational sciences. Studies addressing the increasingly pervasive goal-driven agents and robots are sparse at this point in time. This paper reviews approaches on explainable goal-driven intelligent agents and robots, focusing on techniques for explaining and communicating agents’ perceptual functions (e.g., senses, vision) and cognitive reasoning (e.g., beliefs, desires, intentions, plans, and goals) with humans in the loop. The review highlights key strategies that emphasize transparency, understandability, and continual learning for explainability. Finally, the paper presents requirements for explainability and suggests a road map for the possible realization of effective goal-driven explainable agents and robots.</jats:p>",
+        "DOI": "10.1145/3564240",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              11
+            ]
+          ],
+          "date-time": "2022-11-11T10:57:22Z",
+          "timestamp": 1668164242000
+        },
+        "page": "1-41",
+        "update-policy": "https://doi.org/10.1145/crossmark-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 61,
+        "title": [
+          "Explainable Goal-driven Agents and Robots - A Comprehensive Review"
+        ],
+        "prefix": "10.1145",
+        "volume": "55",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1870-9862",
+            "authenticated-orcid": false,
+            "given": "Fatai",
+            "family": "Sado",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Malaya, Kuala Lumpur, Malaysia"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7867-2665",
+            "authenticated-orcid": false,
+            "given": "Chu Kiong",
+            "family": "Loo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Malaya, Kuala Lumpur, Malaysia"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8833-2189",
+            "authenticated-orcid": false,
+            "given": "Wei Shiung",
+            "family": "Liew",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Malaya, Kuala Lumpur, Malaysia"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1378-0435",
+            "authenticated-orcid": false,
+            "given": "Matthias",
+            "family": "Kerzel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Hamburg, Hamburg, Germany"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1343-4775",
+            "authenticated-orcid": false,
+            "given": "Stefan",
+            "family": "Wermter",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Hamburg, Hamburg, Germany"
+              }
+            ]
+          }
+        ],
+        "member": "320",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_3_2_2_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5898/JHRI.6.1.Admoni"
+          },
+          {
+            "issue": "9",
+            "key": "e_1_3_2_3_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "1347",
+            "DOI": "10.3390/electronics9091347",
+            "article-title": "An agent-based approach to realize emergent configurations in the Internet of Things",
+            "volume": "9",
+            "author": "Alkhabbas Fahed",
+            "year": "2020",
+            "unstructured": "Fahed Alkhabbas, Romina Spalazzese, and Paul Davidsson. 2020. An agent-based approach to realize emergent configurations in the Internet of Things. Electronics 9, 9 (2020), 1347.",
+            "journal-title": "Electronics"
+          },
+          {
+            "key": "e_1_3_2_4_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3377325.3377519"
+          },
+          {
+            "key": "e_1_3_2_5_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.48550/ARXIV.2204.04501"
+          },
+          {
+            "key": "e_1_3_2_6_2",
+            "first-page": "1168",
+            "volume-title": "Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems",
+            "author": "Amir Dan",
+            "year": "2018",
+            "unstructured": "Dan Amir and Ofra Amir. 2018. Highlights: Summarizing agent behavior to people. In Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems, International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, United States, 1168–1176."
+          },
+          {
+            "key": "e_1_3_2_7_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.48550/ARXIV.1704.06960"
+          },
+          {
+            "key": "e_1_3_2_8_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0950-7051(96)81920-4"
+          },
+          {
+            "key": "e_1_3_2_9_2",
+            "first-page": "1078",
+            "volume-title": "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems",
+            "author": "Anjomshoae Sule",
+            "year": "2019",
+            "unstructured": "Sule Anjomshoae, Amro Najjar, Davide Calvaresi, and Kary Främling. 2019. Explainable agents and robots: Results from a systematic literature review. In Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems, International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, United States, 1078–1088."
+          },
+          {
+            "key": "e_1_3_2_10_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0888-613X(02)00085-3"
+          },
+          {
+            "key": "e_1_3_2_11_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.48550/ARXIV.2007.07477"
+          },
+          {
+            "key": "e_1_3_2_12_2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.21236/ADA553303",
+            "volume-title": "Towards Research on Goal Reasoning with the TAO Sandbox",
+            "author": "Auslander Bryan",
+            "year": "2009",
+            "unstructured": "Bryan Auslander, Matthew Molineaux, David W. Aha, Allen Munro, and Quentin Pizzini. 2009. Towards Research on Goal Reasoning with the TAO Sandbox. Technical Report. Navy Center for Applied Research in Artificial Intelligence Washington DC."
+          },
+          {
+            "key": "e_1_3_2_13_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3219819.3219904"
+          },
+          {
+            "key": "e_1_3_2_14_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-27146-0_9"
+          },
+          {
+            "key": "e_1_3_2_15_2",
+            "first-page": "8",
+            "volume-title": "International Symposium on Artificial Intelligence and Mathematics ISAIM2018",
+            "author": "Baum Kevin",
+            "year": "2018",
+            "unstructured": "Kevin Baum, Holger Hermanns, and Timo Speith. 2018. From machine ethics to machine explainability and back. In International Symposium on Artificial Intelligence and Mathematics ISAIM2018. ISAIM, Fort Lauderdale, Florida, United States, 8 pages."
+          },
+          {
+            "key": "e_1_3_2_16_2",
+            "first-page": "111660C",
+            "volume-title": "Counterterrorism, Crime Fighting, Forensics, and Surveillance Technologies III",
+            "author": "Beckers Guus",
+            "year": "2019",
+            "unstructured": "Guus Beckers, Joris Sijs, Jurriaan van Diggelen, Roelof JE van Dijk, Henri Bouma, Mathijs Lomme, Rutger Hommes, Fieke Hillerstrom, Jasper van der Waa, Anna van Velsen, et al. 2019. Intelligent autonomous vehicles with an extendable knowledge base under meaningful human control. In Counterterrorism, Crime Fighting, Forensics, and Surveillance Technologies III, Vol. 11166. International Society for Optics and Photonics, 111660C."
+          },
+          {
+            "key": "e_1_3_2_17_2",
+            "first-page": "2309",
+            "volume-title": "Proceedings of Multikonferenz Wirtschaftsinformatik",
+            "author": "Bidot Julien",
+            "year": "2010",
+            "unstructured": "Julien Bidot, Susanne Biundo, Tobias Heinroth, Wolfgang Minker, Florian Nothdurft, and Bernd Schattenberg. 2010. Verbal plan explanations for hybrid planning. In Proceedings of Multikonferenz Wirtschaftsinformatik. Citeseer, 2309–2320."
+          },
+          {
+            "key": "e_1_3_2_18_2",
+            "volume-title": "IJCAI-17 Workshop on Explainable AI (XAI)",
+            "author": "Biran Or",
+            "year": "2017",
+            "unstructured": "Or Biran and Courtenay Cotton. 2017. Explanation and justification in machine learning: A survey. In IJCAI-17 Workshop on Explainable AI (XAI), Vol. 8."
+          },
+          {
+            "key": "e_1_3_2_19_2",
+            "first-page": "157",
+            "volume-title": "Proceedings of the 6th European Conference on Planning",
+            "author": "Biundo Susanne",
+            "year": "2001",
+            "unstructured": "Susanne Biundo and Bernd Schattenberg. 2001. From abstract crisis to concrete relief - a preliminary report on combining state abstraction and HTN planning. In Proceedings of the 6th European Conference on Planning. Springer Verlag, 157–168."
+          },
+          {
+            "issue": "2",
+            "key": "e_1_3_2_20_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "46",
+            "DOI": "10.1016/j.tics.2004.12.006",
+            "article-title": "Two neural correlates of consciousness",
+            "volume": "9",
+            "author": "Block Ned",
+            "year": "2005",
+            "unstructured": "Ned Block. 2005. Two neural correlates of consciousness. Trends in Cognitive Sciences 9, 2 (2005), 46–52.",
+            "journal-title": "Trends in Cognitive Sciences"
+          },
+          {
+            "key": "e_1_3_2_21_2",
+            "unstructured": "Gregory Bonaert Youri Coppens Denis Steckelmacher and Ann Nowe. 2021. Explainable Reinforcement Learning Through Goal-Based Interpretability. https://openreview.net/forum?id=IlJbTsygaI6."
+          },
+          {
+            "key": "e_1_3_2_22_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.48550/ARXIV.1810.06338"
+          },
+          {
+            "key": "e_1_3_2_23_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "147",
+            "DOI": "10.1007/978-3-030-30391-4_9",
+            "volume-title": "International Workshop on Explainable, Transparent Autonomous Agents and Multi-Agent Systems",
+            "author": "Bourgais Mathieu",
+            "year": "2019",
+            "unstructured": "Mathieu Bourgais, Patrick Taillandier, and Laurent Vercouter. 2019. Ben: An agent architecture for explainable and expressive behavior in social simulation. In International Workshop on Explainable, Transparent Autonomous Agents and Multi-Agent Systems. Springer, 147–163."
+          },
+          {
+            "key": "e_1_3_2_24_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2701973.2702059"
+          },
+          {
+            "key": "e_1_3_2_25_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/1076359"
+          },
+          {
+            "key": "e_1_3_2_26_2",
+            "volume-title": "Intention, Plans, and Practical Reason",
+            "author": "Bratman Michael",
+            "year": "1987",
+            "unstructured": "Michael Bratman. 1987. Intention, Plans, and Practical Reason. Harvard University Press Cambridge, MA."
+          },
+          {
+            "key": "e_1_3_2_27_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2005.1545011"
+          },
+          {
+            "key": "e_1_3_2_28_2",
+            "first-page": "1349",
+            "volume-title": "Social Robots that Interact with People",
+            "author": "Breazeal Cynthia",
+            "year": "2008",
+            "unstructured": "Cynthia Breazeal, Atsuo Takanishi, and Tetsunori Kobayashi. 2008. Social Robots that Interact with People. Springer Berlin, 1349–1369."
+          },
+          {
+            "key": "e_1_3_2_29_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-16178-0_5"
+          },
+          {
+            "key": "e_1_3_2_30_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00146-016-0685-0"
+          },
+          {
+            "key": "e_1_3_2_31_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fnhum.2013.00413"
+          },
+          {
+            "key": "e_1_3_2_32_2",
+            "volume-title": "Data Protection: A Practical Guide to UK and EU Law",
+            "author": "Carey Peter",
+            "year": "2018",
+            "unstructured": "Peter Carey. 2018. Data Protection: A Practical Guide to UK and EU Law. Oxford University Press, Inc."
+          },
+          {
+            "key": "e_1_3_2_33_2",
+            "first-page": "6",
+            "volume-title": "European Conference on Mobile Robots",
+            "author": "Chadalavada Ravi Teja",
+            "year": "2015",
+            "unstructured": "Ravi Teja Chadalavada, Henrik Andreasson, Robert Krug, and Achim J. Lilienthal. 2015. That’s on my mind! Robot to human intention communication through on-board projection on shared floor space. In European Conference on Mobile Robots. IEEE, 6 pages."
+          },
+          {
+            "key": "e_1_3_2_34_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tathagata Chakraborti Kshitij P. Fadnis Kartik Talamadupula Mishal Dholakia Biplav Srivastava Jeffrey O. Kephart and Rachel K. E. Bellamy. 2017. Visualizations for an explainable planning agent.",
+            "DOI": "10.24963/ijcai.2018/849"
+          },
+          {
+            "key": "e_1_3_2_35_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tathagata Chakraborti Sarath Sreedharan Yu Zhang and Subbarao Kambhampati. 2017. Plan explanations as model reconciliation: Moving beyond explanation as soliloquy.",
+            "DOI": "10.24963/ijcai.2017/23"
+          },
+          {
+            "key": "e_1_3_2_36_2",
+            "unstructured": "Arjun Chandrasekaran Deshraj Yadav Prithvijit Chattopadhyay Viraj Prabhu and Devi Parikh. 2017. It takes two to tango: Towards theory of AI’s mind."
+          },
+          {
+            "issue": "11",
+            "key": "e_1_3_2_37_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "2930",
+            "DOI": "10.1016/j.cja.2020.05.001",
+            "article-title": "Coactive design of explainable agent-based task planning and deep reinforcement learning for human-UAVs teamwork",
+            "volume": "33",
+            "author": "Chang Wang",
+            "year": "2020",
+            "unstructured": "Wang Chang, W. U. Lizhen, Yan Chao, Wang Zhichao, Long Han, and Yu Chao. 2020. Coactive design of explainable agent-based task planning and deep reinforcement learning for human-UAVs teamwork. Chinese Journal of Aeronautics 33, 11 (2020), 2930–2945.",
+            "journal-title": "Chinese Journal of Aeronautics"
+          },
+          {
+            "key": "e_1_3_2_38_2",
+            "unstructured": "Joyjit Chatterjee and Nina Dethlefs. 2020. XAI4Wind: A Multimodal Knowledge Graph Database for Explainable Decision Support in Operations & Maintenance of Wind Turbines."
+          },
+          {
+            "key": "e_1_3_2_39_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/1463922X.2017.1315750"
+          },
+          {
+            "key": "e_1_3_2_40_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.21236/ADA600351"
+          },
+          {
+            "key": "e_1_3_2_41_2",
+            "first-page": "3504",
+            "volume-title": "Advances in Neural Information Processing Systems",
+            "author": "Choi Edward",
+            "year": "2016",
+            "unstructured": "Edward Choi, Mohammad Taha Bahadori, Jimeng Sun, Joshua Kulas, Andy Schuetz, and Walter Stewart. 2016. Retain: An interpretable predictive model for healthcare using reverse time attention mechanism. In Advances in Neural Information Processing Systems. 3504–3512."
+          },
+          {
+            "key": "e_1_3_2_42_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCG.2018.042731661"
+          },
+          {
+            "key": "e_1_3_2_43_2",
+            "unstructured": "Noel C. F. Codella Michael Hind Karthikeyan Natesan Ramamurthy Murray Campbell Amit Dhurandhar Kush R. Varshney Dennis Wei and Aleksandra Mojsilovic. 2018. Teaching meaningful explanations."
+          },
+          {
+            "key": "e_1_3_2_44_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Erik Conser Kennedy Hahn Chandler M. Watson and Melanie Mitchell. 2019. Revisiting Visual Grounding.",
+            "DOI": "10.18653/v1/W19-1804"
+          },
+          {
+            "key": "e_1_3_2_45_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/computers9030075"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_3_2_46_2",
+            "first-page": "32",
+            "article-title": "Perpetual self-aware cognitive agents",
+            "volume": "28",
+            "author": "Cox Michael T.",
+            "year": "2007",
+            "unstructured": "Michael T. Cox. 2007. Perpetual self-aware cognitive agents. AI Magazine 28, 1 (2007), 32–32.",
+            "journal-title": "AI Magazine"
+          },
+          {
+            "key": "e_1_3_2_47_2",
+            "volume-title": "Introspective Multistrategy Learning: On the Construction of Learning Strategies",
+            "author": "Cox Michael T.",
+            "year": "1999",
+            "unstructured": "Michael T. Cox and Ashwin Ram. 1999. Introspective Multistrategy Learning: On the Construction of Learning Strategies. Technical Report. Wright State Univ. Dayton OH Dept of Computer Science and Engineering."
+          },
+          {
+            "key": "e_1_3_2_48_2",
+            "first-page": "66",
+            "volume-title": "Australasian Joint Conference on Artificial Intelligence",
+            "author": "Cruz Francisco",
+            "year": "2019",
+            "unstructured": "Francisco Cruz, Richard Dazeley, and Peter Vamplew. 2019. Memory-based explainable reinforcement learning. In Australasian Joint Conference on Artificial Intelligence. Springer, 66–77."
+          },
+          {
+            "key": "e_1_3_2_49_2",
+            "first-page": "340",
+            "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+            "author": "Cultrera Luca",
+            "year": "2020",
+            "unstructured": "Luca Cultrera, Lorenzo Seidenari, Federico Becattini, Pietro Pala, and Alberto Del Bimbo. 2020. Explaining autonomous driving by learning end-to-end visual attention. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 340–341."
+          },
+          {
+            "key": "e_1_3_2_50_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "154906",
+            "DOI": "10.1109/ACCESS.2020.3007018",
+            "article-title": "Agent architecture for adaptive behaviors in autonomous driving",
+            "volume": "8",
+            "author": "Lio Mauro Da",
+            "year": "2020",
+            "unstructured": "Mauro Da Lio, Riccardo Donà, Gastone Pietro Rosati Papini, and Kevin Gurney. 2020. Agent architecture for adaptive behaviors in autonomous driving. IEEE Access 8 (2020), 154906–154923.",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "e_1_3_2_51_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1207/s15516709cog1902_3"
+          },
+          {
+            "key": "e_1_3_2_52_2",
+            "first-page": "1",
+            "volume-title": "Proceedings of the Workshop on Adaptive Learning Agents (held at the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence)",
+            "author": "Dannenhauer Dustin",
+            "year": "2018",
+            "unstructured": "Dustin Dannenhauer, Michael W. Floyd, Matthew Molineaux, and David W. Aha. 2018. Learning from exploration: Towards an explainable goal reasoning agent. In Proceedings of the Workshop on Adaptive Learning Agents (held at the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence). 1–8."
+          },
+          {
+            "key": "e_1_3_2_53_2",
+            "unstructured": "Arun Das and Paul Rad. 2020. Opportunities and challenges in explainable artificial intelligence (XAI): A survey."
+          },
+          {
+            "key": "e_1_3_2_54_2",
+            "volume-title": "Autonomous Agents and the Concept of Concepts",
+            "author": "Davidsson Paul",
+            "year": "1996",
+            "unstructured": "Paul Davidsson. 1996. Autonomous Agents and the Concept of Concepts. Department of Computer Science, Lund University."
+          },
+          {
+            "issue": "5",
+            "key": "e_1_3_2_55_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "799",
+            "DOI": "10.1111/j.1551-6709.2011.01205.x",
+            "article-title": "Generation of referring expressions: Assessing the incremental algorithm",
+            "volume": "36",
+            "author": "Deemter Kees van",
+            "year": "2012",
+            "unstructured": "Kees van Deemter, Albert Gatt, Ielka van der Sluis, and Richard Power. 2012. Generation of referring expressions: Assessing the incremental algorithm. Cognitive Science 36, 5 (2012), 799–836.",
+            "journal-title": "Cognitive Science"
+          },
+          {
+            "key": "e_1_3_2_56_2",
+            "first-page": "163",
+            "article-title": "Three kinds of intentional psychology",
+            "author": "Dennett Daniel Clement",
+            "year": "1978",
+            "unstructured": "Daniel Clement Dennett. 1978. Three kinds of intentional psychology. Perspectives in the Philosophy of Language: A Concise Anthology (1978), 163–186.",
+            "journal-title": "Perspectives in the Philosophy of Language: A Concise Anthology"
+          },
+          {
+            "issue": "211",
+            "key": "e_1_3_2_57_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "214",
+            "DOI": "10.1111/1467-9213.00307",
+            "article-title": "Explaining action by emotion",
+            "volume": "53",
+            "author": "Döring Sabine A.",
+            "year": "2003",
+            "unstructured": "Sabine A. Döring. 2003. Explaining action by emotion. The Philosophical Quarterly 53, 211 (2003), 214–230.",
+            "journal-title": "The Philosophical Quarterly"
+          },
+          {
+            "key": "e_1_3_2_58_2",
+            "first-page": "51",
+            "volume-title": "10th ACM/IEEE International Conference on Human-Robot Interaction",
+            "author": "Dragan Anca D.",
+            "year": "2015",
+            "unstructured": "Anca D. Dragan, Shira Bauman, Jodi Forlizzi, and Siddhartha S. Srinivasa. 2015. Effects of robot motion on human-robot collaboration. In 10th ACM/IEEE International Conference on Human-Robot Interaction. IEEE, 51–58."
+          },
+          {
+            "key": "e_1_3_2_59_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3278721.3278736"
+          },
+          {
+            "key": "e_1_3_2_60_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "263",
+            "DOI": "10.1145/3301275.3302316",
+            "volume-title": "Proceedings of the 24th International Conference on Intelligent User Interfaces",
+            "author": "Ehsan Upol",
+            "year": "2019",
+            "unstructured": "Upol Ehsan, Pradyumna Tambwekar, Larry Chan, Brent Harrison, and Mark O. Riedl. 2019. Automated rationale generation: A technique for explainable AI and its effects on human perceptions. In Proceedings of the 24th International Conference on Intelligent User Interfaces. 263–274."
+          },
+          {
+            "key": "e_1_3_2_61_2",
+            "volume-title": "Innovative Model for Situation Awareness in Dynamic Defense Systems",
+            "author": "Endsley Mica R.",
+            "year": "2018",
+            "unstructured": "Mica R. Endsley. 2018. Innovative Model for Situation Awareness in Dynamic Defense Systems. CRC Press."
+          },
+          {
+            "key": "e_1_3_2_62_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "403",
+            "DOI": "10.1007/978-3-319-23374-1_19",
+            "volume-title": "International Conference on Spatial Information Theory",
+            "author": "Epstein Susan L.",
+            "year": "2015",
+            "unstructured": "Susan L. Epstein, Anoop Aroor, Matthew Evanusa, Elizabeth I. Sklar, and Simon Parsons. 2015. Learning spatial models for navigation. In International Conference on Spatial Information Theory. Springer, 403–425."
+          },
+          {
+            "key": "e_1_3_2_63_2",
+            "first-page": "93",
+            "volume-title": "2016 IEEE International Conference on Healthcare Informatics",
+            "author": "Esteban Cristóbal",
+            "year": "2016",
+            "unstructured": "Cristóbal Esteban, Oliver Staeck, Stephan Baier, Yinchong Yang, and Volker Tresp. 2016. Predicting clinical events by combining static and dynamic information using recurrent neural networks. In 2016 IEEE International Conference on Healthcare Informatics. IEEE, 93–101."
+          },
+          {
+            "key": "e_1_3_2_64_2",
+            "first-page": "392",
+            "volume-title": "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing",
+            "author": "Fang Rui",
+            "year": "2013",
+            "unstructured": "Rui Fang, Changsong Liu, Lanbo She, and Joyce Chai. 2013. Towards situated dialogue: Revisiting referring expression generation. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing. 392–402."
+          },
+          {
+            "key": "e_1_3_2_65_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0004-3702(71)90010-5"
+          },
+          {
+            "key": "e_1_3_2_66_2",
+            "volume-title": "Incident Command: Tales From The Hot Seat",
+            "author": "Flin Rhona",
+            "year": "2017",
+            "unstructured": "Rhona Flin and Kevin Arbuthnot. 2017. Incident Command: Tales From The Hot Seat. Routledge."
+          },
+          {
+            "key": "e_1_3_2_67_2",
+            "first-page": "124",
+            "volume-title": "International Conference on Case-Based Reasoning",
+            "author": "Floyd Michael W.",
+            "year": "2016",
+            "unstructured": "Michael W. Floyd and David W. Aha. 2016. Incorporating transparency during trust-guided behavior adaptation. In International Conference on Case-Based Reasoning. Springer, 124–138."
+          },
+          {
+            "key": "e_1_3_2_68_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1349822.1349861"
+          },
+          {
+            "key": "e_1_3_2_69_2",
+            "first-page": "39",
+            "article-title": "Ear and voice of the WABOT - the speech-input-output system",
+            "author": "Fujisawa Hiromichi",
+            "year": "1973",
+            "unstructured": "Hiromichi Fujisawa, Katsuhiko Shirai, and Yukio Sakai. 1973. Ear and voice of the WABOT - the speech-input-output system. Bulletin of Science and Engineering Research Laboratory Waseda (71973), 39–85.",
+            "journal-title": "Bulletin of Science and Engineering Research Laboratory Waseda"
+          },
+          {
+            "key": "e_1_3_2_70_2",
+            "first-page": "1119",
+            "volume-title": "29th IEEE International Conference on Robot and Human Interactive Communication",
+            "author": "Gao Xiaofeng",
+            "year": "2020",
+            "unstructured": "Xiaofeng Gao, Ran Gong, Yizhou Zhao, Shu Wang, Tianmin Shu, and Song-Chun Zhu. 2020. Joint mind modeling for explanation generation in complex human-robot collaborative tasks. In 29th IEEE International Conference on Robot and Human Interactive Communication. IEEE, 1119–1126."
+          },
+          {
+            "key": "e_1_3_2_71_2",
+            "unstructured": "Artur d’Avila Garcez Marco Gori Luis C. Lamb Luciano Serafini Michael Spranger and Son N. Tran. 2019. Neural-symbolic computing: An effective methodology for principled integration of machine learning and reasoning."
+          },
+          {
+            "key": "e_1_3_2_72_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2019.2937521"
+          },
+          {
+            "key": "e_1_3_2_73_2",
+            "first-page": "10",
+            "volume-title": "International Workshop on Agent Theories, Architectures, and Languages",
+            "author": "Georgeff Michael",
+            "year": "1998",
+            "unstructured": "Michael Georgeff, Barney Pell, Martha Pollack, Milind Tambe, and Michael Wooldridge. 1998. The belief-desire-intention model of agency. In International Workshop on Agent Theories, Architectures, and Languages. Springer, 10 pages."
+          },
+          {
+            "key": "e_1_3_2_74_2",
+            "volume-title": "IUI Workshops",
+            "author": "Gervasio Melinda T.",
+            "year": "2018",
+            "unstructured": "Melinda T. Gervasio, Karen L. Myers, Eric Yeh, and Boone Adkins. 2018. Explanation to avert surprise. In IUI Workshops, Vol. 2068."
+          },
+          {
+            "key": "e_1_3_2_75_2",
+            "unstructured": "Shalini Ghosh Giedrius Burachas Arijit Ray and Avi Ziskind. 2019. Generating natural language explanations for visual question answering using scene graphs and visual attention."
+          },
+          {
+            "key": "e_1_3_2_76_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/neco.1992.4.3.393"
+          },
+          {
+            "key": "e_1_3_2_77_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS45743.2020.9341382"
+          },
+          {
+            "key": "e_1_3_2_78_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/1873738.1873749"
+          },
+          {
+            "key": "e_1_3_2_79_2",
+            "first-page": "1005",
+            "volume-title": "27th IEEE International Symposium on Robot and Human Interactive Communication",
+            "author": "Gong Ze",
+            "year": "2018",
+            "unstructured": "Ze Gong and Yu Zhang. 2018. Behavior explanation as intention signaling in human-robot teaming. In 27th IEEE International Symposium on Robot and Human Interactive Communication. IEEE, 1005–1011."
+          },
+          {
+            "key": "e_1_3_2_80_2",
+            "first-page": "58",
+            "volume-title": "Workshop on Explainable Artificial Intelligence",
+            "author": "Grea Antoine",
+            "year": "2018",
+            "unstructured": "Antoine Grea, Laëtitia Matignon, and Samir Aknine. 2018. How explainable plans can make planning faster. In Workshop on Explainable Artificial Intelligence. hal.archives-ouvertes.fr, Stockholm, Sweden, 58–64."
+          },
+          {
+            "key": "e_1_3_2_81_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "408",
+            "DOI": "10.1609/icaps.v28i1.13872",
+            "article-title": "Learning generalized reactive policies using deep neural networks",
+            "author": "Groshev Edward",
+            "year": "2018",
+            "unstructured": "Edward Groshev, Aviv Tamar, Maxwell Goldstein, Siddharth Srivastava, and Pieter Abbeel. 2018. Learning generalized reactive policies using deep neural networks. Proceedings of the International Conference on Automated Planning and Scheduling (2018), 408–416.",
+            "journal-title": "Proceedings of the International Conference on Automated Planning and Scheduling"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_3_2_82_2",
+            "first-page": "42",
+            "article-title": "A survey of methods for explaining black box models",
+            "volume": "51",
+            "author": "Guidotti Riccardo",
+            "year": "2018",
+            "unstructured": "Riccardo Guidotti, Anna Monreale, Salvatore Ruggieri, Franco Turini, Fosca Giannotti, and Dino Pedreschi. 2018. A survey of methods for explaining black box models. Comput. Surveys 51, 5 (2018), 42 pages.",
+            "journal-title": "Comput. Surveys"
+          },
+          {
+            "key": "e_1_3_2_83_2",
+            "unstructured": "Matthew Guzdial Joshua Reno Jonathan Chen Gillian Smith and Mark Riedl. 2018. Explainable PCGML Via Game Design Patterns."
+          },
+          {
+            "key": "e_1_3_2_84_2",
+            "first-page": "85",
+            "volume-title": "Proceedings of the 10th International Conference on Composite Materials",
+            "author": "Harbers Maaike",
+            "year": "2010",
+            "unstructured": "Maaike Harbers, Joost Broekens, Karel Van Den Bosch, and John-Jules Meyer. 2010. Guidelines for developing explainable cognitive models. In Proceedings of the 10th International Conference on Composite Materials. Citeseer, 85–90."
+          },
+          {
+            "key": "e_1_3_2_85_2",
+            "first-page": "168",
+            "volume-title": "International Workshop on Languages, Methodologies and Development Tools for Multi-Agent Systems",
+            "author": "Harbers Maaike",
+            "year": "2009",
+            "unstructured": "Maaike Harbers, Karel Van Den Bosch, and John-Jules Meyer. 2009. A methodology for developing self-explaining agents for virtual training. In International Workshop on Languages, Methodologies and Development Tools for Multi-Agent Systems. Springer, 168–182."
+          },
+          {
+            "key": "e_1_3_2_86_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "125",
+            "DOI": "10.1109/WI-IAT.2010.115",
+            "volume-title": "2010 IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology",
+            "volume": "2",
+            "author": "Harbers Maaike",
+            "year": "2010",
+            "unstructured": "Maaike Harbers, Karel van den Bosch, and John-Jules Meyer. 2010. Design and evaluation of explainable BDI agents. In 2010 IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology, Vol. 2. IEEE, 125–132."
+          },
+          {
+            "key": "e_1_3_2_87_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Peter Hase and Mohit Bansal. 2020. Evaluating explainable AI: Which algorithmic explanations help users predict model behavior?",
+            "DOI": "10.18653/v1/2020.acl-main.491"
+          },
+          {
+            "key": "e_1_3_2_88_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3242969.3266297"
+          },
+          {
+            "key": "e_1_3_2_89_2",
+            "first-page": "303",
+            "volume-title": "12th ACM/IEEE International Conference on Human-Robot Interaction",
+            "author": "Hayes Bradley",
+            "year": "2017",
+            "unstructured": "Bradley Hayes and Julie A. Shah. 2017. Improving robot controller transparency through autonomous policy explanation. In 12th ACM/IEEE International Conference on Human-Robot Interaction. IEEE, 303–312."
+          },
+          {
+            "key": "e_1_3_2_90_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijhcs.2008.09.008"
+          },
+          {
+            "key": "e_1_3_2_91_2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-642-58418-3",
+            "volume-title": "Software Agents for Future Communication Systems",
+            "author": "Hayzelden Alex L. G.",
+            "year": "1999",
+            "unstructured": "Alex L. G. Hayzelden and John Bigham. 1999. Software Agents for Future Communication Systems. Springer Science & Business Media."
+          },
+          {
+            "key": "e_1_3_2_92_2",
+            "first-page": "6",
+            "volume-title": "2013 World Congress on Computer and Information Technology",
+            "author": "Hedhili Aroua",
+            "year": "2013",
+            "unstructured": "Aroua Hedhili, Wided Lejouad Chaari, and Khaled Ghédira. 2013. Explanation language syntax for multi-agent systems. In 2013 World Congress on Computer and Information Technology. IEEE, 6 pages."
+          },
+          {
+            "key": "e_1_3_2_93_2",
+            "first-page": "157",
+            "volume-title": "2020 IEEE Third International Conference on Artificial Intelligence and Knowledge Engineering",
+            "author": "Ho Joshua",
+            "year": "2020",
+            "unstructured": "Joshua Ho and Chien-Min Wang. 2020. Explainable and adaptable augmentation in knowledge attention network for multi-agent deep reinforcement learning systems. In 2020 IEEE Third International Conference on Artificial Intelligence and Knowledge Engineering. IEEE, 157–161."
+          },
+          {
+            "key": "e_1_3_2_94_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "285",
+            "DOI": "10.1007/978-3-030-28954-6_15",
+            "volume-title": "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning",
+            "author": "Hofmarcher Markus",
+            "year": "2019",
+            "unstructured": "Markus Hofmarcher, Thomas Unterthiner, José Arjona-Medina, Günter Klambauer, Sepp Hochreiter, and Bernhard Nessler. 2019. Visual scene understanding for autonomous driving using semantic segmentation. In Explainable AI: Interpreting, Explaining and Visualizing Deep Learning. Springer, 285–296."
+          },
+          {
+            "key": "e_1_3_2_95_2",
+            "first-page": "181",
+            "volume-title": "2013 Extended Abstracts on Human Factors in Computing Systems",
+            "author": "Holliday Daniel",
+            "year": "2013",
+            "unstructured": "Daniel Holliday, Stephanie Wilson, and Simone Stumpf. 2013. The effect of explanations on perceived control and behaviors in intelligent systems. In 2013 Extended Abstracts on Human Factors in Computing Systems. 181–186."
+          },
+          {
+            "key": "e_1_3_2_96_2",
+            "unstructured": "Andreas Holzinger Bernd Malle Peter Kieseberg Peter M. Roth Heimo Müller Robert Reihs and Kurt Zatloukal. 2017. Towards the augmented pathologist: Challenges of explainable-AI in digital pathology."
+          },
+          {
+            "key": "e_1_3_2_97_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.knosys.2020.106389"
+          },
+          {
+            "key": "e_1_3_2_98_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/1738958"
+          },
+          {
+            "key": "e_1_3_2_99_2",
+            "first-page": "43",
+            "volume-title": "Proceedings of the 19th International Conference on Case-Based Reasoning (ICCBR 2011) Workshop on Computer Games",
+            "author": "Jaidee Ulit",
+            "year": "2011",
+            "unstructured": "Ulit Jaidee, Héctor Muñoz-Avila, and David W. Aha. 2011. Case-based learning in goal-driven autonomy agents for real-time strategy combat tasks. In Proceedings of the 19th International Conference on Case-Based Reasoning (ICCBR 2011) Workshop on Computer Games. 43–52."
+          },
+          {
+            "key": "e_1_3_2_100_2",
+            "volume-title": "22nd International Joint Conference on Artificial Intelligence",
+            "author": "Jaidee Ulit",
+            "year": "2011",
+            "unstructured": "Ulit Jaidee, Héctor Muñoz-Avila, and David W. Aha. 2011. Integrated learning for goal-driven autonomy. In 22nd International Joint Conference on Artificial Intelligence."
+          },
+          {
+            "key": "e_1_3_2_101_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fnbot.2013.00016"
+          },
+          {
+            "key": "e_1_3_2_102_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2015.7298990"
+          },
+          {
+            "key": "e_1_3_2_103_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/2891730.2891924"
+          },
+          {
+            "key": "e_1_3_2_104_2",
+            "first-page": "47",
+            "volume-title": "Proceedings of the IJCAI 2019 Workshop on Explainable Artificial Intelligence",
+            "author": "Juozapaitis Zoe",
+            "year": "2019",
+            "unstructured": "Zoe Juozapaitis, Anurag Koul, Alan Fern, Martin Erwig, and Finale Doshi-Velez. 2019. Explainable reinforcement learning via reward decomposition. In Proceedings of the IJCAI 2019 Workshop on Explainable Artificial Intelligence. 47–53."
+          },
+          {
+            "key": "e_1_3_2_105_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0004-3702(94)90011-6"
+          },
+          {
+            "key": "e_1_3_2_106_2",
+            "first-page": "676",
+            "volume-title": "26th IEEE International Symposium on Robot and Human Interactive Communication",
+            "author": "Kaptein Frank",
+            "year": "2017",
+            "unstructured": "Frank Kaptein, Joost Broekens, Koen Hindriks, and Mark Neerincx. 2017. Personalised self-explanation by robots: The role of goals versus beliefs in robot-action explanation for children and adults. In 26th IEEE International Symposium on Robot and Human Interactive Communication. IEEE, 676–682."
+          },
+          {
+            "key": "e_1_3_2_107_2",
+            "first-page": "88",
+            "volume-title": "7th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos",
+            "author": "Kaptein Frank",
+            "year": "2017",
+            "unstructured": "Frank Kaptein, Joost Broekens, Koen Hindriks, and Mark Neerincx. 2017. The role of emotion in self-explanations by cognitive agents. In 7th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos. IEEE, 88–93."
+          },
+          {
+            "key": "e_1_3_2_108_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev.psych.57.102904.190100"
+          },
+          {
+            "key": "e_1_3_2_109_2",
+            "first-page": "483",
+            "volume-title": "Proceedings of the IEEE International Symposium on Intelligent Control",
+            "author": "Kennedy Catriona M.",
+            "year": "1998",
+            "unstructured": "Catriona M. Kennedy. 1998. A conceptual foundation for autonomous learning in unforeseen situations. In Proceedings of the IEEE International Symposium on Intelligent Control. IEEE, 483–488."
+          },
+          {
+            "key": "e_1_3_2_110_2",
+            "first-page": "18",
+            "article-title": "What’s on your mind, NICO?",
+            "author": "Kerzel Matthias",
+            "year": "2022",
+            "unstructured": "Matthias Kerzel, Jakob Ambsdorf, Dennis Becker, Wenhao Lu, Erik Strahl, Josua Spisak, Connor Gäde, Tom Weber, and Stefan Wermter. 2022. What’s on your mind, NICO? KI-Künstliche Intelligenz (2022), 18 pages.",
+            "journal-title": "KI-Künstliche Intelligenz"
+          },
+          {
+            "key": "e_1_3_2_111_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0010-0277(03)00064-7"
+          },
+          {
+            "key": "e_1_3_2_112_2",
+            "first-page": "80",
+            "volume-title": "Proceedings of the 15th IEEE International Symposium on Robot and Human Interactive Communication",
+            "author": "Kim Taemie",
+            "year": "2006",
+            "unstructured": "Taemie Kim and Pamela Hinds. 2006. Who should I blame? Effects of autonomy and transparency on attributions in human-robot interaction. In Proceedings of the 15th IEEE International Symposium on Robot and Human Interactive Communication. IEEE, 80–85."
+          },
+          {
+            "key": "e_1_3_2_113_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1467-8640.2012.00445.x"
+          },
+          {
+            "key": "e_1_3_2_114_2",
+            "first-page": "432",
+            "volume-title": "Proceedings of the 13th International Joint Conference on Artificial Intelligence",
+            "volume": "93",
+            "author": "Knight Kevin",
+            "year": "1993",
+            "unstructured": "Kevin Knight. 1993. Are many reactive agents better than a few deliberative ones?. In Proceedings of the 13th International Joint Conference on Artificial Intelligence, Vol. 93. 432–437."
+          },
+          {
+            "key": "e_1_3_2_115_2",
+            "first-page": "483",
+            "article-title": "Speech conversation system of the musician robot",
+            "author": "Kobayashi T.",
+            "year": "1985",
+            "unstructured": "T. Kobayashi. 1985. Speech conversation system of the musician robot. Proceedings of the 1985 International Conference on Advanced Robotics (1985), 483–488.",
+            "journal-title": "Proceedings of the 1985 International Conference on Advanced Robotics"
+          },
+          {
+            "key": "e_1_3_2_116_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/5.58325"
+          },
+          {
+            "key": "e_1_3_2_117_2",
+            "volume-title": "Case-Based Reasoning",
+            "author": "Kolodner Janet",
+            "year": "2014",
+            "unstructured": "Janet Kolodner. 2014. Case-Based Reasoning. Morgan Kaufmann Publishers Inc."
+          },
+          {
+            "key": "e_1_3_2_118_2",
+            "unstructured": "Avinash Kori Parth Natekar Ganapathy Krishnamurthi and Balaji Srinivasan. 2020. Abstracting Deep Neural Networks into Concept Graphs for Concept Level Interpretability."
+          },
+          {
+            "key": "e_1_3_2_119_2",
+            "article-title": "Toward natural explanations for a robot’s navigation plans",
+            "author": "Korpan Raj",
+            "year": "2018",
+            "unstructured": "Raj Korpan and Susan L. Epstein. 2018. Toward natural explanations for a robot’s navigation plans. Notes from the Explainable Robotic Systems Workshop, Human-Robot Interaction (2018).",
+            "journal-title": "Notes from the Explainable Robotic Systems Workshop, Human-Robot Interaction"
+          },
+          {
+            "key": "e_1_3_2_120_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/COLI_a_00088"
+          },
+          {
+            "key": "e_1_3_2_121_2",
+            "volume-title": "Proceedings of the 10th European Workshop on Natural Language Generation",
+            "author": "Kranstedt Alfred",
+            "year": "2005",
+            "unstructured": "Alfred Kranstedt and Ipke Wachsmuth. 2005. Incremental generation of multimodal deixis referring to objects. In Proceedings of the 10th European Workshop on Natural Language Generation."
+          },
+          {
+            "key": "e_1_3_2_122_2",
+            "volume-title": "4th SEAS DTC Technical Conference",
+            "author": "Kröske Jens",
+            "year": "2009",
+            "unstructured": "Jens Kröske, Kevin O’Holleran, and Hannu Rajaniemi. 2009. Trusted reasoning engine for autonomous systems with an interactive demonstrator. In 4th SEAS DTC Technical Conference. Citeseer."
+          },
+          {
+            "key": "e_1_3_2_123_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1109/VLHCC.2010.15",
+            "volume-title": "2010 IEEE Symposium on Visual Languages and Human-centric Computing",
+            "author": "Kulesza Todd",
+            "year": "2010",
+            "unstructured": "Todd Kulesza, Simone Stumpf, Margaret Burnett, Weng-Keen Wong, Yann Riche, Travis Moore, Ian Oberst, Amber Shinsel, and Kevin McIntosh. 2010. Explanatory debugging: Supporting end-user debugging of machine-learned programs. In 2010 IEEE Symposium on Visual Languages and Human-centric Computing. IEEE, 41–48."
+          },
+          {
+            "key": "e_1_3_2_124_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1109/VLHCC.2013.6645235",
+            "volume-title": "2013 IEEE Symposium on Visual Languages and Human-centric Computing",
+            "author": "Kulesza Todd",
+            "year": "2013",
+            "unstructured": "Todd Kulesza, Simone Stumpf, Margaret Burnett, Sherry Yang, Irwin Kwan, and Weng-Keen Wong. 2013. Too much, too little, or just right? Ways explanations impact end users’ mental models. In 2013 IEEE Symposium on Visual Languages and Human-centric Computing. IEEE, 3–10."
+          },
+          {
+            "key": "e_1_3_2_125_2",
+            "article-title": "Building machines that learn and think like people",
+            "volume": "40",
+            "author": "Lake Brenden M.",
+            "year": "2017",
+            "unstructured": "Brenden M. Lake, Tomer D. Ullman, Joshua B. Tenenbaum, and Samuel J. Gershman. 2017. Building machines that learn and think like people. Behavioral and Brain Sciences 40 (2017).",
+            "journal-title": "Behavioral and Brain Sciences"
+          },
+          {
+            "key": "e_1_3_2_126_2",
+            "volume-title": "Proceedings of the 29th Innovative Applications of Artificial Intelligence Conference",
+            "author": "Langley Pat",
+            "year": "2017",
+            "unstructured": "Pat Langley, Ben Meadows, Mohan Sridharan, and Dongkyu Choi. 2017. Explainable agency for intelligent autonomous systems. In Proceedings of the 29th Innovative Applications of Artificial Intelligence Conference."
+          },
+          {
+            "issue": "1",
+            "key": "e_1_3_2_127_2",
+            "first-page": "11",
+            "article-title": "Explainable artificial intelligence model to predict acute critical illness from electronic health records",
+            "volume": "11",
+            "author": "Lauritsen Simon Meyer",
+            "year": "2020",
+            "unstructured": "Simon Meyer Lauritsen, Mads Kristensen, Mathias Vassard Olsen, Morten Skaarup Larsen, Katrine Meyer Lauritsen, Marianne Johansson Jørgensen, Jeppe Lange, and Bo Thiesson. 2020. Explainable artificial intelligence model to predict acute critical illness from electronic health records. Nature Communications 11, 1 (2020), 11 pages.",
+            "journal-title": "Nature Communications"
+          },
+          {
+            "key": "e_1_3_2_128_2",
+            "first-page": "146",
+            "volume-title": "Proceedings of the 10th Logic Programming Workshop",
+            "author": "Lavrac Nada",
+            "year": "1994",
+            "unstructured": "Nada Lavrac and Saso Dzeroski. 1994. Inductive logic programming. In Proceedings of the 10th Logic Programming Workshop. Springer, 146–160."
+          },
+          {
+            "key": "e_1_3_2_129_2",
+            "first-page": "121",
+            "volume-title": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+            "author": "Lee Jaesong",
+            "year": "2017",
+            "unstructured": "Jaesong Lee, Joong-Hwi Shin, and Jun-Seok Kim. 2017. Interactive visualization and manipulation of attention-based neural machine translation. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. 121–126."
+          },
+          {
+            "key": "e_1_3_2_130_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s12369-013-0178-y"
+          },
+          {
+            "key": "e_1_3_2_131_2",
+            "first-page": "4898",
+            "volume-title": "AIAA Infotech@ Aerospace (I@A) Conference",
+            "author": "Lettl Benjamin",
+            "year": "2013",
+            "unstructured": "Benjamin Lettl and Axel Schulte. 2013. Self-explanation capability for cognitive agents on-board of UCAVs to improve cooperation in a manned-unmanned fighter team. In AIAA Infotech@ Aerospace (I@A) Conference. 4898."
+          },
+          {
+            "key": "e_1_3_2_132_2",
+            "first-page": "224",
+            "volume-title": "International Workshop on Coordination, Organizations, Institutions, and Norms in Agent Systems",
+            "author": "Li Sirui",
+            "year": "2015",
+            "unstructured": "Sirui Li, Weixing Sun, and Tim Miller. 2015. Communication in human-agent teams for tasks with joint action. In International Workshop on Coordination, Organizations, Institutions, and Norms in Agent Systems. Springer, 224–241."
+          },
+          {
+            "key": "e_1_3_2_133_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "194228",
+            "DOI": "10.1109/ACCESS.2020.3033289",
+            "article-title": "A deep learning-based hybrid framework for object detection and recognition in autonomous driving",
+            "volume": "8",
+            "author": "Li Yanfen",
+            "year": "2020",
+            "unstructured": "Yanfen Li, Hanxiang Wang, L. Minh Dang, Tan N. Nguyen, Dongil Han, Ahyun Lee, Insung Jang, and Hyeonjoon Moon. 2020. A deep learning-based hybrid framework for object detection and recognition in autonomous driving. IEEE Access 8 (2020), 194228–194239.",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "e_1_3_2_134_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2021.3072120"
+          },
+          {
+            "key": "e_1_3_2_135_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2037373.2037399"
+          },
+          {
+            "key": "e_1_3_2_136_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF00992699"
+          },
+          {
+            "key": "e_1_3_2_137_2",
+            "unstructured": "Zachary C. Lipton David C. Kale Charles Elkan and Randall Wetzel. 2015. Learning to diagnose with LSTM recurrent neural networks."
+          },
+          {
+            "key": "e_1_3_2_138_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "USA, 238",
+            "DOI": "10.7551/mitpress/3117.003.0041",
+            "volume-title": "From Animals to Animats 3: Proceedings of the Third International Conference on Simulation of Adaptive Behavior",
+            "volume": "3",
+            "author": "Littman Michael L.",
+            "year": "1994",
+            "unstructured": "Michael L. Littman. 1994. Memoryless policies: Theoretical limitations and practical results. In From Animals to Animats 3: Proceedings of the Third International Conference on Simulation of Adaptive Behavior, Vol. 3. Cambridge, MA, USA, 238."
+          },
+          {
+            "key": "e_1_3_2_139_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/D18-2007"
+          },
+          {
+            "key": "e_1_3_2_140_2",
+            "first-page": "187",
+            "volume-title": "Proceedings of the 7th Annual ACM/IEEE International Conference on Human-Robot Interaction",
+            "author": "Lomas Meghann",
+            "year": "2012",
+            "unstructured": "Meghann Lomas, Robert Chevalier, Ernest Vincent Cross, Robert Christopher Garrett, John Hoare, and Michael Kopack. 2012. Explaining robot actions. In Proceedings of the 7th Annual ACM/IEEE International Conference on Human-Robot Interaction. 187–188."
+          },
+          {
+            "key": "e_1_3_2_141_2",
+            "first-page": "94",
+            "volume-title": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition-Workshops",
+            "author": "Lucey Patrick",
+            "year": "2010",
+            "unstructured": "Patrick Lucey, Jeffrey F. Cohn, Takeo Kanade, Jason Saragih, Zara Ambadar, and Iain Matthews. 2010. The extended Cohn-Kanade dataset (CK+): A complete dataset for action unit and emotion-specified expression. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition-Workshops. IEEE Computer Society, 94–101."
+          },
+          {
+            "key": "e_1_3_2_142_2",
+            "first-page": "4765",
+            "volume-title": "Advances in Neural Information Processing Systems",
+            "author": "Lundberg Scott M.",
+            "year": "2017",
+            "unstructured": "Scott M. Lundberg and Su-In Lee. 2017. A unified approach to interpreting model predictions. In Advances in Neural Information Processing Systems. 4765–4774."
+          },
+          {
+            "key": "e_1_3_2_143_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Prashan Madumal Tim Miller Liz Sonenberg and Frank Vetere. 2019. Explainable reinforcement learning through a causal lens.",
+            "DOI": "10.1609/aaai.v34i03.5631"
+          },
+          {
+            "key": "e_1_3_2_144_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1207/s15327957pspr0301_2"
+          },
+          {
+            "key": "e_1_3_2_145_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00521-005-0002-1"
+          },
+          {
+            "key": "e_1_3_2_146_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fnbot.2019.00093"
+          },
+          {
+            "key": "e_1_3_2_147_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CBMS.2007.26"
+          },
+          {
+            "key": "e_1_3_2_148_2",
+            "volume-title": "Proceedings of the International Joint Conference on Artificial Intelligence",
+            "author": "McGarry Ken",
+            "year": "2001",
+            "unstructured": "Ken McGarry, Stefan Wermter, and J. MacIntyre. 2001. Knowledge extraction from local function networks. In Proceedings of the International Joint Conference on Artificial Intelligence. Seattle, WA, USA. https://www2.informatik.uni-hamburg.de/wtm/publications/2001/MWM01a/."
+          },
+          {
+            "key": "e_1_3_2_149_2",
+            "first-page": "249",
+            "volume-title": "IEEE 15th International Workshop on Advanced Motion Control",
+            "author": "Mikawa Masahiko",
+            "year": "2018",
+            "unstructured": "Masahiko Mikawa, Yuriko Yoshikawa, and Makoto Fujisawa. 2018. Expression of intention by rotational head movements for teleoperated mobile robot. In IEEE 15th International Workshop on Advanced Motion Control. IEEE, 249–254."
+          },
+          {
+            "issue": "2",
+            "key": "e_1_3_2_150_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "e0229596",
+            "DOI": "10.1371/journal.pone.0229596",
+            "article-title": "The virtual operative assistant: An explainable artificial intelligence tool for simulation-based training in surgery and medicine",
+            "volume": "15",
+            "author": "Mirchi Nykan",
+            "year": "2020",
+            "unstructured": "Nykan Mirchi, Vincent Bissonnette, Recai Yilmaz, Nicole Ledwos, Alexander Winkler-Schwartz, and Rolando F. Del Maestro. 2020. The virtual operative assistant: An explainable artificial intelligence tool for simulation-based training in surgery and medicine. PLOS One 15, 2 (2020), e0229596.",
+            "journal-title": "PLOS One"
+          },
+          {
+            "issue": "6",
+            "key": "e_1_3_2_151_2",
+            "article-title": "Transparent, explainable, and accountable AI for robotics",
+            "volume": "2",
+            "author": "Mittelstadt Brent Daniel",
+            "year": "2017",
+            "unstructured": "Brent Daniel Mittelstadt and Luciano Floridi. 2017. Transparent, explainable, and accountable AI for robotics. Science Robotics 2, 6 (2017).",
+            "journal-title": "Science Robotics"
+          },
+          {
+            "key": "e_1_3_2_152_2",
+            "first-page": "565",
+            "volume-title": "Workshops at the 32nd AAAI Conference on Artificial Intelligence",
+            "author": "Molineaux Matthew",
+            "year": "2018",
+            "unstructured": "Matthew Molineaux, Dustin Dannenhauer, and David W. Aha. 2018. Towards explainable NPCs: A relational exploration learning agent. In Workshops at the 32nd AAAI Conference on Artificial Intelligence. 565–569."
+          },
+          {
+            "key": "e_1_3_2_153_2",
+            "first-page": "1548",
+            "volume-title": "Proceedings of the 24th AAAI Conference on Artificial Intelligence",
+            "author": "Molineaux Matthew",
+            "year": "2010",
+            "unstructured": "Matthew Molineaux, Matthew Klenk, and David Aha. 2010. Goal-driven autonomy in a navy strategy simulation. In Proceedings of the 24th AAAI Conference on Artificial Intelligence. AAAI Press, 1548–1554."
+          },
+          {
+            "key": "e_1_3_2_154_2",
+            "first-page": "551",
+            "volume-title": "Proceedings of the 5th AAAI Conference on Artificial Intelligence",
+            "author": "Mooney Raymond J.",
+            "year": "1986",
+            "unstructured": "Raymond J. Mooney and Scott Bennett. 1986. A domain independent explanation-based generalizer. In Proceedings of the 5th AAAI Conference on Artificial Intelligence. 551–555."
+          },
+          {
+            "key": "e_1_3_2_155_2",
+            "volume-title": "Proceedings of the AAAI Workshop on Goal-Directed Autonomy",
+            "author": "Munoz-Avila Hector",
+            "year": "2010",
+            "unstructured": "Hector Munoz-Avila and David W. Aha. 2010. A case study of goal-driven autonomy in domination games. In Proceedings of the AAAI Workshop on Goal-Directed Autonomy."
+          },
+          {
+            "key": "e_1_3_2_156_2",
+            "first-page": "968",
+            "volume-title": "Proceedings of the 16th International Joint Conference on Artificial Intelligence",
+            "author": "Nau Dana",
+            "year": "1999",
+            "unstructured": "Dana Nau, Yue Cao, Amnon Lotem, and Hector Munoz-Avila. 1999. SHOP: Simple hierarchical ordered planner. In Proceedings of the 16th International Joint Conference on Artificial Intelligence. 968–973."
+          },
+          {
+            "issue": "4",
+            "key": "e_1_3_2_157_2",
+            "first-page": "43",
+            "article-title": "Current trends in automated planning",
+            "volume": "28",
+            "author": "Nau Dana S.",
+            "year": "2007",
+            "unstructured": "Dana S. Nau. 2007. Current trends in automated planning. AI Magazine 28, 4 (2007), 43–43.",
+            "journal-title": "AI Magazine"
+          },
+          {
+            "key": "e_1_3_2_158_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "204",
+            "DOI": "10.1007/978-3-319-91122-9_18",
+            "volume-title": "International Conference on Engineering Psychology and Cognitive Ergonomics",
+            "author": "Neerincx Mark A.",
+            "year": "2018",
+            "unstructured": "Mark A. Neerincx, Jasper van der Waa, Frank Kaptein, and Jurriaan van Diggelen. 2018. Using perceptual and cognitive explanations for enhanced human-agent team performance. In International Conference on Engineering Psychology and Cognitive Ergonomics. Springer, 204–214."
+          },
+          {
+            "key": "e_1_3_2_159_2",
+            "first-page": "300",
+            "volume-title": "International Conference on Artificial Neural Networks",
+            "author": "Ng Hwei Geok",
+            "year": "2018",
+            "unstructured": "Hwei Geok Ng, Matthias Kerzel, Jan Mehnert, Arne May, and Stefan Wermter. 2018. Classification of MRI migraine medical data using 3D convolutional neural network. In International Conference on Artificial Neural Networks. Springer, 300–309."
+          },
+          {
+            "key": "e_1_3_2_160_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.elerap.2016.09.003"
+          },
+          {
+            "key": "e_1_3_2_161_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IRDS.2002.1043936"
+          },
+          {
+            "key": "e_1_3_2_162_2",
+            "first-page": "7",
+            "volume-title": "24th IEEE International Symposium on Robot and Human Interactive Communication",
+            "author": "Novikova Jekaterina",
+            "year": "2015",
+            "unstructured": "Jekaterina Novikova, Leon Watts, and Tetsunari Inamura. 2015. Emotionally expressive robot behavior improves human-robot collaboration. In 24th IEEE International Symposium on Robot and Human Interactive Communication. IEEE, 7–12."
+          },
+          {
+            "key": "e_1_3_2_163_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0893-6080(95)00086-0"
+          },
+          {
+            "key": "e_1_3_2_164_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1178823.1178917"
+          },
+          {
+            "key": "e_1_3_2_165_2",
+            "first-page": "1519",
+            "volume-title": "32nd AAAI Conference on Artificial Intelligence",
+            "author": "Oudah Mayada",
+            "year": "2018",
+            "unstructured": "Mayada Oudah, Talal Rahwan, Tawna Crandall, and Jacob W. Crandall. 2018. How AI wins friends and influences people in repeated games with cheap talk. In 32nd AAAI Conference on Artificial Intelligence. AAAI Press, 1519–1526."
+          },
+          {
+            "key": "e_1_3_2_166_2",
+            "first-page": "679",
+            "volume-title": "2020 IEEE International Conference on Robotics and Automation",
+            "author": "Pan Xinlei",
+            "year": "2020",
+            "unstructured": "Xinlei Pan, Tingnan Zhang, Brian Ichter, Aleksandra Faust, Jie Tan, and Sehoon Ha. 2020. Zero-shot imitation learning from demonstrations for legged robot visual navigation. In 2020 IEEE International Conference on Robotics and Automation. IEEE, 679–685."
+          },
+          {
+            "key": "e_1_3_2_167_2",
+            "first-page": "10007",
+            "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "volume": "33",
+            "author": "Pocius Rey",
+            "year": "2019",
+            "unstructured": "Rey Pocius, Lawrence Neal, and Alan Fern. 2019. Strategic tasks for explainable reinforcement learning. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 33. 10007–10008."
+          },
+          {
+            "key": "e_1_3_2_168_2",
+            "unstructured": "Alun Preece Dan Harborne Dave Braines Richard Tomsett and Supriyo Chakraborty. 2018. Stakeholders in explainable AI."
+          },
+          {
+            "key": "e_1_3_2_169_2",
+            "volume-title": "Systematic Introduction To Expert Systems: Knowledge Representations and Problem-Solving Methods",
+            "author": "Puppe Frank",
+            "year": "2012",
+            "unstructured": "Frank Puppe. 2012. Systematic Introduction To Expert Systems: Knowledge Representations and Problem-Solving Methods. Springer Science & Business Media."
+          },
+          {
+            "key": "e_1_3_2_170_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/3237383.3237923"
+          },
+          {
+            "issue": "12",
+            "key": "e_1_3_2_171_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "1492",
+            "DOI": "10.3390/electronics8121492",
+            "article-title": "Deep, consistent behavioral decision making with planning features for autonomous vehicles",
+            "volume": "8",
+            "author": "Qian Lilin",
+            "year": "2019",
+            "unstructured": "Lilin Qian, Xin Xu, Yujun Zeng, and Junwen Huang. 2019. Deep, consistent behavioral decision making with planning features for autonomous vehicles. Electronics 8, 12 (2019), 1492.",
+            "journal-title": "Electronics"
+          },
+          {
+            "key": "e_1_3_2_172_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2017.01.045"
+          },
+          {
+            "key": "e_1_3_2_173_2",
+            "first-page": "312",
+            "volume-title": "Proceedings of the 1st International Conference on Multi-Agent Systems",
+            "author": "Rao Anand S.",
+            "year": "1995",
+            "unstructured": "Anand S. Rao, Michael P. Georgeff, et al. 1995. BDI agents: From theory to practice. In Proceedings of the 1st International Conference on Multi-Agent Systems. 312–319."
+          },
+          {
+            "key": "e_1_3_2_174_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/11551201_11"
+          },
+          {
+            "key": "e_1_3_2_175_2",
+            "first-page": "127",
+            "article-title": "An assumption-based truth-maintenance system",
+            "author": "Reiter Raymond",
+            "year": "1986",
+            "unstructured": "Raymond Reiter and Johan De Kleer. 1986. An assumption-based truth-maintenance system. Artificial Intelligence (1986), 127–162.",
+            "journal-title": "Artificial Intelligence"
+          },
+          {
+            "key": "e_1_3_2_176_2",
+            "first-page": "91",
+            "volume-title": "Advances in Neural Information Processing Systems",
+            "author": "Ren Shaoqing",
+            "year": "2016",
+            "unstructured": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. 2016. Faster R-CNN: Towards real-time object detection with region proposal networks. In Advances in Neural Information Processing Systems. 91–99."
+          },
+          {
+            "key": "e_1_3_2_177_2",
+            "volume-title": "Contrastive Explanation for Machine Learning",
+            "author": "Robeer Marcel Jurriaan",
+            "year": "2018",
+            "unstructured": "Marcel Jurriaan Robeer. 2018. Contrastive Explanation for Machine Learning. Master’s thesis. Utrecht University, Netherlands."
+          },
+          {
+            "key": "e_1_3_2_178_2",
+            "first-page": "862",
+            "volume-title": "Proceedings of the 25th International Joint Conference on Artificial Intelligence",
+            "author": "Rosenthal Stephanie",
+            "year": "2016",
+            "unstructured": "Stephanie Rosenthal, Sai P. Selvaraj, and Manuela M. Veloso. 2016. Verbalization: Narration of autonomous robot experience. In Proceedings of the 25th International Joint Conference on Artificial Intelligence. 862–868."
+          },
+          {
+            "key": "e_1_3_2_179_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1957656.1957669"
+          },
+          {
+            "key": "e_1_3_2_180_2",
+            "first-page": "1303",
+            "volume-title": "Proceedings of the 12th National Conference on Artificial Intelligence",
+            "volume": "2",
+            "author": "Sahota Michael K.",
+            "year": "1994",
+            "unstructured": "Michael K. Sahota. 1994. Reactive deliberation: An architecture for real-time intelligent control in dynamic environments. In Proceedings of the 12th National Conference on Artificial Intelligence, Vol. 2. 1303–1308."
+          },
+          {
+            "key": "e_1_3_2_181_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IRDS.2002.1041641"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_3_2_182_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "214",
+            "DOI": "10.1109/TCDS.2016.2538961",
+            "article-title": "GRAIL: A goal-discovering robotic architecture for intrinsically-motivated learning",
+            "volume": "8",
+            "author": "Santucci Vieri Giuliano",
+            "year": "2016",
+            "unstructured": "Vieri Giuliano Santucci, Gianluca Baldassarre, and Marco Mirolli. 2016. GRAIL: A goal-discovering robotic architecture for intrinsically-motivated learning. IEEE Transactions on Cognitive and Developmental Systems 8, 3 (2016), 214–231.",
+            "journal-title": "IEEE Transactions on Cognitive and Developmental Systems"
+          },
+          {
+            "key": "e_1_3_2_183_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1109/ICCE.2006.1598289",
+            "volume-title": "2006 Digest of Technical Papers International Conference on Consumer Electronics",
+            "author": "Sato Miki",
+            "year": "2006",
+            "unstructured": "Miki Sato, Akihiko Sugiyama, and Shin’ichi Ohnaka. 2006. Auditory system in a personal robot, PaPeRo. In 2006 Digest of Technical Papers International Conference on Consumer Electronics. IEEE, 19–20."
+          },
+          {
+            "key": "e_1_3_2_184_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.procs.2013.09.100"
+          },
+          {
+            "key": "e_1_3_2_185_2",
+            "first-page": "10",
+            "volume-title": "Proceedings of the 36th Annual Hawaii International Conference on System Sciences",
+            "author": "Scholtz Jean",
+            "year": "2003",
+            "unstructured": "Jean Scholtz. 2003. Theory and evaluation of human robot interactions. In Proceedings of the 36th Annual Hawaii International Conference on System Sciences. IEEE, 10."
+          },
+          {
+            "key": "e_1_3_2_186_2",
+            "first-page": "225",
+            "volume-title": "Proceedings of the 22nd International Conference on International Conference on Automated Planning and Scheduling",
+            "author": "Seegebarth Bastian",
+            "year": "2012",
+            "unstructured": "Bastian Seegebarth, Felix Müller, Bernd Schattenberg, and Susanne Biundo. 2012. Making hybrid plans more clear to human users - A formal approach for generating sound explanations. In Proceedings of the 22nd International Conference on International Conference on Automated Planning and Scheduling. 225–233."
+          },
+          {
+            "key": "e_1_3_2_187_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2017.74"
+          },
+          {
+            "key": "e_1_3_2_188_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pedro Sequeira and Melinda Gervasio. 2019. Interestingness Elements for Explainable Reinforcement Learning: Understanding Agents’ Capabilities and Limitations.",
+            "DOI": "10.1016/j.artint.2020.103367"
+          },
+          {
+            "key": "e_1_3_2_189_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3107411.3107445"
+          },
+          {
+            "key": "e_1_3_2_190_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2157689.2157778"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_3_2_191_2",
+            "first-page": "475",
+            "article-title": "An algorithm for spoken sentence recognition and its application to the speech input-output system.",
+            "volume": "4",
+            "author": "Shirai Katsuhiko",
+            "year": "1974",
+            "unstructured": "Katsuhiko Shirai and Hiromichi Fujisawa. 1974. An algorithm for spoken sentence recognition and its application to the speech input-output system. IEEE Transactions on Systems, Man, & Cybernetics 4, 5 (1974), 475–479.",
+            "journal-title": "IEEE Transactions on Systems, Man, & Cybernetics"
+          },
+          {
+            "key": "e_1_3_2_192_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364919897133"
+          },
+          {
+            "key": "e_1_3_2_193_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Henrique Siqueira Sven Magg and Stefan Wermter. 2020. Efficient facial feature learning with wide ensemble-based convolutional neural networks.",
+            "DOI": "10.1609/aaai.v34i04.6037"
+          },
+          {
+            "key": "e_1_3_2_194_2",
+            "volume-title": "25th AAAI Conference on Artificial Intelligence",
+            "author": "Sohrabi Shirin",
+            "year": "2011",
+            "unstructured": "Shirin Sohrabi, Jorge A. Baier, and Sheila A. McIlraith. 2011. Preferred explanations: Theory and generation via planning. In 25th AAAI Conference on Artificial Intelligence."
+          },
+          {
+            "key": "e_1_3_2_195_2",
+            "first-page": "6",
+            "volume-title": "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems",
+            "author": "Song Sichao",
+            "year": "2018",
+            "unstructured": "Sichao Song and Seiji Yamada. 2018. Effect of expressive lights on human perception and interpretation of functional robot. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. 6 pages."
+          },
+          {
+            "key": "e_1_3_2_196_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Francesco Sovrano Alex Raymond and Amanda Prorok. 2021. Explanation-Aware Experience Replay in Rule-Dense Environments.",
+            "DOI": "10.1109/LRA.2021.3135927"
+          },
+          {
+            "key": "e_1_3_2_197_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s13218-019-00616-y"
+          },
+          {
+            "key": "e_1_3_2_198_2",
+            "unstructured": "Simone Stumpf Weng-Keen Wong Margaret Burnett and Todd Kulesza. 2010. Making intelligent systems understandable and controllable by end users. https://web.engr.oregonstate.edu/wongwe/papers/pdf/pervasive2012.pdf."
+          },
+          {
+            "key": "e_1_3_2_199_2",
+            "first-page": "19",
+            "volume-title": "2018 IEEE/ACM 4th International Workshop on Software Engineering for Smart Cyber-Physical Systems",
+            "author": "Sukkerd Roykrong",
+            "year": "2018",
+            "unstructured": "Roykrong Sukkerd, Reid Simmons, and David Garlan. 2018. Toward explainable multi-objective probabilistic planning. In 2018 IEEE/ACM 4th International Workshop on Software Engineering for Smart Cyber-Physical Systems. IEEE, 19–25."
+          },
+          {
+            "key": "e_1_3_2_200_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-61609-0_52"
+          },
+          {
+            "key": "e_1_3_2_201_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-77927-5_24"
+          },
+          {
+            "key": "e_1_3_2_202_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/3378680.3378879"
+          },
+          {
+            "key": "e_1_3_2_203_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1957656.1957674"
+          },
+          {
+            "key": "e_1_3_2_204_2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.arcontrol.2020.04.012",
+            "article-title": "On applying AI-driven flight data analysis for operational spacecraft model-based diagnostics",
+            "author": "Tipaldi Massimo",
+            "year": "2020",
+            "unstructured": "Massimo Tipaldi, Lorenzo Feruglio, Pierre Denis, and Gianni D’Angelo. 2020. On applying AI-driven flight data analysis for operational spacecraft model-based diagnostics. Annual Reviews in Control (2020).",
+            "journal-title": "Annual Reviews in Control"
+          },
+          {
+            "issue": "9",
+            "key": "e_1_3_2_205_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "3456",
+            "DOI": "10.1109/TNNLS.2019.2944672",
+            "article-title": "Extracting relational explanations from deep neural networks: A survey from a neural-symbolic perspective",
+            "volume": "31",
+            "author": "Townsend Joe",
+            "year": "2019",
+            "unstructured": "Joe Townsend, Thomas Chaton, and João M. Monteiro. 2019. Extracting relational explanations from deep neural networks: A survey from a neural-symbolic perspective. IEEE Transactions on Neural Networks and Learning Systems 31, 9 (2019), 3456–3470.",
+            "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+          },
+          {
+            "key": "e_1_3_2_206_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-006-7231-8"
+          },
+          {
+            "key": "e_1_3_2_207_2",
+            "first-page": "583",
+            "article-title": "Signaling robot trustworthiness: Effects of behavioral cues as warnings",
+            "volume": "8239",
+            "author": "Brule Rik Van den",
+            "year": "2013",
+            "unstructured": "Rik Van den Brule, Gijsbert Bijlstra, Ron Dotsch, Daniël H. J. Wigboldus, and W. F. G. Haselager. 2013. Signaling robot trustworthiness: Effects of behavioral cues as warnings. Lecture Notes in Computer Science 8239 (2013), 583–584.",
+            "journal-title": "Lecture Notes in Computer Science"
+          },
+          {
+            "key": "e_1_3_2_208_2",
+            "first-page": "314",
+            "volume-title": "10th International Conference on Agents and Artificial Intelligence",
+            "author": "Waa Jasper van der",
+            "year": "2018",
+            "unstructured": "Jasper van der Waa, Jurriaan van Diggelen, Mark A. Neerincx, and Stephan Raaijmakers. 2018. ICM: An intuitive model independent and accurate certainty measure for machine learning. In 10th International Conference on Agents and Artificial Intelligence. 314–321."
+          },
+          {
+            "key": "e_1_3_2_209_2",
+            "first-page": "900",
+            "volume-title": "Proceedings of the National Conference on Artificial Intelligence",
+            "author": "Lent Michael Van",
+            "year": "2004",
+            "unstructured": "Michael Van Lent, William Fisher, and Michael Mancuso. 2004. An explainable artificial intelligence system for small-unit tactical behavior. In Proceedings of the National Conference on Artificial Intelligence. Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999, 900–907."
+          },
+          {
+            "key": "e_1_3_2_210_2",
+            "volume-title": "Proceedings of the Knowledge Acquisition Workshop",
+            "author": "Lent Michael van",
+            "year": "1998",
+            "unstructured": "Michael van Lent and John Laird. 1998. Learning by observation in a complex domain. In Proceedings of the Knowledge Acquisition Workshop."
+          },
+          {
+            "key": "e_1_3_2_211_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1864431.1864493"
+          },
+          {
+            "key": "e_1_3_2_212_2",
+            "first-page": "50",
+            "volume-title": "Robot Soccer World Cup",
+            "author": "Voelz Dirk",
+            "year": "1998",
+            "unstructured": "Dirk Voelz, Elisabeth André, Gerd Herzog, and Thomas Rist. 1998. Rocco: A RoboCup soccer commentator system. In Robot Soccer World Cup. Springer, 50–60."
+          },
+          {
+            "key": "e_1_3_2_213_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5555/2936924.2937071"
+          },
+          {
+            "key": "e_1_3_2_214_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10846-008-9209-6"
+          },
+          {
+            "key": "e_1_3_2_215_2",
+            "first-page": "1176",
+            "volume-title": "Proceedings of the 26th AAAI Conference on Artificial Intelligence",
+            "author": "Weber Ben George",
+            "year": "2012",
+            "unstructured": "Ben George Weber, Michael Mateas, and Arnav Jhala. 2012. Learning from demonstration for goal-driven autonomy. In Proceedings of the 26th AAAI Conference on Artificial Intelligence. AAAI Press, 1176–1182."
+          },
+          {
+            "key": "e_1_3_2_216_2",
+            "first-page": "5247",
+            "volume-title": "International Conference on Machine Learning",
+            "author": "Weiss Gail",
+            "year": "2018",
+            "unstructured": "Gail Weiss, Yoav Goldberg, and Eran Yahav. 2018. Extracting automata from recurrent neural networks using queries and counterexamples. In International Conference on Machine Learning. 5247–5256."
+          },
+          {
+            "key": "e_1_3_2_217_2",
+            "first-page": "840",
+            "volume-title": "Proceedings of the 16th International Joint Conference on Artificial Intelligence",
+            "author": "Wermter Stefan",
+            "year": "1999",
+            "unstructured": "Stefan Wermter. 1999. Preference Moore machines for neural fuzzy integration. In Proceedings of the 16th International Joint Conference on Artificial Intelligence. 840–845."
+          },
+          {
+            "key": "e_1_3_2_218_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1008320219610"
+          },
+          {
+            "key": "e_1_3_2_219_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0140525X17000292"
+          },
+          {
+            "key": "e_1_3_2_220_2",
+            "first-page": "63",
+            "volume-title": "International Joint Conference on Artificial Intelligence Workshop on Explainable AI",
+            "author": "Wicaksono, Handy",
+            "year": "2017",
+            "unstructured": "Handy Wicaksono,Claude Sammut, and Raymond Sheh. 2017. Towards explainable tool creation by a robot. In International Joint Conference on Artificial Intelligence Workshop on Explainable AI. 63."
+          },
+          {
+            "key": "e_1_3_2_221_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SMC.2017.8123160"
+          },
+          {
+            "key": "e_1_3_2_222_2",
+            "volume-title": "Proceedings of the UNICOM Seminar on Agent Software",
+            "volume": "42",
+            "author": "Wooldridge M.",
+            "year": "1995",
+            "unstructured": "M. Wooldridge. 1995. Conceptualising and developing agents. In Proceedings of the UNICOM Seminar on Agent Software, Vol. 42. London."
+          },
+          {
+            "key": "e_1_3_2_223_2",
+            "volume-title": "IJCAI Ethics for Artificial Intelligence Workshop",
+            "author": "Wortham Robert H.",
+            "year": "2016",
+            "unstructured": "Robert H. Wortham, Andreas Theodorou, and Joanna J. Bryson. 2016. What does the robot think? Transparency as a fundamental design requirement for intelligent systems. In IJCAI Ethics for Artificial Intelligence Workshop."
+          },
+          {
+            "key": "e_1_3_2_224_2",
+            "first-page": "1424",
+            "volume-title": "26th IEEE International Symposium on Robot and Human Interactive Communication",
+            "author": "Wortham Robert H.",
+            "year": "2017",
+            "unstructured": "Robert H. Wortham, Andreas Theodorou, and Joanna J. Bryson. 2017. Improving robot transparency: Real-time visualisation of robot AI substantially improves understanding in naive observers. In 26th IEEE International Symposium on Robot and Human Interactive Communication. IEEE, 1424–1431."
+          },
+          {
+            "key": "e_1_3_2_225_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2017.330"
+          },
+          {
+            "key": "e_1_3_2_226_2",
+            "first-page": "9338",
+            "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "volume": "34",
+            "author": "Xu Jun",
+            "year": "2020",
+            "unstructured": "Jun Xu, Haifeng Wang, Zhengyu Niu, Hua Wu, and Wanxiang Che. 2020. Knowledge graph grounded goal planning for open-domain conversation generation. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 34. 9338–9345."
+          },
+          {
+            "key": "e_1_3_2_227_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-01246-5_41"
+          },
+          {
+            "key": "e_1_3_2_228_2",
+            "first-page": "8",
+            "volume-title": "2019 IEEE International Systems Conference (SysCon)",
+            "author": "Yilmaz Levent",
+            "year": "2019",
+            "unstructured": "Levent Yilmaz and Sunit Sivaraj. 2019. A cognitive architecture for verifiable system ethics via explainable autonomy. In 2019 IEEE International Systems Conference (SysCon). IEEE, 8 pages."
+          },
+          {
+            "key": "e_1_3_2_229_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2017.375"
+          },
+          {
+            "key": "e_1_3_2_230_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/neco.1993.5.6.976"
+          },
+          {
+            "key": "e_1_3_2_231_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2016.319"
+          },
+          {
+            "key": "e_1_3_2_232_2",
+            "unstructured": "Luowei Zhou Nathan Louis and Jason J. Corso. 2018. Weakly-supervised video object grounding from text by loss weighting and object interaction."
+          }
+        ],
+        "container-title": [
+          "ACM Computing Surveys"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3564240",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3564240",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2025-06-19T01:10:33Z",
+          "timestamp": 1750295433000
+        },
+        "score": 40.362537,
+        "resource": {
+          "primary": {
+            "URL": "https://dl.acm.org/doi/10.1145/3564240"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              2
+            ]
+          ]
+        },
+        "references-count": 231,
+        "journal-issue": {
+          "issue": "10",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                31
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1145/3564240"
+        ],
+        "URL": "https://doi.org/10.1145/3564240",
+        "ISSN": [
+          "0360-0300",
+          "1557-7341"
+        ],
+        "issn-type": [
+          {
+            "value": "0360-0300",
+            "type": "print"
+          },
+          {
+            "value": "1557-7341",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2021-04-10",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2022-08-29",
+            "order": 1,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2023-02-02",
+            "order": 2,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

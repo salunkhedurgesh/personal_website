@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Novel Fully Decoupled Two-Degrees-of-Freedom Parallel Wrist</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Carricato</surname></persName>
+							<email>marco.carricato@mail.ing.unibo.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">DIEM-Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<addrLine>Viale Risorgimento 2</addrLine>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vincenzo</forename><surname>Parenti-Castelli</surname></persName>
+							<email>vincenzo.parenticastelli@mail.ing.unibo.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">DIEM-Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<addrLine>Viale Risorgimento 2</addrLine>
+									<postCode>40136</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Novel Fully Decoupled Two-Degrees-of-Freedom Parallel Wrist</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4F5DBA008C78FF38F3E30DC2B291ECD0</idno>
+					<idno type="DOI">10.1177/0278364904044077</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>parallel mechanisms</term>
+					<term>pointing systems</term>
+					<term>decoupled motion</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In this paper we present a novel pointing parallel mechanism with fully decoupled degrees of freedom. The mechanism consists of two interconnected slider-crank linkages, each one of which independently actuates one of the Euler angles of the output link. Motors can be mounted on the frame. The parallel architecture provides the mechanism with compactness and robustness, while decoupling of motion guarantees a wide workspace, an easy mathematical treatment, and a simple control. Such a mechanism may be suitable for applications that require aiming bodies such as tools, telescopes, antennas, cameras, solar panels, human or humanoid artificial limbs, particularly if requisites on dimensions and stoutness on the one hand and mobility on the other are stringent.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

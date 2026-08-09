@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="de">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ebene euklidische und sphiirische symmetrische Rollungent</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><surname>Ti~lke</surname></persName>
+						</author>
+						<title level="a" type="main">Ebene euklidische und sphiirische symmetrische Rollungent</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E36D7FF9C250FF340E7C72DBE8A04AC5</idno>
+					<note type="submission">Eingegangen am 12. September 1976</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T13:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Zusammenfassung Es wird ein Uberblick tiber die Methoden und Resultate for die ebenen euklidischen und sph~rischen symmetrischen Rollungen gegeben. Von den hier erstmals gezeigten Eigenschaften sei besonders auf jene tiber die sph~irischen Undulationspunkte hingewiesen.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="de">
+	</text>
+</TEI>

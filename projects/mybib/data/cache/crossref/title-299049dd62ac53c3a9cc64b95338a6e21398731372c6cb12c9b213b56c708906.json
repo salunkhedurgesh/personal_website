@@ -1,0 +1,207 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 225331,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2024-09-07T14:52:28Z",
+          "timestamp": 1725720748010
+        },
+        "reference-count": 8,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/itst.2006.289001",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              1,
+              23
+            ]
+          ],
+          "date-time": "2007-01-23T20:05:25Z",
+          "timestamp": 1169582725000
+        },
+        "page": "715-718",
+        "source": "Crossref",
+        "is-referenced-by-count": 11,
+        "title": [
+          "ECARP: An Efficient Congestion Adaptive Routing Protocol for Mobile Ad Hoc Networks"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "T",
+            "family": "Basavaraju",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Subir",
+            "family": "Sarkar",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "C",
+            "family": "Puttamadappa",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "M",
+            "family": "Gautham",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "doi-asserted-by": "publisher",
+            "key": "3",
+            "DOI": "10.1145/774749.774758"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "2",
+            "DOI": "10.1109/MOBHOC.2000.869215"
+          },
+          {
+            "key": "1",
+            "article-title": "Ad Hoc Networking with Mobile IP",
+            "author": "lei",
+            "year": "1997",
+            "journal-title": "Proceedings of the (EPMCC"
+          },
+          {
+            "key": "7",
+            "article-title": "Ad hoc on-demand distance vector (AODV) routing protocol",
+            "author": "perkins",
+            "year": "2003",
+            "journal-title": "IETF Internet"
+          },
+          {
+            "year": "2001",
+            "author": "park",
+            "journal-title": "Temporally-ordered routing algorithm (TORA) version 1 Functional specification",
+            "key": "6"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "5",
+            "DOI": "10.1145/190314.190336"
+          },
+          {
+            "key": "4",
+            "first-page": "139",
+            "article-title": "Dynamic Source Routing for Multihop wireless ad hoc networks",
+            "author": "johnson",
+            "year": "2001",
+            "journal-title": "In Ad Hoc Networking edited by Charles E Perkins"
+          },
+          {
+            "year": "0",
+            "key": "8"
+          }
+        ],
+        "event": {
+          "name": "2006 6th International Conference on ITS Telecommunications",
+          "start": {
+            "date-parts": [
+              [
+                2006,
+                6,
+                21
+              ]
+            ]
+          },
+          "location": "Chengdu, China",
+          "end": {
+            "date-parts": [
+              [
+                2006,
+                6,
+                23
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2006 6th International Conference on ITS Telecommunications"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/4068497/4068498/04068689.pdf?arnumber=4068689",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2017-03-15T21:18:42Z",
+          "timestamp": 1489612722000
+        },
+        "score": 15.095378,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/4068689/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        },
+        "references-count": 8,
+        "URL": "https://doi.org/10.1109/itst.2006.289001",
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

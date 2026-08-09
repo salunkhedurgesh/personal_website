@@ -1,0 +1,338 @@
+{
+  "id": "https://openalex.org/W4300768751",
+  "doi": "https://doi.org/10.1016/c2009-0-05241-6",
+  "title": "Elementary Differential Geometry",
+  "display_name": "Elementary Differential Geometry",
+  "publication_year": 2006,
+  "publication_date": "2006-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4300768751",
+    "doi": "https://doi.org/10.1016/c2009-0-05241-6"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/c2009-0-05241-6",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/c2009-0-05241-6",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306463230",
+      "display_name": "Elsevier eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "edited-book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": null,
+        "display_name": "O'Neill, Barrett",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "O'Neill, Barrett",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.716,
+  "has_fulltext": false,
+  "cited_by_count": 168,
+  "citation_normalized_percentile": {
+    "value": 0.77205882,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12504",
+    "display_name": "Mathematics and Applications",
+    "score": 0.8988999724388123,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2608",
+      "display_name": "Geometry and Topology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12504",
+      "display_name": "Mathematics and Applications",
+      "score": 0.8988999724388123,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2608",
+        "display_name": "Geometry and Topology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.7277398705482483
+    },
+    {
+      "id": "https://openalex.org/keywords/differential",
+      "display_name": "Differential (mechanical device)",
+      "score": 0.4755401611328125
+    },
+    {
+      "id": "https://openalex.org/keywords/differential-geometry",
+      "display_name": "Differential geometry",
+      "score": 0.46225258708000183
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.4336088001728058
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.35495543479919434
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.7277398705482483
+    },
+    {
+      "id": "https://openalex.org/C93226319",
+      "wikidata": "https://www.wikidata.org/wiki/Q193137",
+      "display_name": "Differential (mechanical device)",
+      "level": 2,
+      "score": 0.4755401611328125
+    },
+    {
+      "id": "https://openalex.org/C192939610",
+      "wikidata": "https://www.wikidata.org/wiki/Q188444",
+      "display_name": "Differential geometry",
+      "level": 2,
+      "score": 0.46225258708000183
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.4336088001728058
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.35495543479919434
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1016/c2009-0-05241-6",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/c2009-0-05241-6",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306463230",
+        "display_name": "Elsevier eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "edited-book"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-029789588",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/C2009-0-05241-6",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Einführung"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2935759653",
+    "https://openalex.org/W3105167352",
+    "https://openalex.org/W54078636",
+    "https://openalex.org/W2954470139",
+    "https://openalex.org/W1501425562",
+    "https://openalex.org/W2902782467",
+    "https://openalex.org/W4388322895",
+    "https://openalex.org/W2032618524",
+    "https://openalex.org/W2587202202",
+    "https://openalex.org/W1975748241"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 8
+    }
+  ],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-10-04T00:00:00"
+}

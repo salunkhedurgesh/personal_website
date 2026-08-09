@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Novel Quaternion Kalman Filter</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">D</forename><surname>Choukroun</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">IEEE Y. OSHMAN</orgName>
+								<orgName type="institution">UCLA I. Y. BAR-ITZHACK</orgName>
+								<address>
+									<addrLine>Senior Member</addrLine>
+									<settlement>Fellow</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Mechanical and Aerospace Engineering</orgName>
+								<orgName type="institution" key="instit1">IEEE Technion-Israel Institute of Technology Israel</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">I. Y. Bar-Itzhack and Y. Oshman</orgName>
+								<orgName type="institution" key="instit2">Asher Space Research Institute</orgName>
+								<orgName type="institution" key="instit3">Technion-Israel Institute of Technology</orgName>
+								<orgName type="institution" key="instit4">Technion City</orgName>
+								<address>
+									<postCode>32000</postCode>
+									<settlement>Haifa</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Novel Quaternion Kalman Filter</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DA4771542E769437982CF8EA755F7816</idno>
+					<note type="submission">Manuscript received May 7, 2004; revised March 29, 2005; released for publication June 10, 2005.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents a novel Kalman filter (KF) for estimating the attitude-quaternion as well as gyro random drifts from vector measurements. Employing a special manipulation on the measurement equation results in a linear pseudo-measurement equation whose error is state-dependent. Because the quaternion kinematics equation is linear, the combination of the two yields a linear KF that eliminates the usual linearization procedure and is less sensitive to initial estimation errors. General accurate expressions for the covariance matrices of the system state-dependent noises are developed. In addition, an analysis shows how to compute these covariance matrices efficiently. An adaptive version of the filter is also developed to handle modeling errors of the dynamic system noise statistics. Monte-Carlo simulations are carried out that demonstrate the efficiency of both versions of the filter. In the particular case of high initial estimation errors, a typical extended Kalman filter (EKF) fails to converge whereas the proposed filter succeeds.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

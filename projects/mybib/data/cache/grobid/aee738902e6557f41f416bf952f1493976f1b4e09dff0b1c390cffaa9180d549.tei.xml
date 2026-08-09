@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Classification of one family of 3R positioning Manipulators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Maher</forename><surname>Baili</surname></persName>
+							<email>maher.baili@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybernétique de Nantes UMR</orgName>
+								<address>
+									<addrLine>6597 1, rue de la Noë</addrLine>
+									<postBox>BP 92101</postBox>
+									<postCode>44312</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Wenger</surname></persName>
+							<email>philippe.wenger@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybernétique de Nantes UMR</orgName>
+								<address>
+									<addrLine>6597 1, rue de la Noë</addrLine>
+									<postBox>BP 92101</postBox>
+									<postCode>44312</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Chablat</surname></persName>
+							<email>damien.chablat@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybernétique de Nantes UMR</orgName>
+								<address>
+									<addrLine>6597 1, rue de la Noë</addrLine>
+									<postBox>BP 92101</postBox>
+									<postCode>44312</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Classification of one family of 3R positioning Manipulators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DCAE2263838140B90CE146B24E2D4CB4</idno>
+					<note type="submission">Submitted to ICAR 2003 1/6</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Cuspidal Manipulator</term>
+					<term>Joint Space</term>
+					<term>Workspace</term>
+					<term>Singularity</term>
+					<term>Aspect</term>
+					<term>Homotopy class</term>
+					<term>Genericity</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The aim of this paper is to classify one family of 3R serial positioning manipulators. This categorization is based on the number of cusp points of quaternary, binary, generic and non-generic manipulators. It was found three subsets of manipulators with 0, 2 or 4 cusp points and one homotopy class for generic quaternary manipulators. This classification allows us to define the design parameters for which the manipulator is cuspidal or not, i.e., for which the manipulator can or cannot change posture without meeting a singularity, respectively.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

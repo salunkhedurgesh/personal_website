@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Working modes and aspects in fully parallel manipulators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2007-07-13">13 Jul 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Wenger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Cybernétique de Nantes École</orgName>
+								<address>
+									<addrLine>Centrale de Nantes 1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Cybernétique de Nantes École</orgName>
+								<address>
+									<addrLine>Centrale de Nantes 1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Damien</forename><surname>Chablat</surname></persName>
+							<email>damien.chablat@lan.ec-nantes.frphilippe.wenger@lan.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Cybernétique de Nantes École</orgName>
+								<address>
+									<addrLine>Centrale de Nantes 1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Working modes and aspects in fully parallel manipulators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2007-07-13">13 Jul 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E30FD74EA4BCCBE181FB829F4FD3FC0E</idno>
+					<idno type="DOI">10.1109/ROBOT.1998.680601</idno>
+					<idno type="arXiv">arXiv:0707.2006v1[cs.RO]</idno>
+					<note type="submission">Contribution to dynamic modeling, identification and control of parallel robots View project Anthropomorphic robotic hand View project Damien Charles Chablat French National Centre for Scientific Research 362 PUBLICATIONS 5,005 CITATIONS SEE PROFILE</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Kinematics</term>
+					<term>Fully Parallel Manipulator</term>
+					<term>Aspects</term>
+					<term>Working modes</term>
+					<term>Singularity</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The user has requested enhancement of the downloaded file.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HYBRID RL: USING BOTH OFFLINE AND ONLINE DATA CAN MAKE RL EFFICIENT</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Yuda</forename><surname>Song</surname></persName>
+							<email>yudas@andrew.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research</orgName>
+								<orgName type="institution" key="instit5">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yifei</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research</orgName>
+								<orgName type="institution" key="instit5">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ayush</forename><surname>Sekhari</surname></persName>
+							<email>sekhari@mit.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research</orgName>
+								<orgName type="institution" key="instit5">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mit</forename><forename type="middle">J Andrew</forename><surname>Bagnell</surname></persName>
+							<email>dbagnell@aurora.tech</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research</orgName>
+								<orgName type="institution" key="instit5">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Akshay</forename><surname>Krishnamurthy</surname></persName>
+							<email>akshaykr@microsoft.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research</orgName>
+								<orgName type="institution" key="instit5">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wen</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit2">Cornell University</orgName>
+								<orgName type="institution" key="instit3">Carnegie Mellon University</orgName>
+								<orgName type="institution" key="instit4">Microsoft Research</orgName>
+								<orgName type="institution" key="instit5">Cornell University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">HYBRID RL: USING BOTH OFFLINE AND ONLINE DATA CAN MAKE RL EFFICIENT</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">058C23D0A8184DBB8BC7EB57DEF5A478</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>We consider a hybrid reinforcement learning setting (Hybrid RL), in which an agent has access to an offline dataset and the ability to collect experience via real-world online interaction. The framework mitigates the challenges that arise in both pure offline and online RL settings, allowing for the design of simple and highly effective algorithms, in both theory and practice. We demonstrate these advantages by adapting the classical Q learning/iteration algorithm to the hybrid setting, which we call Hybrid Q-Learning or Hy-Q. In our theoretical results, we prove that the algorithm is both computationally and statistically efficient whenever the offline dataset supports a high-quality policy and the environment has bounded bilinear rank. Notably, we require no assumptions on the coverage provided by the initial distribution, in contrast with guarantees for policy gradient/iteration methods. In our experimental results, we show that Hy-Q with neural network function approximation outperforms state-of-the-art online, offline, and hybrid RL baselines on challenging benchmarks, including Montezuma&apos;s Revenge.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

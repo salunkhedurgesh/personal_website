@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 56093,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2024-09-05T00:59:47Z",
+          "timestamp": 1725497987165
+        },
+        "publisher-location": "New York, NY",
+        "reference-count": 0,
+        "publisher": "Springer New York",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9780387208749"
+          },
+          {
+            "type": "electronic",
+            "value": "9780387272740"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1007/0-387-27274-7_9",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              12,
+              12
+            ]
+          ],
+          "date-time": "2007-12-12T19:24:01Z",
+          "timestamp": 1197487441000
+        },
+        "page": "197-220",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Clifford Algebra"
+        ],
+        "prefix": "10.1007",
+        "member": "297",
+        "container-title": [
+          "Monographs in Computer Science",
+          "Geometric Fundamentals of Robotics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/0-387-27274-7_9.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2021-04-27T04:57:18Z",
+          "timestamp": 1619499438000
+        },
+        "score": 27.713106,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/0-387-27274-7_9"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780387208749",
+          "9780387272740"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/0-387-27274-7_9"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

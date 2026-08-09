@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-04-18">18 April 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Sajid</forename><surname>Ali</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Electrical and Computer Engineering</orgName>
+								<orgName type="department" key="dep2">College of Information and Communication Engineering</orgName>
+								<orgName type="laboratory">Information Laboratory (InfoLab)</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Computing and Informatics</orgName>
+								<orgName type="laboratory">Information Laboratory (InfoLab)</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shaker</forename><surname>El-Sappagh</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Computer Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Computing and Informatics</orgName>
+								<orgName type="laboratory">Information Laboratory (InfoLab)</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Computer Science and Engineering</orgName>
+								<orgName type="institution">Galala University</orgName>
+								<address>
+									<postCode>435611</postCode>
+									<settlement>Suez</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Information Systems Department</orgName>
+								<orgName type="department" key="dep2">Faculty of Computers and Artificial Intelligence</orgName>
+								<orgName type="institution">Benha University</orgName>
+								<address>
+									<postCode>13518</postCode>
+									<settlement>Banha</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Khan</forename><surname>Muhammad</surname></persName>
+							<email>khan.muhammad@ieee.org</email>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Applied Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">College of Computing and Informatics</orgName>
+								<orgName type="laboratory">Visual Analytics for Knowledge Laboratory (VIS2KNOW Lab)</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>03063</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jose</forename><forename type="middle">M</forename><surname>Alonso-Moral</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">Centro Singular de Investigación en Tecnoloxías Intelixentes (CiTIUS)</orgName>
+								<orgName type="institution" key="instit2">Universidade de Santiago de Compostela</orgName>
+								<orgName type="institution" key="instit3">Rúa de Jenaro de la Fuente Domínguez, s/n</orgName>
+								<address>
+									<postCode>15782</postCode>
+									<settlement>Santiago de Compostela</settlement>
+									<region>A Coruña</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roberto</forename><surname>Confalonieri</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Mathematics &apos;Tullio Levi-Civita&apos;</orgName>
+								<orgName type="institution">University of Padua</orgName>
+								<address>
+									<postCode>35121</postCode>
+									<settlement>Padova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Riccardo</forename><surname>Guidotti</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Pisa</orgName>
+								<address>
+									<postCode>56127</postCode>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Javier</forename><forename type="middle">Del</forename><surname>Ser</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">TECNALIA</orgName>
+								<orgName type="institution">Basque Research and Technology Alliance (BRTA)</orgName>
+								<address>
+									<postCode>48160</postCode>
+									<settlement>Derio</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Communications Engineering</orgName>
+								<orgName type="institution">University of the Basque Country (UPV/EHU)</orgName>
+								<address>
+									<postCode>48013</postCode>
+									<settlement>Bilbao</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Natalia</forename><surname>Díaz-Rodríguez</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Computer Science and Artificial Intelligence</orgName>
+								<orgName type="institution" key="instit1">Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI)</orgName>
+								<orgName type="institution" key="instit2">University of Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francisco</forename><surname>Herrera</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Computer Science and Artificial Intelligence</orgName>
+								<orgName type="institution" key="instit1">Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI)</orgName>
+								<orgName type="institution" key="instit2">University of Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-04-18">18 April 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DA25BDD318D8D57AC38CAD211608264B</idno>
+					<idno type="DOI">10.1016/j.inffus.2023.101805</idno>
+					<note type="submission">Received 19 January 2023; Received in revised form 23 March 2023; Accepted 6 April 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Explainable Artificial Intelligence Interpretable machine learning Trustworthy AI AI principles Post-hoc explainability XAI assessment Data Fusion Deep Learning</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

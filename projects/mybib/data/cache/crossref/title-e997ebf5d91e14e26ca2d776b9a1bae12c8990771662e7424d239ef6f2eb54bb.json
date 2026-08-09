@@ -1,0 +1,342 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9300217,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2026-04-21T15:43:20Z",
+          "timestamp": 1776786200841,
+          "version": "3.51.2"
+        },
+        "reference-count": 22,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  10,
+                  1
+                ]
+              ],
+              "date-time": "2019-10-01T00:00:00Z",
+              "timestamp": 1569888000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  10,
+                  1
+                ]
+              ],
+              "date-time": "2019-10-01T00:00:00Z",
+              "timestamp": 1569888000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  10,
+                  1
+                ]
+              ],
+              "date-time": "2019-10-01T00:00:00Z",
+              "timestamp": 1569888000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Robot. Autom. Lett."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/lra.2019.2931248",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              25
+            ]
+          ],
+          "date-time": "2019-07-25T19:40:47Z",
+          "timestamp": 1564083647000
+        },
+        "page": "4147-4154",
+        "source": "Crossref",
+        "is-referenced-by-count": 281,
+        "title": [
+          "Dynamic Identification of the Franka Emika Panda Robot With Retrieval of Feasible Parameters Using Penalty-Based Optimization"
+        ],
+        "prefix": "10.1109",
+        "volume": "4",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4659-5831",
+            "authenticated-orcid": false,
+            "given": "Claudio",
+            "family": "Gaz",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4996-5914",
+            "authenticated-orcid": false,
+            "given": "Marco",
+            "family": "Cognetti",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9626-6716",
+            "authenticated-orcid": false,
+            "given": "Alexander",
+            "family": "Oliva",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6919-7751",
+            "authenticated-orcid": false,
+            "given": "Paolo",
+            "family": "Robuffo Giordano",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0713-5608",
+            "authenticated-orcid": false,
+            "given": "Alessandro",
+            "family": "De Luca",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "article-title": "V-REP virtual robot experimentation platform",
+            "year": "2015"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1163/1568553053020269"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364913514870"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2017.2729659"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2019.2891177"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759801"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3143860"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2014.6907033"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCS.2007.904659"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/AIM.2014.6878124"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-30301-5_15"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759151"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2016.2558190"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCST.2013.2246163"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2016.7487356"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2016.2583062"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2017.2723903"
+          },
+          {
+            "key": "ref1",
+            "author": "siciliano",
+            "year": "2008",
+            "journal-title": "Robotics Modeling Planning and Control"
+          },
+          {
+            "key": "ref9",
+            "author": "khalil",
+            "year": "2002",
+            "journal-title": "Modeling Identification and Control of Robots"
+          },
+          {
+            "key": "ref20",
+            "author": "mitchell",
+            "year": "1997",
+            "journal-title": "Machine Learning"
+          },
+          {
+            "key": "ref22",
+            "author": "bertsekas",
+            "year": "1996",
+            "journal-title": "Constrained Optimization and Lagrange Multiplier Methods"
+          },
+          {
+            "key": "ref21",
+            "author": "russell",
+            "year": "2009",
+            "journal-title": "Artificial Intelligence A Modern Approach"
+          }
+        ],
+        "container-title": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7083369/8764082/08772145.pdf?arnumber=8772145",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2022-07-13T21:08:04Z",
+          "timestamp": 1657746484000
+        },
+        "score": 68.59273,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8772145/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        },
+        "references-count": 22,
+        "journal-issue": {
+          "issue": "4"
+        },
+        "URL": "https://doi.org/10.1109/lra.2019.2931248",
+        "ISSN": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "issn-type": [
+          {
+            "value": "2377-3766",
+            "type": "electronic"
+          },
+          {
+            "value": "2377-3774",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

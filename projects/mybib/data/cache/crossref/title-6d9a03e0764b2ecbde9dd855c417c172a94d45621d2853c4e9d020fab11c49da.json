@@ -1,0 +1,490 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1364107,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2026-05-03T04:50:26Z",
+          "timestamp": 1777783826738,
+          "version": "3.51.4"
+        },
+        "reference-count": 54,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.23919/mipro.2018.8400040",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2018-07-30T13:43:43Z",
+          "timestamp": 1532958223000
+        },
+        "page": "0210-0215",
+        "source": "Crossref",
+        "is-referenced-by-count": 736,
+        "title": [
+          "Explainable artificial intelligence: A survey"
+        ],
+        "prefix": "10.23919",
+        "author": [
+          {
+            "given": "Filip Karlo",
+            "family": "Dosilovic",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Mario",
+            "family": "Brcic",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nikica",
+            "family": "Hlupic",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref39",
+            "author": "karpathy",
+            "year": "2015",
+            "journal-title": "Visualizing and understanding recurrent networks"
+          },
+          {
+            "key": "ref38",
+            "doi-asserted-by": "crossref",
+            "first-page": "818",
+            "DOI": "10.1007/978-3-319-10590-1_53",
+            "article-title": "Visualizing and Understanding Convolutional Networks",
+            "author": "zeiler",
+            "year": "2014",
+            "journal-title": "Computer Vision - ECCV 2014"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ejor.2006.04.051"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-74958-5_39"
+          },
+          {
+            "key": "ref31",
+            "author": "piltaver",
+            "year": "2014",
+            "journal-title": "Multi-objective learning of accurate and comprehensible classifiers &#x2013; a case study"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.21314/JCR.2005.025"
+          },
+          {
+            "key": "ref37",
+            "first-page": "2579",
+            "article-title": "Visualizing Data using t-SNE",
+            "volume": "9",
+            "author": "van der maaten",
+            "year": "2008",
+            "journal-title": "J Mach Learn Res"
+          },
+          {
+            "key": "ref36",
+            "author": "dong",
+            "year": "2017",
+            "journal-title": "Towards interpretable deep neural networks by leveraging adversarial examples"
+          },
+          {
+            "key": "ref35",
+            "author": "guo",
+            "year": "2017",
+            "journal-title": "Towards Interrogating Discriminative Machine Learning Models"
+          },
+          {
+            "key": "ref34",
+            "first-page": "3",
+            "article-title": "Extracting symbolic rules from trained neural network ensembles",
+            "volume": "16",
+            "author": "zhou",
+            "year": "2003",
+            "journal-title": "AI Commun"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2783258.2783407"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2939672.2939874"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1214/11-AOAS495"
+          },
+          {
+            "key": "ref2",
+            "author": "israelsen",
+            "year": "2017",
+            "journal-title": "I can assure you &#x2026; that it's going to be all right&#x2019; ?? A definition case for and survey of algorithmic assurances in human-autonomy trust relationships"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "crossref",
+            "first-page": "436",
+            "DOI": "10.1038/nature14539",
+            "article-title": "Deep learning",
+            "volume": "521",
+            "author": "lecun",
+            "year": "2015",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "ref20",
+            "article-title": "Slave to the Algorithm? Why a &#x2018;Right to an Explanation&#x2019; Is Probably Not the Remedy You Are Looking For",
+            "author": "edwards",
+            "year": "2017",
+            "journal-title": "Social Science Research Network"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1046456.1046467"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "crossref",
+            "first-page": "397",
+            "DOI": "10.1109/TSMCC.2008.919172",
+            "article-title": "Pareto-Based Multiobjective Machine Learning: An Overview and Case Studies",
+            "volume": "38",
+            "author": "jin",
+            "year": "2008",
+            "journal-title": "IEEE Trans Syst Man Cybern Part C Appl Rev"
+          },
+          {
+            "key": "ref24",
+            "article-title": "User-oriented Assessment of Classification Model Understandability",
+            "author": "allahyari",
+            "year": "2011",
+            "journal-title": "DIVA"
+          },
+          {
+            "key": "ref23",
+            "author": "lundberg",
+            "year": "2017",
+            "journal-title": "A 'Unified Approach to Interpreting Model Predictions"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ins.2013.03.038"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.dss.2010.12.003"
+          },
+          {
+            "key": "ref50",
+            "first-page": "2048",
+            "article-title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "author": "xu",
+            "year": "2015",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref51",
+            "author": "park",
+            "year": "2016",
+            "journal-title": "Attentive Explanations Justifying Decisions and Pointing to the Evidence"
+          },
+          {
+            "key": "ref54",
+            "author": "besold",
+            "year": "2017",
+            "journal-title": "Neural-Symbolic Learning and Reasoning A Survey and Intsrpretation"
+          },
+          {
+            "key": "ref53",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.bica.2015.09.003"
+          },
+          {
+            "key": "ref52",
+            "first-page": "3",
+            "article-title": "Generating Visual Explanations",
+            "author": "hendricks",
+            "year": "2016",
+            "journal-title": "Computer Vision - ECCV"
+          },
+          {
+            "key": "ref10",
+            "first-page": "4349",
+            "article-title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+            "author": "bolukbasi",
+            "year": "2016",
+            "journal-title": "Advances in Neural IInformation Processing Systems"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3144592.3144598"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/N16-1082"
+          },
+          {
+            "key": "ref12",
+            "author": "goodman",
+            "year": "2016",
+            "journal-title": "European &#x2018;Union regulations on algorithmic decision-making and a &#x2018;right to explanation &#x2019;"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0140525X16001837"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2594473.2594475"
+          },
+          {
+            "key": "ref15",
+            "author": "doshi-velez",
+            "year": "2017",
+            "journal-title": "Towards a rigorous science of interpretable machine learning"
+          },
+          {
+            "key": "ref16",
+            "first-page": "1",
+            "article-title": "Explainable Artificial Intelligence: Understanding, Visualizing and Interpreting Deep Learning Models",
+            "volume": "1",
+            "author": "samek",
+            "year": "2017",
+            "journal-title": "ITU J ICT Discov - Spec Issue 1 - Impact Artif Intell AI Commun Netw Serv"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.dsp.2017.10.011"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.dss.2011.01.013"
+          },
+          {
+            "key": "ref19",
+            "author": "doran",
+            "year": "2017",
+            "journal-title": "What Does Explainable AI Really Mean? A New Conceptualization of Perspectives"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2566486.2568012"
+          },
+          {
+            "key": "ref3",
+            "author": "lipton",
+            "year": "2016",
+            "journal-title": "The mythos of model interpretability"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/540525a"
+          },
+          {
+            "key": "ref5",
+            "author": "kumar",
+            "year": "2017",
+            "journal-title": "ObamaNet Photo-realistic lip-sync from text"
+          },
+          {
+            "key": "ref8",
+            "first-page": "1",
+            "article-title": "Intriguing properties of neural networks",
+            "author": "szegedy",
+            "year": "2014",
+            "journal-title": "International Conference on Learning Representations"
+          },
+          {
+            "key": "ref7",
+            "author": "marcus",
+            "year": "2018",
+            "journal-title": "Deep Learning A Critical Appraisal"
+          },
+          {
+            "key": "ref49",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pone.0130140"
+          },
+          {
+            "key": "ref9",
+            "article-title": "Opinion | Artificial Intelligence's White Guy Problem",
+            "author": "crawford",
+            "year": "2016",
+            "journal-title": "The New York Times"
+          },
+          {
+            "key": "ref46",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2939672.2939778"
+          },
+          {
+            "key": "ref45",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SP.2016.42"
+          },
+          {
+            "key": "ref48",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10115-013-0679-x"
+          },
+          {
+            "key": "ref47",
+            "author": "shrikumar",
+            "year": "2017",
+            "journal-title": "Learning Important Features Through Propagating Activation Differences"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10115-017-1116-3"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ins.2012.10.039"
+          },
+          {
+            "key": "ref44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.patcog.2016.11.008"
+          },
+          {
+            "key": "ref43",
+            "first-page": "6:1",
+            "article-title": "Interpreting Black-Box Classifiers Using Instance-Level Visual Explanations",
+            "author": "tamagnini",
+            "year": "2017",
+            "journal-title": "Proceedings of the Workshop on Human-In-the-Loop Data Analytics"
+          }
+        ],
+        "event": {
+          "name": "2018 41st International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+          "location": "Opatija",
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                21
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                25
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2018 41st International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/8392484/8399814/08400040.pdf?arnumber=8400040",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              23
+            ]
+          ],
+          "date-time": "2020-08-23T23:31:32Z",
+          "timestamp": 1598225492000
+        },
+        "score": 34.32254,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8400040/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              5
+            ]
+          ]
+        },
+        "references-count": 54,
+        "URL": "https://doi.org/10.23919/mipro.2018.8400040",
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 155977,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2024-09-06T05:36:41Z",
+          "timestamp": 1725601001990
+        },
+        "publisher-location": "Berlin, Heidelberg",
+        "reference-count": 6,
+        "publisher": "Springer Berlin Heidelberg",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783642115493"
+          },
+          {
+            "type": "electronic",
+            "value": "9783642115509"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-642-11550-9_4",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              17
+            ]
+          ],
+          "date-time": "2011-08-17T08:34:52Z",
+          "timestamp": 1313570092000
+        },
+        "page": "91-119",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Algebra, Lie Group and Lie Algebra"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Daizhan",
+            "family": "Cheng",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Xiaoming",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Tielong",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "4_CR1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4684-9475-4",
+            "volume-title": "Basic Concepts of Algebraic Topology",
+            "author": "F Croom",
+            "year": "1978",
+            "unstructured": "Croom F. Basic Concepts of Algebraic Topology. New York: Springer-Verlag, 1978."
+          },
+          {
+            "key": "4_CR2",
+            "volume-title": "Introduction to Lie Algebras and Representation Theory",
+            "author": "J Humphreys",
+            "year": "1970",
+            "unstructured": "Humphreys J. Introduction to Lie Algebras and Representation Theory, 2nd edn. New York: Springer-Verlag, 1970.",
+            "edition": "2nd edn."
+          },
+          {
+            "key": "4_CR3",
+            "volume-title": "Lie Algerba",
+            "author": "N Jacobson",
+            "year": "1962",
+            "unstructured": "Jacobson N. Lie Algerba. New York: Interscience Publishers, 1962."
+          },
+          {
+            "key": "4_CR4",
+            "volume-title": "Topological Groups",
+            "author": "LS Pontryagin",
+            "year": "1966",
+            "unstructured": "Pontryagin L S. Topological Groups, 2nd edn. New York: Gordon and Breach, 1966.",
+            "edition": "2nd edn."
+          },
+          {
+            "key": "4_CR5",
+            "volume-title": "Algebraic Topology: An Introduction",
+            "author": "W Massey",
+            "year": "1967",
+            "unstructured": "Massey W. Algebraic Topology: An Introduction. New York: Springer-Verlag, 1967."
+          },
+          {
+            "key": "4_CR6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4612-1126-6",
+            "volume-title": "Lie Groups, Lie Algebras, and Their Representations",
+            "author": "V Varadarajan",
+            "year": "1984",
+            "unstructured": "Varadarajan V. Lie Groups, Lie Algebras, and Their Representations. New York: Springer-Verlag, 1984."
+          }
+        ],
+        "container-title": [
+          "Analysis and Design of Nonlinear Control Systems"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-11550-9_4",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2019-03-31T13:43:54Z",
+          "timestamp": 1554039834000
+        },
+        "score": 26.271172,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-642-11550-9_4"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783642115493",
+          "9783642115509"
+        ],
+        "references-count": 6,
+        "URL": "https://doi.org/10.1007/978-3-642-11550-9_4",
+        "published": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

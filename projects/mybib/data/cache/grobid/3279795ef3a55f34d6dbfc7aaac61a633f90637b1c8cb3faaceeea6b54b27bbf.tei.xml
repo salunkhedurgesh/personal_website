@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2024 GOVERNMENT OF IRELAND PROGRAMMES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-09-01">1 September 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<title level="a" type="main">2024 GOVERNMENT OF IRELAND PROGRAMMES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-09-01">1 September 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DCD48481B4D779E57961DE04207A16FB</idno>
+					<note type="submission">Call open 31 August 2023 FAQ deadline 16:00 (Irish time) 05 October 2023 Applicant deadline 16:00 (Irish time) 12 October 2023 Supervisor, mentor deadline 16:00 (Irish time) 19 October 2023 Research office endorsement deadline 16:00 (Irish time) 26 October 2023 Call outcome April 2024 Award start date</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Due to heavy server traffic on the day of the applicant and academic supervisor/mentor deadlines, all participants are strongly advised to submit their forms well in advance of the relevant deadline. Applications cannot be submitted once the deadline has passed. Academic supervisor/mentor forms cannot be submitted once the deadline has passed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

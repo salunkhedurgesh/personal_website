@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Analytical Solution of the Inverse Kinematics Problem of Industrial Serial Manipulators with an Ortho-parallel Basis and a Spherical Wrist</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-07-25">25 July 2014.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Mathias</forename><surname>Brandstötter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carinthian University of Applied Sciences</orgName>
+								<orgName type="institution" key="instit2">Private University for Health Sciences</orgName>
+								<orgName type="institution" key="instit3">Medical Informatics and Technology GmbH</orgName>
+								<orgName type="institution" key="instit4">Alpen-Adria-Universität Klagenfurt</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Arthur</forename><surname>Angerer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carinthian University of Applied Sciences</orgName>
+								<orgName type="institution" key="instit2">Private University for Health Sciences</orgName>
+								<orgName type="institution" key="instit3">Medical Informatics and Technology GmbH</orgName>
+								<orgName type="institution" key="instit4">Alpen-Adria-Universität Klagenfurt</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Hofbaur</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Carinthian University of Applied Sciences</orgName>
+								<orgName type="institution" key="instit2">Private University for Health Sciences</orgName>
+								<orgName type="institution" key="instit3">Medical Informatics and Technology GmbH</orgName>
+								<orgName type="institution" key="instit4">Alpen-Adria-Universität Klagenfurt</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Analytical Solution of the Inverse Kinematics Problem of Industrial Serial Manipulators with an Ortho-parallel Basis and a Spherical Wrist</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-07-25">25 July 2014.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C66166A87DBB61D8AC520197617BC851</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

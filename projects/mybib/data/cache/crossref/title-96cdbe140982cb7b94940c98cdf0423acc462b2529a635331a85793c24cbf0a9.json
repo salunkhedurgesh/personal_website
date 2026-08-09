@@ -1,0 +1,394 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4076554,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              12
+            ]
+          ],
+          "date-time": "2026-03-12T07:44:53Z",
+          "timestamp": 1773301493019,
+          "version": "3.50.1"
+        },
+        "reference-count": 34,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  9,
+                  27
+                ]
+              ],
+              "date-time": "2021-09-27T00:00:00Z",
+              "timestamp": 1632700800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  9,
+                  27
+                ]
+              ],
+              "date-time": "2021-09-27T00:00:00Z",
+              "timestamp": 1632700800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  9,
+                  27
+                ]
+              ],
+              "date-time": "2021-09-27T00:00:00Z",
+              "timestamp": 1632700800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              27
+            ]
+          ]
+        },
+        "DOI": "10.1109/iros51168.2021.9636171",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              16
+            ]
+          ],
+          "date-time": "2021-12-16T15:45:38Z",
+          "timestamp": 1639669538000
+        },
+        "page": "8151-8158",
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "title": [
+          "Exponential stability of trajectory tracking control in the orientation space utilizing unit quaternions"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Leonidas",
+            "family": "Koutras",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Zoe",
+            "family": "Doulgeri",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref33",
+            "author": "marquez",
+            "year": "2002",
+            "journal-title": "Nonlinear Control Systems Analysis and Design"
+          },
+          {
+            "key": "ref32",
+            "volume": "49",
+            "author": "bullo",
+            "year": "2004",
+            "journal-title": "Geometric Control of Mechanical Systems"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0005-1098(98)00119-8"
+          },
+          {
+            "key": "ref30",
+            "article-title": "A micro lie theory for state estimation in robotics",
+            "volume": "abs 1812 1537",
+            "author": "solà",
+            "year": "2018",
+            "journal-title": "CoRR"
+          },
+          {
+            "key": "ref34",
+            "author": "siciliano",
+            "year": "2007",
+            "journal-title": "Springer Handbook of Robotics"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.1980.1102367"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2008.923738"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/56.809"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2017.11.007"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2008.927789"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2008.927789"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2014.6907291"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2016.10.002"
+          },
+          {
+            "key": "ref18",
+            "first-page": "293",
+            "article-title": "A correct formulation for the orientation dynamic movement primitives for robot control in the cartesian space",
+            "author": "koutras",
+            "year": "2020",
+            "journal-title": "Proceedings of the Conference on Robot Learning"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/RO-MAN47096.2020.9223500"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CCA.1994.381209"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.apor.2020.102342"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.90228"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sysconle.2011.10.017"
+          },
+          {
+            "key": "ref6",
+            "author": "murray",
+            "year": "1994",
+            "journal-title": "A Mathematical Introduction to Robotic Manipulation"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2019.103408"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2019.8793786"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.127239"
+          },
+          {
+            "key": "ref7",
+            "first-page": "45",
+            "article-title": "The unit quaternion: A useful tool for inverse kinematics of robot manipulators",
+            "volume": "35",
+            "author": "chiaverini",
+            "year": "1999",
+            "journal-title": "Systems Analysis Modelling Simulation"
+          },
+          {
+            "key": "ref2",
+            "author": "hughes",
+            "year": "2004",
+            "journal-title": "Spacecraft Attitude Dynamics"
+          },
+          {
+            "key": "ref1",
+            "author": "siciliano",
+            "year": "2008",
+            "journal-title": "Robotics Modelling Planning and Control"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0167-6911(99)00090-0"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "crossref",
+            "first-page": "1126",
+            "DOI": "10.23919/ECC54610.2021.9654947",
+            "article-title": "Exponential stability of an attitude trajectory tracking controller utilizing unit quaternions",
+            "author": "koutras",
+            "year": "2021",
+            "journal-title": "2021 European Control Conference (ECC)"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.23919/ECC51009.2020.9143723"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2017.2657001"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2001.933163"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574798000290"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CCDC.2019.8833016"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.19124/ima.2015.001.13"
+          }
+        ],
+        "event": {
+          "name": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+          "location": "Prague, Czech Republic",
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                9,
+                27
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/9635848/9635849/09636171.pdf?arnumber=9636171",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              18
+            ]
+          ],
+          "date-time": "2023-01-18T17:39:09Z",
+          "timestamp": 1674063549000
+        },
+        "score": 56.09896,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/9636171/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              27
+            ]
+          ]
+        },
+        "references-count": 34,
+        "URL": "https://doi.org/10.1109/iros51168.2021.9636171",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              27
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

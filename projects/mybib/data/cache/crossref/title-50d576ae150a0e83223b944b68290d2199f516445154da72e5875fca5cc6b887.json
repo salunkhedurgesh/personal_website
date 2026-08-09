@@ -1,0 +1,211 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5699967,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              19
+            ]
+          ],
+          "date-time": "2025-04-19T04:49:24Z",
+          "timestamp": 1745038164117,
+          "version": "3.28.0"
+        },
+        "reference-count": 18,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1109/icar.1997.620224",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2002-11-22T18:06:31Z",
+          "timestamp": 1037988391000
+        },
+        "page": "473-478",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "title": [
+          "The singularity loci of two triangular parallel manipulators"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "C.L.",
+            "family": "Collins",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "J.M.",
+            "family": "McCarthy",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref10",
+            "DOI": "10.1177/027836498900800504"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref11",
+            "DOI": "10.1109/70.59354"
+          },
+          {
+            "key": "ref12",
+            "first-page": "459",
+            "article-title": "Uncertainty configurations of three-branch parallel manipulators: Identification and elimination",
+            "volume": "72",
+            "author": "notash",
+            "year": "1994",
+            "journal-title": "Robotics Kinematics Dynamics and Control"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref13",
+            "DOI": "10.1115/1.2919188"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref14",
+            "DOI": "10.1016/0921-8890(92)90001-F"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref15",
+            "DOI": "10.1016/0094-114X(94)00052-M"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref16",
+            "DOI": "10.1243/PIME_PROC_1965_180_029_02"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref17",
+            "DOI": "10.1115/1.2829314"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref18",
+            "DOI": "10.1109/ROBOT.1991.132034"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref4",
+            "DOI": "10.1016/S0094-114X(97)00098-0"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref3",
+            "DOI": "10.1109/ROBOT.1995.525337"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref6",
+            "DOI": "10.1109/70.56660"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref5",
+            "DOI": "10.1109/70.97879"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref8",
+            "DOI": "10.1016/0094-114X(95)00091-C"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref7",
+            "DOI": "10.1016/0094-114X(93)90044-V"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref2",
+            "DOI": "10.1109/70.466600"
+          },
+          {
+            "year": "1990",
+            "author": "bottema",
+            "journal-title": "Theoretical Kinematics",
+            "key": "ref1"
+          },
+          {
+            "year": "1990",
+            "author": "mccarthy",
+            "journal-title": "Introduction to Theoretical Kinematics",
+            "key": "ref9"
+          }
+        ],
+        "event": {
+          "acronym": "ICAR-97",
+          "name": "1997 8th International Conference on Advanced Robotics. Proceedings. ICAR'97",
+          "location": "Monterey, CA, USA"
+        },
+        "container-title": [
+          "1997 8th International Conference on Advanced Robotics. Proceedings. ICAR'97"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx3/4880/13463/00620224.pdf?arnumber=620224",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2017-03-10T00:07:41Z",
+          "timestamp": 1489104461000
+        },
+        "score": 38.487568,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/620224/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 18,
+        "URL": "https://doi.org/10.1109/icar.1997.620224"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4732044,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2024-03-02T02:54:47Z",
+          "timestamp": 1709348087497
+        },
+        "reference-count": 0,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/iros.2011.6048178",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2011-10-21T15:02:44Z",
+          "timestamp": 1319209364000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Real-time swept volume and distance computation for self collision detection"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Holger",
+            "family": "Taubig",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Berthold",
+            "family": "Bauml",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Udo",
+            "family": "Frese",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "event": {
+          "name": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2011)",
+          "location": "San Francisco, CA, USA",
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                9,
+                25
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2011,
+                9,
+                30
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2020-10-14T16:12:13Z",
+          "timestamp": 1602691933000
+        },
+        "score": 41.30098,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/6048178"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1109/iros.2011.6048178",
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

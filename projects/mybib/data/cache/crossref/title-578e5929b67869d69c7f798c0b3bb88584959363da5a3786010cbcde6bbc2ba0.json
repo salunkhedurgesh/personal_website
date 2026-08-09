@@ -1,0 +1,293 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4019146,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              16
+            ]
+          ],
+          "date-time": "2026-02-16T16:42:19Z",
+          "timestamp": 1771260139142,
+          "version": "3.50.1"
+        },
+        "reference-count": 19,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.23919/eusipco.2018.8553598",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              4
+            ]
+          ],
+          "date-time": "2018-12-04T00:36:41Z",
+          "timestamp": 1543883801000
+        },
+        "page": "524-528",
+        "source": "Crossref",
+        "is-referenced-by-count": 40,
+        "title": [
+          "Explaining Black-box Android Malware Detection"
+        ],
+        "prefix": "10.23919",
+        "author": [
+          {
+            "given": "Marco",
+            "family": "Melis",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Davide",
+            "family": "Maiorca",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Battista",
+            "family": "Biggio",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Giorgio",
+            "family": "Giacinto",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Fabio",
+            "family": "Roli",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "article-title": "Explaining and harnessing adversarial examples",
+            "author": "goodfellow",
+            "year": "2015",
+            "journal-title": "ICLRE"
+          },
+          {
+            "key": "ref11",
+            "author": "goodman",
+            "year": "2016",
+            "journal-title": "European union regulations on algorithmic decision-making and a&#x201D; right to explanation&#x201D;"
+          },
+          {
+            "key": "ref12",
+            "article-title": "Understanding black-box predictions via influence functions",
+            "author": "koh",
+            "year": "2017",
+            "journal-title": "ICML"
+          },
+          {
+            "key": "ref13",
+            "first-page": "96",
+            "article-title": "The mythos of model interpretability",
+            "author": "lipton",
+            "year": "2016",
+            "journal-title": "ICML Workshop on Human Interpretability in Machine Learning"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2939672.2939778"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2996758.2996771"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SP.2010.25"
+          },
+          {
+            "key": "ref17",
+            "article-title": "Intriguing properties of neural networks",
+            "author": "szegedy",
+            "year": "2014",
+            "journal-title": "ICLRE"
+          },
+          {
+            "key": "ref18",
+            "article-title": "Intriguing properties of neural networks",
+            "author": "szegedy",
+            "year": "2014",
+            "journal-title": "ICLRE"
+          },
+          {
+            "key": "ref19",
+            "article-title": "Some infinity theory for predictor ensembles",
+            "author": "breiman",
+            "year": "2000",
+            "journal-title": "Tech Rep 579"
+          },
+          {
+            "key": "ref4",
+            "first-page": "387",
+            "article-title": "Evasion attacks against machine learning at test time",
+            "volume": "8190",
+            "author": "biggio",
+            "year": "2013",
+            "journal-title": "ECML"
+          },
+          {
+            "key": "ref3",
+            "first-page": "1803",
+            "article-title": "How to explain individual classification decisions",
+            "volume": "11",
+            "author": "baehrens",
+            "year": "2010",
+            "journal-title": "J Mach Learn Res"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2017.11.032"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.patcog.2018.07.023"
+          },
+          {
+            "key": "ref8",
+            "article-title": "Yes, machine learning can be more secure! A case study on Android malware detection",
+            "author": "demontis",
+            "year": "0",
+            "journal-title": "IEEE Trans Dependable and Secure Computing"
+          },
+          {
+            "key": "ref7",
+            "first-page": "377",
+            "article-title": "Stormdroid: A streaminglized machine learning-based system for detecting Android malware",
+            "author": "chen",
+            "year": "2016",
+            "journal-title": "Asia CCS"
+          },
+          {
+            "key": "ref2",
+            "first-page": "204",
+            "article-title": "LUNA: quantifying and leveraging uncertainty in android malware analysis through Bayesian machine learning",
+            "author": "backes",
+            "year": "2017",
+            "journal-title": "EuroS&P"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.14722/ndss.2014.23247"
+          },
+          {
+            "key": "ref9",
+            "author": "doshi-velez",
+            "year": "2017",
+            "journal-title": "Towards a rigorous science of interpretable machine learning"
+          }
+        ],
+        "event": {
+          "name": "2018 26th European Signal Processing Conference (EUSIPCO)",
+          "location": "Rome",
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                9,
+                3
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2018,
+                9,
+                7
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2018 26th European Signal Processing Conference (EUSIPCO)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/8537458/8552938/08553598.pdf?arnumber=8553598",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              27
+            ]
+          ],
+          "date-time": "2022-01-27T03:05:41Z",
+          "timestamp": 1643252741000
+        },
+        "score": 55.80833,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8553598/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.23919/eusipco.2018.8553598",
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

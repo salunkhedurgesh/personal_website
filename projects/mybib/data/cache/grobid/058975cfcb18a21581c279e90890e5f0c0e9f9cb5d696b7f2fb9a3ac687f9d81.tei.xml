@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2021 Government of Ireland Postdoctoral Fellowship Scheme: Frequently Asked Questions (FAQs) 6 th</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-11-12">12 November 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<title level="a" type="main">2021 Government of Ireland Postdoctoral Fellowship Scheme: Frequently Asked Questions (FAQs) 6 th</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-11-12">12 November 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BAE2C53AB7693CC1ADDE7FD0E0FF8AD3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Please note that the deadline for receipt of FAQs is 16:00 (GMT) 12 November 2020. FAQs must be submitted no later than this date. All enquiries should be submitted to the research office of the proposed Higher Education Institution/Research Performing Organisation. The Irish Research Council does not accept enquiries directly from applicants/mentors. Similar questions have been grouped below in the following themes: 1. Eligibility; 2. Application Form; 3. Applying to the Scheme.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

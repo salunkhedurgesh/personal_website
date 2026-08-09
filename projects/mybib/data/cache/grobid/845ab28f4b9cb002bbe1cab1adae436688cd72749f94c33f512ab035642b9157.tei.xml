@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metrics proposed for measuring the distance between two rigid-body poses: review, comparison, and combination †</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Raffaele</forename><forename type="middle">Di</forename><surname>Gregorio</surname></persName>
+							<email>raffaele.digregorio@unife.it</email>
+							<idno type="ORCID">0000-0003-3925-3016</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Mechatronics and Virtual Prototyping (LaMaViP)</orgName>
+								<orgName type="institution">University of Ferrara</orgName>
+								<address>
+									<settlement>Ferrara</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Metrics proposed for measuring the distance between two rigid-body poses: review, comparison, and combination †</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C5FDB17F4BB86BCD205AE0B443104020</idno>
+					<idno type="DOI">10.1017/S0263574723001388</idno>
+					<note type="submission">Received: 31 January 2023; Revised: 10 August 2023; Accepted: 17 September 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Special Euclidean group</term>
+					<term>spatial motion</term>
+					<term>rigid-body pose</term>
+					<term>distance metric</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The concept of distance between two rigid-body poses is important in path planning, positioning precision, mechanism synthesis, and in many other applications. In the definition of such a distance, two approaches mainly prevail, which lead to a number of formulas devised to match the needs of motion tasks. Despite the different approaches and formulas, some important theoretical results, which drive toward distance-metrics definitions useful for design and application purposes, have been stated. This paper summarizes the two different approaches together with a critical review of the literature on the distance metrics they generated, and, then, it illustrates a technique, previously proposed by the author, for combining different metrics to obtain novel distance-metric definitions that are tailored to specific applications.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

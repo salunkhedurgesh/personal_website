@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6996004,
+    "items": [
+      {
+        "institution": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/00pg6eq24",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Strasbourg"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2026-04-04T09:16:44Z",
+          "timestamp": 1775294204814,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Agence Bibliographique de l'Enseignement Supérieur",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p xml:lang=\"fr\">Un grand nombre de contextes nécessitent une gestion appropriée des interactions entre un robot et son environnement. Néanmoins, le développement de manipulateurs robotisés adaptés à ces interactions tout en répondant à des problématiques de légèreté et de compacité est toujours un problème ouvert.Dans cette thèse, nous proposons une nouvelle solution à ce problème en exploitant des mécanismes de tenségrité, qui sont des mécanismes d’intérêt pour leur résistance, leur déployabilité et leur compliance. Nous visons ainsi le développement de manipulateurs en tenségrité.Pour discuter un tel développement, l’analyse, la conception, la commande et la perception sont abordées. Dans ce cadre, nous proposons tout d’abord des outils et des critères d’évaluation dédiés à ces systèmes particuliers. Deux méthodes de conception, la première basée sur un assemblage de blocs et la seconde sur une analogie avec les structures en ciseaux, sont ensuite élaborées pour effectuer le choix de l’architecture des manipulateurs. Ces méthodes sont exploitées pour concevoir deux manipulateurs respectant une contrainte de centre de rotation déporté, menant à la fabrication de prototypes et à des évaluations expérimentales. Après cela, nous mettons en place des commandes adaptées à la mise en mouvement de ces manipulateurs pour d’une part exploiter la redondance pouvant être présente en optimisant certaines performances d’intérêt, et d’autre part pour respecter les limites de fonctionnement. Suite à cela, ces contributions sont exploitées pour proposer une réponse préliminaire à un besoin dans le contexte biomédical. Ce travail mène ainsi au développement et à la fabrication d’un manipulateur dédié à une tâche de manipulation magnétique. Enfin, un capteur d’effort adapté à la gestion du contact est proposé. Pour cela, un transducteur avec une raideur nulle à la transition du contact est conçu et une nouvelle mesure optique exploitant des composants réalisés par fabrication additive est développée.</jats:p>",
+        "DOI": "10.70675/5ab28b0czdef2z475fzbc39zea2a606efd1c",
+        "type": "dissertation",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2026-04-04T08:35:53Z",
+          "timestamp": 1775291753000
+        },
+        "approved": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              25
+            ]
+          ]
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Analyse, conception et commande de manipulateurs en tenségrité : application à la manipulation magnétique"
+        ],
+        "prefix": "10.70675",
+        "author": [
+          {
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2926-5438",
+            "authenticated-orcid": false,
+            "given": "Jérémy",
+            "family": "Begey",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/00pg6eq24",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Strasbourg"
+              }
+            ]
+          }
+        ],
+        "member": "51494",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2026-04-04T08:35:54Z",
+          "timestamp": 1775291754000
+        },
+        "score": 29.005241,
+        "degree": [
+          "Doctorat ès Robotique",
+          "PhD"
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://theses.fr/2020STRAD032"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "2020STRAD032"
+        ],
+        "URL": "https://doi.org/10.70675/5ab28b0czdef2z475fzbc39zea2a606efd1c"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

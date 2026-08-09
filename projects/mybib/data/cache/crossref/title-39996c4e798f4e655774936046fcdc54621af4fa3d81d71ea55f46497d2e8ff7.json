@@ -1,0 +1,356 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2271357,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2026-02-22T12:04:42Z",
+          "timestamp": 1771761882709,
+          "version": "3.50.1"
+        },
+        "reference-count": 20,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2025-09-01T00:00:00Z",
+              "timestamp": 1756684800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2025-09-01T00:00:00Z",
+              "timestamp": 1756684800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2025-09-01T00:00:00Z",
+              "timestamp": 1756684800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "name": "HORIZON-CL4-Digital-Emerging",
+            "award": [
+              "101070136"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "101070136"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "HORIZON-CL4-Digital-Emerging",
+            "award": [
+              "101070310"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "101070310"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Robot. Automat. Mag."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/mra.2024.3433109",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              23
+            ]
+          ],
+          "date-time": "2024-08-23T13:29:13Z",
+          "timestamp": 1724419753000
+        },
+        "page": "184-194",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "GAFRO: Geometric Algebra for Robotics [Tutorial]"
+        ],
+        "prefix": "10.1109",
+        "volume": "32",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4001-2770",
+            "authenticated-orcid": false,
+            "given": "Tobias",
+            "family": "Löw",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Idiap Research Institute, Martigny, Switzerland"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5208-307X",
+            "authenticated-orcid": false,
+            "given": "Philip",
+            "family": "Abbet",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "EPFL, Lausanne, Switzerland"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9036-6799",
+            "authenticated-orcid": false,
+            "given": "Sylvain",
+            "family": "Calinon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Idiap Research Institute, Martigny, Switzerland"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/access.2021.3097756"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/mma.9575"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00006-019-0987-7"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-74486-1_6"
+          },
+          {
+            "key": "ref5",
+            "volume-title": "Versor: Spatial Computing With Conformal Geometric Algebra",
+            "author": "Colapinto",
+            "year": "2011"
+          },
+          {
+            "key": "ref6",
+            "volume-title": "Gal",
+            "author": "Ong"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1173706.1173728"
+          },
+          {
+            "key": "ref8",
+            "first-page": "55",
+            "article-title": "Gaalet - a C expression template library for implementing geometric algebra",
+            "volume-title": "Proc. High-End Visualization Workshop",
+            "author": "Seybold",
+            "year": "2010"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-84996-108-0_22"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00006-020-1053-1"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/mra.2020.2997920"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/sii.2019.8700380"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/lra.2018.2792536"
+          },
+          {
+            "key": "ref14",
+            "volume-title": "KDL: Kinematics and dynamics library",
+            "author": "Smits"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/iros.2012.6386109"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-016-9574-0"
+          },
+          {
+            "key": "ref17",
+            "volume-title": "Geometric Algebra With Applications in Engineering (Geometry and Computing 4)",
+            "author": "Perwass",
+            "year": "2009"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-34978-3"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00006-017-0780-4"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tro.2023.3277282"
+          }
+        ],
+        "container-title": [
+          "IEEE Robotics &amp; Automation Magazine"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/100/11157737/10644072.pdf?arnumber=10644072",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              2
+            ]
+          ],
+          "date-time": "2025-10-02T04:31:22Z",
+          "timestamp": 1759379482000
+        },
+        "score": 49.05369,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10644072/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "references-count": 20,
+        "journal-issue": {
+          "issue": "3"
+        },
+        "URL": "https://doi.org/10.1109/mra.2024.3433109",
+        "ISSN": [
+          "1070-9932",
+          "1558-223X"
+        ],
+        "issn-type": [
+          {
+            "value": "1070-9932",
+            "type": "print"
+          },
+          {
+            "value": "1558-223X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

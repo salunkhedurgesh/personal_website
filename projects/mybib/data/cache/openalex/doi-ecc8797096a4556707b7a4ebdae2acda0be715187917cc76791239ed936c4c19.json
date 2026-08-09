@@ -1,0 +1,531 @@
+{
+  "id": "https://openalex.org/W1495410784",
+  "doi": "https://doi.org/10.5860/choice.33-4552",
+  "title": "Commutative algebra with a view toward algebraic geometry",
+  "display_name": "Commutative algebra with a view toward algebraic geometry",
+  "publication_year": 1996,
+  "publication_date": "1996-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1495410784",
+    "doi": "https://doi.org/10.5860/choice.33-4552",
+    "mag": "1495410784"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.5860/choice.33-4552",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.5860/choice.33-4552",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764375719",
+      "display_name": "Choice Reviews Online",
+      "issn_l": "0009-4978",
+      "issn": [
+        "0009-4978",
+        "1523-8253",
+        "1943-5975"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316146",
+      "host_organization_name": "Association of College and Research Libraries",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316146",
+        "https://openalex.org/P4310315903"
+      ],
+      "host_organization_lineage_names": [
+        "Association of College and Research Libraries",
+        "American Library Association"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Choice Reviews Online",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 162.5871,
+  "has_fulltext": false,
+  "cited_by_count": 4149,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "33",
+    "issue": "08",
+    "first_page": "33",
+    "last_page": "4552"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11673",
+    "display_name": "Advanced Topics in Algebra",
+    "score": 0.9958000183105469,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2602",
+      "display_name": "Algebra and Number Theory"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11673",
+      "display_name": "Advanced Topics in Algebra",
+      "score": 0.9958000183105469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2602",
+        "display_name": "Algebra and Number Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12504",
+      "display_name": "Mathematics and Applications",
+      "score": 0.9908999800682068,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2608",
+        "display_name": "Geometry and Topology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10287",
+      "display_name": "Algebraic structures and combinatorial models",
+      "score": 0.987500011920929,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2608",
+        "display_name": "Geometry and Topology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/algebra-over-a-field",
+      "display_name": "Algebra over a field",
+      "score": 0.6023373007774353
+    },
+    {
+      "id": "https://openalex.org/keywords/derived-algebraic-geometry",
+      "display_name": "Derived algebraic geometry",
+      "score": 0.5984973907470703
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5955685973167419
+    },
+    {
+      "id": "https://openalex.org/keywords/commutative-property",
+      "display_name": "Commutative property",
+      "score": 0.5302795171737671
+    },
+    {
+      "id": "https://openalex.org/keywords/algebraic-geometry",
+      "display_name": "Algebraic geometry",
+      "score": 0.5268632173538208
+    },
+    {
+      "id": "https://openalex.org/keywords/dimension-of-an-algebraic-variety",
+      "display_name": "Dimension of an algebraic variety",
+      "score": 0.5215373039245605
+    },
+    {
+      "id": "https://openalex.org/keywords/function-field-of-an-algebraic-variety",
+      "display_name": "Function field of an algebraic variety",
+      "score": 0.4313640594482422
+    },
+    {
+      "id": "https://openalex.org/keywords/real-algebraic-geometry",
+      "display_name": "Real algebraic geometry",
+      "score": 0.4221121370792389
+    },
+    {
+      "id": "https://openalex.org/keywords/commutative-algebra",
+      "display_name": "Commutative algebra",
+      "score": 0.4189673662185669
+    },
+    {
+      "id": "https://openalex.org/keywords/pure-mathematics",
+      "display_name": "Pure mathematics",
+      "score": 0.40722084045410156
+    },
+    {
+      "id": "https://openalex.org/keywords/algebraic-number",
+      "display_name": "Algebraic number",
+      "score": 0.39371755719184875
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.07226914167404175
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C136119220",
+      "wikidata": "https://www.wikidata.org/wiki/Q1000660",
+      "display_name": "Algebra over a field",
+      "level": 2,
+      "score": 0.6023373007774353
+    },
+    {
+      "id": "https://openalex.org/C185382297",
+      "wikidata": "https://www.wikidata.org/wiki/Q16959942",
+      "display_name": "Derived algebraic geometry",
+      "level": 5,
+      "score": 0.5984973907470703
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5955685973167419
+    },
+    {
+      "id": "https://openalex.org/C183778304",
+      "wikidata": "https://www.wikidata.org/wiki/Q165474",
+      "display_name": "Commutative property",
+      "level": 2,
+      "score": 0.5302795171737671
+    },
+    {
+      "id": "https://openalex.org/C68363185",
+      "wikidata": "https://www.wikidata.org/wiki/Q180969",
+      "display_name": "Algebraic geometry",
+      "level": 2,
+      "score": 0.5268632173538208
+    },
+    {
+      "id": "https://openalex.org/C25971838",
+      "wikidata": "https://www.wikidata.org/wiki/Q5277261",
+      "display_name": "Dimension of an algebraic variety",
+      "level": 3,
+      "score": 0.5215373039245605
+    },
+    {
+      "id": "https://openalex.org/C10996884",
+      "wikidata": "https://www.wikidata.org/wiki/Q5508773",
+      "display_name": "Function field of an algebraic variety",
+      "level": 3,
+      "score": 0.4313640594482422
+    },
+    {
+      "id": "https://openalex.org/C2731732",
+      "wikidata": "https://www.wikidata.org/wiki/Q7301119",
+      "display_name": "Real algebraic geometry",
+      "level": 3,
+      "score": 0.4221121370792389
+    },
+    {
+      "id": "https://openalex.org/C78313660",
+      "wikidata": "https://www.wikidata.org/wiki/Q727659",
+      "display_name": "Commutative algebra",
+      "level": 2,
+      "score": 0.4189673662185669
+    },
+    {
+      "id": "https://openalex.org/C202444582",
+      "wikidata": "https://www.wikidata.org/wiki/Q837863",
+      "display_name": "Pure mathematics",
+      "level": 1,
+      "score": 0.40722084045410156
+    },
+    {
+      "id": "https://openalex.org/C9376300",
+      "wikidata": "https://www.wikidata.org/wiki/Q168817",
+      "display_name": "Algebraic number",
+      "level": 2,
+      "score": 0.39371755719184875
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.07226914167404175
+    },
+    {
+      "id": "https://openalex.org/C186219872",
+      "wikidata": "https://www.wikidata.org/wiki/Q955889",
+      "display_name": "Differential algebraic equation",
+      "level": 4,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C51544822",
+      "wikidata": "https://www.wikidata.org/wiki/Q465274",
+      "display_name": "Ordinary differential equation",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78045399",
+      "wikidata": "https://www.wikidata.org/wiki/Q11214",
+      "display_name": "Differential equation",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5860/choice.33-4552",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.5860/choice.33-4552",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764375719",
+        "display_name": "Choice Reviews Online",
+        "issn_l": "0009-4978",
+        "issn": [
+          "0009-4978",
+          "1523-8253",
+          "1943-5975"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316146",
+        "host_organization_name": "Association of College and Research Libraries",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316146",
+          "https://openalex.org/P4310315903"
+        ],
+        "host_organization_lineage_names": [
+          "Association of College and Research Libraries",
+          "American Library Association"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Choice Reviews Online",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2964350183",
+    "https://openalex.org/W1755126848",
+    "https://openalex.org/W2914555111",
+    "https://openalex.org/W4239684857",
+    "https://openalex.org/W2400091719",
+    "https://openalex.org/W1795409262",
+    "https://openalex.org/W4239806064",
+    "https://openalex.org/W200284930",
+    "https://openalex.org/W2315852938",
+    "https://openalex.org/W1535646580"
+  ],
+  "abstract_inverted_index": {
+    "Introduction.-": [
+      0
+    ],
+    "Elementary": [
+      1
+    ],
+    "Definitions.-": [
+      2
+    ],
+    "I": [
+      3
+    ],
+    "Basic": [
+      4
+    ],
+    "Constructions.-": [
+      5
+    ],
+    "II": [
+      6
+    ],
+    "Dimension": [
+      7
+    ],
+    "Theory.-": [
+      8
+    ],
+    "III": [
+      9
+    ],
+    "Homological": [
+      10
+    ],
+    "Methods.-": [
+      11
+    ],
+    "Appendices.-": [
+      12
+    ],
+    "Hints": [
+      13
+    ],
+    "and": [
+      14
+    ],
+    "Solutions": [
+      15
+    ],
+    "for": [
+      16
+    ],
+    "Selected": [
+      17
+    ],
+    "Exercises.-": [
+      18
+    ],
+    "References.-": [
+      19
+    ],
+    "Index": [
+      20
+    ],
+    "of": [
+      21
+    ],
+    "Notation.-": [
+      22
+    ],
+    "Index.": [
+      23
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 98
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 176
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 182
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 134
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 167
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 151
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 184
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 202
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 197
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 178
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 200
+    }
+  ],
+  "updated_date": "2026-04-05T17:49:38.594831",
+  "created_date": "2016-06-24T00:00:00"
+}

@@ -1,0 +1,158 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4703149,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T04:58:20Z",
+          "timestamp": 1725425900540
+        },
+        "reference-count": 0,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.23919/ecc.2013.6669849",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              21
+            ]
+          ],
+          "date-time": "2018-06-21T20:11:56Z",
+          "timestamp": 1529611916000
+        },
+        "page": "860-865",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Self-reconfigurable control for dual-quaternion/dual-vector systems"
+        ],
+        "prefix": "10.23919",
+        "author": [
+          {
+            "given": "William D.",
+            "family": "Price",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Chau",
+            "family": "Ton",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "William",
+            "family": "MacKunis",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Sergey V.",
+            "family": "Drakunov",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "event": {
+          "name": "2013 European Control Conference (ECC)",
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                17
+              ]
+            ]
+          },
+          "location": "Zurich",
+          "end": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                19
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2013 European Control Conference (ECC)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6657188/6669080/06669849.pdf?arnumber=6669849",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              21
+            ]
+          ],
+          "date-time": "2018-06-21T20:13:23Z",
+          "timestamp": 1529612003000
+        },
+        "score": 29.516068,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/6669849/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.23919/ecc.2013.6669849",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

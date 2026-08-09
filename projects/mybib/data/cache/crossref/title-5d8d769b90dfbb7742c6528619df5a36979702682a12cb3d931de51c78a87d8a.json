@@ -1,0 +1,290 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 184814,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T17:12:49Z",
+          "timestamp": 1758820369760
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 21,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781402087349"
+          },
+          {
+            "type": "electronic",
+            "value": "9781402087356"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1007/978-1-4020-8735-6_18",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              8,
+              14
+            ]
+          ],
+          "date-time": "2008-08-14T14:35:59Z",
+          "timestamp": 1218724559000
+        },
+        "page": "93-98",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "Globalization and Parallelization of Nelder-Mead and Powell Optimization Methods"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "A.",
+            "family": "Koscianski",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "M.A.",
+            "family": "Luersen",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "18_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "385",
+            "DOI": "10.1137/S003614450242889",
+            "volume": "45",
+            "author": "T.G. Kolda",
+            "year": "2003",
+            "unstructured": "T. G. Kolda, R. M. Lewis, and V. Torczon, “Optimization by Direct Search: New Perspectives on Some Classical and Modern Methods,”SIAM Review, vol. 45, pp. 385-482, 2003.",
+            "journal-title": "SIAM Review"
+          },
+          {
+            "key": "18_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "373",
+            "DOI": "10.1007/s10107-006-0006-3",
+            "volume": "110",
+            "author": "A. Grosso",
+            "year": "2003",
+            "unstructured": "A. Grosso, M. Locatelli, and F. Schoen, “A Population-based Approach for Hard Global Optimization Problems based on Dissimilarity Measures,”Mathematical Programming: Series A and B, vol. 110, pp. 373-404, 2003.",
+            "journal-title": "Mathematical Programming: Series A and B"
+          },
+          {
+            "key": "18_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "M. Mitchell,An Introduction to Genetic Algorithms (Complex Adaptive Systems): The MIT Press, 1998.",
+            "DOI": "10.7551/mitpress/3927.001.0001"
+          },
+          {
+            "key": "18_CR4",
+            "unstructured": "P. Moscato, “On Evolution, Search, Optimization, Genetic Algorithms and Martial Arts: Towards Memetic Algorithms.,” Caltech Concurrent Computation Program C3P Report 826, 1989."
+          },
+          {
+            "key": "18_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "159",
+            "DOI": "10.1007/BF01100691",
+            "volume": "5",
+            "author": "M. Pogu",
+            "year": "1994",
+            "unstructured": "M. Pogu and J. E. Souza de Cursi, “Global Optimization by Random Perturbation of the Gradient Method with a Fixed Parameter.,”Journal of Global Optimization, vol. 5, pp. 159-180, 1994.",
+            "journal-title": "Journal of Global Optimization"
+          },
+          {
+            "key": "18_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "671",
+            "DOI": "10.1126/science.220.4598.671",
+            "volume": "220",
+            "author": "S. Kirkpatrick",
+            "year": "1983",
+            "unstructured": "S. Kirkpatrick, C. D. Gelatt, and M. P. Vecchi, “Optimization by Simulated Annealing,”Science, vol. 220, pp. 671-680, 1983.",
+            "journal-title": "Science"
+          },
+          {
+            "key": "18_CR7",
+            "volume-title": "The Handbook of Brain Theory and Neural Networks",
+            "author": "L. Bottou",
+            "year": "2002",
+            "unstructured": "L. Bottou and N. Murata, “Stochastic Approximations and Efficient Learning,” inThe Handbook of Brain Theory and Neural Networks, M. A. Arbib, Ed. Cambridge, USA.: Massachusetts Institute of Technology, 2002."
+          },
+          {
+            "key": "18_CR8",
+            "unstructured": "E. Cantu-Paz, “A survey of parallel genetic algorithms.,”Calculateurs Parallèles, Reseaux et Systèmes Répartis., vol. 10, pp. 141-171, 1998."
+          },
+          {
+            "key": "18_CR9",
+            "unstructured": "A. Bürmen, J. Puhan, T. Tuma, I. Fajfar, and A. Nussdorfer, “Parallel simplex algorithm for circuit optimisation,” inERK 2001, Portorož, Slovenija, 2001."
+          },
+          {
+            "key": "18_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "448",
+            "DOI": "10.1137/0801027",
+            "volume": "1",
+            "author": "J.E. Dennis",
+            "year": "1991",
+            "unstructured": "J. E. Dennis and V. Torczon, “Direct search methods on parallel machines,”SIAM J. Optimization, vol. 1, pp. 448-474, 1991.",
+            "journal-title": "SIAM J. Optimization"
+          },
+          {
+            "key": "18_CR11",
+            "volume-title": "Parallel Optimisation Algorithms for Continuous Non-Linear Numerical Simulations,” in Faculty of Engineering and Information Technology. vol. Doctor Brisbane",
+            "author": "A. Lewis",
+            "year": "2004",
+            "unstructured": "A. Lewis, “Parallel Optimisation Algorithms for Continuous Non-Linear Numerical Simulations,” inFaculty of Engineering and Information Technology. vol. Doctor Brisbane, Australia: Griffith University, 2004."
+          },
+          {
+            "key": "18_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "R. Lewis, V. Torczon, and M. Trosset, “Direct search methods: then and now,”Journal of Computational and Applied Mathematics, vol. 124, 2000.",
+            "DOI": "10.1016/S0377-0427(00)00423-4"
+          },
+          {
+            "key": "18_CR13",
+            "volume-title": "Algorithms for Minimization without Derivatives,” inAlgorithms for Minimization without Derivatives",
+            "author": "R.P. Brent",
+            "year": "1973",
+            "unstructured": "R. P. Brent, “Algorithms for Minimization without Derivatives,v inAlgorithms for Minimization without Derivatives Englewood Cliffs, NJ, EUA: Prentice-Hall, 1973."
+          },
+          {
+            "key": "18_CR14",
+            "unstructured": "W. T. Vetterling and B. P. Flannery,Numerical Recipes in C++: The Art of Scientific Computing: Cambridge University Press, 2002."
+          },
+          {
+            "key": "18_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1145/272991.272995",
+            "volume": "8",
+            "author": "M. Matsumoto",
+            "year": "1998",
+            "unstructured": "M. Matsumoto and T. Nishimura, “Mersenne Twister: a 623-dimensionally equidistributed uniform pseudorandom number generator.,vACM Trans. on Modeling and Computer Simulation, vol. 8, pp. 3-30, 1998.",
+            "journal-title": "ACM Trans. on Modeling and Computer Simulation"
+          },
+          {
+            "key": "18_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "2251",
+            "DOI": "10.1016/j.compstruc.2004.03.072",
+            "volume": "82",
+            "author": "M.A. Luersen",
+            "year": "2004",
+            "unstructured": "M. A. Luersen and R. L. Riche, “Globalized Nelder-Mead for engineering optimization,”Computer&Structures, vol. 82, pp. 2251-2260, 2004.",
+            "journal-title": "Computer & Structures"
+          },
+          {
+            "key": "18_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "1065",
+            "DOI": "10.1214/aoms/1177704472",
+            "volume": "33",
+            "author": "E. Parzen",
+            "year": "1962",
+            "unstructured": "E. Parzen, “On estimation of a probability density function and mode.,”Annals of Mathematical Statistics, vol. 33, pp. 1065-1076, 1962.",
+            "journal-title": "Annals of Mathematical Statistics"
+          },
+          {
+            "key": "18_CR18",
+            "unstructured": "D. Marshall, “Nearest Neighbour Searching in High Dimensional Metric Spaces,” inDepartment of Computer Sciences. vol. Master Thesis in Information Technology: Australian National University, 2006."
+          },
+          {
+            "key": "18_CR19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S. A. Nene and S. K. Nayar, “A simple algorithm for nearest neighbor search in high dimensions,”IEEE Transactions on Pattern Analysis and Machine Intelligence,pp. 989-1003, 1997.",
+            "DOI": "10.1109/34.615448"
+          },
+          {
+            "key": "18_CR20",
+            "volume-title": "Advances and Innovations in Systems, Computing, Sciences and Software Engineering",
+            "author": "J.E. Souza de Cursi",
+            "year": "2007",
+            "unstructured": "J. E. Souza de Cursi and A. Koscianski, “Physically Constrained Neural Network Models for Simulation,” inAdvances and Innovations in Systems, Computing, Sciences and Software Engineering, K. Elleithy, Ed. Dordrecht, The Netherlands: Springer, 2007."
+          },
+          {
+            "key": "18_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "287",
+            "DOI": "10.1017/S0962492900002841",
+            "volume": "7",
+            "author": "M.J.D. Powell",
+            "year": "1998",
+            "unstructured": "M. J. D. Powell, “Direct search algorithms for optimization calculations,”Acta Numerica, vol. 7, pp. 287-336, 1998.",
+            "journal-title": "Acta Numerica"
+          }
+        ],
+        "container-title": [
+          "Innovations and Advanced Techniques in Systems, Computing Sciences and Software Engineering"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4020-8735-6_18.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2021-09-15T00:27:49Z",
+          "timestamp": 1631665669000
+        },
+        "score": 44.435425,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4020-8735-6_18"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781402087349",
+          "9781402087356"
+        ],
+        "references-count": 21,
+        "URL": "https://doi.org/10.1007/978-1-4020-8735-6_18"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

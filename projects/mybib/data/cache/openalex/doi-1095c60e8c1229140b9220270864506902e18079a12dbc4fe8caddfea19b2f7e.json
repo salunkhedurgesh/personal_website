@@ -1,0 +1,474 @@
+{
+  "id": "https://openalex.org/W4244475453",
+  "doi": "https://doi.org/10.1017/cbo9780511751141.009",
+  "title": "[1607.]",
+  "display_name": "[1607.]",
+  "publication_year": 2010,
+  "publication_date": "2010-10-28",
+  "ids": {
+    "openalex": "https://openalex.org/W4244475453",
+    "doi": "https://doi.org/10.1017/cbo9780511751141.009"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1017/cbo9780511751141.009",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1017/cbo9780511751141.009",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306462995",
+      "display_name": "Cambridge University Press eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310311721",
+      "host_organization_name": "Cambridge University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311721",
+        "https://openalex.org/P4310311702"
+      ],
+      "host_organization_lineage_names": [
+        "Cambridge University Press",
+        "University of Cambridge"
+      ],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Life of Marie de Medicis, Queen of France",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5097981142",
+        "display_name": "Julia Pardoe",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Julia Pardoe",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5097981142"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.67788603,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "403",
+    "last_page": "443"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13922",
+    "display_name": "Historical Art and Culture Studies",
+    "score": 0.10610000044107437,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1209",
+      "display_name": "Museology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/12",
+      "display_name": "Arts and Humanities"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13922",
+      "display_name": "Historical Art and Culture Studies",
+      "score": 0.10610000044107437,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13556",
+      "display_name": "Historical Influence and Diplomacy",
+      "score": 0.09549999982118607,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12454",
+      "display_name": "European Political History Analysis",
+      "score": 0.0820000022649765,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/history",
+      "display_name": "History",
+      "score": 0.3423415422439575
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C95457728",
+      "wikidata": "https://www.wikidata.org/wiki/Q309",
+      "display_name": "History",
+      "level": 0,
+      "score": 0.3423415422439575
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1017/cbo9780511751141.009",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/cbo9780511751141.009",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306462995",
+        "display_name": "Cambridge University Press eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Life of Marie de Medicis, Queen of France",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2478337908",
+    "https://openalex.org/W2488258410",
+    "https://openalex.org/W2067388071",
+    "https://openalex.org/W2503791906",
+    "https://openalex.org/W2480794981",
+    "https://openalex.org/W2908402300",
+    "https://openalex.org/W2586510063",
+    "https://openalex.org/W2319470185",
+    "https://openalex.org/W2586334612"
+  ],
+  "abstract_inverted_index": {
+    "Despite": [
+      0
+    ],
+    "the": [
+      1,
+      4,
+      6,
+      9,
+      16,
+      20,
+      33,
+      59,
+      75
+    ],
+    "presence": [
+      2
+    ],
+    "of": [
+      3,
+      8,
+      32,
+      61
+    ],
+    "pestilence": [
+      5
+    ],
+    "gaieties": [
+      7
+    ],
+    "past": [
+      10
+    ],
+    "winter": [
+      11
+    ],
+    "had": [
+      12,
+      24
+    ],
+    "surpassed,": [
+      13
+    ],
+    "alike": [
+      14
+    ],
+    "in": [
+      15,
+      19,
+      28,
+      44,
+      49,
+      58
+    ],
+    "court": [
+      17
+    ],
+    "and": [
+      18,
+      48,
+      56,
+      67
+    ],
+    "capital,": [
+      21
+    ],
+    "all": [
+      22
+    ],
+    "that": [
+      23
+    ],
+    "hitherto": [
+      25
+    ],
+    "been": [
+      26
+    ],
+    "witnessed": [
+      27
+    ],
+    "France.": [
+      29
+    ],
+    "The": [
+      30
+    ],
+    "profusion": [
+      31
+    ],
+    "nobles,": [
+      34
+    ],
+    "whom": [
+      35
+    ],
+    "no": [
+      36,
+      78
+    ],
+    "foreign": [
+      37
+    ],
+    "war": [
+      38
+    ],
+    "compelled": [
+      39
+    ],
+    "to": [
+      40,
+      52,
+      80
+    ],
+    "disburse": [
+      41
+    ],
+    "their": [
+      42,
+      46,
+      54,
+      90
+    ],
+    "revenues": [
+      43
+    ],
+    "arming": [
+      45
+    ],
+    "retainers,": [
+      47
+    ],
+    "preparing": [
+      50
+    ],
+    "themselves": [
+      51
+    ],
+    "maintain": [
+      53
+    ],
+    "dignity": [
+      55
+    ],
+    "rank": [
+      57
+    ],
+    "eyes": [
+      60
+    ],
+    "a": [
+      62
+    ],
+    "hostile": [
+      63
+    ],
+    "nation,": [
+      64
+    ],
+    "was": [
+      65
+    ],
+    "unchecked": [
+      66
+    ],
+    "excessive;": [
+      68
+    ],
+    "while,": [
+      69
+    ],
+    "as": [
+      70
+    ],
+    "we": [
+      71
+    ],
+    "have": [
+      72
+    ],
+    "already": [
+      73
+    ],
+    "shown,": [
+      74
+    ],
+    "monarch": [
+      76
+    ],
+    "felt": [
+      77
+    ],
+    "inclination": [
+      79
+    ],
+    "control": [
+      81
+    ],
+    "an": [
+      82
+    ],
+    "outlay": [
+      83
+    ],
+    "by": [
+      84
+    ],
+    "which": [
+      85
+    ],
+    "they": [
+      86
+    ],
+    "thus": [
+      87
+    ],
+    "voluntarily": [
+      88
+    ],
+    "crippled": [
+      89
+    ],
+    "resources.": [
+      91
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-03-03T08:47:05.690250",
+  "created_date": "2022-05-12T00:00:00"
+}

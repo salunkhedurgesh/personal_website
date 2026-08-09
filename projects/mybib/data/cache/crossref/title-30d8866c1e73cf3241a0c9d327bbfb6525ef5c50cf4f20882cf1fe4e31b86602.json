@@ -1,0 +1,422 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1612005,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T08:26:45Z",
+          "timestamp": 1775032005785,
+          "version": "3.50.1"
+        },
+        "reference-count": 43,
+        "publisher": "Cambridge University Press (CUP)",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  10,
+                  23
+                ]
+              ],
+              "date-time": "2023-10-23T00:00:00Z",
+              "timestamp": 1698019200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Robotica"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>The concept of distance between two rigid-body poses is important in path planning, positioning precision, mechanism synthesis, and in many other applications. In the definition of such a distance, two approaches mainly prevail, which lead to a number of formulas devised to match the needs of motion tasks. Despite the different approaches and formulas, some important theoretical results, which drive toward distance-metrics definitions useful for design and application purposes, have been stated. This paper summarizes the two different approaches together with a critical review of the literature on the distance metrics they generated, and, then, it illustrates a technique, previously proposed by the author, for combining different metrics to obtain novel distance-metric definitions that are tailored to specific applications.</jats:p>",
+        "DOI": "10.1017/s0263574723001388",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2023-10-23T11:05:19Z",
+          "timestamp": 1698059119000
+        },
+        "page": "302-318",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "title": [
+          "Metrics proposed for measuring the distance between two rigid-body poses: review, comparison, and combination"
+        ],
+        "prefix": "10.1017",
+        "volume": "42",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3925-3016",
+            "authenticated-orcid": false,
+            "given": "Raffaele",
+            "family": "Di Gregorio",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "56",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "S0263574723001388_ref12",
+            "unstructured": "[12] Larochelle, P. , “On the Geometry of Approximate Bi-invariant Projective Displacement Metrics,” In: Procs. of the 10th World Congress on the Theory of Machines and Mechanisms, Oulu, Finland, vol. 2 (1999) pp. 548–553."
+          },
+          {
+            "key": "S0263574723001388_ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2943301"
+          },
+          {
+            "key": "S0263574723001388_ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2735640"
+          },
+          {
+            "key": "S0263574723001388_ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836499401300101"
+          },
+          {
+            "key": "S0263574723001388_ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechmachtheory.2006.03.010"
+          },
+          {
+            "key": "S0263574723001388_ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2826115"
+          },
+          {
+            "key": "S0263574723001388_ref22",
+            "unstructured": "[22] Zefran, M. , Continuous Methods for Motion Planning Ph.D. dissertation (Univ. Pennsylvania, Philadelphia, 1996)."
+          },
+          {
+            "key": "S0263574723001388_ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2021.103734"
+          },
+          {
+            "key": "S0263574723001388_ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3267382"
+          },
+          {
+            "key": "S0263574723001388_ref29",
+            "first-page": "38",
+            "volume-title": "Robot Analysis: The Mechanics of Serial and Parallel Manipulators",
+            "author": "Tsai",
+            "year": "1999"
+          },
+          {
+            "key": "S0263574723001388_ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.1289139"
+          },
+          {
+            "key": "S0263574723001388_ref25",
+            "volume-title": "Theoretical Kinematics",
+            "author": "Bottema",
+            "year": "1979"
+          },
+          {
+            "key": "S0263574723001388_ref31",
+            "first-page": "258",
+            "volume-title": "Procs. of the Conference on Graphics Interface ‘92",
+            "author": "Shoemake",
+            "year": "1992"
+          },
+          {
+            "key": "S0263574723001388_ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2826966"
+          },
+          {
+            "key": "S0263574723001388_ref32",
+            "first-page": "1295",
+            "volume-title": "Procs. of the ASME 2009 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Vol. 7: 33rd Mechanisms and Robotics Conference, Parts A and B",
+            "author": "Purwar",
+            "year": "August 30–September 2, 2009"
+          },
+          {
+            "key": "S0263574723001388_ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.4028941"
+          },
+          {
+            "key": "S0263574723001388_ref38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(78)90017-4"
+          },
+          {
+            "key": "S0263574723001388_ref39",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2017.7989363"
+          },
+          {
+            "key": "S0263574723001388_ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11263-017-1052-4"
+          },
+          {
+            "key": "S0263574723001388_ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.1767816"
+          },
+          {
+            "key": "S0263574723001388_ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2829166"
+          },
+          {
+            "key": "S0263574723001388_ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-20131-9_32"
+          },
+          {
+            "key": "S0263574723001388_ref28",
+            "first-page": "3993",
+            "volume-title": "Proc. of IEEE International Conference on Robotics and Automation (ICRA04)",
+            "volume": "4",
+            "author": "Kuffner",
+            "year": "2004"
+          },
+          {
+            "key": "S0263574723001388_ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2015.336"
+          },
+          {
+            "key": "S0263574723001388_ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3267417"
+          },
+          {
+            "key": "S0263574723001388_ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2826735"
+          },
+          {
+            "key": "S0263574723001388_ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.4039121"
+          },
+          {
+            "key": "S0263574723001388_ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.4057046"
+          },
+          {
+            "key": "S0263574723001388_ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.4002245"
+          },
+          {
+            "key": "S0263574723001388_ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2826116"
+          },
+          {
+            "key": "S0263574723001388_ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/02783649922066187"
+          },
+          {
+            "key": "S0263574723001388_ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3267398"
+          },
+          {
+            "key": "S0263574723001388_ref19",
+            "first-page": "1594",
+            "volume-title": "Procs. of the 9th World Congress on the Theor. of Mach. and Mechanisms",
+            "volume": "2",
+            "author": "Rico-Martinez",
+            "year": "1996"
+          },
+          {
+            "key": "S0263574723001388_ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.704225"
+          },
+          {
+            "key": "S0263574723001388_ref17",
+            "first-page": "361",
+            "volume-title": "Advances in Robot Kinematics: Analysis and Design, ARK2008",
+            "author": "Di Gregorio",
+            "year": "2008"
+          },
+          {
+            "key": "S0263574723001388_ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCYB.2015.2416311"
+          },
+          {
+            "key": "S0263574723001388_ref2",
+            "first-page": "271",
+            "volume-title": "Procs. of the ASME. 1992 Design Technical Conferences. 22nd Biennial Mechanisms Conference: Flexible Mechanisms, Dynamics, and Analysis",
+            "author": "Kazerounian",
+            "year": "September 13–16, 1992"
+          },
+          {
+            "key": "S0263574723001388_ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836490001900605"
+          },
+          {
+            "key": "S0263574723001388_ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRA.2002.1019463"
+          },
+          {
+            "key": "S0263574723001388_ref43",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00138-022-01292-z"
+          },
+          {
+            "key": "S0263574723001388_ref20",
+            "volume-title": "Space Kinematics and Lie Groups",
+            "author": "Karger",
+            "year": "1985"
+          },
+          {
+            "key": "S0263574723001388_ref23",
+            "first-page": "81",
+            "volume-title": "ROMANSY 21 - Robot Design, Dynamics and Control. ROMANSY21 2016. CISM International Centre for Mechanical Sciences",
+            "volume": "569",
+            "author": "Mazzotti",
+            "year": "2016"
+          },
+          {
+            "key": "S0263574723001388_ref11",
+            "volume-title": "Procs. of the 1996 IEEE International Conference on Robotics and Automation",
+            "author": "Etzel",
+            "year": "1996"
+          }
+        ],
+        "container-title": [
+          "Robotica"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0263574723001388",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              16
+            ]
+          ],
+          "date-time": "2024-01-16T07:01:02Z",
+          "timestamp": 1705388462000
+        },
+        "score": 26.09562,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/S0263574723001388/type/journal_article"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              23
+            ]
+          ]
+        },
+        "references-count": 43,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0263574723001388"
+        ],
+        "URL": "https://doi.org/10.1017/s0263574723001388",
+        "ISSN": [
+          "0263-5747",
+          "1469-8668"
+        ],
+        "issn-type": [
+          {
+            "value": "0263-5747",
+            "type": "print"
+          },
+          {
+            "value": "1469-8668",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

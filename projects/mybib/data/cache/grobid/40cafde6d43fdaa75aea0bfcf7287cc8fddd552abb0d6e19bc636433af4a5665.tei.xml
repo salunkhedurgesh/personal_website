@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A new approach to orientation workspace analysis of 6-DOF parallel manipulators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Ilian</forename><forename type="middle">A</forename><surname>Bonev</surname></persName>
+							<email>bonev@gmc.ulaval.ca</email>
+						</author>
+						<author>
+							<persName><forename type="first">Jeha</forename><surname>Ryu</surname></persName>
+							<email>ryu@kjist.ac.kr</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechatronics</orgName>
+								<orgName type="institution">Kwangju Institute of Science and Technology</orgName>
+								<address>
+									<addrLine>1 Oryong-dong Buk-ku</addrLine>
+									<postCode>500-712</postCode>
+									<settlement>Kwangju</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Departement de Genie Mecanique</orgName>
+								<orgName type="institution">University of Laval</orgName>
+								<address>
+									<addrLine>Que.</addrLine>
+									<postCode>G1K 7P4</postCode>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A new approach to orientation workspace analysis of 6-DOF parallel manipulators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4B4D26C36E9870EB0FD95FB3F2BF7558</idno>
+					<note type="submission">Received 28 July 1999; accepted 29 September 1999</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents a new discretization method for the computation of the orientation workspace of 6-DOF parallel manipulators, de®ned as the set of all attainable orientations of the mobile platform about a ®xed point. The method is based on the use of a modi®ed set of Euler angles and a particular representation of the orientation workspace. In addition, the projected orientation workspace is introduced for use in 5-axis applications, de®ned as the set of possible directions of the approach vector of the mobile platform. Alternative ways of computing these two types of workspaces are also discussed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

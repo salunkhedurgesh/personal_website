@@ -1,0 +1,841 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7864529,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T11:18:45Z",
+          "timestamp": 1764587925898,
+          "version": "3.37.3"
+        },
+        "reference-count": 120,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2018-01-01T00:00:00Z",
+              "timestamp": 1514764800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Labex ACTION project",
+            "award": [
+              "ANR-11LABX-0001-01"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "ANR-11LABX-0001-01"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CoErCIVe Bourgogne Franche-Comté Regional Project",
+            "award": [
+              "ANR-17-CE19-0005-04"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "ANR-17-CE19-0005-04"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Rev. Biomed. Eng."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "DOI": "10.1109/rbme.2018.2810605",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2018-02-28T19:22:09Z",
+          "timestamp": 1519845729000
+        },
+        "page": "125-142",
+        "source": "Crossref",
+        "is-referenced-by-count": 38,
+        "title": [
+          "Review on Otological Robotic Systems: Toward Microrobot-Assisted Cholesteatoma Surgery"
+        ],
+        "prefix": "10.1109",
+        "volume": "11",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4668-3092",
+            "authenticated-orcid": false,
+            "given": "Bassem",
+            "family": "Dahroug",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Brahim",
+            "family": "Tamadazte",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stefan",
+            "family": "Weber",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Laurent",
+            "family": "Tavernier",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nicolas",
+            "family": "Andreff",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref39",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1117/1.JBO.17.7.071302"
+          },
+          {
+            "key": "ref38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1364/OL.29.001236"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/0034-4885/66/2/204"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1117/12.231361"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s004050050058"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0194599813495815a199"
+          },
+          {
+            "key": "ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1600-0846.2007.00208.x"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0735-1097(01)01799-5"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0002-9149(99)00825-5"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1136/hrt.77.5.397"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1364/OE.15.016413"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/lary.23710"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/RBME.2013.2240294"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759364"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00330-006-0160-2"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0720-048X(01)00379-5"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/02656730601186138"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4172/2161-119X.S5-001"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ULTSYM.2009.5441970"
+          },
+          {
+            "key": "ref101",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2015.2489500"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ultrasmedbio.2009.05.021"
+          },
+          {
+            "key": "ref100",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5402/2013/726506"
+          },
+          {
+            "journal-title": "Chirurgie Otologique et Otoneurologique",
+            "year": "2005",
+            "author": "bordure",
+            "key": "ref50"
+          },
+          {
+            "key": "ref51",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e318188e8d7"
+          },
+          {
+            "key": "ref59",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/00129492-200503000-00001"
+          },
+          {
+            "key": "ref58",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.otohns.2008.05.184"
+          },
+          {
+            "key": "ref57",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.otohns.2008.11.013"
+          },
+          {
+            "key": "ref56",
+            "first-page": "63",
+            "article-title": "Endoscopic middle ear and mastoid surgery for cholesteatoma",
+            "volume": "25",
+            "author": "sajjadi",
+            "year": "2013",
+            "journal-title": "Iranian J Otorhinolaryngol"
+          },
+          {
+            "key": "ref55",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/00129492-200209000-00004"
+          },
+          {
+            "key": "ref54",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1288/00005537-199308000-00021"
+          },
+          {
+            "key": "ref53",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/lary.24633"
+          },
+          {
+            "key": "ref52",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s12070-011-0159-0"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1001/archotol.127.6.637"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev-bioeng-010510-103409"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev.bioeng.1.1.211"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2016.2595625"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MRA.2007.905335"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5962/bhl.title.20311"
+          },
+          {
+            "key": "ref49",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1159/000346140"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11548-014-1064-2"
+          },
+          {
+            "journal-title": "Cahiers D&#x2019;anatomie O R L",
+            "year": "1968",
+            "author": "legent",
+            "key": "ref9"
+          },
+          {
+            "key": "ref46",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1364/OE.1.000432"
+          },
+          {
+            "key": "ref45",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e31818a08ce"
+          },
+          {
+            "key": "ref48",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-540-47671-9",
+            "author": "hildmann",
+            "year": "2006",
+            "journal-title": "Middle Ear Surgery"
+          },
+          {
+            "key": "ref47",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e3181e711b8"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1117/1.JBO.19.5.057004"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1055/s-2002-32213"
+          },
+          {
+            "key": "ref44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.1201592109"
+          },
+          {
+            "key": "ref43",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1117/1.JBO.17.6.060505"
+          },
+          {
+            "key": "ref73",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/09544119JEIM781"
+          },
+          {
+            "key": "ref72",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11548-009-0360-8"
+          },
+          {
+            "key": "ref71",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IEMBS.2008.4650482"
+          },
+          {
+            "key": "ref70",
+            "first-page": "1:doc05",
+            "article-title": "Robotic-guided minimally-invasive cochleostomy: First results",
+            "volume": "2",
+            "author": "leinung",
+            "year": "2007",
+            "journal-title": "German Med Sci CURAC"
+          },
+          {
+            "key": "ref76",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3109/00016489.2011.642813"
+          },
+          {
+            "key": "ref77",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TBME.2012.2235439"
+          },
+          {
+            "key": "ref74",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/11866565_5"
+          },
+          {
+            "key": "ref75",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-85990-1_83"
+          },
+          {
+            "key": "ref78",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0000000000000187"
+          },
+          {
+            "key": "ref79",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e31829561b6"
+          },
+          {
+            "key": "ref60",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00405-008-0602-3"
+          },
+          {
+            "key": "ref62",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev-bioeng-070909-105249"
+          },
+          {
+            "key": "ref61",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1067/mhn.2002.129729"
+          },
+          {
+            "key": "ref63",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11548-013-0908-5"
+          },
+          {
+            "key": "ref64",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.4007099"
+          },
+          {
+            "key": "ref65",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2014.2308479"
+          },
+          {
+            "key": "ref66",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IEMBS.2007.4352519"
+          },
+          {
+            "key": "ref67",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00405-008-0825-3"
+          },
+          {
+            "key": "ref68",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/PIME_PROC_1995_209_352_02"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijporl.2014.11.020"
+          },
+          {
+            "key": "ref69",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1001/jamaoto.2013.6443"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00405-003-0623-x"
+          },
+          {
+            "key": "ref109",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ics.2004.03.326"
+          },
+          {
+            "key": "ref95",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2014.6942721"
+          },
+          {
+            "key": "ref108",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5220/0005980900840091"
+          },
+          {
+            "key": "ref94",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/AIM.2013.6584301"
+          },
+          {
+            "key": "ref107",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/rcs.453"
+          },
+          {
+            "key": "ref93",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-23623-5_6"
+          },
+          {
+            "key": "ref106",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/09544119JEIM591"
+          },
+          {
+            "key": "ref92",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2010.5509594"
+          },
+          {
+            "key": "ref91",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/1553350611426012"
+          },
+          {
+            "key": "ref105",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/10929080500228753"
+          },
+          {
+            "key": "ref90",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/BIOROB.2008.4762795"
+          },
+          {
+            "key": "ref104",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRA.2003.817058"
+          },
+          {
+            "key": "ref103",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/0954411001535309"
+          },
+          {
+            "key": "ref102",
+            "first-page": "35",
+            "article-title": "Clinical optical coherence tomography in head and neck oncology: Overview and outlook",
+            "volume": "5",
+            "author": "betz",
+            "year": "2013",
+            "journal-title": "Head Neck Oncol"
+          },
+          {
+            "key": "ref111",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2005.1570169"
+          },
+          {
+            "key": "ref112",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2017.7989416"
+          },
+          {
+            "key": "ref110",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2014.6943047"
+          },
+          {
+            "key": "ref98",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2015.7139428"
+          },
+          {
+            "key": "ref99",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364910368147"
+          },
+          {
+            "key": "ref96",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2017.2668468"
+          },
+          {
+            "key": "ref97",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2015.7139426"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4614-1421-6_2"
+          },
+          {
+            "journal-title": "Advanced Therapy in Otitis Media",
+            "year": "2004",
+            "author": "alper",
+            "key": "ref11"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s40137-014-0063-0"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0246-0351(09)20618-0"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "crossref",
+            "first-page": "568",
+            "DOI": "10.1080/00016489950180801",
+            "article-title": "Epidemiology and aetiology of middle ear cholesteatoma",
+            "volume": "119",
+            "author": "kemppainen",
+            "year": "1999",
+            "journal-title": "Acta Oto-Laryngologica"
+          },
+          {
+            "key": "ref15",
+            "article-title": "Decreasing incidence rate for surgically treated middle ear cholesteatoma in Denmark 1977&#x2013;2007",
+            "volume": "57",
+            "author": "djurhuus",
+            "year": "2010",
+            "journal-title": "Danish Med Bull"
+          },
+          {
+            "key": "ref118",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.matdes.2013.11.084"
+          },
+          {
+            "key": "ref82",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11548-009-0292-3"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e318280dc55"
+          },
+          {
+            "key": "ref117",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2004.1307175"
+          },
+          {
+            "key": "ref81",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/AIM.2014.6878235"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/000348947708600405"
+          },
+          {
+            "key": "ref84",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e3181fcee9e"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1590/S1808-86942011000300012"
+          },
+          {
+            "key": "ref119",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IEMBS.2008.4649598"
+          },
+          {
+            "key": "ref83",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TBME.2011.2162512"
+          },
+          {
+            "key": "ref19",
+            "first-page": "69",
+            "article-title": "Imaging of cholesteatoma",
+            "author": "de foer",
+            "year": "2015",
+            "journal-title": "Imaging of the Temporal Bone"
+          },
+          {
+            "key": "ref114",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-49830-8_28"
+          },
+          {
+            "key": "ref113",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1227/01.NEU.0000153929.68024.CF"
+          },
+          {
+            "key": "ref116",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/13645700510010827"
+          },
+          {
+            "key": "ref80",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1155/2014/251814"
+          },
+          {
+            "key": "ref115",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0951-8320(01)00037-0"
+          },
+          {
+            "key": "ref120",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759193"
+          },
+          {
+            "key": "ref89",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2010.5650390"
+          },
+          {
+            "key": "ref85",
+            "article-title": "Preliminary testing of a compact bone-attached robot for otologic surgery",
+            "volume": "9036",
+            "author": "dillon",
+            "year": "0",
+            "journal-title": "Proc SPIE"
+          },
+          {
+            "key": "ref86",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1118/1.3005479"
+          },
+          {
+            "key": "ref87",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/MAO.0b013e31819e61ed"
+          },
+          {
+            "key": "ref88",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICMA.2011.5985720"
+          }
+        ],
+        "container-title": [
+          "IEEE Reviews in Biomedical Engineering"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/4664312/8421106/08304697.pdf?arnumber=8304697",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2024-07-01T17:22:22Z",
+          "timestamp": 1719854542000
+        },
+        "score": 35.147182,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8304697/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "references-count": 120,
+        "URL": "https://doi.org/10.1109/rbme.2018.2810605",
+        "ISSN": [
+          "1937-3333",
+          "1941-1189"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "1937-3333"
+          },
+          {
+            "type": "electronic",
+            "value": "1941-1189"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

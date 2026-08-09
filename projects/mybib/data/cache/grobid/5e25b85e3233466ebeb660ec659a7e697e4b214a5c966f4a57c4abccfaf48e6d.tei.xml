@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Unified Framework for Coordinated Multi-Arm Motion Planning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Seyed</forename><surname>Sina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mirrazavi</forename><surname>Salehian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Learning Algorithms and Systems Laboratory (LASA)</orgName>
+								<orgName type="institution">Swiss Federal Institute of Technology</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne (EPFL Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nadia</forename><surname>Figueroa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Learning Algorithms and Systems Laboratory (LASA)</orgName>
+								<orgName type="institution">Swiss Federal Institute of Technology</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne (EPFL Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aude</forename><surname>Billard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Learning Algorithms and Systems Laboratory (LASA)</orgName>
+								<orgName type="institution">Swiss Federal Institute of Technology</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne (EPFL Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">EPFL-STI-IMT-LASA</orgName>
+								<address>
+									<addrLine>ME A3 424 (B âtiment ME) Station 9</addrLine>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Unified Framework for Coordinated Multi-Arm Motion Planning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BE889794C04DC66167620610B946A299</idno>
+					<idno type="DOI">10.1177/ToBeAssigned</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Multi-arm motion planning</term>
+					<term>coordination</term>
+					<term>dynamical systems</term>
+					<term>self-collision avoidance</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Coordination is essential in the design of dynamic control strategies for multi-arm robotic systems. Given the complexity of the task and dexterity of the system, coordination constraints can emerge from different levels of planning and control. Primarily, one must consider task-space coordination, where the robots must coordinate with each other, with an object or with a target of interest. Coordination is also necessary in joint-space, as the robots should avoid self-collisions at any time. We provide such joint-space coordination by introducing a centralized inverse kinematics (IK) solver under self-collision avoidance constraints; formulated as a quadratic program (QP) and solved in real-time. The space of free motion is modeled through a sparse non-linear kernel classification method in a data-driven learning approach. Moreover, we provide multi-arm task-space coordination for both synchronous or asynchronous behaviors. We define a synchronous behavior as that in which the robot arms must coordinate with each other and with a moving object such that they reach for it in synchrony. In contrast, an asynchronous behavior allows for each robot to perform independent point-to-point reaching motions. To transition smoothly from asynchronous to synchronous behaviors and conversely, we introduce the notion of synchronization allocation. We show how this allocation can be controlled through an external variable, such as the location of the object to be manipulated. Both behaviors and their synchronization allocation are encoded in a single dynamical system. We validate our framework on a dual-arm robotic system and demonstrate that the robots can re-synchronize and adapt the motion of each arm while avoiding self-collision within milliseconds. The speed of control is exploited to intercept fast moving objects whose motion cannot be predicted accurately.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

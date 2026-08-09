@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3635211,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T09:53:17Z",
+          "timestamp": 1742982797767,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 0,
+        "publisher": "Springer Nature Switzerland",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783031309229"
+          },
+          {
+            "type": "electronic",
+            "value": "9783031309236"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-031-30923-6",
+        "type": "book",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2023-04-26T21:01:55Z",
+          "timestamp": 1682542915000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Empowering Novel Geometric Algebra for Graphics and Engineering"
+        ],
+        "prefix": "10.1007",
+        "member": "297",
+        "container-title": [
+          "Lecture Notes in Computer Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-30923-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-30923-6",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2023-04-26T21:01:58Z",
+          "timestamp": 1682542918000
+        },
+        "score": 43.753098,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-031-30923-6"
+          }
+        },
+        "subtitle": [
+          "7th International Workshop, ENGAGE 2022, Virtual Event, September 12, 2022, Proceedings"
+        ],
+        "editor": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5587-6750",
+            "authenticated-orcid": false,
+            "given": "Eckhard",
+            "family": "Hitzer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2977-9850",
+            "authenticated-orcid": false,
+            "given": "George",
+            "family": "Papagiannakis",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6725-7378",
+            "authenticated-orcid": false,
+            "given": "Petr",
+            "family": "Vasik",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783031309229",
+          "9783031309236"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-3-031-30923-6",
+        "ISSN": [
+          "0302-9743",
+          "1611-3349"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0302-9743"
+          },
+          {
+            "type": "electronic",
+            "value": "1611-3349"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

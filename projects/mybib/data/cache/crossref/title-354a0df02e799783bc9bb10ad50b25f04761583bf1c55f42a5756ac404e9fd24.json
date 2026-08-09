@@ -1,0 +1,141 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1892245,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2026-02-28T01:14:13Z",
+          "timestamp": 1772241253988,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "State University of New York Press",
+        "isbn-type": [
+          {
+            "value": "9781438405018",
+            "type": "electronic"
+          },
+          {
+            "value": "1438405014",
+            "type": "electronic"
+          },
+          {
+            "value": "9780791424407",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1995,
+              7,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.2307/jj.18253071",
+        "type": "monograph",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2024-08-31T16:20:10Z",
+          "timestamp": 1725121210000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Ganapati"
+        ],
+        "prefix": "10.2307",
+        "author": [
+          {
+            "given": "John A.",
+            "family": "Grimes",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "1121",
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2024-08-31T16:20:14Z",
+          "timestamp": 1725121214000
+        },
+        "score": 23.431543,
+        "resource": {
+          "primary": {
+            "URL": "http://www.jstor.org/stable/10.2307/jj.18253071"
+          }
+        },
+        "subtitle": [
+          "Song of the Self"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1995,
+              7,
+              1
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781438405018",
+          "1438405014",
+          "9780791424407"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.2307/jj.18253071",
+        "relation": {
+          "is-identical-to": [
+            {
+              "id-type": "doi",
+              "id": "10.1515/9781438405018",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1995,
+              7,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

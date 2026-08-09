@@ -1,0 +1,184 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 495089,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T20:07:21Z",
+          "timestamp": 1725480441328
+        },
+        "reference-count": 13,
+        "publisher": "IEEE Comput. Soc. Press",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1109/robot.1994.350963",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              12,
+              17
+            ]
+          ],
+          "date-time": "2002-12-17T09:32:51Z",
+          "timestamp": 1040117571000
+        },
+        "page": "2166-2171",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Trajectory verification of parallel manipulators in the workspace"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "J.-P.",
+            "family": "Merlet",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2919187"
+          },
+          {
+            "journal-title": "Dynamics and control of robot manipulators with closed-kinematic chain mechanism",
+            "year": "1989",
+            "author": "pooran",
+            "key": "ref11"
+          },
+          {
+            "key": "ref12",
+            "first-page": "55",
+            "article-title": "On the workspace of closed-loop manipulators with ground mounted rotary-linear actuators and finite size platform",
+            "author": "weng",
+            "year": "1987",
+            "journal-title": "In ASME Design Automation Conf"
+          },
+          {
+            "key": "ref13",
+            "first-page": "341",
+            "article-title": "Closed-form workspace determination and optimization for parallel robot mechanisms",
+            "author": "williams",
+            "year": "1988",
+            "journal-title": "ASME Proc of the the 20th Biennal Mechanisms Conf"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4615-4022-9"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2912612"
+          },
+          {
+            "journal-title": "Parallel manipulators Part 1 theory",
+            "year": "1987",
+            "author": "merlet",
+            "key": "ref6"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/56.796"
+          },
+          {
+            "journal-title": "Manipulateurs parall�les 6eme partie D�termination des espaces de travail en orientation",
+            "year": "1993",
+            "author": "merlet",
+            "key": "ref8"
+          },
+          {
+            "journal-title": "Manipulateurs parall�les 5eme partie D�termination de l'espace de travail � orientation constante",
+            "year": "1992",
+            "author": "merlet",
+            "key": "ref7"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498600500216"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1991.131641"
+          },
+          {
+            "journal-title": "Manipulateurs parall�les 7eme partie V�rification et planification de trajectoire dans l'espace de travail",
+            "year": "1993",
+            "author": "merlet",
+            "key": "ref9"
+          }
+        ],
+        "event": {
+          "name": "1994 IEEE International Conference on Robotics and Automation",
+          "acronym": "ROBOT-94",
+          "location": "San Diego, CA, USA"
+        },
+        "container-title": [
+          "Proceedings of the 1994 IEEE International Conference on Robotics and Automation"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx2/941/8081/00350963.pdf?arnumber=350963",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              8
+            ]
+          ],
+          "date-time": "2017-03-08T19:36:20Z",
+          "timestamp": 1489001780000
+        },
+        "score": 35.35472,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/350963/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 13,
+        "URL": "https://doi.org/10.1109/robot.1994.350963"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

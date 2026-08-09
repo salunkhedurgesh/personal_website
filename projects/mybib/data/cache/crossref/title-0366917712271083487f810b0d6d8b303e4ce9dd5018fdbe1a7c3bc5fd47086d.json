@@ -1,0 +1,409 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5047107,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2026-04-27T19:00:02Z",
+          "timestamp": 1777316402716,
+          "version": "3.51.4"
+        },
+        "reference-count": 44,
+        "publisher": "Cambridge University Press (CUP)",
+        "issue": "11",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  5,
+                  11
+                ]
+              ],
+              "date-time": "2022-05-11T00:00:00Z",
+              "timestamp": 1652227200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Robotica"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              11
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>In this paper, we propose a set of robust training methods for deep reinforcement learning to transfer learning acquired in one control task to a set of previously unseen control tasks. We improve generalization in commonly used transfer learning benchmarks by a novel sample elimination technique, early stopping, and maximum entropy adversarial reinforcement learning. To generate robust policies, we use sample elimination during training via a method we call strict clipping. We apply early stopping, a method previously used in supervised learning, to deep reinforcement learning. Subsequently, we introduce maximum entropy adversarial reinforcement learning to increase the domain randomization during training for a better target task performance. Finally, we evaluate the robustness of these methods compared to previous work on simulated robots in target environments where the gravity, the morphology of the robot, and the tangential friction coefficient of the environment are altered.</jats:p>",
+        "DOI": "10.1017/s0263574722000625",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2022-05-11T11:39:00Z",
+          "timestamp": 1652269140000
+        },
+        "page": "3811-3836",
+        "source": "Crossref",
+        "is-referenced-by-count": 18,
+        "title": [
+          "Generalization in transfer learning: robust control of robot locomotion"
+        ],
+        "prefix": "10.1017",
+        "volume": "40",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1901-8473",
+            "authenticated-orcid": false,
+            "given": "Suzan Ece",
+            "family": "Ada",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9597-2731",
+            "authenticated-orcid": false,
+            "given": "Emre",
+            "family": "Ugur",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "H. Levent",
+            "family": "Akin",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "56",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              11
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "S0263574722000625_ref21",
+            "unstructured": "[21] Al-Shedivat, M. , Bansal, T. , Burda, Y. , Sutskever, I. , Mordatch, I. and Abbeel, P. , “Continuous adaptation via meta-learning in nonstationary and competitive environments,” arXiv preprint, arXiv:1710.03641 (2017)."
+          },
+          {
+            "key": "S0263574722000625_ref16",
+            "unstructured": "[16] Schulman, J. , Levine, S. , Abbeel, P. , Jordan, M. and Moritz, P. , “Trust Region Policy Optimization,” In: International Conference on Machine Learning (2015) pp. 1889–1897."
+          },
+          {
+            "key": "S0263574722000625_ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/S0219843604000083"
+          },
+          {
+            "key": "S0263574722000625_ref9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[9] Li, Z. , Cheng, X. , Peng, X. B. , Abbeel, P. , Levine, S. , Berseth, G. and Sreenath, K. , “Reinforcement learning for robust parameterized locomotion control of bipedal robots,” CoRR abs/2103.14295 (2021). arXiv:2103.14295. https://arxiv.org/abs/2103.14295",
+            "DOI": "10.1109/ICRA48506.2021.9560769"
+          },
+          {
+            "key": "S0263574722000625_ref32",
+            "unstructured": "[32] Pinto, L. , Davidson, J. , Sukthankar, R. and Gupta, A. , “Robust Adversarial Reinforcement Learning,” In: Proceedings of the 34th International Conference on Machine Learning, Volume 70 (JMLR.org, 2017) pp. 2817–2826."
+          },
+          {
+            "key": "S0263574722000625_ref25",
+            "unstructured": "[25] Zhao, C. , Siguad, O. , Stulp, F. and Hospedales, T. M. , “Investigating generalisation in continuous deep reinforcement learning,” arXiv preprint, arXiv:1902.07015 (2019)."
+          },
+          {
+            "key": "S0263574722000625_ref5",
+            "unstructured": "[5] Gangapurwala, S. , Mitchell, A. L. and Havoutis, I. , “Guided constrained policy optimization for dynamic quadrupedal robot locomotion”, CoRR abs/2002.09676 (2020). arXiv:2002.09676. https://arxiv.org/abs/2002.09676"
+          },
+          {
+            "key": "S0263574722000625_ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2017.8206245"
+          },
+          {
+            "key": "S0263574722000625_ref19",
+            "first-page": "2586",
+            "article-title": "“Dimension-Wise Importance Sampling Weight Clipping for Sample-Efficient Reinforcement Learning,",
+            "author": "Han",
+            "year": "2019",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "S0263574722000625_ref12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[12] Tan, J. , Zhang, T. , Coumans, E. , Iscen, A. , Bai, Y. , Hafner, D. , Bohez, S. and Vanhoucke, V. , “Sim-toreal: Learning agile locomotion for quadruped robots,” CoRR abs/1804.10332 (2018). arXiv: 1804.10332. http://arxiv.org/abs/1804.10332",
+            "DOI": "10.15607/RSS.2018.XIV.010"
+          },
+          {
+            "key": "S0263574722000625_ref26",
+            "unstructured": "[26] Mnih, V. , Badia, A. P. , Mirza, M. , et al., “Asynchronous Methods for Deep Reinforcement Learning,” In: International Conference on Machine Learning (2016) pp. 1928–1937."
+          },
+          {
+            "key": "S0263574722000625_ref8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[8] Haarnoja, T. , Zhou, A. , Ha, S. , Tan, J. , Tucker, G. and Levine, S. , “Learning to walk via deep reinforcement learning,” CoRR abs/1812.11103 (2018). arXiv:1812.11103. http://arxiv.org/abs/1812.11103",
+            "DOI": "10.15607/RSS.2019.XV.011"
+          },
+          {
+            "key": "S0263574722000625_ref36",
+            "unstructured": "[36] MuJoCo documentation, https://mujoco.readthedocs.io/ (accessed in 2021)."
+          },
+          {
+            "key": "S0263574722000625_ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2012.6386109"
+          },
+          {
+            "key": "S0263574722000625_ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2018.8460875"
+          },
+          {
+            "key": "S0263574722000625_ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-04182-3_23"
+          },
+          {
+            "key": "S0263574722000625_ref44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA40945.2020.9197488"
+          },
+          {
+            "key": "S0263574722000625_ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/scirobotics.aau5872"
+          },
+          {
+            "key": "S0263574722000625_ref3",
+            "unstructured": "[3] Xie, Z. , Clary, P. , Dao, J. , Morais, P. , Hurst, J. W. and van de Panne, M. , “Iterative reinforcement learning based design of dynamic locomotion skills for cassie,” CoRR abs/1903.09537 (2019). arXiv: 1903.09537. http://arxiv.org/abs/1903.09537"
+          },
+          {
+            "key": "S0263574722000625_ref38",
+            "unstructured": "[38] Rajeswaran, A. , Ghotra, S. , Ravindran, B. and Levine, S. , “Epopt: Learning robust neural network policies using model ensembles,” arXiv preprint, arXiv:1610.01283 (2016)."
+          },
+          {
+            "key": "S0263574722000625_ref31",
+            "unstructured": "[31] Tzeng, E. , Devin, C. , Hoffman, J. , et al., “Adapting deep visuomotor representations with weak pairwise constraints,” arXiv preprint, arXiv:1511.07111 (2015)."
+          },
+          {
+            "key": "S0263574722000625_ref41",
+            "unstructured": "[41] Dhariwal, P. , Hesse, C. , Klimov, O. , et al., “OpenAI Baselines,” (2017), https://github.com/openai/ baselines (accessed in 2019)."
+          },
+          {
+            "key": "S0263574722000625_ref34",
+            "unstructured": "[34] Henderson, P. , Chang, W.-D. , Shkurti, F. , Hansen, J. , Meger, D. and Dudek, G. , “Benchmark environments for multitask learning in continuous domains,” arXiv preprint, arXiv:1708.04352 (2017)."
+          },
+          {
+            "key": "S0263574722000625_ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2014.7041375"
+          },
+          {
+            "key": "S0263574722000625_ref40",
+            "unstructured": "[40] Schulman, J. , Moritz, P. , Levine, S. , Jordan, M. and Abbeel, P. , “High-dimensional continuous control using generalized advantage estimation,” arXiv preprint, arXiv:1506.02438 (2015)."
+          },
+          {
+            "key": "S0263574722000625_ref10",
+            "unstructured": "[10] Ha, S. , Xu, P. , Tan, Z. , Levine, S. and Tan, J. , “Learning to walk in the real world with minimal human effort,” CoRR abs/2002.08550 (2020). arXiv:2002.08550. https://arxiv.org/abs/2002.08550"
+          },
+          {
+            "key": "S0263574722000625_ref28",
+            "first-page": "4749",
+            "article-title": "“Structured Control Nets for Deep Reinforcement Learning,",
+            "author": "Srouji",
+            "year": "2018",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "S0263574722000625_ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2017.8202133"
+          },
+          {
+            "key": "S0263574722000625_ref39",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v32i1.11775"
+          },
+          {
+            "key": "S0263574722000625_ref13",
+            "unstructured": "[13] Peng, X. B. , Coumans, E. , Zhang, T. , Lee, T. E. , Tan, J. and Levine, S. , “Learning agile robotic locomotion skills by imitating animals,” CoRR abs/2004.00784 (2020). arXiv:2004.00784. https://arxiv.org/abs/2004.00784"
+          },
+          {
+            "key": "S0263574722000625_ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2015.7353843"
+          },
+          {
+            "key": "S0263574722000625_ref4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[4] Siekmann, J. , Green, K. , Warila, J. , Fern, A. and Hurst, J.W. , “Blind bipedal stair traversal via sim-to-real reinforcement learning,” CoRR abs/2105.08328 (2021). arXiv:2105.08328. https://arxiv.org/abs/2105.08328",
+            "DOI": "10.15607/RSS.2021.XVII.061"
+          },
+          {
+            "key": "S0263574722000625_ref20",
+            "unstructured": "[20] Bansal, T. , Pachocki, J. , Sidor, S. , Sutskever, I. and Mordatch, I. , “Emergent complexity via multi-agent competition,” arXiv preprint, arXiv:1710.03748 (2017)."
+          },
+          {
+            "key": "S0263574722000625_ref35",
+            "unstructured": "[35] Dong, Z. , “Tensorflow implementation for robust adversarial reinforcement learning,” (2018), https://github.com/Jekyll1021/RARL (accessed in March 2019)."
+          },
+          {
+            "key": "S0263574722000625_ref18",
+            "unstructured": "[18] Fujita, Y. and Maeda, S.-i. , “Clipped action policy gradient,” arXiv preprint, arXiv:1802.07564 (2018)."
+          },
+          {
+            "key": "S0263574722000625_ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v32i1.11694"
+          },
+          {
+            "key": "S0263574722000625_ref17",
+            "unstructured": "[17] Schulman, J. , Wolski, F. , Dhariwal, P. , Radford, A. and Klimov, O. , “Proximal policy optimization algorithms,” arXiv preprint, arXiv:1707.06347 (2017)."
+          },
+          {
+            "key": "S0263574722000625_ref27",
+            "unstructured": "[27] Haarnoja, T. , Zhou, A. , Abbeel, P. and Levine, S. , “Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor,” arXiv preprint, arXiv:1801.01290 (2018)."
+          },
+          {
+            "key": "S0263574722000625_ref24",
+            "unstructured": "[24] Cobbe, K. , Klimov, O. , Hesse, C. , Kim, T. and Schulman, J. , “Quantifying generalization in reinforcement learning,” arXiv preprint, arXiv:1812.02341 (2018)."
+          },
+          {
+            "key": "S0263574722000625_ref1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[1] Gupta, A. , Eppner, C. , Levine, S. and Abbeel, P. , “Learning dexterous manipulation for a soft robotic hand from human demonstration,” CoRR abs/1603.06348 (2016). arXiv:1603.06348. http://arxiv.org/abs/1603.06348",
+            "DOI": "10.1109/IROS.2016.7759557"
+          },
+          {
+            "key": "S0263574722000625_ref37",
+            "unstructured": "[37] Brockman, G. , Cheung, V. , Pettersson, L. , Schneider, J. , Schulman, J. , Tang, J. and Zaremba, W. , “Openai gym,” arXiv preprint, arXiv:1606.01540 (2016)."
+          },
+          {
+            "key": "S0263574722000625_ref2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[2] Rajeswaran, A. , Kumar, V. , Gupta, A. , Schulman, J. , Todorov, E. and Levine, S. , “Learning complex dexterous manipulation with deep reinforcement learning and demonstrations,” CoRR abs/1709.10087 (2017). arXiv:1709.10087. http://arxiv.org/abs/1709.10087",
+            "DOI": "10.15607/RSS.2018.XIV.049"
+          },
+          {
+            "key": "S0263574722000625_ref43",
+            "unstructured": "[43] Whitman, J. , Travers, M. J. and Choset, H. , “Learning modular robot control policies,” CoRR abs/2105.10049 (2021). arXiv:2105.10049. https://arxiv.org/abs/2105.10049"
+          },
+          {
+            "key": "S0263574722000625_ref33",
+            "unstructured": "[33] Shioya, H. , Iwasawa, Y. and Matsuo, Y. , “Extending Robust Adversarial Reinforcement Learning Considering Adaptation and Diversity,” In: International Conference on Learning Representations (2018). https://openreview.net/forum?id=BJ7Upwyvf"
+          }
+        ],
+        "container-title": [
+          "Robotica"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0263574722000625",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              6
+            ]
+          ],
+          "date-time": "2022-10-06T12:56:45Z",
+          "timestamp": 1665061005000
+        },
+        "score": 27.252916,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/S0263574722000625/type/journal_article"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              11
+            ]
+          ]
+        },
+        "references-count": 44,
+        "journal-issue": {
+          "issue": "11",
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                11
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0263574722000625"
+        ],
+        "URL": "https://doi.org/10.1017/s0263574722000625",
+        "ISSN": [
+          "0263-5747",
+          "1469-8668"
+        ],
+        "issn-type": [
+          {
+            "value": "0263-5747",
+            "type": "print"
+          },
+          {
+            "value": "1469-8668",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              11
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

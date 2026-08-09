@@ -1,0 +1,124 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9822060,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              27
+            ]
+          ],
+          "date-time": "2024-12-27T23:10:09Z",
+          "timestamp": 1735341009951,
+          "version": "3.32.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "group-title": "SSRN",
+        "reference-count": 0,
+        "publisher": "Elsevier BV",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.2139/ssrn.5074011",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              27
+            ]
+          ],
+          "date-time": "2024-12-27T22:37:34Z",
+          "timestamp": 1735339054000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Explainable Lifelong Streaming Learning Based on Episode-to-Concept Formation"
+        ],
+        "prefix": "10.2139",
+        "author": [
+          {
+            "given": "Chu Kiong",
+            "family": "Loo",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Yi",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Wei  Shiung",
+            "family": "Liew",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stefan",
+            "family": "Wermter",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              27
+            ]
+          ],
+          "date-time": "2024-12-27T22:37:34Z",
+          "timestamp": 1735339054000
+        },
+        "score": 26.99049,
+        "resource": {
+          "primary": {
+            "URL": "https://www.ssrn.com/abstract=5074011"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.2139/ssrn.5074011",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

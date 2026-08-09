@@ -1,0 +1,664 @@
+{
+  "id": "https://openalex.org/W2089136272",
+  "doi": "https://doi.org/10.1126/science.312.5775.817c",
+  "title": "Going for the Correct Orientation",
+  "display_name": "Going for the Correct Orientation",
+  "publication_year": 2006,
+  "publication_date": "2006-05-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2089136272",
+    "doi": "https://doi.org/10.1126/science.312.5775.817c",
+    "mag": "2089136272"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1126/science.312.5775.817c",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1126/science.312.5775.817c",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Science",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.12228668,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "312",
+    "issue": "5775",
+    "first_page": "817",
+    "last_page": "817"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10268",
+    "display_name": "Developmental Biology and Gene Regulation",
+    "score": 0.9714999794960022,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10268",
+      "display_name": "Developmental Biology and Gene Regulation",
+      "score": 0.9714999794960022,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10423",
+      "display_name": "Neurobiology and Insect Physiology Research",
+      "score": 0.01269999984651804,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12061",
+      "display_name": "Axon Guidance and Neuronal Signaling",
+      "score": 0.0031999999191612005,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/orientation",
+      "display_name": "Orientation (vector space)",
+      "score": 0.7440115213394165
+    },
+    {
+      "id": "https://openalex.org/keywords/business",
+      "display_name": "Business",
+      "score": 0.3896823823451996
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.34346282482147217
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.1823778748512268
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.14737382531166077
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C16345878",
+      "wikidata": "https://www.wikidata.org/wiki/Q107472979",
+      "display_name": "Orientation (vector space)",
+      "level": 2,
+      "score": 0.7440115213394165
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.3896823823451996
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.34346282482147217
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.1823778748512268
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.14737382531166077
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1126/science.312.5775.817c",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.312.5775.817c",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W1972437902",
+    "https://openalex.org/W1596801655",
+    "https://openalex.org/W2387147530",
+    "https://openalex.org/W2373011076",
+    "https://openalex.org/W2688602461"
+  ],
+  "abstract_inverted_index": {
+    "Development": [
+      0
+    ],
+    "of": [
+      1,
+      14,
+      44,
+      102,
+      120,
+      128,
+      146
+    ],
+    "the": [
+      2,
+      8,
+      24,
+      30,
+      42,
+      48,
+      57,
+      100,
+      126,
+      144,
+      153,
+      162
+    ],
+    "Drosophila": [
+      3
+    ],
+    "sensory": [
+      4,
+      15
+    ],
+    "organ": [
+      5,
+      16
+    ],
+    "depends": [
+      6,
+      51
+    ],
+    "on": [
+      7,
+      52,
+      125
+    ],
+    "polarization": [
+      9
+    ],
+    "and": [
+      10,
+      38,
+      74,
+      76,
+      93,
+      130,
+      148,
+      152
+    ],
+    "subsequent": [
+      11
+    ],
+    "asymmetric": [
+      12,
+      94
+    ],
+    "division": [
+      13,
+      95
+    ],
+    "precursor": [
+      17
+    ],
+    "cells": [
+      18,
+      80
+    ],
+    "(SOPs),": [
+      19
+    ],
+    "which": [
+      20
+    ],
+    "give": [
+      21
+    ],
+    "rise": [
+      22
+    ],
+    "to": [
+      23,
+      64,
+      113,
+      139,
+      160
+    ],
+    "cell": [
+      25,
+      114
+    ],
+    "types": [
+      26
+    ],
+    "that": [
+      27,
+      79,
+      156
+    ],
+    "make": [
+      28
+    ],
+    "up": [
+      29
+    ],
+    "mature": [
+      31
+    ],
+    "structure.": [
+      32
+    ],
+    "Although": [
+      33
+    ],
+    "SOPs": [
+      34,
+      110
+    ],
+    "can": [
+      35
+    ],
+    "become": [
+      36
+    ],
+    "polarized": [
+      37,
+      107
+    ],
+    "divide": [
+      39
+    ],
+    "asymmetrically": [
+      40
+    ],
+    "in": [
+      41,
+      90,
+      99,
+      109,
+      143,
+      149
+    ],
+    "absence": [
+      43
+    ],
+    "external": [
+      45
+    ],
+    "signals,": [
+      46
+    ],
+    "achieving": [
+      47
+    ],
+    "correct": [
+      49
+    ],
+    "orientation": [
+      50,
+      92
+    ],
+    "extracellular": [
+      53
+    ],
+    "signals": [
+      54
+    ],
+    "transduced": [
+      55
+    ],
+    "through": [
+      56,
+      66
+    ],
+    "Frizzled": [
+      58
+    ],
+    "(Fz)": [
+      59
+    ],
+    "receptor.": [
+      60
+    ],
+    "Fz": [
+      61,
+      129,
+      134
+    ],
+    "is": [
+      62,
+      111
+    ],
+    "known": [
+      63
+    ],
+    "signal": [
+      65
+    ],
+    "heterotrimeric": [
+      67
+    ],
+    "GTP-binding": [
+      68
+    ],
+    "proteins": [
+      69
+    ],
+    "containing": [
+      70,
+      81
+    ],
+    "Go-type": [
+      71
+    ],
+    "α": [
+      72
+    ],
+    "subunits,": [
+      73
+    ],
+    "Katanaev": [
+      75
+    ],
+    "Tomlinson": [
+      77
+    ],
+    "demonstrate": [
+      78
+    ],
+    "mutant": [
+      82
+    ],
+    "Go": [
+      83,
+      87,
+      123,
+      136
+    ],
+    "or": [
+      84
+    ],
+    "overexpressing": [
+      85,
+      121
+    ],
+    "wild-type": [
+      86,
+      122
+    ],
+    "show": [
+      88
+    ],
+    "defects": [
+      89
+    ],
+    "both": [
+      91,
+      142
+    ],
+    "as": [
+      96,
+      98
+    ],
+    "well": [
+      97
+    ],
+    "localization": [
+      101
+    ],
+    "Numb,": [
+      103
+    ],
+    "a": [
+      104
+    ],
+    "protein": [
+      105
+    ],
+    "whose": [
+      106
+    ],
+    "distribution": [
+      108
+    ],
+    "key": [
+      112
+    ],
+    "fate": [
+      115
+    ],
+    "determination.": [
+      116
+    ],
+    "The": [
+      117
+    ],
+    "phenotypic": [
+      118
+    ],
+    "effects": [
+      119
+    ],
+    "depended": [
+      124
+    ],
+    "expression": [
+      127
+    ],
+    "were": [
+      131
+    ],
+    "enhanced": [
+      132
+    ],
+    "by": [
+      133
+    ],
+    "overexpression.": [
+      135
+    ],
+    "thus": [
+      137
+    ],
+    "appears": [
+      138
+    ],
+    "be": [
+      140
+    ],
+    "involved": [
+      141
+    ],
+    "establishment": [
+      145
+    ],
+    "asymmetry": [
+      147
+    ],
+    "specifying": [
+      150
+    ],
+    "orientation,": [
+      151
+    ],
+    "authors": [
+      154
+    ],
+    "propose": [
+      155
+    ],
+    "it": [
+      157
+    ],
+    "may": [
+      158
+    ],
+    "act": [
+      159
+    ],
+    "integrate": [
+      161
+    ],
+    "two.": [
+      163
+    ],
+    "—": [
+      164
+    ],
+    "EMA": [
+      165
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-03-03T08:47:05.690250",
+  "created_date": "2016-06-24T00:00:00"
+}

@@ -1,0 +1,583 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2988877,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              22
+            ]
+          ],
+          "date-time": "2026-01-22T07:04:53Z",
+          "timestamp": 1769065493428,
+          "version": "3.49.0"
+        },
+        "reference-count": 35,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2018-09-01T00:00:00Z",
+              "timestamp": 1535760000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2018-09-01T00:00:00Z",
+              "timestamp": 1535760000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2018.05.004",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              5,
+              23
+            ]
+          ],
+          "date-time": "2018-05-23T21:46:29Z",
+          "timestamp": 1527111989000
+        },
+        "page": "73-95",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 30,
+        "special_numbering": "C",
+        "title": [
+          "Workspace, joint space and singularities of a family of delta-like robot"
+        ],
+        "prefix": "10.1016",
+        "volume": "127",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4741-0475",
+            "authenticated-orcid": false,
+            "given": "Ranjan",
+            "family": "Jha",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Damien",
+            "family": "Chablat",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Luc",
+            "family": "Baron",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Fabrice",
+            "family": "Rouillier",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Guillaume",
+            "family": "Moroz",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0001",
+            "doi-asserted-by": "crossref",
+            "first-page": "52",
+            "DOI": "10.1115/1.3267347",
+            "article-title": "An algorithm for the workspace of a general nr robot",
+            "volume": "105",
+            "author": "Tsai",
+            "year": "1983",
+            "journal-title": "J. Mech., Transm., Autom. Design"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0002",
+            "doi-asserted-by": "crossref",
+            "first-page": "22",
+            "DOI": "10.1177/027836498300200302",
+            "article-title": "Generation and evaluation of the workspace of a manipulator",
+            "volume": "2",
+            "author": "Hansen",
+            "year": "1983",
+            "journal-title": "Int. J. Rob. Res."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0003",
+            "doi-asserted-by": "crossref",
+            "first-page": "331",
+            "DOI": "10.1115/1.2912612",
+            "article-title": "Determination of the workspace of 6-dof parallel manipulators",
+            "volume": "112",
+            "author": "Gosselin",
+            "year": "1990",
+            "journal-title": "ASME J. Mech. Design"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0004",
+            "series-title": "Advances in Robot Kinematics, Ferrare, Italy, Sept",
+            "first-page": "7",
+            "article-title": "Geometrical determination of the workspace of a constrained parallel manipulator",
+            "author": "Merlet",
+            "year": "1992"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "14",
+            "DOI": "10.1080/15397730701729478",
+            "article-title": "A fairly general algorithm to evaluate workspace characteristics of serial and parallel manipulators",
+            "volume": "36",
+            "author": "Castelli",
+            "year": "2008",
+            "journal-title": "Mech. Based Des. Struct. Mach."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0006",
+            "doi-asserted-by": "crossref",
+            "first-page": "15",
+            "DOI": "10.1016/S0094-114X(00)00032-X",
+            "article-title": "A new approach to orientation workspace analysis of 6-dof parallel manipulators",
+            "volume": "36",
+            "author": "Bonev",
+            "year": "2001",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0007",
+            "doi-asserted-by": "crossref",
+            "first-page": "615",
+            "DOI": "10.1177/0278364904044079",
+            "article-title": "An interval analysis based study for the design and the comparison of three-degrees-of-freedom parallel kinematic machines",
+            "volume": "23",
+            "author": "Chablat",
+            "year": "2004",
+            "journal-title": "Int. J. Rob. Res."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0008",
+            "doi-asserted-by": "crossref",
+            "first-page": "971",
+            "DOI": "10.1016/j.mechmachtheory.2006.03.013",
+            "article-title": "An exhaustive study of the workspace topologies of all 3r orthogonal manipulators with geometric simplifications",
+            "volume": "41",
+            "author": "Zein",
+            "year": "2006",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0009",
+            "doi-asserted-by": "crossref",
+            "first-page": "236",
+            "DOI": "10.1115/1.2120807",
+            "article-title": "Identification of the workspace boundary of a general 3-r manipulator",
+            "volume": "128",
+            "author": "Ottaviano",
+            "year": "2006",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0010",
+            "series-title": "Advances in Robot Kinematics",
+            "first-page": "149",
+            "article-title": "Non-singular assembly mode changing trajectories in the workspace for the 3-rps parallel robot",
+            "author": "Chablat",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0011",
+            "series-title": "Robotics and Automation (ICRA), 2011 IEEE International Conference on",
+            "first-page": "3946",
+            "article-title": "Uniqueness domains and non singular assembly mode changing trajectories",
+            "author": "Chablat",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0012",
+            "series-title": "Contributions to the Performance Analysis of Parallel Robots",
+            "author": "Jha",
+            "year": "2016"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0013",
+            "series-title": "Springer Handbook of Robotics",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-319-32552-1",
+            "author": "Siciliano",
+            "year": "2016"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0014",
+            "doi-asserted-by": "crossref",
+            "first-page": "447",
+            "DOI": "10.1115/1.1289388",
+            "article-title": "An optimization approach to the determination of the boundaries of manipulator workspaces",
+            "volume": "122",
+            "author": "Snyman",
+            "year": "2000",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "1011",
+            "DOI": "10.1109/TRO.2006.878983",
+            "article-title": "Analytical determination of the workspace of symmetrical spherical parallel mechanisms",
+            "volume": "22",
+            "author": "Bonev",
+            "year": "2006",
+            "journal-title": "IEEE Trans. Rob."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0016",
+            "doi-asserted-by": "crossref",
+            "first-page": "993",
+            "DOI": "10.1109/TRO.2012.2196311",
+            "article-title": "A complete method for workspace boundary determination on general structure manipulators",
+            "volume": "28",
+            "author": "Bohigas",
+            "year": "2012",
+            "journal-title": "IEEE Trans. Rob."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_sbref0017",
+            "series-title": "ASME 2014 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+            "article-title": "Workspace and joint space analysis of the 3-rps parallel robot",
+            "author": "Chablat",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0018",
+            "series-title": "Robotics and Mechatronics",
+            "first-page": "121",
+            "article-title": "Workspace and singularity analysis of a delta like family robot",
+            "author": "Jha",
+            "year": "2016"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0019",
+            "doi-asserted-by": "crossref",
+            "first-page": "30",
+            "DOI": "10.1139/tcsme-2017-0011",
+            "article-title": "Influence of design parameters on the singularities and workspace of a 3-rps parallel robot",
+            "volume": "42",
+            "author": "Jha",
+            "year": "2018",
+            "journal-title": "Trans. Can. Soc. Mech. Eng."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0020",
+            "series-title": "Computational Kinematics",
+            "first-page": "422",
+            "article-title": "Kinetostatic analysis and solution classification of a planar tensegrity mechanism",
+            "author": "Wenger",
+            "year": "2018"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0021",
+            "doi-asserted-by": "crossref",
+            "first-page": "1555",
+            "DOI": "10.1016/j.mechmachtheory.2010.06.016",
+            "article-title": "On the determination of cusp points of 3-rpr parallel manipulators",
+            "volume": "45",
+            "author": "Moroz",
+            "year": "2010",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0022",
+            "doi-asserted-by": "crossref",
+            "first-page": "041003",
+            "DOI": "10.1115/1.4006921",
+            "article-title": "Cusp points in the parameter space of degenerate 3-rpr planar parallel manipulators",
+            "volume": "4",
+            "author": "Manubens",
+            "year": "2012",
+            "journal-title": "J. Mech. Robot."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0023",
+            "series-title": "New Trends in Mechanism Science",
+            "first-page": "29",
+            "article-title": "Cusp points in the parameter space of rpr-2prr parallel manipulators",
+            "author": "Moroz",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0024",
+            "series-title": "ASME 2012 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+            "first-page": "1245",
+            "article-title": "Non-singular assembly mode changing trajectories of a 6-dof parallel robot",
+            "author": "Caro",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0025",
+            "series-title": "Parallel robots",
+            "volume": "128",
+            "author": "Merlet",
+            "year": "2006"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0026",
+            "doi-asserted-by": "crossref",
+            "first-page": "636",
+            "DOI": "10.1016/j.jsc.2007.01.007",
+            "article-title": "Solving parametric polynomial systems",
+            "volume": "42",
+            "author": "Lazard",
+            "year": "2007",
+            "journal-title": "J. Symb. Comput."
+          },
+          {
+            "issue": "3/4",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0027",
+            "doi-asserted-by": "crossref",
+            "first-page": "61",
+            "DOI": "10.1145/1823931.1823933",
+            "article-title": "A package for solving parametric polynomial systems",
+            "volume": "43",
+            "author": "Gerhard",
+            "year": "2010",
+            "journal-title": "ACM Commun. Comput. Algebra"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0028",
+            "series-title": "Cylindrical Algebraic Decomposition",
+            "volume": "Maple User Manual",
+            "author": "Maple",
+            "year": "2005"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0029",
+            "series-title": "Cell Decomposition",
+            "volume": "Maple User Manual",
+            "author": "Maple",
+            "year": "2005"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0030",
+            "doi-asserted-by": "crossref",
+            "first-page": "39",
+            "DOI": "10.1017/S0263574704000347",
+            "article-title": "Kinematics and workspace analysis of a three-axis parallel manipulator: the orthoglide",
+            "volume": "24",
+            "author": "Pashkevich",
+            "year": "2006",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0031",
+            "series-title": "Parallel kinematic machines",
+            "first-page": "345",
+            "article-title": "Hexaglide 6 dof and triaglide 3 dof parallel manipulators",
+            "author": "Hebsacker",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0032",
+            "series-title": "Using algebraic geometry",
+            "volume": "185",
+            "author": "Cox",
+            "year": "2006"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0033",
+            "doi-asserted-by": "crossref",
+            "first-page": "1139",
+            "DOI": "10.1016/j.jsc.2011.05.013",
+            "article-title": "Properness defects of projection and minimal discriminant variety",
+            "volume": "46",
+            "author": "Moroz",
+            "year": "2011",
+            "journal-title": "J. Symb. Comput."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_bib0034",
+            "series-title": "Sur la décomposition réelle et al.ébrique des systemes dépendant de parametres",
+            "author": "Moroz",
+            "year": "2008"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2018.05.004_sbref0035",
+            "series-title": "ASME 2015 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+            "article-title": "An algebraic method to check the singularity-free paths for parallel robots",
+            "author": "Jha",
+            "year": "2015"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X18302313?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X18302313?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T14:00:53Z",
+          "timestamp": 1758808853000
+        },
+        "score": 30.99858,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X18302313"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "references-count": 35,
+        "alternative-id": [
+          "S0094114X18302313"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2018.05.004",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Workspace, joint space and singularities of a family of delta-like robot",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2018.05.004",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2018 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

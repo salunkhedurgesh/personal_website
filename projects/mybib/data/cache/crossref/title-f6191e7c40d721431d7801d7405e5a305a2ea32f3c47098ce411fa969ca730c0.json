@@ -1,0 +1,147 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8167882,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2026-02-19T23:22:46Z",
+          "timestamp": 1771543366530,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.23919/ecc.2013.6669617",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              21
+            ]
+          ],
+          "date-time": "2018-06-21T16:11:56Z",
+          "timestamp": 1529597516000
+        },
+        "page": "3864-3869",
+        "source": "Crossref",
+        "is-referenced-by-count": 149,
+        "title": [
+          "Full quaternion based attitude control for a quadrotor"
+        ],
+        "prefix": "10.23919",
+        "author": [
+          {
+            "given": "Emil",
+            "family": "Fresk",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "George",
+            "family": "Nikolakopoulos",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "event": {
+          "name": "2013 European Control Conference (ECC)",
+          "location": "Zurich",
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                17
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                19
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2013 European Control Conference (ECC)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6657188/6669080/06669617.pdf?arnumber=6669617",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              21
+            ]
+          ],
+          "date-time": "2018-06-21T16:17:28Z",
+          "timestamp": 1529597848000
+        },
+        "score": 36.61143,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/6669617/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.23919/ecc.2013.6669617",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

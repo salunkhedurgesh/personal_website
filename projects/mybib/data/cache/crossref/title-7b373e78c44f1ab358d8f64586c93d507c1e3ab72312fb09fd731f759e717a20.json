@@ -1,0 +1,817 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9505833,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T22:05:30Z",
+          "timestamp": 1773266730842,
+          "version": "3.50.1"
+        },
+        "reference-count": 60,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  10,
+                  26
+                ]
+              ],
+              "date-time": "2023-10-26T00:00:00Z",
+              "timestamp": 1698278400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  10,
+                  26
+                ]
+              ],
+              "date-time": "2023-10-26T00:00:00Z",
+              "timestamp": 1698278400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "funder": [
+          {
+            "name": "European Union’s Horizon 2020 Research and Innovation Program, European Research Council",
+            "award": [
+              "Grant Agreement No. 724295 (NeuroAgents)"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "Grant Agreement No. 724295 (NeuroAgents)"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "European Union’s Horizon 2020 Research and Innovation Program, European Research Council",
+            "award": [
+              "Grant Agreement No. 724295 (NeuroAgents)"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "Grant Agreement No. 724295 (NeuroAgents)"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "npj Robot"
+        ],
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Current low-latency neuromorphic processing systems hold great potential for developing autonomous artificial agents. However, the variable nature and low precision of the underlying hardware substrate pose severe challenges for robust and reliable performance. To address these challenges, we adopt hardware-friendly processing strategies based on brain-inspired computational primitives, such as triplet spike-timing dependent plasticity, basal ganglia-inspired disinhibition, and cooperative-competitive networks and apply them to motor control. We demonstrate this approach by presenting an example of robust online motor control using a hardware spiking neural network implemented on a mixed-signal neuromorphic processor, trained to learn the inverse kinematics of a two-joint robotic arm. The final system is able to perform low-latency control robustly and reliably using noisy silicon neurons. The spiking neural network, trained to control two joints of the iCub robot arm simulator, performs a continuous target-reaching task with 97.93% accuracy, 33.96 ms network latency, 102.1 ms system latency, and with an estimated power consumption of 26.92 μW during inference (control). This work provides insights into how specific computational primitives used by real neural systems can be applied to neuromorphic computing for solving real-world engineering tasks. It represents a milestone in the design of end-to-end spiking robotic control systems, relying on event-driven sensory encoding, neuromorphic processing, and spiking motor control.</jats:p>",
+        "DOI": "10.1038/s44182-023-00001-w",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              26
+            ]
+          ],
+          "date-time": "2023-10-26T10:02:29Z",
+          "timestamp": 1698314549000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "title": [
+          "Learning inverse kinematics using neural computational primitives on neuromorphic hardware"
+        ],
+        "prefix": "10.1038",
+        "volume": "1",
+        "author": [
+          {
+            "given": "Jingyue",
+            "family": "Zhao",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Marco",
+            "family": "Monforte",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Giacomo",
+            "family": "Indiveri",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Chiara",
+            "family": "Bartolozzi",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Elisa",
+            "family": "Donati",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              26
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "1_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "434",
+            "DOI": "10.1038/s41928-020-0448-2",
+            "volume": "3",
+            "author": "C Mead",
+            "year": "2020",
+            "unstructured": "Mead, C. How we created neuromorphic engineering. Nat. Electron. 3, 434–435 (2020).",
+            "journal-title": "Nat. Electron."
+          },
+          {
+            "key": "1_CR2",
+            "unstructured": "Christensen, D. V. et al. 2022 roadmap on neuromorphic computing and engineering. Neuromorp. Comput. Eng. 2, 022501(2022)."
+          },
+          {
+            "key": "1_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "1367",
+            "DOI": "10.1109/JPROC.2014.2313954",
+            "volume": "102",
+            "author": "E Chicca",
+            "year": "2014",
+            "unstructured": "Chicca, E., Stefanini, F., Bartolozzi, C. & Indiveri, G. Neuromorphic electronic circuits for building autonomous cognitive systems. Proc. IEEE 102, 1367–1388 (2014).",
+            "journal-title": "Proc. IEEE"
+          },
+          {
+            "key": "1_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "1138",
+            "DOI": "10.1109/TBCAS.2020.3036081",
+            "volume": "14",
+            "author": "M Rahimiazghadi",
+            "year": "2020",
+            "unstructured": "Rahimiazghadi, M. et al. Hardware implementation of deep network accelerators towards healthcare and biomedical applications. IEEE Transa. Biomed. Circuits Syst. 14, 1138–1159 (2020).",
+            "journal-title": "IEEE Transa. Biomed. Circuits Syst."
+          },
+          {
+            "key": "1_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "578",
+            "DOI": "10.1109/JETCAS.2020.3037951",
+            "volume": "10",
+            "author": "Y Ma",
+            "year": "2020",
+            "unstructured": "Ma, Y. et al. Emg-based gestures classification using a mixed-signal neuromorphic processing system. IEEE J. Emerg. Select. Topics Circuits Syst. 10, 578–587 (2020).",
+            "journal-title": "IEEE J. Emerg. Select. Topics Circuits Syst."
+          },
+          {
+            "key": "1_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "223",
+            "DOI": "10.3389/fnins.2013.00223",
+            "volume": "7",
+            "author": "T Delbruck",
+            "year": "2013",
+            "unstructured": "Delbruck, T. & Lang, M. Robotic goalie with 3 ms reaction time at 4% cpu load using event-based dynamic vision sensor. Front. Neurosci. 7, 223 (2013).",
+            "journal-title": "Front. Neurosci."
+          },
+          {
+            "key": "1_CR7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bartolozzi, C. et al. Embedded neuromorphic vision for humanoid robots. In CVPR 2011 Workshops 129–135 (IEEE, 2011).",
+            "DOI": "10.1109/CVPRW.2011.5981834"
+          },
+          {
+            "key": "1_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "eabl8419",
+            "DOI": "10.1126/scirobotics.abl8419",
+            "volume": "7",
+            "author": "Y Sandamirskaya",
+            "year": "2022",
+            "unstructured": "Sandamirskaya, Y., Kaboli, M., Conradt, J. & Celikel, T. Neuromorphic computing hardware and neural architectures for robotics. Sci. Robot. 7, eabl8419 (2022).",
+            "journal-title": "Sci. Robot."
+          },
+          {
+            "key": "1_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "288",
+            "DOI": "10.1016/j.conb.2010.03.007",
+            "volume": "20",
+            "author": "S-C Liu",
+            "year": "2010",
+            "unstructured": "Liu, S.-C. & Delbruck, T. Neuromorphic sensory systems. Curr. Opin. Neurobiol. 20, 288–295 (2010).",
+            "journal-title": "Curr. Opin. Neurobiol."
+          },
+          {
+            "key": "1_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "93",
+            "DOI": "10.3389/fnbot.2020.568283",
+            "volume": "14",
+            "author": "N Risi",
+            "year": "2020",
+            "unstructured": "Risi, N., Aimar, A., Donati, E., Solinas, S. & Indiveri, G. A spike-based neuromorphic architecture of stereo vision. Front. Neurorobot. 14, 93 (2020).",
+            "journal-title": "Front. Neurorobot."
+          },
+          {
+            "key": "1_CR11",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kreiser, R., Renner, A., Sandamirskaya, Y. & Pienroj, P. Pose estimation and map formation with spiking neural networks: towards neuromorphic slam. In 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2159–2166 (IEEE, 2018).",
+            "DOI": "10.1109/IROS.2018.8594228"
+          },
+          {
+            "key": "1_CR12",
+            "first-page": "843",
+            "volume": "66",
+            "author": "D Liang",
+            "year": "2019",
+            "unstructured": "Liang, D. & Indiveri, G. A neuromorphic computational primitive for robust context-dependent decision making and context-dependent stochastic computation. IEEE Trans. Circuits Syst. II: Express Briefs 66, 843–847 (2019).",
+            "journal-title": "IEEE Trans. Circuits Syst. II: Express Briefs"
+          },
+          {
+            "key": "1_CR13",
+            "first-page": "1",
+            "volume": "13",
+            "author": "C Bartolozzi",
+            "year": "2022",
+            "unstructured": "Bartolozzi, C., Indiveri, G. & Donati, E. Embodied neuromorphic intelligence. Nat. Commun. 13, 1–14 (2022).",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "1_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "eabk2948",
+            "DOI": "10.1126/scirobotics.abk2948",
+            "volume": "7",
+            "author": "S Ma",
+            "year": "2022",
+            "unstructured": "Ma, S. et al. Neuromorphic computing chip with spatiotemporal elasticity for multi-intelligent-tasking robots. Sci. Robot. 7, eabk2948 (2022).",
+            "journal-title": "Sci. Robot."
+          },
+          {
+            "key": "1_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Perez-Peña, F., Leñero-Bardallo, J. A., Linares-Barranco, A. & Chicca, E. Towards bioinspired close-loop local motor control: a simulated approach supporting neuromorphic implementations. In 2017 IEEE International Symposium on Circuits and Systems (ISCAS) 1–4 (IEEE, 2017).",
+            "DOI": "10.1109/ISCAS.2017.8050808"
+          },
+          {
+            "key": "1_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Donati, E., Perez-Peña, F., Bartolozzi, C., Indiveri, G. & Chicca, E. Open-loop neuromorphic controller implemented on vlsi devices. In 2018 7th IEEE International Conference on Biomedical Robotics and Biomechatronics (Biorob) 827–832 (IEEE, 2018).",
+            "DOI": "10.1109/BIOROB.2018.8487937"
+          },
+          {
+            "key": "1_CR17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Stagsted, R. K. et al. Event-based pid controller fully realized in neuromorphic hardware: a one dof study. In 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 10939–10944 (IEEE, 2020).",
+            "DOI": "10.1109/IROS45743.2020.9340861"
+          },
+          {
+            "key": "1_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "546",
+            "DOI": "10.1109/JETCAS.2020.3040390",
+            "volume": "10",
+            "author": "J Zhao",
+            "year": "2020",
+            "unstructured": "Zhao, J. et al. Closed-loop spiking control on a neuromorphic processor implemented on the icub. IEEE J. Emerg. Select. Topics Circuits Syst. 10, 546–556 (2020).",
+            "journal-title": "IEEE J. Emerg. Select. Topics Circuits Syst."
+          },
+          {
+            "key": "1_CR19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Linares-Barranco, A., Perez-Peña, F., Jimenez-Fernandez, A. & Chicca, E. ED-Biorob: a neuromorphic robotic arm with fpga-based infrastructure for bio-inspired spiking motor controllers. Front. Neurorobot. 14, 590163 (2020).",
+            "DOI": "10.3389/fnbot.2020.590163"
+          },
+          {
+            "key": "1_CR20",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Csiszar, A., Eilers, J. & Verl, A. On solving the inverse kinematics problem using neural networks. In 2017 24th International Conference on Mechatronics and Machine Vision in Practice (M2VIP) 1–6 (IEEE, 2017).",
+            "DOI": "10.1109/M2VIP.2017.8211457"
+          },
+          {
+            "key": "1_CR21",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Demby’s, J., Gao, Y. & DeSouza, G. N. A study on solving the inverse kinematics of serial robots using artificial neural network and fuzzy neural network. In 2019 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 1–6 (IEEE, 2019).",
+            "DOI": "10.1109/FUZZ-IEEE.2019.8858872"
+          },
+          {
+            "key": "1_CR22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gholami, A., Homayouni, T., Ehsani, R. & Sun, J.-Q. Inverse kinematic control of a delta robot using neural networks in real-time. Robotics 10, 115 (2021).",
+            "DOI": "10.3390/robotics10040115"
+          },
+          {
+            "key": "1_CR23",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bouganis, A. & Shanahan, M. Training a spiking neural network to control a 4-dof robotic arm based on spike timing-dependent plasticity. In The 2010 International Joint Conference on Neural Networks (IJCNN) 1–8 (IEEE, 2010).",
+            "DOI": "10.1109/IJCNN.2010.5596525"
+          },
+          {
+            "key": "1_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "13",
+            "DOI": "10.3389/fnbot.2015.00013",
+            "volume": "9",
+            "author": "S Dura-Bernal",
+            "year": "2015",
+            "unstructured": "Dura-Bernal, S. et al. Cortical spiking network interfaced with virtual musculoskeletal arm and robotic arm. Front. Neurorobot. 9, 13 (2015).",
+            "journal-title": "Front. Neurorobot."
+          },
+          {
+            "key": "1_CR25",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tieck, J. C. V., Steffen, L., Kaiser, J., Roennau, A. & Dillmann, R. Controlling a robot arm for target reaching without planning using spiking neurons. In 2018 IEEE 17th International Conference on Cognitive Informatics & Cognitive Computing (ICCI* CC) 111–116 (IEEE, 2018).",
+            "DOI": "10.1109/ICCI-CC.2018.8482049"
+          },
+          {
+            "key": "1_CR26",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chadderdon, G. L., Neymotin, S. A., Kerr, C. C. & Lytton, W. W. Reinforcement learning of targeted movement in a spiking neuronal model of motor cortex. PLoS ONE 7, e47251(2012).",
+            "DOI": "10.1371/journal.pone.0047251"
+          },
+          {
+            "key": "1_CR27",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tieck, J. et al. Towards grasping with spiking neural networks for anthropomorphic robot hands. In International Conference on Artificial Neural Networks 43–51 (Springer, 2017).",
+            "DOI": "10.1007/978-3-319-68600-4_6"
+          },
+          {
+            "key": "1_CR28",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zaidel, Y., Shalumov, A., Volinski, A., Supic, L. & Ezra Tsur, E. Neuromorphic nef-based inverse kinematics and pid control. Front. Neurorobot. 15, 631159. (2021).",
+            "DOI": "10.3389/fnbot.2021.631159"
+          },
+          {
+            "key": "1_CR29",
+            "doi-asserted-by": "publisher",
+            "first-page": "82",
+            "DOI": "10.1109/MM.2018.112130359",
+            "volume": "38",
+            "author": "M Davies",
+            "year": "2018",
+            "unstructured": "Davies, M. et al. Loihi: a neuromorphic manycore processor with on-chip learning. IEEE Micro 38, 82–99 (2018).",
+            "journal-title": "IEEE Micro"
+          },
+          {
+            "key": "1_CR30",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Eliasmith, C. How to Build a Brain: A Neural Architecture for Biological Cognition (Oxford Univ. Press, 2013).",
+            "DOI": "10.1093/acprof:oso/9780199794546.001.0001"
+          },
+          {
+            "key": "1_CR31",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Menon, S., Fok, S., Neckar, A., Khatib, O. & Boahen, K. Controlling articulated robots in task-space with spiking silicon neurons. In 5th IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics 181–186 (IEEE, 2014).",
+            "DOI": "10.1109/BIOROB.2014.6913773"
+          },
+          {
+            "key": "1_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "100391",
+            "DOI": "10.1016/j.patter.2021.100391",
+            "volume": "3",
+            "author": "A Volinski",
+            "year": "2022",
+            "unstructured": "Volinski, A. et al. Data-driven artificial and spiking neural networks for inverse kinematics in neurorobotics. Patterns 3, 100391 (2022).",
+            "journal-title": "Patterns"
+          },
+          {
+            "key": "1_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "106",
+            "DOI": "10.1109/TBCAS.2017.2759700",
+            "volume": "12",
+            "author": "S Moradi",
+            "year": "2017",
+            "unstructured": "Moradi, S., Qiao, N., Stefanini, F. & Indiveri, G. A scalable multicore architecture with heterogeneous memory structures for dynamic neuromorphic asynchronous processors (dynaps). IEEE Trans. Biomed. Circuits Syst. 12, 106–122 (2017).",
+            "journal-title": "IEEE Trans. Biomed. Circuits Syst."
+          },
+          {
+            "key": "1_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "eaaq1026",
+            "DOI": "10.1126/scirobotics.aaq1026",
+            "volume": "2",
+            "author": "L Natale",
+            "year": "2017",
+            "unstructured": "Natale, L., Bartolozzi, C., Pucci, D., Wykowska, A. & Metta, G. icub: the not-yet-finished story of building a robot child. Sci. Robot. 2, eaaq1026 (2017).",
+            "journal-title": "Sci. Robot."
+          },
+          {
+            "key": "1_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "277",
+            "DOI": "10.1016/0166-2236(90)90109-N",
+            "volume": "13",
+            "author": "G Chevalier",
+            "year": "1990",
+            "unstructured": "Chevalier, G. & Deniau, J. M. Disinhibition as a basic process in the expression of striatal functions. Trends Neurosci. 13, 277–280 (1990).",
+            "journal-title": "Trends Neurosci."
+          },
+          {
+            "key": "1_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "107",
+            "DOI": "10.1155/NP.2003.107",
+            "volume": "10",
+            "author": "HJ Groenewegen",
+            "year": "2003",
+            "unstructured": "Groenewegen, H. J. The basal ganglia and motor control. Neural Plast. 10, 107–120 (2003).",
+            "journal-title": "Neural Plast."
+          },
+          {
+            "key": "1_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "953",
+            "DOI": "10.1152/physrev.2000.80.3.953",
+            "volume": "80",
+            "author": "O Hikosaka",
+            "year": "2000",
+            "unstructured": "Hikosaka, O., Takikawa, Y. & Kawagoe, R. Role of the basal ganglia in the control of purposive saccadic eye movements. Physiol. Rev. 80, 953–978 (2000).",
+            "journal-title": "Physiol. Rev."
+          },
+          {
+            "key": "1_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "283",
+            "DOI": "10.1126/science.968482",
+            "volume": "194",
+            "author": "D Marr",
+            "year": "1976",
+            "unstructured": "Marr, D. & Poggio, T. Cooperative computation of stereo disparity: a cooperative algorithm is derived for extracting disparity information from stereo image pairs. Science 194, 283–287 (1976).",
+            "journal-title": "Science"
+          },
+          {
+            "key": "1_CR39",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1038/s41598-016-0028-x",
+            "volume": "7",
+            "author": "M Osswald",
+            "year": "2017",
+            "unstructured": "Osswald, M., Ieng, S.-H., Benosman, R. & Indiveri, G. A spiking neural network model of 3d perception for event-based neuromorphic stereo vision systems. Sci. Rep. 7, 1–12 (2017).",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "1_CR40",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Athulya, P. et al. A computer vision approach for the inverse kinematics of 2 dof manipulators using neural network. In 2020 IEEE Recent Advances in Intelligent Computational Systems (RAICS) 80–85 (IEEE, 2020).",
+            "DOI": "10.1109/RAICS51191.2020.9332485"
+          },
+          {
+            "key": "1_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "2535",
+            "DOI": "10.1016/j.asej.2017.08.001",
+            "volume": "9",
+            "author": "A El-Sherbiny",
+            "year": "2018",
+            "unstructured": "El-Sherbiny, A., Elhosseini, M. A. & Haikal, A. Y. A comparative study of soft computing methods to solve inverse kinematics problem. Ain Shams Eng. J. 9, 2535–2548 (2018).",
+            "journal-title": "Ain Shams Eng. J."
+          },
+          {
+            "key": "1_CR42",
+            "unstructured": "Tikhanoff, V. et al. The icub humanoid robot simulator. In IROS Workshop on Robot Simulators (2012)."
+          },
+          {
+            "key": "1_CR43",
+            "doi-asserted-by": "publisher",
+            "first-page": "25",
+            "DOI": "10.1007/s10107-004-0559-y",
+            "volume": "106",
+            "author": "A Wächter",
+            "year": "2006",
+            "unstructured": "Wächter, A. & Biegler, L. T. On the implementation of an interior-point filter line-search algorithm for large-scale nonlinear programming. Math. Program. 106, 25–57 (2006).",
+            "journal-title": "Math. Program."
+          },
+          {
+            "key": "1_CR44",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Renner, A., Sandamirskaya, Y., Sommer, F. & Frady, E. P. Sparse vector binding on spiking neuromorphic hardware using synaptic delays. In Proceedings of the International Conference on Neuromorphic Systems 2022 1–5 (Association for Computing Machinery, 2022).",
+            "DOI": "10.1145/3546790.3546820"
+          },
+          {
+            "key": "1_CR45",
+            "doi-asserted-by": "publisher",
+            "first-page": "154",
+            "DOI": "10.1109/TPAMI.2020.3008413",
+            "volume": "44",
+            "author": "G Gallego",
+            "year": "2020",
+            "unstructured": "Gallego, G. et al. Event-based vision: a survey. IEEE Trans. Pattern Anal. Mach. Intell. 44, 154–180 (2020).",
+            "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+          },
+          {
+            "key": "1_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "1421",
+            "DOI": "10.1109/TCSI.2016.2561818",
+            "volume": "64",
+            "author": "S Caviglia",
+            "year": "2016",
+            "unstructured": "Caviglia, S., Pinna, L., Valle, M. & Bartolozzi, C. Spike-based readout of posfet tactile sensors. IEEE Trans. Circuits Syst. I Regul. Pap. 64, 1421–1431 (2016).",
+            "journal-title": "IEEE Trans. Circuits Syst. I Regul. Pap."
+          },
+          {
+            "key": "1_CR47",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1038/s41467-020-15105-2",
+            "volume": "11",
+            "author": "H Tan",
+            "year": "2020",
+            "unstructured": "Tan, H. et al. Tactile sensory coding and learning with bio-inspired optoelectronic spiking afferent nerves. Nat. Commun. 11, 1–9 (2020).",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "key": "1_CR48",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1038/s41598-020-74219-1",
+            "volume": "10",
+            "author": "T Birkoben",
+            "year": "2020",
+            "unstructured": "Birkoben, T., Winterfeld, H., Fichtner, S., Petraru, A. & Kohlstedt, H. A spiking and adapting tactile sensor for neuromorphic applications. Sci. Rep. 10, 1–11 (2020).",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "1_CR49",
+            "doi-asserted-by": "publisher",
+            "first-page": "87",
+            "DOI": "10.1109/TBCAS.2014.2318012",
+            "volume": "9",
+            "author": "W Cai",
+            "year": "2014",
+            "unstructured": "Cai, W., Ellinger, F. & Tetzlaff, R. Neuronal synapse as a memristor: Modeling pair-and triplet-based stdp rule. IEEE Trans. Biomed. Circuits Syst. 9, 87–95 (2014).",
+            "journal-title": "IEEE Trans. Biomed. Circuits Syst."
+          },
+          {
+            "key": "1_CR50",
+            "doi-asserted-by": "publisher",
+            "first-page": "1704455",
+            "DOI": "10.1002/adfm.201704455",
+            "volume": "28",
+            "author": "R Yang",
+            "year": "2018",
+            "unstructured": "Yang, R. et al. Synaptic suppression triplet-stdp learning rule realized in second-order memristors. Adv. Funct. Mater. 28, 1704455 (2018).",
+            "journal-title": "Adv. Funct. Mater."
+          },
+          {
+            "key": "1_CR51",
+            "doi-asserted-by": "publisher",
+            "first-page": "129",
+            "DOI": "10.3389/fncom.2010.00129",
+            "volume": "4",
+            "author": "J Bill",
+            "year": "2010",
+            "unstructured": "Bill, J. et al. Compensating inhomogeneities of neuromorphic vlsi devices via short-term synaptic plasticity. Front. Comput. Neurosci. 4, 129 (2010).",
+            "journal-title": "Front. Comput. Neurosci."
+          },
+          {
+            "key": "1_CR52",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Zendrikov, D., Solinas, S. & Indiveri, G. Brain-inspired methods for achieving robust computation in heterogeneous mixed-signal neuromorphic processing systems. Preprint at bioRxiv https://doi.org/10.1101/2022.10.26.513846 (2022).",
+            "DOI": "10.1101/2022.10.26.513846"
+          },
+          {
+            "key": "1_CR53",
+            "unstructured": "Hartl-Nesic, C. & Meiringer, M. Computational performance of the forward and inverse kinematics of an anthropomorphic robot arm. In Proceedings of the Joint ARW & OAGM Workshop 2019 115–116 (2019)."
+          },
+          {
+            "key": "1_CR54",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Glover, A., Vasco, V., Iacono, M. & Bartolozzi, C. The event-driven software library for yarp-with algorithms and icub applications. Front. Robot. AI 4 (2018).",
+            "DOI": "10.3389/frobt.2017.00073"
+          },
+          {
+            "key": "1_CR55",
+            "unstructured": "Caligiore, D. et al. Using motor babbling and hebb rules for modeling the development of reaching with obstacles and grasping. In International Conference on Cognitive Systems 22–23 (Citeseer, 2008)."
+          },
+          {
+            "key": "1_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "9673",
+            "DOI": "10.1523/JNEUROSCI.1425-06.2006",
+            "volume": "26",
+            "author": "J-P Pfister",
+            "year": "2006",
+            "unstructured": "Pfister, J.-P. & Gerstner, W. Triplets of spikes in a model of spike timing-dependent plasticity. J. Neurosci. 26, 9673–9682 (2006).",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "1_CR57",
+            "doi-asserted-by": "publisher",
+            "first-page": "323",
+            "DOI": "10.1007/BF00239522",
+            "volume": "61",
+            "author": "P Gabbott",
+            "year": "1986",
+            "unstructured": "Gabbott, P. & Somogyi, P. Quantitative distribution of gaba-immunoreactive neurons in the visual cortex (area 17) of the cat. Exp. Brain Res. 61, 323–331 (1986).",
+            "journal-title": "Exp. Brain Res."
+          },
+          {
+            "key": "1_CR58",
+            "unstructured": "Diehl, P. U. & Cook, M. Learning and inferring relations in cortical networks. Preprint at arXiv:1608.08267 (2016)."
+          },
+          {
+            "key": "1_CR59",
+            "doi-asserted-by": "publisher",
+            "first-page": "1149",
+            "DOI": "10.1016/S0896-6273(01)00542-6",
+            "volume": "32",
+            "author": "PJ Sjöström",
+            "year": "2001",
+            "unstructured": "Sjöström, P. J., Turrigiano, G. G. & Nelson, S. B. Rate, timing, and cooperativity jointly determine cortical synaptic plasticity. Neuron 32, 1149–1164 (2001).",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "1_CR60",
+            "doi-asserted-by": "publisher",
+            "first-page": "187",
+            "DOI": "10.1038/nn1387",
+            "volume": "8",
+            "author": "H-X Wang",
+            "year": "2005",
+            "unstructured": "Wang, H.-X., Gerkin, R. C., Nauen, D. W. & Bi, G.-Q. Coactivation and timing-dependent integration of synaptic potentiation and depression. Nat. Neurosci. 8, 187–193 (2005).",
+            "journal-title": "Nat. Neurosci."
+          }
+        ],
+        "container-title": [
+          "npj Robotics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.nature.com/articles/s44182-023-00001-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s44182-023-00001-w",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s44182-023-00001-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              31
+            ]
+          ],
+          "date-time": "2024-10-31T21:35:55Z",
+          "timestamp": 1730410555000
+        },
+        "score": 30.842913,
+        "resource": {
+          "primary": {
+            "URL": "https://www.nature.com/articles/s44182-023-00001-w"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              26
+            ]
+          ]
+        },
+        "references-count": 60,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [
+              [
+                2023,
+                12
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "1"
+        ],
+        "URL": "https://doi.org/10.1038/s44182-023-00001-w",
+        "ISSN": [
+          "2731-4278"
+        ],
+        "issn-type": [
+          {
+            "value": "2731-4278",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              26
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "31 October 2022",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "6 March 2023",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "26 October 2023",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "C.B. is the Associate Editor of NPJ Robotics, she has not participated in any decision about the peer-review and acceptance of the manuscript. The remaining authors declare no competing interests.",
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Competing interests"
+            }
+          }
+        ],
+        "article-number": "1"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

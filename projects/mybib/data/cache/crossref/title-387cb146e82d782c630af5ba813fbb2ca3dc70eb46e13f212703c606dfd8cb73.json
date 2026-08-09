@@ -1,0 +1,224 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 14187,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              7
+            ]
+          ],
+          "date-time": "2025-03-07T01:56:59Z",
+          "timestamp": 1741312619028,
+          "version": "3.38.0"
+        },
+        "publisher-location": "Göttingen",
+        "edition-number": "1",
+        "reference-count": 12,
+        "publisher": "V&R Unipress",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783847100041"
+          },
+          {
+            "type": "electronic",
+            "value": "9783847098270"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              13
+            ]
+          ]
+        },
+        "DOI": "10.14220/9783847098270.501",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2014-05-05T12:20:36Z",
+          "timestamp": 1399292436000
+        },
+        "page": "501-512",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Josef Pieper"
+        ],
+        "prefix": "10.14220",
+        "author": [
+          {
+            "given": "Berthold",
+            "family": "Wald",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "374",
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              4,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "volume-title": "Lebensmittelpunkt in Münster",
+            "year": "1928",
+            "author": "Josef",
+            "key": "p_2"
+          },
+          {
+            "key": "p_3",
+            "unstructured": "Josef Pieper : Noch wusste es niemand. Autobiographische Aufzeichnungen 1904 - 1945, III. Kap. Große Fahrt, in: Josef Pieper : Werke in acht Bänden, hg. von Berthold Wald, Ergänzungsband 2, Autobiographische Schriften, Hamburg 2003, S.51 - 74. Den größten Raum nimmt die Beschreibung der »Nordlandfahrt« ein, die Pieper mit zwei Gefährten, Hermann Casser und Hermann Haase, für fünf Monate über Dänemark nachIslandführte. Dokumente zu dieser Fahrt finden sich im Nachlass Piepers im Deutschen Literaturarchiv, Marbach am Neckar, u. a. auch das »Das Spruchbuch. Von unserer Nordlandfahrt vom 23. Mai - 12. Okt. 1923«. (Quelle: Handschriftensammlung des DLA. Bestand A: Pieper/ Nordlandlandfahrt; in diesem Bestand 12 Handschriftliche Datensätze.)"
+          },
+          {
+            "volume-title": "München",
+            "year": "1968",
+            "key": "p_8"
+          },
+          {
+            "volume-title": "und wohl auch mancherlei verborgene Hemmungslosigkeit",
+            "author": "de Erotik Es",
+            "key": "p_16"
+          },
+          {
+            "volume": "8",
+            "volume-title": "Pieper : Werke",
+            "author": "Pieper Josef",
+            "key": "p_18"
+          },
+          {
+            "key": "p_34",
+            "first-page": "658",
+            "volume": "2",
+            "author": "Goethewort",
+            "journal-title": "Werke Bd. 8"
+          },
+          {
+            "volume-title": "Hamburg",
+            "year": "1997",
+            "author": "Bd.",
+            "key": "p_38"
+          },
+          {
+            "volume": "7",
+            "volume-title": "Werke",
+            "year": "2000",
+            "key": "p_48"
+          },
+          {
+            "key": "p_49",
+            "unstructured": "In: Pieper : WerkeBd.6, Kulturphilosophische Schriften, Hamburg 1999, S.217 - 285."
+          },
+          {
+            "key": "p_50",
+            "volume-title": "Pieper : Werke",
+            "volume": "5",
+            "author": "Pieper Josef",
+            "year": "1933"
+          },
+          {
+            "key": "p_52",
+            "first-page": "388",
+            "volume-title": "Hamburg",
+            "author": "Ergänzungsband",
+            "year": "2004"
+          },
+          {
+            "key": "p_55",
+            "first-page": "17",
+            "volume": "1988",
+            "author": "Pieper Vgl Josef",
+            "journal-title": "Dortmund"
+          }
+        ],
+        "container-title": [
+          "Jugendbewegt geprägt"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.vr-elibrary.de/doi/pdf/10.14220/9783847098270.501",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              16
+            ]
+          ],
+          "date-time": "2021-02-16T12:51:09Z",
+          "timestamp": 1613479869000
+        },
+        "score": 21.476568,
+        "resource": {
+          "primary": {
+            "URL": "https://www.vr-elibrary.de/doi/10.14220/9783847098270.501"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              13
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783847100041",
+          "9783847098270"
+        ],
+        "references-count": 12,
+        "alternative-id": [
+          "10.14220/9783847098270.501",
+          "10.14220/9783847098270"
+        ],
+        "URL": "https://doi.org/10.14220/9783847098270.501",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              13
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

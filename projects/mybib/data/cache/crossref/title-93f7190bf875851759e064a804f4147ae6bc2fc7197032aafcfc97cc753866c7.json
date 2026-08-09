@@ -1,0 +1,361 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 865957,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2026-02-26T18:27:26Z",
+          "timestamp": 1772130446055,
+          "version": "3.50.1"
+        },
+        "reference-count": 12,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2002,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2002-04-01T00:00:00Z",
+              "timestamp": 1017619200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2002,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2002-04-01T00:00:00Z",
+              "timestamp": 1017619200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2002,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2002-04-01T00:00:00Z",
+              "timestamp": 1017619200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Journal of Optimization Theory and Applications"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1023/a:1014849028575",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              12,
+              28
+            ]
+          ],
+          "date-time": "2002-12-28T21:20:03Z",
+          "timestamp": 1041110403000
+        },
+        "page": "5-19",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 91,
+        "title": [
+          "A Convergent Variant of the Nelder–Mead Algorithm"
+        ],
+        "prefix": "10.1007",
+        "volume": "113",
+        "author": [
+          {
+            "given": "C.J.",
+            "family": "Price",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "I.D.",
+            "family": "Coope",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "D.",
+            "family": "Byatt",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "366579_CR1",
+            "doi-asserted-by": "crossref",
+            "first-page": "308",
+            "DOI": "10.1093/comjnl/7.4.308",
+            "volume": "7",
+            "author": "J. A. Nelder",
+            "year": "1965",
+            "unstructured": "NELDER, J. A., and MEAD, R., A Simplex Method for Function Minimization, Computer Journal, Vol. 7, pp. 308-313, 1965.",
+            "journal-title": "Computer Journal"
+          },
+          {
+            "key": "366579_CR2",
+            "series-title": "Pitman Research Notes in Mathematics",
+            "volume-title": "Numerical Analysis 1995",
+            "author": "M. H. Wright",
+            "year": "1996",
+            "unstructured": "WRIGHT, M. H., Direct Search Methods: Once Scorned, Now Respectable, Numerical Analysis 1995, Edited by D. F. Griffiths and G. A. Watson, Pitman Research Notes in Mathematics, Addison-Wesley Longman, London, England, Vol. 344, 1996."
+          },
+          {
+            "key": "366579_CR3",
+            "doi-asserted-by": "crossref",
+            "first-page": "148",
+            "DOI": "10.1137/S1052623496303482",
+            "volume": "9",
+            "author": "K. I. M. Mckinnon",
+            "year": "1998",
+            "unstructured": "MCKINNON, K. I. M., Convergence of the Nelder-Mead Simplex Method to a Nonstationary Point, SIAM Journal on Optimization, Vol. 9, pp 148-158, 1998.",
+            "journal-title": "SIAM Journal on Optimization"
+          },
+          {
+            "key": "366579_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "112",
+            "DOI": "10.1137/S1052623496303470",
+            "volume": "9",
+            "author": "J. C. Lagarius",
+            "year": "1998",
+            "unstructured": "LAGARIUS, J. C., REEDS, J. A., WRIGHT, M. H., and WRIGHT, P. E., Convergence Properties of the Nelder-Mead Simplex Method in Low Dimensions, SIAM Journal on Optimization, Vol. 9, pp. 112-147, 1998.",
+            "journal-title": "SIAM Journal on Optimization"
+          },
+          {
+            "key": "366579_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "43",
+            "DOI": "10.1137/S1052623497315203",
+            "volume": "10",
+            "author": "C. T. Kelley",
+            "year": "2000",
+            "unstructured": "KELLEY, C. T., Detection and Remediation of Stagnation in the Nelder-Mead Algorithm Using a Sufficient Decrease Condition, SIAM Journal on Optimization, Vol. 10, pp. 43-55, 2000.",
+            "journal-title": "SIAM Journal on Optimization"
+          },
+          {
+            "key": "366579_CR6",
+            "first-page": "195",
+            "volume": "12",
+            "author": "A. S. Rykov",
+            "year": "1983",
+            "unstructured": "RYKOV, A. S., Simplex Algorithms for Unconstrained Minimization, Problems of Control and Information Theory, Vol. 12, pp. 195-208, 1983.",
+            "journal-title": "Problems of Control and Information Theory"
+          },
+          {
+            "key": "366579_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "448",
+            "DOI": "10.1137/0801027",
+            "volume": "1",
+            "author": "J. E. Dennis",
+            "year": "1991",
+            "unstructured": "DENNIS, J. E., and TORCZON, V., Direct Search Methods on Parallel Machines, SIAM Journal on Optimization, Vol. 1, pp. 448-474, 1991.",
+            "journal-title": "SIAM Journal on Optimization"
+          },
+          {
+            "key": "366579_CR8",
+            "doi-asserted-by": "crossref",
+            "first-page": "261",
+            "DOI": "10.1023/A:1026429319405",
+            "volume": "107",
+            "author": "I. D. Coope",
+            "year": "2000",
+            "unstructured": "COOPE, I. D., and PRICE, C. J., Frame Based Methods for Unconstrained Optimization, Journal of Optimization Theory and Applications, Vol. 107, pp 261-274, 2000.",
+            "journal-title": "Journal of Optimization Theory and Applications"
+          },
+          {
+            "key": "366579_CR9",
+            "doi-asserted-by": "crossref",
+            "first-page": "733",
+            "DOI": "10.2307/2372648",
+            "volume": "76",
+            "author": "C. Davis",
+            "year": "1954",
+            "unstructured": "DAVIS, C., Theory of Positive Linear Dependence, American Journal of Mathematics, Vol. 76, pp. 733-746, 1954.",
+            "journal-title": "American Journal of Mathematics"
+          },
+          {
+            "key": "366579_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "859",
+            "DOI": "10.1137/S1052623499354989",
+            "volume": "11",
+            "author": "I. D. Coope",
+            "year": "2001",
+            "unstructured": "COOPE, I. D., and PRICE, C. J., On the Convergence of Grid Based Methods for Unconstrained Minimization, SIAM Journal on Optimization, Vol. 11, pp. 859-69, 2001.",
+            "journal-title": "SIAM Journal on Optimization"
+          },
+          {
+            "key": "366579_CR11",
+            "volume-title": "Convergent Variants of the Nelder-Mead Algorithm",
+            "author": "D. Byatt",
+            "year": "2000",
+            "unstructured": "BYATT, D., Convergent Variants of the Nelder-Mead Algorithm, University of Canterbury, Christchurch, New Zealand, MSc Thesis, 2000."
+          },
+          {
+            "key": "366579_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "17",
+            "DOI": "10.1145/355934.355936",
+            "volume": "7",
+            "author": "J. J. MorÉ",
+            "year": "1981",
+            "unstructured": "MORÉ, J. J., GARBOW, B. S., and HILLSTROM, K. E., Testing Unconstrained Optimization Software, ACM Transactions on Mathematical Software, Vol. 7, pp. 17-41, 1981.",
+            "journal-title": "ACM Transactions on Mathematical Software"
+          }
+        ],
+        "container-title": [
+          "Journal of Optimization Theory and Applications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1023/A:1014849028575.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1023/A:1014849028575/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1023/A:1014849028575",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1023/A:1014849028575.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2025-07-07T09:25:30Z",
+          "timestamp": 1751880330000
+        },
+        "score": 43.054867,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1023/A:1014849028575"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2002,
+              4
+            ]
+          ]
+        },
+        "references-count": 12,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2002,
+                4
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "366579"
+        ],
+        "URL": "https://doi.org/10.1023/a:1014849028575",
+        "ISSN": [
+          "0022-3239",
+          "1573-2878"
+        ],
+        "issn-type": [
+          {
+            "value": "0022-3239",
+            "type": "print"
+          },
+          {
+            "value": "1573-2878",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2002,
+              4
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

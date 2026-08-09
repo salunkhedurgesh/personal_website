@@ -1,0 +1,305 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 558146,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2022-04-05T18:20:54Z",
+          "timestamp": 1649182854039
+        },
+        "reference-count": 17,
+        "publisher": "Elsevier BV",
+        "issue": "5-6",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2008,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2008-09-01T00:00:00Z",
+              "timestamp": 1220227200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mathematics and Computers in Simulation"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.matcom.2008.04.001",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              4,
+              11
+            ]
+          ],
+          "date-time": "2008-04-11T19:34:27Z",
+          "timestamp": 1207942467000
+        },
+        "page": "575-592",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Riemmanian metric of harmonic parametrization of geodesic quadrangles and quasi-isometric grids"
+        ],
+        "prefix": "10.1016",
+        "volume": "78",
+        "author": [
+          {
+            "given": "Gennadii A.",
+            "family": "Chumakov",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib1",
+            "unstructured": "M. Berger, Géométrie, CEDIC/Nathan, Paris, 1977."
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib2",
+            "series-title": "Partial Differential Equations",
+            "author": "Bers",
+            "year": "1964"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.matcom.2008.04.001_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "172",
+            "DOI": "10.1007/BF00971253",
+            "article-title": "Conformal parameterization of curvilinear quadrangles by means of geodesic quadrangles on surfaces of constant positive curvature",
+            "volume": "34",
+            "author": "Chumakov",
+            "year": "1993",
+            "journal-title": "Siberian Math. J."
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "279",
+            "DOI": "10.1016/S0168-9274(03)00041-2",
+            "article-title": "On 2-D quasi-isometric grids that are orthogonal far from corners",
+            "volume": "46",
+            "author": "Chumakov",
+            "year": "2003",
+            "journal-title": "Appl. Num. Math."
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib5",
+            "series-title": "Proceedings of the Third Mississippi State Conference on Difference Equations and Computational Simulations, Electron. J. Diff. Eqns., Conference 01",
+            "first-page": "55",
+            "article-title": "Harmonic parameterization of geodesic quadrangles on surfaces of constant curvaturess and 2-D quasi-isometric grids",
+            "author": "Chumakov",
+            "year": "1997"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1006/jcph.1998.5968",
+            "article-title": "A method for the 2-D quasi-isometric regular grid generation",
+            "volume": "143",
+            "author": "Chumakov",
+            "year": "1998",
+            "journal-title": "J. Comput. Phys."
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib7",
+            "series-title": "Proceedings of the 7th International Conference on Numerical Grid Generation in Computational Field Simulations",
+            "first-page": "1007",
+            "article-title": "2-D regular quasi-isometric grids and Riemannian metric of harmonic parameterization of geodesic quadrangles on surfaces of constant curvature",
+            "author": "Chumakov",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib8",
+            "first-page": "751",
+            "article-title": "On the ideas, underlying the construction of different grids",
+            "volume": "43",
+            "author": "Godunov",
+            "year": "2003",
+            "journal-title": "Comp. Math. Math. Phys."
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "89",
+            "DOI": "10.1016/0041-5553(67)90096-1",
+            "volume": "7",
+            "author": "Godunov",
+            "year": "1967",
+            "journal-title": "USSR Comp. Math. Math. Phys."
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib10",
+            "series-title": "Numerical Solution of the Multidimensional Problems of Gas Dynamics",
+            "author": "Godunov",
+            "year": "1976"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib11",
+            "series-title": "The Riemann Boundary-Value Problem with Infinite Index",
+            "author": "Govorov",
+            "year": "1986"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib12",
+            "series-title": "Fundamentals of Theory of Surfaces, Parts 1 and 2",
+            "author": "Kagan",
+            "year": "1947"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib13",
+            "series-title": "Their Mathematical Models",
+            "author": "Lavrentyev",
+            "year": "1973"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib14",
+            "series-title": "Proceedings of the 7th International Conference on Numerical grid Generation in Computational Field Simulations",
+            "first-page": "81",
+            "article-title": "Italian research in numerical grid generation",
+            "author": "Spitaleri",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib15",
+            "series-title": "CRC Handbook of Grid Generation",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib16",
+            "series-title": "Numerical Grid Generation",
+            "author": "Thompson",
+            "year": "1985"
+          },
+          {
+            "key": "10.1016/j.matcom.2008.04.001_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1016/0021-9991(66)90001-5",
+            "volume": "1",
+            "author": "Winslow",
+            "year": "1966",
+            "journal-title": "J. Comput. Phys."
+          }
+        ],
+        "container-title": [
+          "Mathematics and Computers in Simulation"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0378475408001596?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0378475408001596?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              30
+            ]
+          ],
+          "date-time": "2018-12-30T08:25:38Z",
+          "timestamp": 1546158338000
+        },
+        "score": 22.107538,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378475408001596"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008,
+              9
+            ]
+          ]
+        },
+        "references-count": 17,
+        "journal-issue": {
+          "issue": "5-6",
+          "published-print": {
+            "date-parts": [
+              [
+                2008,
+                9
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0378475408001596"
+        ],
+        "URL": "https://doi.org/10.1016/j.matcom.2008.04.001",
+        "ISSN": [
+          "0378-4754"
+        ],
+        "issn-type": [
+          {
+            "value": "0378-4754",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

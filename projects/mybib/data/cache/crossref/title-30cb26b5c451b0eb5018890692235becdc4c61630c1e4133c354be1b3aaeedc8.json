@@ -1,0 +1,336 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3223706,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2026-03-21T21:44:16Z",
+          "timestamp": 1774129456539,
+          "version": "3.50.1"
+        },
+        "reference-count": 17,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "5",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2024-05-01T00:00:00Z",
+              "timestamp": 1714521600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2024-05-01T00:00:00Z",
+              "timestamp": 1714521600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2024-05-01T00:00:00Z",
+              "timestamp": 1714521600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Robot. Autom. Lett."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1109/lra.2024.3379860",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2024-03-21T18:48:24Z",
+          "timestamp": 1711046904000
+        },
+        "page": "4527-4534",
+        "source": "Crossref",
+        "is-referenced-by-count": 10,
+        "title": [
+          "An Inverse Kinematics Algorithm With Smooth Task Switching for Redundant Robots"
+        ],
+        "prefix": "10.1109",
+        "volume": "9",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5522-734X",
+            "authenticated-orcid": false,
+            "given": "Hannes",
+            "family": "Gamper",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "European Organization for Nuclear Research (CERN), Meyrin, Switzerland"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-6278-2530",
+            "authenticated-orcid": false,
+            "given": "Laura",
+            "family": "Rodrigo Pérez",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "European Organization for Nuclear Research (CERN), Meyrin, Switzerland"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5033-340X",
+            "authenticated-orcid": false,
+            "given": "Andreas",
+            "family": "Mueller",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Robotics, Johannes Kepler University Linz, Linz, Austria"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1025-9668",
+            "authenticated-orcid": false,
+            "given": "Alejandro",
+            "family": "Díaz Rosales",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "European Organization for Nuclear Research (CERN), Meyrin, Switzerland"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2513-967X",
+            "authenticated-orcid": false,
+            "given": "Mario",
+            "family": "Di Castro",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "European Organization for Nuclear Research (CERN), Meyrin, Switzerland"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-540-30301-5",
+            "volume-title": "Handbook of\n      Robotics",
+            "author": "Siciliano",
+            "year": "2008"
+          },
+          {
+            "key": "ref2",
+            "volume-title": "Robotics: Modelling,\n      Planning and Control",
+            "author": "Sciavicco",
+            "year": "2008"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/icar.1991.240390"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2014.2326304"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/cgf.13310"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-981-33-4018-3_39"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2015.7140076"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2009.2017135"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/frobt.2016.00016"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ifacol.2018.11.528"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2011.2135210"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/access.2018.2849572"
+          },
+          {
+            "key": "ref13",
+            "article-title": "Eigen v3",
+            "author": "Guennebaud",
+            "year": "2010"
+          },
+          {
+            "key": "ref15",
+            "article-title": "URDF Parser urdfdom"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ssrr.2018.8468661"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-031-25555-7_20"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.imavis.2018.05.004"
+          }
+        ],
+        "container-title": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7083369/10474437/10476677.pdf?arnumber=10476677",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              23
+            ]
+          ],
+          "date-time": "2024-12-23T19:28:55Z",
+          "timestamp": 1734982135000
+        },
+        "score": 36.16593,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10476677/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        },
+        "references-count": 17,
+        "journal-issue": {
+          "issue": "5"
+        },
+        "URL": "https://doi.org/10.1109/lra.2024.3379860",
+        "ISSN": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "issn-type": [
+          {
+            "value": "2377-3766",
+            "type": "electronic"
+          },
+          {
+            "value": "2377-3774",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

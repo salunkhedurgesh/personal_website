@@ -1,0 +1,229 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 805611,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2024-09-08T11:09:49Z",
+          "timestamp": 1725793789118
+        },
+        "publisher-location": "Cham",
+        "reference-count": 14,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783319066974"
+          },
+          {
+            "type": "electronic",
+            "value": "9783319066981"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-319-06698-1_2",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2014-05-19T09:46:07Z",
+          "timestamp": 1400492767000
+        },
+        "page": "11-19",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Kinematic Mapping of SE(4) and the Hypersphere Condition"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Georg",
+            "family": "Nawratil",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              20
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "unstructured": "Mielczarek, S., Husty, M.L., Hiller, M.: Designing a redundant Stewart-Gough platform with a maximal forward kinematics solution set. In: Proceedings of the International Symposion of Multibody Simulation and Mechatronics (MUSME), Mexico City, Mexico (2002)",
+            "key": "2_CR1"
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "Borras, J., Thomas, F., Torras, C.: Singularity-invariant leg rearrangements in doubly-planar Stewart-Gough platforms. In: Proceedings of Robotics Science and Systems, Zaragoza, Spain (2010)",
+            "key": "2_CR2",
+            "DOI": "10.1007/978-90-481-9262-5_45"
+          },
+          {
+            "key": "2_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "151",
+            "DOI": "10.4028/www.scientific.net/AMM.162.151",
+            "volume": "162",
+            "author": "G Nawratil",
+            "year": "2012",
+            "unstructured": "Nawratil, G.: Review and recent results on Stewart Gough platforms with self-motions. Appl. Mech. Mater. 162, 151–160 (2012)",
+            "journal-title": "Appl. Mech. Mater."
+          },
+          {
+            "unstructured": "Nawratil, G.: Correcting Duporcq’s theorem. Mech. Mach. Theory 73, 282–295 (2014)",
+            "key": "2_CR4"
+          },
+          {
+            "unstructured": "Blaschke, W.: Euklidische Kinematik und nichteuklidische Geometrie. Z. Math. Phys. 60, 61–91, 203–204 (1911)",
+            "key": "2_CR5"
+          },
+          {
+            "unstructured": "Grünwald, J.: Ein Abbildungsprinzip, welches die ebene Geometrie und Kinematik mit der räumlichen Geometrie verknüpft. Sitz.-Ber. der math.-nat. Klasse der kaiserlichen Akademie der Wissenschaften Wien 120, 677–741 (1911)",
+            "key": "2_CR6"
+          },
+          {
+            "unstructured": "Study, E.: Geometrie der Dynamen. Teubner, Leipzig (1903)",
+            "key": "2_CR7"
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "Husty, M., Karger, A., Sachs, H., Steinhilper, W.: Kinematik und Robotik. Springer, Berlin (1997)",
+            "key": "2_CR8",
+            "DOI": "10.1007/978-3-642-59029-0"
+          },
+          {
+            "issue": "2",
+            "key": "2_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "737",
+            "DOI": "10.1007/s13366-013-0154-6",
+            "volume": "54",
+            "author": "D Klawitter",
+            "year": "2013",
+            "unstructured": "Klawitter, D., Hagemann, M.: Kinematic mappings for Cayley-Klein geometries via Clifford algebras. Beiträge zur Algebra und Geometrie 54(2), 737–761 (2013)",
+            "journal-title": "Beiträge zur Algebra und Geometrie"
+          },
+          {
+            "unstructured": "Mebius, J.E.: History of the quaternion representation theorem for four-dimensional rotations. http://www.jemebius.home.xs4all.nl/So4hist.htm",
+            "key": "2_CR10"
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "Giering, O.: Vorlesungen über höhere Geometrie. Vieweg, Braunschweig (1982)",
+            "key": "2_CR11",
+            "DOI": "10.1007/978-3-322-83552-9"
+          },
+          {
+            "issue": "4",
+            "key": "2_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "365",
+            "DOI": "10.1016/0094-114X(95)00091-C",
+            "volume": "31",
+            "author": "M Husty",
+            "year": "1996",
+            "unstructured": "Husty, M.: An algorithm for solving the direct kinematics of general Stewart-Gough platforms. Mech. Mach. Theory 31(4), 365–380 (1996)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pottmann, H, Wallner, J.: Computational Line Geometry. Springer, Berlin (2001)",
+            "key": "2_CR13",
+            "DOI": "10.1007/978-3-642-04018-4"
+          },
+          {
+            "unstructured": "Selig, J.M.: Geometric Fundamentals of Robotics. Springer, New York (2005)",
+            "key": "2_CR14"
+          }
+        ],
+        "container-title": [
+          "Advances in Robot Kinematics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-06698-1_2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2023-07-13T06:38:14Z",
+          "timestamp": 1689230294000
+        },
+        "score": 45.843075,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-319-06698-1_2"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783319066974",
+          "9783319066981"
+        ],
+        "references-count": 14,
+        "URL": "https://doi.org/10.1007/978-3-319-06698-1_2",
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

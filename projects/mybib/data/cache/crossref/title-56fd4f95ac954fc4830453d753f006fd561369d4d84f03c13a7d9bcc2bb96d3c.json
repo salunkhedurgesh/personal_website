@@ -1,0 +1,675 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1522334,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2026-04-02T15:03:20Z",
+          "timestamp": 1775142200395,
+          "version": "3.50.1"
+        },
+        "reference-count": 42,
+        "publisher": "Wiley",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  4,
+                  10
+                ]
+              ],
+              "date-time": "2018-04-10T00:00:00Z",
+              "timestamp": 1523318400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. 11671176"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. 11671176"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. 11271333"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. 11271333"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. 11401606"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. 11401606"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004733",
+            "name": "Universidade de Macau",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. MYRG2015‐00058‐FST"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. MYRG2015‐00058‐FST"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004733",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004733",
+            "name": "Universidade de Macau",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. MYRG099(Y1‐L2)‐FST13‐KKI"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. MYRG099(Y1‐L2)‐FST13‐KKI"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004733",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100006469",
+            "name": "Fundo para o Desenvolvimento das Ciências e da Tecnologia",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. FDCT/094/2011/A"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. FDCT/094/2011/A"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100006469",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100006469",
+            "name": "Fundo para o Desenvolvimento das Ciências e da Tecnologia",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. FDCT/099/2012/A3"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. FDCT/099/2012/A3"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100006469",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004731",
+            "name": "Natural Science Foundation of Zhejiang Province",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. LY15A010007"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. LY15A010007"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004731",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100002858",
+            "name": "China Postdoctoral Science Foundation",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "No. 2014M562320"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "No. 2014M562320"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100002858",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "onlinelibrary.wiley.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Stud Appl Math"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Quaternion‐valued differential equations (QDEs) are a new kind of differential equations which have many applications in physics and life sciences. The largest difference between QDEs and ordinary differential equations (ODEs) is the algebraic structure. Due to the noncommutativity of the quaternion algebra, the set of all the solutions to the linear homogenous QDEs is completely different from ODEs. <jats:italic>It is actually a right‐free module, not a linear vector space</jats:italic>.</jats:p><jats:p>This paper establishes <jats:italic>a systematic frame work for the theory of linear QDEs</jats:italic>, which can be applied to quantum mechanics, fluid mechanics, Frenet frame in differential geometry, kinematic modeling, attitude dynamics, Kalman filter design, spatial rigid body dynamics, etc. We prove that the set of all the solutions to the linear homogenous QDEs is actually a right‐free module, not a linear vector space. On the noncommutativity of the quaternion algebra, many concepts and properties for the ODEs cannot be used. They should be redefined accordingly. A definition of <jats:italic>Wronskian</jats:italic> is introduced under the framework of quaternions which is different from standard one in the ODEs. Liouville formula for QDEs is given. Also, it is necessary to treat the eigenvalue problems with left and right sides, accordingly. Upon these, we studied the solutions to the linear QDEs. Furthermore, we present two algorithms to evaluate the fundamental matrix. Some concrete examples are given to show the feasibility of the obtained algorithms. Finally, a conclusion and discussion ends the paper.</jats:p>",
+        "DOI": "10.1111/sapm.12211",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2018-04-10T08:07:30Z",
+          "timestamp": 1523347650000
+        },
+        "page": "3-45",
+        "update-policy": "https://doi.org/10.1002/crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 83,
+        "title": [
+          "Linear Quaternion Differential Equations: Basic Theory and Fundamental Results"
+        ],
+        "prefix": "10.1111",
+        "volume": "141",
+        "author": [
+          {
+            "given": "Kit Ian",
+            "family": "Kou",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, Zhejiang Normal University  Jinhua 321004 China"
+              },
+              {
+                "name": "Department of Mathematics, Faculty of Science and Technology, University of Macau  Macau"
+              }
+            ]
+          },
+          {
+            "given": "Yong‐Hui",
+            "family": "Xia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, Zhejiang Normal University  Jinhua 321004 China"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              10
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_10_2_1",
+            "volume-title": "Ordinary Differential Equations",
+            "author": "Arnold V. I.",
+            "year": "1973"
+          },
+          {
+            "key": "e_1_2_10_3_1",
+            "volume-title": "Ordinary Differential Equations, Texts in Applied Mathematics",
+            "author": "Chicone C.",
+            "year": "2006"
+          },
+          {
+            "key": "e_1_2_10_4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4613-8159-4"
+          },
+          {
+            "key": "e_1_2_10_5_1",
+            "volume-title": "Ordinary Differential Equations",
+            "author": "Ding T.",
+            "year": "2004"
+          },
+          {
+            "key": "e_1_2_10_6_1",
+            "volume-title": "Ordinary Differential Equations",
+            "author": "Hale J. K.",
+            "year": "1980"
+          },
+          {
+            "key": "e_1_2_10_7_1",
+            "volume-title": "Ordinary Differential Equations",
+            "author": "Hartman P.",
+            "year": "1964"
+          },
+          {
+            "key": "e_1_2_10_8_1",
+            "volume-title": "Ordinary Differential Equations",
+            "author": "Zhang W.",
+            "year": "2006"
+          },
+          {
+            "key": "e_1_2_10_9_1",
+            "first-page": "S109",
+            "article-title": "Periodic solutions of quaternionic‐values ordinary differential equations",
+            "volume": "185",
+            "author": "J. Mawhin J. Campos",
+            "year": "2006",
+            "journal-title": "Ann. Math."
+          },
+          {
+            "key": "e_1_2_10_10_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.3139115"
+          },
+          {
+            "key": "e_1_2_10_11_1",
+            "article-title": "Solving simple quaternionic differential equations",
+            "volume": "44",
+            "author": "Leo S.",
+            "year": "2003",
+            "journal-title": "J. Math. Phys."
+          },
+          {
+            "key": "e_1_2_10_12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jde.2009.06.015"
+          },
+          {
+            "key": "e_1_2_10_13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00220-011-1196-y"
+          },
+          {
+            "key": "e_1_2_10_14_1",
+            "unstructured": "CH Robotic Lab Understanding Euler angles available online at:http://www.chrobotics.com/library/understanding‐euler‐anglesOctober 11 (2015)."
+          },
+          {
+            "key": "e_1_2_10_15_1",
+            "unstructured": "CH Robotic Lab Understanding quaternions available online at:http://www.chrobotics.com/library/understanding‐quaternionsOctober 11 (2015)."
+          },
+          {
+            "key": "e_1_2_10_16_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.molstruc.2014.07.031"
+          },
+          {
+            "key": "e_1_2_10_17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-45226-3_44"
+          },
+          {
+            "key": "e_1_2_10_18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1991.131559"
+          },
+          {
+            "key": "e_1_2_10_19_1",
+            "volume-title": "A Treatise on the Differential Geometry of Curves and Surfaces",
+            "author": "Eisenhart L. P.",
+            "year": "1960"
+          },
+          {
+            "key": "e_1_2_10_20_1",
+            "volume-title": "Differential Forms with Applications to Physical Sci‐ences",
+            "author": "Flanders H.",
+            "year": "1963"
+          },
+          {
+            "key": "e_1_2_10_21_1",
+            "volume-title": "Modern Differential Geometry of Curves and Surfaces",
+            "author": "Gray A.",
+            "year": "1993"
+          },
+          {
+            "key": "e_1_2_10_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/2945.468403"
+          },
+          {
+            "key": "e_1_2_10_23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-94-009-9907-7"
+          },
+          {
+            "key": "e_1_2_10_24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2001.976367"
+          },
+          {
+            "key": "e_1_2_10_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.4000917"
+          },
+          {
+            "key": "e_1_2_10_26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0167-2789(02)00434-7"
+          },
+          {
+            "key": "e_1_2_10_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/0951-7715/20/7/010"
+          },
+          {
+            "key": "e_1_2_10_28_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/0951-7715/19/8/011"
+          },
+          {
+            "key": "e_1_2_10_29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/0305-4470/30/4/004"
+          },
+          {
+            "key": "e_1_2_10_30_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1098/rspa.2001.0779"
+          },
+          {
+            "key": "e_1_2_10_31_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF01211069"
+          },
+          {
+            "key": "e_1_2_10_32_1",
+            "volume-title": "Quaternionic Quantum Mechanics and Quantum Fields",
+            "author": "Adler S. L.",
+            "year": "1995"
+          },
+          {
+            "key": "e_1_2_10_33_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/0305-4470/35/26/305"
+          },
+          {
+            "key": "e_1_2_10_34_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.2738362"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_10_35_1",
+            "first-page": "29",
+            "article-title": "Sir William Rowan Hamilton",
+            "volume": "11",
+            "author": "Dimitrid R.",
+            "year": "1989",
+            "journal-title": "Math. Intelligencer"
+          },
+          {
+            "key": "e_1_2_10_36_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF02633946"
+          },
+          {
+            "key": "e_1_2_10_37_1",
+            "volume-title": "Lecture in Abstract Algebra",
+            "author": "Jacobson N.",
+            "year": "1951"
+          },
+          {
+            "key": "e_1_2_10_38_1",
+            "first-page": "141",
+            "article-title": "On certain results relating to quaternions",
+            "volume": "26",
+            "author": "Cayley A.",
+            "year": "1845",
+            "journal-title": "Philos. Mag."
+          },
+          {
+            "key": "e_1_2_10_39_1",
+            "first-page": "2024",
+            "article-title": "Cramer's rule for some quaternion matrix equations",
+            "volume": "217",
+            "author": "Kyrchei I. I.",
+            "year": "2010",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "e_1_2_10_40_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1215/S0012-7094-47-01403-8"
+          },
+          {
+            "key": "e_1_2_10_41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/03081081003739204"
+          },
+          {
+            "key": "e_1_2_10_42_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0024-3795(98)10181-7"
+          },
+          {
+            "key": "e_1_2_10_43_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/pjm.1951.1.329"
+          }
+        ],
+        "container-title": [
+          "Studies in Applied Mathematics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fsapm.12211",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/sapm.12211",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              22
+            ]
+          ],
+          "date-time": "2023-09-22T15:41:44Z",
+          "timestamp": 1695397304000
+        },
+        "score": 38.442394,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1111/sapm.12211"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              10
+            ]
+          ]
+        },
+        "references-count": 42,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                7
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1111/sapm.12211"
+        ],
+        "URL": "https://doi.org/10.1111/sapm.12211",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "0022-2526",
+          "1467-9590"
+        ],
+        "issn-type": [
+          {
+            "value": "0022-2526",
+            "type": "print"
+          },
+          {
+            "value": "1467-9590",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              10
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2017-09-17",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2018-04-10",
+            "order": 2,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

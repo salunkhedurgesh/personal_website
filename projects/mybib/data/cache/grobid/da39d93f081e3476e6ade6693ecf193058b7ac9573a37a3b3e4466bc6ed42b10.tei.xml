@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Guided Tour to the Plane-Based Geometric Algebra PGA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-03-14">March 14, 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Leo</forename><surname>Dorst</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>De Keninck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Amsterdam</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Guided Tour to the Plane-Based Geometric Algebra PGA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-03-14">March 14, 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AF220B8B007331E689E0C6BB72855998</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Planes are the primitive elements for the constructions of objects and operators in Euclidean geometry. Triangulated meshes are built from them, and reflections in multiple planes are a mathematically pure way to construct Euclidean motions. A geometric algebra based on planes is therefore a natural choice to unify objects and operators for Euclidean geometry. The usual claims of &apos;completeness&apos; of the GA approach leads us to hope that it might contain, in a single framework, all representations ever designed for Euclidean geometryincluding normal vectors, directions as points at infinity, Plücker coordinates for lines, quaternions as 3D rotations around the origin, and dual quaternions for rigid body motions; and even spinors. This text provides a guided tour to this algebra of planes PGA. It indeed shows how all such computationally efficient methods are incorporated and related. We will see how the PGA elements naturally group into blocks of four coordinates in an implementation, and how this more complete understanding of the embedding suggests some handy choices to avoid extraneous computations. In the unified PGA framework, one never switches between specialized representations for subtasks, and this obviously saves any time spent on data conversions. Relative to other treatments of PGA, this text is rather light on the mathematics. Where you see careful derivations, they involve the aspects of orientation and magnitude. These features have been neglected by authors focussing on the mathematical beauty of the projective nature of the algebra. But since orientation and magnitude are very relevant for practical usage, we must incorporate them into the framework.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DETC2009/MR-86328 THE EEL-LIKE ROBOT</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">F</forename><surname>Boyer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybern étique de Nantes UMR CNRS n • 6597</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Ecole des Mines de Nantes</orgName>
+								<address>
+									<addrLine>4 rue Alfred-Kastler</addrLine>
+									<postCode>44307</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">D</forename><surname>Chablat</surname></persName>
+							<email>damien.chablat@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybern étique de Nantes UMR CNRS n • 6597</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Lemoine</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybern étique de Nantes UMR CNRS n • 6597</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Ecole Centrale de Nantes</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Wenger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Institut de Recherche en Communications et Cybern étique de Nantes UMR CNRS n • 6597</orgName>
+								<address>
+									<addrLine>1 rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DETC2009/MR-86328 THE EEL-LIKE ROBOT</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">05D811DB348246C6D9C8C1714FB7522C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The aim of this project is to design, study and build an &quot;eellike robot&quot; prototype able to swim in three dimensions. The study is based on the analysis of eel swimming and results in the realization of a prototype with 12 vertebrae, a skin and a head with two fins. To reach these objectives, a multidisciplinary group of teams and laboratories has been formed in the framework of two French projects.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

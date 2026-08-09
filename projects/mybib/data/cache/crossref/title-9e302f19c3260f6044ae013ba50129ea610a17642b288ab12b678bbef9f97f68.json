@@ -1,0 +1,870 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 34888,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2026-04-02T15:43:24Z",
+          "timestamp": 1775144604672,
+          "version": "3.50.1"
+        },
+        "reference-count": 71,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  4
+                ]
+              ],
+              "date-time": "2025-03-04T00:00:00Z",
+              "timestamp": 1741046400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2025.105971",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2025-03-11T14:01:58Z",
+          "timestamp": 1741701718000
+        },
+        "page": "105971",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "special_numbering": "C",
+        "title": [
+          "IK-Geo: Unified robot inverse kinematics using subproblem decomposition"
+        ],
+        "prefix": "10.1016",
+        "volume": "209",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0896-3314",
+            "authenticated-orcid": false,
+            "given": "Alexander J.",
+            "family": "Elias",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5123-5411",
+            "authenticated-orcid": false,
+            "given": "John T.",
+            "family": "Wen",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1115/1.4035801",
+            "article-title": "Approximation of cylindrical surfaces with deployable Bennett networks",
+            "volume": "9",
+            "author": "Lu",
+            "year": "2017",
+            "journal-title": "J. Mech. Robot."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b2",
+            "series-title": "Franka production 3 product manual",
+            "author": "Franka Emika",
+            "year": "2022"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b3",
+            "series-title": "LBR iiwa 7 R800",
+            "author": "KUKA",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b4",
+            "series-title": "Product specification - IRB 6640",
+            "author": "ABB",
+            "year": "2020"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b5",
+            "series-title": "User manual UR5/CB3",
+            "author": "Universal Robots",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b6",
+            "series-title": "KR series generation 2",
+            "author": "Kassow Robots",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b7",
+            "series-title": "FANUC robot CRX-10iA, CRX-10iA/L mechanical unit operator’s manual",
+            "author": "FANUC",
+            "year": "2020"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b8",
+            "series-title": "Standard specifications KJ125U-B",
+            "author": "Kawasaki Robotics",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b9",
+            "series-title": "Product specification - IRB 14000",
+            "author": "ABB",
+            "year": "2020"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b10",
+            "series-title": "Dexterous manipulators and advanced control systems",
+            "author": "Robotics Research Corporation",
+            "year": "2005"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b11",
+            "series-title": "2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)",
+            "first-page": "928",
+            "article-title": "TRAC-IK: An open-source library for improved solving of generic inverse kinematics",
+            "author": "Beeson",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b12",
+            "series-title": "Automated Construction of Robotic Manipulation Programs",
+            "author": "Diankov",
+            "year": "2010"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b13",
+            "doi-asserted-by": "crossref",
+            "first-page": "44",
+            "DOI": "10.3390/robotics11020044",
+            "article-title": "A deep reinforcement-learning approach for inverse kinematics solution of a high degree of freedom robotic manipulator",
+            "volume": "11",
+            "author": "Malik",
+            "year": "2022",
+            "journal-title": "Robotics"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b14",
+            "doi-asserted-by": "crossref",
+            "first-page": "7177",
+            "DOI": "10.1109/LRA.2022.3181374",
+            "article-title": "IKFlow: Generating diverse inverse kinematics solutions",
+            "volume": "7",
+            "author": "Ames",
+            "year": "2022",
+            "journal-title": "IEEE Robot. Autom. Lett."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b15",
+            "series-title": "Automatic geometric decomposition for analytical inverse kinematics",
+            "author": "Ostermeier",
+            "year": "2024"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b16",
+            "series-title": "The Kinematics of Manipulators Under Computer Control",
+            "author": "Pieper",
+            "year": "1969"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b17",
+            "series-title": "A Mathematical Introduction to Robotic Manipulation",
+            "author": "Murray",
+            "year": "1994"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b18",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.mechmachtheory.2024.105824",
+            "article-title": "Redundancy parameterization and inverse kinematics of 7-DOF revolute manipulators",
+            "volume": "204",
+            "author": "Elias",
+            "year": "2024",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b19",
+            "series-title": "IK-Geo",
+            "author": "rpiRobotics",
+            "year": "2024"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b20",
+            "series-title": "International Symposium on Robotics Research",
+            "first-page": "314",
+            "article-title": "Kinematic analysis of the 6R manipulator of general geometry",
+            "author": "Raghavan",
+            "year": "1990"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b21",
+            "doi-asserted-by": "crossref",
+            "first-page": "502",
+            "DOI": "10.1115/1.2919218",
+            "article-title": "Inverse kinematics of the general 6R manipulator and related linkages",
+            "volume": "115",
+            "author": "Raghavan",
+            "year": "1993",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b22",
+            "doi-asserted-by": "crossref",
+            "first-page": "481",
+            "DOI": "10.1115/1.2912808",
+            "article-title": "A complete solution for the inverse kinematic problem of the general 6R robot manipulator",
+            "volume": "113",
+            "author": "Lee",
+            "year": "1991",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b23",
+            "doi-asserted-by": "crossref",
+            "first-page": "922",
+            "DOI": "10.1115/1.2919288",
+            "article-title": "Inverse kinematics of general 6R and 5R, P serial manipulators",
+            "volume": "114",
+            "author": "Kohli",
+            "year": "1993",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b24",
+            "doi-asserted-by": "crossref",
+            "first-page": "648",
+            "DOI": "10.1109/70.326569",
+            "article-title": "Efficient inverse kinematics for general 6R manipulators",
+            "volume": "10",
+            "author": "Manocha",
+            "year": "1994",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b25",
+            "doi-asserted-by": "crossref",
+            "first-page": "66",
+            "DOI": "10.1016/j.mechmachtheory.2006.02.001",
+            "article-title": "A new and efficient algorithm for the inverse kinematics of a general serial 6R manipulator",
+            "volume": "42",
+            "author": "Husty",
+            "year": "2007",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b26",
+            "series-title": "Fundamentals of Robotic Mechanical Systems: Theory, Methods, and Algorithms",
+            "author": "Angeles",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b27",
+            "doi-asserted-by": "crossref",
+            "first-page": "310",
+            "DOI": "10.1016/j.mechmachtheory.2013.12.020",
+            "article-title": "Solving inverse kinematics by fully automated planar curves intersecting",
+            "volume": "74",
+            "author": "Rudny",
+            "year": "2014",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b28",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1115/1.2919373",
+            "article-title": "Structural parameters which reduce the number of manipulator configurations",
+            "volume": "116",
+            "author": "Mavroidis",
+            "year": "1994",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b29",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.mechmachtheory.2021.104265",
+            "article-title": "An effective and unified method to derive the inverse kinematics formulas of general six-DOF manipulator with simple geometry",
+            "volume": "159",
+            "author": "Xiao",
+            "year": "2021",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b30",
+            "series-title": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+            "article-title": "A geometrical approach to the inverse kinematics of 6R serial robots with offset wrists",
+            "volume": "vol. 57144",
+            "author": "Trinh",
+            "year": "2015"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b31",
+            "first-page": "3",
+            "article-title": "Reducing the barrier to entry of complex robotic software: A MoveIt! case study",
+            "volume": "5",
+            "author": "Coleman",
+            "year": "2014",
+            "journal-title": "J. Softw. Eng. Robot."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b32",
+            "series-title": "Tesseract",
+            "author": "ROS-Industrial",
+            "year": "2024"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b33",
+            "doi-asserted-by": "crossref",
+            "first-page": "457",
+            "DOI": "10.1613/jair.1.11592",
+            "article-title": "IKBT: Solving symbolic inverse kinematics with behavior tree",
+            "volume": "65",
+            "author": "Zhang",
+            "year": "2019",
+            "journal-title": "J. Artificial Intelligence Res."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b34",
+            "series-title": "Kinematics and Control of Robot Manipulators",
+            "author": "Paden",
+            "year": "1986"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b35",
+            "series-title": "Lectures on computational aspects of geometry",
+            "author": "Kahan",
+            "year": "1983"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b36",
+            "doi-asserted-by": "crossref",
+            "first-page": "138",
+            "DOI": "10.1016/j.robot.2018.04.002",
+            "article-title": "General frame for arbitrary 3R subproblems based on the POE model",
+            "volume": "105",
+            "author": "Wang",
+            "year": "2018",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b37",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1007/s11465-022-0681-7",
+            "article-title": "General closed-form inverse kinematics for arbitrary three-joint subproblems based on the product of exponential model",
+            "volume": "17",
+            "author": "Song",
+            "year": "2022",
+            "journal-title": "Front. Mech. Eng."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b38",
+            "series-title": "Proc. of the 5th Int. Workshop on Computational Kinematics",
+            "first-page": "175",
+            "article-title": "3R wrist positioning – a classical problem and its geometric background",
+            "author": "Zsombor-Murray",
+            "year": "2009"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b39",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1177/1729881418755157",
+            "article-title": "Algorithmic approach to geometric solution of generalized Paden–Kahan subproblem and its extension",
+            "volume": "15",
+            "author": "Dimovski",
+            "year": "2018",
+            "journal-title": "Int. J. Adv. Robot. Syst."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b40",
+            "series-title": "2008 IEEE Conference on Robotics, Automation and Mechatronics",
+            "first-page": "379",
+            "article-title": "Extension of the second Paden-Kahan sub-problem and its’ application in the inverse kinematics of a manipulator",
+            "author": "Yue-sheng",
+            "year": "2008"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b41",
+            "doi-asserted-by": "crossref",
+            "first-page": "140",
+            "DOI": "10.5772/60834",
+            "article-title": "Improved inverse kinematics algorithm using screw theory for a six-DOF robot manipulator",
+            "volume": "12",
+            "author": "Chen",
+            "year": "2015",
+            "journal-title": "Int. J. Adv. Robot. Syst."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b42",
+            "doi-asserted-by": "crossref",
+            "first-page": "2299",
+            "DOI": "10.1007/s12206-018-0441-0",
+            "article-title": "Generalized solution for a sub-problem of inverse kinematics based on product of exponential formula",
+            "volume": "32",
+            "author": "An",
+            "year": "2018",
+            "journal-title": "J. Mech. Sci. Technol."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b43",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1177/1729881418769194",
+            "article-title": "A novel second subproblem for two arbitrary axes of robots",
+            "volume": "15",
+            "author": "Wang",
+            "year": "2018",
+            "journal-title": "Int. J. Adv. Robot. Syst."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b44",
+            "series-title": "2006 International Conference on Mechatronics and Automation",
+            "first-page": "1164",
+            "article-title": "Solution and application of two inverse kinematics subproblems",
+            "author": "Kong",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b45",
+            "doi-asserted-by": "crossref",
+            "first-page": "399",
+            "DOI": "10.1016/j.apm.2018.10.002",
+            "article-title": "Models for three new screw-based IK sub-problems using geometric descriptions and their applications",
+            "volume": "67",
+            "author": "Xu",
+            "year": "2019",
+            "journal-title": "Appl. Math. Model."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b46",
+            "series-title": "Proceedings 2001 ICRA. IEEE International Conference on Robotics and Automation (Cat. No. 01CH37164)",
+            "first-page": "2395",
+            "article-title": "Closed-form inverse kinematics solver for reconfigurable robots",
+            "volume": "vol. 3",
+            "author": "Chen",
+            "year": "2001"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b47",
+            "doi-asserted-by": "crossref",
+            "first-page": "562",
+            "DOI": "10.1007/s12555-019-0570-y",
+            "article-title": "A new geometric subproblem to extend solvability of inverse kinematics based on screw theory for 6R robot manipulators",
+            "volume": "19",
+            "author": "Leoro",
+            "year": "2021",
+            "journal-title": "Int. J. Control. Autom. Syst."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b48",
+            "doi-asserted-by": "crossref",
+            "first-page": "91",
+            "DOI": "10.1007/s11465-008-0013-6",
+            "article-title": "Generation of closed-form inverse kinematics for reconfigurable robots",
+            "volume": "3",
+            "author": "Zhao",
+            "year": "2008",
+            "journal-title": "Front. Mech. Eng. China"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b49",
+            "doi-asserted-by": "crossref",
+            "first-page": "361",
+            "DOI": "10.1108/AA-10-2017-122",
+            "article-title": "General inverse solution of six-degrees-of-freedom serial robots based on the product of exponentials model",
+            "volume": "38",
+            "author": "Wang",
+            "year": "2018",
+            "journal-title": "Assem. Autom."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b50",
+            "series-title": "2011 IEEE International Conference on Mechatronics and Automation",
+            "first-page": "52",
+            "article-title": "A comparison study of three screw theory based kinematic solution methods for the industrial robot manipulators",
+            "author": "Sariyildiz",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b51",
+            "series-title": "Applied Mechanics and Materials",
+            "doi-asserted-by": "crossref",
+            "first-page": "271",
+            "DOI": "10.4028/b-8QTv4H",
+            "article-title": "Solution for a new sub-problem in screw theory and its’ application in the inverse kinematics of a manipulator",
+            "volume": "vol. 34",
+            "author": "Tan",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b52",
+            "series-title": "Advanced Materials Research",
+            "first-page": "250",
+            "article-title": "Inverse kinematics solution for a 6R special configuration manipulators based on screw theory",
+            "volume": "vol. 216",
+            "author": "Tan",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b53",
+            "series-title": "Screw Theory in Robotics: An Illustrated and Practicable Introduction to Modern Mechanics",
+            "author": "Pardos-Gotor",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b54",
+            "doi-asserted-by": "crossref",
+            "first-page": "166190",
+            "DOI": "10.1109/ACCESS.2019.2953553",
+            "article-title": "Analytical solution for inverse kinematics using dual quaternions",
+            "volume": "7",
+            "author": "Lin",
+            "year": "2019",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b55",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.34768/amcs-2020-0027",
+            "article-title": "Solution of an inverse kinematics problem using dual quaternions",
+            "volume": "30",
+            "author": "Chen",
+            "year": "2020",
+            "journal-title": "Int. J. Appl. Math. Comput. Sci."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b56",
+            "series-title": "2016 International Automatic Control Conference",
+            "first-page": "77",
+            "article-title": "An improved inverse kinematics solution of 6R-DOF robot manipulators with euclidean wrist using dual quaternions",
+            "author": "Josuet",
+            "year": "2016"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b57",
+            "doi-asserted-by": "crossref",
+            "first-page": "123",
+            "DOI": "10.1007/BF03546304",
+            "article-title": "Generalization of the Euler angles",
+            "volume": "51",
+            "author": "Shuster",
+            "year": "2003",
+            "journal-title": "J. Astronaut. Sci."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b58",
+            "series-title": "Analytical Shoulder-Elbow-Wrist Inverse Kinematics for the 7-DOF Motoman SIA50D Robot Arm",
+            "author": "Clement",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b59",
+            "series-title": "Computational Kinematics: Proceedings of the 5th International Workshop on Computational Kinematics",
+            "first-page": "167",
+            "article-title": "Explicit algebraic solution of geometrically simple serial manipulators",
+            "author": "Pfurner",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b60",
+            "series-title": "Robotics system toolbox",
+            "author": "MathWorks",
+            "year": "2024"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b61",
+            "doi-asserted-by": "crossref",
+            "first-page": "223",
+            "DOI": "10.1007/s10483-008-0209-z",
+            "article-title": "A new modification of false position method based on homotopy analysis method",
+            "volume": "29",
+            "author": "Abbasbandy",
+            "year": "2008",
+            "journal-title": "Appl. Math. Mech."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b62",
+            "series-title": "a division of Waterloo Maple Inc., Maple",
+            "author": "Maplesoft",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b63",
+            "series-title": "Mathematica, version 13.3",
+            "author": "Wolfram Research Inc.",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b64",
+            "series-title": "How Maple compares to Mathematica",
+            "author": "Maplesoft, a division of Waterloo Maple Inc.",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b65",
+            "series-title": "Novi commentarii academiae scientiarum Petropolitanae",
+            "first-page": "208",
+            "article-title": "Nova methodus motum corporum rigidorum degerminandi",
+            "author": "Euler",
+            "year": "1776"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b66",
+            "first-page": "380",
+            "article-title": "Des lois géométriques qui régissent les déplacements d’un système solide dans l’espace, et de la variation des coordonnées provenant de ces déplacements considérés indépendamment des causes qui peuvent les produire",
+            "volume": "5",
+            "author": "Rodrigues",
+            "year": "1840",
+            "journal-title": "J. Math. Appl."
+          },
+          {
+            "issue": "2A",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b67",
+            "doi-asserted-by": "crossref",
+            "first-page": "221",
+            "DOI": "10.1139/tcsme-2004-0016",
+            "article-title": "Extreme distance to a spatial circle",
+            "volume": "28",
+            "author": "Zsombor-Murray",
+            "year": "2004",
+            "journal-title": "Trans. Can. Soc. Mech. Eng."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b68",
+            "series-title": "Proceedings of the 15th International Conference on Indoor Positioning and Indoor Navigation, Sydney, Australia",
+            "article-title": "An algebraic solution to the multilateration problem",
+            "volume": "vol. 1315",
+            "author": "Norrdine",
+            "year": "2012"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b69",
+            "first-page": "51",
+            "article-title": "Common normals of two tori",
+            "volume": "9",
+            "author": "Odehnal",
+            "year": "2005",
+            "journal-title": "J. Geom. Graph."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105971_b70",
+            "first-page": "251",
+            "article-title": "A universal method of solving quartic equations",
+            "volume": "71",
+            "author": "Shmakov",
+            "year": "2011",
+            "journal-title": "Int. J. Pure Appl. Math."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105971_b71",
+            "series-title": "Intersection of Ellipses",
+            "author": "Eberly",
+            "year": "2020"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X25000606?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X25000606?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2025-05-13T20:39:07Z",
+          "timestamp": 1747168747000
+        },
+        "score": 21.643173,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X25000606"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "references-count": 71,
+        "alternative-id": [
+          "S0094114X25000606"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2025.105971",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "IK-Geo: Unified robot inverse kinematics using subproblem decomposition",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2025.105971",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2025 The Author(s). Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "105971"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

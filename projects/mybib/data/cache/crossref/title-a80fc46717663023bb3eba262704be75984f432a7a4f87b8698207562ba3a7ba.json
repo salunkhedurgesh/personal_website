@@ -1,0 +1,164 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3768722,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2026-03-10T12:59:40Z",
+          "timestamp": 1773147580667,
+          "version": "3.50.1"
+        },
+        "publisher-location": "New York, NY",
+        "reference-count": 0,
+        "publisher": "Springer New York",
+        "isbn-type": [
+          {
+            "value": "9780387953687",
+            "type": "print"
+          },
+          {
+            "value": "9780387224589",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2003,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2003-01-01T00:00:00Z",
+              "timestamp": 1041379200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2003
+            ]
+          ]
+        },
+        "DOI": "10.1007/b97597",
+        "type": "book",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              8,
+              30
+            ]
+          ],
+          "date-time": "2007-08-30T22:16:16Z",
+          "timestamp": 1188512176000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 168,
+        "title": [
+          "Fundamentals of Robotic Mechanical Systems: Theory, Methods, and Algorithms"
+        ],
+        "prefix": "10.1007",
+        "member": "297",
+        "container-title": [
+          "Mechanical Engineering Series"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/b97597.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/b97597",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2019-04-06T17:42:40Z",
+          "timestamp": 1554572560000
+        },
+        "score": 33.768475,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/b97597"
+          }
+        },
+        "editor": [
+          {
+            "given": "Jorge",
+            "family": "Angeles",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2003
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780387953687",
+          "9780387224589"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/b97597",
+        "ISSN": [
+          "0941-5122"
+        ],
+        "issn-type": [
+          {
+            "value": "0941-5122",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

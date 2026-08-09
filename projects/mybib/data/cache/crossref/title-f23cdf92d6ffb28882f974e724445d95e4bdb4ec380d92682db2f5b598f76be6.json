@@ -1,0 +1,138 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5063427,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              3
+            ]
+          ],
+          "date-time": "2023-07-03T18:56:30Z",
+          "timestamp": 1688410590195
+        },
+        "reference-count": 0,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "6",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Sci Am"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1954,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1038/scientificamerican1254-94",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              2,
+              23
+            ]
+          ],
+          "date-time": "2010-02-23T21:52:23Z",
+          "timestamp": 1266961943000
+        },
+        "page": "94-98",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Robert Hooke"
+        ],
+        "prefix": "10.1038",
+        "volume": "191",
+        "author": [
+          {
+            "given": "E. N.",
+            "family": "da C. Andrade",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "container-title": [
+          "Scientific American"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              12
+            ]
+          ],
+          "date-time": "2021-01-12T11:29:16Z",
+          "timestamp": 1610450956000
+        },
+        "score": 29.815044,
+        "resource": {
+          "primary": {
+            "URL": "https://www.scientificamerican.com/article/robert-hooke"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1954,
+              12
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "6",
+          "published-print": {
+            "date-parts": [
+              [
+                1954,
+                12
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "scientificamerican1254-94"
+        ],
+        "URL": "https://doi.org/10.1038/scientificamerican1254-94",
+        "ISSN": [
+          "0036-8733"
+        ],
+        "issn-type": [
+          {
+            "value": "0036-8733",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1954,
+              12
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

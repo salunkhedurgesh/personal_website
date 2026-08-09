@@ -1,0 +1,125 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2413,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2023-05-04T04:40:52Z",
+          "timestamp": 1683175252620
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "University of California Press",
+        "isbn-type": [
+          {
+            "value": "9780520320710",
+            "type": "electronic"
+          },
+          {
+            "value": "0520320719",
+            "type": "electronic"
+          },
+          {
+            "value": "9780520320703",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              28
+            ]
+          ]
+        },
+        "DOI": "10.2307/jj.2354053.127",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2023-05-03T15:08:52Z",
+          "timestamp": 1683126532000
+        },
+        "page": "56-56",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "1704"
+        ],
+        "prefix": "10.2307",
+        "member": "1121",
+        "container-title": [
+          "British Diaries"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2023-05-03T19:29:20Z",
+          "timestamp": 1683142160000
+        },
+        "score": 18.573404,
+        "resource": {
+          "primary": {
+            "URL": "http://www.jstor.org/stable/10.2307/jj.2354053.127"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              28
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780520320710",
+          "0520320719",
+          "9780520320703"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.2307/jj.2354053.127",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              28
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

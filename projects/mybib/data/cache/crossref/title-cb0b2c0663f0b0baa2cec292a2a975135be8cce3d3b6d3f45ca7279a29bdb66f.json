@@ -1,0 +1,184 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6128425,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              7
+            ]
+          ],
+          "date-time": "2025-05-07T06:50:58Z",
+          "timestamp": 1746600658522
+        },
+        "reference-count": 0,
+        "publisher": "American Society of Mechanical Engineers",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Serial 3R orthogonal manipulators have been studied recently and it has been proved that they can exhibit good performances in term of workspace size and kinematic properties. The aim of this work is to analyze their dynamic performances, and compare them with anthropomorphic manipulators, which are very popular in industry.</jats:p>\n               <jats:p>Static and dynamic analyses based on the evaluation of the maximal input torques required for moving the manipulator are achieved. It is shown that, as in kinematics, the dynamic performances of the serial 3R orthogonal manipulators are better.</jats:p>",
+        "DOI": "10.1115/esda2012-82208",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              13
+            ]
+          ],
+          "date-time": "2013-08-13T06:31:36Z",
+          "timestamp": 1376375496000
+        },
+        "page": "175-184",
+        "update-policy": "http://dx.doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Analysis of the Dynamic Performance of Serial 3R Orthogonal Manipulators"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Dinh Quan",
+            "family": "Nguyen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "IRCCyN, CNRS, Nantes, France"
+              }
+            ]
+          },
+          {
+            "given": "Sébastien",
+            "family": "Briot",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "IRCCyN, CNRS, Nantes, France"
+              }
+            ]
+          },
+          {
+            "given": "Philippe",
+            "family": "Wenger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "IRCCyN, CNRS, Nantes, France"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              12
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2012 11th Biennial Conference on Engineering Systems Design and Analysis",
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                2
+              ]
+            ]
+          },
+          "sponsor": [
+            "International"
+          ],
+          "location": "Nantes, France",
+          "end": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                4
+              ]
+            ]
+          },
+          "acronym": "ESDA2012"
+        },
+        "container-title": [
+          "Volume 3: Advanced Composite Materials and Processing; Robotics; Information Management and PLM; Design Engineering"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/ESDA/proceedings-pdf/doi/10.1115/ESDA2012-82208/4450983/175_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2019-08-31T19:47:57Z",
+          "timestamp": 1567280877000
+        },
+        "score": 29.106667,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/ESDA/proceedings/ESDA2012/44861/175/231451"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              2
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/esda2012-82208",
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

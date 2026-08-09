@@ -1,0 +1,185 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1424022,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              31
+            ]
+          ],
+          "date-time": "2022-05-31T09:33:30Z",
+          "timestamp": 1653989610451
+        },
+        "reference-count": 0,
+        "publisher": "American Scientific Publishers",
+        "issue": "12",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "j comput theor nanosci"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              12,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1166/jctn.2015.4685",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2016-06-01T02:48:23Z",
+          "timestamp": 1464749303000
+        },
+        "page": "5566-5576",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "The Configuration-Complete Quaternion Model of Kinematics and Kinematic Error of Metamorphic Mechanism"
+        ],
+        "prefix": "10.1166",
+        "volume": "12",
+        "author": [
+          {
+            "given": "Shenghai",
+            "family": "Hu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Mechanical and Electrical Engineering, Harbin Engineering University, Harbin 150001, China"
+              }
+            ]
+          },
+          {
+            "given": "Manhui",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mechanical and Electrical Engineering, Harbin Engineering University, Harbin 150001, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiulian",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Mechanical and Electrical Engineering, Harbin Engineering University, Harbin 150001, China"
+              }
+            ]
+          },
+          {
+            "given": "Yang",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Information Technology, Jiangmen Polytechnic, Jiangmen 529090, China"
+              }
+            ]
+          }
+        ],
+        "member": "17",
+        "container-title": [
+          "Journal of Computational and Theoretical Nanoscience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.ingentaconnect.com/content/asp/jctn/2015/00000012/00000012/art00082",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              26
+            ]
+          ],
+          "date-time": "2017-05-26T12:22:23Z",
+          "timestamp": 1495801343000
+        },
+        "score": 24.135355,
+        "resource": {
+          "primary": {
+            "URL": "http://www.ingentaconnect.com/content/10.1166/jctn.2015.4685"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              12,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "12",
+          "published-print": {
+            "date-parts": [
+              [
+                2015,
+                12,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "1546-1955(20151201)12:12L.5566;1-"
+        ],
+        "URL": "https://doi.org/10.1166/jctn.2015.4685",
+        "ISSN": [
+          "1546-1955"
+        ],
+        "issn-type": [
+          {
+            "value": "1546-1955",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              12,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

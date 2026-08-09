@@ -1,0 +1,229 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4107241,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T15:46:37Z",
+          "timestamp": 1758815197667
+        },
+        "reference-count": 7,
+        "publisher": "Wiley",
+        "issue": "7",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2003,
+                  7,
+                  2
+                ]
+              ],
+              "date-time": "2003-07-02T00:00:00Z",
+              "timestamp": 1057104000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 1,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J. Robotic Syst."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>The screw is a geometrical element. As Sir Robert Ball stated a century or more ago, the screw joins the company of point, plane, and line. In mechanics, especially instantaneous kinematics and statics of rigid bodies, angular and translational velocity of a body combine as a twist on a screw; precisely analogously a force and a couple combine as awrench on a screw. In three dimensions screw theory provides essential and simple insight into the behavior of systems of jointed bodies. And screw theory can also play a leading role in the systematic selection of suitable geometrical patterns that should relate to such jointed systems. Yet the mechanics of robots—the prime example today of systems of jointed bodies—has developed with little respect for the screw, even at the most elementary level. Here I focus mainly on robot performance, the study of which has, to an excessive extent, been proceeding blindly in territory where there is an abundance of screws and systems of screws, all, as it were, shouting to be taken on board to show the way. Failure to recognize the screw, and an unwillingness to use it properly, has led to the screw's being violently abused—“cross‐threaded.” There are far too many examples of “cross‐threading” that have, regrettably, appeared in recent years in several well‐known journals. Offenses have been perpetrated and yet left unchallenged. Here I try to remove any mystery that some may see surrounding, and even concealing, the screw. I then venture to deal critically with a small selection of the many instances of cross‐threading. However, this symposium has as a main objective the celebration of a Centenary. So it betokens an element of light‐heartedness that I resort to at times within the pages that follow. © 2003 Wiley Periodicals, Inc.</jats:p>",
+        "DOI": "10.1002/rob.10095",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2003,
+              7,
+              3
+            ]
+          ],
+          "date-time": "2003-07-03T10:04:50Z",
+          "timestamp": 1057226690000
+        },
+        "page": "317-339",
+        "source": "Crossref",
+        "is-referenced-by-count": 10,
+        "title": [
+          "Review: Don't Cross‐Thread the Screw!*"
+        ],
+        "prefix": "10.1002",
+        "volume": "20",
+        "author": [
+          {
+            "given": "Kenneth H.",
+            "family": "Hunt",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2003,
+              7,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_1_2_2",
+            "volume-title": "Reminiscences and letters of Sir Robert Ball",
+            "author": "Ball W.V.",
+            "year": "1915"
+          },
+          {
+            "key": "e_1_2_1_3_2",
+            "volume-title": "Kinematic geometry of mechanisms",
+            "author": "Hunt K.H.",
+            "year": "1978"
+          },
+          {
+            "key": "e_1_2_1_4_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(90)90103-Q"
+          },
+          {
+            "key": "e_1_2_1_5_2",
+            "volume-title": "Kinematic synthesis of linkages",
+            "author": "Hartenberg R.S.",
+            "year": "1964"
+          },
+          {
+            "key": "e_1_2_1_6_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836499101000503"
+          },
+          {
+            "key": "e_1_2_1_7_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/rob.4620070202"
+          },
+          {
+            "key": "e_1_2_1_8_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498200100102"
+          }
+        ],
+        "container-title": [
+          "Journal of Robotic Systems"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Frob.10095",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.10095",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2023-11-17T22:48:18Z",
+          "timestamp": 1700261298000
+        },
+        "score": 33.90387,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/rob.10095"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        },
+        "references-count": 7,
+        "journal-issue": {
+          "issue": "7",
+          "published-print": {
+            "date-parts": [
+              [
+                2003,
+                7
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1002/rob.10095"
+        ],
+        "URL": "https://doi.org/10.1002/rob.10095",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "0741-2223",
+          "1097-4563"
+        ],
+        "issn-type": [
+          {
+            "value": "0741-2223",
+            "type": "print"
+          },
+          {
+            "value": "1097-4563",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

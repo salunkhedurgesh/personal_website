@@ -1,0 +1,112 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 19006,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2024-09-10T03:16:17Z",
+          "timestamp": 1725938177043
+        },
+        "reference-count": 0,
+        "publisher": "The Thoemmes Press",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9781350052475"
+          },
+          {
+            "type": "print",
+            "value": "9781855069558"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2002
+            ]
+          ]
+        },
+        "DOI": "10.5040/9781350052475-0608",
+        "type": "other",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              5
+            ]
+          ],
+          "date-time": "2018-01-05T11:08:21Z",
+          "timestamp": 1515150501000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Barrett, Elizabeth Barrett Moulton"
+        ],
+        "prefix": "10.5040",
+        "member": "2984",
+        "container-title": [
+          "The Dictionary of Nineteenth-Century British Philosophers"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2021-04-15T05:51:05Z",
+          "timestamp": 1618465865000
+        },
+        "score": 17.755075,
+        "resource": {
+          "primary": {
+            "URL": "https://www.bloomsburyphilosophylibrary.com/article?docid=b-9781350052475&tocid=b-9781350052475-0608"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2002
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781350052475",
+          "9781855069558"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.5040/9781350052475-0608",
+        "published": {
+          "date-parts": [
+            [
+              2002
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

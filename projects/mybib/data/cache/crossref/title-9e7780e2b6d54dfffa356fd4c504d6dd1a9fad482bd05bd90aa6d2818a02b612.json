@@ -1,0 +1,353 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2941703,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              24
+            ]
+          ],
+          "date-time": "2026-02-24T17:41:29Z",
+          "timestamp": 1771954889528,
+          "version": "3.50.1"
+        },
+        "reference-count": 33,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2019-01-01T00:00:00Z",
+              "timestamp": 1546300800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Access"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "DOI": "10.1109/access.2019.2953553",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              14
+            ]
+          ],
+          "date-time": "2019-11-14T23:05:40Z",
+          "timestamp": 1573772740000
+        },
+        "page": "166190-166202",
+        "source": "Crossref",
+        "is-referenced-by-count": 18,
+        "title": [
+          "Analytical Solution for Inverse Kinematics Using Dual Quaternions"
+        ],
+        "prefix": "10.1109",
+        "volume": "7",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2347-3188",
+            "authenticated-orcid": false,
+            "given": "Ping-Feng",
+            "family": "Lin",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4888-7291",
+            "authenticated-orcid": false,
+            "given": "Ming-Bao",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4910-8031",
+            "authenticated-orcid": false,
+            "given": "Han-Pang",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s19071595"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICMECH.2006.252591"
+          },
+          {
+            "key": "ref31",
+            "author": "jacob",
+            "year": "2017",
+            "journal-title": "Eigen Library Official Website"
+          },
+          {
+            "key": "ref30",
+            "year": "2018",
+            "journal-title": "OpenCV Documentation Index Team"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SMC.2014.6974513"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/02783649922066213"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/(SICI)1097-4563(199603)13:3<153::AID-ROB3>3.0.CO;2-R"
+          },
+          {
+            "key": "ref13",
+            "first-page": "97",
+            "article-title": "Quaternions: From classical mechanics to computer graphics, and beyond",
+            "author": "mukundan",
+            "year": "2002",
+            "journal-title": "Proceedings of the 7th Asian Technology Confrence in Mathematics"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "crossref",
+            "first-page": "58",
+            "DOI": "10.1080/14786444808646046",
+            "article-title": "XI. On quaternions; or on a new system of imaginaries in algebra",
+            "volume": "33",
+            "year": "1848",
+            "journal-title": "The London Edinburgh and Dublin Philosophical Magazine and J of Science"
+          },
+          {
+            "key": "ref15",
+            "author": "rosenfeld",
+            "year": "1988",
+            "journal-title": "A History of Non-Euclidean Geometry Evolution of the Concept of a Geometric Space (Studies in the History of Mathematics and Physical Sciences)"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1409625.1409627"
+          },
+          {
+            "key": "ref17",
+            "author": "hamilton",
+            "year": "1869",
+            "journal-title": "Elements of Quaternions"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.127239"
+          },
+          {
+            "key": "ref19",
+            "article-title": "Kinematics and control robot manipulators",
+            "author": "paden",
+            "year": "1986"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROMAN.2017.8172474"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56653"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SII.2019.8700433"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56658"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574715000880"
+          },
+          {
+            "key": "ref29",
+            "year": "2018",
+            "journal-title": "OpenGLThe Industry's Foundation for High Performance Graphics"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/3477.662755"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechmachtheory.2009.05.013"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/09544062JMES1082"
+          },
+          {
+            "key": "ref2",
+            "author": "tsai",
+            "year": "1999",
+            "journal-title": "Robot Analysis the Mechanics of Serial and Parallel Manipulators"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836499201100504"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1115/1.4011045",
+            "article-title": "A kinematic notation for lower-pair mechanisms based on matrices",
+            "volume": "22",
+            "author": "denavit",
+            "year": "1955",
+            "journal-title": "J Appl Mech"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/195784.197480"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0031-3203(03)00180-8"
+          },
+          {
+            "key": "ref21",
+            "author": "ball",
+            "year": "1998",
+            "journal-title": "A Treatise on the Theory of Screws (Cambridge Mathematical Library)"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2019.2891007"
+          },
+          {
+            "key": "ref23",
+            "author": "murray",
+            "year": "1994",
+            "journal-title": "A Mathematical Introduction to Robotic Manipulation"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCYB.2015.2454334"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCYB.2015.2501842"
+          }
+        ],
+        "container-title": [
+          "IEEE Access"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6287639/8600701/08901137.pdf?arnumber=8901137",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2022-10-05T08:09:26Z",
+          "timestamp": 1664957366000
+        },
+        "score": 32.077206,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8901137/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "references-count": 33,
+        "URL": "https://doi.org/10.1109/access.2019.2953553",
+        "ISSN": [
+          "2169-3536"
+        ],
+        "issn-type": [
+          {
+            "value": "2169-3536",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

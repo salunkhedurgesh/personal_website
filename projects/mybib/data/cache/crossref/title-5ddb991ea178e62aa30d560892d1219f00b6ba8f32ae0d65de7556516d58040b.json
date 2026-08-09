@@ -1,0 +1,705 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7531835,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              10
+            ]
+          ],
+          "date-time": "2025-10-10T07:05:52Z",
+          "timestamp": 1760079952301,
+          "version": "3.40.5"
+        },
+        "reference-count": 52,
+        "publisher": "Elsevier BV",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2017,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2017-08-01T00:00:00Z",
+              "timestamp": 1501545600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "European Journal of Operational Research"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.ejor.2016.05.045",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              2
+            ]
+          ],
+          "date-time": "2016-06-02T18:50:16Z",
+          "timestamp": 1464893416000
+        },
+        "page": "934-948",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "Constraint propagation using dominance in interval Branch &amp; Bound for nonlinear biobjective optimization"
+        ],
+        "prefix": "10.1016",
+        "volume": "260",
+        "author": [
+          {
+            "given": "Benjamin",
+            "family": "Martin",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Alexandre",
+            "family": "Goldsztejn",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Laurent",
+            "family": "Granvilliers",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1383-3103",
+            "authenticated-orcid": false,
+            "given": "Christophe",
+            "family": "Jermann",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0001",
+            "series-title": "Proceedings of the association for the advancement of artificial intelligence conference, Aaai",
+            "article-title": "Exploiting monotonicity in interval constraint propagation",
+            "author": "Araya",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0002",
+            "series-title": "Lncs",
+            "first-page": "88",
+            "article-title": "A population and interval constraint propagation algorithm",
+            "author": "Barichard",
+            "year": "2003"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0003",
+            "series-title": "Proceedings of the international conference on logic programming",
+            "first-page": "230",
+            "article-title": "Revising hull and box consistency",
+            "author": "Benhamou",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0004",
+            "series-title": "Handbook of constraint programming",
+            "first-page": "571",
+            "article-title": "Chapter 16 - continuous and interval constraints",
+            "volume": "Vol. 2",
+            "author": "Benhamou",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0005",
+            "series-title": "International symposium on logic programming",
+            "first-page": "124",
+            "article-title": "CLP(Intervals) revisited",
+            "author": "Benhamou",
+            "year": "1994"
+          },
+          {
+            "year": "2006",
+            "author": "Coello",
+            "series-title": "Evolutionary algorithms for solving multi-objective problems (genetic and evolutionary computation)",
+            "key": "10.1016/j.ejor.2016.05.045_bib0007"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0008",
+            "doi-asserted-by": "crossref",
+            "first-page": "213",
+            "DOI": "10.1023/A:1009922003700",
+            "article-title": "Comparing partial consistencies",
+            "volume": "5",
+            "author": "Collavizza",
+            "year": "1999",
+            "journal-title": "Reliable Computing"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0009",
+            "doi-asserted-by": "crossref",
+            "first-page": "631",
+            "DOI": "10.1137/S1052623496307510",
+            "article-title": "Normal-boundary intersection: A new method for generating the Pareto surface in nonlinear multicriteria optimization problems",
+            "volume": "8",
+            "author": "Das",
+            "year": "1998",
+            "journal-title": "SIAM Journal on Optimization"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0010",
+            "series-title": "Evolutionary multi-criterion optimization, Lecture notes in computer science",
+            "first-page": "284",
+            "article-title": "Constrained test problems for multi-objective evolutionary optimization",
+            "volume": "Vol. 1993",
+            "author": "Deb",
+            "year": "2001"
+          },
+          {
+            "year": "2005",
+            "author": "Ehrgott",
+            "series-title": "Multicriteria optimization",
+            "key": "10.1016/j.ejor.2016.05.045_bib0011"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.ejor.2016.05.045_bib0012",
+            "doi-asserted-by": "crossref",
+            "first-page": "2674",
+            "DOI": "10.1016/j.cor.2005.10.003",
+            "article-title": "Bound sets for biobjective combinatorial optimization problems",
+            "volume": "34",
+            "author": "Ehrgott",
+            "year": "2007",
+            "journal-title": "Computers and Operations Research"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ejor.2016.05.045_bib0013",
+            "doi-asserted-by": "crossref",
+            "first-page": "315",
+            "DOI": "10.1007/s10898-006-9132-y",
+            "article-title": "Obtaining an outer approximation of the efficient set of nonlinear biobjective problems",
+            "volume": "38",
+            "author": "Fernández",
+            "year": "2007",
+            "journal-title": "Journal of Global Optimization"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0014",
+            "doi-asserted-by": "crossref",
+            "first-page": "393",
+            "DOI": "10.1007/s10589-007-9135-8",
+            "article-title": "Obtaining the efficient set of nonlinear biobjective optimization problems via interval branch-and-bound methods",
+            "volume": "42",
+            "author": "Fernández",
+            "year": "2009",
+            "journal-title": "Computational Optimization and Applications"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0015",
+            "series-title": "European conference on artificial intelligence",
+            "article-title": "An algorithm for multi-criteria optimization in CSPs",
+            "author": "Gavanelli",
+            "year": "2002"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.ejor.2016.05.045_bib0016",
+            "doi-asserted-by": "crossref",
+            "first-page": "653",
+            "DOI": "10.1007/s10898-013-0066-x",
+            "article-title": "First order rejection tests for multiple-objective optimization",
+            "volume": "58",
+            "author": "Goldsztejn",
+            "year": "2014",
+            "journal-title": "Journal of Global Optimization"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0017",
+            "series-title": "LINA.",
+            "article-title": "GAOL: Not just another interval arithmetic library",
+            "author": "Goualard",
+            "year": "2006"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ejor.2016.05.045_bib0018",
+            "doi-asserted-by": "crossref",
+            "first-page": "138",
+            "DOI": "10.1145/1132973.1132980",
+            "article-title": "Algorithm 852: RealPaver: an interval solver using constraint satisfaction techniques",
+            "volume": "32",
+            "author": "Granvilliers",
+            "year": "2006",
+            "journal-title": "ACM Transactions Mathematical Software"
+          },
+          {
+            "year": "2003",
+            "author": "Hansen",
+            "series-title": "Global optimization using interval analysis - revised and expanded",
+            "key": "10.1016/j.ejor.2016.05.045_bib0019"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0020",
+            "series-title": "Proceedings of the Aaai conference on artificial intelligence",
+            "article-title": "A support-based algorithm for the bi-objective Pareto constraint",
+            "author": "Hartert",
+            "year": "2014"
+          },
+          {
+            "year": "2001",
+            "author": "Jaulin",
+            "series-title": "Applied interval analysis with examples in parameter and state estimation, robust control and robotics",
+            "key": "10.1016/j.ejor.2016.05.045_bib0021"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ejor.2016.05.045_bib0022",
+            "first-page": "95",
+            "article-title": "Interval computations: Introduction, uses, and resources",
+            "volume": "2",
+            "author": "Kearfott",
+            "year": "1996",
+            "journal-title": "Euromath Bulletin"
+          },
+          {
+            "year": "1996",
+            "author": "Kearfott",
+            "series-title": "Rigorous global search: Continuous problems",
+            "key": "10.1016/j.ejor.2016.05.045_bib0023"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ejor.2016.05.045_bib0024",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1007/s00158-004-0465-1",
+            "article-title": "Adaptive weighted-sum method for bi-objective optimization: Pareto front generation",
+            "volume": "29",
+            "author": "Kim",
+            "year": "2005",
+            "journal-title": "Structural and Multidisciplinary Optimization"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "767",
+            "DOI": "10.1016/j.ejor.2015.03.031",
+            "article-title": "On the representation of the search region in multi-objective optimization",
+            "volume": "245",
+            "author": "Klamroth",
+            "year": "2015",
+            "journal-title": "European Journal of Operational Research"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0026",
+            "series-title": "Proceedings of the international conference on parallel processing and applied mathematics. PPAM’07",
+            "first-page": "1382",
+            "article-title": "Interval methods for computing the pareto-front of a multicriterial problem",
+            "author": "Kubica",
+            "year": "2008"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0027",
+            "series-title": "Applied parallel and scientific computing. LNCS",
+            "first-page": "137",
+            "article-title": "Using the second-order information in Pareto-set computations of a multi-criteria problem",
+            "volume": "Vol. 7134",
+            "author": "Kubica",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0028",
+            "series-title": "Applied parallel and scientific computing. LNCS",
+            "first-page": "504",
+            "article-title": "Tuning the interval algorithm for seeking pareto sets of multi-criteria problems",
+            "volume": "Vol. 7782",
+            "author": "Kubica",
+            "year": "2013"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ejor.2016.05.045_bib0029",
+            "doi-asserted-by": "crossref",
+            "first-page": "372",
+            "DOI": "10.1016/j.cam.2005.08.037",
+            "article-title": "An efficient and safe framework for solving optimization problems",
+            "volume": "199",
+            "author": "Lebbah",
+            "year": "2007",
+            "journal-title": "Journal of Computational and Applied Mathematics"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0030",
+            "series-title": "Proceedings of the international joint conference on artificial intelligence",
+            "first-page": "232",
+            "article-title": "Consistency techniques for numeric CSPs",
+            "author": "Lhomme",
+            "year": "1993"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0031",
+            "series-title": "Proceedings of the Aaai conference on artificial intelligence",
+            "first-page": "411",
+            "article-title": "Quick shaving",
+            "author": "Lhomme",
+            "year": "2005"
+          },
+          {
+            "year": "2014",
+            "author": "Martin",
+            "series-title": "Rigorous algorithms for nonlinear biobjective optimization",
+            "key": "10.1016/j.ejor.2016.05.045_bib0032"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ejor.2016.05.045_bib0033",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1007/s10898-014-0201-3",
+            "article-title": "On continuation methods for non-linear bi-objective optimization: towards a certified interval-based approach",
+            "volume": "64",
+            "author": "Martin",
+            "year": "2016",
+            "journal-title": "Journal of Global Optimization"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0034",
+            "series-title": "Nonlinear multiobjective optimization",
+            "volume": "Vol. 12",
+            "author": "Miettinen",
+            "year": "1999"
+          },
+          {
+            "year": "1966",
+            "author": "Moore",
+            "series-title": "Interval analysis",
+            "key": "10.1016/j.ejor.2016.05.045_bib0035"
+          },
+          {
+            "year": "1991",
+            "author": "Neumaier",
+            "series-title": "Interval methods for systems of equations",
+            "key": "10.1016/j.ejor.2016.05.045_bib0036"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ejor.2016.05.045_bib0037",
+            "doi-asserted-by": "crossref",
+            "first-page": "141",
+            "DOI": "10.1007/BF00121660",
+            "article-title": "Second-order sufficient optimality conditions for local and global nonlinear programming",
+            "volume": "9",
+            "author": "Neumaier",
+            "year": "1996",
+            "journal-title": "Journal of Global Optimization"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0038",
+            "doi-asserted-by": "crossref",
+            "first-page": "271",
+            "DOI": "10.1017/S0962492904000194",
+            "article-title": "Complete search in continuous global optimization and constraint satisfaction",
+            "volume": "13",
+            "author": "Neumaier",
+            "year": "2004",
+            "journal-title": "Acta Numerica"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.ejor.2016.05.045_bib0039",
+            "doi-asserted-by": "crossref",
+            "first-page": "452",
+            "DOI": "10.1007/s10601-015-9180-3",
+            "article-title": "Adaptive constructive interval disjunction: Algorithms and experiments",
+            "volume": "20",
+            "author": "Neveu",
+            "year": "2015",
+            "journal-title": "Constraints"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ejor.2016.05.045_bib0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "94",
+            "DOI": "10.1007/BF01743536",
+            "article-title": "A new method to solve generalized multicriteria optimization problems using the simple genetic algorithm",
+            "volume": "10",
+            "author": "Osyczka",
+            "year": "1995",
+            "journal-title": "Structural Optimization"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0041",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1016/j.disopt.2010.03.005",
+            "article-title": "A two phase method for multi-objective integer programming and its application to the assignment problem with three objectives",
+            "volume": "7",
+            "author": "Przybylski",
+            "year": "2010",
+            "journal-title": "Discrete Optimization"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0042",
+            "first-page": "287",
+            "article-title": "Multi-objective particle swarm optimizers: A survey of the state-of-the-art",
+            "volume": "2",
+            "author": "Reyes-Sierra",
+            "year": "2006",
+            "journal-title": "International Journal of Computational Intelligence Research"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0043",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.1007/s00158-004-0496-7",
+            "article-title": "An interval algorithm for multi-objective optimization",
+            "volume": "30",
+            "author": "Ruetsch",
+            "year": "2005",
+            "journal-title": "Structural and Multidisciplinary Optimization"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0044",
+            "doi-asserted-by": "crossref",
+            "first-page": "371",
+            "DOI": "10.1023/A:1024419816707",
+            "article-title": "A note on epsilon-inflation",
+            "volume": "4",
+            "author": "Rump",
+            "year": "1998",
+            "journal-title": "Reliable Computing"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_sbref0045",
+            "series-title": "Practical approaches to multi-objective optimization",
+            "article-title": "On continuation methods for the numerical treatment of multi-objective optimization problems",
+            "author": "Schütze",
+            "year": "2005"
+          },
+          {
+            "year": "2010",
+            "author": "Tóth",
+            "series-title": "Interval methods for single and bi-objective optimization problems-applied to competitive facility location problems",
+            "key": "10.1016/j.ejor.2016.05.045_bib0046"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0047",
+            "series-title": "Proceedings of the Aaai conference on artificial intelligence",
+            "article-title": "Inner regions and interval linearizations for global optimization",
+            "author": "Trombettoni",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0048",
+            "series-title": "Proceedings of the international conference on principles and practice of constraint programming",
+            "first-page": "635",
+            "article-title": "Constructive interval disjunction",
+            "volume": "Vol. 4741",
+            "author": "Trombettoni",
+            "year": "2007"
+          },
+          {
+            "year": "1997",
+            "author": "Van Hentenryck",
+            "series-title": "Numerica: A modeling language for global optimization",
+            "key": "10.1016/j.ejor.2016.05.045_bib0049"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0050",
+            "series-title": "Proceedings of the seventh international conference on evolutionary multi-criterion optimization, emo 2013,",
+            "first-page": "796",
+            "article-title": "Multi-objective optimization under uncertain objectives: Application to engineering design problem",
+            "author": "Villa",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/j.ejor.2016.05.045_bib0051",
+            "series-title": "special session on performance assessment of multi-objective optimization algorithms, technical report",
+            "article-title": "Multiobjective optimization test instances for the cec 2009 special session and competition",
+            "volume": "Vol. 264",
+            "author": "Zhang",
+            "year": "2008"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ejor.2016.05.045_bib0052",
+            "doi-asserted-by": "crossref",
+            "first-page": "840",
+            "DOI": "10.1016/j.asoc.2006.02.008",
+            "article-title": "Immune optimization algorithm for constrained nonlinear multiobjective optimization problems",
+            "volume": "7",
+            "author": "Zhang",
+            "year": "2007",
+            "journal-title": "Applied Soft Computing"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ejor.2016.05.045_bib0053",
+            "doi-asserted-by": "crossref",
+            "first-page": "117",
+            "DOI": "10.1109/TEVC.2003.810758",
+            "article-title": "Performance assessment of multiobjective optimizers: an analysis and review",
+            "volume": "7",
+            "author": "Zitzler",
+            "year": "2003",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          }
+        ],
+        "container-title": [
+          "European Journal of Operational Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0377221716303824?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0377221716303824?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              2
+            ]
+          ],
+          "date-time": "2019-11-02T12:46:50Z",
+          "timestamp": 1572698810000
+        },
+        "score": 32.92522,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0377221716303824"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "references-count": 52,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0377221716303824"
+        ],
+        "URL": "https://doi.org/10.1016/j.ejor.2016.05.045",
+        "ISSN": [
+          "0377-2217"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0377-2217"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Constraint propagation using dominance in interval Branch & Bound for nonlinear biobjective optimization",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "European Journal of Operational Research",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.ejor.2016.05.045",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2016 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2210034,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T05:01:55Z",
+          "timestamp": 1742965315482,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 21,
+        "publisher": "Springer Nature Switzerland",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783031457043"
+          },
+          {
+            "type": "electronic",
+            "value": "9783031457050"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-031-45705-0_56",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              4
+            ]
+          ],
+          "date-time": "2023-11-04T06:02:56Z",
+          "timestamp": 1699077776000
+        },
+        "page": "577-587",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Ellipse Distance Geometry and the Design of 3R Robots"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Federico",
+            "family": "Thomas",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Bertold",
+            "family": "Bongardt",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              5
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "56_CR1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Rojas, N., Borras, J., Thomas, F.: On quartically-solvable robots. In: IEEE International Conference on Robotics and Automation (ICRA), pp. 1410–1450. Seattle (2015)",
+            "DOI": "10.1109/ICRA.2015.7139374"
+          },
+          {
+            "key": "56_CR2",
+            "unstructured": "Smith, D.R.: Design of Solvable 6R Manipulators. Ph.D. dissertation, Georgia Institute of Technology (1990)"
+          },
+          {
+            "key": "56_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Smith, D.R., Lipkin, H.: A summary of the theory and application of the conics method in robot kinematics. In: Advances in Robot Kinematics. Springer (1991)",
+            "DOI": "10.1007/978-3-7091-4433-6_10"
+          },
+          {
+            "key": "56_CR4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gao, X.-S., Hou, X.-R., Tang, J., Cheng, H.-F.: Complete solution classification for the perspective-three-point problem. IEEE Trans. PAMI 25(8) (2003)",
+            "DOI": "10.1109/TPAMI.2003.1217599"
+          },
+          {
+            "key": "56_CR5",
+            "volume-title": "Algebra: Elementary Text-Book",
+            "author": "G Chrystal",
+            "year": "1904",
+            "unstructured": "Chrystal, G.: Algebra: Elementary Text-Book. Black, Part I. London (1904)"
+          },
+          {
+            "key": "56_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thomas, F., Pérez-Gracia, A.: Some new results in the kinematics of 3R robots using nested determinants. In: ASME 2017 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2017). Cleveland, Ohio, USA (2017)",
+            "DOI": "10.1115/DETC2017-67706"
+          },
+          {
+            "issue": "1",
+            "key": "56_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "51",
+            "DOI": "10.1080/00029890.1996.12004698",
+            "volume": "103",
+            "author": "WM Faucette",
+            "year": "1996",
+            "unstructured": "Faucette, W.M.: A geometric interpretation of the solution of the general quartic polynomial. Am. Math. Mon. 103(1), 51 (1996)",
+            "journal-title": "Am. Math. Mon."
+          },
+          {
+            "key": "56_CR8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thomas, F.: A distance geometry approach to the singularity analysis of 3R robots. ASME J. Mech. Robot. 8(1) 2015",
+            "DOI": "10.1115/1.4029500"
+          },
+          {
+            "key": "56_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "35",
+            "DOI": "10.1016/j.cagd.2017.03.013",
+            "volume": "54",
+            "author": "M Alberich-Carramiñana",
+            "year": "2017",
+            "unstructured": "Alberich-Carramiñana, M., Elizalde, B., Thomas, F.: New algebraic conditions for the identification of the relative position of two coplanar ellipses. Comput. Aided Geom. Des. 54, 35–48 (2017)",
+            "journal-title": "Comput. Aided Geom. Des."
+          },
+          {
+            "key": "56_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Halbeisen, L., Hungerbühler, N.: The exponential pencil of conics. Beiträge zur Algebra und Geometrie/Contrib. Algebra Geom 59(3), 549–571 (2018)",
+            "DOI": "10.1007/s13366-017-0375-1"
+          },
+          {
+            "key": "56_CR11",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Havel, T.F.: Some examples of the use of distances as coordinates for Euclidean geometry. J. Symbolic Comput. (1991)",
+            "DOI": "10.1016/S0747-7171(08)80120-4"
+          },
+          {
+            "key": "56_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "179",
+            "DOI": "10.1016/j.mechmachtheory.2011.10.010",
+            "volume": "50",
+            "author": "N Rojas",
+            "year": "2012",
+            "unstructured": "Rojas, N., Thomas, F.: On closed-form solutions to the position analysis of Baranov trusses. Mech. Mach. Theory 50, 179–196 (2012)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "56_CR13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Porta, J.M., Thomas, F.: Yet another approach to the Gough-Stewart platform forward kinematics. In: 2018 IEEE International Conference on Robotics and Automation (ICRA), pp. 974–980. Brisbane (2018)",
+            "DOI": "10.1109/ICRA.2018.8460900"
+          },
+          {
+            "key": "56_CR14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thomas, F., Porta, J.M.: Clifford’s Identity and Generalized Cayley-Menger Determinants, vol. 15, pp. 285–292. Cham: Springer International Publishing (2021)",
+            "DOI": "10.1007/978-3-030-50975-0_35"
+          },
+          {
+            "key": "56_CR15",
+            "first-page": "161",
+            "volume": "1",
+            "author": "J Steiner",
+            "year": "1826",
+            "unstructured": "Steiner, J.: Einige geometrische Betrachtungen. J. Reine Angew. Math. 1, 161–184 (1826)",
+            "journal-title": "J. Reine Angew. Math."
+          },
+          {
+            "key": "56_CR16",
+            "unstructured": "Laguerre, E.N.: Théorèmes généraux sur les courbes planes algébriques. C. R. Hebd. Seances Acad. Sci. 60(2), 70–74 (1865)"
+          },
+          {
+            "issue": "331",
+            "key": "56_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "11",
+            "DOI": "10.2307/3610261",
+            "volume": "40",
+            "author": "EH Neville",
+            "year": "1956",
+            "unstructured": "Neville, E.H.: The power of a point for a curve. Math. Gaz. 40(331), 11–14 (1956)",
+            "journal-title": "Math. Gaz."
+          },
+          {
+            "key": "56_CR18",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Suceavă, B.D., Vajiac, A., Vajiac, M.B.: The power of a point for some real algebraic curves. Math. Gaz. 92(523), 22–28, (2008)",
+            "DOI": "10.1017/S0025557200182488"
+          },
+          {
+            "issue": "96",
+            "key": "56_CR19",
+            "first-page": "223",
+            "volume": "6",
+            "author": "AC Dixon",
+            "year": "1912",
+            "unstructured": "Dixon, A.C.: Power of a point with respect to a conic. Math. Gaz. 6(96), 223–223 (1912)",
+            "journal-title": "Math. Gaz."
+          },
+          {
+            "key": "56_CR20",
+            "first-page": "25",
+            "volume": "18",
+            "author": "A Loeffler",
+            "year": "1963",
+            "unstructured": "Loeffler, A.: Sur la puissance d’un point par rapport à un conique. Elem. Math. 18, 25–28 (1963)",
+            "journal-title": "Elem. Math."
+          },
+          {
+            "key": "56_CR21",
+            "unstructured": "de Biasi, J.: Puissance d’un point par rapport à une conique. Bulletin de l’APMEP (Association des Professeurs de Mathématiques de l’Enseignement Public), no. 388, pp. 169–183 (1993)"
+          }
+        ],
+        "container-title": [
+          "Mechanisms and Machine Science",
+          "Advances in Mechanism and Machine Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-45705-0_56",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              4
+            ]
+          ],
+          "date-time": "2023-11-04T06:23:21Z",
+          "timestamp": 1699079001000
+        },
+        "score": 44.00514,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-031-45705-0_56"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783031457043",
+          "9783031457050"
+        ],
+        "references-count": 21,
+        "URL": "https://doi.org/10.1007/978-3-031-45705-0_56",
+        "ISSN": [
+          "2211-0984",
+          "2211-0992"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2211-0984"
+          },
+          {
+            "type": "electronic",
+            "value": "2211-0992"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "5 November 2023",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "IFToMM WC",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "IFToMM World Congress on Mechanism and Machine Science",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Tokyo",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Japan",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2023",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "5 November 2023",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "10 November 2023",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "16",
+            "order": 9,
+            "name": "conference_number",
+            "label": "Conference Number",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "iftommwc2023",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,10 @@
+services:
+  grobid:
+    image: grobid/grobid:0.9.0-crf
+    container_name: mybib-grobid
+    init: true
+    ulimits:
+      core: 0
+    ports:
+      - "8070:8070"
+    restart: unless-stopped

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A self-developed and constructed robot for minimally invasive cochlear implantation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Brett</forename><surname>Bell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Surgical Technology and Biomechanics</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christof</forename><surname>Stieger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of ENT, Head and Neck Surgery</orgName>
+								<orgName type="institution" key="instit1">Inselspital</orgName>
+								<orgName type="institution" key="instit2">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicolas</forename><surname>Gerber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Surgical Technology and Biomechanics</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andreas</forename><surname>Arnold</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of ENT, Head and Neck Surgery</orgName>
+								<orgName type="institution" key="instit1">Inselspital</orgName>
+								<orgName type="institution" key="instit2">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claude</forename><surname>Nauer</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Neuroradiology</orgName>
+								<orgName type="institution">University Hospital Bern</orgName>
+								<address>
+									<settlement>Bern</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Volkmar</forename><surname>Hamacher</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Otorhinolaryngology-Head and Neck Surgery</orgName>
+								<orgName type="institution">Phonak Acoustic Implants</orgName>
+								<address>
+									<settlement>Stäfa</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Kompis</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of ENT, Head and Neck Surgery</orgName>
+								<orgName type="institution" key="instit1">Inselspital</orgName>
+								<orgName type="institution" key="instit2">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lutz</forename><surname>Nolte</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Surgical Technology and Biomechanics</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>MD, Chairman and Director of</roleName><forename type="first">Marco</forename><surname>Caversaccio</surname></persName>
+							<email>marco.caversaccio@insel.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of ENT, Head and Neck Surgery</orgName>
+								<orgName type="institution" key="instit1">Inselspital</orgName>
+								<orgName type="institution" key="instit2">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stefan</forename><surname>Weber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">ARTORG Center</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Surgical Technology and Biomechanics</orgName>
+								<orgName type="institution">University of Bern</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">Inselspital</orgName>
+								<orgName type="institution" key="instit2">University of Bern</orgName>
+								<address>
+									<postCode>CH-3010</postCode>
+									<settlement>Freiburgstrasse Bern</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A self-developed and constructed robot for minimally invasive cochlear implantation</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">0001-6489 print/ 1651-2251 online</idno>
+					</monogr>
+					<idno type="MD5">A0F51D2BF9319A6B1C2CBEAD3048DEBE</idno>
+					<idno type="DOI">10.3109/00016489.2011.642813</idno>
+					<note type="submission">Received 5 September 2011; accepted 13 November 2011</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Computer-aided surgery</term>
+					<term>image-guided</term>
+					<term>navigation</term>
+					<term>key-hole</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Conclusion: A robot built specifically for stereotactic cochlear implantation provides equal or better accuracy levels together with a better integration into a clinical environment, when compared with existing approaches based on industrial robots. Objectives: To evaluate the technical accuracy of a robotic system developed specifically for lateral skull base surgery in an experimental setup reflecting the intended clinical application. The invasiveness of cochlear electrode implantation procedures may be reduced by replacing the traditional mastoidectomy with a small tunnel slightly larger in diameter than the electrode itself. Methods: The end-to-end accuracy of the robot system and associated image-guided procedure was evaluated on 15 temporal bones of whole head cadaver specimens. The main components of the procedure were as follows: reference screw placement, cone beam CT scan, computer-aided planning, pair-point matching of the surgical plan, robotic drilling of the direct access tunnel, and postoperative cone beam CT scan for accuracy assessment. Results: The mean accuracy at the target point (round window) was 0.56 ± 0.41 mm with an angular misalignment of 0.88 ± 0.40. The procedural time for the registration process through the completion of the drilling procedure was 25 ± 11 min. The robot was fully operational in a clinical environment.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

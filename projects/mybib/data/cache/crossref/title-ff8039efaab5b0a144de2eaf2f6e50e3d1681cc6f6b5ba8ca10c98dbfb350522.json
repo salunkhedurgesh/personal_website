@@ -1,0 +1,125 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 156553,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              11
+            ]
+          ],
+          "date-time": "2024-09-11T01:00:07Z",
+          "timestamp": 1726016407668
+        },
+        "reference-count": 0,
+        "publisher": "UN",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9789210454414"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2001,
+              6,
+              27
+            ]
+          ]
+        },
+        "DOI": "10.18356/d99d8195-en-fr",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2019-04-05T17:20:58Z",
+          "timestamp": 1554484858000
+        },
+        "page": "121-184",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "No. 32552. Germany and Chile"
+        ],
+        "prefix": "10.18356",
+        "member": "7834",
+        "container-title": [
+          "United Nations Treaty Series",
+          "Treaty Series 1911"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              24
+            ]
+          ],
+          "date-time": "2021-02-24T23:31:30Z",
+          "timestamp": 1614209490000
+        },
+        "score": 19.79053,
+        "resource": {
+          "primary": {
+            "URL": "https://www.un-ilibrary.org/content/books/9789210454414s002-c008"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2001,
+              6,
+              27
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789210454414"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.18356/d99d8195-en-fr",
+        "ISSN": [
+          "2412-1495"
+        ],
+        "issn-type": [
+          {
+            "type": "electronic",
+            "value": "2412-1495"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2001,
+              6,
+              27
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

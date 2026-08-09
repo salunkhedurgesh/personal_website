@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Conformal Villarceau Rotors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-04-30">April 30, 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Leo</forename><surname>Dorst</surname></persName>
+						</author>
+						<title level="a" type="main">Conformal Villarceau Rotors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-04-30">April 30, 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">094807CFEB3113948DFD383A0C967B78</idno>
+					<idno type="DOI">10.1007/s00006-019-0960-5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mathematics Subject Classification. Primary 51Bxx; Secondary 15A66 Villarceau circle</term>
+					<term>Conformal</term>
+					<term>Geometric algebra</term>
+					<term>Hopf fibration</term>
+					<term>Isoclinic rotation</term>
+					<term>Clifford torus</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>We consider Villarceau circles as the orbits of specific composite rotors in 3D conformal geometric algebra that generate knots on nested tori. We compute the conformal parametrization of these circular orbits by giving an equivalent, position-dependent simple rotor that generates the same parametric track for a given point. This allows compact derivation of the quantitative symmetry properties of the Villarceau circles. We briefly derive their role in the Hopf fibration and as stereographic images of isoclinic rotations on a 3-sphere of the 4D Clifford torus. We use the CGA description to generate 3D images of our results, by means of GAviewer. This paper was motivated by the hope that the compact coordinate-free CGA representations can aid in the analysis of Villarceau circles (and torus knots) as occurring in the Maxwell and Dirac equations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

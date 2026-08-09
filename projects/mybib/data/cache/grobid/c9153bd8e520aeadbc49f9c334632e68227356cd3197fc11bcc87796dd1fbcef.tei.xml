@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Annealing helicase HARP closes RPA-stabilized DNA bubbles non-processively</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">R</forename><surname>Burnham</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Bionanoscience</orgName>
+								<orgName type="institution" key="instit1">Kavli Institute of Nanoscience</orgName>
+								<orgName type="institution" key="instit2">Delft University of Technology</orgName>
+								<address>
+									<postCode>2629 HZ</postCode>
+									<settlement>Delft</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bas</forename><surname>Nijholt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Bionanoscience</orgName>
+								<orgName type="institution" key="instit1">Kavli Institute of Nanoscience</orgName>
+								<orgName type="institution" key="instit2">Delft University of Technology</orgName>
+								<address>
+									<postCode>2629 HZ</postCode>
+									<settlement>Delft</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Iwijn</forename><surname>De Vlaminck</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Bionanoscience</orgName>
+								<orgName type="institution" key="instit1">Kavli Institute of Nanoscience</orgName>
+								<orgName type="institution" key="instit2">Delft University of Technology</orgName>
+								<address>
+									<postCode>2629 HZ</postCode>
+									<settlement>Delft</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinhua</forename><surname>Quan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Harvard Medical School</orgName>
+								<orgName type="laboratory">Biological Chemistry and Molecular Pharmacology</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<addrLine>1 Midland Road</addrLine>
+									<postCode>02215 NW1 1AT</postCode>
+									<settlement>Boston London</settlement>
+									<region>MA</region>
+									<country>USA UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Timur</forename><surname>Yusufzai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Harvard Medical School</orgName>
+								<orgName type="laboratory">Biological Chemistry and Molecular Pharmacology</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<addrLine>1 Midland Road</addrLine>
+									<postCode>02215 NW1 1AT</postCode>
+									<settlement>Boston London</settlement>
+									<region>MA</region>
+									<country>USA UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Cees</forename><surname>Dekker</surname></persName>
+							<email>c.dekker@tudelft.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Bionanoscience</orgName>
+								<orgName type="institution" key="instit1">Kavli Institute of Nanoscience</orgName>
+								<orgName type="institution" key="instit2">Delft University of Technology</orgName>
+								<address>
+									<postCode>2629 HZ</postCode>
+									<settlement>Delft</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">C</forename><surname>Meinig</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Biomedical Engineering</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<addrLine>Weill Hall Ithaca</addrLine>
+									<postCode>14853</postCode>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Annealing helicase HARP closes RPA-stabilized DNA bubbles non-processively</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5B6D9EF74C2ABC9EDE2F0CA48D0F6D5B</idno>
+					<idno type="DOI">10.1093/nar/gkx147</idno>
+					<note type="submission">Received October 12, 2016; Revised January 23, 2017; Editorial Decision February 20, 2017; Accepted February 27, 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>We investigate the mechanistic nature of the Snf2 family protein HARP, mutations of which are responsible for Schimke immuno-osseous dysplasia. Using a single-molecule magnetic tweezers assay, we construct RPA-stabilized DNA bubbles within torsionally constrained DNA to investigate the annealing action of HARP on a physiologically relevant substrate. We find that HARP closes RPA-stabilized bubbles in a slow reaction, taking on the order of tens of minutes for ∼600 bp of DNA to be re-annealed. The data indicate that DNA re-anneals through the removal of RPA, which is observed as clear steps in the bubbleclosing traces. The dependence of the closing rate on both ionic strength and HARP concentration indicates that removal of RPA occurs via an associationdissociation mechanism where HARP does not remain associated with the DNA. The enzyme exhibits classical Michaelis-Menten kinetics and acts cooperatively with a Hill coefficient of 3 ± 1. Our work also allows the determination of some important features of RPA-bubble structures at low supercoiling, including the existence of multiple bubbles and that RPA molecules are mis-registered on the two strands.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

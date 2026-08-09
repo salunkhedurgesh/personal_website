@@ -1,0 +1,282 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1165245,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              25
+            ]
+          ],
+          "date-time": "2026-01-25T13:00:19Z",
+          "timestamp": 1769346019386,
+          "version": "3.49.0"
+        },
+        "reference-count": 13,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2016-03-01T00:00:00Z",
+              "timestamp": 1456790400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Math.Comput.Sci."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11786-016-0250-8",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2016-03-28T09:35:28Z",
+          "timestamp": 1459157728000
+        },
+        "page": "97-113",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 11,
+        "title": [
+          "The Construction of 3D Conformal Motions"
+        ],
+        "prefix": "10.1007",
+        "volume": "10",
+        "author": [
+          {
+            "given": "Leo",
+            "family": "Dorst",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              3,
+              28
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "250_CR1",
+            "unstructured": "Colapinto, P.: Articulating space: geometric algebra for parametric design—symmetry, kinematics, and curvature. PhD thesis, University of California at Santa Barbara (2016)"
+          },
+          {
+            "key": "250_CR2",
+            "volume-title": "A Treatise on the Circle and the Sphere",
+            "author": "J. Coolidge",
+            "year": "1916",
+            "unstructured": "Coolidge J.: A Treatise on the Circle and the Sphere. Clarendon Press, Oxford (1916)"
+          },
+          {
+            "key": "250_CR3",
+            "volume-title": "Geometric Algebra for Computer Science: An Object-oriented Approach to Geometry",
+            "author": "L. Dorst",
+            "year": "2009",
+            "unstructured": "Dorst L., Fontijne D., Mann S.: Geometric Algebra for Computer Science: An Object-oriented Approach to Geometry. Morgan Kaufman, San Francisco (2009)"
+          },
+          {
+            "key": "250_CR4",
+            "unstructured": "Dorst, L.: Conformal geometric algebra by extended Vahlen matrices. In: GraVisma 2009 workshop proceedings (2009), Skala V., Hildenbrandt H., (Eds.), pp. 72–79"
+          },
+          {
+            "key": "250_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "435",
+            "DOI": "10.1007/978-0-85729-811-9_21",
+            "volume-title": "Guide to Geometric in Practice.",
+            "author": "L. Dorst",
+            "year": "2011",
+            "unstructured": "Dorst L.: Tutorial appendix: structure preserving representation of Euclidean motions through conformal geometric algebra. In: Dorst, L., Lasenby, J. (eds.) Guide to Geometric in Practice., pp. 435–452. Springer-Verlag, London (2011)"
+          },
+          {
+            "key": "250_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "81",
+            "DOI": "10.1007/978-0-85729-811-9_5",
+            "volume-title": "Guide to Geometric in Practice",
+            "author": "L. Dorst",
+            "year": "2011",
+            "unstructured": "Dorst L., Valkenburg R.: Square root and logarithm of rotors in 3D conformal geometric algebra using polar decomposition. In: Dorst, L., Lasenby, J. (eds.) Guide to Geometric in Practice, pp. 81–104. Springer-Verlag, London (2011)"
+          },
+          {
+            "key": "250_CR7",
+            "unstructured": "Fontijne, D., Dorst, L.: GAViewer, free download for various platforms. http://www.geometricalgebra.net/gaviewer_download.html (2007)"
+          },
+          {
+            "key": "250_CR8",
+            "unstructured": "Hestenes, D., Rockwood, A., Li, H.: System for encoding and manipulating models of objects. US Patent 6,853,964, granted, 8 Feb 2005"
+          },
+          {
+            "key": "250_CR9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hestenes, D., Sobczyk, G.: Clifford Algebra to Geometric Calculus. Reidel (1984)",
+            "DOI": "10.1007/978-94-009-6292-7"
+          },
+          {
+            "key": "250_CR10",
+            "first-page": "27",
+            "volume-title": "Geometric Computing with Clifford Algebra",
+            "author": "H. Li",
+            "year": "1999",
+            "unstructured": "Li H., Hestenes D., Rockwood A.: Generalized homogeneous coordinates for computational geometry. In: Sommer, G. (ed.) Geometric Computing with Clifford Algebra, pp. 27–59. Springer, Heidelberg (1999)"
+          },
+          {
+            "key": "250_CR11",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1093/oso/9780198534471.001.0001",
+            "volume-title": "Visual Complex Analysis",
+            "author": "T. Needham",
+            "year": "1997",
+            "unstructured": "Needham T.: Visual Complex Analysis. Clarendon Press, Oxford (1997)"
+          },
+          {
+            "key": "250_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Weber, O., Gotsman, C.: Controllable conformal mappings for shape deformation. ACM Trans. Graphics, vol. 4 (2010)",
+            "DOI": "10.1145/1833351.1778815"
+          },
+          {
+            "key": "250_CR13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wallner, J., Pottmann, H. (2011) Geometric computing for freeform architecture. J. Math. Ind. 1, 4–19",
+            "DOI": "10.1186/2190-5983-1-4"
+          }
+        ],
+        "container-title": [
+          "Mathematics in Computer Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s11786-016-0250-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s11786-016-0250-8/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s11786-016-0250-8",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              15
+            ]
+          ],
+          "date-time": "2024-06-15T09:21:15Z",
+          "timestamp": 1718443275000
+        },
+        "score": 35.985435,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s11786-016-0250-8"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        },
+        "references-count": 13,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "250"
+        ],
+        "URL": "https://doi.org/10.1007/s11786-016-0250-8",
+        "ISSN": [
+          "1661-8270",
+          "1661-8289"
+        ],
+        "issn-type": [
+          {
+            "value": "1661-8270",
+            "type": "print"
+          },
+          {
+            "value": "1661-8289",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

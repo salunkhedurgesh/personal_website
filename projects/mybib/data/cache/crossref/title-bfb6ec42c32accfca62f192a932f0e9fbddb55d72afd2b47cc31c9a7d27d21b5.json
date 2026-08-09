@@ -1,0 +1,271 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4480776,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2025-05-13T23:35:28Z",
+          "timestamp": 1747179328287,
+          "version": "3.40.5"
+        },
+        "reference-count": 6,
+        "publisher": "Informa UK Limited",
+        "issue": "7",
+        "content-domain": {
+          "domain": [
+            "www.tandfonline.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Clinical Toxicology"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1080/15563650.2023.2240061",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              3
+            ]
+          ],
+          "date-time": "2023-08-03T14:37:17Z",
+          "timestamp": 1691073437000
+        },
+        "page": "563-564",
+        "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Response to Klein et al. 2023"
+        ],
+        "prefix": "10.1080",
+        "volume": "61",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9686-9832",
+            "authenticated-orcid": false,
+            "given": "Mark",
+            "family": "Simon",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Rocky Mountain Poison &amp; Drug Safety, Denver Health and Hospital Authority, Denver, CO, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8423-1337",
+            "authenticated-orcid": false,
+            "given": "Kennon",
+            "family": "Heard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Rocky Mountain Poison &amp; Drug Safety, Denver Health and Hospital Authority, Denver, CO, USA"
+              },
+              {
+                "name": "Department of Emergency Medicine, University of Colorado Hospital, Aurora, CO, USA"
+              }
+            ]
+          }
+        ],
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              3
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_3_2_2_1",
+            "first-page": "379",
+            "article-title": "Comment on: Are antimuscarinic effects common in hydroxyzine overdose? A cohort analysis of antimuscarinic effects in hydroxyzine and diphenhydramine poisoned patient",
+            "volume": "61",
+            "author": "Klein SS",
+            "unstructured": "Klein SS, Bloom J, Gnirke M, et al. Comment on: Are antimuscarinic effects common in hydroxyzine overdose? A cohort analysis of antimuscarinic effects in hydroxyzine and diphenhydramine poisoned patient. Clin Toxicol. 61:379–386.",
+            "journal-title": "Clin Toxicol"
+          },
+          {
+            "key": "e_1_3_2_3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/15563650.2023.2200575"
+          },
+          {
+            "key": "e_1_3_2_4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/15563650.2022.2132768"
+          },
+          {
+            "key": "e_1_3_2_5_1",
+            "unstructured": "U.S. Food and Drug Administration. Benadryl (diphenhydramine): Drug Safety Communication. 2020. https://www.fda.gov/safety/medical-product-safety-information/benadryl-diphenhydramine-drug-safety-communication-serious-problems-high-doses-allergy-medicine"
+          },
+          {
+            "key": "e_1_3_2_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0091-6749(05)80244-1"
+          },
+          {
+            "volume-title": "Diphenhydramine",
+            "author": "Sicari V",
+            "key": "e_1_3_2_7_1",
+            "unstructured": "Sicari V, Zabbo CP. Diphenhydramine. 2022 Jul 11. In: statPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023. Available at: https://www.statpearls.com/ArticleLibrary/viewarticle/20535"
+          }
+        ],
+        "container-title": [
+          "Clinical Toxicology"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15563650.2023.2240061",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              29
+            ]
+          ],
+          "date-time": "2024-02-29T16:13:12Z",
+          "timestamp": 1709223192000
+        },
+        "score": 32.98103,
+        "resource": {
+          "primary": {
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/15563650.2023.2240061"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              3
+            ]
+          ]
+        },
+        "references-count": 6,
+        "journal-issue": {
+          "issue": "7",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1080/15563650.2023.2240061"
+        ],
+        "URL": "https://doi.org/10.1080/15563650.2023.2240061",
+        "ISSN": [
+          "1556-3650",
+          "1556-9519"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "1556-3650"
+          },
+          {
+            "type": "electronic",
+            "value": "1556-9519"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+            "order": 1,
+            "name": "peerreview_statement",
+            "label": "Peer Review Statement"
+          },
+          {
+            "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ictx20",
+            "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ictx20",
+            "order": 2,
+            "name": "aims_and_scope_url",
+            "label": "Aim & Scope"
+          },
+          {
+            "value": "2023-07-17",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2023-07-19",
+            "order": 1,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2023-08-03",
+            "order": 2,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

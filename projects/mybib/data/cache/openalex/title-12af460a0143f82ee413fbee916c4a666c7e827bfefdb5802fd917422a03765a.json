@@ -1,0 +1,1935 @@
+{
+  "meta": {
+    "count": 134,
+    "db_response_time_ms": 156,
+    "page": 1,
+    "per_page": 1,
+    "groups_count": null,
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3135354379",
+      "doi": "https://doi.org/10.3389/fsufs.2021.547834",
+      "title": "Native Grasslands at the Core: A New Paradigm of Intensification for the Campos of Southern South America to Increase Economic and Environmental Sustainability",
+      "display_name": "Native Grasslands at the Core: A New Paradigm of Intensification for the Campos of Southern South America to Increase Economic and Environmental Sustainability",
+      "relevance_score": 9.67983,
+      "publication_year": 2021,
+      "publication_date": "2021-03-05",
+      "ids": {
+        "openalex": "https://openalex.org/W3135354379",
+        "doi": "https://doi.org/10.3389/fsufs.2021.547834",
+        "mag": "3135354379"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.3389/fsufs.2021.547834",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fsufs.2021.547834",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2021.547834/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210212157",
+          "display_name": "Frontiers in Sustainable Food Systems",
+          "issn_l": "2571-581X",
+          "issn": [
+            "2571-581X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Sustainable Food Systems",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2021.547834/pdf",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5022263116",
+            "display_name": "Martín Jaurena",
+            "orcid": "https://orcid.org/0000-0002-6981-8594"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210135705",
+              "display_name": "Instituto Nacional de Investigación Agropecuaria",
+              "ror": "https://ror.org/02sspdz82",
+              "country_code": "UY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Martín Jaurena",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Tacuarembó, Tacuarembó, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Tacuarembó, Tacuarembó, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5042627441",
+            "display_name": "Martí­n Durante",
+            "orcid": "https://orcid.org/0000-0002-6036-6042"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210135705",
+              "display_name": "Instituto Nacional de Investigación Agropecuaria",
+              "ror": "https://ror.org/02sspdz82",
+              "country_code": "UY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I4210135705"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210153948",
+              "display_name": "National Agricultural Technology Institute",
+              "ror": "https://ror.org/04wm52x94",
+              "country_code": "AR",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ],
+          "countries": [
+            "AR",
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Martín Durante",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Tacuarembó, Tacuarembó, Uruguay",
+            "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria INTA Concepción Del Uruguay, Concepción del Uruguay, Argentina"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Tacuarembó, Tacuarembó, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210135705"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria INTA Concepción Del Uruguay, Concepción del Uruguay, Argentina",
+              "institution_ids": [
+                "https://openalex.org/I4210135705",
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5027963172",
+            "display_name": "Thais Devincenzi",
+            "orcid": "https://orcid.org/0000-0002-0063-7170"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210135705",
+              "display_name": "Instituto Nacional de Investigación Agropecuaria",
+              "ror": "https://ror.org/02sspdz82",
+              "country_code": "UY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Thais Devincenzi",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Producción de Carne y Lana, Estación Experimental INIA Tacuarembó, Tacuarembó, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Producción de Carne y Lana, Estación Experimental INIA Tacuarembó, Tacuarembó, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5062664017",
+            "display_name": "Jean Víctor Savian",
+            "orcid": "https://orcid.org/0000-0003-3171-2572"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210135705",
+              "display_name": "Instituto Nacional de Investigación Agropecuaria",
+              "ror": "https://ror.org/02sspdz82",
+              "country_code": "UY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Jean V. Savian",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Treinta y tres, Treinta y tres, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Treinta y tres, Treinta y tres, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5081854486",
+            "display_name": "Diego Bendersky",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210153948",
+              "display_name": "National Agricultural Technology Institute",
+              "ror": "https://ror.org/04wm52x94",
+              "country_code": "AR",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ],
+          "countries": [
+            "AR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Diego Bendersky",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria, INTA Mercedes, Mercedes, Argentina"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria, INTA Mercedes, Mercedes, Argentina",
+              "institution_ids": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5006112021",
+            "display_name": "Fernanda Gomes Moojen",
+            "orcid": "https://orcid.org/0000-0003-0474-8035"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I130442723",
+              "display_name": "Universidade Federal do Rio Grande do Sul",
+              "ror": "https://ror.org/041yk2d64",
+              "country_code": "BR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I130442723"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I126460647",
+              "display_name": "Universidade Federal do Rio Grande",
+              "ror": "https://ror.org/05hpfkn88",
+              "country_code": "BR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I126460647"
+              ]
+            }
+          ],
+          "countries": [
+            "BR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fernanda G. Moojen",
+          "raw_affiliation_strings": [
+            "Departamento de Plantas Forrageiras e Agrometeorologia, Faculdade de Agronomia, Universidade Federal de Rio Grande Do Sul, Porto Alegre, Brazil"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Departamento de Plantas Forrageiras e Agrometeorologia, Faculdade de Agronomia, Universidade Federal de Rio Grande Do Sul, Porto Alegre, Brazil",
+              "institution_ids": [
+                "https://openalex.org/I130442723",
+                "https://openalex.org/I126460647"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5024841171",
+            "display_name": "Marcelo Pereira",
+            "orcid": "https://orcid.org/0000-0002-1424-9275"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210134706",
+              "display_name": "Plan Ceibal",
+              "ror": "https://ror.org/03hqq6242",
+              "country_code": "UY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I4210134706"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Marcelo Pereira",
+          "raw_affiliation_strings": [
+            "Instituto Plan Agropecuario, Regional Norte, Salto, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Plan Agropecuario, Regional Norte, Salto, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210134706"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5021810962",
+            "display_name": "P. Soca",
+            "orcid": "https://orcid.org/0000-0003-3319-7279"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I180910786",
+              "display_name": "Universidad de la República",
+              "ror": "https://ror.org/030bbe882",
+              "country_code": "UY",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I180910786"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Pablo Soca",
+          "raw_affiliation_strings": [
+            "Facultad de Agronomía, Estación Experimental “Dr. Mario A. Cassinoni”, Universidad de la República, Paysandú, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Facultad de Agronomía, Estación Experimental “Dr. Mario A. Cassinoni”, Universidad de la República, Paysandú, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I180910786"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5089238518",
+            "display_name": "Fernando Luíz Ferreira de Quadros",
+            "orcid": "https://orcid.org/0000-0001-8687-8583"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I33501960",
+              "display_name": "Universidade Federal de Santa Maria",
+              "ror": "https://ror.org/01b78mz79",
+              "country_code": "BR",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I33501960"
+              ]
+            }
+          ],
+          "countries": [
+            "BR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fernando L. F. Quadros",
+          "raw_affiliation_strings": [
+            "Laboratório de Ecologia de Pastagens Naturais, Universidade Federal de Santa María, Santa María, Brazil"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Laboratório de Ecologia de Pastagens Naturais, Universidade Federal de Santa María, Santa María, Brazil",
+              "institution_ids": [
+                "https://openalex.org/I33501960"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5064072188",
+            "display_name": "Rafael Mario Pizzio",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210135705",
+              "display_name": "Instituto Nacional de Investigación Agropecuaria",
+              "ror": "https://ror.org/02sspdz82",
+              "country_code": "UY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Rafael Pizzio",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Treinta y tres, Treinta y tres, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA Treinta y tres, Treinta y tres, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5005805479",
+            "display_name": "Carlos Nabinger",
+            "orcid": "https://orcid.org/0000-0002-4695-4227"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210153948",
+              "display_name": "National Agricultural Technology Institute",
+              "ror": "https://ror.org/04wm52x94",
+              "country_code": "AR",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ],
+          "countries": [
+            "AR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Carlos Nabinger",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria, INTA Mercedes, Mercedes, Argentina"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria, INTA Mercedes, Mercedes, Argentina",
+              "institution_ids": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5006578923",
+            "display_name": "Paulo César de Faccio Carvalho",
+            "orcid": "https://orcid.org/0000-0002-7020-3001"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210153948",
+              "display_name": "National Agricultural Technology Institute",
+              "ror": "https://ror.org/04wm52x94",
+              "country_code": "AR",
+              "type": "funder",
+              "lineage": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ],
+          "countries": [
+            "AR"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Paulo C. F. Carvalho",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria, INTA Mercedes, Mercedes, Argentina"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Tecnología Agropecuaria, Estación Experimental Agropecuaria, INTA Mercedes, Mercedes, Argentina",
+              "institution_ids": [
+                "https://openalex.org/I4210153948"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5013270171",
+            "display_name": "Fernando Alfredo Lattanzi",
+            "orcid": "https://orcid.org/0000-0002-2682-3692"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210135705",
+              "display_name": "Instituto Nacional de Investigación Agropecuaria",
+              "ror": "https://ror.org/02sspdz82",
+              "country_code": "UY",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ],
+          "countries": [
+            "UY"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fernando A. Lattanzi",
+          "raw_affiliation_strings": [
+            "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA La Estanzuela, Colonia, Uruguay"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Instituto Nacional de Investigación Agropecuaria (INIA), Programa Pasturas y Forrajes, Estación Experimental INIA La Estanzuela, Colonia, Uruguay",
+              "institution_ids": [
+                "https://openalex.org/I4210135705"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 3,
+      "institutions_distinct_count": 13,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5022263116"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I4210135705"
+      ],
+      "apc_list": {
+        "value": 950,
+        "currency": "USD",
+        "value_usd": 950
+      },
+      "apc_paid": {
+        "value": 950,
+        "currency": "USD",
+        "value_usd": 950
+      },
+      "fwci": 8.866,
+      "has_fulltext": true,
+      "cited_by_count": 94,
+      "citation_normalized_percentile": {
+        "value": 0.98820138,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "5",
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12896",
+        "display_name": "Sustainable Agricultural Systems Analysis",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2304",
+          "display_name": "Environmental Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12896",
+          "display_name": "Sustainable Agricultural Systems Analysis",
+          "score": 0.9940000176429749,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2304",
+            "display_name": "Environmental Chemistry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13009",
+          "display_name": "Agroforestry and silvopastoral systems",
+          "score": 0.9876000285148621,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1107",
+            "display_name": "Forestry"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13396",
+          "display_name": "Agriculture and Rural Development Research",
+          "score": 0.9848999977111816,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1105",
+            "display_name": "Ecology, Evolution, Behavior and Systematics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/productivity",
+          "display_name": "Productivity",
+          "score": 0.7024853825569153
+        },
+        {
+          "id": "https://openalex.org/keywords/sustainability",
+          "display_name": "Sustainability",
+          "score": 0.6094217896461487
+        },
+        {
+          "id": "https://openalex.org/keywords/biodiversity",
+          "display_name": "Biodiversity",
+          "score": 0.5268009305000305
+        },
+        {
+          "id": "https://openalex.org/keywords/agriculture",
+          "display_name": "Agriculture",
+          "score": 0.5108201503753662
+        },
+        {
+          "id": "https://openalex.org/keywords/ecosystem-services",
+          "display_name": "Ecosystem services",
+          "score": 0.4973192512989044
+        },
+        {
+          "id": "https://openalex.org/keywords/agroforestry",
+          "display_name": "Agroforestry",
+          "score": 0.49400049448013306
+        },
+        {
+          "id": "https://openalex.org/keywords/geography",
+          "display_name": "Geography",
+          "score": 0.4463016986846924
+        },
+        {
+          "id": "https://openalex.org/keywords/natural-resource-economics",
+          "display_name": "Natural resource economics",
+          "score": 0.44167137145996094
+        },
+        {
+          "id": "https://openalex.org/keywords/cropping",
+          "display_name": "Cropping",
+          "score": 0.4386386573314667
+        },
+        {
+          "id": "https://openalex.org/keywords/psychological-resilience",
+          "display_name": "Psychological resilience",
+          "score": 0.4105875790119171
+        },
+        {
+          "id": "https://openalex.org/keywords/business",
+          "display_name": "Business",
+          "score": 0.39627373218536377
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-resource-management",
+          "display_name": "Environmental resource management",
+          "score": 0.34132644534111023
+        },
+        {
+          "id": "https://openalex.org/keywords/ecosystem",
+          "display_name": "Ecosystem",
+          "score": 0.34072422981262207
+        },
+        {
+          "id": "https://openalex.org/keywords/ecology",
+          "display_name": "Ecology",
+          "score": 0.263300359249115
+        },
+        {
+          "id": "https://openalex.org/keywords/environmental-science",
+          "display_name": "Environmental science",
+          "score": 0.23201265931129456
+        },
+        {
+          "id": "https://openalex.org/keywords/economics",
+          "display_name": "Economics",
+          "score": 0.1997617781162262
+        },
+        {
+          "id": "https://openalex.org/keywords/economic-growth",
+          "display_name": "Economic growth",
+          "score": 0.10728153586387634
+        },
+        {
+          "id": "https://openalex.org/keywords/biology",
+          "display_name": "Biology",
+          "score": 0.10236942768096924
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C204983608",
+          "wikidata": "https://www.wikidata.org/wiki/Q2111958",
+          "display_name": "Productivity",
+          "level": 2,
+          "score": 0.7024853825569153
+        },
+        {
+          "id": "https://openalex.org/C66204764",
+          "wikidata": "https://www.wikidata.org/wiki/Q219416",
+          "display_name": "Sustainability",
+          "level": 2,
+          "score": 0.6094217896461487
+        },
+        {
+          "id": "https://openalex.org/C130217890",
+          "wikidata": "https://www.wikidata.org/wiki/Q47041",
+          "display_name": "Biodiversity",
+          "level": 2,
+          "score": 0.5268009305000305
+        },
+        {
+          "id": "https://openalex.org/C118518473",
+          "wikidata": "https://www.wikidata.org/wiki/Q11451",
+          "display_name": "Agriculture",
+          "level": 2,
+          "score": 0.5108201503753662
+        },
+        {
+          "id": "https://openalex.org/C58941895",
+          "wikidata": "https://www.wikidata.org/wiki/Q295865",
+          "display_name": "Ecosystem services",
+          "level": 3,
+          "score": 0.4973192512989044
+        },
+        {
+          "id": "https://openalex.org/C54286561",
+          "wikidata": "https://www.wikidata.org/wiki/Q397350",
+          "display_name": "Agroforestry",
+          "level": 1,
+          "score": 0.49400049448013306
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.4463016986846924
+        },
+        {
+          "id": "https://openalex.org/C175605778",
+          "wikidata": "https://www.wikidata.org/wiki/Q3299701",
+          "display_name": "Natural resource economics",
+          "level": 1,
+          "score": 0.44167137145996094
+        },
+        {
+          "id": "https://openalex.org/C13558536",
+          "wikidata": "https://www.wikidata.org/wiki/Q785116",
+          "display_name": "Cropping",
+          "level": 3,
+          "score": 0.4386386573314667
+        },
+        {
+          "id": "https://openalex.org/C137176749",
+          "wikidata": "https://www.wikidata.org/wiki/Q4105337",
+          "display_name": "Psychological resilience",
+          "level": 2,
+          "score": 0.4105875790119171
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.39627373218536377
+        },
+        {
+          "id": "https://openalex.org/C107826830",
+          "wikidata": "https://www.wikidata.org/wiki/Q929380",
+          "display_name": "Environmental resource management",
+          "level": 1,
+          "score": 0.34132644534111023
+        },
+        {
+          "id": "https://openalex.org/C110872660",
+          "wikidata": "https://www.wikidata.org/wiki/Q37813",
+          "display_name": "Ecosystem",
+          "level": 2,
+          "score": 0.34072422981262207
+        },
+        {
+          "id": "https://openalex.org/C18903297",
+          "wikidata": "https://www.wikidata.org/wiki/Q7150",
+          "display_name": "Ecology",
+          "level": 1,
+          "score": 0.263300359249115
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.23201265931129456
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.1997617781162262
+        },
+        {
+          "id": "https://openalex.org/C50522688",
+          "wikidata": "https://www.wikidata.org/wiki/Q189833",
+          "display_name": "Economic growth",
+          "level": 1,
+          "score": 0.10728153586387634
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.10236942768096924
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C542102704",
+          "wikidata": "https://www.wikidata.org/wiki/Q183257",
+          "display_name": "Psychotherapist",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C166957645",
+          "wikidata": "https://www.wikidata.org/wiki/Q23498",
+          "display_name": "Archaeology",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 3,
+      "locations": [
+        {
+          "id": "doi:10.3389/fsufs.2021.547834",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3389/fsufs.2021.547834",
+          "pdf_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2021.547834/pdf",
+          "source": {
+            "id": "https://openalex.org/S4210212157",
+            "display_name": "Frontiers in Sustainable Food Systems",
+            "issn_l": "2571-581X",
+            "issn": [
+              "2571-581X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320527",
+            "host_organization_name": "Frontiers Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320527"
+            ],
+            "host_organization_lineage_names": [
+              "Frontiers Media"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Frontiers in Sustainable Food Systems",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:e96d4f79161b419c811a3d9d4c0483e8",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/e96d4f79161b419c811a3d9d4c0483e8",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S112646816",
+            "display_name": "SHILAP Revista de lepidopterología",
+            "issn_l": "0300-5267",
+            "issn": [
+              "0300-5267",
+              "2340-4078"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Frontiers in Sustainable Food Systems, Vol 5 (2021)",
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:redi.anii.org.uy:20.500.12381/1683",
+          "is_oa": true,
+          "landing_page_url": "http://www.ainfo.inia.uy/consulta/busca?b=pc&id=61862&biblioteca=vazio&busca=61862&qFacets=61862",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402641",
+            "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I4383465926",
+            "host_organization_name": "LA Referencia",
+            "host_organization_lineage": [
+              "https://openalex.org/I4383465926"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "instacron:Instituto Nacional de Investigación Agropecuaria",
+          "raw_type": "info:eu-repo/semantics/publishedVersion"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.3389/fsufs.2021.547834",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fsufs.2021.547834",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2021.547834/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210212157",
+          "display_name": "Frontiers in Sustainable Food Systems",
+          "issn_l": "2571-581X",
+          "issn": [
+            "2571-581X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Sustainable Food Systems",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.6200000047683716,
+          "id": "https://metadata.un.org/sdg/2",
+          "display_name": "Zero hunger"
+        }
+      ],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320309969",
+          "display_name": "Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria",
+          "ror": "https://ror.org/011q66e29"
+        },
+        {
+          "id": "https://openalex.org/F4320310753",
+          "display_name": "Agencia Nacional de Investigación e Innovación",
+          "ror": "https://ror.org/03egaj678"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W3135354379.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3135354379.grobid-xml"
+      },
+      "referenced_works_count": 78,
+      "referenced_works": [
+        "https://openalex.org/W113253234",
+        "https://openalex.org/W227510274",
+        "https://openalex.org/W1577203306",
+        "https://openalex.org/W1759991378",
+        "https://openalex.org/W1861114164",
+        "https://openalex.org/W1965800097",
+        "https://openalex.org/W1967541389",
+        "https://openalex.org/W1988903827",
+        "https://openalex.org/W2003461770",
+        "https://openalex.org/W2004451895",
+        "https://openalex.org/W2010669881",
+        "https://openalex.org/W2013079134",
+        "https://openalex.org/W2013414890",
+        "https://openalex.org/W2015289696",
+        "https://openalex.org/W2015313615",
+        "https://openalex.org/W2020068677",
+        "https://openalex.org/W2039169779",
+        "https://openalex.org/W2051898806",
+        "https://openalex.org/W2058181410",
+        "https://openalex.org/W2058320253",
+        "https://openalex.org/W2060081151",
+        "https://openalex.org/W2064949218",
+        "https://openalex.org/W2066304866",
+        "https://openalex.org/W2073779086",
+        "https://openalex.org/W2083466325",
+        "https://openalex.org/W2089036555",
+        "https://openalex.org/W2096483474",
+        "https://openalex.org/W2105346306",
+        "https://openalex.org/W2108721001",
+        "https://openalex.org/W2110655763",
+        "https://openalex.org/W2112148277",
+        "https://openalex.org/W2121850021",
+        "https://openalex.org/W2124203689",
+        "https://openalex.org/W2132502033",
+        "https://openalex.org/W2149362589",
+        "https://openalex.org/W2162033533",
+        "https://openalex.org/W2166924078",
+        "https://openalex.org/W2172974975",
+        "https://openalex.org/W2173030479",
+        "https://openalex.org/W2264543687",
+        "https://openalex.org/W2284058000",
+        "https://openalex.org/W2479623147",
+        "https://openalex.org/W2509463322",
+        "https://openalex.org/W2599066365",
+        "https://openalex.org/W2605666473",
+        "https://openalex.org/W2606329382",
+        "https://openalex.org/W2612412615",
+        "https://openalex.org/W2622459663",
+        "https://openalex.org/W2623078333",
+        "https://openalex.org/W2736265747",
+        "https://openalex.org/W2746485780",
+        "https://openalex.org/W2775762881",
+        "https://openalex.org/W2782310099",
+        "https://openalex.org/W2783142035",
+        "https://openalex.org/W2791170393",
+        "https://openalex.org/W2793653960",
+        "https://openalex.org/W2797646095",
+        "https://openalex.org/W2888584813",
+        "https://openalex.org/W2897940904",
+        "https://openalex.org/W2898190324",
+        "https://openalex.org/W2900163113",
+        "https://openalex.org/W2911258606",
+        "https://openalex.org/W2911818684",
+        "https://openalex.org/W2912645000",
+        "https://openalex.org/W2924440874",
+        "https://openalex.org/W2946016041",
+        "https://openalex.org/W2947396679",
+        "https://openalex.org/W2952394733",
+        "https://openalex.org/W2997709171",
+        "https://openalex.org/W3001868431",
+        "https://openalex.org/W3011102611",
+        "https://openalex.org/W3012137949",
+        "https://openalex.org/W6703964562",
+        "https://openalex.org/W6733049707",
+        "https://openalex.org/W6768132519",
+        "https://openalex.org/W6791993986",
+        "https://openalex.org/W7011690566",
+        "https://openalex.org/W7033451461"
+      ],
+      "related_works": [
+        "https://openalex.org/W2358472149",
+        "https://openalex.org/W1972027241",
+        "https://openalex.org/W3016556954",
+        "https://openalex.org/W1650613930",
+        "https://openalex.org/W3004670562",
+        "https://openalex.org/W2060514797",
+        "https://openalex.org/W2951400099",
+        "https://openalex.org/W2384345237",
+        "https://openalex.org/W1977730095",
+        "https://openalex.org/W2895225113"
+      ],
+      "abstract_inverted_index": {
+        "Extensive": [
+          0
+        ],
+        "livestock": [
+          1,
+          299
+        ],
+        "production": [
+          2,
+          300
+        ],
+        "in": [
+          3,
+          12,
+          61,
+          112,
+          138,
+          144,
+          183,
+          301
+        ],
+        "southern": [
+          4,
+          17
+        ],
+        "South": [
+          5
+        ],
+        "America": [
+          6
+        ],
+        "occupies": [
+          7
+        ],
+        "~0.5": [
+          8
+        ],
+        "M": [
+          9
+        ],
+        "km": [
+          10
+        ],
+        "2": [
+          11
+        ],
+        "central-eastern": [
+          13
+        ],
+        "Argentina,": [
+          14
+        ],
+        "Uruguay": [
+          15
+        ],
+        "and": [
+          16,
+          63,
+          76,
+          149,
+          172,
+          202,
+          212,
+          246,
+          254,
+          282,
+          295
+        ],
+        "Brazil.": [
+          18
+        ],
+        "These": [
+          19
+        ],
+        "systems": [
+          20
+        ],
+        "have": [
+          21
+        ],
+        "been": [
+          22,
+          68
+        ],
+        "sustained": [
+          23
+        ],
+        "for": [
+          24,
+          84,
+          236
+        ],
+        "more": [
+          25
+        ],
+        "than": [
+          26
+        ],
+        "300": [
+          27
+        ],
+        "years": [
+          28
+        ],
+        "by": [
+          29,
+          64
+        ],
+        "year-long": [
+          30
+        ],
+        "grazing": [
+          31,
+          238,
+          266
+        ],
+        "of": [
+          32,
+          101,
+          115,
+          119,
+          177,
+          216,
+          240,
+          265,
+          298
+        ],
+        "the": [
+          33,
+          99,
+          105,
+          164,
+          198,
+          220,
+          225,
+          230,
+          261,
+          286
+        ],
+        "highly": [
+          34
+        ],
+        "biodiverse": [
+          35
+        ],
+        "native": [
+          36,
+          102,
+          195,
+          241
+        ],
+        "Campos": [
+          37,
+          302
+        ],
+        "ecosystems": [
+          38
+        ],
+        "that": [
+          39,
+          94,
+          127,
+          132,
+          259,
+          288
+        ],
+        "provides": [
+          40
+        ],
+        "many": [
+          41
+        ],
+        "valuable": [
+          42
+        ],
+        "additional": [
+          43
+        ],
+        "ecosystem": [
+          44
+        ],
+        "services.": [
+          45
+        ],
+        "However,": [
+          46
+        ],
+        "their": [
+          47
+        ],
+        "low": [
+          48,
+          217,
+          250
+        ],
+        "productivity": [
+          49,
+          125,
+          139,
+          245
+        ],
+        "(~70": [
+          50
+        ],
+        "kg": [
+          51
+        ],
+        "liveweight/ha": [
+          52
+        ],
+        "per": [
+          53
+        ],
+        "year),": [
+          54
+        ],
+        "at": [
+          55,
+          224
+        ],
+        "least": [
+          56
+        ],
+        "relative": [
+          57
+        ],
+        "to": [
+          58,
+          142,
+          147,
+          153,
+          162,
+          180,
+          193,
+          243
+        ],
+        "values": [
+          59
+        ],
+        "recorded": [
+          60
+        ],
+        "experiments": [
+          62
+        ],
+        "best": [
+          65
+        ],
+        "farmers,": [
+          66
+        ],
+        "has": [
+          67
+        ],
+        "driving": [
+          69
+        ],
+        "continued": [
+          70
+        ],
+        "land": [
+          71
+        ],
+        "use": [
+          72
+        ],
+        "conversion": [
+          73
+        ],
+        "towards": [
+          74
+        ],
+        "agriculture": [
+          75
+        ],
+        "forestry.": [
+          77
+        ],
+        "Therefore,": [
+          78
+        ],
+        "there": [
+          79
+        ],
+        "is": [
+          80
+        ],
+        "a": [
+          81,
+          113,
+          150,
+          160,
+          169,
+          174,
+          187,
+          233
+        ],
+        "pressing": [
+          82
+        ],
+        "need": [
+          83
+        ],
+        "usable,": [
+          85
+        ],
+        "cost": [
+          86
+        ],
+        "effective": [
+          87
+        ],
+        "technological": [
+          88
+        ],
+        "options": [
+          89,
+          179,
+          291
+        ],
+        "based": [
+          90
+        ],
+        "on": [
+          91
+        ],
+        "scientific": [
+          92
+        ],
+        "knowledge": [
+          93,
+          109
+        ],
+        "increase": [
+          95,
+          244
+        ],
+        "profitability": [
+          96,
+          294
+        ],
+        "while": [
+          97,
+          248
+        ],
+        "supporting": [
+          98,
+          285
+        ],
+        "conservation": [
+          100
+        ],
+        "grasslands.": [
+          103
+        ],
+        "In": [
+          104
+        ],
+        "early": [
+          106
+        ],
+        "2000s,": [
+          107
+        ],
+        "existing": [
+          108
+        ],
+        "was": [
+          110,
+          130
+        ],
+        "synthesized": [
+          111
+        ],
+        "path": [
+          114
+        ],
+        "six": [
+          116
+        ],
+        "sequential": [
+          117
+        ],
+        "steps": [
+          118
+        ],
+        "increasing": [
+          120
+        ],
+        "intensification.": [
+          121
+        ],
+        "Even": [
+          122
+        ],
+        "though": [
+          123
+        ],
+        "higher": [
+          124,
+          151
+        ],
+        "underlined": [
+          126
+        ],
+        "path,": [
+          128
+        ],
+        "it": [
+          129
+        ],
+        "recognized": [
+          131
+        ],
+        "trade-offs": [
+          133
+        ],
+        "would": [
+          134
+        ],
+        "occur,": [
+          135
+        ],
+        "with": [
+          136
+        ],
+        "increases": [
+          137,
+          292
+        ],
+        "being": [
+          140
+        ],
+        "concomitant": [
+          141
+        ],
+        "reductions": [
+          143
+        ],
+        "diversity,": [
+          145
+        ],
+        "resilience": [
+          146,
+          247
+        ],
+        "droughts,": [
+          148
+        ],
+        "exposure": [
+          152
+        ],
+        "financial": [
+          154,
+          255
+        ],
+        "risks.": [
+          155
+        ],
+        "Here,": [
+          156
+        ],
+        "we": [
+          157
+        ],
+        "put": [
+          158
+        ],
+        "forward": [
+          159
+        ],
+        "proposal": [
+          161,
+          231
+        ],
+        "shift": [
+          163
+        ],
+        "current": [
+          165
+        ],
+        "paradigm": [
+          166
+        ],
+        "away": [
+          167
+        ],
+        "from": [
+          168
+        ],
+        "linear": [
+          170
+        ],
+        "sequence": [
+          171
+        ],
+        "toward": [
+          173
+        ],
+        "flexible": [
+          175
+        ],
+        "dashboard": [
+          176
+        ],
+        "intensification": [
+          178,
+          275,
+          290
+        ],
+        "be": [
+          181
+        ],
+        "implemented": [
+          182
+        ],
+        "defined": [
+          184
+        ],
+        "modules": [
+          185
+        ],
+        "within": [
+          186
+        ],
+        "farm": [
+          188
+        ],
+        "whose": [
+          189
+        ],
+        "aims": [
+          190
+        ],
+        "are": [
+          191
+        ],
+        "(i)": [
+          192
+        ],
+        "maintain": [
+          194
+        ],
+        "grasslands": [
+          196,
+          223,
+          242
+        ],
+        "as": [
+          197
+        ],
+        "main": [
+          199
+        ],
+        "feed": [
+          200
+        ],
+        "source,": [
+          201
+        ],
+        "(ii)": [
+          203
+        ],
+        "ameliorate": [
+          204
+        ],
+        "its": [
+          205,
+          228
+        ],
+        "two": [
+          206
+        ],
+        "major": [
+          207
+        ],
+        "productive": [
+          208
+        ],
+        "drawbacks:": [
+          209
+        ],
+        "marked": [
+          210
+        ],
+        "seasonality": [
+          211
+        ],
+        "relatively": [
+          213
+        ],
+        "rapid": [
+          214
+        ],
+        "loss": [
+          215
+        ],
+        "nutritive": [
+          218
+        ],
+        "value-hence": [
+          219
+        ],
+        "title": [
+          221
+        ],
+        "“native": [
+          222
+        ],
+        "core.”": [
+          226
+        ],
+        "At": [
+          227
+        ],
+        "center,": [
+          229
+        ],
+        "highlights": [
+          232
+        ],
+        "key": [
+          234
+        ],
+        "role": [
+          235
+        ],
+        "optimal": [
+          237
+        ],
+        "management": [
+          239
+        ],
+        "maintaining": [
+          249
+        ],
+        "system": [
+          251
+        ],
+        "wide": [
+          252
+        ],
+        "costs": [
+          253
+        ],
+        "risk,": [
+          256
+        ],
+        "but": [
+          257
+        ],
+        "acknowledges": [
+          258
+        ],
+        "achieving": [
+          260
+        ],
+        "required": [
+          262
+        ],
+        "spatio-temporal": [
+          263
+        ],
+        "control": [
+          264
+        ],
+        "intensity": [
+          267
+        ],
+        "requires": [
+          268
+        ],
+        "using": [
+          269
+        ],
+        "(a": [
+          270
+        ],
+        "portfolio": [
+          271
+        ],
+        "of)": [
+          272
+        ],
+        "complementary,": [
+          273
+        ],
+        "synergistic": [
+          274
+        ],
+        "options.": [
+          276
+        ],
+        "We": [
+          277
+        ],
+        "sum": [
+          278
+        ],
+        "up": [
+          279
+        ],
+        "experimental": [
+          280
+        ],
+        "evidence": [
+          281
+        ],
+        "case": [
+          283
+        ],
+        "studies": [
+          284
+        ],
+        "hypothesis": [
+          287
+        ],
+        "integrating": [
+          289
+        ],
+        "both": [
+          293
+        ],
+        "environmental": [
+          296
+        ],
+        "sustainability": [
+          297
+        ],
+        "ecosystems.": [
+          303
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 26
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 10
+        }
+      ],
+      "updated_date": "2026-04-18T07:56:08.524223",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "group_by": []
+}

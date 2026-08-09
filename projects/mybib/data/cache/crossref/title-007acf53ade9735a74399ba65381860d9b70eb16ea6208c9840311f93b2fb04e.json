@@ -1,0 +1,705 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1078566,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              8
+            ]
+          ],
+          "date-time": "2026-02-08T13:30:39Z",
+          "timestamp": 1770557439577,
+          "version": "3.49.0"
+        },
+        "reference-count": 64,
+        "publisher": "Association for Computing Machinery (ACM)",
+        "issue": "5",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  5,
+                  22
+                ]
+              ],
+              "date-time": "2025-05-22T00:00:00Z",
+              "timestamp": 1747872000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Science and Technology Innovation Key R&D Program of Chongqing",
+            "award": [
+              "CSTB2023TIAD-STX0031, CSTB2023TIAD-STX0015"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "CSTB2023TIAD-STX0031, CSTB2023TIAD-STX0015"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "dl.acm.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "ACM Trans. Multimedia Comput. Commun. Appl."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Data augmentation is a kind of mainstream domain generalization method aimed at enhancing the model’s ability to learn from out-of-distribution data. Most existing data augmentation methods fail to simultaneously preserve the semantic consistency and ensure the domain diversity in the augmented samples, which hinders further improvements in the generalization capacity of the model. To cope with this issue, we propose a novel cross-domain semantic transfer (CDST)-based data augmentation method, which improves generalizability from a novel perspective of exploring the diversity of semantic directions. Specifically, to ensure semantic consistency, an adjacent domain center interpolation module is proposed to find new generalization centers far from the classification boundary. To ensure data diversity, a semantic sample reproduction module is proposed to synthesize new semantic directions by transferring the cross-domain semantic information and reproduce new samples along new semantic directions around new feature centers. Furthermore, a category-preserving regularization is introduced to further constrain the category invariance of the augmented samples. Extensive experiments are implemented to verify the superiority, effectiveness, and transferability of CDST on the Digit-DG, PACS, VLCS, and OfficeHome datasets.</jats:p>",
+        "DOI": "10.1145/3724398",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2025-03-19T14:31:20Z",
+          "timestamp": 1742394680000
+        },
+        "page": "1-24",
+        "update-policy": "https://doi.org/10.1145/crossmark-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Cross-Domain Semantic Transfer for Domain Generalization"
+        ],
+        "prefix": "10.1145",
+        "volume": "21",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-4514-4187",
+            "authenticated-orcid": false,
+            "given": "Yan",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Chongqing University of Posts and Telecommunications, Chongqing, China, Chongqing Key Laboratory of Edge Intelligent Computing, Chongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences, Chongqing, China, and Chongqing School, University of Chinese Academy of Sciences, Chongqing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7935-7210",
+            "authenticated-orcid": false,
+            "given": "Hong",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, University of Science and Technology of China, Hefei, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-1628-0337",
+            "authenticated-orcid": false,
+            "given": "Jinyang",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing Key Laboratory of Edge Intelligent Computing, Chinese Academy of Sciences Chongqing Institute of Green and Intelligent Technology, Chongqing, ChinaChongqing Key Laboratory of Edge Intelligent Computing, Chongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences, Chongqing, China and Chongqing School, University of Chinese Academy of Sciences, Chongqing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4267-7795",
+            "authenticated-orcid": false,
+            "given": "Xiaoyu",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing Key Laboratory of Edge Intelligent Computing, Chinese Academy of Sciences Chongqing Institute of Green and Intelligent Technology, Chongqing, ChinaChongqing Key Laboratory of Edge Intelligent Computing, Chongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences, Chongqing, China and Chongqing School, University of Chinese Academy of Sciences, Chongqing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7024-2270",
+            "authenticated-orcid": false,
+            "given": "Mingsheng",
+            "family": "Shang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chongqing Key Laboratory of Edge Intelligent Computing, Chinese Academy of Sciences Chongqing Institute of Green and Intelligent Technology, Chongqing, ChinaChongqing Key Laboratory of Edge Intelligent Computing, Chongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences, Chongqing, China and Chongqing School, University of Chinese Academy of Sciences, Chongqing, China"
+              }
+            ]
+          }
+        ],
+        "member": "320",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              22
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_3_1_2_2",
+            "unstructured": "A. Antoniou. 2017. Data augmentation generative adversarial networks. arXiv:1711.04340. Retrieved from https://arxiv.org/abs/1711.04340"
+          },
+          {
+            "key": "e_1_3_1_3_2",
+            "unstructured": "Martin Arjovsky Léon Bottou Ishaan Gulrajani and David Lopez-Paz. 2019. Invariant risk minimization. arXiv:1907.02893. Retrieved from https://arxiv.org/abs/1907.02893"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_3_1_4_2",
+            "first-page": "1",
+            "article-title": "Domain generalization by marginal transfer learning",
+            "volume": "22",
+            "author": "Blanchard Gilles",
+            "year": "2021",
+            "unstructured": "Gilles Blanchard, Aniket Anand Deshmukh, Urun Dogan, Gyemin Lee, and Clayton Scott. 2021. Domain generalization by marginal transfer learning. Journal of Machine Learning Research 22, 2 (2021), 1–55.",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_1_5_2",
+            "unstructured": "Christopher Bowles Liang Chen Ricardo Guerrero Paul Bentley Roger Gunn Alexander Hammers David Alexander Dickie Maria Valdés Hernández Joanna Wardlaw and Daniel Rueckert. 2018. GAN augmentation: Augmenting training data using generative adversarial networks. arXiv:1810.10863. Retrieved from https://arxiv.org/abs/1810.10863"
+          },
+          {
+            "key": "e_1_3_1_6_2",
+            "first-page": "3227",
+            "volume-title": "Proceedings of the 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)",
+            "author": "Carlucci Fabio Maria",
+            "year": "2019",
+            "unstructured": "Fabio Maria Carlucci, Paolo Russo, Tatiana Tommasi, and Barbara Caputo. 2019. Hallucinating agnostic images to generalize across domains. In Proceedings of the 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW). IEEE, 3227–3234."
+          },
+          {
+            "key": "e_1_3_1_7_2",
+            "first-page": "32",
+            "article-title": "Domain generalization via model-agnostic learning of semantic features",
+            "author": "Dou Qi",
+            "year": "2019",
+            "unstructured": "Qi Dou, Daniel Coelho de Castro, Konstantinos Kamnitsas, and Ben Glocker. 2019. Domain generalization via model-agnostic learning of semantic features. In Advances in Neural Information Processing Systems 32.",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "e_1_3_1_8_2",
+            "first-page": "187",
+            "volume-title": "Proceedings of the 40th German Conference on Pattern Recognition (GCPR ’18)",
+            "author": "D’Innocente Antonio",
+            "year": "2019",
+            "unstructured": "Antonio D’Innocente and Barbara Caputo. 2019. Domain generalization with domain-specific aggregation modules. In Proceedings of the 40th German Conference on Pattern Recognition (GCPR ’18). Springer, 187–198."
+          },
+          {
+            "key": "e_1_3_1_9_2",
+            "first-page": "1126",
+            "volume-title": "Proceedings of the International Conference on Machine Learning",
+            "author": "Finn Chelsea",
+            "year": "2017",
+            "unstructured": "Chelsea Finn, Pieter Abbeel, and Sergey Levine. 2017. Model-agnostic meta-learning for fast adaptation of deep networks. In Proceedings of the International Conference on Machine Learning. PMLR, 1126–1135."
+          },
+          {
+            "issue": "59",
+            "key": "e_1_3_1_10_2",
+            "first-page": "1",
+            "article-title": "Domain-adversarial training of neural networks",
+            "volume": "17",
+            "author": "Ganin Yaroslav",
+            "year": "2016",
+            "unstructured": "Yaroslav Ganin, Evgeniya Ustinova, Hana Ajakan, Pascal Germain, Hugo Larochelle, François Laviolette, Mario March, and Victor Lempitsky. 2016. Domain-adversarial training of neural networks. Journal of Machine Learning Research 17, 59 (2016), 1–35.",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "e_1_3_1_11_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2015.293"
+          },
+          {
+            "key": "e_1_3_1_12_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "110029",
+            "DOI": "10.1016/j.patcog.2023.110029",
+            "article-title": "Domain generalization via Inter-domain Alignment and Intra-domain Expansion",
+            "volume": "146",
+            "author": "Hu Jiajun",
+            "year": "2024",
+            "unstructured": "Jiajun Hu, Lei Qi, Jian Zhang, and Yinghuan Shi. 2024. Domain generalization via Inter-domain Alignment and Intra-domain Expansion. Pattern Recognition 146 (2024), 110029.",
+            "journal-title": "Pattern Recognition"
+          },
+          {
+            "key": "e_1_3_1_13_2",
+            "first-page": "292",
+            "volume-title": "Proceedings of the 35th Uncertainty in Artificial Intelligence Conference",
+            "author": "Hu Shoubo",
+            "year": "2020",
+            "unstructured": "Shoubo Hu, Kun Zhang, Zhitang Chen, and Laiwan Chan. 2020. Domain generalization via multidomain discriminant analysis. In Proceedings of the 35th Uncertainty in Artificial Intelligence Conference. PMLR, 292–302."
+          },
+          {
+            "key": "e_1_3_1_14_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2017.167"
+          },
+          {
+            "key": "e_1_3_1_15_2",
+            "first-page": "124",
+            "volume-title": "Proceedings of the 16th European Conference on Computer Vision (ECCV ’20), Part II",
+            "author": "Huang Zeyi",
+            "year": "2020",
+            "unstructured": "Zeyi Huang, Haohan Wang, Eric P. Xing, and Dong Huang. 2020. Self-challenging improves cross-domain generalization. In Proceedings of the 16th European Conference on Computer Vision (ECCV ’20), Part II. Springer, 124–140."
+          },
+          {
+            "key": "e_1_3_1_16_2",
+            "unstructured": "Eric Jang Shixiang Gu and Ben Poole. 2016. Categorical reparameterization with Gumbel-Softmax. arXiv:1611.01144. Retrieved from https://arxiv.org/abs/1611.01144"
+          },
+          {
+            "key": "e_1_3_1_17_2",
+            "unstructured": "Diederik P. Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. arXiv:1412.6980. Retrieved from https://arxiv.org/abs/1412.6980"
+          },
+          {
+            "key": "e_1_3_1_18_2",
+            "first-page": "1327",
+            "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+            "author": "Li Chenming",
+            "year": "2023",
+            "unstructured": "Chenming Li, Daoan Zhang, Wenjian Huang, and Jianguo Zhang. 2023. Cross contrasting feature perturbation for domain generalization. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 1327–1337."
+          },
+          {
+            "key": "e_1_3_1_19_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v32i1.11596"
+          },
+          {
+            "key": "e_1_3_1_20_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2017.591"
+          },
+          {
+            "key": "e_1_3_1_21_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2018.00566"
+          },
+          {
+            "key": "e_1_3_1_22_2",
+            "first-page": "3118",
+            "article-title": "Domain generalization for medical imaging classification with linear-dependency regularization",
+            "volume": "33",
+            "author": "Li Haoliang",
+            "year": "2020",
+            "unstructured": "Haoliang Li, YuFei Wang, Renjie Wan, Shiqi Wang, Tie-Qiang Li, and Alex Kot. 2020. Domain generalization for medical imaging classification with linear-dependency regularization. In Advances in Neural Information Processing Systems 33, 3118–3129.",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "e_1_3_1_23_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV48922.2021.00876"
+          },
+          {
+            "key": "e_1_3_1_24_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV48922.2021.00897"
+          },
+          {
+            "key": "e_1_3_1_25_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v32i1.11682"
+          },
+          {
+            "key": "e_1_3_1_26_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.00107"
+          },
+          {
+            "key": "e_1_3_1_27_2",
+            "first-page": "1353",
+            "volume-title": "Proceedings of the 2018 25th IEEE International Conference on Image Processing (ICIP)",
+            "author": "Mancini Massimiliano",
+            "year": "2018",
+            "unstructured": "Massimiliano Mancini, Samuel Rota Bulo, Barbara Caputo, and Elisa Ricci. 2018. Best sources forward: domain generalization through source-specific nets. In Proceedings of the 2018 25th IEEE International Conference on Image Processing (ICIP). IEEE, 1353–1357."
+          },
+          {
+            "key": "e_1_3_1_28_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.00858"
+          },
+          {
+            "key": "e_1_3_1_29_2",
+            "first-page": "245",
+            "article-title": "Knowledge distillation-based domain-invariant representation learning for domain generalization",
+            "volume": "26",
+            "author": "Niu Ziwei",
+            "year": "2023",
+            "unstructured": "Ziwei Niu, Junkun Yuan, Xu Ma, Yingying Xu, Jing Liu, Yen-Wei Chen, Ruofeng Tong, and Lanfen Lin. 2023. Knowledge distillation-based domain-invariant representation learning for domain generalization. IEEE Transactions on Multimedia 26 (2023), 245–255.",
+            "journal-title": "IEEE Transactions on Multimedia"
+          },
+          {
+            "key": "e_1_3_1_30_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.00936"
+          },
+          {
+            "key": "e_1_3_1_31_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v32i1.11767"
+          },
+          {
+            "key": "e_1_3_1_32_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3643684"
+          },
+          {
+            "key": "e_1_3_1_33_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2019.00149"
+          },
+          {
+            "key": "e_1_3_1_34_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3634683"
+          },
+          {
+            "key": "e_1_3_1_35_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIP.2024.3364516"
+          },
+          {
+            "key": "e_1_3_1_36_2",
+            "first-page": "30",
+            "article-title": "Learning to compose domain-specific transformations for data augmentation",
+            "author": "Ratner Alexander J.",
+            "year": "2017",
+            "unstructured": "Alexander J. Ratner, Henry Ehrenberg, Zeshan Hussain, Jared Dunnmon, and Christopher Ré. 2017. Learning to compose domain-specific transformations for data augmentation. In Advances in Neural Information Processing Systems 30.",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "e_1_3_1_37_2",
+            "unstructured": "Shiori Sagawa Pang Wei Koh Tatsunori B. Hashimoto and Percy Liang. 2019. Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization. arXiv:1911.08731. Retrieved from https://arxiv.org/abs/1911.08731"
+          },
+          {
+            "key": "e_1_3_1_38_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.patcog.2022.109115"
+          },
+          {
+            "key": "e_1_3_1_39_2",
+            "first-page": "21031",
+            "article-title": "Variational multi-task learning with Gumbel-Softmax priors",
+            "volume": "34",
+            "author": "Shen Jiayi",
+            "year": "2021",
+            "unstructured": "Jiayi Shen, Xiantong Zhen, Marcel Worring, and Ling Shao. 2021. Variational multi-task learning with Gumbel-Softmax priors. In Advances in Neural Information Processing Systems 34, 21031–21042.",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "e_1_3_1_40_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s40537-019-0197-0"
+          },
+          {
+            "key": "e_1_3_1_41_2",
+            "first-page": "443",
+            "volume-title": "Proceedings of the Computer Vision (ECCV ’16 Workshops), Part III",
+            "author": "Sun Baochen",
+            "year": "2016",
+            "unstructured": "Baochen Sun and Kate Saenko. 2016. Deep coral: Correlation alignment for deep domain adaptation. In Proceedings of the Computer Vision (ECCV ’16 Workshops), Part III. Springer, 443–450."
+          },
+          {
+            "key": "e_1_3_1_42_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMM.2023.3283878"
+          },
+          {
+            "key": "e_1_3_1_43_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52729.2023.02257"
+          },
+          {
+            "key": "e_1_3_1_44_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2017.645"
+          },
+          {
+            "key": "e_1_3_1_45_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2017.572"
+          },
+          {
+            "key": "e_1_3_1_46_2",
+            "first-page": "6438",
+            "volume-title": "Proceedings of the International Conference on Machine Learning",
+            "author": "Verma Vikas",
+            "year": "2019",
+            "unstructured": "Vikas Verma, Alex Lamb, Christopher Beckham, Amir Najafi, Ioannis Mitliagkas, David Lopez-Paz, and Yoshua Bengio. 2019. Manifold Mixup: Better representations by interpolating hidden states. In Proceedings of the International Conference on Machine Learning. PMLR, 6438–6447."
+          },
+          {
+            "key": "e_1_3_1_47_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.00378"
+          },
+          {
+            "key": "e_1_3_1_48_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.00488"
+          },
+          {
+            "key": "e_1_3_1_49_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIP.2024.3354420"
+          },
+          {
+            "key": "e_1_3_1_50_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3503161.3547866"
+          },
+          {
+            "key": "e_1_3_1_51_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52729.2023.00367"
+          },
+          {
+            "key": "e_1_3_1_52_2",
+            "first-page": "11564",
+            "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+            "author": "Wang Xiran",
+            "year": "2023",
+            "unstructured": "Xiran Wang, Jian Zhang, Lei Qi, and Yinghuan Shi. 2023. Generalizable decision boundaries: Dualistic meta-learning for open set domain generalization. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 11564–11573."
+          },
+          {
+            "issue": "7",
+            "key": "e_1_3_1_53_2",
+            "first-page": "3733",
+            "article-title": "Regularizing deep networks with semantic data augmentation",
+            "volume": "44",
+            "author": "Wang Yulin",
+            "year": "2021",
+            "unstructured": "Yulin Wang, Gao Huang, Shiji Song, Xuran Pan, Yitong Xia, and Cheng Wu. 2021. Regularizing deep networks with semantic data augmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence 44, 7 (2021), 3733–3748.",
+            "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          {
+            "key": "e_1_3_1_54_2",
+            "first-page": "3622",
+            "volume-title": "Proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP ’20)",
+            "author": "Wang Yufei",
+            "year": "2020",
+            "unstructured": "Yufei Wang, Haoliang Li, and Alex C. Kot. 2020. Heterogeneous domain generalization via domain mixup. In Proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP ’20). IEEE, 3622–3626."
+          },
+          {
+            "key": "e_1_3_1_55_2",
+            "first-page": "1579",
+            "volume-title": "Proceedings of the European Conference on Artificial Intelligence (ECAI ’20)",
+            "author": "Wang Zeya",
+            "year": "2020",
+            "unstructured": "Zeya Wang, Baoyu Jing, Yang Ni, Nanqing Dong, Pengtao Xie, and Eric Xing. 2020. Adversarial domain adaptation being aware of class relationships. In Proceedings of the European Conference on Artificial Intelligence (ECAI ’20). IOS Press, 1579–1586."
+          },
+          {
+            "key": "e_1_3_1_56_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v34i04.6123"
+          },
+          {
+            "key": "e_1_3_1_57_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.patcog.2023.109474"
+          },
+          {
+            "key": "e_1_3_1_58_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR52688.2022.00696"
+          },
+          {
+            "key": "e_1_3_1_59_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v31i1.10804"
+          },
+          {
+            "key": "e_1_3_1_60_2",
+            "first-page": "14183",
+            "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "author": "Zaheer Muhammad Zaigham",
+            "year": "2020",
+            "unstructured": "Muhammad Zaigham Zaheer, Jin-ha Lee, Marcella Astrid, and Seung-Ik Lee. 2020. Old is gold: Redefining the adversarially learned one-class classifier training paradigm. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 14183–14193."
+          },
+          {
+            "key": "e_1_3_1_61_2",
+            "first-page": "23664",
+            "article-title": "Adaptive risk minimization: Learning to adapt to domain shift",
+            "volume": "34",
+            "author": "Zhang Marvin",
+            "year": "2021",
+            "unstructured": "Marvin Zhang, Henrik Marklund, Nikita Dhawan, Abhishek Gupta, Sergey Levine, and Chelsea Finn. 2021. Adaptive risk minimization: Learning to adapt to domain shift. Advances in Neural Information Processing Systems 34 (2021), 23664–23678.",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "e_1_3_1_62_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v34i07.7003"
+          },
+          {
+            "key": "e_1_3_1_63_2",
+            "first-page": "561",
+            "volume-title": "Proceedings of the 16th European Conference on Computer Vision (ECCV ’20), Part XVI",
+            "author": "Zhou Kaiyang",
+            "year": "2020",
+            "unstructured": "Kaiyang Zhou, Yongxin Yang, Timothy Hospedales, and Tao Xiang. 2020. Learning to generate novel domains for domain generalization. In Proceedings of the 16th European Conference on Computer Vision (ECCV ’20), Part XVI. Springer, 561–578."
+          },
+          {
+            "key": "e_1_3_1_64_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIP.2021.3112012"
+          },
+          {
+            "key": "e_1_3_1_65_2",
+            "unstructured": "Kaiyang Zhou Yongxin Yang Yu Qiao and Tao Xiang. 2021. Domain generalization with MixStyle. arXiv:2104.02008. Retrieved from https://arxiv.org/abs/2104.02008"
+          }
+        ],
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3724398",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3724398",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2025-06-19T01:19:16Z",
+          "timestamp": 1750295956000
+        },
+        "score": 26.113743,
+        "resource": {
+          "primary": {
+            "URL": "https://dl.acm.org/doi/10.1145/3724398"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              22
+            ]
+          ]
+        },
+        "references-count": 64,
+        "journal-issue": {
+          "issue": "5",
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                31
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1145/3724398"
+        ],
+        "URL": "https://doi.org/10.1145/3724398",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "issn-type": [
+          {
+            "value": "1551-6857",
+            "type": "print"
+          },
+          {
+            "value": "1551-6865",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              22
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2024-08-10",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2025-03-11",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2025-05-22",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

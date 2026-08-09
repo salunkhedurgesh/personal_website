@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A new RCM mechanism for an ear and facial surgical application</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Guillaume</forename><surname>Michel</surname></persName>
+							<email>guillaume.michel@chu-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire des Sciences du Numérique de Nantes (LS2N)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 6004</orgName>
+								<address>
+									<addrLine>1 rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CHU de Nantes</orgName>
+								<address>
+									<addrLine>5 Allée de l&apos;Île Gloriette</addrLine>
+									<postCode>44093</postCode>
+									<settlement>Nantes</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Durgesh</forename><forename type="middle">H</forename><surname>Salunkhe</surname></persName>
+							<email>salunkhedurgesh@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire des Sciences du Numérique de Nantes (LS2N)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 6004</orgName>
+								<address>
+									<addrLine>1 rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Chablat</surname></persName>
+							<email>damien.chablat@cnrs.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire des Sciences du Numérique de Nantes (LS2N)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 6004</orgName>
+								<address>
+									<addrLine>1 rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory" key="lab1">Laboratoire des Sciences du Numérique de Nantes</orgName>
+								<orgName type="laboratory" key="lab2">UMR</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<postCode>6004</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Bordure</surname></persName>
+							<email>philippe.bordure@chu-nantes.fr</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CHU de Nantes</orgName>
+								<address>
+									<addrLine>5 Allée de l&apos;Île Gloriette</addrLine>
+									<postCode>44093</postCode>
+									<settlement>Nantes</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A new RCM mechanism for an ear and facial surgical application</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7F7B360F249354D6B26F9A0AD897048A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Otologic surgery</term>
+					<term>Endoscopy</term>
+					<term>RCM mechanism</term>
+					<term>spherical robot</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Since the insertion area in the middle ear or in the sinus cavity is very narrow, the mobility of the endoscope is reduced to a rotation around a virtual point and a translation for the insertion of the camera. This article first presents the anatomy of these regions obtained from 3D scanning and then a mechanism based on the architecture of the agile eye coupled to a double parallelogram to create an RCM. This mechanism coupled with a positioning mechanism is used to handle an endoscope. This tool is used in parallel to the surgeon to allow him to have better rendering of the medium ear than the use of Binocular scope. The mechanism offers a wide working space without singularity whose borders are fixed by articulated limits. This feature allows ergonomic positioning of the patient&apos;s head on the bed as well as for the surgeon and allows other applications such as sinus surgery.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

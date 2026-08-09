@@ -1,0 +1,273 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8938577,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T16:01:08Z",
+          "timestamp": 1758816068897
+        },
+        "publisher-location": "Cham",
+        "reference-count": 8,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783319931876"
+          },
+          {
+            "type": "electronic",
+            "value": "9783319931883"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  6,
+                  23
+                ]
+              ],
+              "date-time": "2018-06-23T00:00:00Z",
+              "timestamp": 1529712000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-319-93188-3_49",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2018-06-22T13:57:16Z",
+          "timestamp": 1529675836000
+        },
+        "page": "431-439",
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 12,
+        "title": [
+          "Kinematic Analysis of a Novel Parallel 2SPRR+1U Ankle Mechanism in Humanoid Robot"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Shivesh",
+            "family": "Kumar",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Abhilash",
+            "family": "Nayak",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Heiner",
+            "family": "Peters",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Christopher",
+            "family": "Schulz",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Andreas",
+            "family": "Müller",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Frank",
+            "family": "Kirchner",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "49_CR1",
+            "unstructured": "Bartsch, S., Manz, M., Kampmann, P., Dettmann, A., Hanff, H., Langosz, M., von Szadkowski, K., Hilljegerdes, J., Simnofske, M., Kloss, P., Meder, M., Kirchner, F.: Development and control of the multi-legged robot mantis. In: International Symposium on Robotics (2016)"
+          },
+          {
+            "key": "49_CR2",
+            "unstructured": "Kirchner, E.A., Will, N., Simnofske, M., Benitez, L.M.V., Bongardt, B., Krell, M.M., Kumar, S., Mallwitz, M., Seeland, A., Tabie, M., Wöhrle, H., Yüksel, M., Heß, A., Buschfort, R., Kirchner, F.: Recupera-reha: exoskeleton technology with integrated biosignal analysis for sensorimotor rehabilitation. In: Transdisziplinäre Konferenz SmartASSIST, pp. 504–517 (2016)"
+          },
+          {
+            "issue": "7",
+            "key": "49_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "110",
+            "DOI": "10.5772/58733",
+            "volume": "11",
+            "author": "D Kuehn",
+            "year": "2014",
+            "unstructured": "Kuehn, D., Bernhard, F., Burchardt, A., Schilling, M., Stark, T., Zenzes, M., Kirchner, F.: Distributed computation in a quadrupedal robotic system. Int. J. Adv. Robot. Syst. 11(7), 110 (2014)",
+            "journal-title": "Int. J. Adv. Robot. Syst."
+          },
+          {
+            "key": "49_CR4",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Kumar, S., Bongardt, B., Simnofske, M., Kirchner, F.: Design and kinematic analysis of the novel almost spherical parallel mechanism active ankle. J. Intell. Robot. Syst. 1–23 (2018). https://doi.org/10.1007/s10846-018-0792-x",
+            "DOI": "10.1007/s10846-018-0792-x"
+          },
+          {
+            "key": "49_CR5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kumar, S., Simnofske, M., Bongardt, B., Mueller, A., Kirchner, F.: Integrating mimic joints into dynamics algorithms – exemplified by the hybrid recupera exoskeleton. In: Advances in Robotics (AIR 2017), 28 June–2 July, New Delhi, India. ACM-ICPS (2017)",
+            "DOI": "10.1145/3132446.3134891"
+          },
+          {
+            "key": "49_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lohmeier, S., Buschmann, T., Schwienbacher, M., Ulbrich, H., Pfeiffer, F.: Leg design for a humanoid walking robot. In: 2006 6th IEEE-RAS International Conference on Humanoid Robots, pp. 536–541 (2006)",
+            "DOI": "10.1109/ICHR.2006.321325"
+          },
+          {
+            "issue": "6",
+            "key": "49_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "852",
+            "DOI": "10.1016/j.robot.2012.01.010",
+            "volume": "60",
+            "author": "J Serracín",
+            "year": "2012",
+            "unstructured": "Serracín, J., Puglisi, L., Saltaren, R., Ejarque, G., Sabater-Navarro, J., Aracil, R.: Kinematic analysis of a novel 2-d.o.f. orientation device. Robot. Auton. Syst. 60(6), 852–861 (2012)",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "2",
+            "key": "49_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "128",
+            "DOI": "10.1109/TMECH.2006.871087",
+            "volume": "11",
+            "author": "AB Zoss",
+            "year": "2006",
+            "unstructured": "Zoss, A.B., Kazerooni, H., Chu, A.: Biomechanical design of the Berkeley lower extremity exoskeleton (BLEEX). IEEE/ASME Trans. Mech. 11(2), 128–138 (2006)",
+            "journal-title": "IEEE/ASME Trans. Mech."
+          }
+        ],
+        "container-title": [
+          "Springer Proceedings in Advanced Robotics",
+          "Advances in Robot Kinematics 2018"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-93188-3_49",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2019-10-19T21:44:25Z",
+          "timestamp": 1571521465000
+        },
+        "score": 49.572212,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-319-93188-3_49"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              23
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783319931876",
+          "9783319931883"
+        ],
+        "references-count": 8,
+        "URL": "https://doi.org/10.1007/978-3-319-93188-3_49",
+        "ISSN": [
+          "2511-1256",
+          "2511-1264"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2511-1256"
+          },
+          {
+            "type": "electronic",
+            "value": "2511-1264"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

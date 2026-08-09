@@ -1,0 +1,170 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6594,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              2
+            ]
+          ],
+          "date-time": "2025-08-02T17:23:43Z",
+          "timestamp": 1754155423495,
+          "version": "3.41.2"
+        },
+        "reference-count": 0,
+        "publisher": "Emerald",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1999,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "1999-04-01T00:00:00Z",
+              "timestamp": 922924800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.emerald.com/insight/site-policies"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1999,
+              4,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1108/ir.1999.04926caf.004",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2014-11-13T17:23:45Z",
+          "timestamp": 1415899425000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Automatic direct wiring with STAUBLI robots"
+        ],
+        "prefix": "10.1108",
+        "volume": "26",
+        "member": "140",
+        "container-title": [
+          "Industrial Robot: An International Journal"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.emeraldinsight.com/doi/full-xml/10.1108/ir.1999.04926caf.004",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/ir.1999.04926caf.004/full/xml",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/ir.1999.04926caf.004/full/html",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              24
+            ]
+          ],
+          "date-time": "2025-07-24T21:41:30Z",
+          "timestamp": 1753393290000
+        },
+        "score": 19.018557,
+        "resource": {
+          "primary": {
+            "URL": "http://www.emerald.com/ir/article/175942"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1999,
+              4,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                1999,
+                4,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1108/ir.1999.04926caf.004"
+        ],
+        "URL": "https://doi.org/10.1108/ir.1999.04926caf.004",
+        "ISSN": [
+          "0143-991X"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0143-991X"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1999,
+              4,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

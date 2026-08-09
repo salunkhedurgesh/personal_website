@@ -1,0 +1,243 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1199681,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2023-10-19T05:17:31Z",
+          "timestamp": 1697692651170
+        },
+        "reference-count": 8,
+        "publisher": "Wiley",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2003,
+                  3,
+                  25
+                ]
+              ],
+              "date-time": "2003-03-25T00:00:00Z",
+              "timestamp": 1048550400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 24,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Proc Appl Math and Mech"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>A purely algebraic approach to higher order analysis of (singular) configurations of rigid multibody systems with kinematic loops (CMS) is presented. Rigid body con.gurations are described by elements of the Lie group SE(3) and so the rigid body kinematics is determined by an analytical map f : V → SE(3), where V is the configuration space, an analytic variety. Around regular configurations V has manifold structure but this is lost in singular points. In such points the concept of a tangent vector space does not makes sense but the tangent space C<jats:sub>q</jats:sub>V (a cone) to V can still be defined. This tangent cone can be determined algebraically using the special structure of the Lie algebra se (3), the generating algebra of the special Euclidean group SE (3), and the fact that the push forward map f<jats:sub>*</jats:sub>, the tangential mapping C<jats:sub>q</jats:sub>V → se (3), is given in terms of the mechanisms screw system. Moreover the differentials of f of arbitrary order can be expressed algebraically. The tangent space to the configuration space can be shown to be a hypersurface of maximum degree 4, a vector space for regular points. It is the structure of the tangent cone to V that gives the complete geometric picture of the configuration space around a (singular) point. Identification of the screw system and its matrix representation with the kinematic basic functions of the CMS allows an automatic algebraic analysis of mechanisms.</jats:p>",
+        "DOI": "10.1002/pamm.200310058",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2003,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2003-04-04T15:03:02Z",
+          "timestamp": 1049468582000
+        },
+        "page": "146-147",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Classification and higher order analysis of manipulator singularities"
+        ],
+        "prefix": "10.1002",
+        "volume": "2",
+        "author": [
+          {
+            "given": "A.",
+            "family": "Müller",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "P.",
+            "family": "Maisser",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2003,
+              3,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_1_2_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56660"
+          },
+          {
+            "key": "e_1_2_1_3_2",
+            "first-page": "687",
+            "article-title": "Analytic Geometry and Singularities of Mechanisms",
+            "volume": "10",
+            "author": "Lerbet J.",
+            "year": "1999",
+            "journal-title": "ZAMM, Z. angew. Math. Mech., Vol. 78"
+          },
+          {
+            "key": "e_1_2_1_4_2",
+            "unstructured": "A.Müller P.Maisser:A Lie–group formulation of kinematics and dynamics of constrained MBS and its application to analytical mechanics Multibody Systems Dynamics Kluwer in press 2002."
+          },
+          {
+            "key": "e_1_2_1_5_2",
+            "unstructured": "A.Müller:Local analysis of singular configurations of open and closed loop manipulators Multibody Systems Dynamics Kluwer (2002) special issue in press."
+          },
+          {
+            "key": "e_1_2_1_6_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "J. M.Rico J.Gallardo J.Duffy A determination of singular configurations of serial non–redundant manipulators and their escapement from singularities using Lie products in: Computational Kinematics J.P. Merlet B. Ravani (eds.) Kluwer (1995) 143–152.",
+            "DOI": "10.1007/978-94-011-0333-6_15"
+          },
+          {
+            "key": "e_1_2_1_7_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "J.M.Selig:Geometrical foundations of robotics World Scientific 2000.",
+            "DOI": "10.1142/4257"
+          },
+          {
+            "key": "e_1_2_1_8_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "H.Whitney:Tangents to an analytic variety in: Annals of mathematics A. Borel J. Milnor (eds.) 81(1965) 496–549.",
+            "DOI": "10.2307/1970400"
+          },
+          {
+            "key": "e_1_2_1_9_2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D.Zlatanov R. G.Fenton B.Benhabib:Identification and classification of the singular configurations of mechanisms in: Computational Kinematics J.P. Merlet B. Ravani (eds.) Kluwer (1995) 163–172.",
+            "DOI": "10.1007/978-94-011-0333-6_17"
+          }
+        ],
+        "container-title": [
+          "PAMM"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fpamm.200310058",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/pamm.200310058",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              18
+            ]
+          ],
+          "date-time": "2023-10-18T16:51:54Z",
+          "timestamp": 1697647914000
+        },
+        "score": 34.426308,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.200310058"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2003,
+              3
+            ]
+          ]
+        },
+        "references-count": 8,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2003,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1002/pamm.200310058"
+        ],
+        "URL": "https://doi.org/10.1002/pamm.200310058",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "1617-7061",
+          "1617-7061"
+        ],
+        "issn-type": [
+          {
+            "value": "1617-7061",
+            "type": "print"
+          },
+          {
+            "value": "1617-7061",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              3
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

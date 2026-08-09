@@ -1,0 +1,217 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1254920,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2024-10-23T09:28:06Z",
+          "timestamp": 1729675686472,
+          "version": "3.28.0"
+        },
+        "reference-count": 10,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/mace.2010.5535350",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              8,
+              9
+            ]
+          ],
+          "date-time": "2010-08-09T18:16:37Z",
+          "timestamp": 1281377797000
+        },
+        "page": "2520-2523",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "A family of fully decoupled spherical parallel mechanisms"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "family": "Zhang Fan",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "family": "Yang Jian-guo",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574702004174"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574701003873"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1139/tcsme-2004-0014",
+            "article-title": "Type Synthesis of Input-output Decoupled Parallel Manipulators[J]",
+            "volume": "28",
+            "author": "xianwen",
+            "year": "2004",
+            "journal-title": "Transactions of the Canadian Society for Mechanical Engineering"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "crossref",
+            "first-page": "28",
+            "DOI": "10.3901/JME.2005.09.028",
+            "article-title": "Study on the Decoupling Conditions of The Spherical Parallel Mechanism Based on the Criterion For Topologically Decoupled Parallel Mechanisms[J]",
+            "volume": "41",
+            "author": "lubin",
+            "year": "2005",
+            "journal-title": "Chinese Journal of Mechanical Engineering"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.1561041"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258713"
+          },
+          {
+            "key": "ref7",
+            "first-page": "1552",
+            "article-title": "Full-isotropic spherical three-DOF parallel mechanism [J]",
+            "volume": "19",
+            "author": "fan",
+            "year": "2008",
+            "journal-title": "Zhongguo Jixie Gongcheng"
+          },
+          {
+            "key": "ref2",
+            "first-page": "36",
+            "article-title": "Study of a New Pitch-Yaw-Roll Joint Mechanism[J]",
+            "volume": "5",
+            "author": "wu",
+            "year": "1995",
+            "journal-title": "Chinese High Technology Letters"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.1469549"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258984"
+          }
+        ],
+        "event": {
+          "name": "2010 International Conference on Mechanic Automation and Control Engineering (MACE)",
+          "start": {
+            "date-parts": [
+              [
+                2010,
+                6,
+                26
+              ]
+            ]
+          },
+          "location": "Wuhan, China",
+          "end": {
+            "date-parts": [
+              [
+                2010,
+                6,
+                28
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2010 International Conference on Mechanic Automation and Control Engineering"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/5510905/5535256/05535350.pdf?arnumber=5535350",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2019-06-01T10:00:56Z",
+          "timestamp": 1559383256000
+        },
+        "score": 42.55773,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/5535350/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        },
+        "references-count": 10,
+        "URL": "https://doi.org/10.1109/mace.2010.5535350",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

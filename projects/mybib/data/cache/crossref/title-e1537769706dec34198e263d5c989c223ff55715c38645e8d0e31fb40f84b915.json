@@ -1,0 +1,186 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8199460,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2025-07-30T12:49:17Z",
+          "timestamp": 1753879757202,
+          "version": "3.41.2"
+        },
+        "reference-count": 0,
+        "publisher": "American Society of Mechanical Engineers",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              26
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This paper presents the design of a deployable cylindrical mechanism which is driven by cable. The deployable mechanism can be deployed to approximate a cylindrical surface and be folded into a compact bundle. Construction of the cylindrical surfaces with Bennett linkages is introduced. Geometric shape of the connecting bars and structure of the joints are designed for compact bundle-folding configuration and avoiding the interference. Position kinematics of the mechanism is solved. Cable system is designed to drive the mechanism to deploy. A direction-changeable mechanism used for cable pulleys is proposed and the optimal design parameters are obtained. A ground experimental prototype is fabricated to validate the proposed design and to show the feasibility of the designed mechanism.</jats:p>",
+        "DOI": "10.1115/detc2018-85575",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              2
+            ]
+          ],
+          "date-time": "2018-11-02T14:39:25Z",
+          "timestamp": 1541169565000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Design and Analysis of a Cable-Driven Deployable Cylindrical Mechanism"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Hang",
+            "family": "Xiao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beihang University, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Shengnan",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beihang University, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Xilun",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beihang University, Beijing, China"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              2
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2018 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                26
+              ]
+            ]
+          },
+          "sponsor": [
+            "Design Engineering Division",
+            "Computers and Information in Engineering Division"
+          ],
+          "location": "Quebec City, Quebec, Canada",
+          "end": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                29
+              ]
+            ]
+          },
+          "acronym": "IDETC-CIE2018"
+        },
+        "container-title": [
+          "Volume 5B: 42nd Mechanisms and Robotics Conference"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2018-85575/2476804/v05bt07a042-detc2018-85575.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T22:47:27Z",
+          "timestamp": 1567378047000
+        },
+        "score": 29.223568,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2018/51814/Quebec%20City,%20Quebec,%20Canada/276095"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              26
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/detc2018-85575",
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              26
+            ]
+          ]
+        },
+        "article-number": "V05BT07A042"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

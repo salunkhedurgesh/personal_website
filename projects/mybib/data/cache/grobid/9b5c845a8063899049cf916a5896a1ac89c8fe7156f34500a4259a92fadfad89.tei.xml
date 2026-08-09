@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Generalization in transfer learning: robust control of robot locomotion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-05-11">11 May 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Suzan</forename><surname>Ece</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Engineering</orgName>
+								<orgName type="institution">Bogazici University</orgName>
+								<address>
+									<settlement>Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emre</forename><surname>Ugur</surname></persName>
+							<idno type="ORCID">0000-0001-9597-2731</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Engineering</orgName>
+								<orgName type="institution">Bogazici University</orgName>
+								<address>
+									<settlement>Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Levent Akin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Engineering</orgName>
+								<orgName type="institution">Bogazici University</orgName>
+								<address>
+									<settlement>Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Generalization in transfer learning: robust control of robot locomotion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-05-11">11 May 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">59F7F915F141C7E025542A9486665710</idno>
+					<idno type="DOI">10.1017/S0263574722000625</idno>
+					<note type="submission">Received: 2 March 2021; Revised: 17 December 2021; Accepted: 25 March 2022;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>deep reinforcement learning</term>
+					<term>transfer learning</term>
+					<term>control of robotic systems</term>
+					<term>bipeds</term>
+					<term>humanoid robots</term>
+					<term>legged robots</term>
+					<term>service robots</term>
+					<term>space robotics</term>
+					<term>mobile robots</term>
+					<term>adversarial learning</term>
+					<term>robot locomotion</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In this paper, we propose a set of robust training methods for deep reinforcement learning to transfer learning acquired in one control task to a set of previously unseen control tasks. We improve generalization in commonly used transfer learning benchmarks by a novel sample elimination technique, early stopping, and maximum entropy adversarial reinforcement learning. To generate robust policies, we use sample elimination during training via a method we call strict clipping. We apply early stopping, a method previously used in supervised learning, to deep reinforcement learning. Subsequently, we introduce maximum entropy adversarial reinforcement learning to increase the domain randomization during training for a better target task performance. Finally, we evaluate the robustness of these methods compared to previous work on simulated robots in target environments where the gravity, the morphology of the robot, and the tangential friction coefficient of the environment are altered.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

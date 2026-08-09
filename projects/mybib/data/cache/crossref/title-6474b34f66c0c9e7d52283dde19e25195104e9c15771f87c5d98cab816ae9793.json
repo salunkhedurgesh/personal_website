@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2845,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2022-04-04T02:19:34Z",
+          "timestamp": 1649038774874
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              26
+            ]
+          ]
+        },
+        "reference-count": 0,
+        "publisher": "Morressier",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.26226/morressier.5b5f433db56e9b005965b387",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2020-02-19T16:51:42Z",
+          "timestamp": 1582131102000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "0914 - PERTUSSIS ENCEPHALOPATHY IN INFANTS"
+        ],
+        "prefix": "10.26226",
+        "author": [
+          {
+            "given": "Ghorbel",
+            "family": "Sameh",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "22980",
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2020-02-19T17:55:34Z",
+          "timestamp": 1582134934000
+        },
+        "score": 18.4885,
+        "resource": {
+          "primary": {
+            "URL": "https://www.morressier.com/article/5b5f433db56e9b005965b387"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              26
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.26226/morressier.5b5f433db56e9b005965b387",
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              26
+            ]
+          ]
+        },
+        "subtype": "other"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

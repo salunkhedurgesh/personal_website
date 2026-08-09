@@ -1,0 +1,676 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1978498,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              11
+            ]
+          ],
+          "date-time": "2024-06-11T06:34:45Z",
+          "timestamp": 1718087685941
+        },
+        "reference-count": 57,
+        "publisher": "Elsevier BV",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1978,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1978-01-01T00:00:00Z",
+              "timestamp": 252460800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1978,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/0094-114x(78)90042-3",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              2,
+              10
+            ]
+          ],
+          "date-time": "2005-02-10T22:04:36Z",
+          "timestamp": 1108073076000
+        },
+        "page": "187-198",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "Ebene euklidische und sphärische symmetrische Rollungen"
+        ],
+        "prefix": "10.1016",
+        "volume": "13",
+        "author": [
+          {
+            "given": "J.",
+            "family": "Tölke",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB1",
+            "first-page": "S.89",
+            "article-title": "Memoire sur une nouvelle maniere de considerer les caustiques, produites soit par reflexion soit par refraction",
+            "volume": "3",
+            "author": "Quetelet",
+            "year": "1826",
+            "journal-title": "Brux. Nouv. mem."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB2",
+            "volume": "Bd. II",
+            "author": "Loria",
+            "year": "1911",
+            "journal-title": "Spezielle ebene Kurven"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB3",
+            "volume": "Bd. II",
+            "author": "Pascal",
+            "year": "1910",
+            "journal-title": "Repitorium der höheren Mathematik"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB4",
+            "article-title": "Curvature Theory in Plane Kinematics",
+            "author": "Veldkamp",
+            "year": "1963",
+            "journal-title": "Thesis TH Delft"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB5",
+            "first-page": "S.7",
+            "article-title": "über das Raumbild eines ebenen Zwanglaufes",
+            "volume": "13",
+            "author": "Bereis",
+            "year": "1964",
+            "journal-title": "Wiss. Z. TH Dresden"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB6",
+            "first-page": "S.243",
+            "article-title": "Über die symmetrische Rollung",
+            "volume": "7",
+            "author": "Bereis",
+            "year": "1953",
+            "journal-title": "Österr. Ing. Arch."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB7",
+            "first-page": "S.145",
+            "article-title": "Characteristic properties of the symmetric plane motion",
+            "volume": "75",
+            "author": "Bottema",
+            "year": "1972",
+            "journal-title": "Kon. Ned. Akad. Wet. ser. B"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB8",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.317",
+            "DOI": "10.1007/BF01220922",
+            "article-title": "Symmetrische Rollung bei den ebenen nicht parabolischen M-Affinitätsvorgängen",
+            "volume": "21",
+            "author": "Tölke",
+            "year": "1970",
+            "journal-title": "Arch. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB9",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.429",
+            "DOI": "10.1007/BF01220942",
+            "article-title": "Spezielle Bewegungsvorgänge I",
+            "volume": "21",
+            "author": "Tölke",
+            "year": "1970",
+            "journal-title": "Arch. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB10",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.277",
+            "DOI": "10.1016/0094-114X(72)90038-9",
+            "article-title": "Kennzeichnungen der symmetrischen Rollungen höherer Ordnung",
+            "volume": "7",
+            "author": "Tölke",
+            "year": "1972",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB11",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.550",
+            "DOI": "10.1007/BF01220962",
+            "article-title": "Spezielle Bewegungsvorgänge II",
+            "volume": "21",
+            "author": "Tölke",
+            "year": "1970",
+            "journal-title": "Arch. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB12",
+            "article-title": "Beiträge zur Theorie des ebenen Gelenkvierecks",
+            "author": "Müller",
+            "year": "1897",
+            "journal-title": "Braunschweig (Festschrift)"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB13",
+            "series-title": "Analysis der ebenen Bewegung",
+            "author": "Krause",
+            "year": "1920"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB14",
+            "series-title": "Proc. Int. Conf. on Mechanism at Yale University",
+            "first-page": "S.159",
+            "article-title": "Some remarks on theoretical kinematics I. On instantaneous invariants",
+            "author": "Bottema",
+            "year": "1961"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB15",
+            "first-page": "S.246",
+            "article-title": "Aufbau einer Theorie der ebenen Bewegungen mit Verwendung komplexer Zahlen",
+            "volume": "5",
+            "author": "Bereis",
+            "year": "1951",
+            "journal-title": "österr. Ing. Arch."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB16",
+            "article-title": "Über höhere Rückkehr- und Wendepole",
+            "author": "Carl",
+            "year": "1911",
+            "journal-title": "Diss. Jena"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB17",
+            "series-title": "Kinematik",
+            "author": "Müller",
+            "year": "1963"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB18_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.19",
+            "DOI": "10.1098/rsta.1951.0014",
+            "article-title": "On the cardinal points in plane kinematics",
+            "volume": "244",
+            "author": "Steward",
+            "year": "1951",
+            "journal-title": "Phil. Trans. Roy. Soc. ser. A"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB18_2",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.371",
+            "DOI": "10.1007/BF02392138",
+            "article-title": "On certain configurations of the cardinal points in plane kinematics",
+            "volume": "88",
+            "author": "Steward",
+            "year": "1952",
+            "journal-title": "Acta. mat."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB19",
+            "first-page": "S.53",
+            "article-title": "Die Bedeutung der Fokalachsen für die symmetrische Rollung",
+            "volume": "101",
+            "author": "Tölke",
+            "year": "1976",
+            "journal-title": "Cas. pro pest. mat."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB20",
+            "series-title": "Sphärische Kinematik",
+            "author": "Müller",
+            "year": "1962"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB21",
+            "series-title": "Theorie nouvelle, geometrique e mecanique, des lignes a double courbure",
+            "author": "Serret",
+            "year": "1860"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB22",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.345",
+            "DOI": "10.1002/mana.19700470130",
+            "article-title": "Der sphärische Bresse-Kegelschnitt",
+            "volume": "47",
+            "author": "Tölke",
+            "year": "1970",
+            "journal-title": "Math. Nachr."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB23",
+            "first-page": "S.284",
+            "article-title": "Der Schmiegkegelschnitt in der sphärischen Kinematik",
+            "volume": "25",
+            "author": "Tölke",
+            "year": "1974",
+            "journal-title": "Stroj. Cas."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB24",
+            "series-title": "Geometrie der Bewegung",
+            "author": "Schoenflies",
+            "year": "1886"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB25",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.650",
+            "DOI": "10.1007/BF01220979",
+            "article-title": "Spezielle Bewegungsvorgänge III",
+            "volume": "21",
+            "author": "Tölke",
+            "year": "1970",
+            "journal-title": "Arch. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB26",
+            "first-page": "S.57",
+            "article-title": "Eine Kennzeichnung der sphärischen Trochoidenbewegung",
+            "volume": "27",
+            "author": "Tölke",
+            "year": "1972",
+            "journal-title": "El. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB27",
+            "volume": "38",
+            "author": "Grouard",
+            "year": "1870",
+            "journal-title": "L'Institut Journ. univ. sc. Ier Section"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB28",
+            "article-title": "Über die momentane Bewegungsgeometrie eines sphärisch bewegten starren Systems",
+            "author": "Dittrich",
+            "year": "1964",
+            "journal-title": "Diss. Aachen"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB29",
+            "first-page": "S.261",
+            "article-title": "Kennzeichnungen der sphärischen symmetrischen Rollung",
+            "volume": "181",
+            "author": "Tölke",
+            "year": "1973",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB30",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.207",
+            "DOI": "10.1016/0094-114X(75)90021-X",
+            "article-title": "Erzeugungsmöglichkeiten der sphärischen Kreispunktkurve",
+            "volume": "10",
+            "author": "Tölke",
+            "year": "1975",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB31",
+            "first-page": "S.143",
+            "article-title": "Kinematik der hyperbolischen Ebene II",
+            "volume": "267",
+            "author": "Tölke",
+            "year": "1974",
+            "journal-title": "J. r.u.a.Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB32",
+            "first-page": "S.253",
+            "article-title": "Kennzeichnungen der sphärischen Bahnscheitel",
+            "volume": "181",
+            "author": "Tölke",
+            "year": "1973",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB33",
+            "first-page": "S.39",
+            "article-title": "Ein sphärisches Analogon der Affinnormalen",
+            "volume": "183",
+            "author": "Tölke",
+            "year": "1974",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB34",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.229",
+            "DOI": "10.1007/BF02995955",
+            "article-title": "Ein Problem der sphärischen Kinematik",
+            "volume": "43",
+            "author": "Tölke",
+            "year": "1975",
+            "journal-title": "Abh. Math. Seminar Hamburg"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB35",
+            "first-page": "S.403",
+            "article-title": "Zum sphärischen Analogon der Ellipsenbewegung",
+            "volume": "184",
+            "author": "Tölke",
+            "year": "1975",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB36",
+            "first-page": "S.1",
+            "article-title": "Acceleration axes in spherical kinematics",
+            "author": "Bottema",
+            "year": "1964",
+            "journal-title": "Trans. ASME"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB37",
+            "first-page": "S.54",
+            "article-title": "Sopra un estensione del concetto di polo e caratteristica in cinematica",
+            "volume": "23",
+            "author": "Padelletti",
+            "year": "1884",
+            "journal-title": "Rendiconti Ac. sci. fis. e mat. Napoli"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB38",
+            "first-page": "S.1102",
+            "article-title": "Sur une classe remarquable de mouvements de l'espace, viration symmetrique",
+            "volume": "204",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Compt. Ren. Paris"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB39",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.394",
+            "DOI": "10.1007/BF01708003",
+            "article-title": "Über die Fuβpunktkurven von Regelsflächen und eine besondere Klasse von Raumbewegungen",
+            "volume": "45",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Mh. Math. Phys."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB40",
+            "series-title": "Lecons sur la theorie generale des surfaces I",
+            "author": "Darboux",
+            "year": "1887"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB41",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.407",
+            "DOI": "10.1007/BF01708004",
+            "article-title": "Zur Bricardschen Bewegung, deren sämtliche Bahnkurven auf Kugeln liegen",
+            "volume": "45",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Mh. Math. Phys."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB42",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.38",
+            "DOI": "10.1007/BF01792664",
+            "article-title": "Zur aufrechten Ellipsenbewegung des Raumes",
+            "volume": "46",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Mh. Math. Phys."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB43",
+            "first-page": "S.145",
+            "article-title": "Zur kubischen Kreisbewegung des Raumes",
+            "volume": "146",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB44",
+            "first-page": "S.159",
+            "article-title": "Zur Geometrie des Bennetschen Mechanismus",
+            "volume": "146",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB45",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.172",
+            "DOI": "10.1007/BF01792673",
+            "article-title": "Die Borel- Bricard- Bewegung mit punktweise gekoppelten orthogonalen Hyperboloiden",
+            "volume": "46",
+            "author": "Krames",
+            "year": "1937",
+            "journal-title": "Mh. Math. Phys."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB46",
+            "first-page": "S.145",
+            "article-title": "Koppelgetriebe für windschiefe Drehachsen und konstantes Übersetzungsverhältnis 1: 1",
+            "author": "Krames",
+            "year": "1965",
+            "journal-title": "Anz. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB47",
+            "first-page": "S.177",
+            "article-title": "Zur Strahlkinematik I",
+            "volume": "182",
+            "author": "Tölke",
+            "year": "1974",
+            "journal-title": "Sb. Österr. Ak. Wiss. Wien"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB48",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.309",
+            "DOI": "10.1007/BF01486601",
+            "article-title": "Elementare Kennzeichnungen der symmetrischen Schrotung",
+            "volume": "15",
+            "author": "Tölke",
+            "year": "1975",
+            "journal-title": "Manusc. math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB49",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.221",
+            "DOI": "10.1002/mana.19750680116",
+            "article-title": "Ebene projektive Kinematik III",
+            "volume": "68",
+            "author": "Tölke",
+            "year": "1975",
+            "journal-title": "Math. Nachr."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB50",
+            "first-page": "S.145",
+            "article-title": "Kinematik der hyperbolischen Ebene I",
+            "volume": "265",
+            "author": "Tölke",
+            "year": "1974",
+            "journal-title": "J. r.u.a. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB51",
+            "article-title": "Möbius Kinematik",
+            "author": "Hartmann",
+            "year": "1973",
+            "journal-title": "Diss. Stuttgart"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB52",
+            "doi-asserted-by": "crossref",
+            "first-page": "S.319",
+            "DOI": "10.1007/BF01224678",
+            "article-title": "Kinematik in der Laguerre Ebene III",
+            "volume": "27",
+            "author": "Frank",
+            "year": "1976",
+            "journal-title": "Arch. Math."
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB53",
+            "first-page": "S.58",
+            "article-title": "Über die durch aufrechte Ellipsenbewegung erzeugten Regelflächen",
+            "volume": "50",
+            "author": "Krames",
+            "year": "1940",
+            "journal-title": "DMV Berichte"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB54",
+            "first-page": "S.43",
+            "article-title": "Komplexe Geometrie und aufrechte Ellipsenbewegung",
+            "volume": "50",
+            "author": "Strubecker",
+            "year": "1940",
+            "journal-title": "DMV Beriche"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB55",
+            "article-title": "Affine Trochoidenbewegungen",
+            "author": "Tölke",
+            "year": "1976",
+            "journal-title": "Vortrag Geometrietagung, Oberwolfach"
+          },
+          {
+            "key": "10.1016/0094-114X(78)90042-3_BIB56",
+            "unstructured": "W. Degen und S. Hartmann, Zur Möbius Kinematik. Erscheint in den Sb. Österr. Ak. Wiss. Wien."
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "de",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X78900423?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X78900423?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              28
+            ]
+          ],
+          "date-time": "2019-01-28T22:54:51Z",
+          "timestamp": 1548716091000
+        },
+        "score": 52.38046,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/0094114X78900423"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1978,
+              1
+            ]
+          ]
+        },
+        "references-count": 57,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                1978,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "0094114X78900423"
+        ],
+        "URL": "https://doi.org/10.1016/0094-114x(78)90042-3",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1978,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

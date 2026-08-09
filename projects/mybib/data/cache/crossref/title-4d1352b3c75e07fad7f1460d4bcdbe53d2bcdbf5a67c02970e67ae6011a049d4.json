@@ -1,0 +1,388 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2481422,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2026-04-10T16:36:03Z",
+          "timestamp": 1775838963185,
+          "version": "3.50.1"
+        },
+        "reference-count": 28,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  7,
+                  18
+                ]
+              ],
+              "date-time": "2022-07-18T00:00:00Z",
+              "timestamp": 1658102400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  7,
+                  18
+                ]
+              ],
+              "date-time": "2022-07-18T00:00:00Z",
+              "timestamp": 1658102400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "DOI": "10.1109/icme52920.2022.9859688",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              26
+            ]
+          ],
+          "date-time": "2022-08-26T19:45:18Z",
+          "timestamp": 1661543118000
+        },
+        "page": "1-6",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "HDNet: A Hierarchically Decoupled Network for Crowd Counting"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Chenliang",
+            "family": "Gu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tencent YouTu Lab,Shenzhen,China"
+              }
+            ]
+          },
+          {
+            "given": "Changan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tencent YouTu Lab,Shenzhen,China"
+              }
+            ]
+          },
+          {
+            "given": "Bin-Bin",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tencent YouTu Lab,Shenzhen,China"
+              }
+            ]
+          },
+          {
+            "given": "Jun",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tencent YouTu Lab,Shenzhen,China"
+              }
+            ]
+          },
+          {
+            "given": "Tianliang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tencent YouTu Lab,Shenzhen,China"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR42600.2020.00476"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/WACV.2019.00141"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2019.2913372"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-01216-8_33"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2020.3035969"
+          },
+          {
+            "key": "ref15",
+            "article-title": "NWPU- Crowd: A Large-Scale Benchmark for Crowd Counting and Localization",
+            "author": "wang",
+            "year": "2020",
+            "journal-title": "TPAMI"
+          },
+          {
+            "key": "ref16",
+            "article-title": "Deep High-Resolution Representation Learning for Visual Recognition",
+            "author": "wang",
+            "year": "2020",
+            "journal-title": "TPAMI"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-01228-1_45"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2019.00186"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2019.00109"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR46437.2021.00201"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-46478-7_30"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1609/aaai.v35i3.16332",
+            "article-title": "Learning to Count via Unbalanced Optimal Transport",
+            "author": "ma",
+            "year": "2021",
+            "journal-title": "AAAI"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v34i07.6848"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2016.70"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2019.00416"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3343031.3350881"
+          },
+          {
+            "key": "ref7",
+            "article-title": "CSR-Net: Dilated Convolutional Neural Networks for Under-standing the Highly Congested Scenes",
+            "author": "li",
+            "year": "2018",
+            "journal-title": "CVPR"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1609/aaai.v35i3.16360",
+            "article-title": "To Choose or to Fuse? Scale Selection for Crowd Counting",
+            "author": "song",
+            "year": "2021",
+            "journal-title": "AAAI"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CVPR.2019.00334"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/WACV48630.2021.00169"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICCV.2019.00624"
+          },
+          {
+            "key": "ref22",
+            "article-title": "Kernel-based density map generation for dense object counting",
+            "author": "wan",
+            "year": "2020",
+            "journal-title": "TPAMI"
+          },
+          {
+            "key": "ref21",
+            "article-title": "Locate, Size and Count: Accurately Resolving People in Dense Crowds via Detection",
+            "author": "sam",
+            "year": "2020",
+            "journal-title": "TPAMI"
+          },
+          {
+            "key": "ref24",
+            "article-title": "Distribution matching for crowd counting",
+            "author": "wang",
+            "year": "2020",
+            "journal-title": "NeurIPS"
+          },
+          {
+            "key": "ref23",
+            "article-title": "Weighing Counts: Se-quential Crowd Counting by Reinforcement Learning",
+            "author": "liu",
+            "year": "2020",
+            "journal-title": "ECCV"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2021.3056518"
+          },
+          {
+            "key": "ref25",
+            "article-title": "Modeling Noisy Annotations for Crowd Counting",
+            "author": "wan",
+            "year": "2020",
+            "journal-title": "NeurIPS"
+          }
+        ],
+        "event": {
+          "name": "2022 IEEE International Conference on Multimedia and Expo (ICME)",
+          "location": "Taipei, Taiwan",
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                18
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                22
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2022 IEEE International Conference on Multimedia and Expo (ICME)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/9859562/9858923/09859688.pdf?arnumber=9859688",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              2
+            ]
+          ],
+          "date-time": "2024-10-02T17:38:27Z",
+          "timestamp": 1727890707000
+        },
+        "score": 22.072636,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/9859688/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "references-count": 28,
+        "URL": "https://doi.org/10.1109/icme52920.2022.9859688",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

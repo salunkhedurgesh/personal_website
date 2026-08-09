@@ -1,0 +1,381 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8000805,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              5
+            ]
+          ],
+          "date-time": "2026-01-05T21:56:48Z",
+          "timestamp": 1767650208714
+        },
+        "reference-count": 17,
+        "publisher": "ASME International",
+        "issue": "8",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              8,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The inverse kinematic analysis of the general 6R serial robot has been a very significant and important problem in the theory of the spatial mechanisms. Because the solution to inverse kinematics problem of the general 5R serial robot is unique and its assembly condition has been derived, a simple effective method for inverse kinematics problem of general 6R serial robot or forward kinematics problem of general 7R single-loop mechanism is presented based on a one-dimension searching algorithm. All the real solutions to inverse kinematics problems of the general 6R serial robot or forward kinematics problems of the general 7R single-loop mechanism can be obtained. The new method has the following features: (1) using one-dimension searching algorithm, all the real inverse kinematic solutions are obtained and it has higher computing efficiency; and (2) compared with the algebraic method, it has evidently reduced the difficulty of deducing formulas. The principle of the new method can be generalized to kinematic analysis of parallel mechanisms.</jats:p>",
+        "DOI": "10.1115/1.2735636",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2007-07-13T22:32:21Z",
+          "timestamp": 1184365941000
+        },
+        "page": "793-798",
+        "update-policy": "http://dx.doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 18,
+        "title": [
+          "A Simple Method for Inverse Kinematic Analysis of the General 6R Serial Robot"
+        ],
+        "prefix": "10.1115",
+        "volume": "129",
+        "author": [
+          {
+            "given": "Shi Zhi",
+            "family": "Xin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nanchang University, Nanchang 330029, China"
+              }
+            ]
+          },
+          {
+            "given": "Luo Yu",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanchang University, Nanchang 330029, China"
+              }
+            ]
+          },
+          {
+            "given": "Hang Lu",
+            "family": "Bing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiaotong University, Shanghai 200030, China"
+              }
+            ]
+          },
+          {
+            "given": "Yang Ting",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jinling Petrochemical Corporation, Nanjing 210037, China"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2006,
+              8,
+              18
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "3",
+            "key": "2019100519503502500_c1",
+            "doi-asserted-by": "publisher",
+            "first-page": "153",
+            "DOI": "10.1016/0094-114X(80)90001-4",
+            "article-title": "A Displacement Analysis of the General Spatial 7-link, 7R Mechanism",
+            "volume": "15",
+            "author": "Duffy",
+            "journal-title": "Mech. Mach. Theory",
+            "ISSN": "http://id.crossref.org/issn/0094-114X",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.mechmachtheory.2006.02.001",
+            "article-title": "A New and Efficient Algorithm for the Inverse Kinematics of a General Serial 6R Manipulator",
+            "volume-title": "Proc. of ASME 2005 Mechanisms Conference",
+            "author": "Husty"
+          },
+          {
+            "issue": "3",
+            "key": "2019100519503502500_c3",
+            "doi-asserted-by": "publisher",
+            "first-page": "219",
+            "DOI": "10.1016/0094-114X(88)90107-3",
+            "article-title": "Displacement Analysis of the General Spatial 7-link 7R Mechanism",
+            "volume": "23",
+            "author": "Lee",
+            "journal-title": "Mech. Mach. Theory",
+            "ISSN": "http://id.crossref.org/issn/0094-114X",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c4",
+            "doi-asserted-by": "crossref",
+            "first-page": "481",
+            "DOI": "10.1115/1.2912808",
+            "article-title": "A Complete Solution for the Inverse Kinematic Problem of the General 6R Robot Manipulator",
+            "volume": "113",
+            "author": "Lee",
+            "journal-title": "ASME J. Mech. Des.",
+            "ISSN": "http://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c5",
+            "doi-asserted-by": "crossref",
+            "first-page": "396",
+            "DOI": "10.1115/1.2826899",
+            "article-title": "Inverse Kinematics of Serial-Chain Manipulators",
+            "volume": "118",
+            "author": "Lee",
+            "journal-title": "ASME J. Mech. Des.",
+            "ISSN": "http://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c6",
+            "volume-title": "Analysis of Spatial Linkages and Robot Mechanisms",
+            "author": "Liang"
+          },
+          {
+            "issue": "3",
+            "key": "2019100519503502500_c7",
+            "first-page": "1",
+            "article-title": "A Novel Approach to the Displacement Analysis of General Spatial 7R Mechanism",
+            "volume": "22",
+            "author": "Liao",
+            "journal-title": "Chin. J. Mech. Eng.",
+            "ISSN": "http://id.crossref.org/issn/0577-6686",
+            "issn-type": "print"
+          },
+          {
+            "issue": "5",
+            "key": "2019100519503502500_c8",
+            "doi-asserted-by": "publisher",
+            "first-page": "75",
+            "DOI": "10.1177/027836498900800507",
+            "article-title": "A Robot Manipulator with 16 Real Inverse Kinematic Solutions",
+            "volume": "8",
+            "author": "Manseur",
+            "journal-title": "Int. J. Robot. Res.",
+            "ISSN": "http://id.crossref.org/issn/0278-3649",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c9",
+            "doi-asserted-by": "crossref",
+            "first-page": "502",
+            "DOI": "10.1115/1.2919218",
+            "article-title": "Inverse Kinematics of the General 6R Manipulator and Related Linkages",
+            "volume": "115",
+            "author": "Raghavan",
+            "journal-title": "ASME J. Mech. Des.",
+            "ISSN": "http://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c10",
+            "doi-asserted-by": "crossref",
+            "volume-title": "Computations in Kinematics",
+            "author": "Roth",
+            "DOI": "10.1007/978-94-015-8192-9_1"
+          },
+          {
+            "key": "2019100519503502500_c11",
+            "first-page": "189",
+            "article-title": "Solving the Kinematics of the Most General Six-and Five-Degree-of Freedom Manipulators by Continuation Methods",
+            "volume": "107",
+            "author": "Tsai",
+            "journal-title": "ASME J. Mech. Des.",
+            "ISSN": "http://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "issue": "4",
+            "key": "2019100519503502500_c12",
+            "doi-asserted-by": "publisher",
+            "first-page": "776",
+            "DOI": "10.1115/1.2202137",
+            "article-title": "A Polynomial Homotopy Formulation of the Inverse Static Analysis of Planar Compliant Mechanisms",
+            "volume": "128",
+            "author": "Su",
+            "journal-title": "ASME J. Mech. Des.",
+            "ISSN": "http://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c13",
+            "first-page": "59",
+            "volume-title": "Applications of Grobner Bases in Nonlinear Computational Geometry, Mathematical Aspects Scientific Software",
+            "author": "Buchberger"
+          },
+          {
+            "key": "2019100519503502500_c14",
+            "first-page": "1",
+            "article-title": "On Zeros of Algebraic Equations—An Application of Ritt Principle",
+            "volume": "31",
+            "author": "Wu",
+            "journal-title": "Kexue Tongbao (Foreign Lang. Ed.)",
+            "ISSN": "http://id.crossref.org/issn/0250-7862",
+            "issn-type": "print"
+          },
+          {
+            "issue": "1/2",
+            "key": "2019100519503502500_c15",
+            "doi-asserted-by": "publisher",
+            "first-page": "175",
+            "DOI": "10.1016/S0094-114X(97)00018-9",
+            "article-title": "Exact Kinematic Analysis of the General 5R Robot",
+            "volume": "33",
+            "author": "Zhou",
+            "journal-title": "Mech. Mach. Theory",
+            "ISSN": "http://id.crossref.org/issn/0094-114X",
+            "issn-type": "print"
+          },
+          {
+            "issue": "5",
+            "key": "2019100519503502500_c16",
+            "doi-asserted-by": "crossref",
+            "first-page": "22",
+            "DOI": "10.3901/JME.2001.05.022",
+            "article-title": "Inverse Kinematic Analysis of General 5R Serial Robot Based on Linear Transformation",
+            "volume": "37",
+            "author": "Hang",
+            "journal-title": "Chin. J. Mech. Eng.",
+            "ISSN": "http://id.crossref.org/issn/0577-6686",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100519503502500_c17",
+            "volume-title": "Numerical Analysis",
+            "author": "Ruan"
+          }
+        ],
+        "container-title": [
+          "Journal of Mechanical Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/129/8/793/5923122/793_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/129/8/793/5923122/793_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2019-10-05T23:50:37Z",
+          "timestamp": 1570319437000
+        },
+        "score": 34.611305,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/129/8/793/471691/A-Simple-Method-for-Inverse-Kinematic-Analysis-of"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              8,
+              18
+            ]
+          ]
+        },
+        "references-count": 17,
+        "journal-issue": {
+          "issue": "8",
+          "published-print": {
+            "date-parts": [
+              [
+                2007,
+                8,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.2735636",
+        "ISSN": [
+          "1050-0472",
+          "1528-9001"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-0472",
+            "type": "print"
+          },
+          {
+            "value": "1528-9001",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              8,
+              18
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

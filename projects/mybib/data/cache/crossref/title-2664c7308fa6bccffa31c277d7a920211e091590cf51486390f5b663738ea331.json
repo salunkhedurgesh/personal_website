@@ -1,0 +1,595 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7189886,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              30
+            ]
+          ],
+          "date-time": "2025-12-30T23:28:52Z",
+          "timestamp": 1767137332626,
+          "version": "build-2238731810"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 19,
+        "publisher": "Springer Nature Switzerland",
+        "isbn-type": [
+          {
+            "value": "9783031159305",
+            "type": "print"
+          },
+          {
+            "value": "9783031159312",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Handling various robot action-language translation tasks flexibly is an essential requirement for natural interaction between a robot and a human. Previous approaches require change in the configuration of the model architecture per task during inference, which undermines the premise of multi-task learning. In this work, we propose the paired gated autoencoders (PGAE) for flexible translation between robot actions and language descriptions in a tabletop object manipulation scenario. We train our model in an end-to-end fashion by pairing each action with appropriate descriptions that contain a signal informing about the translation direction. During inference, our model can flexibly translate from action to language and vice versa according to the given language signal. Moreover, with the option to use a pretrained language model as the language encoder, our model has the potential to recognise unseen natural language input. Another capability of our model is that it can recognise and imitate actions of another agent by utilising robot demonstrations. The experiment results highlight the flexible bidirectional translation capabilities of our approach alongside with the ability to generalise to the actions of the opposite-sitting agent.</jats:p>",
+        "DOI": "10.1007/978-3-031-15931-2_21",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2022-09-06T01:03:47Z",
+          "timestamp": 1662426227000
+        },
+        "page": "246-257",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Learning Flexible Translation Between Robot Actions and Language Descriptions"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Ozan",
+            "family": "Özdemir",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Matthias",
+            "family": "Kerzel",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Cornelius",
+            "family": "Weber",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Jae Hee",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stefan",
+            "family": "Wermter",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              7
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "21_CR1",
+            "unstructured": "Abramson, J., et al.: Imitating interactive intelligence. arXiv preprint arXiv:2012.05672 (2020)"
+          },
+          {
+            "key": "21_CR2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Antunes, A., Laflaquiere, A., Ogata, T., Cangelosi, A.: A bi-directional multiple timescales LSTM model for grounding of actions and verbs. In: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 2614–2621 (2019)",
+            "DOI": "10.1109/IROS40897.2019.8967799"
+          },
+          {
+            "issue": "14",
+            "key": "21_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "10209",
+            "DOI": "10.1007/s00521-019-04559-1",
+            "volume": "32",
+            "author": "J Arevalo",
+            "year": "2019",
+            "unstructured": "Arevalo, J., Solorio, T., Montes-y-Gómez, M., González, F.A.: Gated multimodal networks. Neural Comput. Appl. 32(14), 10209–10228 (2019). https://doi.org/10.1007/s00521-019-04559-1",
+            "journal-title": "Neural Comput. Appl."
+          },
+          {
+            "key": "21_CR4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bisk, Y., et al.: Experience grounds language. In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, pp. 8718–8735. Association for Computational Linguistics, November 2020",
+            "DOI": "10.18653/v1/2020.emnlp-main.703"
+          },
+          {
+            "key": "21_CR5",
+            "unstructured": "Devlin, J., Chang, M.-W., Lee, K., Toutanova, K.: BERT: pre-training of deep bidirectional transformers for language understanding. In: NAACL-HLT, no. 1 (2019)"
+          },
+          {
+            "key": "21_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Eisermann, A., Lee, J.H.: Weber, C., Wermter, S.: Generalization in multimodal language learning from simulation. In: Proceedings of the International Joint Conference on Neural Networks (IJCNN 2021), July 2021",
+            "DOI": "10.1109/IJCNN52387.2021.9534275"
+          },
+          {
+            "key": "21_CR7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hatori, J., et al.: Interactively picking real-world objects with unconstrained spoken language instructions. In: 2018 IEEE International Conference on Robotics and Automation (ICRA), pp. 3774–3781. IEEE (2018)",
+            "DOI": "10.1109/ICRA.2018.8460699"
+          },
+          {
+            "key": "21_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "52",
+            "DOI": "10.3389/fnbot.2020.00052",
+            "volume": "14",
+            "author": "S Heinrich",
+            "year": "2020",
+            "unstructured": "Heinrich, S., et al.: Crossmodal language grounding in an embodied neurocognitive model. Front. Neurorobot. 14, 52 (2020)",
+            "journal-title": "Front. Neurorobot."
+          },
+          {
+            "key": "21_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "28",
+            "DOI": "10.3389/fnbot.2020.00028",
+            "volume": "14",
+            "author": "M Kerzel",
+            "year": "2020",
+            "unstructured": "Kerzel, M., Pekarek-Rosin, T., Strahl, E., Heinrich, S., Wermter, S.: Teaching NICO how to grasp: an empirical study on crossmodal social interaction as a key factor for robots learning from humans. Front. Neurorobot. 14, 28 (2020)",
+            "journal-title": "Front. Neurorobot."
+          },
+          {
+            "key": "21_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kerzel, M., Strahl, E., Magg, S., Navarro-Guerrero, N., Heinrich, S., Wermter, S.: NICO-neuro-inspired COmpanion: a developmental humanoid robot platform for multimodal interaction. In: 2017 26th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), pp. 113–120. IEEE (2017)",
+            "DOI": "10.1109/ROMAN.2017.8172289"
+          },
+          {
+            "key": "21_CR11",
+            "unstructured": "Kingma, D.P., Ba, J.: Adam: a method for stochastic optimization. In: 3rd International Conference on Learning Representations, ICLR, San Diego, CA, USA, 7–9 May 2015"
+          },
+          {
+            "key": "21_CR12",
+            "unstructured": "Kingma, D.P., Welling, M.: Auto-encoding variational Bayes. In: Proceedings of International Conference on Learning Representations (ICLR), Banff, AB, Canada, 14–16 April 2014"
+          },
+          {
+            "key": "21_CR13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lynch, C., Sermanet, P.: Language conditioned imitation learning over unstructured data. Robot. Sci. Syst. (2021)",
+            "DOI": "10.15607/RSS.2021.XVII.047"
+          },
+          {
+            "key": "21_CR14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ogata, T., Murase, M., Tani, J., Komatani, K., Okuno, H.G.: Two-way translation of compound sentences and arm motions by recurrent neural networks. In: 2007 IEEE/RSJ International Conference on Intelligent Robots and Systems, pp. 1858–1863 (2007)",
+            "DOI": "10.1109/IROS.2007.4399265"
+          },
+          {
+            "key": "21_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sak, H., Senior, A., Beaufays, F.: Long short-term memory recurrent neural network architectures for large scale acoustic modeling. In: Proceedings of InterSpeech 2014, pp. 338–342 (2014)",
+            "DOI": "10.21437/Interspeech.2014-80"
+          },
+          {
+            "key": "21_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Shao, L., Migimatsu, T., Zhang, Q., Yang, K., Bohg, J.: Concept2Robot: learning manipulation concepts from instructions and human demonstrations. In: Proceedings of Robotics: Science and Systems (RSS) (2020)",
+            "DOI": "10.15607/RSS.2020.XVI.082"
+          },
+          {
+            "issue": "2–3",
+            "key": "21_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "217",
+            "DOI": "10.1177/0278364919897133",
+            "volume": "39",
+            "author": "M Shridhar",
+            "year": "2020",
+            "unstructured": "Shridhar, M., Mittal, D., Hsu, D.: INGRESS: interactive visual grounding of referring expressions. Int. J. Robot. Res. 39(2–3), 217–232 (2020)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "4",
+            "key": "21_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "3441",
+            "DOI": "10.1109/LRA.2018.2852838",
+            "volume": "3",
+            "author": "T Yamada",
+            "year": "2018",
+            "unstructured": "Yamada, T., Matsunaga, H., Ogata, T.: Paired recurrent autoencoders for bidirectional translation between robot actions and linguistic descriptions. IEEE Robot. Autom. Lett. 3(4), 3441–3448 (2018)",
+            "journal-title": "IEEE Robot. Autom. Lett."
+          },
+          {
+            "key": "21_CR19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ozan Özdemir, M.K., Wermter, S.: Embodied language learning with paired variational autoencoders. In: 2021 IEEE International Conference on Development and Learning (ICDL), pp. 1–6, August 2021",
+            "DOI": "10.1109/ICDL49984.2021.9515668"
+          }
+        ],
+        "updated-by": [
+          {
+            "DOI": "10.1007/978-3-031-15931-2_67",
+            "type": "correction",
+            "label": "Correction",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2023,
+                  4,
+                  5
+                ]
+              ],
+              "date-time": "2023-04-05T00:00:00Z",
+              "timestamp": 1680652800000
+            }
+          }
+        ],
+        "container-title": [
+          "Lecture Notes in Computer Science",
+          "Artificial Neural Networks and Machine Learning – ICANN 2022"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-15931-2_21",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2023-04-04T14:18:54Z",
+          "timestamp": 1680617934000
+        },
+        "score": 31.680964,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-031-15931-2_21"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783031159305",
+          "9783031159312"
+        ],
+        "references-count": 19,
+        "URL": "https://doi.org/10.1007/978-3-031-15931-2_21",
+        "ISSN": [
+          "0302-9743",
+          "1611-3349"
+        ],
+        "issn-type": [
+          {
+            "value": "0302-9743",
+            "type": "print"
+          },
+          {
+            "value": "1611-3349",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "7 September 2022",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "5 April 2023",
+            "order": 2,
+            "name": "change_date",
+            "label": "Change Date",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "Correction",
+            "order": 3,
+            "name": "change_type",
+            "label": "Change Type",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "A correction has been published.",
+            "order": 4,
+            "name": "change_details",
+            "label": "Change Details",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "ICANN",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "International Conference on Artificial Neural Networks",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Bristol",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "United Kingdom",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2022",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "6 September 2022",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "9 September 2022",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "31",
+            "order": 9,
+            "name": "conference_number",
+            "label": "Conference Number",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "icann2022",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "https://e-nns.org/icann2022/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Single-blind",
+            "order": 1,
+            "name": "type",
+            "label": "Type",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "EasyChair",
+            "order": 2,
+            "name": "conference_management_system",
+            "label": "Conference Management System",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "561",
+            "order": 3,
+            "name": "number_of_submissions_sent_for_review",
+            "label": "Number of Submissions Sent for Review",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "255",
+            "order": 4,
+            "name": "number_of_full_papers_accepted",
+            "label": "Number of Full Papers Accepted",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "4",
+            "order": 5,
+            "name": "number_of_short_papers_accepted",
+            "label": "Number of Short Papers Accepted",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "45% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+            "order": 6,
+            "name": "acceptance_rate_of_full_papers",
+            "label": "Acceptance Rate of Full Papers",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "3",
+            "order": 7,
+            "name": "average_number_of_reviews_per_paper",
+            "label": "Average Number of Reviews per Paper",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "No",
+            "order": 9,
+            "name": "external_reviewers_involved",
+            "label": "External Reviewers Involved",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

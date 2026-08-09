@@ -1,0 +1,469 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 842908,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2025-03-25T17:15:30Z",
+          "timestamp": 1742922930478,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 19,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783031081392"
+          },
+          {
+            "type": "electronic",
+            "value": "9783031081408"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-031-08140-8_44",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2022-06-17T14:09:11Z",
+          "timestamp": 1655474951000
+        },
+        "page": "409-417",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The Distance Geometry of the Generalized Lobster’s Arm"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Federico",
+            "family": "Thomas",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Josep M.",
+            "family": "Porta",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              18
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "44_CR1",
+            "unstructured": "Willis, R.: On the arrangement of the joints of crustaceous animals. In: Transactions of the Cambridge Philosophical Society, 10 May 1841"
+          },
+          {
+            "key": "44_CR2",
+            "unstructured": "Willis, R.: Principles of Mechanism. Longmans, Green, and Co., London (1870)"
+          },
+          {
+            "issue": "2",
+            "key": "44_CR3",
+            "first-page": "224",
+            "volume": "101",
+            "author": "J Duffy",
+            "year": "1979",
+            "unstructured": "Duffy, J., Derby, S.: Displacement analysis of spatial 7R mechanism: a generalized lobster’s arm. ASME J. Mech. Des. 101(2), 224–231 (1979)",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "2",
+            "key": "44_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "151",
+            "DOI": "10.1016/0094-114X(73)90049-9",
+            "volume": "8",
+            "author": "F Freudenstein",
+            "year": "1973",
+            "unstructured": "Freudenstein, F.: Kinematics: past, present and future. Mech. Mach. Theor. 8(2), 151–160 (1973)",
+            "journal-title": "Mech. Mach. Theor."
+          },
+          {
+            "issue": "3",
+            "key": "44_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "406",
+            "DOI": "10.1115/1.2926566",
+            "volume": "114",
+            "author": "V Murthy",
+            "year": "1992",
+            "unstructured": "Murthy, V., Waldron, K.J.: Position kinematics of the generalized lobster arm and its series-parallel dual. ASME J. Mech. Des. 114(3), 406–413 (1992)",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "2",
+            "key": "44_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "509",
+            "DOI": "10.1016/0094-114X(86)90134-5",
+            "volume": "21",
+            "author": "EJF Primrose",
+            "year": "1986",
+            "unstructured": "Primrose, E.J.F.: On the input-output equation of the general 7R mechanism. Mech. Mach. Theor. 21(2), 509–510 (1986)",
+            "journal-title": "Mech. Mach. Theor."
+          },
+          {
+            "key": "44_CR7",
+            "unstructured": "Lee, H.-Y.: Analysis of a spatial mechanism (in Chinese), Master Thesis, Beijing Institute of Posts and Telecommunications (1984)"
+          },
+          {
+            "issue": "3",
+            "key": "44_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "209",
+            "DOI": "10.1016/0094-114X(88)90106-1",
+            "volume": "23",
+            "author": "H-Y Lee",
+            "year": "1988",
+            "unstructured": "Lee, H.-Y., Liang, C.G.: A new vector theory for the analysis of spatial mechanisms. Mech. Mach. Theor. 23(3), 209–217 (1988)",
+            "journal-title": "Mech. Mach. Theor."
+          },
+          {
+            "issue": "3",
+            "key": "44_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "219",
+            "DOI": "10.1016/0094-114X(88)90107-3",
+            "volume": "23",
+            "author": "H-Y Lee",
+            "year": "1988",
+            "unstructured": "Lee, H.-Y., Liang, C.G.: Displacement analysis of the general spatial 7-link 7R mechanism. Mech. Mach. Theor. 23(3), 219–226 (1988)",
+            "journal-title": "Mech. Mach. Theor."
+          },
+          {
+            "key": "44_CR10",
+            "unstructured": "Raghavan, M., Roth, B.: Kinematic analysis of the 6R manipulator of general geometry. In: Miura, H., Arimoto, S. (eds.) Proceedings of the 5th International Symposium on Robotics Research. MIT Press, Cambridge, MA (1990)"
+          },
+          {
+            "issue": "3",
+            "key": "44_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "502",
+            "DOI": "10.1115/1.2919218",
+            "volume": "115",
+            "author": "M Raghavan",
+            "year": "1993",
+            "unstructured": "Raghavan, M., Roth, B.: Inverse kinematics of the general 6R manipulator and related linkages. ASME J. Mech. Des. 115(3), 502–508 (1993)",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "key": "44_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Rojas, N., Thomas, F.: The closure condition of the double banana and its application to robot position analysis. In: Proceedings of the IEEE International Conference on Robotics and Automation, pp. 4641–4646 (2013)",
+            "DOI": "10.1109/ICRA.2013.6631237"
+          },
+          {
+            "key": "44_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "302",
+            "DOI": "10.1007/978-3-7091-4433-6_34",
+            "volume-title": "Advances in Robot Kinematics",
+            "author": "P Dietmaier",
+            "year": "1991",
+            "unstructured": "Dietmaier, P.: Displacement analysis of the homogeneous orthogonal 7-link 7R space mechanism. In: Lenarčič, J., Stifter, S. (eds.) Advances in Robot Kinematics, pp. 302–309. Springer, Wien (1991). https://doi.org/10.1007/978-3-7091-4433-6_34"
+          },
+          {
+            "issue": "1",
+            "key": "44_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1115/1.2919373",
+            "volume": "116",
+            "author": "C Mavroidis",
+            "year": "1994",
+            "unstructured": "Mavroidis, C., Roth, B.: Structural parameters which reduce the number of manipulator configurations. ASME J. Mech. Des. 116(1), 3–10 (1994)",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "key": "44_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Porta, J.M., Thomas, F.: Yet another approach to the Gough-Stewart platform forward kinematics. In: Proceedings of the IEEE International Conference in Robotics and Automation, Brisbane, Australia (2018)",
+            "DOI": "10.1109/ICRA.2018.8460900"
+          },
+          {
+            "issue": "1",
+            "key": "44_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "011001",
+            "DOI": "10.1115/1.4029500",
+            "volume": "8",
+            "author": "F Thomas",
+            "year": "2015",
+            "unstructured": "Thomas, F.: A distance geometry approach to the singularity analysis of 3R robots. ASME J. Mech. Robot. 8(1), 011001 (2015)",
+            "journal-title": "ASME J. Mech. Robot."
+          },
+          {
+            "key": "44_CR17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Thomas, F., Porta, J.M.: Closure polynomials for strips of tetrahedra. In: Lenarčič, J., Merlet, J.-P. (eds.) Advances in Robot Kinematics, pp. 303–312 (2016)",
+            "DOI": "10.1007/978-3-319-56802-7_32"
+          },
+          {
+            "issue": "1",
+            "key": "44_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "648",
+            "DOI": "10.1109/70.326569",
+            "volume": "10",
+            "author": "D Manocha",
+            "year": "1994",
+            "unstructured": "Manocha, D., Canny, J.: Efficient inverse kinematics for general 6R manipulators. IEEE Trans. Robot. Autom. 10(1), 648–657 (1994)",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "key": "44_CR19",
+            "unstructured": "Manocha, D.: Inverse kinematics code for serial manipulators. GAMMA Research Group. http://gamma.cs.unc.edu/software/downloads/IK/ik-1.0.tar.gz. Accessed Jan 2022"
+          }
+        ],
+        "container-title": [
+          "Springer Proceedings in Advanced Robotics",
+          "Advances in Robot Kinematics 2022"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-08140-8_44",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2022-10-05T15:28:44Z",
+          "timestamp": 1664983724000
+        },
+        "score": 41.04649,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-031-08140-8_44"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783031081392",
+          "9783031081408"
+        ],
+        "references-count": 19,
+        "URL": "https://doi.org/10.1007/978-3-031-08140-8_44",
+        "ISSN": [
+          "2511-1256",
+          "2511-1264"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2511-1256"
+          },
+          {
+            "type": "electronic",
+            "value": "2511-1264"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "18 June 2022",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "ARK",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "International Symposium on Advances in Robot Kinematics",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Bilbao",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Spain",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2022",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "26 June 2022",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "30 June 2022",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "ark2022",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "https://ark2022.com/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

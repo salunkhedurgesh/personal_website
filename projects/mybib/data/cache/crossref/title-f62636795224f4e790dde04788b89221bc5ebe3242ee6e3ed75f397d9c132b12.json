@@ -1,0 +1,387 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2969437,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2025-03-25T14:26:14Z",
+          "timestamp": 1742912774656,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 19,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783030201302"
+          },
+          {
+            "type": "electronic",
+            "value": "9783030201319"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2019-01-01T00:00:00Z",
+              "timestamp": 1546300800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-030-20131-9_246",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2019-06-13T15:07:01Z",
+          "timestamp": 1560438421000
+        },
+        "page": "2491-2500",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Cuspidality Investigation of a Metamorphic Serial Manipulator."
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "C. K.",
+            "family": "Koukos-Papagiannis",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "V. C.",
+            "family": "Moulianitis",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "N. A.",
+            "family": "Aspragathos",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              14
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "246_CR1",
+            "unstructured": "Chen, I. M.: Modular robots. in Handbook of manufacturing engineering and technology, London, Springer, 2129-2168, (2015),"
+          },
+          {
+            "key": "246_CR2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Valsamos, C., Moulianitis, V.C., Aspragathos, N.: Index based optimal anatomy of a metamorphic manipulator for a given task. Robotics and Computer Integrated Manufacturing, (2012).",
+            "DOI": "10.1016/j.rcim.2011.11.006"
+          },
+          {
+            "key": "246_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Borrel, P. Liegeois, A.:A Study of Manipulator Inverse Kinematic Solutions With Application to Trajectory Planning and Workspace Determination. Proc. IEEE Int. Conf. Rob. and Aut., 1180-1185, (1986)",
+            "DOI": "10.1109/ROBOT.1986.1087554"
+          },
+          {
+            "key": "246_CR4",
+            "unstructured": "Parenti, C.V., Innocenti, C.: Position Analysis of Robot Manipulators, Regions and Subregions. Proceedings of the International Conference on Advances in Robot Kinematics 150–158, (1988)"
+          },
+          {
+            "key": "246_CR5",
+            "unstructured": "Burdick, J. W.: Kinematic Analysis and Design of Redundant Manipulators. Ph.D. Dissertation Stanford, CA: Stanford University, (1988)"
+          },
+          {
+            "key": "246_CR6",
+            "unstructured": "Tsai, K. Y., Kholi, D.: Trajectory Planning in Task Space for General Manipulators. ASME J. Mech. Des., 115, 915–921, (1993)"
+          },
+          {
+            "key": "246_CR7",
+            "unstructured": "Smith, D. R., Lipkin, H.: Higher Order Singularities of Regional Manipulators. Proceedings of the IEEE International Conference on Robotics and Automation, Atlanta, GA, 194-199, (1993)"
+          },
+          {
+            "key": "246_CR8",
+            "unstructured": "El Omri, J., Wenger, P.: How to Recognize Simply a Nonsingular Posture Changing 3-DOF Manipulator. Proceedings of the 7th International Conference on Advanced Robotics 215–222. (1995)"
+          },
+          {
+            "key": "246_CR9",
+            "unstructured": "Corvez, S. and Rouillier, F.: Using computer algebra tools to classify serial manipulators. In International Workshop on Automated Deduction in Geometry, Springer, Berlin, Heidelberg, 31-43, (2002)"
+          },
+          {
+            "key": "246_CR10",
+            "unstructured": "Baili, M: Analyse et classification de manipulateurs 3R à axes orthogonaux Ph. D. Thesis, Université de Nantes, (2004)."
+          },
+          {
+            "key": "246_CR11",
+            "unstructured": "Wenger, P.:Some guidelines for the kinematic design of new Manipulators, Mech. Mach. Theory, 35(3), 437–449, (2000)."
+          },
+          {
+            "key": "246_CR12",
+            "unstructured": "Wenger P.: Cuspidal Robots, https://hal.archives-ouvertes.fr/hal-01377763v2/document last accessed 2018/12/15."
+          },
+          {
+            "key": "246_CR13",
+            "unstructured": "Wenger. P.: Design of cuspidal and noncuspidal manipulators. In Proceedings of IEEE Int. Conf. Rob. and Aut., 2172–2177, (1997)."
+          },
+          {
+            "key": "246_CR14",
+            "unstructured": "Burdick. J. W.:A classification of 3R regional manipulator singularities and geometries. Mechanisms and Machine Theory, 30(1), 71–89, (1995)."
+          },
+          {
+            "key": "246_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Valsamos, C., Moulianitis, V., Aspragathos, N: Kinematic synthesis of structures for metamorphic serial manipulators. Journal of Mechanisms and Robotics 6, 4 (2014)",
+            "DOI": "10.1115/1.4027741"
+          },
+          {
+            "key": "246_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Moulianitis, V.C., Aspragathos, N. A. Valsamos. C.:Suboptimal Anatomy of Metamorphic Manipulators Based on the High Rotational Dexterity. In Advances in Reconfigurable Mechanisms and Robots, Springer, Cham, 509-519 (2016)",
+            "DOI": "10.1007/978-3-319-23327-7_44"
+          },
+          {
+            "key": "246_CR17",
+            "unstructured": "Lazard, D., Rouillier. F.: Solving parametric polynomial systems. INRIA Technical Report, (2004)"
+          },
+          {
+            "key": "246_CR18",
+            "unstructured": "Liang, S., Gerhard, J., Jeffrey, D.J., Moroz, G.: A Package for Solving Parametric Polynomial Systems, ACM Communications in Computer Algebra 43.3/4, 61-72, (2010)"
+          },
+          {
+            "key": "246_CR19",
+            "unstructured": "Wenger, P. Chablat, D., Baili, M.,: A DH-parameter based condition for 3R orthogonal manipulators to have 4 distinct inverse kinematic solutions, Journal of Mechanical Design, 127,150-155, (2005)."
+          }
+        ],
+        "container-title": [
+          "Mechanisms and Machine Science",
+          "Advances in Mechanism and Machine Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-030-20131-9_246",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2024-07-19T18:08:26Z",
+          "timestamp": 1721412506000
+        },
+        "score": 45.25168,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-030-20131-9_246"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783030201302",
+          "9783030201319"
+        ],
+        "references-count": 19,
+        "URL": "https://doi.org/10.1007/978-3-030-20131-9_246",
+        "ISSN": [
+          "2211-0984",
+          "2211-0992"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2211-0984"
+          },
+          {
+            "type": "electronic",
+            "value": "2211-0992"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "14 June 2019",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "IFToMM WC",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "IFToMM World Congress on Mechanism and Machine Science",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Krakow",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Poland",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2019",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "15 July 2019",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "18 July 2019",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "15",
+            "order": 9,
+            "name": "conference_number",
+            "label": "Conference Number",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "iftommwc2019",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "http://iftomm2019.com/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

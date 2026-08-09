@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pareto frontier for simultaneous structural and manufacturing optimization of a composite part</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2009-03-07">7 March 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">H</forename><surname>Ghiasi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>MacDonald Eng. Bldg 817 Sherbrooke St. West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>MacDonald Eng. Bldg 817 Sherbrooke St. West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Pasini</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>MacDonald Eng. Bldg 817 Sherbrooke St. West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>MacDonald Eng. Bldg 817 Sherbrooke St. West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Lessard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>MacDonald Eng. Bldg 817 Sherbrooke St. West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>MacDonald Eng. Bldg 817 Sherbrooke St. West</addrLine>
+									<postCode>H3A 2K6</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pareto frontier for simultaneous structural and manufacturing optimization of a composite part</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2009-03-07">7 March 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1855CB70996DA90ADD384D0E5C2F218A</idno>
+					<idno type="DOI">10.1007/s00158-009-0366-4</idno>
+					<note type="submission">Received: 2 October 2007 / Revised: 30 January 2009 / Accepted: 6 February 2009 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Multi-objective optimization</term>
+					<term>Composite materials</term>
+					<term>Pareto frontier</term>
+					<term>Global optimization</term>
+					<term>Simultaneous optimization</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Optimized design of composite structures requires simultaneous optimization of structural performance and manufacturing process. Such a challenge calls for a multi-objective optimization. Here, a generating multi-objective optimization method called normalized normal constraint method, which attains a set of optimal solutions and allows the designer to explore design alternatives before making the final decision, is coupled with a local-global search called constrained globalized bounded Nelder-Mead method. The proposed approach is applied to the design of a Z-shaped composite bracket for optimization of structural and manufacturing objectives. Comparison of the results with non-dominated sorting genetic algorithm (NSGA-II) shows that when only a small number of function evaluations are possible and a few Pareto optima are desired, the proposed method outperforms NSGA-II in terms of convergence to the true Pareto frontier. The results are validated by an enumeration search and by exploring the neighbourhood of the final solutions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,132 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5449659,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              7
+            ]
+          ],
+          "date-time": "2024-02-07T00:47:57Z",
+          "timestamp": 1707266877753
+        },
+        "reference-count": 0,
+        "publisher": "Duke University Press",
+        "isbn-type": [
+          {
+            "value": "9781478059134",
+            "type": "electronic"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              31
+            ]
+          ]
+        },
+        "DOI": "10.1515/9781478059134-004",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2024-02-06T04:40:31Z",
+          "timestamp": 1707194431000
+        },
+        "page": "81-94",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "EPILOGUE PARAL-LELS"
+        ],
+        "prefix": "10.1515",
+        "member": "374",
+        "container-title": [
+          "Closures"
+        ],
+        "link": [
+          {
+            "URL": "https://www.degruyter.com/document/doi/10.1515/9781478059134-004/xml",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.degruyter.com/document/doi/10.1515/9781478059134-004/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2024-02-06T04:40:44Z",
+          "timestamp": 1707194444000
+        },
+        "score": 21.87483,
+        "resource": {
+          "primary": {
+            "URL": "https://www.degruyter.com/document/doi/10.1515/9781478059134-004/html"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              31
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781478059134"
+        ],
+        "references-count": 0,
+        "alternative-id": [
+          "10.1515/9781478059134-004",
+          "10.1515/9781478059134"
+        ],
+        "URL": "https://doi.org/10.1515/9781478059134-004",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              31
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

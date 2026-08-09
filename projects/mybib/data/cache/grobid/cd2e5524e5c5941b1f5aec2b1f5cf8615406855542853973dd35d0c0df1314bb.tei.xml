@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Interval Analysis Based Study for the Design and the Comparison of 3-DOF Parallel Kinematic Machines</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2007-08-08">8 Aug 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">D</forename><surname>Chablat</surname></persName>
+							<email>damien.chablat@irccyn.ec-nantes.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Communications et Cybernétique</orgName>
+								<address>
+									<addrLine>de Nantes * 1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ph</forename><surname>Wenger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Communications et Cybernétique</orgName>
+								<address>
+									<addrLine>de Nantes * 1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Majou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche en Communications et Cybernétique</orgName>
+								<address>
+									<addrLine>de Nantes * 1, rue de la Noë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J-P</forename><surname>Merlet</surname></persName>
+							<affiliation key="aff1">
+								<address>
+									<addrLine>2004 Route des Lucioles</addrLine>
+									<postCode>06902</postCode>
+									<settlement>-Antipolis Sophia Antipolis</settlement>
+									<country>Sophia France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">IRCCyN</orgName>
+								<orgName type="laboratory">UMR n • 6597</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Ecole Centrale de Nantes</orgName>
+								<orgName type="institution" key="instit3">Université de Nantes</orgName>
+								<address>
+									<settlement>Ecole des Mines de Nantes</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An Interval Analysis Based Study for the Design and the Comparison of 3-DOF Parallel Kinematic Machines</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2007-08-08">8 Aug 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">632E2C8FCEC3CF0E8A788F3189984F62</idno>
+					<idno type="arXiv">arXiv:0708.1049v1[cs.RO]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Parallel kinematic machine</term>
+					<term>Design</term>
+					<term>Interval analysis</term>
+					<term>Comparison</term>
+					<term>Workspace</term>
+					<term>Transmission factors</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper addresses an interval analysis based study that is applied to the design and the comparison of 3-DOF parallel kinematic machines. Two design criteria are used, (i) a regular workspace shape and, (ii) a kinetostatic performance index that needs to be as homogeneous as possible throughout the workspace. The interval analysis based method takes these two criteria into account: on the basis of prescribed kinetostatic performances, the workspace is analysed to find out the largest regular dextrous workspace enclosed in the Cartesian workspace. An algorithm describing this method is introduced. Two 3-DOF translational parallel mechanisms designed for machining applications are compared using this method. The first machine features three fixed linear joints which are mounted orthogonally and the second one features three linear joints which are mounted in parallel. In both cases, the mobile platform moves in the Cartesian x-y-z space with fixed orientation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,148 @@
+{
+  "id": "https://openalex.org/W4241177671",
+  "doi": "https://doi.org/10.1093/benz/9780199773787.article.b00195977",
+  "title": "Wenger",
+  "display_name": "Wenger",
+  "publication_year": 2011,
+  "publication_date": "2011-10-31",
+  "ids": {
+    "openalex": "https://openalex.org/W4241177671",
+    "doi": "https://doi.org/10.1093/benz/9780199773787.article.b00195977"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1093/benz/9780199773787.article.b00195977",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1093/benz/9780199773787.article.b00195977",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4363604064",
+      "display_name": "Benezit Dictionary of Artists",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Benezit Dictionary of Artists",
+    "raw_type": "reference-entry"
+  },
+  "type": "reference-entry",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/environmental-science",
+      "display_name": "Environmental science",
+      "score": 0.299872487783432
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.299872487783432
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1093/benz/9780199773787.article.b00195977",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/benz/9780199773787.article.b00195977",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4363604064",
+        "display_name": "Benezit Dictionary of Artists",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Benezit Dictionary of Artists",
+      "raw_type": "reference-entry"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W50755792",
+    "https://openalex.org/W56914501",
+    "https://openalex.org/W39322744",
+    "https://openalex.org/W44769645",
+    "https://openalex.org/W22126028",
+    "https://openalex.org/W9878704",
+    "https://openalex.org/W26982818",
+    "https://openalex.org/W21509055",
+    "https://openalex.org/W39318737",
+    "https://openalex.org/W11626563"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-05-12T00:00:00"
+}

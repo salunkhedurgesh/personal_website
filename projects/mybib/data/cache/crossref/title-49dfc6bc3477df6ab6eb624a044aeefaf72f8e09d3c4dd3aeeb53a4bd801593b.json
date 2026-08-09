@@ -1,0 +1,1027 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1883941,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T18:20:00Z",
+          "timestamp": 1775672400421,
+          "version": "3.50.1"
+        },
+        "reference-count": 79,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2017,
+                  7,
+                  14
+                ]
+              ],
+              "date-time": "2017-07-14T00:00:00Z",
+              "timestamp": 1499990400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Multibody Syst Dyn"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11044-017-9582-7",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              14
+            ]
+          ],
+          "date-time": "2017-07-14T12:16:52Z",
+          "timestamp": 1500034612000
+        },
+        "page": "37-70",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 69,
+        "title": [
+          "Screw and Lie group theory in multibody kinematics"
+        ],
+        "prefix": "10.1007",
+        "volume": "43",
+        "author": [
+          {
+            "given": "Andreas",
+            "family": "Müller",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              14
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "3",
+            "key": "9582_CR1",
+            "doi-asserted-by": "crossref",
+            "first-page": "565",
+            "DOI": "10.1016/0045-7949(92)90289-C",
+            "volume": "43",
+            "author": "K. Anderson",
+            "year": "1992",
+            "unstructured": "Anderson, K.: An order n $n$ formulation for the motion simulation of general multi-rigid-body constrained systems. Comput. Struct. 43(3), 565–579 (1992)",
+            "journal-title": "Comput. Struct."
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR2",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1023/A:1022566107679",
+            "volume": "9",
+            "author": "K.S. Anderson",
+            "year": "2003",
+            "unstructured": "Anderson, K.S., Critchley, J.H.: Improved ‘order-N’ performance algorithm for the simulation of constrained multi-rigid-body dynamic systems. Multibody Syst. Dyn. 9(2), 185–212 (2003)",
+            "journal-title": "Multibody Syst. Dyn."
+          },
+          {
+            "key": "9582_CR3",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4612-3916-1",
+            "volume-title": "Rational Kinematics",
+            "author": "J. Angeles",
+            "year": "1988",
+            "unstructured": "Angeles, J.: Rational Kinematics. Springer, New York (1988)"
+          },
+          {
+            "key": "9582_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "243",
+            "DOI": "10.1115/1.3173642",
+            "volume": "55",
+            "author": "J. Angles",
+            "year": "1988",
+            "unstructured": "Angles, J., Lee, S.: The formulation of dynamical equations of holonomic mechanical systems using a natural orthogonal complement. J. Appl. Mech. 55, 243–244 (1988)",
+            "journal-title": "J. Appl. Mech."
+          },
+          {
+            "key": "9582_CR5",
+            "volume-title": "Fundamentals of Robotic Mechanical Systems",
+            "author": "J. Angeles",
+            "year": "2003",
+            "unstructured": "Angeles, J.: Fundamentals of Robotic Mechanical Systems, 2nd edn. Springer, Berlin (2003)",
+            "edition": "2"
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR6",
+            "first-page": "158",
+            "volume": "113",
+            "author": "D.S. Bae",
+            "year": "1988",
+            "unstructured": "Bae, D.S., Hwang, R.S., Haug, E.J.: A recursive formulation for real-time dynamic simulation of mechanical systems. J. Mech. Des. 113(2), 158–166 (1988)",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "key": "9582_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "1841",
+            "DOI": "10.1002/nme.97",
+            "volume": "50",
+            "author": "D.S. Bae",
+            "year": "2001",
+            "unstructured": "Bae, D.S., et al.: A generalized recursive formulation for constrained flexible multibody dynamics. Int. J. Numer. Methods Eng. 50, 1841–1859 (2001)",
+            "journal-title": "Int. J. Numer. Methods Eng."
+          },
+          {
+            "key": "9582_CR8",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-94-007-0335-3",
+            "volume-title": "Flexible Multibody Dynamics",
+            "author": "O. Bauchau",
+            "year": "2011",
+            "unstructured": "Bauchau, O.: Flexible Multibody Dynamics. Springer, Dordrecht (2011)"
+          },
+          {
+            "key": "9582_CR9",
+            "unstructured": "Bongardt, B.: Analytical approaches for design and operation of haptic human–machine interfaces. PhD thesis, University Bremen (2015)"
+          },
+          {
+            "issue": "29/30",
+            "key": "9582_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "3669",
+            "DOI": "10.1016/S0045-7825(00)00286-3",
+            "volume": "190",
+            "author": "M. Borri",
+            "year": "2001",
+            "unstructured": "Borri, M., Bottasso, C.L., Trainelli, L.: Integration of elastic multibody systems by invariant conserving/dissipating algorithms—part I: formulation. Comput. Methods Appl. Mech. Eng. 190(29/30), 3669–3699 (2001)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "issue": "29/30",
+            "key": "9582_CR11",
+            "first-page": "3701",
+            "volume": "190",
+            "author": "M. Borri",
+            "year": "2001",
+            "unstructured": "Borri, M., Bottasso, C.L., Trainelli, L.: Integration of elastic multibody systems by invariant conserving/dissipating algorithms—part II: numerical schemes and applications. Comput. Methods Appl. Mech. Eng. 190(29/30), 3701–3733 (2001)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "issue": "10",
+            "key": "9582_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "663",
+            "DOI": "10.1002/zamm.200310065",
+            "volume": "83",
+            "author": "M. Borri",
+            "year": "2003",
+            "unstructured": "Borri, M., Bottasso, C.L., Trainelli, L.: An invariant-preserving approach to robust finite-element multibody simulation. Z. Angew. Math. Mech. 83(10), 663–676 (2003)",
+            "journal-title": "Z. Angew. Math. Mech."
+          },
+          {
+            "key": "9582_CR13",
+            "doi-asserted-by": "crossref",
+            "first-page": "307",
+            "DOI": "10.1016/S0045-7825(98)00031-0",
+            "volume": "164",
+            "author": "C.L. Bottasso",
+            "year": "1998",
+            "unstructured": "Bottasso, C.L., Borri, M.: Integrating finite rotations. Comput. Methods Appl. Mech. Eng. 164, 307–331 (1998)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "key": "9582_CR14",
+            "volume-title": "Theoretical Kinematics",
+            "author": "O. Bottema",
+            "year": "1990",
+            "unstructured": "Bottema, O., Roth, B.: Theoretical Kinematics. Dover, New York (1990)"
+          },
+          {
+            "key": "9582_CR15",
+            "series-title": "Lecture Notes in Control and Information Sciences",
+            "doi-asserted-by": "crossref",
+            "first-page": "120",
+            "DOI": "10.1007/BFb0031048",
+            "volume-title": "Mathematical Theory of Networks and Systems",
+            "author": "R.W. Brockett",
+            "year": "1984",
+            "unstructured": "Brockett, R.W.: Robotic manipulators and the product of exponentials formula. In: Mathematical Theory of Networks and Systems. Lecture Notes in Control and Information Sciences, vol. 58, pp. 120–129 (1984)"
+          },
+          {
+            "key": "9582_CR16",
+            "first-page": "637",
+            "volume": "2",
+            "author": "R.W. Brockett",
+            "year": "1993",
+            "unstructured": "Brockett, R.W., Stokes, A., Park, F.: A geometrical formulation of the dynamical equations describing kinematic chains. IEEE Int. Conf. Robot. Autom. 2, 637–641 (1993)",
+            "journal-title": "IEEE Int. Conf. Robot. Autom."
+          },
+          {
+            "key": "9582_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "121",
+            "DOI": "10.1016/j.mechmachtheory.2011.07.017",
+            "volume": "48",
+            "author": "O. Brüls",
+            "year": "2012",
+            "unstructured": "Brüls, O., Cardona, A., Arnold, M.: Lie group generalized-alpha time integration of constrained flexible multibody systems. Mech. Mach. Theory 48, 121–137 (2012)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR18",
+            "doi-asserted-by": "crossref",
+            "first-page": "135",
+            "DOI": "10.1016/0094-114X(95)00069-B",
+            "volume": "31",
+            "author": "H. Bruyninckx",
+            "year": "1996",
+            "unstructured": "Bruyninckx, H., De Schutter, J.: Symbolic differentiation of the velocity mapping for a serial kinematic chain. Mech. Mach. Theory 31(2), 135–148 (1996)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "6",
+            "key": "9582_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "613",
+            "DOI": "10.1016/0094-114X(91)90043-4",
+            "volume": "26",
+            "author": "D.P. Chevallier",
+            "year": "1991",
+            "unstructured": "Chevallier, D.P.: Lie algebras, modules, dual quaternions and algebraic methods in kinematics. Mech. Mach. Theory 26(6), 613–627 (1991)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "9582_CR20",
+            "first-page": "1",
+            "volume-title": "Proc. EUROMECH Colloquium",
+            "author": "D.P. Chevallier",
+            "year": "1994",
+            "unstructured": "Chevallier, D.P.: Lie groups and multibody dynamics formalism. In: Proc. EUROMECH Colloquium, Prague, vol. 320, pp. 1–20 (1994)"
+          },
+          {
+            "issue": "2–3",
+            "key": "9582_CR21",
+            "first-page": "181",
+            "volume": "1",
+            "author": "J.H. Critchley",
+            "year": "2003",
+            "unstructured": "Critchley, J.H., Anderson, K.S.: A generalized recursive coordinate reduction method for multibody system dynamics. Int. J. Multiscale Comput. Eng. 1(2–3), 181–199 (2003)",
+            "journal-title": "Int. J. Multiscale Comput. Eng."
+          },
+          {
+            "key": "9582_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1115/1.4011045",
+            "volume": "22",
+            "author": "J. Denavit",
+            "year": "1955",
+            "unstructured": "Denavit, J., Hartenberg, R.: A kinematic notation for lower-pair mechanisms based on matrices. J. Appl. Mech. 22, 215–221 (1955)",
+            "journal-title": "J. Appl. Mech."
+          },
+          {
+            "issue": "1",
+            "key": "9582_CR23",
+            "doi-asserted-by": "crossref",
+            "first-page": "13",
+            "DOI": "10.1177/027836498300200102",
+            "volume": "2",
+            "author": "R. Featherstone",
+            "year": "1983",
+            "unstructured": "Featherstone, R.: The calculation of robot dynamics using articulated-body inertias. Int. J. Robot. Res. 2(1), 13–30 (1983)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "9582_CR24",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4899-7560-7",
+            "volume-title": "Rigid Body Dynamics Algorithms",
+            "author": "R. Featherstone",
+            "year": "2008",
+            "unstructured": "Featherstone, R.: Rigid Body Dynamics Algorithms. Springer, Berlin (2008)"
+          },
+          {
+            "issue": "3",
+            "key": "9582_CR25",
+            "doi-asserted-by": "crossref",
+            "first-page": "389",
+            "DOI": "10.1109/70.388780",
+            "volume": "11",
+            "author": "A. Fijany",
+            "year": "1995",
+            "unstructured": "Fijany, A.: Parallel O ( log N ) $O(\\log N)$ algorithms for computation of manipulator forward dynamics. IEEE Trans. Robot. Autom. 11(3), 389–400 (1995)",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "issue": "11",
+            "key": "9582_CR26",
+            "doi-asserted-by": "crossref",
+            "first-page": "1113",
+            "DOI": "10.1016/S0094-114X(03)00054-5",
+            "volume": "38",
+            "author": "J. Gallardo",
+            "year": "2003",
+            "unstructured": "Gallardo, J., Rico, J.M., Frisoli, A., Checcacci, D., Bergamasco, M.: Dynamics of parallel manipulators by means of screw theory. Mech. Mach. Theory 38(11), 1113–1131 (2003)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR27",
+            "doi-asserted-by": "crossref",
+            "first-page": "5",
+            "DOI": "10.1177/027836498600500202",
+            "volume": "5",
+            "author": "K.C. Gupta",
+            "year": "1986",
+            "unstructured": "Gupta, K.C.: Kinematic analysis of manipulators using the zero reference position description. Int. J. Robot. Res. 5(2), 5–13 (1986)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "9582_CR28",
+            "doi-asserted-by": "crossref",
+            "first-page": "437",
+            "DOI": "10.1016/0094-114X(78)90017-4",
+            "volume": "13",
+            "author": "J.M. Hervé",
+            "year": "1978",
+            "unstructured": "Hervé, J.M.: Analyse Structurelle des Mécanismes par Groupe des Déplacements. Mech. Mach. Theory 13, 437–450 (1978)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "3",
+            "key": "9582_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "179",
+            "DOI": "10.1016/0094-114X(82)90002-7",
+            "volume": "17",
+            "author": "J.M. Hervé",
+            "year": "1982",
+            "unstructured": "Hervé, J.M.: Intrinsic formulation of problems of geometry and kinematics of mechanisms. Mech. Mach. Theory 17(3), 179–184 (1982)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "11",
+            "key": "9582_CR30",
+            "doi-asserted-by": "crossref",
+            "first-page": "730",
+            "DOI": "10.1109/TSMC.1980.4308393",
+            "volume": "SMC-10",
+            "author": "J.M. Hollerbach",
+            "year": "1980",
+            "unstructured": "Hollerbach, J.M.: A recursive Lagrangian formulation of manipulator dynamics and a comparative study of dynamics formulation complexity. IEEE Trans. Syst. Man Cybern. SMC-10(11), 730–736 (1980)",
+            "journal-title": "IEEE Trans. Syst. Man Cybern."
+          },
+          {
+            "key": "9582_CR31",
+            "series-title": "Oxford Engineering Science Series",
+            "volume-title": "Kinematic Geometry of Mechanisms",
+            "author": "K.H. Hunt",
+            "year": "1990",
+            "unstructured": "Hunt, K.H.: Kinematic Geometry of Mechanisms. Oxford Engineering Science Series. SIAM, Oxford (1990)"
+          },
+          {
+            "issue": "3",
+            "key": "9582_CR32",
+            "doi-asserted-by": "crossref",
+            "first-page": "531",
+            "DOI": "10.2514/3.20672",
+            "volume": "14",
+            "author": "A. Jain",
+            "year": "1991",
+            "unstructured": "Jain, A.: Unified formulation of dynamics for serial rigid multibody systems. J. Guid. Control Dyn. 14(3), 531–542 (1991)",
+            "journal-title": "J. Guid. Control Dyn."
+          },
+          {
+            "issue": "4",
+            "key": "9582_CR33",
+            "doi-asserted-by": "crossref",
+            "first-page": "571",
+            "DOI": "10.1109/70.406941",
+            "volume": "11",
+            "author": "A. Jain",
+            "year": "1995",
+            "unstructured": "Jain, A., Rodriguez, G.: Diagonalized Lagrangian robot dynamics. IEEE Trans. Robot. Autom. 11(4), 571–584 (1995)",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "key": "9582_CR34",
+            "doi-asserted-by": "crossref",
+            "first-page": "307",
+            "DOI": "10.1007/s11044-011-9266-7",
+            "volume": "26",
+            "author": "A. Jain",
+            "year": "2011",
+            "unstructured": "Jain, A.: Graph theoretic foundations of multibody dynamics, part I: structural properties. Multibody Syst. Dyn. 26, 307–333 (2011)",
+            "journal-title": "Multibody Syst. Dyn."
+          },
+          {
+            "key": "9582_CR35",
+            "first-page": "1174",
+            "volume-title": "Proceedings of the IEEE International Conference on Robotics and Automation",
+            "author": "W. Khalil",
+            "year": "1986",
+            "unstructured": "Khalil, W., Kleinfinger, J.F.: A new geometric notation for open and closed-loop robots. In: Proceedings of the IEEE International Conference on Robotics and Automation, pp. 1174–1179 (1986)"
+          },
+          {
+            "issue": "5",
+            "key": "9582_CR36",
+            "doi-asserted-by": "crossref",
+            "first-page": "573",
+            "DOI": "10.1016/0094-114X(95)00100-D",
+            "volume": "31",
+            "author": "G. Legnani",
+            "year": "1996",
+            "unstructured": "Legnani, G.: A homogeneous matrix approach to 3D kinematics and dynamics—I. Theory. Mech. Mach. Theory 31(5), 573–587 (1996)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "5",
+            "key": "9582_CR37",
+            "doi-asserted-by": "crossref",
+            "first-page": "589",
+            "DOI": "10.1016/0094-114X(95)00101-4",
+            "volume": "31",
+            "author": "G. Legnani",
+            "year": "1996",
+            "unstructured": "Legnani, G.: A homogeneous matrix approach to 3D kinematics and dynamics—II. Applications to chains of rigid bodies and serial manipulators. Mech. Mach. Theory 31(5), 589–605 (1996)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "1",
+            "key": "9582_CR38",
+            "doi-asserted-by": "crossref",
+            "first-page": "64",
+            "DOI": "10.1177/027836499101000107",
+            "volume": "10",
+            "author": "W. Lilly",
+            "year": "1991",
+            "unstructured": "Lilly, W., Orin, D.E.: Alternate formulations for the manipulator inertia matrix. Int. J. Robot. Res. 10(1), 64–74 (1991)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR39",
+            "doi-asserted-by": "crossref",
+            "first-page": "165",
+            "DOI": "10.1007/BF02487718",
+            "volume": "4",
+            "author": "Y. Liu",
+            "year": "1988",
+            "unstructured": "Liu, Y.: Screw-matrix method in dynamics of multibody systems. Acta Mech. Sin. 4(2), 165–174 (1988)",
+            "journal-title": "Acta Mech. Sin."
+          },
+          {
+            "key": "9582_CR40",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/9781316661239",
+            "volume-title": "Modern Robotics",
+            "author": "K.M. Lynch",
+            "year": "2017",
+            "unstructured": "Lynch, K.M., Park, F.C.: Modern Robotics. Cambridge University Press, Cambridge (2017)"
+          },
+          {
+            "issue": "10",
+            "key": "9582_CR41",
+            "doi-asserted-by": "crossref",
+            "first-page": "463",
+            "DOI": "10.1002/zamm.19880681002",
+            "volume": "68",
+            "author": "P. Maißer",
+            "year": "1988",
+            "unstructured": "Maißer, P.: Analytische Dynamik von Mehrkörpersystemen. Z. Angew. Math. Mech. 68(10), 463–481 (1988)",
+            "journal-title": "Z. Angew. Math. Mech."
+          },
+          {
+            "issue": "8",
+            "key": "9582_CR42",
+            "doi-asserted-by": "crossref",
+            "first-page": "5127",
+            "DOI": "10.1016/S0362-546X(96)00147-2",
+            "volume": "30",
+            "author": "P. Maisser",
+            "year": "1997",
+            "unstructured": "Maisser, P.: Differential-geometric methods in multibody dynamics. Nonlinear Anal. 30(8), 5127–5133 (1997)",
+            "journal-title": "Nonlinear Anal."
+          },
+          {
+            "key": "9582_CR43",
+            "volume-title": "An Introduction to Theoretical Kinematics",
+            "author": "J.M. McCarthy",
+            "year": "1990",
+            "unstructured": "McCarthy, J.M.: An Introduction to Theoretical Kinematics. MIT Press, Cambridge (1990)"
+          },
+          {
+            "key": "9582_CR44",
+            "first-page": "17",
+            "volume": "8",
+            "author": "C.D. Mladenova",
+            "year": "2006",
+            "unstructured": "Mladenova, C.D.: Group theory in the problems of modeling and control of multi-body systems. J. Geom. Symmetry Phys. 8, 17–121 (2006)",
+            "journal-title": "J. Geom. Symmetry Phys."
+          },
+          {
+            "key": "9582_CR45",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.5194/ms-6-137-2015",
+            "volume": "6",
+            "author": "A. Müller",
+            "year": "2015",
+            "unstructured": "Müller, A.: Representation of the kinematic topology of mechanisms for kinematic analysis. Mech. Sci. 6, 1–10 (2015)",
+            "journal-title": "Mech. Sci."
+          },
+          {
+            "key": "9582_CR46",
+            "doi-asserted-by": "crossref",
+            "first-page": "311",
+            "DOI": "10.1023/A:1023321630764",
+            "volume": "9",
+            "author": "A. Müller",
+            "year": "2003",
+            "unstructured": "Müller, A., Maisser, P.: Lie group formulation of kinematics and dynamics of constrained MBS and its application to analytical mechanics. Multibody Syst. Dyn. 9, 311–352 (2003)",
+            "journal-title": "Multibody Syst. Dyn."
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR47",
+            "doi-asserted-by": "crossref",
+            "first-page": "376",
+            "DOI": "10.2478/meceng-2014-0021",
+            "volume": "61",
+            "author": "A. Müller",
+            "year": "2014",
+            "unstructured": "Müller, A.: Implementation of a geometric constraint regularization for multibody system models. Arch. Mech. Eng. 61(2), 376–383 (2014)",
+            "journal-title": "Arch. Mech. Eng."
+          },
+          {
+            "key": "9582_CR48",
+            "doi-asserted-by": "crossref",
+            "first-page": "173",
+            "DOI": "10.1016/j.mechmachtheory.2014.06.014",
+            "volume": "82",
+            "author": "A. Müller",
+            "year": "2014",
+            "unstructured": "Müller, A., Terze, Z.: The significance of the configuration space Lie group for the constraint satisfaction in numerical time integration of multibody systems. Mech. Mach. Theory 82, 173–202 (2014)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "3",
+            "key": "9582_CR49",
+            "doi-asserted-by": "crossref",
+            "first-page": "995",
+            "DOI": "10.1007/s10543-015-0580-y",
+            "volume": "56",
+            "author": "A. Müller",
+            "year": "2016",
+            "unstructured": "Müller, A.: A note on the motion representation and configuration update in time stepping schemes for the constrained rigid body. BIT Numer. Math. 56(3), 995–1015 (2016)",
+            "journal-title": "BIT Numer. Math."
+          },
+          {
+            "key": "9582_CR50",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11044-017-9583-6",
+            "author": "A. Müller",
+            "year": "2016",
+            "unstructured": "Müller, A.: Screw and Lie group theory in multibody dynamics—recursive algorithms and equations of motion of tree-topology systems. Multibody Syst. Dyn. (2016). doi: 10.1007/s11044-017-9583-6",
+            "journal-title": "Multibody Syst. Dyn."
+          },
+          {
+            "issue": "2",
+            "key": "9582_CR51",
+            "volume": "12",
+            "author": "A. Müller",
+            "year": "2016",
+            "unstructured": "Müller, A.: Coordinate mappings for rigid body motions. J. Comput. Nonlinear Dyn. 12(2), 021010 (2016)",
+            "journal-title": "J. Comput. Nonlinear Dyn."
+          },
+          {
+            "key": "9582_CR52",
+            "volume-title": "A Mathematical Introduction to Robotic Manipulation",
+            "author": "R.M. Murray",
+            "year": "1994",
+            "unstructured": "Murray, R.M., Li, Z., Sastry, S.S.: A Mathematical Introduction to Robotic Manipulation. CRC Press, Boca Raton (1994)"
+          },
+          {
+            "issue": "1",
+            "key": "9582_CR53",
+            "doi-asserted-by": "crossref",
+            "first-page": "45",
+            "DOI": "10.1023/A:1024509904612",
+            "volume": "10",
+            "author": "J. Naudet",
+            "year": "2003",
+            "unstructured": "Naudet, J., Lefeber, D., Daerden, F., Terze, Z.: Forward dynamics of open-loop multibody mechanisms using an efficient recursive algorithm based on canonical momenta. Multibody Syst. Dyn. 10(1), 45–59 (2003)",
+            "journal-title": "Multibody Syst. Dyn."
+          },
+          {
+            "key": "9582_CR54",
+            "doi-asserted-by": "crossref",
+            "first-page": "107",
+            "DOI": "10.1016/0025-5564(79)90104-4",
+            "volume": "43",
+            "author": "D. Orin",
+            "year": "1979",
+            "unstructured": "Orin, D., et al.: Kinematic and kinetic analysis of open-chain linkages utilizing Newton–Euler methods. Math. Biosci. 43, 107–130 (1979)",
+            "journal-title": "Math. Biosci."
+          },
+          {
+            "key": "9582_CR55",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Orin, D., Schrader, W.: Efficient computation of the Jacobian for robot manipulators. Int. J. Robot. Res. 3(4) (1984)",
+            "DOI": "10.1177/027836498400300404"
+          },
+          {
+            "issue": "3",
+            "key": "9582_CR56",
+            "doi-asserted-by": "crossref",
+            "first-page": "643",
+            "DOI": "10.1109/9.280779",
+            "volume": "39",
+            "author": "F.C. Park",
+            "year": "1994",
+            "unstructured": "Park, F.C.: Computational aspects of the product-of-exponentials formula for robot kinematics. IEEE Trans. Autom. Control 39(3), 643–647 (1994)",
+            "journal-title": "IEEE Trans. Autom. Control"
+          },
+          {
+            "issue": "6",
+            "key": "9582_CR57",
+            "doi-asserted-by": "crossref",
+            "first-page": "609",
+            "DOI": "10.1177/027836499501400606",
+            "volume": "14",
+            "author": "F.C. Park",
+            "year": "1995",
+            "unstructured": "Park, F.C., Bobrow, J.E., Ploen, S.R.: A Lie group formulation of robot dynamics. Int. J. Robot. Res. 14(6), 609–618 (1995)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "9582_CR58",
+            "doi-asserted-by": "crossref",
+            "first-page": "820",
+            "DOI": "10.1007/PL00001521",
+            "volume": "51",
+            "author": "F.C. Park",
+            "year": "2000",
+            "unstructured": "Park, F.C., Kim, M.W.: Lie theory, Riemannian geometry, and the dynamics of coupled rigid bodies. Z. Angew. Math. Phys. 51, 820–834 (2000)",
+            "journal-title": "Z. Angew. Math. Phys."
+          },
+          {
+            "key": "9582_CR59",
+            "doi-asserted-by": "crossref",
+            "first-page": "279",
+            "DOI": "10.1016/S0921-8890(96)00802-0",
+            "volume": "21",
+            "author": "S.R. Ploen",
+            "year": "1997",
+            "unstructured": "Ploen, S.R., Park, F.C.: A Lie group formulation of the dynamics of cooperating robot systems. Robot. Auton. Syst. 21, 279–287 (1997)",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "issue": "6",
+            "key": "9582_CR60",
+            "doi-asserted-by": "crossref",
+            "first-page": "1130",
+            "DOI": "10.1109/70.817677",
+            "volume": "15",
+            "author": "S.R. Ploen",
+            "year": "1999",
+            "unstructured": "Ploen, S.R., Park, F.C.: Coordinate-invariant algorithms for robot dynamics. IEEE Trans. Robot. Autom. 15(6), 1130–1135 (1999)",
+            "journal-title": "IEEE Trans. Robot. Autom."
+          },
+          {
+            "key": "9582_CR61",
+            "volume-title": "Theoretische Kinematik: Grundzüge einer Theorie des Maschinenwesens",
+            "author": "F. Reuleaux",
+            "year": "1875",
+            "unstructured": "Reuleaux, F.: Theoretische Kinematik: Grundzüge einer Theorie des Maschinenwesens. Vieweg, Braunschweig (1875)"
+          },
+          {
+            "key": "9582_CR62",
+            "volume-title": "Kinematics of Machinery",
+            "author": "F. Reuleaux",
+            "year": "1963",
+            "unstructured": "Reuleaux, F.: Kinematics of Machinery. Dover, New York (1963)"
+          },
+          {
+            "issue": "6",
+            "key": "9582_CR63",
+            "doi-asserted-by": "crossref",
+            "first-page": "624",
+            "DOI": "10.1109/JRA.1987.1087147",
+            "volume": "RA-3",
+            "author": "G. Rodriguez",
+            "year": "1987",
+            "unstructured": "Rodriguez, G.: Kalman filtering, smoothing, and recursive robot arm forward and inverse dynamics. IEEE J. Robot. Autom. RA-3(6), 624–639 (1987)",
+            "journal-title": "IEEE J. Robot. Autom."
+          },
+          {
+            "issue": "4",
+            "key": "9582_CR64",
+            "doi-asserted-by": "crossref",
+            "first-page": "371",
+            "DOI": "10.1177/027836499101000406",
+            "volume": "10",
+            "author": "G. Rodriguez",
+            "year": "1991",
+            "unstructured": "Rodriguez, G., Jain, A., Kreutz-Delgado, K.: A spatial operator algebra for manipulator modelling and control. Int. J. Robot. Res. 10(4), 371–381 (1991)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "9582_CR65",
+            "first-page": "27",
+            "volume": "40",
+            "author": "G. Rodriguez",
+            "year": "1992",
+            "unstructured": "Rodriguez, G., Jain, A., Kreutz-Delgado, K.: Spatial operator algebra for multibody system dynamics. J. Astronaut. Sci. 40, 27–50 (1992)",
+            "journal-title": "J. Astronaut. Sci."
+          },
+          {
+            "issue": "5",
+            "key": "9582_CR66",
+            "doi-asserted-by": "crossref",
+            "first-page": "454",
+            "DOI": "10.1177/027836499101000502",
+            "volume": "10",
+            "author": "A.E. Samuel",
+            "year": "1991",
+            "unstructured": "Samuel, A.E., McAree, P.R., Hunt, K.H.: Unifying screw geometry and matrix transformations. Int. J. Robot. Res. 10(5), 454–472 (1991)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "9582_CR67",
+            "series-title": "Monographs in Computer Science Series",
+            "volume-title": "Geometric Fundamentals of Robotics",
+            "author": "J. Selig",
+            "year": "2005",
+            "unstructured": "Selig, J.: Geometric Fundamentals of Robotics. Monographs in Computer Science Series. Springer, New York (2005)"
+          },
+          {
+            "key": "9582_CR68",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9781107337213",
+            "volume-title": "Dynamics of Multibody Systems",
+            "author": "A.A. Shabana",
+            "year": "2013",
+            "unstructured": "Shabana, A.A.: Dynamics of Multibody Systems, 4th edn. Springer, Berlin (2013)",
+            "edition": "4"
+          },
+          {
+            "issue": "1",
+            "key": "9582_CR69",
+            "doi-asserted-by": "crossref",
+            "first-page": "102",
+            "DOI": "10.1115/1.3427855",
+            "volume": "93",
+            "author": "P.N. Sheth",
+            "year": "1971",
+            "unstructured": "Sheth, P.N., Uicker, J.J.: A generalized symbolic notation for mechanisms. J. Eng. Ind. 93(1), 102–112 (1971)",
+            "journal-title": "J. Eng. Ind."
+          },
+          {
+            "key": "9582_CR70",
+            "doi-asserted-by": "crossref",
+            "first-page": "125",
+            "DOI": "10.1016/0045-7825(88)90073-4",
+            "volume": "66",
+            "author": "J.C. Simo",
+            "year": "1986",
+            "unstructured": "Simo, J.C., Vu-Quoc, L.: On the dynamics in space of rods undergoing large motions—geometrically exact approach. Comput. Methods Appl. Mech. Eng. 66, 125–161 (1986)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "issue": "1",
+            "key": "9582_CR71",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1002/nme.1620310103",
+            "volume": "31",
+            "author": "J.C. Simo",
+            "year": "1991",
+            "unstructured": "Simo, J.C., Wong, K.K.: Unconditionally stable algorithms for rigid body dynamics that exactly preserve energy and momentum. Int. J. Numer. Methods Eng. 31(1), 19–52 (1991)",
+            "journal-title": "Int. J. Numer. Methods Eng."
+          },
+          {
+            "key": "9582_CR72",
+            "doi-asserted-by": "crossref",
+            "first-page": "451",
+            "DOI": "10.1016/j.cma.2013.10.008",
+            "volume": "268",
+            "author": "V. Sonneville",
+            "year": "2014",
+            "unstructured": "Sonneville, V., Cardona, A., Bruls, O.: Geometrically exact beam finite element formulated on the special Euclidean group SE(3). Comput. Methods Appl. Mech. Eng. 268, 451–474 (2014)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "key": "9582_CR73",
+            "doi-asserted-by": "crossref",
+            "first-page": "9",
+            "DOI": "10.1007/BF00786685",
+            "volume": "66",
+            "author": "W. Stelzle",
+            "year": "1995",
+            "unstructured": "Stelzle, W., Kecskeméthy, A., Hiller, M.: A comparative study of recursive methods. Arch. Appl. Mech. 66, 9–19 (1995)",
+            "journal-title": "Arch. Appl. Mech."
+          },
+          {
+            "key": "9582_CR74",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9781139032339",
+            "volume-title": "Matrix Methods in the Design Analysis of Mechanisms and Multibody Systems",
+            "author": "J.J. Uicker",
+            "year": "2013",
+            "unstructured": "Uicker, J.J., Ravani, B., Sheth, P.N.: Matrix Methods in the Design Analysis of Mechanisms and Multibody Systems. Cambridge University Press, Cambridge (2013)"
+          },
+          {
+            "issue": "3",
+            "key": "9582_CR75",
+            "doi-asserted-by": "crossref",
+            "first-page": "179",
+            "DOI": "10.1016/0094-114X(79)90051-X",
+            "volume": "14",
+            "author": "M. Vukobratović",
+            "year": "1979",
+            "unstructured": "Vukobratović, M., Potkonjak, V.: Contribution of the forming of computer methods for automatic modelling of spatial mechanisms motions. Mech. Mach. Theory 14(3), 179–188 (1979)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "6",
+            "key": "9582_CR76",
+            "doi-asserted-by": "crossref",
+            "first-page": "379",
+            "DOI": "10.1016/0094-114X(82)90030-1",
+            "volume": "17",
+            "author": "K.J. Waldron",
+            "year": "1982",
+            "unstructured": "Waldron, K.J.: Geometrically based manipulator rate control algorithms. Mech. Mach. Theory 17(6), 379–385 (1982)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "9582_CR77",
+            "unstructured": "Won, J.S., Choi, S.W., Peine, W.: Curved RCM of Surgical Robot Arm. Patent WO 2009/104853 A1, Aug. 27, 2009"
+          },
+          {
+            "issue": "4",
+            "key": "9582_CR78",
+            "doi-asserted-by": "crossref",
+            "first-page": "303",
+            "DOI": "10.1115/1.3426611",
+            "volume": "94",
+            "author": "D.E. Whitney",
+            "year": "1972",
+            "unstructured": "Whitney, D.E.: The mathematics of coordinated control of prosthetic arms and manipulators. J. Dyn. Syst. Meas. Control 94(4), 303–309 (1972)",
+            "journal-title": "J. Dyn. Syst. Meas. Control"
+          },
+          {
+            "key": "9582_CR79",
+            "doi-asserted-by": "crossref",
+            "first-page": "622",
+            "DOI": "10.1177/0278364909102350",
+            "volume": "28",
+            "author": "K. Yamane",
+            "year": "2009",
+            "unstructured": "Yamane, K., Nakamura, Y.: Comparative study on serial and parallel forward dynamics algorithms for kinematic chains. Int. J. Robot. Res. 28, 622–629 (2009)",
+            "journal-title": "Int. J. Robot. Res."
+          }
+        ],
+        "container-title": [
+          "Multibody System Dynamics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/article/10.1007/s11044-017-9582-7/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s11044-017-9582-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s11044-017-9582-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              25
+            ]
+          ],
+          "date-time": "2024-06-25T14:01:09Z",
+          "timestamp": 1719324069000
+        },
+        "score": 52.525284,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s11044-017-9582-7"
+          }
+        },
+        "subtitle": [
+          "Motion representation and recursive kinematics of tree-topology systems"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              14
+            ]
+          ]
+        },
+        "references-count": 79,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                5
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "9582"
+        ],
+        "URL": "https://doi.org/10.1007/s11044-017-9582-7",
+        "ISSN": [
+          "1384-5640",
+          "1573-272X"
+        ],
+        "issn-type": [
+          {
+            "value": "1384-5640",
+            "type": "print"
+          },
+          {
+            "value": "1573-272X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              14
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

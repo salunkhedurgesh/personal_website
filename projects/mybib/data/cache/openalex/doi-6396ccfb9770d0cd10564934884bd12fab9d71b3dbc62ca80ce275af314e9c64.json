@@ -1,0 +1,138 @@
+{
+  "id": "https://openalex.org/W4245656381",
+  "doi": "https://doi.org/10.5194/amt-2019-222-rc1",
+  "title": "Review of Yang et al. (2019)",
+  "display_name": "Review of Yang et al. (2019)",
+  "publication_year": 2019,
+  "publication_date": "2019-07-18",
+  "ids": {
+    "openalex": "https://openalex.org/W4245656381",
+    "doi": "https://doi.org/10.5194/amt-2019-222-rc1"
+  },
+  "language": "id",
+  "primary_location": {
+    "id": "doi:10.5194/amt-2019-222-rc1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+    "pdf_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+    "any_repository_has_fulltext": null
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.2953881025314331
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.2953881025314331
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5194/amt-2019-222-rc1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+      "pdf_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "peer-review"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.5194/amt-2019-222-rc1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+    "pdf_url": "https://doi.org/10.5194/amt-2019-222-rc1",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4245656381.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4245656381.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W15672993",
+    "https://openalex.org/W4376618",
+    "https://openalex.org/W4856296",
+    "https://openalex.org/W3220855",
+    "https://openalex.org/W10730100",
+    "https://openalex.org/W15745924",
+    "https://openalex.org/W3153388",
+    "https://openalex.org/W2712935",
+    "https://openalex.org/W4396059",
+    "https://openalex.org/W9735332"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-05-12T00:00:00"
+}

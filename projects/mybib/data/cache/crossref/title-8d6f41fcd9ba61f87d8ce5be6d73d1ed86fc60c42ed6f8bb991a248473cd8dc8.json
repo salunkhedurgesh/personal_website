@@ -1,0 +1,616 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5434090,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2026-05-02T09:58:24Z",
+          "timestamp": 1777715904823,
+          "version": "3.51.4"
+        },
+        "reference-count": 70,
+        "publisher": "SAGE Publications",
+        "issue": "8-9",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  6,
+                  23
+                ]
+              ],
+              "date-time": "2021-06-23T00:00:00Z",
+              "timestamp": 1624406400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100003475",
+            "name": "Hasler Stiftung",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100003475",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "journals.sagepub.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In industrial or surgical settings, to achieve many tasks successfully, at least two people are needed. To this end, robotic assistance could be used to enable a single person to perform such tasks alone, with the help of robots through direct, shared, or autonomous control. We are interested in four-arm manipulation scenarios, where both feet are used to control two robotic arms via bi-pedal haptic interfaces. The robotic arms complement the tasks of the biological arms, for instance, in supporting and moving an object while working on it (using both hands). To reduce fatigue, cognitive workload, and to ease the execution of the foot manipulation, we propose two types of assistance that can be enabled upon contact with the object (i.e., based on the interaction forces): autonomous-contact force generation and auto-coordination of the robotic arms. The latter relates to controlling both arms with a single foot, once the object is grasped. We designed four (shared) control strategies that are derived from the combinations (absence/presence) of both assistance modalities, and we compared them through a user study (with 12 participants) on a four-arm manipulation task. The results show that force assistance positively improves human–robot fluency in the four-arm task, the ease of use and usefulness; it also reduces the fatigue. Finally, to make the dual-assistance approach the preferred and most successful among the proposed control strategies, delegating the grasping force to the robotic arms is a crucial factor when controlling them both with a single foot.</jats:p>",
+        "DOI": "10.1177/02783649211017642",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              24
+            ]
+          ],
+          "date-time": "2021-06-24T02:13:02Z",
+          "timestamp": 1624500782000
+        },
+        "page": "986-1014",
+        "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 16,
+        "title": [
+          "Contact-initiated shared control strategies for four-arm supernumerary manipulation with foot interfaces"
+        ],
+        "prefix": "10.1177",
+        "volume": "40",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2816-7369",
+            "authenticated-orcid": false,
+            "given": "Walid",
+            "family": "Amanhoud",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Learning Algorithms and Systems Laboratory (LASA), Swiss Federal School of Technology in Lausanne EPFL, Lausanne, Switzerland"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5937-108X",
+            "authenticated-orcid": false,
+            "given": "Jacob",
+            "family": "Hernandez Sanchez",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Learning Algorithms and Systems Laboratory (LASA), Swiss Federal School of Technology in Lausanne EPFL, Lausanne, Switzerland"
+              },
+              {
+                "name": "Biorobotics Laboratory (BIOROB), Swiss Federal School of Technology in Lausanne EPFL, Lausanne, Switzerland"
+              }
+            ]
+          },
+          {
+            "given": "Mohamed",
+            "family": "Bouri",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Biorobotics Laboratory (BIOROB), Swiss Federal School of Technology in Lausanne EPFL, Lausanne, Switzerland"
+              },
+              {
+                "name": "Translational Neural Engineering Laboratory (TNE), Swiss Federal Institute of Technology (EPFL), Geneva, Switzerland"
+              }
+            ]
+          },
+          {
+            "given": "Aude",
+            "family": "Billard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Learning Algorithms and Systems Laboratory (LASA), Swiss Federal School of Technology in Lausanne EPFL, Lausanne, Switzerland"
+              }
+            ]
+          }
+        ],
+        "member": "179",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "bibr1-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICSMC.2004.1400709"
+          },
+          {
+            "key": "bibr2-02783649211017642",
+            "author": "Abbink DA",
+            "year": "2010",
+            "journal-title": "Advances in Haptics"
+          },
+          {
+            "key": "bibr3-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2018.8594030"
+          },
+          {
+            "key": "bibr4-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759628"
+          },
+          {
+            "key": "bibr5-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1167/14.4.1"
+          },
+          {
+            "key": "bibr6-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2019.XV.021."
+          },
+          {
+            "key": "bibr7-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0304-3940(82)90098-2"
+          },
+          {
+            "key": "bibr8-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TOH.2012.22"
+          },
+          {
+            "key": "bibr9-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/EMBC.2012.6347469"
+          },
+          {
+            "key": "bibr10-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IEMBS.2007.4352519"
+          },
+          {
+            "key": "bibr11-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fnhum.2018.00509"
+          },
+          {
+            "key": "bibr12-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364913490324"
+          },
+          {
+            "key": "bibr13-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2015.7353975"
+          },
+          {
+            "key": "bibr14-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2015.2455791"
+          },
+          {
+            "key": "bibr15-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2011.2142430"
+          },
+          {
+            "key": "bibr16-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1055/s-2002-19857"
+          },
+          {
+            "key": "bibr17-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-39473-7_82"
+          },
+          {
+            "key": "bibr18-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0018720818771906"
+          },
+          {
+            "key": "bibr19-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICORR.2013.6650454"
+          },
+          {
+            "key": "bibr20-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2016.2593928"
+          },
+          {
+            "key": "bibr21-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/105474605775196634"
+          },
+          {
+            "key": "bibr22-02783649211017642",
+            "first-page": "618",
+            "volume-title": "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings",
+            "volume": "1",
+            "author": "Guthart GS",
+            "year": "2000"
+          },
+          {
+            "key": "bibr23-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.conengprac.2010.05.015"
+          },
+          {
+            "key": "bibr24-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0166-4115(08)62386-9"
+          },
+          {
+            "key": "bibr25-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2017.2769123"
+          },
+          {
+            "key": "bibr26-02783649211017642",
+            "volume-title": "Association for the Advancement of Artificial Intelligence Fall Symposium Series (AAAI-FSS)",
+            "author": "Hernandez Sanchez J",
+            "year": "2019"
+          },
+          {
+            "key": "bibr27-02783649211017642",
+            "volume-title": "Proceedings of Int. Workshop on High-Fidelity Telepresence and Teleaction jointly with the conference HUMANOIDS",
+            "author": "Hirche S",
+            "year": "2003"
+          },
+          {
+            "key": "bibr28-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/THMS.2019.2904558"
+          },
+          {
+            "key": "bibr29-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.automatica.2006.06.027"
+          },
+          {
+            "key": "bibr30-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2019.2893676"
+          },
+          {
+            "key": "bibr31-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0021-9290(82)90089-6"
+          },
+          {
+            "key": "bibr32-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROMAN.2013.6628551"
+          },
+          {
+            "key": "bibr33-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0268-0033(90)90004-P"
+          },
+          {
+            "key": "bibr34-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1037/0096-1523.18.3.645"
+          },
+          {
+            "key": "bibr35-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-012-9287-y"
+          },
+          {
+            "key": "bibr36-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-018-9764-z"
+          },
+          {
+            "key": "bibr37-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2018.8594366"
+          },
+          {
+            "key": "bibr38-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TOH.2016.2573301"
+          },
+          {
+            "key": "bibr39-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JRA.1987.1087117"
+          },
+          {
+            "key": "bibr40-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2015.2509025"
+          },
+          {
+            "key": "bibr41-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2018.8625047"
+          },
+          {
+            "key": "bibr42-02783649211017642",
+            "first-page": "112",
+            "author": "Lecoutre L",
+            "year": "2015",
+            "journal-title": "PhyCS 2015: Proceedings of the 2nd International Conference on Physiological Computing Systems"
+          },
+          {
+            "key": "bibr43-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2005.862037"
+          },
+          {
+            "key": "bibr44-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2016.2536749"
+          },
+          {
+            "key": "bibr45-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-017-9622-4"
+          },
+          {
+            "key": "bibr46-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00140139408964897"
+          },
+          {
+            "key": "bibr47-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-32552-1_43"
+          },
+          {
+            "key": "bibr48-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2015.7139896"
+          },
+          {
+            "key": "bibr49-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechatronics.2010.04.005"
+          },
+          {
+            "key": "bibr50-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/scirobotics.aaw0955"
+          },
+          {
+            "key": "bibr51-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00221-016-4689-2"
+          },
+          {
+            "key": "bibr52-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/VRAIS.1993.380795"
+          },
+          {
+            "key": "bibr53-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2018.2833142"
+          },
+          {
+            "key": "bibr54-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0896-6273(03)00203-4"
+          },
+          {
+            "key": "bibr55-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2006.281915"
+          },
+          {
+            "key": "bibr56-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s40648-018-0100-3"
+          },
+          {
+            "key": "bibr57-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2018.2864353"
+          },
+          {
+            "key": "bibr58-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICARM.2016.7606917"
+          },
+          {
+            "key": "bibr59-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1037/0096-1523.23.5.1493"
+          },
+          {
+            "key": "bibr60-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.258052"
+          },
+          {
+            "key": "bibr61-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SSST.2002.1027073"
+          },
+          {
+            "key": "bibr62-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3108455"
+          },
+          {
+            "key": "bibr63-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/WHC.2015.7177762"
+          },
+          {
+            "key": "bibr64-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACC.2014.6859352"
+          },
+          {
+            "key": "bibr65-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/jocn.1997.9.3.348"
+          },
+          {
+            "key": "bibr66-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.tics.2003.10.017"
+          },
+          {
+            "key": "bibr67-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4471-0507-7"
+          },
+          {
+            "key": "bibr68-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TOH.2015.2406708"
+          },
+          {
+            "key": "bibr69-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fpsyg.2018.02276"
+          },
+          {
+            "key": "bibr70-02783649211017642",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2015.7354028"
+          }
+        ],
+        "container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/02783649211017642",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/02783649211017642",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/02783649211017642",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T10:16:49Z",
+          "timestamp": 1777457809000
+        },
+        "score": 69.29564,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.sagepub.com/doi/10.1177/02783649211017642"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              23
+            ]
+          ]
+        },
+        "references-count": 70,
+        "journal-issue": {
+          "issue": "8-9",
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1177/02783649211017642"
+        ],
+        "URL": "https://doi.org/10.1177/02783649211017642",
+        "ISSN": [
+          "0278-3649",
+          "1741-3176"
+        ],
+        "issn-type": [
+          {
+            "value": "0278-3649",
+            "type": "print"
+          },
+          {
+            "value": "1741-3176",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

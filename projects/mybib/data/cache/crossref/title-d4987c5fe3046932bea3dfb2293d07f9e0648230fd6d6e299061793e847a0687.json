@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2822996,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2026-02-28T07:13:18Z",
+          "timestamp": 1772262798675,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Copernicus GmbH",
+        "content-domain": {
+          "domain": []
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.5194/wcd-2020-58-rc2",
+        "type": "peer-review",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              5
+            ]
+          ],
+          "date-time": "2021-01-05T15:00:52Z",
+          "timestamp": 1609858852000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Wang et al."
+        ],
+        "prefix": "10.5194",
+        "member": "3145",
+        "review": {
+          "type": "referee-report",
+          "running-number": "RC2",
+          "stage": "pre-publication",
+          "recommendation": "minor-revision",
+          "language": "en"
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              26
+            ]
+          ],
+          "date-time": "2025-01-26T08:28:55Z",
+          "timestamp": 1737880135000
+        },
+        "score": 27.498278,
+        "resource": {
+          "primary": {
+            "URL": "https://wcd.copernicus.org/preprints/wcd-2020-58/wcd-2020-58-RC2.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              5
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5194/wcd-2020-58-rc2",
+        "relation": {
+          "is-review-of": [
+            {
+              "id-type": "doi",
+              "id": "10.5194/wcd-2-713-2021",
+              "asserted-by": "subject"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/wcd-2-713-2021",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/wcd-2020-58",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

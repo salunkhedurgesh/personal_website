@@ -1,0 +1,264 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3009500,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              26
+            ]
+          ],
+          "date-time": "2025-10-26T14:05:54Z",
+          "timestamp": 1761487554688,
+          "version": "3.40.3"
+        },
+        "reference-count": 18,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2006,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2006-03-01T00:00:00Z",
+              "timestamp": 1141171200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Automat. Contr."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1109/tac.2005.864202",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2006,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2006-03-15T21:13:13Z",
+          "timestamp": 1142457193000
+        },
+        "page": "518-523",
+        "source": "Crossref",
+        "is-referenced-by-count": 18,
+        "title": [
+          "Stability of Quaternionic Linear Systems"
+        ],
+        "prefix": "10.1109",
+        "volume": "51",
+        "author": [
+          {
+            "given": "R.",
+            "family": "Pereira",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "P.",
+            "family": "Vettori",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref1",
+            "DOI": "10.1103/PhysRevB.65.104412"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref2",
+            "DOI": "10.1007/978-94-009-4802-0"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref3",
+            "DOI": "10.1515/9780691211701"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref4",
+            "DOI": "10.1016/S0096-3003(02)00042-5"
+          },
+          {
+            "key": "ref5",
+            "article-title": "On decentralization, symmetry and special structure in linear systems",
+            "volume-title": "Tech. Rep. R8201/M",
+            "author": "Hazewinkel",
+            "year": "1982"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref6",
+            "DOI": "10.23919/ACC.1986.4789134"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref7",
+            "DOI": "10.1088/0305-4470/35/26/305"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref8",
+            "DOI": "10.1016/j.camwa.2004.03.010"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref9",
+            "DOI": "10.1007/978-3-322-96657-5_5"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref10",
+            "DOI": "10.1016/0024-3795(95)00543-9"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref11",
+            "DOI": "10.1016/j.laa.2005.01.008"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref12",
+            "DOI": "10.1007/978-1-4684-0406-7"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref13",
+            "DOI": "10.2307/1968245"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref14",
+            "DOI": "10.1090/surv/002"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref15",
+            "DOI": "10.1109/9.73561"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref16",
+            "DOI": "10.1007/978-1-4757-2953-5"
+          },
+          {
+            "doi-asserted-by": "publisher",
+            "key": "ref17",
+            "DOI": "10.1090/S0002-9939-1988-0954973-3"
+          },
+          {
+            "volume-title": "Control System Synthesis",
+            "year": "1985",
+            "author": "Vidyasagar",
+            "key": "ref18"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Automatic Control"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/9/33736/01605415.pdf?arnumber=1605415",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2025-03-25T16:42:38Z",
+          "timestamp": 1742920958000
+        },
+        "score": 35.30474,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/1605415/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              3
+            ]
+          ]
+        },
+        "references-count": 18,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2006,
+                3
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1109/tac.2005.864202",
+        "ISSN": [
+          "0018-9286"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0018-9286"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              3
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

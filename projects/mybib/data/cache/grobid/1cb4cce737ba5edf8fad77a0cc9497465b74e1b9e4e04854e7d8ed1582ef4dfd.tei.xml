@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimized design of a large-workspace 2-DOF parallel robot for solar tracking systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-10-12">12 October 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Alessandro</forename><surname>Cammarata</surname></persName>
+							<email>acamma@diim.unict.it.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">University of Catania</orgName>
+								<address>
+									<addrLine>Viale A. Doria 6</addrLine>
+									<postCode>95125</postCode>
+									<region>Catania</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimized design of a large-workspace 2-DOF parallel robot for solar tracking systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-10-12">12 October 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">21F7BED683EE57D0C985971F8DA0836C</idno>
+					<idno type="DOI">10.1016/j.mechmachtheory.2014.09.012</idno>
+					<note type="submission">Received 15 April 2014 Received in revised form 18 September 2014 Accepted 23 September 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Parallel robots Constrained optimization Solar tracking systems</keywords>
+			</textClass>
+			<abstract>
+				<p>Solar tracking systems and heliostats often rely on serial mechanisms with one or two motorized axes. In this paper we propose a parallel kinematic machine of type U-2PUS optimized to have a large workspace able to follow the sun&apos;s apparent motion during the year. Some issues such as singularity avoidance and link/joint collisions are included inside a constrained optimization procedure to synthesize a mechanism able to operate at latitudes among 0°and 50°. Design considerations and vibration analysis are also discussed in the paper. Finally, an energy assessment, to evaluate system performances with respect to other solutions based on fixed solar panels, is provided.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

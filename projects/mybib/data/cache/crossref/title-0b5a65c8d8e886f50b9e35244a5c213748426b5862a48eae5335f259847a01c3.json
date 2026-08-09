@@ -1,0 +1,356 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5229684,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2025-10-17T13:51:38Z",
+          "timestamp": 1760709098223
+        },
+        "reference-count": 28,
+        "publisher": "Informa UK Limited",
+        "issue": "17-18",
+        "content-domain": {
+          "domain": [
+            "www.tandfonline.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Advanced Robotics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              16
+            ]
+          ]
+        },
+        "DOI": "10.1080/01691864.2016.1199326",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2016-07-04T17:00:43Z",
+          "timestamp": 1467651643000
+        },
+        "page": "1145-1163",
+        "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Optimal motion planning for parallel robots via convex optimization and receding horizon"
+        ],
+        "prefix": "10.1080",
+        "volume": "30",
+        "author": [
+          {
+            "given": "Roya Sabbagh",
+            "family": "Novin",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Amirhossein",
+            "family": "Karimi",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Mojtaba",
+            "family": "Yazdani",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Mehdi",
+            "family": "Tale Masouleh",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              4
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "CIT0001",
+            "first-page": "109",
+            "volume-title": "Motion planning",
+            "author": "Kavraki LE",
+            "year": "2008"
+          },
+          {
+            "key": "CIT0002",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511546877"
+          },
+          {
+            "key": "CIT0004",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/359156.359164"
+          },
+          {
+            "key": "CIT0005",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TC.1983.1676196"
+          },
+          {
+            "key": "CIT0006",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5897/IJPS11.1745"
+          },
+          {
+            "key": "CIT0008",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(95)00074-9"
+          },
+          {
+            "key": "CIT0009",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574797000234"
+          },
+          {
+            "key": "CIT0010",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498600500106"
+          },
+          {
+            "key": "CIT0011",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11786-012-0123-8"
+          },
+          {
+            "key": "CIT0012",
+            "unstructured": "Latombe JC. Robot motion planning. Vol. 124, Springer Science & Business Media; 2012. p. 100–107."
+          },
+          {
+            "key": "CIT0014",
+            "volume-title": "Robot modeling and control",
+            "author": "Spong MW",
+            "year": "2006"
+          },
+          {
+            "key": "CIT0016",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.508439"
+          },
+          {
+            "key": "CIT0021",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0959651815617883"
+          },
+          {
+            "key": "CIT0022",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0094-114X(97)00066-9"
+          },
+          {
+            "key": "CIT0023",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0094-114X(03)00065-X"
+          },
+          {
+            "key": "CIT0024",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0094-114X(97)00095-5"
+          },
+          {
+            "key": "CIT0025",
+            "volume-title": "Type synthesis of parallel mechanisms",
+            "volume": "33",
+            "author": "Kong X",
+            "year": "2007"
+          },
+          {
+            "key": "CIT0026",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.rcim.2013.09.012"
+          },
+          {
+            "key": "CIT0027",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF01100203"
+          },
+          {
+            "key": "CIT0028",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MSP.2010.936019"
+          },
+          {
+            "key": "CIT0029",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/10556780108805819"
+          },
+          {
+            "key": "CIT0030",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF01580665"
+          },
+          {
+            "key": "CIT0031",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10898-011-9664-7"
+          },
+          {
+            "key": "CIT0032",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1287/moor.8.2.273"
+          },
+          {
+            "key": "CIT0034",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0921-8890(92)90001-F"
+          },
+          {
+            "key": "CIT0035",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0921-8890(97)00028-6"
+          },
+          {
+            "key": "CIT0036",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(94)00052-M"
+          },
+          {
+            "key": "CIT0040",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511804441"
+          }
+        ],
+        "container-title": [
+          "Advanced Robotics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/01691864.2016.1199326",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2016,
+              12,
+              10
+            ]
+          ],
+          "date-time": "2016-12-10T05:44:02Z",
+          "timestamp": 1481348642000
+        },
+        "score": 37.235397,
+        "resource": {
+          "primary": {
+            "URL": "http://www.tandfonline.com/doi/full/10.1080/01691864.2016.1199326"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              4
+            ]
+          ]
+        },
+        "references-count": 28,
+        "journal-issue": {
+          "issue": "17-18",
+          "published-online": {
+            "date-parts": [
+              [
+                2016,
+                7,
+                12
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                9,
+                16
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1080/01691864.2016.1199326"
+        ],
+        "URL": "https://doi.org/10.1080/01691864.2016.1199326",
+        "ISSN": [
+          "0169-1864",
+          "1568-5535"
+        ],
+        "issn-type": [
+          {
+            "value": "0169-1864",
+            "type": "print"
+          },
+          {
+            "value": "1568-5535",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              4
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+            "order": 1,
+            "name": "peerreview_statement",
+            "label": "Peer Review Statement"
+          },
+          {
+            "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tadr20",
+            "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tadr20",
+            "order": 2,
+            "name": "aims_and_scope_url",
+            "label": "Aim & Scope"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

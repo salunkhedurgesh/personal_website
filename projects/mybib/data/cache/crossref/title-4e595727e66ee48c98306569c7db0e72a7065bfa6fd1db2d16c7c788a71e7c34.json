@@ -1,0 +1,117 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 167061,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2024-05-04T04:39:30Z",
+          "timestamp": 1714797570441
+        },
+        "reference-count": 0,
+        "publisher": "Elsevier",
+        "isbn-type": [
+          {
+            "value": "9780123944030",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "DOI": "10.1016/b978-0-12-394403-0.00004-9",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2014-02-22T20:45:53Z",
+          "timestamp": 1393101953000
+        },
+        "page": "141-206",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Smooth Manifolds"
+        ],
+        "prefix": "10.1016",
+        "author": [
+          {
+            "given": "Steven H.",
+            "family": "Weintraub",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "container-title": [
+          "Differential Forms"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              6
+            ]
+          ],
+          "date-time": "2018-10-06T11:55:10Z",
+          "timestamp": 1538826910000
+        },
+        "score": 23.85626,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780123944030000049"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780123944030"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1016/b978-0-12-394403-0.00004-9",
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

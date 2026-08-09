@@ -1,0 +1,301 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 189311,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              17
+            ]
+          ],
+          "date-time": "2026-04-17T16:00:01Z",
+          "timestamp": 1776441601868,
+          "version": "3.51.2"
+        },
+        "reference-count": 23,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1996,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1996-01-01T00:00:00Z",
+              "timestamp": 820454400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Robot. Automat. Mag."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "DOI": "10.1109/100.556480",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2002-08-24T19:45:59Z",
+          "timestamp": 1030218359000
+        },
+        "page": "29-37",
+        "source": "Crossref",
+        "is-referenced-by-count": 176,
+        "title": [
+          "On the development of the Agile Eye"
+        ],
+        "prefix": "10.1109",
+        "volume": "3",
+        "author": [
+          {
+            "given": "C.M.",
+            "family": "Gosselin",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "E.",
+            "family": "St. Pierre",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "M.",
+            "family": "Gagne",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/PIME_PROC_1965_180_029_02"
+          },
+          {
+            "key": "ref11",
+            "article-title": "the analysis of a six degree of freedom work station for mechanised assembly",
+            "author": "maccallion",
+            "year": "1979",
+            "journal-title": "Proceedings of the 5th World Congress on Theory of Machines and Mechanisms"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258540"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1985.1087324"
+          },
+          {
+            "key": "ref14",
+            "author": "craver",
+            "year": "1989",
+            "journal-title": "Structural analysis and design of a three-degree-of-freedom robotic shoulder module"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258984"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836499301200406"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1994.351393"
+          },
+          {
+            "key": "ref18",
+            "first-page": "2032",
+            "article-title": "dynamic models for spherical parallel manipulators'",
+            "author": "gosselin",
+            "year": "1995",
+            "journal-title": "Proceedings of the Ninth World Congress on the Theory of Machines and Mechanisms"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2919419"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/S0218001493000029"
+          },
+          {
+            "key": "ref3",
+            "article-title": "a modular versatile design for an active stereo hand/eye platform",
+            "author": "sharkey",
+            "year": "1992",
+            "journal-title": "Proceedings of the 2nd International Conference on Automation Robotics and Computer Vision"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/S0218001493000066"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/S0218001493000054"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1993.291888"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/S0218001493000042"
+          },
+          {
+            "key": "ref2",
+            "article-title": "real-time gaze control: mount control system specification",
+            "author": "edge",
+            "year": "1991",
+            "journal-title": "GEC Marconi Research Centre"
+          },
+          {
+            "key": "ref1",
+            "article-title": "a head-eye system for active purposive computer vision",
+            "author": "pahlavan",
+            "year": "1991",
+            "journal-title": "Department of Analysis and Computing Science"
+          },
+          {
+            "key": "ref9",
+            "article-title": "design of stereo heads",
+            "author": "murray",
+            "year": "1992",
+            "journal-title": "Active Vision"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498200100102"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "crossref",
+            "first-page": "231",
+            "DOI": "10.1007/978-94-011-0333-6_24",
+            "article-title": "a closed-form solution for the direct kinematics of a special class of spherical three-degree-of-freedom parallel manipulators",
+            "author": "gosselin",
+            "year": "1995",
+            "journal-title": "Proceedings of the Workshop on Computational Kinematics"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2912772"
+          },
+          {
+            "key": "ref23",
+            "article-title": "development and experimentation of a fast three-degree-of-freedom camera-orienting device",
+            "author": "gosselin",
+            "year": "0",
+            "journal-title": "to appear in The International Journal of Robotics Research"
+          }
+        ],
+        "container-title": [
+          "IEEE Robotics &amp; Automation Magazine"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx1/100/12140/00556480.pdf?arnumber=556480",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              12
+            ]
+          ],
+          "date-time": "2022-01-12T16:22:32Z",
+          "timestamp": 1642004552000
+        },
+        "score": 18.85915,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/556480/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "references-count": 23,
+        "journal-issue": {
+          "issue": "4"
+        },
+        "URL": "https://doi.org/10.1109/100.556480",
+        "ISSN": [
+          "1070-9932"
+        ],
+        "issn-type": [
+          {
+            "value": "1070-9932",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

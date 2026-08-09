@@ -1,0 +1,176 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 884684,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2026-03-13T15:58:47Z",
+          "timestamp": 1773417527475,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "American Society of Mechanical Engineers",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              17
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This article presents a polynomial solution to the inverse kinematic problem of the 6R serial Jaco robot. The solution is specifically tailored to the Jaco robot, which is not wrist-partitioned. The derivation of the univariate 16-degree polynomial is presented, starting from the direct kinematic equations providing the position and orientation of the end-effector as a function of the joint variables. Upon calculation of the roots of the polynomial, all joint variables are obtained by backsubstitution, leading to a unique set of joint variables for each of the roots. Also, it is shown that for certain configurations, the 16-degree polynomial contains only terms of even powers while all terms are not zero in general. Two numerical examples are given to demonstrate the effectiveness of the solution process.</jats:p>",
+        "DOI": "10.1115/detc2014-34152",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2015-01-13T14:58:15Z",
+          "timestamp": 1421161095000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 10,
+        "title": [
+          "Polynomial Inverse Kinematic Solution of the Jaco Robot"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Clément",
+            "family": "Gosselin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Université Laval, Québec, QC, Canada"
+              }
+            ]
+          },
+          {
+            "given": "Hanwei",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Université Laval, Québec, QC, Canada"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              13
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2014 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+          "location": "Buffalo, New York, USA",
+          "acronym": "IDETC-CIE2014",
+          "sponsor": [
+            "Design Engineering Division",
+            "Computers and Information in Engineering Division"
+          ],
+          "start": {
+            "date-parts": [
+              [
+                2014,
+                8,
+                17
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2014,
+                8,
+                20
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "Volume 5B: 38th Mechanisms and Robotics Conference"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2014-34152/4262636/v05bt08a055-detc2014-34152.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T21:22:46Z",
+          "timestamp": 1567372966000
+        },
+        "score": 50.466446,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2014/46377/Buffalo,%20New%20York,%20USA/257638"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              17
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/detc2014-34152",
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              17
+            ]
+          ]
+        },
+        "article-number": "V05BT08A055"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

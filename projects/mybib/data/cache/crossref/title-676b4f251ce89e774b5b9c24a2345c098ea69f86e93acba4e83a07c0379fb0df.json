@@ -1,0 +1,274 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4049085,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T05:45:33Z",
+          "timestamp": 1777441533583,
+          "version": "3.51.4"
+        },
+        "reference-count": 19,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/icuas.2015.7152367",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2015-07-17T16:09:51Z",
+          "timestamp": 1437149391000
+        },
+        "page": "825-831",
+        "source": "Crossref",
+        "is-referenced-by-count": 45,
+        "title": [
+          "Quadrotor quaternion control"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "J.",
+            "family": "Carino",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "H.",
+            "family": "Abaunza",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "P.",
+            "family": "Castillo",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "author": "jones",
+            "year": "2001",
+            "journal-title": "SciPy Open source scientific tools for Python"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCSE.2011.37"
+          },
+          {
+            "key": "ref12",
+            "author": "goppert",
+            "year": "2014",
+            "journal-title": "Python control systems library"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2011.5980229"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCSE.2007.55"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "crossref",
+            "first-page": "3864",
+            "DOI": "10.23919/ECC.2013.6669617",
+            "article-title": "Full quaternion based attitude control for a quadrotor",
+            "author": "fresk",
+            "year": "2013",
+            "journal-title": "2013 European Control Conference (ECC) ECC"
+          },
+          {
+            "key": "ref16",
+            "author": "castillo garcia",
+            "year": "2006",
+            "journal-title": "Modelling and Control of Mini-Flying Machines"
+          },
+          {
+            "key": "ref17",
+            "author": "ogata",
+            "year": "1970",
+            "journal-title": "Modern Control Engineering"
+          },
+          {
+            "key": "ref18",
+            "volume": "199",
+            "author": "slotine",
+            "year": "1991",
+            "journal-title": "Applied nonlinear control"
+          },
+          {
+            "key": "ref19",
+            "volume": "33",
+            "author": "valavanis",
+            "year": "2008",
+            "journal-title": "Advances in Unmanned Aerial Vehicles State of the Art and the Road to Autonomy"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5772/6197"
+          },
+          {
+            "key": "ref3",
+            "first-page": "1043",
+            "article-title": "Mathematical modeling and control of a hexacopter. In Unmanned Aircraft Systems (ICUAS)",
+            "author": "alaimo",
+            "year": "2013",
+            "journal-title": "2013 International Conference"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(86)90084-4"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/2689481"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISIC.2010.5612894"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1515/9780691211701",
+            "volume": "66",
+            "author": "kuipers",
+            "year": "1999",
+            "journal-title": "Quaternions and Rotation Sequences"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CDC.2010.5717652"
+          },
+          {
+            "key": "ref1",
+            "article-title": "Aggressive maneuver regulation of a quadrotor UAV",
+            "author": "spedicato",
+            "year": "2013",
+            "journal-title": "The 16th International Symposium on Robotics Research"
+          },
+          {
+            "key": "ref9",
+            "volume": "4",
+            "author": "goldstein",
+            "year": "1962",
+            "journal-title": "Classical Mechanics"
+          }
+        ],
+        "event": {
+          "name": "2015 International Conference on Unmanned Aircraft Systems (ICUAS)",
+          "location": "Denver, CO, USA",
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                6,
+                9
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2015,
+                6,
+                12
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2015 International Conference on Unmanned Aircraft Systems (ICUAS)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7143340/7152267/07152367.pdf?arnumber=7152367",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2020-09-05T00:57:49Z",
+          "timestamp": 1599267469000
+        },
+        "score": 35.259865,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/7152367/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              6
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.1109/icuas.2015.7152367",
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              6
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

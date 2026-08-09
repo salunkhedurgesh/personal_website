@@ -1,0 +1,305 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5734879,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2024-08-28T08:57:33Z",
+          "timestamp": 1724835453276
+        },
+        "reference-count": 19,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  5,
+                  23
+                ]
+              ],
+              "date-time": "2022-05-23T00:00:00Z",
+              "timestamp": 1653264000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  5,
+                  23
+                ]
+              ],
+              "date-time": "2022-05-23T00:00:00Z",
+              "timestamp": 1653264000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              23
+            ]
+          ]
+        },
+        "DOI": "10.1109/icra46639.2022.9811915",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2022-07-12T19:36:40Z",
+          "timestamp": 1657654600000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Kinematic Transfer Learning of Sampling Distributions for Manipulator Motion Planning"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Peter",
+            "family": "Lehner",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Robotics and Mechatronics, German Aerospace Center (DLR) at Oberpfaffenhofen,Germany"
+              }
+            ]
+          },
+          {
+            "given": "Maximo A.",
+            "family": "Roa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Robotics and Mechatronics, German Aerospace Center (DLR) at Oberpfaffenhofen,Germany"
+              }
+            ]
+          },
+          {
+            "given": "Alin",
+            "family": "Albu-Schaffer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Robotics and Mechatronics, German Aerospace Center (DLR) at Oberpfaffenhofen,Germany"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2012.VIII.043"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2015.7139284"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2008.4543787"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759226"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA40945.2020.9196833"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS45743.2020.9340994"
+          },
+          {
+            "key": "ref16",
+            "first-page": "423",
+            "article-title": "Mixture models and EM",
+            "author": "bishop",
+            "year": "2006",
+            "journal-title": "Pattern Recognition and Machine Learning"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364907079280"
+          },
+          {
+            "key": "ref18",
+            "first-page": "78",
+            "author": "diankov",
+            "year": "2010",
+            "journal-title": "Inverse Kinematics"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/robotics8040100"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2017.8206116"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2021.3068671"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.508439"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2018.2856925"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364910396389"
+          },
+          {
+            "key": "ref7",
+            "first-page": "228",
+            "article-title": "Rapidly exploring dense trees",
+            "author": "lavalle",
+            "year": "2004",
+            "journal-title": "Planning Algorithms"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2020.3006716"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2018.8460730"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2000.844107"
+          }
+        ],
+        "event": {
+          "name": "2022 IEEE International Conference on Robotics and Automation (ICRA)",
+          "location": "Philadelphia, PA, USA",
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                23
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                27
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2022 International Conference on Robotics and Automation (ICRA)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/9811522/9811357/09811915.pdf?arnumber=9811915",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              3
+            ]
+          ],
+          "date-time": "2022-11-03T23:08:50Z",
+          "timestamp": 1667516930000
+        },
+        "score": 56.9496,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/9811915/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              23
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.1109/icra46639.2022.9811915",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              23
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

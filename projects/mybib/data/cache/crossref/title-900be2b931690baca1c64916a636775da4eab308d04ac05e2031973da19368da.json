@@ -1,0 +1,100 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 828274,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              18
+            ]
+          ],
+          "date-time": "2025-02-18T05:08:02Z",
+          "timestamp": 1739855282216,
+          "version": "3.37.3"
+        },
+        "publisher-location": "Basel",
+        "reference-count": 0,
+        "publisher": "Schwabe Verlag",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.24894/sprengglossarium_s06504",
+        "type": "dataset",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              17
+            ]
+          ],
+          "date-time": "2025-02-17T09:39:31Z",
+          "timestamp": 1739785171000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "selig"
+        ],
+        "prefix": "10.24894",
+        "member": "10523",
+        "container-title": [
+          "Johann Jakob Spreng, Allgemeines deutsches Glossarium. Historisch-etymologisches Wörterbuch der deutschen Sprache online"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              17
+            ]
+          ],
+          "date-time": "2025-02-17T10:33:32Z",
+          "timestamp": 1739788412000
+        },
+        "score": 21.60131,
+        "resource": {
+          "primary": {
+            "URL": "https://schwabeonline.ch/schwabe-xaveropp/elibrary/openurl?id=doi%3A10.24894%2FSprengGlossarium_S06504"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.24894/sprengglossarium_s06504",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

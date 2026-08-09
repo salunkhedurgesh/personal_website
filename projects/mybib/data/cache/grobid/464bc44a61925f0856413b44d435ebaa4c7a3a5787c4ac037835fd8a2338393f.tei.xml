@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Fecund* Torus, its Bitangent-Circles and Derived Linkages</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Fichtert</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Hunts</surname></persName>
+						</author>
+						<title level="a" type="main">The Fecund* Torus, its Bitangent-Circles and Derived Linkages</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F20914F58AF8A324D598A35DD4801747</idno>
+					<note type="submission">Received on 23 April 1974</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The four forms of torus (common, flattened, symmetrical-offset, and general) are described and analysed geometrically. Two types of bitangent-plane are revealed; for one type the points of tangency may be imaginary. The existence of the single class of proper mobile spatial RRRS linkage is confirmed by relating it to one type of bitangent-circle. A theorem for identical surface-tracing by four cognate spatial dyad-linkages is enunciated, and possible applications in mechanism design are mentioned. Finally some remarks are made about bitangent-spheres.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

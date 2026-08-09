@@ -1,0 +1,330 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4998808,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              7
+            ]
+          ],
+          "date-time": "2025-11-07T09:30:04Z",
+          "timestamp": 1762507804982
+        },
+        "reference-count": 24,
+        "publisher": "IOP Publishing",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  7,
+                  9
+                ]
+              ],
+              "date-time": "2019-07-09T00:00:00Z",
+              "timestamp": 1562630400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  7,
+                  9
+                ]
+              ],
+              "date-time": "2019-07-09T00:00:00Z",
+              "timestamp": 1562630400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/3.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IOP Conf. Ser.: Earth Environ. Sci."
+        ],
+        "DOI": "10.1088/1755-1315/252/2/022095",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              9
+            ]
+          ],
+          "date-time": "2019-07-09T03:13:33Z",
+          "timestamp": 1562642013000
+        },
+        "page": "022095",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Transfer Regression with Data-Augmented Ensemble Learning Framework"
+        ],
+        "prefix": "10.1088",
+        "volume": "252",
+        "author": [
+          {
+            "given": "Linchun",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Cheng",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "266",
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              9
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TKDE.2009.191"
+          },
+          {
+            "key": "2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICMLA.2016.0059"
+          },
+          {
+            "key": "3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cell.2018.02.010"
+          },
+          {
+            "key": "4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s40537-016-0043-6"
+          },
+          {
+            "key": "5",
+            "doi-asserted-by": "crossref",
+            "first-page": "193",
+            "DOI": "10.1145/1273496.1273521",
+            "author": "Dai W.",
+            "year": "2007",
+            "journal-title": "Proceedings of the 24th International Conference on Machine Learning"
+          },
+          {
+            "key": "6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2783258.2783295"
+          },
+          {
+            "key": "7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.14711/thesis-991012535962503412"
+          },
+          {
+            "key": "8",
+            "first-page": "863",
+            "author": "Pardoe D.",
+            "year": "2010",
+            "journal-title": "Proceedings of the 27th International Conference on International Conference on Machine Learning"
+          },
+          {
+            "key": "9",
+            "author": "Roy S.",
+            "year": "2016"
+          },
+          {
+            "key": "10",
+            "doi-asserted-by": "crossref",
+            "first-page": "64",
+            "DOI": "10.1109/CSO.2014.21",
+            "author": "Xiao J.",
+            "year": "2014",
+            "journal-title": "Proceedings of the 2014 Seventh International Joint Conference on Computational Sciences and Optimization"
+          },
+          {
+            "key": "11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIP.2014.2362658"
+          },
+          {
+            "key": "12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jtbi.2013.09.007"
+          },
+          {
+            "key": "13",
+            "doi-asserted-by": "crossref",
+            "first-page": "270",
+            "DOI": "10.1007/978-0-387-73003-5_293",
+            "author": "Zhou Z.-H.",
+            "year": "2009",
+            "journal-title": "Encyclopedia of Biometrics"
+          },
+          {
+            "key": "14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/widm.1143"
+          },
+          {
+            "key": "15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CIDM.2009.4938667"
+          },
+          {
+            "key": "16",
+            "author": "Antoniou A.",
+            "year": "2017"
+          },
+          {
+            "key": "17",
+            "author": "Tran T.",
+            "year": "2017"
+          },
+          {
+            "key": "18",
+            "author": "White T.",
+            "year": "2016"
+          },
+          {
+            "key": "19",
+            "author": "Sinha A.",
+            "year": "2017"
+          },
+          {
+            "key": "20",
+            "author": "Zhang H.",
+            "year": "2017"
+          },
+          {
+            "key": "21",
+            "author": "Pereyra G.",
+            "year": "2017"
+          },
+          {
+            "key": "22",
+            "first-page": "107",
+            "author": "Drucker H.",
+            "year": "1997",
+            "journal-title": "Proceedings of the Fourteenth International Conference on Machine Learning"
+          },
+          {
+            "key": "23",
+            "author": "DeVries T.",
+            "year": "2017"
+          },
+          {
+            "key": "24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1214/aos/1176347963"
+          }
+        ],
+        "container-title": [
+          "IOP Conference Series: Earth and Environmental Science"
+        ],
+        "link": [
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/1755-1315/252/2/022095/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/1755-1315/252/2/022095",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/1755-1315/252/2/022095/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "https://iopscience.iop.org/article/10.1088/1755-1315/252/2/022095",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              10
+            ]
+          ],
+          "date-time": "2021-01-10T16:05:47Z",
+          "timestamp": 1610294747000
+        },
+        "score": 27.771736,
+        "resource": {
+          "primary": {
+            "URL": "https://iopscience.iop.org/article/10.1088/1755-1315/252/2/022095"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              9
+            ]
+          ]
+        },
+        "references-count": 24,
+        "URL": "https://doi.org/10.1088/1755-1315/252/2/022095",
+        "ISSN": [
+          "1755-1315"
+        ],
+        "issn-type": [
+          {
+            "value": "1755-1315",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

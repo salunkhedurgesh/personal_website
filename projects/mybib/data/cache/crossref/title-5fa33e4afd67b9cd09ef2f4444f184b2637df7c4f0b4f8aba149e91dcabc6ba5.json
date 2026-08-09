@@ -1,0 +1,773 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 81093,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T20:59:24Z",
+          "timestamp": 1773262764040,
+          "version": "3.50.1"
+        },
+        "reference-count": 46,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  2,
+                  15
+                ]
+              ],
+              "date-time": "2023-02-15T00:00:00Z",
+              "timestamp": 1676419200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  2,
+                  15
+                ]
+              ],
+              "date-time": "2023-02-15T00:00:00Z",
+              "timestamp": 1676419200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "funder": [
+          {
+            "name": "University of Bern"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Bus Inf Syst Eng"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Intelligence Augmentation Systems (IAS) allow for more efficient and effective corporate processes by means of an explicit collaboration between artificial intelligence and human judgment. However, the higher degree of system autonomy, along with the enrichment of human capabilities, amplifies pre-existing issues of the distribution of moral responsibility: If an IAS has caused harm, firms who have operated the system might argue that they lack control over its actions, whereas firms who have developed the system might argue that they lack control over its actual use. Both parties rejecting responsibility and attributing it to the autonomous nature of the system leads to a variety of technologically induced responsibility gaps. Given the wide-ranging capabilities and applications of IAS, such responsibility gaps warrant a theoretical grounding in an ethical theory, also because the clear distribution of moral responsibility is an essential first step to govern explicit morality in a firm using structures such as accountability mechanisms. As part of this paper, first the necessary conditions for the distribution of responsibility for IAS are detailed. Second, the paper develops an ethical theory of Reason-Responsiveness for Intelligence Augmentation Systems (RRIAS) that allows for the distribution of responsibility at the organizational level between operators and providers. RRIAS provides important guidance for firms to understand who should be held responsible for developing suitable corporate practices for the development and usage of IAS.</jats:p>",
+        "DOI": "10.1007/s12599-023-00789-9",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              17
+            ]
+          ],
+          "date-time": "2023-02-17T07:20:23Z",
+          "timestamp": 1676618423000
+        },
+        "page": "391-401",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "Augmented Intelligence, Augmented Responsibility?"
+        ],
+        "prefix": "10.1007",
+        "volume": "65",
+        "author": [
+          {
+            "given": "Nick",
+            "family": "Lüthi",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Christian",
+            "family": "Matt",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Thomas",
+            "family": "Myrach",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Iris",
+            "family": "Junglas",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              15
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "3",
+            "key": "789_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "973",
+            "DOI": "10.1177/1461444816676645",
+            "volume": "20",
+            "author": "M Ananny",
+            "year": "2016",
+            "unstructured": "Ananny M, Crawford K (2016) Seeing without knowing: limitations of the transparency ideal and its application to algorithmic accountability. New Media Soc 20(3):973–989. https://doi.org/10.1177/1461444816676645",
+            "journal-title": "New Media Soc"
+          },
+          {
+            "issue": "3",
+            "key": "789_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "265",
+            "DOI": "10.1007/s12599-022-00752-0",
+            "volume": "64",
+            "author": "R Beck",
+            "year": "2022",
+            "unstructured": "Beck R, Dibbern J, Wiener M (2022) A multi-perspective framework for research on (sustainable) autonomous systems. Bus Inf Syst Eng 64(3):265–273. https://doi.org/10.1007/s12599-022-00752-0",
+            "journal-title": "Bus Inf Syst Eng"
+          },
+          {
+            "issue": "242",
+            "key": "789_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "6",
+            "DOI": "10.1111/j.1467-9213.2010.677.x",
+            "volume": "61",
+            "author": "M Braham",
+            "year": "2011",
+            "unstructured": "Braham M, VanHees M (2011) Responsibility voids. Philos Q 61(242):6–15. https://doi.org/10.1111/j.1467-9213.2010.677.x",
+            "journal-title": "Philos Q"
+          },
+          {
+            "issue": "4",
+            "key": "789_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "943",
+            "DOI": "10.1007/s10551-018-3890-6",
+            "volume": "154",
+            "author": "S Collins",
+            "year": "2019",
+            "unstructured": "Collins S (2019) Collective responsibility gaps. J Bus Ethics 154(4):943–954. https://doi.org/10.1007/s10551-018-3890-6",
+            "journal-title": "J Bus Ethics"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "62",
+            "DOI": "10.1016/j.infoandorg.2018.02.005",
+            "volume": "28",
+            "author": "S Faraj",
+            "year": "2018",
+            "unstructured": "Faraj S, Pachidi S, Sayegh K (2018) Working and organizing in the age of the learning algorithm. Inf Organ 28(1):62–70. https://doi.org/10.1016/j.infoandorg.2018.02.005",
+            "journal-title": "Inf Organ"
+          },
+          {
+            "key": "789_CR6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511814594",
+            "volume-title": "Responsibility and control: a theory of moral responsibility",
+            "author": "JM Fischer",
+            "year": "1998",
+            "unstructured": "Fischer JM, Ravizza M (1998) Responsibility and control: a theory of moral responsibility. Cambridge University Press, Cambridge"
+          },
+          {
+            "key": "789_CR7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.7312/fren90672",
+            "volume-title": "Collective and corporate responsibility",
+            "author": "PA French",
+            "year": "1984",
+            "unstructured": "French PA (1984) Collective and corporate responsibility. Columbia University Press, New York"
+          },
+          {
+            "issue": "3",
+            "key": "789_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "185",
+            "DOI": "10.1016/j.jsis.2017.08.002",
+            "volume": "26",
+            "author": "RD Galliers",
+            "year": "2017",
+            "unstructured": "Galliers RD, Newell S, Shanks G, Topi H (2017) Datification and its human, organizational and societal effects: the strategic opportunities and challenges of algorithmic decision-making. J Strateg Inf Syst 26(3):185–190. https://doi.org/10.1016/j.jsis.2017.08.002",
+            "journal-title": "J Strateg Inf Syst"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "101614",
+            "DOI": "10.1016/j.jsis.2020.101614",
+            "volume": "29",
+            "author": "T Grønsund",
+            "year": "2020",
+            "unstructured": "Grønsund T, Aanestad M (2020) Augmenting the algorithm: emerging human-in-the-loop work configurations. J Strateg Inf Syst 29(2):101614. https://doi.org/10.1016/j.jsis.2020.101614",
+            "journal-title": "J Strateg Inf Syst"
+          },
+          {
+            "issue": "3",
+            "key": "789_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "257",
+            "DOI": "10.2307/249656",
+            "volume": "20",
+            "author": "SJ Harrington",
+            "year": "1996",
+            "unstructured": "Harrington SJ (1996) The effect of codes of ethics and personal denial of responsibility on computer abuse judgments and intentions. MIS Q 20(3):257–278. https://doi.org/10.2307/249656",
+            "journal-title": "MIS Q"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "99",
+            "DOI": "10.1007/s10676-012-9301-2",
+            "volume": "15",
+            "author": "T Hellström",
+            "year": "2013",
+            "unstructured": "Hellström T (2013) On the moral responsibility of military robots. Ethics Inf Technol 15(2):99–107. https://doi.org/10.1007/s10676-012-9301-2",
+            "journal-title": "Ethics Inf Technol"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "159",
+            "DOI": "10.1007/s10257-018-0379-x",
+            "volume": "17",
+            "author": "C Janiesch",
+            "year": "2019",
+            "unstructured": "Janiesch C, Fischer M, Winkelmann A, Nentwich V (2019) Specifying autonomy in the internet of things: the autonomy model and notation. Inf Syst e Bus Manag 17(1):159–194. https://doi.org/10.1007/s10257-018-0379-x",
+            "journal-title": "Inf Syst e Bus Manag"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "5",
+            "DOI": "10.1007/s12599-020-00676-7",
+            "volume": "63",
+            "author": "J Jöhnk",
+            "year": "2021",
+            "unstructured": "Jöhnk J, Weißert M, Wyrtki K (2021) Ready or not, AI comes. an interview study of organizational AI readiness factors. Bus Inf Syst Eng 63(1):5–20. https://doi.org/10.1007/s12599-020-00676-7",
+            "journal-title": "Bus Inf Syst Eng"
+          },
+          {
+            "issue": "4",
+            "key": "789_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "195",
+            "DOI": "10.1007/s10676-006-9111-5",
+            "volume": "8",
+            "author": "DG Johnson",
+            "year": "2006",
+            "unstructured": "Johnson DG (2006) Computer systems: moral entities but not moral agents. Ethics Inf Technol 8(4):195–204. https://doi.org/10.1007/s10676-006-9111-5",
+            "journal-title": "Ethics Inf Technol"
+          },
+          {
+            "issue": "4",
+            "key": "789_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "707",
+            "DOI": "10.1007/s10551-014-2180-1",
+            "volume": "127",
+            "author": "DG Johnson",
+            "year": "2015",
+            "unstructured": "Johnson DG (2015) Technology with no human responsibility? J Bus Ethics 127(4):707–715. https://doi.org/10.1007/s10551-014-2180-1",
+            "journal-title": "J Bus Ethics"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "366",
+            "DOI": "10.5465/annals.2018.0174",
+            "volume": "14",
+            "author": "KC Kellogg",
+            "year": "2019",
+            "unstructured": "Kellogg KC, Valentine MA, Christin A (2019) Algorithms at work: the new contested terrain of control. Acad Manag Ann 14(1):366–410. https://doi.org/10.5465/annals.2018.0174",
+            "journal-title": "Acad Manag Ann"
+          },
+          {
+            "issue": "4",
+            "key": "789_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "313",
+            "DOI": "10.1007/BF01666535",
+            "volume": "12",
+            "author": "OEM Khalil",
+            "year": "1993",
+            "unstructured": "Khalil OEM (1993) Artificial decision-making and artificial ethics: a management concern. J Bus Ethics 12(4):313–321. https://doi.org/10.1007/BF01666535",
+            "journal-title": "J Bus Ethics"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "39",
+            "DOI": "10.1007/s12599-020-00673-w",
+            "volume": "63",
+            "author": "A Köchling",
+            "year": "2021",
+            "unstructured": "Köchling A, Riazy S, Wehner MC, Simbeck K (2021) Highly accurate, but still discriminatory. Bus Inf Syst Eng 63(1):39–54. https://doi.org/10.1007/s12599-020-00673-w",
+            "journal-title": "Bus Inf Syst Eng"
+          },
+          {
+            "key": "789_CR19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/0960085X.2021.1927212",
+            "author": "N Kordzadeh",
+            "year": "2021",
+            "unstructured": "Kordzadeh N, Ghasemaghaei M (2021) Algorithmic bias: review, synthesis, and future research directions. Eur J Inf Syst. https://doi.org/10.1080/0960085X.2021.1927212",
+            "journal-title": "Eur J Inf Syst"
+          },
+          {
+            "key": "789_CR20",
+            "unstructured": "Krenzer A, Stein N, Griebel M, Flath C (2019) Augmented intelligence for quality control of manual assembly processes using industrial wearable systems. In: ICIS 2019 Proceedings. https://aisel.aisnet.org/icis2019/mobile_iot/mobile_iot/9"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.26556/jesp.v1i2.6",
+            "volume": "1",
+            "author": "N Levy",
+            "year": "2017",
+            "unstructured": "Levy N (2017) The good, the bad, and the blameworthy. J Ethics Soc Philos 1(2):1–16. https://doi.org/10.26556/jesp.v1i2.6",
+            "journal-title": "J Ethics Soc Philos"
+          },
+          {
+            "issue": "2–3",
+            "key": "789_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "194",
+            "DOI": "10.1080/12460125.2020.1859744",
+            "volume": "30",
+            "author": "N Lüthi",
+            "year": "2021",
+            "unstructured": "Lüthi N, Matt C, Myrach T (2021) A value-sensitive design approach to minimize value tensions in software-based risk-assessment instruments. J Decis Syst 30(2–3):194–214. https://doi.org/10.1080/12460125.2020.1859744",
+            "journal-title": "J Decis Syst"
+          },
+          {
+            "issue": "3",
+            "key": "789_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "101683",
+            "DOI": "10.1016/j.jsis.2021.101683",
+            "volume": "30",
+            "author": "M Marabelli",
+            "year": "2021",
+            "unstructured": "Marabelli M, Newell S, Handunge V (2021) The lifecycle of algorithmic decision-making systems: organizational choices and ethical challenges. J Strateg Inf Syst 30(3):101683. https://doi.org/10.1016/j.jsis.2021.101683",
+            "journal-title": "J Strateg Inf Syst"
+          },
+          {
+            "issue": "4",
+            "key": "789_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "835",
+            "DOI": "10.1007/s10551-018-3921-3",
+            "volume": "160",
+            "author": "K Martin",
+            "year": "2019",
+            "unstructured": "Martin K (2019b) Ethical implications and accountability of algorithms. J Bus Ethics 160(4):835–850. https://doi.org/10.1007/s10551-018-3921-3",
+            "journal-title": "J Bus Ethics"
+          },
+          {
+            "key": "789_CR25",
+            "unstructured": "Martin K (2019a) Designing ethical algorithms. MIS Q Exec 18(2):Article 5. https://aisel.aisnet.org/misqe/vol18/iss2/5/"
+          },
+          {
+            "issue": "11",
+            "key": "789_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "3037",
+            "DOI": "10.1007/s11098-015-0456-7",
+            "volume": "172",
+            "author": "E Mason",
+            "year": "2015",
+            "unstructured": "Mason E (2015) Moral ignorance and blameworthiness. Philos Stud 172(11):3037–3057. https://doi.org/10.1007/s11098-015-0456-7",
+            "journal-title": "Philos Stud"
+          },
+          {
+            "key": "789_CR27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/oso/9780198833604.001.0001",
+            "volume-title": "Ways to be blameworthy: rightness, wrongness, and responsibility",
+            "author": "E Mason",
+            "year": "2019",
+            "unstructured": "Mason E (2019) Ways to be blameworthy: rightness, wrongness, and responsibility. Oxford University Press, Oxford"
+          },
+          {
+            "issue": "3",
+            "key": "789_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "175",
+            "DOI": "10.1007/s10676-004-3422-1",
+            "volume": "6",
+            "author": "A Matthias",
+            "year": "2004",
+            "unstructured": "Matthias A (2004) The responsibility gap: ascribing responsibility for the actions of learning automata. Ethics Inf Technol 6(3):175–183. https://doi.org/10.1007/s10676-004-3422-1",
+            "journal-title": "Ethics Inf Technol"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR29",
+            "doi-asserted-by": "publisher",
+            "first-page": "103",
+            "DOI": "10.1007/s10676-019-09519-w",
+            "volume": "22",
+            "author": "G Mecacci",
+            "year": "2020",
+            "unstructured": "Mecacci G, Santoni de Sio F (2020) Meaningful human control as reason-responsiveness: the case of dual-mode vehicles. Ethics Inf Technol 22(2):103–115. https://doi.org/10.1007/s10676-019-09519-w",
+            "journal-title": "Ethics Inf Technol"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1016/j.jsis.2015.02.001",
+            "volume": "24",
+            "author": "S Newell",
+            "year": "2015",
+            "unstructured": "Newell S, Marabelli M (2015) Strategic opportunities (and challenges) of algorithmic decision-making: a call for action on the long-term societal effects of ‘datification.’ J Strateg Inf Syst 24(1):3–14. https://doi.org/10.1016/j.jsis.2015.02.001",
+            "journal-title": "J Strateg Inf Syst"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "171",
+            "DOI": "10.1086/510695",
+            "volume": "117",
+            "author": "P Pettit",
+            "year": "2007",
+            "unstructured": "Pettit P (2007) Responsibility incorporated. Ethics 117(2):171–201. https://doi.org/10.1086/510695",
+            "journal-title": "Ethics"
+          },
+          {
+            "key": "789_CR32",
+            "unstructured": "Rivard S (2014) Editor’s comments: the ions of theory construction. MIS Q 38(2):iii–xiv. https://www.jstor.org/stable/26634928"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "17",
+            "DOI": "10.1007/s12599-012-0244-2",
+            "volume": "5",
+            "author": "P Rohner",
+            "year": "2013",
+            "unstructured": "Rohner P (2013) Identity management for health professionals. Bus Inf Syst Eng 5(1):17–33. https://doi.org/10.1007/s12599-012-0244-2",
+            "journal-title": "Bus Inf Syst Eng"
+          },
+          {
+            "key": "789_CR34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s13347-021-00450-x",
+            "author": "F Santoni de Sio",
+            "year": "2021",
+            "unstructured": "Santoni de Sio F, Mecacci G (2021) Four responsibility gaps with artificial intelligence: why they matter and how to address them. Philos Technol. https://doi.org/10.1007/s13347-021-00450-x",
+            "journal-title": "Philos Technol"
+          },
+          {
+            "key": "789_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "15",
+            "DOI": "10.3389/frobt.2018.00015",
+            "volume": "5",
+            "author": "F Santoni de Sio",
+            "year": "2018",
+            "unstructured": "Santoni de Sio F, van den Hoven J (2018) Meaningful human control over autonomous systems: a philosophical account. Front Robot AI 5:15. https://doi.org/10.3389/frobt.2018.00015",
+            "journal-title": "Front Robot AI"
+          },
+          {
+            "key": "789_CR36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acprof:oso/9780198746799.001.0001",
+            "volume-title": "Causation and free will",
+            "author": "C Sartorio",
+            "year": "2016",
+            "unstructured": "Sartorio C (2016) Causation and free will. Oxford University Press, Oxford. https://doi.org/10.1093/acprof:oso/9780198746799.001.0001"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "50",
+            "DOI": "10.1145/3210753",
+            "volume": "62",
+            "author": "S Seidel",
+            "year": "2018",
+            "unstructured": "Seidel S, Berente N, Lindberg A, Lyytinen K, Nickerson JV (2018) Autonomous tools and design: a triple-loop approach to human-machine learning. Commun ACM 62(1):50–57. https://doi.org/10.1145/3210753",
+            "journal-title": "Commun ACM"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "89",
+            "DOI": "10.1518/155723405783703082",
+            "volume": "1",
+            "author": "TB Sheridan",
+            "year": "2005",
+            "unstructured": "Sheridan TB, Parasuraman R (2005) Human-automation Interaction. Rev Hum Factors Ergon 1(1):89–129. https://doi.org/10.1518/155723405783703082",
+            "journal-title": "Rev Hum Factors Ergon"
+          },
+          {
+            "issue": "1",
+            "key": "789_CR39",
+            "doi-asserted-by": "publisher",
+            "first-page": "62",
+            "DOI": "10.1111/j.1468-5930.2007.00346.x",
+            "volume": "24",
+            "author": "R Sparrow",
+            "year": "2007",
+            "unstructured": "Sparrow R (2007) Killer Robots. J Appl Philos 24(1):62–77. https://doi.org/10.1111/j.1468-5930.2007.00346.x",
+            "journal-title": "J Appl Philos"
+          },
+          {
+            "issue": "8",
+            "key": "789_CR40",
+            "doi-asserted-by": "publisher",
+            "first-page": "636",
+            "DOI": "10.17705/1jais.00304",
+            "volume": "13",
+            "author": "B Stahl",
+            "year": "2012",
+            "unstructured": "Stahl B (2012) Morality, ethics, and reflection: a categorization of normative IS research. J Assoc Inform Syst 13(8):636–656. https://doi.org/10.17705/1jais.00304",
+            "journal-title": "J Assoc Inform Syst"
+          },
+          {
+            "key": "789_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "51",
+            "DOI": "10.1007/0-387-31168-8_4",
+            "volume-title": "The information society: emerging landscapes",
+            "author": "BC Stahl",
+            "year": "2006",
+            "unstructured": "Stahl BC (2006) Accountability and reflective responsibility in information systems. In: Zielinski C et al (eds) The information society: emerging landscapes. Springer, Boston, pp 51–68"
+          },
+          {
+            "issue": "14",
+            "key": "789_CR42",
+            "doi-asserted-by": "publisher",
+            "first-page": "1229",
+            "DOI": "10.1080/10447318.2019.1619259",
+            "volume": "35",
+            "author": "C Stephanidis",
+            "year": "2019",
+            "unstructured": "Stephanidis C et al (2019) Seven HCI grand challenges. Int J Hum Comput Interact 35(14):1229–1269. https://doi.org/10.1080/10447318.2019.1619259",
+            "journal-title": "Int J Hum Comput Interact"
+          },
+          {
+            "issue": "4",
+            "key": "789_CR43",
+            "doi-asserted-by": "publisher",
+            "first-page": "263",
+            "DOI": "10.2753/MIS0742-1222290410",
+            "volume": "29",
+            "author": "A Vance",
+            "year": "2013",
+            "unstructured": "Vance A, Lowry PB, Eggett D (2013) Using accountability to reduce access policy violations in information systems. J Manag Inf Syst 29(4):263–290. https://doi.org/10.2753/MIS0742-1222290410",
+            "journal-title": "J Manag Inf Syst"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR44",
+            "doi-asserted-by": "publisher",
+            "first-page": "345",
+            "DOI": "10.25300/MISQ/2015/39.2.04",
+            "volume": "39",
+            "author": "A Vance",
+            "year": "2015",
+            "unstructured": "Vance A, Lowry PB, Eggett D (2015) Increasing accountability through user-interface design artifacts: a new approach to addressing the problem of access-policy violations. MIS Q 39(2):345–366. https://doi.org/10.25300/MISQ/2015/39.2.04",
+            "journal-title": "MIS Q"
+          },
+          {
+            "key": "789_CR45",
+            "volume-title": "Moral machines: teaching robots right from wrong",
+            "author": "W Wallach",
+            "year": "2008",
+            "unstructured": "Wallach W, Allen C (2008) Moral machines: teaching robots right from wrong. Oxford University Press, Oxford"
+          },
+          {
+            "issue": "2",
+            "key": "789_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "243",
+            "DOI": "10.17705/1thci.00149",
+            "volume": "13",
+            "author": "L Zhou",
+            "year": "2021",
+            "unstructured": "Zhou L, Paul S, Demirkan H, Yuan L, Spohrer J, Zhou M, Basu J (2021) Intelligence augmentation: towards building human-machine symbiotic relationship. AIS Transact Hum Comput Interact 13(2):243–264. https://doi.org/10.17705/1thci.00149",
+            "journal-title": "AIS Transact Hum Comput Interact"
+          }
+        ],
+        "container-title": [
+          "Business &amp; Information Systems Engineering"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s12599-023-00789-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s12599-023-00789-9/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s12599-023-00789-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              27
+            ]
+          ],
+          "date-time": "2023-07-27T08:12:02Z",
+          "timestamp": 1690445522000
+        },
+        "score": 12.799247,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s12599-023-00789-9"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              15
+            ]
+          ]
+        },
+        "references-count": 46,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "789"
+        ],
+        "URL": "https://doi.org/10.1007/s12599-023-00789-9",
+        "ISSN": [
+          "2363-7005",
+          "1867-0202"
+        ],
+        "issn-type": [
+          {
+            "value": "2363-7005",
+            "type": "print"
+          },
+          {
+            "value": "1867-0202",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              15
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "1 July 2021",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "23 December 2022",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "15 February 2023",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

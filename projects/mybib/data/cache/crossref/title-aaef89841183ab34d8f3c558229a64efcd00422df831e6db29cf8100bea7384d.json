@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 425,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              20
+            ]
+          ],
+          "date-time": "2024-01-20T00:07:12Z",
+          "timestamp": 1705709232745
+        },
+        "reference-count": 0,
+        "publisher": "Project MUSE",
+        "issue": "1",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "cp"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1353/cp.2003.0018",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              2,
+              7
+            ]
+          ],
+          "date-time": "2007-02-07T03:42:11Z",
+          "timestamp": 1170819731000
+        },
+        "page": "226-229",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Dauka Puran (review)"
+        ],
+        "prefix": "10.1353",
+        "volume": "15",
+        "author": [
+          {
+            "given": "Brij V",
+            "family": "Lal",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "147",
+        "container-title": [
+          "The Contemporary Pacific"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              19
+            ]
+          ],
+          "date-time": "2024-01-19T17:28:35Z",
+          "timestamp": 1705685315000
+        },
+        "score": 21.182932,
+        "resource": {
+          "primary": {
+            "URL": "https://muse.jhu.edu/article/38594"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2003,
+              3
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2003,
+                3
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1353/cp.2003.0018",
+        "ISSN": [
+          "1527-9464"
+        ],
+        "issn-type": [
+          {
+            "value": "1527-9464",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              3
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

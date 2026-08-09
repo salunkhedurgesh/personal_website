@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Global Performance Index for the Kinematic Optimization of Robotic Manipulators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">C</forename><surname>Gosselin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">D6partement de Genie Mecanique</orgName>
+								<orgName type="institution">Universite Laval</orgName>
+								<address>
+									<addrLine>Ste-Foy</addrLine>
+									<postCode>G1K 7P4</postCode>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Angeles</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Mechanical Engineering and Robotic Mechanical Systems Laboratory</orgName>
+								<orgName type="department" key="dep2">McGill Research Center for Intelligent Machines</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Global Performance Index for the Kinematic Optimization of Robotic Manipulators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">48BEC4D7787AF6EF4FBC2065395DA148</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this paper, a novel performance index for the kinematic optimization of robotic manipulators is presented. The index is based on the condition number of the Jacobian matrix of the manipulator, which is known to be a measure of the amplification of the errors due to the kinematic and static transformations between the joint and Cartesian spaces. Moreover, the index proposed here, termed global conditioning index (CGI), is meant to assess the distribution of the aforementioned condition number over the whole workspace. Furthermore, the concept of a global index is applicable to other local kinematic or dynamic indices. The index introduced here is applied to a simple serial two-link manipulator, to a spherical three-degreeof-freedom serial wrist, and to three-degree-of-freedom parallel planar and spherical manipulators. Results of the optimization of these manipulators, based on the GCI, are included.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

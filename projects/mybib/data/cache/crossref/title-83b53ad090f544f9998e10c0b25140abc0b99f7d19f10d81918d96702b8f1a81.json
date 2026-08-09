@@ -1,0 +1,394 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 19676,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2025-03-28T03:21:33Z",
+          "timestamp": 1743132093035,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 21,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789402410365"
+          },
+          {
+            "type": "electronic",
+            "value": "9789402410365"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2021-01-01T00:00:00Z",
+              "timestamp": 1609459200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2021-01-01T00:00:00Z",
+              "timestamp": 1609459200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-94-024-1036-5_538-2",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              29
+            ]
+          ],
+          "date-time": "2021-07-29T06:02:56Z",
+          "timestamp": 1627538576000
+        },
+        "page": "1-3",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Yoga Sutras of Patanjali"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Anjali",
+            "family": "Kanojia",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              30
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "538-2_CR1",
+            "volume-title": "Yoga philosophy of Patañjali: containing his yoga aphorisms, with commentary of Vyāsa in original Sanskrit and annotations thereon, with copious hints on the practice of yoga",
+            "author": "H Āraṇya",
+            "year": "1981",
+            "unstructured": "Āraṇya H, Mukerji PN (1981) Yoga philosophy of Patañjali: containing his yoga aphorisms, with commentary of Vyāsa in original Sanskrit and annotations thereon, with copious hints on the practice of yoga. University of Calcutta"
+          },
+          {
+            "key": "538-2_CR2",
+            "volume-title": "Meditation, mind & Patanjali’s yoga: a practical guide to spiritual growth for everyone",
+            "author": "S Bhaskarananda",
+            "year": "2001",
+            "unstructured": "Bhaskarananda S (2001) Meditation, mind & Patanjali’s yoga: a practical guide to spiritual growth for everyone. Viveka, Seattle"
+          },
+          {
+            "key": "538-2_CR3",
+            "volume-title": "An introduction to the Yogasūtra",
+            "author": "RS Bhattacharya",
+            "year": "1985",
+            "unstructured": "Bhattacharya RS (1985) An introduction to the Yogasūtra. Bharatiya Vidya Prakashana, Delhi"
+          },
+          {
+            "key": "538-2_CR4",
+            "volume-title": "The Yoga Sutras of Patanjali: a new edition, translation, and commentary",
+            "author": "EF Bryant",
+            "year": "2015",
+            "unstructured": "Bryant EF (2015) The Yoga Sutras of Patanjali: a new edition, translation, and commentary. North Point Press"
+          },
+          {
+            "key": "538-2_CR5",
+            "volume-title": "Yoga philosophy: in relation to other systems of Indian thought",
+            "author": "SN Dasgupta",
+            "year": "1974",
+            "unstructured": "Dasgupta SN (1974) Yoga philosophy: in relation to other systems of Indian thought. Motilal Banarsidass Publishers, Delhi"
+          },
+          {
+            "key": "538-2_CR6",
+            "volume-title": "The heart of yoga: developing a personal practice",
+            "author": "TKV Desikachar",
+            "year": "1995",
+            "unstructured": "Desikachar TKV (1995) The heart of yoga: developing a personal practice. Inner Traditions, Rochester"
+          },
+          {
+            "key": "538-2_CR7",
+            "volume-title": "The Shambhala guide to yoga",
+            "author": "G Feuerstein",
+            "year": "1996",
+            "unstructured": "Feuerstein G (1996) The Shambhala guide to yoga. Shambhala, Boulder"
+          },
+          {
+            "key": "538-2_CR8",
+            "volume-title": "The yoga tradition: its history, literature. Philosophy and practice",
+            "author": "G Feuerstein",
+            "year": "1998",
+            "unstructured": "Feuerstein G (1998) The yoga tradition: its history, literature. Philosophy and practice. Hohm Press, Prescott"
+          },
+          {
+            "key": "538-2_CR9",
+            "volume-title": "The original teachings of yoga: from Patanjali back to Hiranyagarbha",
+            "author": "D Frawley",
+            "year": "2017",
+            "unstructured": "Frawley D (2017) The original teachings of yoga: from Patanjali back to Hiranyagarbha. American Institute of Vedic Studies. Online publication, Santa Fe"
+          },
+          {
+            "key": "538-2_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.2307/3087488",
+            "volume": "31",
+            "author": "H Jacobi",
+            "year": "1911",
+            "unstructured": "Jacobi H (1911) The dates of the philosophical Sūtras of the Brahmans. J Am Orient Soc 31:1–29",
+            "journal-title": "J Am Orient Soc"
+          },
+          {
+            "key": "538-2_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "53",
+            "DOI": "10.2307/2179264",
+            "volume": "35",
+            "author": "AK Majumdar",
+            "year": "1926",
+            "unstructured": "Majumdar AK (1926) The personalistic conception of nature as expounded in the Sānkhya philosophy. Philos Rev 35:53–63",
+            "journal-title": "Philos Rev"
+          },
+          {
+            "key": "538-2_CR12",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1525/9780520916753",
+            "volume-title": "Yoga: discipline of freedom: the Yoga Sutra attributed to Patanjali",
+            "author": "BS Miller",
+            "year": "1996",
+            "unstructured": "Miller BS (1996) Yoga: discipline of freedom: the Yoga Sutra attributed to Patanjali. University of California Press, Oakland"
+          },
+          {
+            "key": "538-2_CR13",
+            "volume-title": "Mind sound resonance technique",
+            "author": "HR Nagendra",
+            "year": "1998",
+            "unstructured": "Nagendra HR (1998) Mind sound resonance technique. Swami Vivekananda Yoga Prakashana, Bangalore"
+          },
+          {
+            "key": "538-2_CR14",
+            "volume-title": "Patanjali Yoga Sutras",
+            "author": "HR Nagendra",
+            "year": "2003",
+            "unstructured": "Nagendra HR, Swami NVC, Mohan T (2003) Patanjali Yoga Sutras. Swami Vivekananda Yoga Publications, Bangalore"
+          },
+          {
+            "key": "538-2_CR15",
+            "volume-title": "Patanjali Yoga Sutras",
+            "author": "PS Patañjali",
+            "year": "1991",
+            "unstructured": "Patañjali PS, Isherwood C (1991) Patanjali Yoga Sutras. Sri Ramakrishna Math, Mylapore"
+          },
+          {
+            "key": "538-2_CR16",
+            "first-page": "69",
+            "volume-title": "Patanjali Yoga Sutras",
+            "author": "S Prabhavananda",
+            "year": "2005",
+            "unstructured": "Prabhavananda S, Isherwood C (2005) Patanjali Yoga Sutras. Sri Ramakrishna Math, Madras, pp 69–75"
+          },
+          {
+            "issue": "2",
+            "key": "538-2_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "365",
+            "DOI": "10.1017/S0035869X00070684",
+            "volume": "62",
+            "author": "J Prasad",
+            "year": "1930",
+            "unstructured": "Prasad J (1930) The date of the yoga-sūtras. J R Asiat Soc 62(2):365–375",
+            "journal-title": "J R Asiat Soc"
+          },
+          {
+            "key": "538-2_CR18",
+            "volume-title": "The Yoga Sutras of Patangali. Translation and commentary by Sri Swami Satchidananda",
+            "author": "S Satchidananda",
+            "year": "1978",
+            "unstructured": "Satchidananda S (1978) The Yoga Sutras of Patangali. Translation and commentary by Sri Swami Satchidananda. Integral Yoga Publications, Yogaville"
+          },
+          {
+            "key": "538-2_CR19",
+            "first-page": "252",
+            "volume-title": "The Yoga Sutras of Patanjali: commentary on the raja Yoga Sutras by Sri Swami Satchidananda",
+            "author": "S Satchidananda",
+            "year": "1990",
+            "unstructured": "Satchidananda S (1990) The Yoga Sutras of Patanjali: commentary on the raja Yoga Sutras by Sri Swami Satchidananda. Integral Yoga Publications, Yogaville, p 252"
+          },
+          {
+            "issue": "5",
+            "key": "538-2_CR20",
+            "first-page": "2394",
+            "volume": "5",
+            "author": "PS Sreevidya",
+            "year": "2017",
+            "unstructured": "Sreevidya PS (2017) Understand Yogasutra: a framework for ecological virtue ethics. Int J Res-Granthaalayah 5(5):2394–3629",
+            "journal-title": "Int J Res-Granthaalayah"
+          },
+          {
+            "key": "538-2_CR21",
+            "volume-title": "Yoga instructor’s course",
+            "author": "Swami Vivekananda Yoga Anusandhana Samsthana (SVYASA)",
+            "year": "2013",
+            "unstructured": "Swami Vivekananda Yoga Anusandhana Samsthana (SVYASA) (2013) Yoga instructor’s course. Sharadh Enterprises Publications, Bangalore"
+          }
+        ],
+        "container-title": [
+          "Encyclopedia of Indian Religions",
+          "Hinduism and Tribal Religions"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-94-024-1036-5_538-2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2024-09-05T08:57:20Z",
+          "timestamp": 1725526640000
+        },
+        "score": 50.00586,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-94-024-1036-5_538-2"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789402410365",
+          "9789402410365"
+        ],
+        "references-count": 21,
+        "URL": "https://doi.org/10.1007/978-94-024-1036-5_538-2",
+        "ISSN": [
+          "2542-7628",
+          "2542-7636"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2542-7628"
+          },
+          {
+            "type": "electronic",
+            "value": "2542-7636"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "3 May 2021, 00:00:00",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "3 May 2021, 00:00:00",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "30 July 2021",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

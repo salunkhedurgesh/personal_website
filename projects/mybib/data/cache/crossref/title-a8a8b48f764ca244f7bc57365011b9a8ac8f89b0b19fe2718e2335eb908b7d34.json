@@ -1,0 +1,259 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2599284,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2024-09-07T12:31:05Z",
+          "timestamp": 1725712265084
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 15,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789048166220"
+          },
+          {
+            "type": "electronic",
+            "value": "9781402022494"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2004
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4020-2249-4_24",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              1,
+              14
+            ]
+          ],
+          "date-time": "2013-01-14T03:02:16Z",
+          "timestamp": 1358132536000
+        },
+        "page": "219-228",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "Workspaces Classification of 3R Orthogonal Manipulators"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Philippe",
+            "family": "Wenger",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Maher",
+            "family": "Baili",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Damien",
+            "family": "Chablat",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "24_CR1",
+            "unstructured": "Parenti C.V. and Innocenti C. (1988), Position Analysis of Robot Manipulators: Regions and Sub-regions, in Proc. Int. Conf. on Advances in Robot Kinematics, pp 150–158."
+          },
+          {
+            "key": "24_CR2",
+            "volume-title": "Kinematic analysis and design of redundant manipulators",
+            "author": "J Burdick",
+            "year": "1988",
+            "unstructured": "Burdick J. (1988), Kinematic analysis and design of redundant manipulators, PhD Dissertation, Stanford."
+          },
+          {
+            "key": "24_CR3",
+            "unstructured": "Borrel P. and Liegeois A. (1986), A study of manipulator inverse kinematic solutions with application to trajectory planning and workspace determination, in Proc. IEEE Int. Conf. Rob. andAut., pp 1180–1185."
+          },
+          {
+            "issue": "1",
+            "key": "24_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "71",
+            "DOI": "10.1016/0094-114X(94)00043-K",
+            "volume": "30",
+            "author": "J Burdick",
+            "year": "1995",
+            "unstructured": "Burdick J. (1995), A classification of 3R regional manipulator singularities and geometries, Mech. and Machine Theory, Vol 30 (1), pp 71–89.",
+            "journal-title": "Mech. and Machine Theory"
+          },
+          {
+            "key": "24_CR5",
+            "unstructured": "Wenger P. (1997), Design of cuspidal and noncuspidal manipulators, in Proc. IEEE Int. Conf. on Rob. andAut., pp 2172–2177."
+          },
+          {
+            "key": "24_CR6",
+            "unstructured": "El Omri J. and Wenger P. (1995), How to recognize simply a non-singular posture changing 3-DOF manipulator, Proc. 7thICAR, p. 215–222."
+          },
+          {
+            "key": "24_CR7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "V.I. Arnold, Singularity Theory, Cambridge University Press, 1981.",
+            "DOI": "10.1017/CBO9780511662713"
+          },
+          {
+            "issue": "2",
+            "key": "24_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "327",
+            "DOI": "10.1115/1.2826976",
+            "volume": "120",
+            "author": "P Wenger",
+            "year": "1998",
+            "unstructured": "Wenger P. (1998), Classification of 3R positioning manipulators, ASME Journal of Mechanical Design, Vol. 120 (2), pp 327–332.",
+            "journal-title": "ASME Journal of Mechanical Design"
+          },
+          {
+            "issue": "3",
+            "key": "24_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "437",
+            "DOI": "10.1016/S0094-114X(99)00015-4",
+            "volume": "35",
+            "author": "P Wenger",
+            "year": "1999",
+            "unstructured": "Wenger P. (1999), Some guidelines for the kinematic design of new Manipulators, Mechanisms and Machine Theory, Vol 35 (3), pp 437–449.",
+            "journal-title": "Mechanisms and Machine Theory"
+          },
+          {
+            "key": "24_CR10",
+            "volume-title": "Linz",
+            "author": "S Corvez",
+            "year": "2002",
+            "unstructured": "Corvez S. and Rouillier F. (2002), Using computer algebra tools to classify serial manipulators, in Proc. Fourth International Workshop on Automated Deduction in Geometry, Linz."
+          },
+          {
+            "key": "24_CR11",
+            "unstructured": "Baili M., Wenger P. and Chablat D. (2003), Classification of one family of 3R positioning manipulators, in Proc. llthlCAR, pp 1849–1854."
+          },
+          {
+            "key": "24_CR12",
+            "volume-title": "University of Nantes (infrench)",
+            "author": "J Omri",
+            "year": "1996",
+            "unstructured": "El Omri J., (1996), Kinematic analysis of robotic manipulators, PhD Thesis, University of Nantes (infrench)."
+          },
+          {
+            "issue": "3",
+            "key": "24_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "265",
+            "DOI": "10.1016/0094-114X(87)90010-3",
+            "volume": "22",
+            "author": "D Kohli",
+            "year": "1987",
+            "unstructured": "Kohli D. and Hsu (1987), The Jacobian analysis of workspaces of mechanical manipulators, Mech. & Machine Theory, Vol. 22 (3), pp 265–275.",
+            "journal-title": "Mech. & Machine Theory"
+          },
+          {
+            "key": "24_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "637",
+            "DOI": "10.1016/0094-114X(95)00096-H",
+            "volume": "31",
+            "author": "M Ceccarelli",
+            "year": "1996",
+            "unstructured": "Ceccarelli M. (1996), A formulation for the workspace boundary of general n-revolute manipulators, Mech. and Mach. Theory, Vol 31, pp 637–646.",
+            "journal-title": "Mech. and Mach. Theory"
+          },
+          {
+            "key": "24_CR15",
+            "first-page": "2003",
+            "volume-title": "Classification of 3R Orthogonal positioning manipulators, technical report",
+            "author": "M Baili",
+            "year": "2003",
+            "unstructured": "Baili M. (2003), Classification of 3R Orthogonal positioning manipulators, technical report, University of Nantes, September 2003."
+          }
+        ],
+        "container-title": [
+          "On Advances in Robot Kinematics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4020-2249-4_24.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2021-04-29T01:11:33Z",
+          "timestamp": 1619658693000
+        },
+        "score": 41.871788,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4020-2249-4_24"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2004
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789048166220",
+          "9781402022494"
+        ],
+        "references-count": 15,
+        "URL": "https://doi.org/10.1007/978-1-4020-2249-4_24",
+        "published": {
+          "date-parts": [
+            [
+              2004
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

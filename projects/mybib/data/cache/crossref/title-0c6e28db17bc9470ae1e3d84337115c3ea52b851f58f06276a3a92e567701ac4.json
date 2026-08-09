@@ -1,0 +1,268 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 10109867,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2024-03-28T00:22:18Z",
+          "timestamp": 1711585338367
+        },
+        "reference-count": 22,
+        "publisher": "Balkan Journal of Electrical & Computer Engineering (BAJECE)",
+        "issue": "1",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              23
+            ]
+          ]
+        },
+        "abstract": "<jats:p xml:lang=\"en\">In this paper, a&#x0D;\nnonlinear robust quaternion-based controller is developed to address the&#x0D;\nthree-axis attitude tracking control problem of rigid spacecraft in presence of&#x0D;\nparametric uncertainties, unknown external disturbances and sensor noise. As a&#x0D;\nfirst step, a robust controller is designed that compensates parametric&#x0D;\nuncertainty and disturbance effects. The robust controller then reformulated to&#x0D;\ndeal also with sensor noise. Singularity free unit quaternions are used to&#x0D;\nrepresent the attitude of the satellite in three-dimensional space. The&#x0D;\nLyapunov-based stability analysis is applied to prove that a uniformly&#x0D;\nultimately bounded tracking result is achieved. Simulation results are&#x0D;\npresented to illustrate the feasibility of the proposed control strategy.&amp;nbsp;</jats:p>",
+        "DOI": "10.17694/bajece.402013",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2018-03-05T15:03:38Z",
+          "timestamp": 1520262218000
+        },
+        "page": "53-61",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Quaternion-Based Robust Satellite Attitude Tracking Control"
+        ],
+        "prefix": "10.17694",
+        "volume": "6",
+        "author": [
+          {
+            "given": "JANSET",
+            "family": "Dasdemir",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "7123",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              15
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref1",
+            "unstructured": "[1]\tG. Meyer, Design and Global Analysis of Spacecraft Attitude Control Systems, NASA TR R-361, March 1971."
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[2]\tJ. Y. Wen, K. Kreutz-Delgado, The Attitude Control Problem, IEEE Transactions on Automatic Control, vol. 36, no. 10, pp. 1148-1162, 1991.",
+            "DOI": "10.1109/9.90228"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[3]\tN. A. Chaturverdi, A. K. Sanyal, N. H. McClamroch, Rigid-body Attitude Control, IEEE Control Systems Magazine, vol. 31, no. 3, pp 30-51, 2011.",
+            "DOI": "10.1109/MCS.2011.940459"
+          },
+          {
+            "key": "ref4",
+            "unstructured": "[4]\tM. D. Shuster, A Survey of Attitude Representations, Journal of Astronautical Sciences, vol. 41, no.4, pp.439-517, 1993."
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[5]\tY. Bai, J. D. Biggs, F. B. Zazzera, N. Cui, Adaptive Attitude Tracking with Active Uncertainty Rejection, Journal of Guidance, Control, and Dynamics, vol. 41, no. 2, pp. 550-558, 2018.",
+            "DOI": "10.2514/1.G002391"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[6]\tD. Thakur, S. Srikant, M. R. Akella, Adaptive attitude-Tracking Control of Spacecraft with Uncertain Time-Varying Inertia Parameters, Journal of Guidance, Control, and Dynamics, vol. 38, no. 1, pp. 41-52, 2015.",
+            "DOI": "10.2514/1.G000457"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[7]\tL. Cao, X. L. Chen, Y. Zhao, Minimum Sliding Mode Error Feedback Control for Fault Tolerant Small Satellite Attitude Control, Advances in Space Research, vol. 53, no.2, pp. 309-324, 2014.",
+            "DOI": "10.1016/j.asr.2013.11.009"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[8]\tA. Sofyali, E. M. Jafarov, Integral Sliding Mode Control of Small Sattelite Attitude Motion by Purely Magnetic Actuation, IFAC Proc. Volumes, vol. 47, no.3, pp. 7947-7953, 2014.",
+            "DOI": "10.3182/20140824-6-ZA-1003.01679"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[9]\tZ-G. Zhou, Y-A. Zhang, X-N. Shi, D. Zhou, Robust attitude tracking for Rigid Spacecraft with Prescribed Transient Performance, Int. Journal of Control, vol. 90, Iss. 11, 2017.",
+            "DOI": "10.1080/00207179.2016.1250955"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[10]\tA. Safa, M. Baradarannia, H. Kharrati, S. Khanmohammadi, Robust Attitude Tracking Control for a Rigid Spacecraft Under Input Delays and Actuator Errors, Int. Journal of Control, vol. 0, Iss. 0, 2017.",
+            "DOI": "10.1080/00207179.2017.1385855"
+          },
+          {
+            "key": "ref11",
+            "unstructured": "[11]\tV. Utkin, J. Guldner, J. Shi, Sliding Mode Control in Electromechanical Systems, PA, Philadelphia, 1999."
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[12]\tJ. P. Hespanha, D. Liberzon, A. S. Morse, Overcoming The Limitations of Adaptive Control by means of Logic-based Switching, Syst. Contr. Lett., vol. 49, no. 1, pp. 49-65, 2003.",
+            "DOI": "10.1016/S0167-6911(02)00342-0"
+          },
+          {
+            "key": "ref13",
+            "unstructured": "[13]\tP. A. Ioannou, J. Sun, Robust Adaptive Control, NJ, Upper Saddle River: Prentice-Hall, 1996."
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[14]\tH. Gui, G. Vukovich, Global Finite-time Attitude Tracking via Quaternion Feedback, Syst, Contr. Lett., vol. 97, pp. 176-183, 2016.",
+            "DOI": "10.1016/j.sysconle.2016.09.017"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[15]\tS. Wu, G. Radice, Y. Gao, Z. Sun, Quaternion-based Finite-time Control for Spacecraft Attitude Tracking, Acta Astronica, vol. 69, n0. 1, pp. 48-58, 2011.",
+            "DOI": "10.1016/j.actaastro.2011.03.001"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[16]\tK. Lu, Y. Xia, Finit-time Fault-Tolerant Control for Rigid Spacecraft with Actuator Saturations, IET Control Theory & Appl., vol. 7, n0. 11, pp. 1529-1539, 2013.",
+            "DOI": "10.1049/iet-cta.2012.1031"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[17]\tA. Behal, W. Dixon, D. M. Dawson, B. Xian, Lyapunov-Based Control of Robotic Systems, CRC Press, 2010.",
+            "DOI": "10.1201/9781420006278"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[18]\tM. Wood, W. H. Chen, Attitude Control of Magnetically Actuated Satellites with an uneven Inertia Distribution, Aerospace Science and Technology, vol. 25, pp. 29-39, 2013.",
+            "DOI": "10.1016/j.ast.2011.12.005"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[19]\tB. T. Costic, D. M. Dawson, M. S. d. Queiroz, V. Kapila, Quaternion-Based Adaptive Attitude Tracking Controller Without Velocity Measurements, Journal of Guidance, Control and Dynamics, vol. 24, no. 6, pp. 1214-1222, 2001.",
+            "DOI": "10.2514/3.22618"
+          },
+          {
+            "key": "ref20",
+            "unstructured": "[20]\tB. Wie, Spacecraft Vehicle Dynamics and Control, AIAA, 1998."
+          },
+          {
+            "key": "ref21",
+            "unstructured": "[21]\tP. C. Hughes, Spacecraft Attitude Dynamics, Wiley, 1986."
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "[22]\tW. E. Dixon, A. Behal, D. M. Dawson, S. Nagarkatti, Nonlinear Control of Engineering Systems: A Lyapunov-Based Approach, MA, Boston: Birkhuser, 2003.",
+            "DOI": "10.1007/978-1-4612-0031-4"
+          }
+        ],
+        "container-title": [
+          "Balkan Journal of Electrical and Computer Engineering"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2024-03-27T13:49:38Z",
+          "timestamp": 1711547378000
+        },
+        "score": 37.63675,
+        "resource": {
+          "primary": {
+            "URL": "http://dergipark.org.tr/en/doi/10.17694/bajece.402013"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              15
+            ]
+          ]
+        },
+        "references-count": 22,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [
+              [
+                2018,
+                2,
+                28
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.17694/bajece.402013",
+        "ISSN": [
+          "2147-284X"
+        ],
+        "issn-type": [
+          {
+            "value": "2147-284X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              15
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

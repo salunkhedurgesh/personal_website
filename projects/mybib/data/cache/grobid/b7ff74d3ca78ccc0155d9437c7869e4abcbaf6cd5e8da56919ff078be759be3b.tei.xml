@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A new e cient algorithm for computing Gr obner bases (F 4 )</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Jean-Charles</forename><surname>Faugã</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">LIP6=CNRS UniversitÃ e Paris VI</orgName>
+								<address>
+									<addrLine>case 168 4 pl. Jussieu</addrLine>
+									<postCode>F-75252 Cedex 05</postCode>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A new e cient algorithm for computing Gr obner bases (F 4 )</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E22DF84DA7A3D6F227EBEE7563931D73</idno>
+					<note type="submission">Received 15 February 1998; received in ÿnal form 1 January 1999</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper introduces a new e cient algorithm for computing Gr obner bases. To avoid as much intermediate computation as possible, the algorithm computes successive truncated Gr obner bases and it replaces the classical polynomial reduction found in the Buchberger algorithm by the simultaneous reduction of several polynomials. This powerful reduction mechanism is achieved by means of a symbolic precomputation and by extensive use of sparse linear algebra methods. Current techniques in linear algebra used in Computer Algebra are reviewed together with other methods coming from the numerical ÿeld. Some previously untractable problems (Cyclic 9) are presented as well as an empirical comparison of a ÿrst implementation of this algorithm with other well known programs. This comparison pays careful attention to methodology issues. All the benchmarks and CPU times used in this paper are frequently updated and available on a Web page. Even though the new algorithm does not improve the worst case complexity it is several times faster than previous implementations both for integers and modulo p computations.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

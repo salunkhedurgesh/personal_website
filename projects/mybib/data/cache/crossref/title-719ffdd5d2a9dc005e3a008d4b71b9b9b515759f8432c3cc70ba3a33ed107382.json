@@ -1,0 +1,695 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4138965,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2026-03-28T02:37:58Z",
+          "timestamp": 1774665478593,
+          "version": "3.50.1"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 40,
+        "publisher": "Springer Nature Switzerland",
+        "isbn-type": [
+          {
+            "value": "9783031255540",
+            "type": "print"
+          },
+          {
+            "value": "9783031255557",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-031-25555-7_32",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              7
+            ]
+          ],
+          "date-time": "2023-03-07T09:20:13Z",
+          "timestamp": 1678180813000
+        },
+        "page": "468-484",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "What Can Algebraic Topology and Differential Geometry Teach Us About Intrinsic Dynamics and Global Behavior of Robots?"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Alin",
+            "family": "Albu-Schäffer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Arne",
+            "family": "Sachtler",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              8
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "32_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "49",
+            "DOI": "10.1016/j.arcontrol.2020.10.002",
+            "volume": "50",
+            "author": "A Albu-Schäffer",
+            "year": "2020",
+            "unstructured": "Albu-Schäffer, A., Della Santina, C.: A review on nonlinear modes in conservative mechanical systems. Annu. Rev. Control. 50, 49–71 (2020)",
+            "journal-title": "Annu. Rev. Control."
+          },
+          {
+            "issue": "2",
+            "key": "32_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "1910",
+            "DOI": "10.1109/LRA.2021.3061303",
+            "volume": "6",
+            "author": "A Albu-Schäffer",
+            "year": "2021",
+            "unstructured": "Albu-Schäffer, A., Lakatos, D., Stramigioli, S.: Strict nonlinear normal modes of systems characterized by scalar functions on Riemannian manifolds. IEEE Robotics and Automation Letters 6(2), 1910–1917 (2021)",
+            "journal-title": "IEEE Robotics and Automation Letters"
+          },
+          {
+            "issue": "1",
+            "key": "32_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "23",
+            "DOI": "10.1177/0278364907073776",
+            "volume": "26",
+            "author": "A Albu-Schäffer",
+            "year": "2007",
+            "unstructured": "Albu-Schäffer, A., Ott, C., Hirzinger, G.: A unified passivity-based control framework for position, torque and impedance control of flexible joint robots. Int. J. Robot. Res. 26(1), 23–39 (2007)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "32_CR4",
+            "series-title": "Graduate Texts in Mathematics",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4757-2063-1",
+            "volume-title": "Mathematical Methods of Classical Mechanics",
+            "author": "VI Arnold",
+            "year": "1989",
+            "unstructured": "Arnold, V.I.: Mathematical Methods of Classical Mechanics. Graduate Texts in Mathematics, 2nd edn. Springer, New York (1989)",
+            "edition": "2"
+          },
+          {
+            "key": "32_CR5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ascher, U.M.: Numerical Solution of Boundary Value Problems for Ordinary Differential Equations. Classics in Applied Mathematics. Society for Industrial and Applied Mathematics (SIAM), Philadelphia (1995)",
+            "DOI": "10.1137/1.9781611971231"
+          },
+          {
+            "issue": "48",
+            "key": "32_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "13045",
+            "DOI": "10.1523/JNEUROSCI.4334-06.2007",
+            "volume": "27",
+            "author": "A Biess",
+            "year": "2007",
+            "unstructured": "Biess, A., Liebermann, D.G., Flash, T.: A computational model for redundant human three-dimensional pointing movements: integration of independent spatial and temporal motor plans simplifies movement dynamics. J. Neurosci. 27(48), 13045–13064 (2007)",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "issue": "2",
+            "key": "32_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "1689",
+            "DOI": "10.1109/LRA.2022.3141156",
+            "volume": "7",
+            "author": "F Bjelonic",
+            "year": "2022",
+            "unstructured": "Bjelonic, F., Sachtler, A., Albu-Schaffer, A., Della Santina, C.: Experimental closed-loop excitation of nonlinear normal modes on an elastic industrial robot. IEEE Robot. Autom. Lett. 7(2), 1689–1696 (2022)",
+            "journal-title": "IEEE Robot. Autom. Lett."
+          },
+          {
+            "key": "32_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1016/S0921-8890(05)80025-9",
+            "volume": "6",
+            "author": "RA Brooks",
+            "year": "1990",
+            "unstructured": "Brooks, R.A.: Elephants don’t play chess. Robot. Auton. Syst. 6, 3–15 (1990). Designing Autonomous Agents",
+            "journal-title": "Robot. Auton. Syst."
+          },
+          {
+            "key": "32_CR9",
+            "volume-title": "Homological Algebra",
+            "author": "H Cartan",
+            "year": "1956",
+            "unstructured": "Cartan, H., Eilenberg, S.: Homological Algebra. Princeton University Press, Princeton (1956)"
+          },
+          {
+            "issue": "3",
+            "key": "32_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "237",
+            "DOI": "10.1016/S0370-1573(00)00069-7",
+            "volume": "337",
+            "author": "L Casetti",
+            "year": "2000",
+            "unstructured": "Casetti, L., Pettini, M., Cohen, E.G.D.: Geometric approach to Hamiltonian dynamics and statistical mechanics. Phys. Rep. 337(3), 237–341 (2000)",
+            "journal-title": "Phys. Rep."
+          },
+          {
+            "key": "32_CR11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1137/1.9781611972573",
+            "volume-title": "Recipes for Continuation",
+            "author": "H Dankowicz",
+            "year": "2013",
+            "unstructured": "Dankowicz, H., Schilder, F.: Recipes for Continuation. Society for Industrial and Applied Mathematics, Philadelphia (2013)"
+          },
+          {
+            "issue": "12",
+            "key": "32_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "123134",
+            "DOI": "10.1063/1.5119797",
+            "volume": "29",
+            "author": "L Di Cairano",
+            "year": "2019",
+            "unstructured": "Di Cairano, L., Gori, M., Pettini, M.: Coherent Riemanniangeometric description of Hamiltonian order and chaos with Jacobi metric. Chaos Interdisc. J. Nonlinear Sci. 29(12), 123134 (2019)",
+            "journal-title": "Chaos Interdisc. J. Nonlinear Sci."
+          },
+          {
+            "key": "32_CR13",
+            "unstructured": "Giambó, R., Giannoni, F., Piccione, P.: Multiple orthogonal geodesic chords and a proof of Seifert’s conjecture on brake orbits. arXiv:2002.09687 (2022)"
+          },
+          {
+            "key": "32_CR14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gluck, H., Ziller, W.: Existence of periodic motions of conservative systems. In: Seminar on Minimal Submanifolds (1983)",
+            "DOI": "10.1515/9781400881437-004"
+          },
+          {
+            "issue": "1",
+            "key": "32_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1006/aphy.1996.0104",
+            "volume": "251",
+            "author": "CG Gray",
+            "year": "1996",
+            "unstructured": "Gray, C.G., Karl, G., Novikov, V.A.: The four variational principles of mechanics. Ann. Phys. 251(1), 1–25 (1996)",
+            "journal-title": "Ann. Phys."
+          },
+          {
+            "key": "32_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Grinspun, E., Wardetzky, M.: Discrete differential geometry: an applied introduction. In: SIGGRAPH (2008)",
+            "DOI": "10.1145/1508044.1508053"
+          },
+          {
+            "key": "32_CR17",
+            "volume-title": "Algebraic Topology",
+            "author": "A Hatcher",
+            "year": "2002",
+            "unstructured": "Hatcher, A.: Algebraic Topology. Cambridge University Press, Cambridge (2002)"
+          },
+          {
+            "issue": "1",
+            "key": "32_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1115/1.3140702",
+            "volume": "107",
+            "author": "N Hogan",
+            "year": "1985",
+            "unstructured": "Hogan, N.: Impedance control: an approach to manipulation: part I-theory; part II-implementation; part III-applications. J. Dyn. Syst. Meas. Control 107(1), 1–24 (1985)",
+            "journal-title": "J. Dyn. Syst. Meas. Control"
+          },
+          {
+            "key": "32_CR19",
+            "series-title": "Solid Mechanics and its Applications",
+            "doi-asserted-by": "publisher",
+            "first-page": "273",
+            "DOI": "10.1007/978-94-011-5320-1_28",
+            "volume-title": "IUTAM Symposium on New Applications of Nonlinear and Chaotic Dynamics in Mechanics",
+            "author": "SJ Hogan",
+            "year": "1999",
+            "unstructured": "Hogan, S.J., Homer, M.E.: A method for finding all possible periodic orbits in piecewise continuous mechanical systems of arbitrary dimension. In: Moon, F.C. (ed.) IUTAM Symposium on New Applications of Nonlinear and Chaotic Dynamics in Mechanics. Solid Mechanics and its Applications, vol. 63, pp. 273–282. Springer, Dordrecht (1999). https://doi.org/10.1007/978-94-011-5320-1_28"
+          },
+          {
+            "issue": "2",
+            "key": "32_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "207",
+            "DOI": "10.1137/S0036144504445133",
+            "volume": "48",
+            "author": "P Holmes",
+            "year": "2006",
+            "unstructured": "Holmes, P., Full, R.J., Koditschek, D., Guckenheimer, J.: The dynamics of legged locomotion: models, analyses, and challenges. SIAM Rev. 48(2), 207–304 (2006)",
+            "journal-title": "SIAM Rev."
+          },
+          {
+            "key": "32_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "109403",
+            "DOI": "10.1016/j.automatica.2020.109403",
+            "volume": "125",
+            "author": "B Jahn",
+            "year": "2021",
+            "unstructured": "Jahn, B., Watermann, L., Reger, J.: On the design of stable periodic orbits of a triple pendulum on a cart with experimental validation. Automatica 125, 109403 (2021)",
+            "journal-title": "Automatica"
+          },
+          {
+            "issue": "1",
+            "key": "32_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "170",
+            "DOI": "10.1016/j.ymssp.2008.04.002",
+            "volume": "23",
+            "author": "G Kerschen",
+            "year": "2009",
+            "unstructured": "Kerschen, G., Peeters, M., Golinval, J.C., Vakakis, A.F.: Nonlinear normal modes, part I: a useful framework for the structural dynamicist. Mech. Syst. Signal Process. 23(1), 170–194 (2009)",
+            "journal-title": "Mech. Syst. Signal Process."
+          },
+          {
+            "issue": "1",
+            "key": "32_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "43",
+            "DOI": "10.1109/JRA.1987.1087068",
+            "volume": "3",
+            "author": "O Khatib",
+            "year": "1987",
+            "unstructured": "Khatib, O.: A Unified Approach for Motion and Force Control of Robot Manipulators: The Operational Space Formulation. IEEE J. Robot. Autom. 3(1), 43–53 (1987)",
+            "journal-title": "IEEE J. Robot. Autom."
+          },
+          {
+            "key": "32_CR24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-91755-9",
+            "volume-title": "Introduction to Riemannian Manifolds",
+            "author": "JM Lee",
+            "year": "2018",
+            "unstructured": "Lee, J.M.: Introduction to Riemannian Manifolds. Springer, Heidelberg (2018). https://doi.org/10.1007/978-3-319-91755-9"
+          },
+          {
+            "key": "32_CR25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4419-7940-7",
+            "volume-title": "Introduction to Topological Manifolds",
+            "author": "JM Lee",
+            "year": "2011",
+            "unstructured": "Lee, J.M.: Introduction to Topological Manifolds. Springer, Heidelberg (2011). https://doi.org/10.1007/978-1-4419-7940-7"
+          },
+          {
+            "key": "32_CR26",
+            "unstructured": "de Luca, A., Lucibello, P.: A general algorithm for dynamic feedback linearization of robots with elastic joints. In: IEEE International Conference on Robotics and Automationv Vol. 1, 504–510 (1998)"
+          },
+          {
+            "key": "32_CR27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/9781316661239",
+            "volume-title": "Modern Robotics: Mechanics, Planning, and Control",
+            "author": "KM Lynch",
+            "year": "2017",
+            "unstructured": "Lynch, K.M., Park, F.C.: Modern Robotics: Mechanics, Planning, and Control, 1st edn. Cambridge University Press, Cambridge (2017)",
+            "edition": "1"
+          },
+          {
+            "issue": "2",
+            "key": "32_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "62",
+            "DOI": "10.1177/027836499000900206",
+            "volume": "9",
+            "author": "T McGeer",
+            "year": "1990",
+            "unstructured": "McGeer, T.: Passive dynamic walking. Int. J. Robot. Res. 9(2), 62–82 (1990)",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "32_CR29",
+            "volume-title": "Riemannian Geometry: A Beginners Guide",
+            "author": "F Morgan",
+            "year": "2020",
+            "unstructured": "Morgan, F.: Riemannian Geometry: A Beginners Guide, 2nd edn. A K Peters/CRC Press, New York (2020)",
+            "edition": "2"
+          },
+          {
+            "key": "32_CR30",
+            "volume-title": "A Mathematical Introduction to Robotic Manipulation",
+            "author": "RM Murray",
+            "year": "1994",
+            "unstructured": "Murray, R.M., Sastry, S.S., Li, Z.: A Mathematical Introduction to Robotic Manipulation, 1st edn. CRC Press Inc., Boca Raton (1994)",
+            "edition": "1"
+          },
+          {
+            "key": "32_CR31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/j.ctv1cmsmx5",
+            "volume-title": "Visual Differential Geometry and Forms: A Mathematical Drama in Five Acts",
+            "author": "T Needham",
+            "year": "2021",
+            "unstructured": "Needham, T.: Visual Differential Geometry and Forms: A Mathematical Drama in Five Acts. Princeton University Press, Princeton (2021)"
+          },
+          {
+            "key": "32_CR32",
+            "series-title": "Lecture Notes in Computational Science and Engineering",
+            "doi-asserted-by": "publisher",
+            "first-page": "211",
+            "DOI": "10.1007/3-540-28438-9_19",
+            "volume-title": "Automatic Differentiation: Applications, Theory, and Implementations",
+            "author": "E Phipps",
+            "year": "2006",
+            "unstructured": "Phipps, E., Casey, R., Guckenheimer, J.: Periodic orbits of hybrid systems and parameter estimation via AD. In: Bücker, M., Corliss, G., Naumann, U., Hovland, P., Norris, B. (eds.) Automatic Differentiation: Applications, Theory, and Implementations. LNCSE, vol. 50, pp. 211–223. Springer, Heidelberg (2006). https://doi.org/10.1007/3-540-28438-9_19"
+          },
+          {
+            "key": "32_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "155",
+            "DOI": "10.1016/S0065-2156(08)70008-5",
+            "volume": "9",
+            "author": "RM Rosenberg",
+            "year": "1966",
+            "unstructured": "Rosenberg, R.M.: On nonlinear vibrations of systems with many degrees of freedom. Adv. Appl. Mech. 9, 155–242 (1966)",
+            "journal-title": "Adv. Appl. Mech."
+          },
+          {
+            "issue": "5",
+            "key": "32_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "615",
+            "DOI": "10.5194/npg-14-615-2007",
+            "volume": "14",
+            "author": "Y Saiki",
+            "year": "2007",
+            "unstructured": "Saiki, Y.: Numerical detection of unstable periodic orbits in continuous time dynamical systems with chaotic behaviors. Nonlinear Process. Geophys. 14(5), 615–620 (2007)",
+            "journal-title": "Nonlinear Process. Geophys."
+          },
+          {
+            "key": "32_CR35",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Segerman, H.: Visualizing Mathematics with 3D Printing. Johns Hopkins University Press (2016)",
+            "DOI": "10.1353/book.47479"
+          },
+          {
+            "issue": "2",
+            "key": "32_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "197",
+            "DOI": "10.1007/BF01291002",
+            "volume": "51",
+            "author": "H Seifert",
+            "year": "1948",
+            "unstructured": "Seifert, H.: Periodische Bewegungen mechanischer Systeme. Math. Zeitschrift 51(2), 197–216 (1948)",
+            "journal-title": "Math. Zeitschrift"
+          },
+          {
+            "issue": "1",
+            "key": "32_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "85",
+            "DOI": "10.1006/jsvi.1993.1198",
+            "volume": "164",
+            "author": "SW Shaw",
+            "year": "1993",
+            "unstructured": "Shaw, S.W., Pierre, C.: Normal modes for non-linear vibratory systems. J. Sound Vibr. 164(1), 85–124 (1993)",
+            "journal-title": "J. Sound Vibr."
+          },
+          {
+            "issue": "6",
+            "key": "32_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "491",
+            "DOI": "10.1119/1.16860",
+            "volume": "60",
+            "author": "T Shinbrot",
+            "year": "1992",
+            "unstructured": "Shinbrot, T., Grebogi, C., Wisdom, J., Yorke, J.A.: Chaos in a double pendulum. Am. J. Phys. 60(6), 491–499 (1992)",
+            "journal-title": "Am. J. Phys."
+          },
+          {
+            "key": "32_CR39",
+            "volume-title": "Functional Differential Geometry",
+            "author": "GJ Sussman",
+            "year": "2012",
+            "unstructured": "Sussman, G.J., Wisdom, J.: Functional Differential Geometry. The MIT Press, Cambridge (2012)"
+          },
+          {
+            "key": "32_CR40",
+            "volume-title": "Structure and Interpretation of Classical Mechanics",
+            "author": "GJ Sussman",
+            "year": "2015",
+            "unstructured": "Sussman, G.J., Wisdom, J.: Structure and Interpretation of Classical Mechanics, 2nd edn. The MIT Press, Cambridge (2015)",
+            "edition": "2"
+          }
+        ],
+        "container-title": [
+          "Springer Proceedings in Advanced Robotics",
+          "Robotics Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-25555-7_32",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2024-07-20T05:07:55Z",
+          "timestamp": 1721452075000
+        },
+        "score": 66.82216,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-031-25555-7_32"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783031255540",
+          "9783031255557"
+        ],
+        "references-count": 40,
+        "URL": "https://doi.org/10.1007/978-3-031-25555-7_32",
+        "ISSN": [
+          "2511-1256",
+          "2511-1264"
+        ],
+        "issn-type": [
+          {
+            "value": "2511-1256",
+            "type": "print"
+          },
+          {
+            "value": "2511-1264",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "8 March 2023",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "ISRR",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "The International Symposium of Robotics Research",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Geneva",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Switzerland",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2022",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "25 September 2022",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "30 September 2022",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "isrr2022",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "https://h2t-projects.webarchiv.kit.edu/ISRR2022/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

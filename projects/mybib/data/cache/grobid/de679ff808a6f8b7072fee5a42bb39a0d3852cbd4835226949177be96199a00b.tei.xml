@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Workspace Analysis in the Design Parameter Space of a 2-DOF Spherical Parallel Mechanism for a Prescribed Workspace: Application to the Otologic Surgery</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-01-11">January 11, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Chablat</surname></persName>
+							<email>damien.chablat@cnrs.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire des Sciences du Numérique de Nantes</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 6004</orgName>
+								<address>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guillaume</forename><surname>Michel</surname></persName>
+							<email>guillaume.michel@chu-nantes.fr</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CHU de Nantes</orgName>
+								<address>
+									<addrLine>1, place A. Ricordeau</addrLine>
+									<postCode>44093</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Bordure</surname></persName>
+							<email>philippe.bordure@chu-nantes.fr</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CHU de Nantes</orgName>
+								<address>
+									<addrLine>1, place A. Ricordeau</addrLine>
+									<postCode>44093</postCode>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Swaminath</forename><surname>Venkateswaran</surname></persName>
+							<email>swaminath.venkateswaran@ls2n.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire des Sciences du Numérique de Nantes</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 6004</orgName>
+								<address>
+									<settlement>Nantes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ranjan</forename><surname>Jha</surname></persName>
+							<email>ranjan.jha@csio.res.in</email>
+							<affiliation key="aff2">
+								<orgName type="department">BioMedical Instrumentation Division</orgName>
+								<orgName type="institution">CSIR-Central Scientific Instruments Organisation</orgName>
+								<address>
+									<region>Chandigarh</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Workspace Analysis in the Design Parameter Space of a 2-DOF Spherical Parallel Mechanism for a Prescribed Workspace: Application to the Otologic Surgery</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-01-11">January 11, 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">85F47442EF37EBAC818DED86A0A42F20</idno>
+					<idno type="DOI">10.1016/j.mechmachtheory.2020.104224</idno>
+					<note type="submission">Submitted on 11 Jan 2021 Preprint submitted to Journal of Mechanism and Machine Theory</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Spherical Mechanism</term>
+					<term>Otologic Surgery</term>
+					<term>Cusp points</term>
+					<term>Parallel</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>HAL is a multidisciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from teaching and research institutions in France or abroad, or from public or private research centers. L&apos;archive ouverte pluridisciplinaire HAL, est destinée au dépôt et à la diffusion de documents scientifiques de niveau recherche, publiés ou non, émanant des établissements d&apos;enseignement et de recherche français ou étrangers, des laboratoires publics ou privés.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="fr">
+	</text>
+</TEI>

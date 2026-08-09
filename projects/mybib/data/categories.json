@@ -1,0 +1,23 @@
+{
+  "categories": [
+    {"id": "kinematics", "label": "Kinematics"},
+    {"id": "robot-learning", "label": "Robot Learning"},
+    {"id": "learning-from-demonstration", "label": "Learning from Demonstration"},
+    {"id": "motion-planning", "label": "Motion Planning"},
+    {"id": "screw-theory", "label": "Screw Theory"},
+    {"id": "geometric-algebra", "label": "Geometric Algebra"},
+    {"id": "medical-robotics", "label": "Medical Robotics"},
+    {"id": "continuum-robots", "label": "Continuum Robots"},
+    {"id": "optimization", "label": "Optimization"},
+    {"id": "control", "label": "Control"}
+  ],
+  "projects": [
+    {"id": "kinematic-intelligence", "label": "Kinematic Intelligence"},
+    {"id": "cross-robot-skill-transfer", "label": "Cross-Robot Skill Transfer"},
+    {"id": "singularity-aware-planning", "label": "Singularity-Aware Planning"},
+    {"id": "screw-theory-course", "label": "Screw Theory Course"},
+    {"id": "medical-robotics", "label": "Medical Robotics"},
+    {"id": "cnrs-project", "label": "CNRS Project"},
+    {"id": "iisc-project", "label": "IISc Project"}
+  ]
+}

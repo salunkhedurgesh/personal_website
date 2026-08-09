@@ -1,0 +1,382 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3566869,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              23
+            ]
+          ],
+          "date-time": "2026-01-23T12:03:19Z",
+          "timestamp": 1769169799639,
+          "version": "3.49.0"
+        },
+        "reference-count": 16,
+        "publisher": "Informa UK Limited",
+        "issue": "4",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Acta Oto-Laryngologica"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.3109/00016489.2011.642813",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2012-03-05T20:46:06Z",
+          "timestamp": 1330980366000
+        },
+        "page": "355-360",
+        "source": "Crossref",
+        "is-referenced-by-count": 80,
+        "title": [
+          "A self-developed and constructed robot for minimally invasive cochlear implantation"
+        ],
+        "prefix": "10.3109",
+        "volume": "132",
+        "author": [
+          {
+            "given": "Brett",
+            "family": "Bell",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Christof",
+            "family": "Stieger",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nicolas",
+            "family": "Gerber",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Andreas",
+            "family": "Arnold",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Claude",
+            "family": "Nauer",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Volkmar",
+            "family": "Hamacher",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Martin",
+            "family": "Kompis",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Lutz",
+            "family": "Nolte",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Marco",
+            "family": "Caversaccio",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stefan",
+            "family": "Weber",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              4
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "CIT0001",
+            "doi-asserted-by": "crossref",
+            "first-page": "715",
+            "DOI": "10.1080/00016480260349773",
+            "volume": "122",
+            "author": "Häusler R",
+            "year": "2002",
+            "journal-title": "Acta Otolaryngol"
+          },
+          {
+            "key": "CIT0002",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1159/000067578"
+          },
+          {
+            "key": "CIT0003",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1097/00129492-200401000-00008",
+            "volume": "25",
+            "author": "Kronenberg J",
+            "year": "2004",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "CIT0004",
+            "doi-asserted-by": "crossref",
+            "first-page": "325",
+            "DOI": "10.1097/01.mao.0000253287.86737.2e",
+            "volume": "28",
+            "author": "Warren FM",
+            "year": "2007",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "CIT0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "764",
+            "DOI": "10.1258/0022215042450643",
+            "volume": "118",
+            "author": "Schipper J",
+            "year": "2004",
+            "journal-title": "J Laryngol Otol"
+          },
+          {
+            "key": "CIT0006",
+            "doi-asserted-by": "crossref",
+            "first-page": "557",
+            "DOI": "10.1097/01.mao.0000178117.61537.5b",
+            "volume": "26",
+            "author": "Labadie RF",
+            "year": "2005",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "CIT0008",
+            "doi-asserted-by": "crossref",
+            "first-page": "421",
+            "DOI": "10.1016/j.otohns.2009.11.029",
+            "volume": "142",
+            "author": "Balachandran R",
+            "year": "2010",
+            "journal-title": "Otolaryngol Head Neck Surg"
+          },
+          {
+            "key": "CIT0009",
+            "doi-asserted-by": "crossref",
+            "first-page": "273",
+            "DOI": "10.1007/s11548-009-0292-3",
+            "volume": "4",
+            "author": "Labadie RF",
+            "year": "2009",
+            "journal-title": "Int J Comput Assist Radiol Surg"
+          },
+          {
+            "key": "CIT0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "475",
+            "DOI": "10.1007/s11548-009-0360-8",
+            "volume": "4",
+            "author": "Majdani O",
+            "year": "2009",
+            "journal-title": "Int J Comput Assist Radiol Surg"
+          },
+          {
+            "key": "CIT0011",
+            "doi-asserted-by": "crossref",
+            "first-page": "955",
+            "DOI": "10.1007/s00405-008-0825-3",
+            "volume": "266",
+            "author": "Klenzner T",
+            "year": "2009",
+            "journal-title": "Eur Arch Otorhinolaryngol"
+          },
+          {
+            "key": "CIT0012",
+            "doi-asserted-by": "crossref",
+            "first-page": "633",
+            "DOI": "10.1243/09544119JEIM781",
+            "volume": "224",
+            "author": "Baron S",
+            "year": "2010",
+            "journal-title": "Proc Inst Mech Eng H"
+          },
+          {
+            "key": "CIT0013",
+            "doi-asserted-by": "crossref",
+            "first-page": "638",
+            "DOI": "10.1524/auto.2011.0956",
+            "volume": "59",
+            "author": "Bell B",
+            "year": "2011",
+            "journal-title": "Automatisierungstechnik"
+          },
+          {
+            "key": "CIT0014",
+            "doi-asserted-by": "crossref",
+            "first-page": "447",
+            "DOI": "10.1109/42.611354",
+            "volume": "16",
+            "author": "Maurer CR",
+            "year": "1997",
+            "journal-title": "IEEE Trans Med Imag"
+          },
+          {
+            "key": "CIT0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "129",
+            "DOI": "10.1097/01.mao.0000244364.16826.09",
+            "volume": "28",
+            "author": "Bartling SH",
+            "year": "2007",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "CIT0016",
+            "doi-asserted-by": "crossref",
+            "first-page": "120",
+            "DOI": "10.1097/mao.0b013e318157f7d8",
+            "volume": "29",
+            "author": "Majdani O",
+            "year": "2008",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "CIT0017",
+            "first-page": "2325",
+            "volume": "1",
+            "author": "Zheng G",
+            "year": "2010",
+            "journal-title": "Conf Proc IEEE Eng Med Biol Soc"
+          }
+        ],
+        "container-title": [
+          "Acta Oto-Laryngologica"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.3109/00016489.2011.642813",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              24
+            ]
+          ],
+          "date-time": "2019-06-24T23:22:14Z",
+          "timestamp": 1561418534000
+        },
+        "score": 28.4733,
+        "resource": {
+          "primary": {
+            "URL": "http://www.tandfonline.com/doi/full/10.3109/00016489.2011.642813"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              4
+            ]
+          ]
+        },
+        "references-count": 16,
+        "journal-issue": {
+          "issue": "4",
+          "published-online": {
+            "date-parts": [
+              [
+                2012,
+                3,
+                25
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2012,
+                4
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.3109/00016489.2011.642813"
+        ],
+        "URL": "https://doi.org/10.3109/00016489.2011.642813",
+        "ISSN": [
+          "0001-6489",
+          "1651-2251"
+        ],
+        "issn-type": [
+          {
+            "value": "0001-6489",
+            "type": "print"
+          },
+          {
+            "value": "1651-2251",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              4
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

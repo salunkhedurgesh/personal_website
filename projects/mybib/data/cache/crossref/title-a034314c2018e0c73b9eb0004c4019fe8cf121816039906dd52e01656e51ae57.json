@@ -1,0 +1,270 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1017683,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              12
+            ]
+          ],
+          "date-time": "2024-09-12T13:19:46Z",
+          "timestamp": 1726147186975
+        },
+        "reference-count": 11,
+        "publisher": "Elsevier BV",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1987,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1987-01-01T00:00:00Z",
+              "timestamp": 536457600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1987,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/0094-114x(87)90011-5",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              2,
+              10
+            ]
+          ],
+          "date-time": "2005-02-10T22:16:16Z",
+          "timestamp": 1108073776000
+        },
+        "page": "277-289",
+        "source": "Crossref",
+        "is-referenced-by-count": 17,
+        "title": [
+          "Boundary surfaces and accessibility regions for regional structures of manipulators"
+        ],
+        "prefix": "10.1016",
+        "volume": "22",
+        "author": [
+          {
+            "given": "Ming-Shu",
+            "family": "Hsu",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Dilip",
+            "family": "Kohli",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB1",
+            "doi-asserted-by": "crossref",
+            "first-page": "265",
+            "DOI": "10.1016/0094-114X(87)90010-3",
+            "article-title": "The Jacobian analysis of workspaces of mechanical manipulators",
+            "volume": "22",
+            "author": "Kohli",
+            "year": "1987",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB2",
+            "article-title": "Performance evaluation of manipulators from a kinematic viewpoint",
+            "author": "Roth",
+            "year": "1975",
+            "journal-title": "NBS Special Publication Performance Evaluation of Programmable Robots and Manipulators"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB3",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1115/1.4011045",
+            "article-title": "A kinematic notation for lower-pair mechanisms based on matrices",
+            "author": "Denavit",
+            "year": "1955",
+            "journal-title": "J. appl. Mech."
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB4",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1115/1.3254968",
+            "article-title": "The workspaces of a mechanical manipulator",
+            "author": "Kumar",
+            "year": "1981",
+            "journal-title": "ASME Jl Mech. Design"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB5",
+            "doi-asserted-by": "crossref",
+            "first-page": "803",
+            "DOI": "10.1115/1.3254990",
+            "article-title": "Accessible region and synthesis of robot arms",
+            "volume": "103",
+            "author": "Tsai",
+            "year": "1981",
+            "journal-title": "ASME Jl Mech. Design"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB6",
+            "series-title": "Proceedings of the 7th Applied Mechanisms Conference",
+            "first-page": "III-1",
+            "article-title": "The effect of link parameters on the working space of general 3R robot arms",
+            "author": "Tsai",
+            "year": "1981"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB7",
+            "article-title": "An algorithm for the workspace of a general N-R robot",
+            "author": "Tsai",
+            "year": "1982",
+            "journal-title": "ASME Paper No. 82-DET-37"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB8",
+            "article-title": "The dextrous workspace",
+            "author": "Kumar",
+            "year": "1981",
+            "journal-title": "ASME Paper No. 80-DET-108"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB9",
+            "article-title": "Design considerations for manipulator workspace",
+            "author": "Gupta",
+            "year": "1982",
+            "journal-title": "ASME Paper No. 81-DET-79"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB10",
+            "article-title": "On the evaluation of manipulator workspace",
+            "author": "Lee",
+            "year": "1982",
+            "journal-title": "ASME Paper No. 82-DET-126"
+          },
+          {
+            "key": "10.1016/0094-114X(87)90011-5_BIB11",
+            "article-title": "On the workspace of mechanical manipulators",
+            "author": "Yang",
+            "year": "1982",
+            "journal-title": "ASME Paper No. 82-DET-127"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X87900115?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X87900115?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              5
+            ]
+          ],
+          "date-time": "2021-07-05T01:00:17Z",
+          "timestamp": 1625446817000
+        },
+        "score": 29.73319,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/0094114X87900115"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1987,
+              1
+            ]
+          ]
+        },
+        "references-count": 11,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                1987,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "0094114X87900115"
+        ],
+        "URL": "https://doi.org/10.1016/0094-114x(87)90011-5",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1987,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

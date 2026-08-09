@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Determination of the workspace of planar parallel manipulators with joint limits</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">C16ment</forename><forename type="middle">M</forename><surname>Gosselin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dgpartement de Gdnie Mdcanique</orgName>
+								<orgName type="institution">Universitd Laval</orgName>
+								<address>
+									<postCode>GIK 7P4</postCode>
+									<region>Qudbec Qudbec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Jean</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dgpartement de Gdnie Mdcanique</orgName>
+								<orgName type="institution">Universitd Laval</orgName>
+								<address>
+									<postCode>GIK 7P4</postCode>
+									<region>Qudbec Qudbec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Determination of the workspace of planar parallel manipulators with joint limits</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F3655D5D3999274499EDD84916A560EE</idno>
+					<note type="submission">Received 27 June 1994; revised 1 February 1995; accepted 28 April 1995</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The determination of the workspace of robotic manipulators is a very important issue in the context of kinematic design, especially for parallel manipulators which are known to have a small workspace. This paper presents an algorithm for the efficient determination of the workspace of planar three-degree-of-freedom parallel manipulators. The algorithm accounts for the physical limits that can exist on both actuated and passive joints. Limiting arcs and line segments in the Cartesian space for each of the kinematic chains connecting the base to the platform are first defined and are then intersected. Finally, the boundary of the real workspace is constructed. Using the direction of motion allowed at each of the limits, the area of the workspace can then be computed, at a very low cost, using the Gauss Divergence Theorem. A graphical represent~ion of the workspace can also be obtained in 2D and in 3D. The algorithm derived here has been implemented in a Computer-Aided Design package specifically devoted to the kinematic design of parallel manipulators. Examples of results obtained with the computer implementation of the algorithm are given.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

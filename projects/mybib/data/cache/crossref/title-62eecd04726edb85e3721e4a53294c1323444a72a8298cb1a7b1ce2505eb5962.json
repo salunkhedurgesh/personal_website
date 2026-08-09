@@ -1,0 +1,196 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3130060,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T11:12:10Z",
+          "timestamp": 1777461130917,
+          "version": "3.51.4"
+        },
+        "reference-count": 0,
+        "publisher": "American Psychological Association (APA)",
+        "issue": "1",
+        "funder": [
+          {
+            "DOI": "10.13039/100000026",
+            "name": "National Institute on Drug Abuse",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "R21-DA14699"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "R21-DA14699"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100000026",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100000025",
+            "name": "National Institute of Mental Health",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "MH019879"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "MH019879"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100000025",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+        ],
+        "DOI": "10.1037/0278-7393.34.1.167",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2008-01-15T04:44:51Z",
+          "timestamp": 1200372291000
+        },
+        "page": "167-185",
+        "source": "Crossref",
+        "is-referenced-by-count": 64,
+        "title": [
+          "Decision making and learning while taking sequential risks."
+        ],
+        "prefix": "10.1037",
+        "volume": "34",
+        "author": [
+          {
+            "given": "Timothy J.",
+            "family": "Pleskac",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "15",
+        "published-online": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://psycnet.apa.org/journals/xlm/34/1/167.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2024-02-06T00:45:02Z",
+          "timestamp": 1707180302000
+        },
+        "score": 36.00196,
+        "resource": {
+          "primary": {
+            "URL": "https://doi.apa.org/doi/10.1037/0278-7393.34.1.167"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [
+              [
+                2008
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "2007-19381-011",
+          "18194061"
+        ],
+        "URL": "https://doi.org/10.1037/0278-7393.34.1.167",
+        "ISSN": [
+          "1939-1285",
+          "0278-7393"
+        ],
+        "issn-type": [
+          {
+            "value": "1939-1285",
+            "type": "electronic"
+          },
+          {
+            "value": "0278-7393",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

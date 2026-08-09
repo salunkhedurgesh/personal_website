@@ -1,0 +1,140 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 423,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2022-04-04T12:53:11Z",
+          "timestamp": 1649076791931
+        },
+        "reference-count": 0,
+        "publisher": "American Medical Association (AMA)",
+        "issue": "7",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "JAMA"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1894,
+              8,
+              18
+            ]
+          ]
+        },
+        "DOI": "10.1001/jama.1894.02421120030006",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              29
+            ]
+          ],
+          "date-time": "2011-11-29T00:09:25Z",
+          "timestamp": 1322525365000
+        },
+        "page": "280",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Charaka-Samhita."
+        ],
+        "prefix": "10.1001",
+        "volume": "XXIII",
+        "member": "10",
+        "container-title": [
+          "JAMA: The Journal of the American Medical Association"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://jamanetwork.com/journals/jama/fullarticle/449048",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2016,
+              12,
+              16
+            ]
+          ],
+          "date-time": "2016-12-16T18:38:17Z",
+          "timestamp": 1481913497000
+        },
+        "score": 20.299513,
+        "resource": {
+          "primary": {
+            "URL": "http://jama.jamanetwork.com/article.aspx?doi=10.1001/jama.1894.02421120030006"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1894,
+              8,
+              18
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "7",
+          "published-print": {
+            "date-parts": [
+              [
+                1894,
+                8,
+                18
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1001/jama.1894.02421120030006",
+        "ISSN": [
+          "0098-7484"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-7484",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1894,
+              8,
+              18
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

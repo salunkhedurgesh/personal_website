@@ -1,0 +1,304 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1653412,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2024-10-23T00:36:18Z",
+          "timestamp": 1729643778392,
+          "version": "3.28.0"
+        },
+        "reference-count": 25,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/iros.2006.281905",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              1,
+              19
+            ]
+          ],
+          "date-time": "2007-01-19T10:43:41Z",
+          "timestamp": 1169203421000
+        },
+        "page": "4157-4162",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Topological characterization of mobile robot behavior"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Aurelien",
+            "family": "Hazan",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Frederic",
+            "family": "Davesne",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Vincent",
+            "family": "Vigneron",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Hichem",
+            "family": "Maaref",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0167-2789(92)90111-Y"
+          },
+          {
+            "key": "17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2004.1389727"
+          },
+          {
+            "key": "18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/PhysRevA.40.4028"
+          },
+          {
+            "key": "15",
+            "article-title": "Automated robot behavior recognition applied to robotic soccer",
+            "author": "han",
+            "year": "1999",
+            "journal-title": "Proc UCAI-99 Workshop on Team Behaviors and Plan"
+          },
+          {
+            "key": "16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/PhysRevA.45.3403"
+          },
+          {
+            "key": "13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0167-2789(90)90087-6"
+          },
+          {
+            "key": "14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.166424"
+          },
+          {
+            "key": "11",
+            "article-title": "The Player/Stage Project: Tools for Multi-Robot and distributed sensor systems",
+            "author": "gerkey",
+            "year": "2003",
+            "journal-title": "Proc ICAR"
+          },
+          {
+            "journal-title": "Chaotic dynamics of a behavior-based miniature mobile robot Effects of environment and control Neural Networks",
+            "year": "2005",
+            "author": "islam",
+            "key": "12"
+          },
+          {
+            "key": "21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2005.09.009"
+          },
+          {
+            "journal-title": "The behavior or a robot is chaotic AISB Journal",
+            "year": "2003",
+            "author": "nehmzow",
+            "key": "20"
+          },
+          {
+            "key": "22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1013635829250"
+          },
+          {
+            "journal-title": "Dynamics of behalor Theory and applications for autonomous robot architectures Robotics and Autonomous Systems",
+            "year": "1995",
+            "author": "scho?ner",
+            "key": "23"
+          },
+          {
+            "key": "24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-79629-6_2"
+          },
+          {
+            "key": "25",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/3-540-45324-5_9",
+            "article-title": "Behavior classification with Self-organizing Maps",
+            "volume": "2019",
+            "author": "wu?nstel",
+            "year": "2001",
+            "journal-title": "Lecture Notes in Computer Science"
+          },
+          {
+            "key": "3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0921-8890(96)00063-2"
+          },
+          {
+            "key": "2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/PhysRevLett.58.2387"
+          },
+          {
+            "key": "10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2001.977150"
+          },
+          {
+            "journal-title": "Analysis of Observed Chaotic Data",
+            "year": "1995",
+            "author": "abarbanel",
+            "key": "1"
+          },
+          {
+            "key": "7",
+            "article-title": "Fundamental limitations for estimating dimensions and Lyapunov exponents in dynamical systems",
+            "volume": "56",
+            "author": "eckmann",
+            "year": "1987",
+            "journal-title": "Physica D"
+          },
+          {
+            "key": "6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0167-2789(91)90227-Z"
+          },
+          {
+            "key": "5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.88137"
+          },
+          {
+            "journal-title": "Order Within Chaos Towards a Deterministic Approach to Turbulence",
+            "year": "1986",
+            "author": "berge",
+            "key": "4"
+          },
+          {
+            "journal-title": "The Topology of Chaos Alice in Stretch and Squeezeland",
+            "year": "2002",
+            "author": "gilmore",
+            "key": "9"
+          },
+          {
+            "key": "8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/PhysRevE.51.2950"
+          }
+        ],
+        "event": {
+          "name": "2006 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+          "start": {
+            "date-parts": [
+              [
+                2006,
+                10,
+                9
+              ]
+            ]
+          },
+          "location": "Beijing, China",
+          "end": {
+            "date-parts": [
+              [
+                2006,
+                10,
+                15
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2006 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/4058334/4058335/04059062.pdf?arnumber=4059062",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2017-06-17T09:20:15Z",
+          "timestamp": 1497691215000
+        },
+        "score": 23.94172,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/4059062/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              10
+            ]
+          ]
+        },
+        "references-count": 25,
+        "URL": "https://doi.org/10.1109/iros.2006.281905",
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              10
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5154843,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T13:41:48Z",
+          "timestamp": 1725457308548
+        },
+        "publisher-location": "London",
+        "reference-count": 4,
+        "publisher": "Springer-Verlag",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "3540198342"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1007/bfb0031427",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              12,
+              11
+            ]
+          ],
+          "date-time": "2005-12-11T10:26:43Z",
+          "timestamp": 1134296803000
+        },
+        "page": "13-22",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "New manipulators with simple inverse kinematics"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Constantinos",
+            "family": "Mavroidis",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Bernard",
+            "family": "Roth",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "2_CR1",
+            "volume-title": "Proceedings of the 5th International Symposium on Robotics Research",
+            "author": "M. Raghavan",
+            "year": "1990",
+            "unstructured": "Raghavan, M. and Roth, B., “Kinematic analysis of the 6R manipulator of general geometry,” Proceedings of the 5th International Symposium on Robotics Research, edited by H. Miura and S. Arimoto, MIT press, Cambridge, 1990."
+          },
+          {
+            "key": "2_CR2",
+            "unstructured": "Raghavan, M. and Roth, B., “A general solution for the inverse kinematics of all series chains,” Proceedings of the 8th CISM-IFTOMM Symposium on Robots and Manipulators, (Romansy-90), Cracow, Poland."
+          },
+          {
+            "key": "2_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Raghavan, M. and Roth, B., “Inverse kinematics of the general 6R manipulator and related linkages,” Journal of Mechanical Design, Transactions of the ASME, 1992.",
+            "DOI": "10.1115/1.2919218"
+          },
+          {
+            "key": "2_CR4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mavroidis, C. and Roth, B., “Structural parameters which reduce the number of manipulator configurations,” Submitted to the ASME for the 1992 Mechanisms Conference.",
+            "DOI": "10.1115/DETC1992-0235"
+          }
+        ],
+        "container-title": [
+          "Lecture Notes in Control and Information Sciences",
+          "RoManSy 9"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.springerlink.com/index/pdf/10.1007/BFb0031427",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              21
+            ]
+          ],
+          "date-time": "2021-07-21T07:48:29Z",
+          "timestamp": 1626853709000
+        },
+        "score": 43.974594,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/BFb0031427"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "ISBN": [
+          "3540198342"
+        ],
+        "references-count": 4,
+        "URL": "https://doi.org/10.1007/bfb0031427"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

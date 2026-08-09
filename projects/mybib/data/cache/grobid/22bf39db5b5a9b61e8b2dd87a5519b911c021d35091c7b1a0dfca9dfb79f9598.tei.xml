@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning Dynamical Systems Encoding Non-Linearity within Space Curvature</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-03-18">18 Mar 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Bernardo</forename><surname>Fichera</surname></persName>
+							<email>bernardo.fichera@epfl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Learning Algorithms and Systems Laboratory</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aude</forename><surname>Billard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Learning Algorithms and Systems Laboratory</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning Dynamical Systems Encoding Non-Linearity within Space Curvature</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-03-18">18 Mar 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F5F462624C309D73AB0FD4D2510664F3</idno>
+					<idno type="DOI">10.1177/ToBeAssigned</idno>
+					<idno type="arXiv">arXiv:2403.11948v1[cs.RO]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>dynamical system</term>
+					<term>learning from demonstration</term>
+					<term>control</term>
+					<term>differential geometry</term>
+					<term>manifold</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Dynamical Systems (DS) are an effective and powerful means of shaping high-level policies for robotics control. They provide robust and reactive control while ensuring the stability of the driving vector field. The increasing complexity of real-world scenarios necessitates DS with a higher degree of non-linearity, along with the ability to adapt to potential changes in environmental conditions, such as obstacles. Current learning strategies for DSs often involve a tradeoff, sacrificing either stability guarantees or offline computational efficiency in order to enhance the capabilities of the learned DS. Online local adaptation to environmental changes is either not taken into consideration or treated as a separate problem. In this paper, our objective is to introduce a method that enhances the complexity of the learned DS without compromising efficiency during training or stability guarantees. Furthermore, we aim to provide a unified approach for seamlessly integrating the initially learned DS&apos;s non-linearity with any local non-linearities that may arise due to changes in the environment. We propose a geometrical approach to learn asymptotically stable non-linear DS for robotics control. Each DS is modeled as a harmonic damped oscillator on a latent manifold. By learning the manifold&apos;s Euclidean embedded representation, our approach encodes the non-linearity of the DS within the curvature of the space. Having an explicit embedded representation of the manifold allows us to showcase obstacle avoidance by directly inducing local deformations of the space. We demonstrate the effectiveness of our methodology through two scenarios: first, the 2D learning of synthetic vector fields, and second, the learning of 3D robotic end-effector motions in real-world settings.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

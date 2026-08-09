@@ -1,0 +1,417 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 11128333,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              23
+            ]
+          ],
+          "date-time": "2026-04-23T03:53:21Z",
+          "timestamp": 1776916401061,
+          "version": "3.51.2"
+        },
+        "reference-count": 44,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "11",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2011-11-01T00:00:00Z",
+              "timestamp": 1320105600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Automat. Contr."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1109/tac.2011.2108490",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              1,
+              28
+            ]
+          ],
+          "date-time": "2011-01-28T19:46:33Z",
+          "timestamp": 1296243993000
+        },
+        "page": "2555-2566",
+        "source": "Crossref",
+        "is-referenced-by-count": 366,
+        "title": [
+          "Quaternion-Based Hybrid Control for Robust Global Attitude Tracking"
+        ],
+        "prefix": "10.1109",
+        "volume": "56",
+        "author": [
+          {
+            "given": "Christopher G.",
+            "family": "Mayhew",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Ricardo G.",
+            "family": "Sanfelice",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Andrew R.",
+            "family": "Teel",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref39",
+            "doi-asserted-by": "crossref",
+            "first-page": "573",
+            "DOI": "10.1016/j.automatica.2005.12.019",
+            "article-title": "Solutions to hybrid inclusions via set and graphical convergence with stability theory applications",
+            "volume": "42",
+            "author": "goebel",
+            "year": "2006",
+            "journal-title": "Automatica"
+          },
+          {
+            "key": "ref38",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-642-69512-4",
+            "author": "aubin",
+            "year": "1984",
+            "journal-title": "Differential Inclusions Set-Valued Maps and Viability Theory"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.20418"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CDC.2009.5400431"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1515/9780691211701",
+            "author": "kuipers",
+            "year": "1999",
+            "journal-title": "Quaternions and Rotation Sequences"
+          },
+          {
+            "key": "ref30",
+            "first-page": "439",
+            "article-title": "A survey of attitude representations",
+            "volume": "41",
+            "author": "shuster",
+            "year": "1993",
+            "journal-title": "J Astron Sci"
+          },
+          {
+            "key": "ref37",
+            "author": "krasovskii",
+            "year": "1988",
+            "journal-title": "Game-Theoretical Control Problems"
+          },
+          {
+            "key": "ref36",
+            "first-page": "155",
+            "author": "hermes",
+            "year": "1967",
+            "journal-title": "Differential Equations and Dynamic Systems"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0022-0396(79)90056-1"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CCA.1994.381209"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2009.2031570"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2007.910726"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00332-010-9078-6"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/56.809"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCS.2008.924794"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1137/1006093"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.19988"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.90228"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.286266"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.467669"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.486654"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1051/cocv:1999121"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0167-6911(99)00090-0"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0362-546X(83)90049-4"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-62006-5"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACC.2006.1656472"
+          },
+          {
+            "key": "ref29",
+            "author": "munkres",
+            "year": "2000",
+            "journal-title": "Topology"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "crossref",
+            "first-page": "131",
+            "DOI": "10.1090/conm/097/1021035",
+            "volume": "97",
+            "author": "koditschek",
+            "year": "1989",
+            "journal-title": "Dynamics and Control of Multibody Systems"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2009.2019792"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/1.41565"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4612-0577-7",
+            "author": "sontag",
+            "year": "1998",
+            "journal-title": "Mathematical Control Theory"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CDC.2009.5400702"
+          },
+          {
+            "key": "ref1",
+            "author": "guillemin",
+            "year": "1974",
+            "journal-title": "Differential Topology"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2008.927789"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.106169"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACC.2006.1657236"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/9.728877"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1049/ip-cta:20040311"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CDC.2000.914164"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2003.819289"
+          },
+          {
+            "key": "ref44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2007.910684"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2007.908320"
+          },
+          {
+            "key": "ref43",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCS.2008.931718"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCST.2008.924576"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Automatic Control"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/9/6062566/05701762.pdf?arnumber=5701762",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              10
+            ]
+          ],
+          "date-time": "2021-10-10T23:52:45Z",
+          "timestamp": 1633909965000
+        },
+        "score": 38.67496,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/5701762/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              11
+            ]
+          ]
+        },
+        "references-count": 44,
+        "journal-issue": {
+          "issue": "11"
+        },
+        "URL": "https://doi.org/10.1109/tac.2011.2108490",
+        "ISSN": [
+          "0018-9286"
+        ],
+        "issn-type": [
+          {
+            "value": "0018-9286",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              11
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

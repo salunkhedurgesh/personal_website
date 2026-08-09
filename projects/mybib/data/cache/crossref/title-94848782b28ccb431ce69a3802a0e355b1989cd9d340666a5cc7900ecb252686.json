@@ -1,0 +1,272 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8284570,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2026-03-10T15:08:36Z",
+          "timestamp": 1773155316021,
+          "version": "3.50.1"
+        },
+        "reference-count": 14,
+        "publisher": "ASME International",
+        "issue": "1",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              1,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Positioning 3R manipulators may have two or four inverse kinematic solutions (IKS). This paper derives a necessary and sufficient condition for 3R positioning manipulators with orthogonal joint axes to have four distinct IKS. We show that the transition between manipulators with two and four IKS is defined by the set of manipulators with a quadruple root of their inverse kinematics. The resulting condition is explicit and states that the last link length of the manipulator must be greater than a quantity that depends on three of its remaining DH parameters. This result is of interest for the design of new manipulators.</jats:p>",
+        "DOI": "10.1115/1.1828460",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2005-03-02T23:28:30Z",
+          "timestamp": 1109806110000
+        },
+        "page": "150-155",
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 14,
+        "title": [
+          "A DH-Parameter Based Condition for 3R Orthogonal Manipulators to Have Four Distinct Inverse Kinematic Solutions"
+        ],
+        "prefix": "10.1115",
+        "volume": "127",
+        "author": [
+          {
+            "given": "P.",
+            "family": "Wenger",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institut de Recherche en Communications et Cyberne´tique de Nantes, UMR CNRS 6597, 1, rue de la Noe¨, BP 92101, 44312 Nantes Cedex 03, France"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Chablat",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institut de Recherche en Communications et Cyberne´tique de Nantes, UMR CNRS 6597, 1, rue de la Noe¨, BP 92101, 44312 Nantes Cedex 03, France"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Baili",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institut de Recherche en Communications et Cyberne´tique de Nantes, UMR CNRS 6597, 1, rue de la Noe¨, BP 92101, 44312 Nantes Cedex 03, France"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2019100600285384200_r1",
+            "unstructured": "Pieper, B., 1968, “The Kinematics of Manipulators Under Computer Control,” Ph.D. thesis, Stanford University."
+          },
+          {
+            "key": "2019100600285384200_r2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gupta, K. C., and Roth, B., 1982, “Design Considerations for Manipulator Workspaces,” ASME J. Mech. Des., 104, pp. 704–711.",
+            "DOI": "10.1115/1.3256412"
+          },
+          {
+            "key": "2019100600285384200_r3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kholi, D., and Spano, J., 1985, “Workspace Analysis of Mechanical Manipulators using Polynomial Discriminant,” ASME J. Mech., Transm., Autom. Des., 107, pp. 209–215.",
+            "DOI": "10.1115/1.3258710"
+          },
+          {
+            "key": "2019100600285384200_r4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kumar, A., and Waldro, K. J., 1981, “The Workspace of a Mechanical Manipulator,” ASME J. Mech. Des., 103, pp. 665–672.",
+            "DOI": "10.1115/1.3254968"
+          },
+          {
+            "key": "2019100600285384200_r5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yang, D. C. H., and Lee, T. W., 1983, “On the Workspace of Mechanical Manipulators,” ASME J. Mech. Des., 105, pp. 62–69.",
+            "DOI": "10.1115/1.3267349"
+          },
+          {
+            "key": "2019100600285384200_r6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Rastegar, J., and Deravi, P., 1987, “Methods to Determine Workspace with Different Numbers of Configurations and all the Possible Configurations of a Manipulator,” Mech. Mach. Theory, 22, pp. 343–350.",
+            "DOI": "10.1016/0094-114X(87)90023-1"
+          },
+          {
+            "key": "2019100600285384200_r7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tsai, K. Y., and Kholi, D., 1993, “Trajectory Planning in Task Space for General Manipulators,” ASME J. Mech. Des., 115, pp. 915–921.",
+            "DOI": "10.1115/1.2919287"
+          },
+          {
+            "key": "2019100600285384200_r8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ceccarelli, M.\n          , 1995, “A Synthesis Algorithm for Three-Revolute Manipulators by Using an Algebraic Formulation of Workspace Boundary,” ASME J. Mech. Des., 117, pp. 298–302.",
+            "DOI": "10.1115/1.2826138"
+          },
+          {
+            "key": "2019100600285384200_r9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Burdick, J. W.\n          , 1995, “A classification of 3R Positioning Manipulator Singularities and Geometries,” Mech. Mach. Theory, 30, pp. 71–89.",
+            "DOI": "10.1016/0094-114X(94)00043-K"
+          },
+          {
+            "key": "2019100600285384200_r10",
+            "unstructured": "El Omri, J., 1996, “Kinematic Analysis of Robotic Manipulators,” Ph.D. thesis, University of Nantes."
+          },
+          {
+            "key": "2019100600285384200_r11",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Buchberger, B., Collins, G. E., and Loos, R., 1982, Computer Algebra: Symbolic and Algebraic Computation, Springer, Wien, pp. 115–138.",
+            "DOI": "10.1007/978-3-7091-3406-1_2"
+          },
+          {
+            "key": "2019100600285384200_r12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Burdick, J. W.\n          , 1995, “A Recursive Method for Finding Revolute-Jointed Manipulator Singularities,” Mech. Mach. Theory, 117, pp. 55–63.",
+            "DOI": "10.1115/1.2826117"
+          },
+          {
+            "key": "2019100600285384200_r13",
+            "unstructured": "Baili, M., Wenger, P., and Chablat, D., 2003, “Classification of One Family of 3R Positioning Manipulators,” in Proc. 11th ICAR, pp. 1849–1854."
+          },
+          {
+            "key": "2019100600285384200_r14",
+            "unstructured": "Corvez, S., and Rouillier, F., 2002, “Using Computer Algebra Tools to Classify Serial Manipulators,” in Proc. Fourth International Workshop on Automated Deduction in Geometry, Linz, Austria."
+          }
+        ],
+        "container-title": [
+          "Journal of Mechanical Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/127/1/150/5684794/150_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/127/1/150/5684794/150_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              6
+            ]
+          ],
+          "date-time": "2019-10-06T04:29:02Z",
+          "timestamp": 1570336142000
+        },
+        "score": 39.628937,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/127/1/150/460081/A-DHParameter-Based-Condition-for-3R-Orthogonal"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005,
+              1,
+              1
+            ]
+          ]
+        },
+        "references-count": 14,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2005,
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.1828460",
+        "ISSN": [
+          "1050-0472",
+          "1528-9001"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-0472",
+            "type": "print"
+          },
+          {
+            "value": "1528-9001",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

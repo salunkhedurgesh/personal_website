@@ -1,0 +1,272 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2630302,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T16:35:43Z",
+          "timestamp": 1777653343823,
+          "version": "3.51.4"
+        },
+        "reference-count": 19,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1109/icra.2011.5980409",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              16
+            ]
+          ],
+          "date-time": "2011-08-16T15:26:17Z",
+          "timestamp": 1313508377000
+        },
+        "page": "2520-2525",
+        "source": "Crossref",
+        "is-referenced-by-count": 1895,
+        "title": [
+          "Minimum snap trajectory generation and control for quadrotors"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Daniel",
+            "family": "Mellinger",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Vijay",
+            "family": "Kumar",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "19",
+            "year": "0",
+            "journal-title": "Vicon Motion Systems Inc"
+          },
+          {
+            "key": "17",
+            "doi-asserted-by": "crossref",
+            "first-page": "1688",
+            "DOI": "10.1523/JNEUROSCI.05-07-01688.1985",
+            "article-title": "The coordination of arm movements: An experimentally confirmed mathematical model",
+            "volume": "5",
+            "author": "flash",
+            "year": "1985",
+            "journal-title": "The Journal of Neuroscience"
+          },
+          {
+            "key": "18",
+            "year": "0",
+            "journal-title": "Ascending Technologies GmbH"
+          },
+          {
+            "key": "15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MRA.2010.937855"
+          },
+          {
+            "key": "16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CDC.2010.5717652"
+          },
+          {
+            "key": "13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2005.846597"
+          },
+          {
+            "key": "14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/(SICI)1099-1239(199809)8:11<995::AID-RNC373>3.3.CO;2-N"
+          },
+          {
+            "key": "11",
+            "first-page": "3576",
+            "volume": "5",
+            "author": "kim",
+            "year": "2002",
+            "journal-title": "Nonlinear Model Predictive Tracking Control for Rotorcraft-based Unmanned Aerial Vehicles"
+          },
+          {
+            "key": "12",
+            "first-page": "53",
+            "article-title": "Comparison of nonlinear control design techniques on a model of the caltech ducted fan",
+            "author": "yu",
+            "year": "1999",
+            "journal-title": "IFAC World Congress IFAC-2c-112"
+          },
+          {
+            "key": "3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2010.5509452"
+          },
+          {
+            "key": "2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2007.363813"
+          },
+          {
+            "key": "1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/1.4922"
+          },
+          {
+            "key": "10",
+            "article-title": "Trajectory generation and control for precise aggressive maneuvers",
+            "author": "mellinger",
+            "year": "2010",
+            "journal-title": "Int Symposium on Experimental Robotics"
+          },
+          {
+            "key": "7",
+            "article-title": "ARA*: Anytime A* with provable bounds on sub-optimality",
+            "volume": "16",
+            "author": "likhachev",
+            "year": "2003",
+            "journal-title": "Advances in neural information processing systems"
+          },
+          {
+            "key": "6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2010.5509627"
+          },
+          {
+            "key": "5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/6.2008-7410"
+          },
+          {
+            "key": "4",
+            "doi-asserted-by": "crossref",
+            "first-page": "529",
+            "DOI": "10.1177/0278364909348805",
+            "article-title": "On the design and use of a micro air vehicle to track and avoid adversaries",
+            "volume": "29",
+            "author": "he",
+            "year": "2010",
+            "journal-title": "The Int Journal of Robotics Research"
+          },
+          {
+            "key": "9",
+            "author": "abbeel",
+            "year": "2008",
+            "journal-title": "Apprenticeship learning and reinforcement learning with application to robotic control"
+          },
+          {
+            "key": "8",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.15607/RSS.2009.V.003",
+            "article-title": "LQR-trees: Feedback motion planning on sparse randomized trees",
+            "author": "tedrake",
+            "year": "2009",
+            "journal-title": "Proc of Robotics Science and Systems"
+          }
+        ],
+        "event": {
+          "name": "2011 IEEE International Conference on Robotics and Automation (ICRA)",
+          "location": "Shanghai, China",
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                5,
+                9
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2011,
+                5,
+                13
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2011 IEEE International Conference on Robotics and Automation"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/5967842/5979525/05980409.pdf?arnumber=5980409",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2019-06-13T23:19:38Z",
+          "timestamp": 1560467978000
+        },
+        "score": 33.2238,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/5980409/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              5
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.1109/icra.2011.5980409",
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

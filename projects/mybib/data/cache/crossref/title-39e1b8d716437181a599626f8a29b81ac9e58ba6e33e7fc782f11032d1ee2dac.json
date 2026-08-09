@@ -1,0 +1,351 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1763348,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2025-10-08T22:08:31Z",
+          "timestamp": 1759961311110
+        },
+        "reference-count": 32,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "5",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1992,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1992-01-01T00:00:00Z",
+              "timestamp": 694224000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Robot. Automat."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "DOI": "10.1109/70.163780",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2002-08-24T19:16:32Z",
+          "timestamp": 1030216592000
+        },
+        "page": "545-559",
+        "source": "Crossref",
+        "is-referenced-by-count": 43,
+        "title": [
+          "Genericity and singularities of robot manipulators"
+        ],
+        "prefix": "10.1109",
+        "volume": "8",
+        "author": [
+          {
+            "given": "D.K.",
+            "family": "Pai",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "M.C.",
+            "family": "Leu",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/1970070"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3426611"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258779"
+          },
+          {
+            "key": "ref10",
+            "first-page": "349",
+            "article-title": "Optimum kinematic design for a seven degree of freedom manipulator",
+            "author": "hollerbach",
+            "year": "1984",
+            "journal-title": "Robotics Res 2nd Int Symp"
+          },
+          {
+            "key": "ref11",
+            "article-title": "Dynamic control of manipulators in operational space",
+            "author": "khatib",
+            "year": "1983",
+            "journal-title": "Proc 6th IFToMM Congr Theory Machines Mechan"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258710"
+          },
+          {
+            "key": "ref13",
+            "author": "kumar",
+            "year": "1980",
+            "journal-title": "The Dextrous Workspace"
+          },
+          {
+            "key": "ref14",
+            "author": "lai",
+            "year": "1984",
+            "journal-title": "A study on the singularity and mobility of 6r robots"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498900800203"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258935"
+          },
+          {
+            "key": "ref17",
+            "author": "paden",
+            "year": "1985",
+            "journal-title": "Kinematics and control of robot manipulators"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.21236/ADA210116",
+            "author": "pai",
+            "year": "1988",
+            "journal-title": "Singularity Uncertainty and Compliance of Robot Manipulators"
+          },
+          {
+            "key": "ref19",
+            "author": "paul",
+            "year": "1981",
+            "journal-title": "Robot Manipulators Mathematics Programming and Control"
+          },
+          {
+            "key": "ref28",
+            "author": "walker",
+            "year": "1950",
+            "journal-title": "Algebraic Curves"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1115/1.4011045",
+            "article-title": "A kinematic notation for lower pair mechanisms based on matrices",
+            "volume": "22",
+            "author": "denavit",
+            "year": "1955",
+            "journal-title": "J Appl Mechan"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258714"
+          },
+          {
+            "key": "ref3",
+            "author": "burdick",
+            "year": "1988",
+            "journal-title": "Kinematic analysis and design of redundant manipulators"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4615-7904-5",
+            "author": "golubitsky",
+            "year": "1973",
+            "journal-title": "Stable Mappings and Their Singularities"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JRA.1985.1087016"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JRA.1985.1086995"
+          },
+          {
+            "key": "ref8",
+            "author": "guillemin",
+            "year": "1974",
+            "journal-title": "Differential Topology"
+          },
+          {
+            "key": "ref7",
+            "first-page": "30",
+            "article-title": "Influence of the control on the structure of a manipulator from a kinematic point of view",
+            "author": "gorla",
+            "year": "1981",
+            "journal-title": "Proc 3rd Symp Theory and Practice of Robots and Manipulators"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1986.1087554"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3256412"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4612-5154-5"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498300200103"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836499000900105"
+          },
+          {
+            "key": "ref21",
+            "article-title": "The kinematics of manipulators under computer control",
+            "author": "pieper",
+            "year": "1969",
+            "journal-title": "Proc of the 2nd Int Conf for the Theory of Machines and Mechanisms"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3254963"
+          },
+          {
+            "key": "ref23",
+            "article-title": "Ranges of motion of manipulators",
+            "author": "shimano",
+            "year": "1977",
+            "journal-title": "Proc 3rd C I S M -I F To M M Symp Theory Practice Robots Manipulators"
+          },
+          {
+            "key": "ref26",
+            "volume": "i",
+            "author": "van der waerden",
+            "year": "1949",
+            "journal-title": "Modern Algebra"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(82)90042-8"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Robotics and Automation"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx4/70/4248/00163780.pdf?arnumber=163780",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              5
+            ]
+          ],
+          "date-time": "2024-01-05T17:52:13Z",
+          "timestamp": 1704477133000
+        },
+        "score": 47.140236,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/163780/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "references-count": 32,
+        "journal-issue": {
+          "issue": "5"
+        },
+        "URL": "https://doi.org/10.1109/70.163780",
+        "ISSN": [
+          "1042-296X"
+        ],
+        "issn-type": [
+          {
+            "value": "1042-296X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

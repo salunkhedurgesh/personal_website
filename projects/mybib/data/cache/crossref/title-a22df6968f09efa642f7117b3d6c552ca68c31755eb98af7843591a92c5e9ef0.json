@@ -1,0 +1,412 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4777038,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2025-08-06T14:01:15Z",
+          "timestamp": 1754488875354
+        },
+        "reference-count": 20,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "6",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J Math Sci"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10958-024-06973-w",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              10
+            ]
+          ],
+          "date-time": "2024-02-10T08:02:23Z",
+          "timestamp": 1707552143000
+        },
+        "page": "950-962",
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "A Note on Quaternion Linear Dynamical Systems"
+        ],
+        "prefix": "10.1007",
+        "volume": "278",
+        "author": [
+          {
+            "given": "N.",
+            "family": "Dilna",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "M.",
+            "family": "Fečkan",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "J.",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              10
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "6973_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "441",
+            "DOI": "10.1007/s12346-017-0246-z",
+            "volume": "17",
+            "author": "ZF Cai",
+            "year": "2018",
+            "unstructured": "Z. F. Cai and K. I. Kou, “Solving quaternion ordinary differential equations with two-sided coefficients,” Qual. Theory Dynam. Syst., 17, 441–462 (2018).",
+            "journal-title": "Qual. Theory Dynam. Syst."
+          },
+          {
+            "key": "6973_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "4033",
+            "DOI": "10.1002/mma.4415",
+            "volume": "41",
+            "author": "ZF Cai",
+            "year": "2018",
+            "unstructured": "Z. F. Cai and K. I. Kou, “Laplace transform: a new approach in solving linear quaternion differential equations,” Math. Meth. Appl. Sci., 41, 4033–4048 (2018).",
+            "journal-title": "Math. Meth. Appl. Sci."
+          },
+          {
+            "issue": "185",
+            "key": "6973_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "109",
+            "DOI": "10.1007/s10231-004-0139-z",
+            "volume": "4",
+            "author": "J Campos",
+            "year": "2006",
+            "unstructured": "J. Campos and J. Mawhin, “Periodic solutions of quaternionic-valued ordinary differential equations,” Ann. Mat. Pura Appl. (4), 185, 109–127 (2006).",
+            "journal-title": "Ann. Mat. Pura Appl."
+          },
+          {
+            "key": "6973_CR4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D. Chen, M. Fečkan, and J. R.Wang, “On the stability of linear quaternion-valued differential equations,” Qual. Theory Dynam. Syst., 20, Art. 9 (2021).",
+            "DOI": "10.1007/s12346-021-00540-3"
+          },
+          {
+            "key": "6973_CR5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S. Huang and F. L. He, “On the second Lyapunov method for quaternionic differential equations,” Qual. Theory Dynam. Syst., 20, Art. 41 (2021).",
+            "DOI": "10.1007/s12346-021-00476-8"
+          },
+          {
+            "key": "6973_CR6",
+            "unstructured": "K. I. Kou, W. K. Liu, and Y. H. Xia, Linear Quaternion Differential Equations: Basic Theory and Fundamental Results II, arXiv: 1602.01660v3 (2016)."
+          },
+          {
+            "key": "6973_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1111/sapm.12211",
+            "volume": "141",
+            "author": "KI Kou",
+            "year": "2018",
+            "unstructured": "K. I. Kou and Y. H. Xia, “Linear quaternion differential equations: basic theory and fundamental results,” Stud. Appl. Math., 141, 3–45 (2018).",
+            "journal-title": "Stud. Appl. Math."
+          },
+          {
+            "key": "6973_CR8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "K. I. Kou, W. K. Liu, and Y. H. Xia, “Solve the linear quaternion-valued differential equations having multiple eigenvalues,” J. Math. Phys., 60, No. 2, Art. 023510 (2019).",
+            "DOI": "10.1063/1.5040237"
+          },
+          {
+            "issue": "8–9",
+            "key": "6973_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "759",
+            "DOI": "10.1080/10236190802357735",
+            "volume": "15",
+            "author": "RJ Sacker",
+            "year": "2009",
+            "unstructured": "R. J. Sacker, “On invariant surfaces and bifurcation of periodic solutions of ordinary differential equations. Chapter II: Bifurcationmapping method,” J. Difference Equat. Appl., 15, No. 8-9, 759–774 (2009).",
+            "journal-title": "J. Difference Equat. Appl."
+          },
+          {
+            "key": "6973_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "L. P. Suo, M. Fečkan, and J. R. Wang, “Quaternion-valued linear impulsive differential equations,” Qual. Theory Dynam. Syst., 20, Art. 33 (2021).",
+            "DOI": "10.1007/s12346-021-00467-9"
+          },
+          {
+            "key": "6973_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "566",
+            "DOI": "10.1016/j.jde.2021.02.033",
+            "volume": "282",
+            "author": "S Walcher",
+            "year": "2021",
+            "unstructured": "S. Walcher and X. Zhang, “Polynomial differential equations over the quaternions,” J. Different. Equat., 282, 566–595 (2021).",
+            "journal-title": "J. Different. Equat."
+          },
+          {
+            "key": "6973_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Y. H. Xia, H. Huang, and K. I. Kou, “An algorithm for solving linear nonhomogeneous quaternion-valued differential equations and some open problems,” Discrete Contin. Dynam. Syst., Ser. S, 15, No. 7, 1685–1697 (2022).",
+            "DOI": "10.3934/dcdss.2021162"
+          },
+          {
+            "key": "6973_CR13",
+            "volume-title": "Theory and Applications of Quaternion-Valued Differential Equations",
+            "author": "YH Xia",
+            "year": "2021",
+            "unstructured": "Y. H. Xia, K. I. Kou, and Y. Liu, Theory and Applications of Quaternion-Valued Differential Equations, Sci. Press, Beijing (2021)."
+          },
+          {
+            "key": "6973_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "167",
+            "DOI": "10.3233/JIFS-171042",
+            "volume": "34",
+            "author": "ZP Yang",
+            "year": "2018",
+            "unstructured": "Z. P. Yang and W. J. Ren, “Existence and stability results for quaternion fuzzy fractional differential equations in the sense of Hilfer,” J. Intel. Fuzzy Syst., 34, 167–175 (2018).",
+            "journal-title": "J. Intel. Fuzzy Syst."
+          },
+          {
+            "key": "6973_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "301",
+            "DOI": "10.1007/s00220-011-1196-y",
+            "volume": "303",
+            "author": "X Zhang",
+            "year": "2011",
+            "unstructured": "X. Zhang, “Global structure of quaternion polynomial differential equations,” Comm. Math. Phys., 303, 301–316 (2011).",
+            "journal-title": "Comm. Math. Phys."
+          },
+          {
+            "key": "6973_CR16",
+            "unstructured": "Explanation of Euler Gimbal Lock; https://www.youtube.com/watch?v=zc8b2Jo7mno."
+          },
+          {
+            "key": "6973_CR17",
+            "volume-title": "Discrete Fractional Calculus",
+            "author": "AC Peterson",
+            "year": "2015",
+            "unstructured": "A. C. Peterson and C. Goodrich, Discrete Fractional Calculus, Springer, Cham (2015)."
+          },
+          {
+            "key": "6973_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "651",
+            "DOI": "10.1515/fca-2015-0040",
+            "volume": "18",
+            "author": "J Čermák",
+            "year": "2015",
+            "unstructured": "J. Čermák, I. Győri, and L. Nechvátal, “On explicit stability conditions for a linear fractional difference system,” Fract. Calc. Appl. Anal., 18, 651–672 (2015).",
+            "journal-title": "Fract. Calc. Appl. Anal."
+          },
+          {
+            "key": "6973_CR19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-18101-6",
+            "volume-title": "Fractional-Order Nonlinear Systems: Modeling",
+            "author": "I Petráš",
+            "year": "2011",
+            "unstructured": "I. Petráš, Fractional-Order Nonlinear Systems: Modeling, Analysis and Simulation, Higher Education Press, Springer, Beijing, Berlin (2011)."
+          },
+          {
+            "key": "6973_CR20",
+            "unstructured": "D. Matignon, “Stability results for fractional differential equations with applications to control processing,” in: Computational Engineering in Systems and Application Multiconference, Vol. 2, IMACS, IEEE-SMC, Lille, France, 2 (1996), pp. 963–968."
+          }
+        ],
+        "container-title": [
+          "Journal of Mathematical Sciences"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10958-024-06973-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10958-024-06973-w/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10958-024-06973-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2024-02-19T08:36:57Z",
+          "timestamp": 1708331817000
+        },
+        "score": 41.01075,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s10958-024-06973-w"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "references-count": 20,
+        "journal-issue": {
+          "issue": "6",
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "6973"
+        ],
+        "URL": "https://doi.org/10.1007/s10958-024-06973-w",
+        "ISSN": [
+          "1072-3374",
+          "1573-8795"
+        ],
+        "issn-type": [
+          {
+            "value": "1072-3374",
+            "type": "print"
+          },
+          {
+            "value": "1573-8795",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "29 November 2022",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "10 February 2024",
+            "order": 2,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

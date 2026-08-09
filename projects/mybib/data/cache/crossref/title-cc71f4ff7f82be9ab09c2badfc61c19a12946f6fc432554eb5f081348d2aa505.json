@@ -1,0 +1,116 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3582589,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2024-09-08T14:47:40Z",
+          "timestamp": 1725806860376
+        },
+        "publisher-location": "2455 Teller Road, Thousand Oaks California 91320 United States ",
+        "reference-count": 0,
+        "publisher": "SAGE Publications, Inc.",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781452281902"
+          },
+          {
+            "type": "electronic",
+            "value": "9781452281889"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "DOI": "10.4135/9781452281889.n408",
+        "type": "reference-entry",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2014-10-13T12:17:37Z",
+          "timestamp": 1413202657000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Gong Lum et al. v. Rice et al."
+        ],
+        "prefix": "10.4135",
+        "member": "179",
+        "container-title": [
+          "Asian American Society: An Encyclopedia"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2022-04-21T11:45:21Z",
+          "timestamp": 1650541521000
+        },
+        "score": 30.56067,
+        "resource": {
+          "primary": {
+            "URL": "https://sk.sagepub.com/reference/asian-american-society-an-encyclopedia/n408.xml"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781452281902",
+          "9781452281889"
+        ],
+        "references-count": 0,
+        "alternative-id": [
+          "10.4135/9781452281889"
+        ],
+        "URL": "https://doi.org/10.4135/9781452281889.n408",
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

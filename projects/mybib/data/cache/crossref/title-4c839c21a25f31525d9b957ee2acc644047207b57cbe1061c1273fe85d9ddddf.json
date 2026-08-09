@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 13872,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              24
+            ]
+          ],
+          "date-time": "2024-07-24T11:12:08Z",
+          "timestamp": 1721819528573
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1017/9781316759745.003",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              5,
+              17
+            ]
+          ],
+          "date-time": "2018-05-17T13:30:55Z",
+          "timestamp": 1526563855000
+        },
+        "page": "39-59",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Zuse’s Thesis, Gandy’s Thesis, and Penrose’s Thesis"
+        ],
+        "prefix": "10.1017",
+        "author": [
+          {
+            "given": "B. Jack",
+            "family": "Copeland",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Oron",
+            "family": "Shagrir",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Mark",
+            "family": "Sprevak",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "56",
+        "container-title": [
+          "Physical Perspectives on Computation, Computational Perspectives on Physics"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              5,
+              17
+            ]
+          ],
+          "date-time": "2018-05-17T13:30:57Z",
+          "timestamp": 1526563857000
+        },
+        "score": 16.3485,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781316759745%23c2/type/book_part"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781316759745.003"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

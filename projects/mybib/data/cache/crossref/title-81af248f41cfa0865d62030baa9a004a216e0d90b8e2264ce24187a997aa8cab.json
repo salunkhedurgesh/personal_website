@@ -1,0 +1,544 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 270923,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2025-03-28T02:57:42Z",
+          "timestamp": 1743130662843,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Singapore",
+        "reference-count": 70,
+        "publisher": "Springer Nature Singapore",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9789811914140"
+          },
+          {
+            "type": "electronic",
+            "value": "9789811914157"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2022-01-01T00:00:00Z",
+              "timestamp": 1640995200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-981-19-1415-7_4",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2022-10-05T04:02:45Z",
+          "timestamp": 1664942565000
+        },
+        "page": "73-100",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Swami Vivekananda"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Projit Kumar",
+            "family": "Palit",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              6
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "4_CR2",
+            "volume-title": "Swami Vivekananda: The Living Vedanta",
+            "author": "C Badrinath",
+            "year": "2006",
+            "unstructured": "Badrinath, C. (2006). Swami Vivekananda: The Living Vedanta. Penguin Books."
+          },
+          {
+            "volume-title": "Understanding poverty",
+            "year": "2006",
+            "key": "4_CR3",
+            "unstructured": "Banerjee, A. V., Bénabou, R., & Mookherjee, D. (Eds.). (2006). Understanding poverty. Oxford University Press."
+          },
+          {
+            "key": "4_CR09",
+            "unstructured": "Banhatti, G. S. (1963). The Quintessence of Vivekananda, Pune, India: Suvichar Prakashan Mandal, ASIN B0007JQX3M."
+          },
+          {
+            "key": "4_CR4",
+            "volume-title": "Life and philosophy of Swami Vivekananda",
+            "author": "GS Banhatti",
+            "year": "1995",
+            "unstructured": "Banhatti, G. S. (1995). Life and philosophy of Swami Vivekananda. Atlantic Publishers & Distributors."
+          },
+          {
+            "volume-title": "Cultural history of India",
+            "year": "1983",
+            "key": "4_CR5",
+            "unstructured": "Basham, A. L. (Ed.). (1983). Cultural history of India. Oxford University Press."
+          },
+          {
+            "key": "4_CR6",
+            "volume-title": "Swami Vivekananda: Messiah of resurgent India",
+            "author": "PR Bhuyan",
+            "year": "2003",
+            "unstructured": "Bhuyan, P. R. (2003). Swami Vivekananda: Messiah of resurgent India. Atlantic Publishers & Distributors."
+          },
+          {
+            "key": "4_CR7",
+            "volume-title": "The Indian struggle: 1920–34",
+            "author": "SC Bose",
+            "year": "1935",
+            "unstructured": "Bose, S. C. (1935). The Indian struggle: 1920–34. Wishart & Co., Ltd."
+          },
+          {
+            "key": "4_CR1",
+            "unstructured": "Chakrabarti, T. K. (2001). Swami Vivekananda. In R. L. Arrington (Ed.), A companion to the philosophers. Wiley-Blackwell."
+          },
+          {
+            "key": "4_CR9",
+            "unstructured": "Chattopadhyaya, R. (1999). Swami Vivekananda in India: A corrective biography. Motilal Banarsidass."
+          },
+          {
+            "key": "4_CR19",
+            "volume-title": "A history of modern Yoga: Patañjali and Western esotericism",
+            "author": "E De Michelis",
+            "year": "2005",
+            "unstructured": "De Michelis, E. (2005). A history of modern Yoga: Patañjali and Western esotericism. Continuum International Publishing Group Ltd."
+          },
+          {
+            "key": "4_CR8",
+            "unstructured": "Gambhirananda, S. (Ed.). (2006). Chandogya Upanisad: With commentary of Shankaracarya. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR10",
+            "volume-title": "Readings in human development: Concepts, measures and policies for a development paradigm",
+            "author": "S Fukuda-Parr",
+            "year": "2003",
+            "unstructured": "Fukuda-Parr, S., & Shiva Kumar, A. K. (2003). Readings in human development: Concepts, measures and policies for a development paradigm. Oxford University Press."
+          },
+          {
+            "key": "4_CR11",
+            "unstructured": "Gambhirananda, S. (2011). Yuganayak Vivekananda (Vol. 3). Udbodhan Karyalaya."
+          },
+          {
+            "key": "4_CR04",
+            "unstructured": "Halbfass, W. (1998). India and Europe: An essay in understanding. University of New York."
+          },
+          {
+            "key": "4_CR12",
+            "unstructured": "Jena, K. N., Semwal, M. M., & Chatterjee, R. (2009). Religion and human development. In Bottom up approaches and inclusive development."
+          },
+          {
+            "key": "4_CR02",
+            "unstructured": "King, R. (1999). Orientalism and religion: Post-colonial theory, India and the mystic east."
+          },
+          {
+            "key": "4_CR14",
+            "volume-title": "Anatheism: Returning to God after God",
+            "author": "R Kearney",
+            "year": "2013",
+            "unstructured": "Kearney, R. (2013). Anatheism: Returning to God after God. Columbia University Press."
+          },
+          {
+            "key": "4_CR15",
+            "unstructured": "Khurana, K. L. (1998). Modern Europe (1789–1956 A.D). Lakshmi Narain Agarwal."
+          },
+          {
+            "key": "4_CR07",
+            "unstructured": "Kraemer, H. (1960). Cultural response of Hindu India. World cultures and world religions. Westminster Press, ASIN B0007DLYAK."
+          },
+          {
+            "key": "4_CR16",
+            "unstructured": "Krishna Periyar, K. (2015). Selected speeches and writings of Swami Vivekananda—An analytical study (Unpublished Thesis). Periyar Maniammai University, Tanjavur"
+          },
+          {
+            "issue": "3",
+            "key": "4_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "243",
+            "DOI": "10.1080/1360081032000111698",
+            "volume": "31",
+            "author": "CR Laderchi",
+            "year": "2003",
+            "unstructured": "Laderchi, C. R., Saith, R., & Stewart, F. (2003). Does it matter that we do not agree on the definition of poverty? A comparison of four approaches. Oxford Development Studies, 31(3), 243–274.",
+            "journal-title": "Oxford Development Studies"
+          },
+          {
+            "key": "4_CR18",
+            "unstructured": "Lokeshwarananda, S. (1988). The Perennial Vivekananda: A selection. Sahitya Akademi."
+          },
+          {
+            "key": "4_CR13",
+            "unstructured": "Lokeswarananda, S. (1993). Katha Upanishad. The Ramakrishna Mission Institute of Culture."
+          },
+          {
+            "key": "4_CR20",
+            "unstructured": "Nirvedananda, S. (2001). Swami Vivekananda on India and her problems. Advaita Ashrama."
+          },
+          {
+            "volume-title": "The Gospel of Sri Ramakrishna and its relevance",
+            "year": "2017",
+            "key": "4_CR21",
+            "unstructured": "Palit, P. K., & Kamalasthananda, S. (Eds.). (2017). The Gospel of Sri Ramakrishna and its relevance. Kaveri Books."
+          },
+          {
+            "key": "4_CR22",
+            "unstructured": "Palit, P. K. (2013). Vivekananda and national integration. Delta Book World."
+          },
+          {
+            "key": "4_CR23",
+            "unstructured": "Panikkar, K. M. (1965). The determining period of Indian History. BharatiyaVidya Bhavn."
+          },
+          {
+            "key": "4_CR24",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Prabhananda, S. (2003). Profiles of famous educators: Swami Vivekananda. Prospects, XXXIII(2), 231–245.",
+            "DOI": "10.1023/A:1023603115703"
+          },
+          {
+            "key": "4_CR25",
+            "unstructured": "Prabuddha, B. (1917). Vol. XXII. No 247, 248, February & March, Calcutta."
+          },
+          {
+            "key": "4_CR26",
+            "unstructured": "Radhakrishnan, S. (1949). Gautam the Buddha. Hind Kitabs Limited."
+          },
+          {
+            "key": "4_CR27",
+            "volume-title": "Eastern religions and western thought",
+            "author": "S Radhakrishnan",
+            "year": "1969",
+            "unstructured": "Radhakrishnan, S. (1969). Eastern religions and western thought. Oxford University Press."
+          },
+          {
+            "key": "4_CR29",
+            "unstructured": "Ranganathananda, S. (1986). National integration through love and service. Bombay."
+          },
+          {
+            "key": "4_CR30",
+            "unstructured": "Ranganathananda, S. (1990). Swami Vivekananda and human excellence: Harvard University lecture. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR31",
+            "unstructured": "Ranganathananda, S. (2005). Swami Vivekananda: His humanism (Moscow University Lecture). Kolkata: Advaita Ashrama."
+          },
+          {
+            "key": "4_CR32",
+            "volume-title": "Human resources development: Experiences, interventions, strategies",
+            "author": "TV Rao",
+            "year": "1995",
+            "unstructured": "Rao, T. V. (1995). Human resources development: Experiences, interventions, strategies. Sage Publications Pvt. Ltd."
+          },
+          {
+            "key": "4_CR33",
+            "unstructured": "Rolland, R. (1929). The river re-enters the sea. In The life of Ramakrishna. Hollywood, California: Vedanta Press."
+          },
+          {
+            "key": "4_CR01",
+            "unstructured": "Rolland, R. (1981). The life of Vivekananda and Universal Gospel."
+          },
+          {
+            "key": "4_CR34",
+            "unstructured": "Rolland, R. (2008). The life of Vivekananda and the Universal Gospel. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR35",
+            "volume-title": "The impact of science on society",
+            "author": "B Russell",
+            "year": "1953",
+            "unstructured": "Russell, B. (1953). The impact of science on society. Simon & Schuster."
+          },
+          {
+            "key": "4_CR05",
+            "unstructured": "Sen, A. (1985). Commodities and capabilities. Amsterdam."
+          },
+          {
+            "key": "4_CR36",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sen, A. (1992). Missing women. British Medical Journal, 304(6827).",
+            "DOI": "10.1136/bmj.304.6827.587"
+          },
+          {
+            "key": "4_CR38",
+            "volume-title": "Development as freedom",
+            "author": "A Sen",
+            "year": "1999",
+            "unstructured": "Sen, A. (1999). Development as freedom. Oxford University Press."
+          },
+          {
+            "issue": "1",
+            "key": "4_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "17",
+            "DOI": "10.1080/14649880050008746",
+            "volume": "1",
+            "author": "A Sen",
+            "year": "2000",
+            "unstructured": "Sen, A. (2000). A decade of human development. Journal of Human Development, 1(1), 17–23.",
+            "journal-title": "Journal of Human Development"
+          },
+          {
+            "key": "4_CR08",
+            "unstructured": "Sen, A. (2003). Swami Vivekananda. In N. Gupta (Ed.), Oxford University Press, ISBN 0-19-564565-0."
+          },
+          {
+            "key": "4_CR06",
+            "unstructured": "Sen, A. (2006). Indispensable Vivekananda: Anthology for our times, Orient Blackswan, ISBN 978-81-7824-130-2."
+          },
+          {
+            "volume-title": "Swami Vivekananda",
+            "year": "2003",
+            "key": "4_CR39",
+            "unstructured": "Sen, A., & Gupta, N. (Eds.). (2003). Swami Vivekananda. Oxford University Press."
+          },
+          {
+            "key": "4_CR40",
+            "volume-title": "Human development: Multi-dimensional Approaches to human Well-being",
+            "author": "K Sengupta",
+            "year": "2010",
+            "unstructured": "Sengupta, K. (2010). Human development: Multi-dimensional Approaches to human Well-being. Mittal Publications."
+          },
+          {
+            "key": "4_CR41",
+            "unstructured": "Shattuck, C. T. (1999). The modern period ii: Forces of change. In Hinduism. London: Routledge."
+          },
+          {
+            "key": "4_CR03",
+            "unstructured": "Smith, B. L. (Ed.). (1976). Hinduism: New essays in the history of religions. E.J. Brills"
+          },
+          {
+            "key": "4_CR42",
+            "first-page": "238",
+            "volume": "84",
+            "author": "TN Srinivasan",
+            "year": "1994",
+            "unstructured": "Srinivasan, T. N. (1994). Human development: A new paradigm or reinvention of the wheel? The American Economic Review, 84, 238–243.",
+            "journal-title": "The American Economic Review"
+          },
+          {
+            "key": "4_CR43",
+            "unstructured": "Stavig, G. (2010). Western admirers of Ramakrishna and his disciples. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR44",
+            "unstructured": "Sugden, R. (1993). ‘Welfare, resources, and capabilities: A review of inequality reexamined’ by Amartya Sen. Journal of Economic Literature, 31, 1947–1962."
+          },
+          {
+            "key": "4_CR28",
+            "unstructured": "Swami Vivekananda: The Friend of All (2009). Calcutta: Ramakrishna Mission Institute of Culture, pp. 58–59."
+          },
+          {
+            "key": "4_CR45",
+            "unstructured": "Tapasyananda, S. (1990). The nationalistic and religious lectures of Swami Vivekananda. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR46",
+            "volume-title": "An historian’s approach to religion",
+            "author": "A Toynbee",
+            "year": "1979",
+            "unstructured": "Toynbee, A. (1979). An historian’s approach to religion. Oxford University Press."
+          },
+          {
+            "key": "4_CR47",
+            "unstructured": "Trivedi, R. (2009). Social change in Indian society with reference to the contribution of Swami Vivekananda (Unpublished Thesis). The Maharaja Sayajirao University of Baroda."
+          },
+          {
+            "key": "4_CR48",
+            "unstructured": "Virajananda, S. (1918). The life of the Swami Vivekananda, 4, Prabuddha Bharata Office, Advaita Ashrama. Retrieved 21 December 2012."
+          },
+          {
+            "key": "4_CR51",
+            "unstructured": "Vivekananda, S. (1964). Letters of Swami Vivekananda. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR50",
+            "unstructured": "Vivekananda, S. (2009). To the Youth of India. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR52",
+            "unstructured": "Vivekananda, S. The complete works of Swami Vivekananda. Advaita Ashrama."
+          },
+          {
+            "key": "4_CR53",
+            "unstructured": "Vol. 1, 1965."
+          },
+          {
+            "key": "4_CR54",
+            "unstructured": "Vol. 2, 1963."
+          },
+          {
+            "key": "4_CR55",
+            "unstructured": "Vol. 3, 1964."
+          },
+          {
+            "key": "4_CR56",
+            "unstructured": "Vol. 4, 1966."
+          },
+          {
+            "key": "4_CR57",
+            "unstructured": "Vol. 5, 1964."
+          },
+          {
+            "key": "4_CR58",
+            "unstructured": "Vol. 5, 12th ed., 2016"
+          },
+          {
+            "key": "4_CR59",
+            "unstructured": "Vol. 6, 1963."
+          },
+          {
+            "key": "4_CR60",
+            "unstructured": "Vol. 7, 1964."
+          },
+          {
+            "key": "4_CR61",
+            "unstructured": "Vol. 8, 1970."
+          },
+          {
+            "key": "4_CR49",
+            "unstructured": "Vivekananda, S. (2013). Words of Inspiration. Calcutta: Ramakrishna Mission Institute of Culture."
+          }
+        ],
+        "container-title": [
+          "Reappraising Modern Indian Thought"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-19-1415-7_4",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2022-10-05T04:17:30Z",
+          "timestamp": 1664943450000
+        },
+        "score": 59.500412,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-981-19-1415-7_4"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789811914140",
+          "9789811914157"
+        ],
+        "references-count": 70,
+        "URL": "https://doi.org/10.1007/978-981-19-1415-7_4",
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "6 October 2022",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

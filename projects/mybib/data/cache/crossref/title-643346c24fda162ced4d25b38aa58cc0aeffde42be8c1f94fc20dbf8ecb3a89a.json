@@ -1,0 +1,896 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 219426,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2026-04-18T06:17:25Z",
+          "timestamp": 1776493045793,
+          "version": "3.51.2"
+        },
+        "reference-count": 54,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2025-08-01T00:00:00Z",
+              "timestamp": 1754006400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2025-08-01T00:00:00Z",
+              "timestamp": 1754006400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  5,
+                  20
+                ]
+              ],
+              "date-time": "2025-05-20T00:00:00Z",
+              "timestamp": 1747699200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100018573",
+            "name": "Sun Yat-sen University Cancer Center",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "SL-B2024-871-01"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "SL-B2024-871-01"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100018573",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "clinicalkey.com",
+            "clinicalkey.com.au",
+            "clinicalkey.es",
+            "clinicalkey.fr",
+            "clinicalkey.jp",
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Translational Oncology"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.tranon.2025.102427",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              5
+            ]
+          ],
+          "date-time": "2025-06-05T07:11:57Z",
+          "timestamp": 1749107517000
+        },
+        "page": "102427",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "special_numbering": "C",
+        "title": [
+          "tsRNA-08614 inhibits glycolysis and histone lactylation by ALDH1A3 to confer oxaliplatin sensitivity in colorectal cancer"
+        ],
+        "prefix": "10.1016",
+        "volume": "58",
+        "author": [
+          {
+            "given": "Zhengbo",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2309-2089",
+            "authenticated-orcid": false,
+            "given": "Yiyang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-2071-3268",
+            "authenticated-orcid": false,
+            "given": "Fang",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Gang",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Yan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "10207",
+            "key": "10.1016/j.tranon.2025.102427_bib0001",
+            "doi-asserted-by": "crossref",
+            "first-page": "1467",
+            "DOI": "10.1016/S0140-6736(19)32319-0",
+            "article-title": "Colorectal cancer",
+            "volume": "394",
+            "author": "Dekker",
+            "year": "2019",
+            "journal-title": "Lancet"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.tranon.2025.102427_bib0002",
+            "first-page": "306",
+            "article-title": "Therapeutic landscape and future direction of metastatic colorectal cancer. Nature reviews",
+            "volume": "20",
+            "author": "Bando",
+            "year": "2023",
+            "journal-title": "Gastroenterol. Hepatol."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0003",
+            "doi-asserted-by": "crossref",
+            "first-page": "67",
+            "DOI": "10.1038/s41571-023-00834-2",
+            "article-title": "Personalizing adjuvant therapy for patients with colorectal cancer",
+            "volume": "21",
+            "author": "Yang",
+            "year": "2024",
+            "journal-title": "Nat. Revi. Clin. Oncol."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0004",
+            "doi-asserted-by": "crossref",
+            "first-page": "371",
+            "DOI": "10.1186/s12951-022-01586-4",
+            "article-title": "Mechanisms of chemotherapeutic resistance and the application of targeted nanoparticles for enhanced chemotherapy in colorectal cancer",
+            "volume": "20",
+            "author": "Guo",
+            "year": "2022",
+            "journal-title": "J. Nanobiotechnol."
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0005",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.3389/fphar.2023.1257450",
+            "article-title": "Phytochemicals targeting glycolysis in colorectal cancer therapy: effects and mechanisms of action",
+            "volume": "14",
+            "author": "Zhan",
+            "year": "2023",
+            "journal-title": "Front. Pharmacol."
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0006",
+            "article-title": "N6-methyladenosine-modified circular RNA QSOX1 promotes colorectal cancer resistance to anti-CTLA-4 therapy through induction of intratumoral regulatory T cells",
+            "volume": "65",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "Drug Res. Updates Rev. Comment. Antim. Ant. Chemoth."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0007",
+            "first-page": "15",
+            "article-title": "ROS/PI3K/Akt and Wnt/β-catenin signalings activate HIF-1α-induced metabolic reprogramming to impart 5-fluorouracil resistance in colorectal cancer",
+            "volume": "41",
+            "author": "Dong",
+            "year": "2022",
+            "journal-title": "J. Exper. Clin. Cancer Res. CR"
+          },
+          {
+            "issue": "15",
+            "key": "10.1016/j.tranon.2025.102427_bib0008",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/advs.202309204",
+            "article-title": "Chemotherapy-enabled colorectal cancer immunotherapy of self-delivery nano-PROTACs by inhibiting tumor glycolysis and avoiding adaptive immune resistance",
+            "volume": "11",
+            "author": "Zhao",
+            "year": "2024",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "issue": "7779",
+            "key": "10.1016/j.tranon.2025.102427_bib0009",
+            "doi-asserted-by": "crossref",
+            "first-page": "575",
+            "DOI": "10.1038/s41586-019-1678-1",
+            "article-title": "Metabolic regulation of gene expression by histone lactylation",
+            "volume": "574",
+            "author": "Zhang",
+            "year": "2019",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.tranon.2025.102427_bib0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "1660",
+            "DOI": "10.1016/j.molcel.2022.02.033",
+            "article-title": "Lactylation-driven METTL3-mediated RNA m(6)A modification promotes immunosuppression of tumor-infiltrating myeloid cells",
+            "volume": "82",
+            "author": "Xiong",
+            "year": "2022",
+            "journal-title": "Mol. Cell"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0011",
+            "doi-asserted-by": "crossref",
+            "first-page": "90",
+            "DOI": "10.1186/s12943-024-02008-9",
+            "article-title": "Positive feedback regulation between glycolysis and histone lactylation drives oncogenesis in pancreatic ductal adenocarcinoma",
+            "volume": "23",
+            "author": "Li",
+            "year": "2024",
+            "journal-title": "Mol. Cancer"
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0012",
+            "first-page": "1",
+            "article-title": "Tumor-derived lactate promotes resistance to bevacizumab treatment by facilitating autophagy enhancer protein RUBCNL expression through histone H3 lysine 18 lactylation (H3K18la) in colorectal cancer",
+            "author": "Li",
+            "year": "2023",
+            "journal-title": "Autophagy"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.tranon.2025.102427_bib0013",
+            "doi-asserted-by": "crossref",
+            "first-page": "1563",
+            "DOI": "10.1016/j.cmet.2023.07.005",
+            "article-title": "The diapause-like colorectal cancer cells induced by SMC4 attenuation are characterized by low proliferation and chemotherapy insensitivity",
+            "volume": "35",
+            "author": "Sun",
+            "year": "2023",
+            "journal-title": "Cell Metabol."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.tranon.2025.102427_bib0014",
+            "doi-asserted-by": "crossref",
+            "first-page": "1431",
+            "DOI": "10.1016/j.gendis.2021.12.009",
+            "article-title": "tRNA-derived small RNAs: Mechanisms and potential roles in cancers",
+            "volume": "9",
+            "author": "Wang",
+            "year": "2022",
+            "journal-title": "Genes Diseases"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "109",
+            "DOI": "10.1038/s41392-020-00217-4",
+            "article-title": "Action mechanisms and research methods of tRNA-derived small RNAs",
+            "volume": "5",
+            "author": "Xie",
+            "year": "2020",
+            "journal-title": "Signal Transduct. Targ. Therapy"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.tranon.2025.102427_bib0016",
+            "doi-asserted-by": "crossref",
+            "first-page": "790",
+            "DOI": "10.1016/j.tibs.2021.05.001",
+            "article-title": "Origins and evolving functionalities of tRNA-derived small RNAs",
+            "volume": "46",
+            "author": "Chen",
+            "year": "2021",
+            "journal-title": "Trends Biochem Sci."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.tranon.2025.102427_bib0017",
+            "doi-asserted-by": "crossref",
+            "first-page": "6223",
+            "DOI": "10.1093/nar/gkaa336",
+            "article-title": "eIF4G has intrinsic G-quadruplex binding activity that is required for tiRNA function",
+            "volume": "48",
+            "author": "Lyons",
+            "year": "2020",
+            "journal-title": "Nucl. Acids Res"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.tranon.2025.102427_bib0018",
+            "doi-asserted-by": "crossref",
+            "first-page": "1627",
+            "DOI": "10.1161/HYPERTENSIONAHA.121.16994",
+            "article-title": "Transfer RNA fragments in the kidney in hypertension",
+            "volume": "77",
+            "author": "Pan",
+            "year": "2021",
+            "journal-title": "Hypertension"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0019",
+            "doi-asserted-by": "crossref",
+            "first-page": "64",
+            "DOI": "10.1186/s13045-023-01466-w",
+            "article-title": "Small RNA modifications: regulatory molecules and potential applications",
+            "volume": "16",
+            "author": "Xiong",
+            "year": "2023",
+            "journal-title": "J. Hematol. Oncol."
+          },
+          {
+            "issue": "8017",
+            "key": "10.1016/j.tranon.2025.102427_bib0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "720",
+            "DOI": "10.1038/s41586-024-07472-3",
+            "article-title": "Epigenetic inheritance of diet-induced and sperm-borne mitochondrial RNAs",
+            "volume": "630",
+            "author": "Tomar",
+            "year": "2024",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0021",
+            "doi-asserted-by": "crossref",
+            "first-page": "95",
+            "DOI": "10.1186/s12943-021-01389-5",
+            "article-title": "A novel class of tsRNA signatures as biomarkers for diagnosis and prognosis of pancreatic cancer",
+            "volume": "20",
+            "author": "Jin",
+            "year": "2021",
+            "journal-title": "Mol. Cancer"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0022",
+            "doi-asserted-by": "crossref",
+            "first-page": "35",
+            "DOI": "10.1186/s40164-022-00290-1",
+            "article-title": "Transfer RNA-derived small RNA: an emerging small non-coding RNA with key roles in cancer",
+            "volume": "11",
+            "author": "Gu",
+            "year": "2022",
+            "journal-title": "Exper. Hematol. Oncol."
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0023",
+            "article-title": "N6-methyladenosine modification of 3′tRF-AlaAGC impairs PD-1 blockade efficacy by promoting lactic acid accumulation in the tumor microenvironment of gastric carcinoma",
+            "volume": "79",
+            "author": "Xu",
+            "year": "2024",
+            "journal-title": "Drug Res. Updates Rev. Comment. Antim. Ant. Chemoth."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0024",
+            "doi-asserted-by": "crossref",
+            "first-page": "49",
+            "DOI": "10.1186/s11658-023-00463-8",
+            "article-title": "A novel tyrosine tRNA-derived fragment, tRF(Tyr), induces oncogenesis and lactate accumulation in LSCC by interacting with LDHA",
+            "volume": "28",
+            "author": "Zhao",
+            "year": "2023",
+            "journal-title": "Cell. Mol. Biol. Lett."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "272",
+            "DOI": "10.1186/s12864-021-07581-7",
+            "article-title": "Predicting tumor response to drugs based on gene-expression biomarkers of sensitivity learned from cancer cell lines",
+            "volume": "22",
+            "author": "Li",
+            "year": "2021",
+            "journal-title": "BMC genomics"
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0026",
+            "article-title": "Pan-cancer analysis reveals genomic and clinical characteristics of TRPV channel-related genes",
+            "volume": "12",
+            "author": "Wang",
+            "year": "2022",
+            "journal-title": "Front Oncol."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0027",
+            "first-page": "67",
+            "article-title": "A specific tRNA half, 5′tiRNA-His-GTG, responds to hypoxia via the HIF1α/ANG axis and promotes colorectal cancer progression by regulating LATS2",
+            "volume": "40",
+            "author": "Tao",
+            "year": "2021",
+            "journal-title": "J. Exper. Clin. Cancer Res. CR"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0028",
+            "doi-asserted-by": "crossref",
+            "first-page": "112",
+            "DOI": "10.1186/s13045-021-01123-0",
+            "article-title": "LCAT3, a novel m6A-regulated long non-coding RNA, plays an oncogenic role in lung cancer via binding with FUBP1 to activate c-MYC",
+            "volume": "14",
+            "author": "Qian",
+            "year": "2021",
+            "journal-title": "J. Hematol. Oncol."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0029",
+            "doi-asserted-by": "crossref",
+            "first-page": "94",
+            "DOI": "10.1111/cas.13425",
+            "article-title": "Ursolic acid enhances the therapeutic effects of oxaliplatin in colorectal cancer by inhibition of drug resistance",
+            "volume": "109",
+            "author": "Zhang",
+            "year": "2018",
+            "journal-title": "Cancer Sci."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.tranon.2025.102427_bib0030",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1136/jitc-2022-005241",
+            "article-title": "MiR-125b-5p modulates the function of regulatory T cells in tumor microenvironment by targeting TNFR2",
+            "volume": "10",
+            "author": "Jiang",
+            "year": "2022",
+            "journal-title": "J. Immunoth. Cancer"
+          },
+          {
+            "issue": "20",
+            "key": "10.1016/j.tranon.2025.102427_bib0031",
+            "doi-asserted-by": "crossref",
+            "first-page": "5217",
+            "DOI": "10.1113/JP286962",
+            "article-title": "Lactate increases ADAM10 activity and reduces BACE1 activity in mouse brain",
+            "volume": "602",
+            "author": "Moberg",
+            "year": "2024",
+            "journal-title": "The J. Physiol."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0032",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1038/s41389-020-00295-7",
+            "article-title": "Diethyldithiocarbamate-copper complex (CuET) inhibits colorectal cancer progression via miR-16-5p and 15b-5p/ALDH1A3/PKM2 axis-mediated aerobic glycolysis pathway",
+            "volume": "10",
+            "author": "Huang",
+            "year": "2021",
+            "journal-title": "Oncogenesis"
+          },
+          {
+            "issue": "21",
+            "key": "10.1016/j.tranon.2025.102427_bib0033",
+            "doi-asserted-by": "crossref",
+            "first-page": "2074",
+            "DOI": "10.1161/CIRCULATIONAHA.120.048845",
+            "article-title": "ALDH1A3 coordinates metabolism with gene regulation in pulmonary arterial hypertension",
+            "volume": "143",
+            "author": "Li",
+            "year": "2021",
+            "journal-title": "Circulation"
+          },
+          {
+            "issue": "19",
+            "key": "10.1016/j.tranon.2025.102427_bib0034",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.3390/ijms231911943",
+            "article-title": "Lactate-lactylation hands between metabolic reprogramming and immunosuppression",
+            "volume": "23",
+            "author": "Chen",
+            "year": "2022",
+            "journal-title": "Int. J. Mol. Sci."
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "e7",
+            "DOI": "10.1017/erm.2022.42",
+            "article-title": "Lactate, histone lactylation and cancer hallmarks",
+            "volume": "25",
+            "author": "Lv",
+            "year": "2023",
+            "journal-title": "Expert Rev. Mol. Med."
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.tranon.2025.102427_bib0036",
+            "doi-asserted-by": "crossref",
+            "first-page": "1463",
+            "DOI": "10.1016/j.immuni.2021.05.004",
+            "article-title": "Metformin inhibition of mitochondrial ATP and DNA synthesis abrogates NLRP3 inflammasome activation and pulmonary inflammation",
+            "volume": "54",
+            "author": "Xian",
+            "year": "2021",
+            "journal-title": "Immunity"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0037",
+            "doi-asserted-by": "crossref",
+            "first-page": "128",
+            "DOI": "10.1038/s41421-022-00475-2",
+            "article-title": "Loss of function of CMPK2 causes mitochondria deficiency and brain calcification",
+            "volume": "8",
+            "author": "Zhao",
+            "year": "2022",
+            "journal-title": "Cell Discov."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.tranon.2025.102427_bib0038",
+            "doi-asserted-by": "crossref",
+            "first-page": "291",
+            "DOI": "10.2174/1566523223666230601102506",
+            "article-title": "Dysregulation of transfer RNA-derived small RNAs that regulate cell activity and its related signaling pathways in human cancers",
+            "volume": "23",
+            "author": "Huang",
+            "year": "2023",
+            "journal-title": "Curr. Gene Ther."
+          },
+          {
+            "issue": "Pt 3",
+            "key": "10.1016/j.tranon.2025.102427_bib0039",
+            "doi-asserted-by": "crossref",
+            "first-page": "1216",
+            "DOI": "10.1016/j.semcancer.2022.09.007",
+            "article-title": "Tumor glycolysis, an essential sweet tooth of tumor cells",
+            "volume": "86",
+            "author": "Paul",
+            "year": "2022",
+            "journal-title": "Semi. Cancer Biol."
+          },
+          {
+            "issue": "32",
+            "key": "10.1016/j.tranon.2025.102427_bib0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "21156",
+            "DOI": "10.1021/acsnano.4c04024",
+            "article-title": "Mitochondria-targeted multifunctional nanoprodrugs by inhibiting metabolic reprogramming for combating cisplatin-resistant lung cancer",
+            "volume": "18",
+            "author": "Lu",
+            "year": "2024",
+            "journal-title": "ACS Nano"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0041",
+            "doi-asserted-by": "crossref",
+            "first-page": "1456",
+            "DOI": "10.1038/s41467-020-15308-7",
+            "article-title": "Rac1 activates non-oxidative pentose phosphate pathway to induce chemoresistance of breast cancer",
+            "volume": "11",
+            "author": "Li",
+            "year": "2020",
+            "journal-title": "Nat. Commun."
+          },
+          {
+            "issue": "46",
+            "key": "10.1016/j.tranon.2025.102427_bib0042",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/advs.202401399",
+            "article-title": "Lactylation-driven IGF2BP3-mediated serine metabolism reprogramming and RNA m6A-modification promotes lenvatinib resistance in HCC",
+            "volume": "11",
+            "author": "Lu",
+            "year": "2024",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0043",
+            "doi-asserted-by": "crossref",
+            "first-page": "178",
+            "DOI": "10.1186/s12964-023-01199-w",
+            "article-title": "Role of tRNA-derived small RNAs (tsRNAs) in the diagnosis and treatment of malignant tumours",
+            "volume": "21",
+            "author": "Mao",
+            "year": "2023",
+            "journal-title": "Cell Commun. Signal. CCS"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0044",
+            "doi-asserted-by": "crossref",
+            "first-page": "53",
+            "DOI": "10.1186/s13045-022-01270-y",
+            "article-title": "A novel tRNA-derived fragment AS-tDR-007333 promotes the malignancy of NSCLC via the HSPB1/MED29 and ELK4/MED29 axes",
+            "volume": "15",
+            "author": "Yang",
+            "year": "2022",
+            "journal-title": "J. Hematol. Oncol."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0045",
+            "first-page": "230",
+            "article-title": "tsRNA-GlyGCC promotes colorectal cancer progression and 5-FU resistance by regulating SPIB",
+            "volume": "43",
+            "author": "Xu",
+            "year": "2024",
+            "journal-title": "J. Exper. Clin. Cancer Res. CR"
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0046",
+            "doi-asserted-by": "crossref",
+            "first-page": "29",
+            "DOI": "10.1016/j.semcancer.2021.05.024",
+            "article-title": "Transfer RNA-derived small RNA: a rising star in oncology",
+            "volume": "75",
+            "author": "Li",
+            "year": "2021",
+            "journal-title": "Seminars Cancer Biol."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.tranon.2025.102427_bib0047",
+            "doi-asserted-by": "crossref",
+            "first-page": "1033",
+            "DOI": "10.1002/jcsm.13187",
+            "article-title": "tRNA-derived small RNA, 5′tiRNA-Gly-CCC, promotes skeletal muscle regeneration through the inflammatory response",
+            "volume": "14",
+            "author": "Shen",
+            "year": "2023",
+            "journal-title": "J. Cachexia, Sarcopen. Muscle"
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0048",
+            "doi-asserted-by": "crossref",
+            "first-page": "295",
+            "DOI": "10.1016/j.omtn.2021.07.013",
+            "article-title": "5′-tiRNA-Cys-GCA regulates VSMC proliferation and phenotypic transition by targeting STAT4 in aortic dissection",
+            "volume": "26",
+            "author": "Zong",
+            "year": "2021",
+            "journal-title": "Mol. Therapy. Nucl. Acids"
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0049",
+            "article-title": "Lactylation, a novel metabolic reprogramming code: current status and prospects",
+            "volume": "12",
+            "author": "Chen",
+            "year": "2021",
+            "journal-title": "Front. Immunol."
+          },
+          {
+            "issue": "19",
+            "key": "10.1016/j.tranon.2025.102427_bib0050",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/advs.202309290",
+            "article-title": "Histone H3K9 lactylation confers temozolomide resistance in glioblastoma via LUC7L2-mediated MLH1 intron retention",
+            "volume": "11",
+            "author": "Yue",
+            "year": "2024",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.tranon.2025.102427_bib0051",
+            "doi-asserted-by": "crossref",
+            "first-page": "547",
+            "DOI": "10.1186/s12967-023-04403-0",
+            "article-title": "Warburg effect enhanced by AKR1B10 promotes acquired resistance to pemetrexed in lung cancer-derived brain metastasis",
+            "volume": "21",
+            "author": "Duan",
+            "year": "2023",
+            "journal-title": "J. Transl. Med."
+          },
+          {
+            "key": "10.1016/j.tranon.2025.102427_bib0052",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.drup.2023.100976",
+            "article-title": "Targeting ACYP1-mediated glycolysis reverses lenvatinib resistance and restricts hepatocellular carcinoma progression",
+            "volume": "69",
+            "author": "Wang",
+            "year": "2023",
+            "journal-title": "Drug Res. Updates: Rev. Comment. Ant. Anticancer Chemoth."
+          },
+          {
+            "issue": "24",
+            "key": "10.1016/j.tranon.2025.102427_bib0053",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/advs.202309298",
+            "article-title": "M2 tumor-associated macrophages-derived exosomal MALAT1 promotes glycolysis and gastric cancer progression",
+            "volume": "11",
+            "author": "Wang",
+            "year": "2024",
+            "journal-title": "Adv. Sci."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.tranon.2025.102427_bib0054",
+            "doi-asserted-by": "crossref",
+            "first-page": "4802",
+            "DOI": "10.7150/thno.73746",
+            "article-title": "N(6)-methyladenosine-mediated LDHA induction potentiates chemoresistance of colorectal cancer cells through metabolic reprogramming",
+            "volume": "12",
+            "author": "Zhang",
+            "year": "2022",
+            "journal-title": "Theranostics"
+          }
+        ],
+        "container-title": [
+          "Translational Oncology"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1936523325001585?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1936523325001585?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              8
+            ]
+          ],
+          "date-time": "2025-11-08T10:28:46Z",
+          "timestamp": 1762597726000
+        },
+        "score": 12.818828,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1936523325001585"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "references-count": 54,
+        "alternative-id": [
+          "S1936523325001585"
+        ],
+        "URL": "https://doi.org/10.1016/j.tranon.2025.102427",
+        "ISSN": [
+          "1936-5233"
+        ],
+        "issn-type": [
+          {
+            "value": "1936-5233",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "tsRNA-08614 inhibits glycolysis and histone lactylation by ALDH1A3 to confer oxaliplatin sensitivity in colorectal cancer",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Translational Oncology",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.tranon.2025.102427",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2025 Published by Elsevier Inc.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "102427"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

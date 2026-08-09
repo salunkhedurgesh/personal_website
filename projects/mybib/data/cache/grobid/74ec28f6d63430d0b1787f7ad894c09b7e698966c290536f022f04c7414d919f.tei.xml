@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="de">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Series of Modern Surveys in Mathematics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><roleName>Pisa</roleName><forename type="first">G.-M</forename><surname>Ambrosio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kaiserslautern</forename><forename type="middle">M</forename><surname>Greuel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bures-Sur-Yvette</forename><forename type="middle">J</forename><surname>Gromov</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leipzig</forename><forename type="middle">J</forename><surname>Jost</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Princeton</roleName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kollár</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Toronto</forename><forename type="middle">G</forename><surname>Kudla</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Orsay</forename><forename type="middle">H W</forename><surname>Laumon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leiden</forename><forename type="middle">J</forename><surname>Lenstra</surname><genName>Jr</genName></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paris</forename><forename type="middle">D B</forename><surname>Tits</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Bonn</roleName><surname>Zagier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eckhard</forename><surname>Meinrenken</surname></persName>
+						</author>
+						<title level="a" type="main">A Series of Modern Surveys in Mathematics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2D8F13BB5597A1B1E8C096ACCCF80E78</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="de">
+	</text>
+</TEI>

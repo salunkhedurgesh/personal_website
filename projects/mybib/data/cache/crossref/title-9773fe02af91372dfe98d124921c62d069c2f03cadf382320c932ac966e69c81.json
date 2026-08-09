@@ -1,0 +1,124 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 143909,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2024-09-08T09:26:49Z",
+          "timestamp": 1725787609955
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Routledge",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9780080497983"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2001,
+              12,
+              17
+            ]
+          ]
+        },
+        "DOI": "10.4324/9780080497983-9",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              21
+            ]
+          ],
+          "date-time": "2020-12-21T08:58:05Z",
+          "timestamp": 1608541085000
+        },
+        "page": "168-183",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Inverse kinematics"
+        ],
+        "prefix": "10.4324",
+        "author": [
+          {
+            "given": "Nik",
+            "family": "Lever",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "container-title": [
+          "Real-time 3D Character Animation with Visual C++"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              24
+            ]
+          ],
+          "date-time": "2021-05-24T09:06:39Z",
+          "timestamp": 1621847199000
+        },
+        "score": 23.829254,
+        "resource": {
+          "primary": {
+            "URL": "https://www.taylorfrancis.com/books/9781136134784/chapters/10.4324/9780080497983-9"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2001,
+              12,
+              17
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780080497983"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.4324/9780080497983-9",
+        "published": {
+          "date-parts": [
+            [
+              2001,
+              12,
+              17
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

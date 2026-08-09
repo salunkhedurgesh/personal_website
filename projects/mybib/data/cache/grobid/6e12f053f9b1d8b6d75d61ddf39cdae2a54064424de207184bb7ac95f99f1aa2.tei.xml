@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dual-Arm Control for Coordinated Fast Grabbing and Tossing of an Object Dual-Arm Control for Coordinated Fast Grabbing and Tossing of an Object</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-06-03">3 June 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Bombile</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aude</forename><surname>Billard</surname></persName>
+						</author>
+						<title level="a" type="main">Dual-Arm Control for Coordinated Fast Grabbing and Tossing of an Object Dual-Arm Control for Coordinated Fast Grabbing and Tossing of an Object</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-06-03">3 June 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5B8E57072B4D54D3F29A235F0ED048B8</idno>
+					<idno type="DOI">10.1109/MRA.2022.3177355</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>SEPTEMBER 2022 • IEEE ROBOTICS &amp; AUTOMATION MAGAZINE • 1070-9932/22©2022IEEE P icking up objects and tossing them on a conveyor belt are activities generated on a daily basis in industry. These tasks are still done largely by humans. This article proposes a unified motion generator for a bimanual robotic system that enables two seven-degree-of-freedom robotic arms to grab and toss an object in one swipe. Unlike classical approaches that grab the object with quasi-zero contact velocity, the proposed approach is able to grasp the object while in motion. We control the contact forces prior to and following impact so as to stabilize the robots&apos; grip on the object. We show that such swift grasping speeds up the pick-and-place process and reduces energy expenditure for tossing. Continuous control of the reach, grab, and toss motion is achieved by combining a sequence of timeinvariant dynamical systems (DSs) in a single control framework. We introduce a state-dependent modulation</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

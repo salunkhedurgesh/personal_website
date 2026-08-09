@@ -1,0 +1,558 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2482736,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              9
+            ]
+          ],
+          "date-time": "2025-12-09T06:42:47Z",
+          "timestamp": 1765262567173,
+          "version": "3.46.0"
+        },
+        "reference-count": 43,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "6",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2025-12-01T00:00:00Z",
+              "timestamp": 1764547200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2025-12-01T00:00:00Z",
+              "timestamp": 1764547200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2025-12-01T00:00:00Z",
+              "timestamp": 1764547200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100012226",
+            "name": "Fundamental Research Funds for the Central Universities",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "2024PTB-007"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2024PTB-007"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100012226",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Science and Technology Foundation of State Key Laboratory",
+            "award": [
+              "KJW6142210220307"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "KJW6142210220307"
+                ]
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "62373034"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "62373034"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Aerosp. Electron. Syst."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1109/taes.2025.3584896",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2025-07-04T13:52:55Z",
+          "timestamp": 1751637175000
+        },
+        "page": "15327-15340",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Iterative Action Generation-Based Task Planning for Space Macromicro Manipulator"
+        ],
+        "prefix": "10.1109",
+        "volume": "61",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7120-7058",
+            "authenticated-orcid": false,
+            "given": "Gang",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-6060-3693",
+            "authenticated-orcid": false,
+            "given": "Zhikai",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7989-3355",
+            "authenticated-orcid": false,
+            "given": "Tong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Yanchao",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9545-8975",
+            "authenticated-orcid": false,
+            "given": "Yifan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-2572-9908",
+            "authenticated-orcid": false,
+            "given": "Rui",
+            "family": "Yue",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "first-page": "19",
+            "article-title": "International space station robotics: A comparative study of ERA, JEMRMS AND MSS",
+            "volume-title": "Proc. 7th ESA Workshop Adv. Space Technol. Robot. Automat.",
+            "author": "Laryssa",
+            "year": "2002"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0094-5765(02)00077-2"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/10447318.2023.2250055"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0736-5845(93)90056-P"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/6.2015-4540"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2022.3171097"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/6.2012-1272635"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ymssp.2017.09.011"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jsv.2017.02.039"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.paerosci.2014.03.002"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/6.2013-5341"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.7210/jrsj.14.18"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ETFA45728.2021.9613218"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS51168.2021.9636554"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/app12084018"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2020.XVI.003"
+          },
+          {
+            "key": "ref17",
+            "first-page": "167",
+            "article-title": "Perception planning and execution control for a visual and landmark-based navigation task",
+            "volume-title": "Proc. Latinoamerican Robot. Simposium",
+            "author": "Marn-Hernndez",
+            "year": "2007"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2022.3150855"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.23919/CCC63176.2024.10661966"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2024.3477090"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/2022.acl-long.310"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev-control-082619-100135"
+          },
+          {
+            "key": "ref23",
+            "first-page": "333",
+            "article-title": "Assembly planning and task planningtwo prerequisites for automated robot programming",
+            "volume-title": "Robotic Systems for Handling and Assembly",
+            "author": "Thomas",
+            "year": "2011"
+          },
+          {
+            "issue": "PMLR",
+            "key": "ref24",
+            "first-page": "2095",
+            "article-title": "Residual skill policies: Learning an adaptable skill-based action space for reinforcement learning for robotics",
+            "volume-title": "Proc. Conf. Robot Learn.",
+            "author": "Rana",
+            "year": "2023"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2020.3001130"
+          },
+          {
+            "issue": "PMLR",
+            "key": "ref26",
+            "first-page": "188",
+            "article-title": "Accelerating reinforcement learning with learned skill priors",
+            "volume-title": "Proc. Conf. Robot Learn.",
+            "author": "Pertsch",
+            "year": "2021"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2023.3262423"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA48506.2021.9560942"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-031-58174-8_30"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1631/FITEE.1800514"
+          },
+          {
+            "issue": "5",
+            "key": "ref31",
+            "article-title": "T-HTN: Timeline based HTN planning for multiple robots",
+            "volume": "22",
+            "author": "Parimi",
+            "year": "2021",
+            "journal-title": "IEEE Trans. Intell. Transp. Syst."
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.11591/eei.v8i1.1437"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2022.3157567"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-981-99-6495-6_28"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/09544062211064966"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/rob.22351"
+          },
+          {
+            "key": "ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00453-013-9801-4"
+          },
+          {
+            "key": "ref38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/1742-6596/2774/1/012088"
+          },
+          {
+            "key": "ref39",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2021.3093874"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.34133/2022/9832053"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3233/JIFS-237475"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2020.3037158"
+          },
+          {
+            "article-title": "PDDL. jl: An extensible interpreter and compiler interface for fast and flexible AI planning",
+            "year": "2022",
+            "author": "Zhi-Xuan",
+            "key": "ref43"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Aerospace and Electronic Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/7/11283081/11071988.pdf?arnumber=11071988",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              9
+            ]
+          ],
+          "date-time": "2025-12-09T06:40:27Z",
+          "timestamp": 1765262427000
+        },
+        "score": 25.466248,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11071988/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "references-count": 43,
+        "journal-issue": {
+          "issue": "6"
+        },
+        "URL": "https://doi.org/10.1109/taes.2025.3584896",
+        "ISSN": [
+          "0018-9251",
+          "1557-9603",
+          "2371-9877"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0018-9251"
+          },
+          {
+            "type": "electronic",
+            "value": "1557-9603"
+          },
+          {
+            "type": "electronic",
+            "value": "2371-9877"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

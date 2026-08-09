@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyBib | Personal academic paper library</title>
+  <link rel="stylesheet" href="css/mybib.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>MyBib</h1>
+      <p>Personal academic paper library</p>
+    </div>
+    <div class="header-actions">
+      <a class="button" href="data/references.bib" download>Download complete BibTeX</a>
+      <button id="exportNotes" type="button">Export notes</button>
+      <button id="exportMetadata" type="button">Export metadata</button>
+      <button id="exportMetadataYaml" type="button">Export YAML</button>
+      <label class="button file-button">
+        Import notes
+        <input id="importNotes" type="file" accept="application/json,.json">
+      </label>
+      <label class="button file-button">
+        Import metadata
+        <input id="importMetadata" type="file" accept="application/json,.json">
+      </label>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="Search and filters">
+      <label>
+        Search
+        <input id="searchInput" type="search" placeholder="Title, author, DOI, tag, note...">
+      </label>
+      <label>
+        Category
+        <select id="categoryFilter"><option value="">All categories</option></select>
+      </label>
+      <label>
+        Project
+        <select id="projectFilter"><option value="">All projects</option></select>
+      </label>
+      <label>
+        Year
+        <select id="yearFilter"><option value="">All years</option></select>
+      </label>
+      <label>
+        Author
+        <input id="authorFilter" type="search" placeholder="Filter by author">
+      </label>
+      <label>
+        Sort
+        <select id="sortSelect">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="title">Title A-Z</option>
+          <option value="author">Author A-Z</option>
+          <option value="venue">Venue A-Z</option>
+        </select>
+      </label>
+      <div class="filter-actions">
+        <button id="downloadFiltered" type="button">Download filtered BibTeX</button>
+        <button id="downloadCategory" type="button">Download category BibTeX</button>
+        <button id="downloadProject" type="button">Download project BibTeX</button>
+      </div>
+    </aside>
+
+    <section class="content" aria-live="polite">
+      <div class="status-row">
+        <p id="resultCount">Loading library...</p>
+        <p id="dataWarning" class="warning" hidden></p>
+      </div>
+      <div class="paper-header" aria-hidden="true">
+        <span>Title</span>
+        <span>Authors</span>
+        <span>Date</span>
+        <span>Project</span>
+        <span>Actions</span>
+      </div>
+      <div id="paperList" class="paper-list"></div>
+      <div id="emptyState" class="empty" hidden>
+        <h2>No papers found</h2>
+        <p>Add PDFs to <code>projects/mybib/pdfs/</code>, run the build script, then refresh this page.</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="notesDialog">
+    <form method="dialog">
+      <h2 id="notesTitle">Edit notes</h2>
+      <textarea id="notesText" rows="10"></textarea>
+      <div class="dialog-actions">
+        <button value="cancel" type="submit">Cancel</button>
+        <button id="saveNotes" value="default" type="button">Save notes</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="metadataDialog">
+    <form method="dialog">
+      <h2 id="metadataTitle">Edit metadata</h2>
+      <div class="metadata-grid">
+        <label>
+          Title
+          <input id="metadataPaperTitle" type="text">
+        </label>
+        <label>
+          Authors
+          <textarea id="metadataAuthors" rows="3" placeholder="One author per line"></textarea>
+        </label>
+        <label>
+          Year
+          <input id="metadataYear" type="number" min="0" max="3000">
+        </label>
+        <label>
+          Venue
+          <input id="metadataVenue" type="text">
+        </label>
+        <label>
+          DOI
+          <input id="metadataDoi" type="text">
+        </label>
+        <label>
+          BibTeX key
+          <input id="metadataBibtexKey" type="text">
+        </label>
+        <label>
+          Projects
+          <select id="metadataProjects" multiple></select>
+        </label>
+        <label>
+          Categories
+          <select id="metadataCategories" multiple></select>
+        </label>
+        <label>
+          Tags
+          <textarea id="metadataTags" rows="3" placeholder="Comma-separated tags"></textarea>
+        </label>
+        <label>
+          Notes
+          <textarea id="metadataNotes" rows="4"></textarea>
+        </label>
+      </div>
+      <div class="dialog-actions">
+        <button id="resetMetadata" type="button">Reset local edit</button>
+        <button value="cancel" type="submit">Cancel</button>
+        <button id="saveMetadata" value="default" type="button">Save metadata</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="js/mybib.js"></script>
+</body>
+</html>

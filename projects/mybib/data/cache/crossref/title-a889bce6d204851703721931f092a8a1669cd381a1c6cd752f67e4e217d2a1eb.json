@@ -1,0 +1,313 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7948995,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2025-03-27T23:07:43Z",
+          "timestamp": 1743116863160,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Boston, MA",
+        "reference-count": 13,
+        "publisher": "Springer US",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9781489975027"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2016-01-01T00:00:00Z",
+              "timestamp": 1451606400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2016-01-01T00:00:00Z",
+              "timestamp": 1451606400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4899-7502-7_892-1",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2021-04-29T21:32:11Z",
+          "timestamp": 1619731931000
+        },
+        "page": "1-4",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Learning Using Privileged Information"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Viktoriia",
+            "family": "Sharmanska",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Novi",
+            "family": "Quadrianto",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "892-1_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "4",
+            "DOI": "10.1016/j.ins.2011.04.025",
+            "volume": "194",
+            "author": "J Feyereisl",
+            "year": "2012",
+            "unstructured": "Feyereisl J, Aickelin U (2012) Privileged information for data clustering. Inf Sci 194:4–23",
+            "journal-title": "Inf Sci"
+          },
+          {
+            "key": "892-1_CR2",
+            "unstructured": "Feyereisl J, Kwak S, Son J, Han B (2014) Object localization based on structural svm using privileged information. In: Neural information processing systems (NIPS), Montreal"
+          },
+          {
+            "issue": "7",
+            "key": "892-1_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "1086",
+            "DOI": "10.1109/TNNLS.2013.2251470",
+            "volume": "24",
+            "author": "S Fouad",
+            "year": "2013",
+            "unstructured": "Fouad S, Tino P, Raychaudhury S, Schneider P (2013) Incorporating privileged information through metric learning. IEEE Trans Neural Netw Learn Syst 24(7):1086–1098",
+            "journal-title": "IEEE Trans Neural Netw Learn Syst"
+          },
+          {
+            "key": "892-1_CR4",
+            "unstructured": "Hernández-Lobato D, Sharmanska V, Kersting K, Lampert CH, Quadrianto N (2014) Mind the nuisance: Gaussian process classification using privileged noise. In: Neural information processing systems (NIPS), Montreal"
+          },
+          {
+            "key": "892-1_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "95",
+            "DOI": "10.1016/j.neunet.2014.02.002",
+            "volume": "53",
+            "author": "M Lapin",
+            "year": "2014",
+            "unstructured": "Lapin M, Hein M, Schiele B (2014) Learning using privileged information: SVM+ and weighted SVM. Neural Netw 53:95-108",
+            "journal-title": "Neural Netw"
+          },
+          {
+            "key": "892-1_CR6",
+            "first-page": "437",
+            "volume-title": "Computer Vision – ECCV 2014",
+            "author": "Wen Li",
+            "year": "2014",
+            "unstructured": "Li W, Niu L, Xu D (2014) Exploiting privileged information from web data for image categorization. In: European conference on computer vision (ECCV), Zurich"
+          },
+          {
+            "key": "892-1_CR7",
+            "unstructured": "Pechyony D, Vapnik V (2010) On the theory of learning with privileged information. In: Neural information processing systems (NIPS), Vancouver"
+          },
+          {
+            "key": "892-1_CR8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1201/b11429-5",
+            "volume-title": "Fast optimization algorithms for solving SVM+",
+            "author": "D Pechyony",
+            "year": "2011",
+            "unstructured": "Pechyony D, Vapnik V (2011) Fast optimization algorithms for solving SVM+. In: Statistical Learning and Data Science."
+          },
+          {
+            "key": "892-1_CR9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ribeiro B, Silva C, Vieira A, Gaspar-Cunha A, das Neves J (2010) Financial distress model prediction using SVM+. In: International joint conference on neural networks (IJCNN), Barcelona",
+            "DOI": "10.1109/IJCNN.2010.5596729"
+          },
+          {
+            "key": "892-1_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sharmanska V, Quadrianto N, Lampert CH (2013) Learning to rank using privileged information. In: International conference on computer vision (ICCV), Sydney",
+            "DOI": "10.1109/ICCV.2013.107"
+          },
+          {
+            "key": "892-1_CR11",
+            "volume-title": "The nature of statistical learning theory",
+            "author": "V Vapnik",
+            "year": "1999",
+            "unstructured": "Vapnik V (1999) The nature of statistical learning theory. Springer, Berlin/Heidelberg"
+          },
+          {
+            "issue": "5",
+            "key": "892-1_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "544",
+            "DOI": "10.1016/j.neunet.2009.06.042",
+            "volume": "22",
+            "author": "V Vapnik",
+            "year": "2009",
+            "unstructured": "Vapnik V, Vashist A (2009) A new learning paradigm: learning using privileged information. Neural Netw 22(5):544–557",
+            "journal-title": "Neural Netw"
+          },
+          {
+            "key": "892-1_CR13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wang Z, Wang X, Ji Q (2014) Learning with hidden information. In: International Conference on Pattern Recognition (ICPR), Stockholm",
+            "DOI": "10.1109/ICPR.2014.50"
+          }
+        ],
+        "container-title": [
+          "Encyclopedia of Machine Learning and Data Mining"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-1-4899-7502-7_892-1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2021-11-17T03:19:46Z",
+          "timestamp": 1637119186000
+        },
+        "score": 31.980053,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-1-4899-7502-7_892-1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781489975027"
+        ],
+        "references-count": 13,
+        "URL": "https://doi.org/10.1007/978-1-4899-7502-7_892-1",
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "9 February 2015, 01:05:33",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "6 July 2016, 13:05:16",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "2 September 2016",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

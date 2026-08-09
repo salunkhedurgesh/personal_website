@@ -1,0 +1,295 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3522611,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2026-01-13T15:31:11Z",
+          "timestamp": 1768318271272,
+          "version": "3.49.0"
+        },
+        "reference-count": 14,
+        "publisher": "Wiley",
+        "issue": "7",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2009,
+                  1,
+                  2
+                ]
+              ],
+              "date-time": "2009-01-02T00:00:00Z",
+              "timestamp": 1230854400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 2012,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "The Laryngoscope"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p><jats:bold>Objectives</jats:bold> To explore the feasibility of performing endo‐robotic neck surgery in a porcine model and to compare the results of robotically enhanced endoscopic surgery with those from a conventional endoscopic technique.</jats:p><jats:p><jats:bold>Study Design</jats:bold> Prospective, nonrandomized experimental investigation in a porcine model.</jats:p><jats:p><jats:bold>Methods</jats:bold> We performed a consecutive series of endoscopic neck surgeries using the daVinci surgical system (Intuitive Surgical Inc.). The length of time required to establish the operative pocket and to assemble the robotic components, as well as the total duration of each operation, was recorded. The animals were continuously monitored for heart rate, blood pressure, and end‐tidal CO<jats:sub>2</jats:sub> pressure, and evaluation for presence of pneumothorax and subcutaneous emphysema was undertaken postoperatively. The specimens were examined histologically.</jats:p><jats:p><jats:bold>Results</jats:bold> Four different types of neck surgery were successfully performed on both sides of the neck of four animals using the daVinci surgical system. Creation of the operative pocket took, on average (±SD), 18.1 ± 11.9 minutes, and assembly of the robot required 12.5 ± 9.9 minutes, resulting in a mean preparation time for all procedures of 30.6 ± 21.0 minutes. The mean operative time for submandibular resection (n = 3) was 19.0 ± 6.6 minutes, with a total procedure time of 39.0 ± 10.2 minutes. Selective neck dissections (n = 3) required a mean operative time of 66.0 ± 18.5 minutes and a total procedure time of 85.7 ± 16.7 minutes. One partial parotidectomy and one thymectomy were also performed. The median estimated blood loss was 0 mL (range, 0–10 mL). The end‐tidal CO<jats:sub>2</jats:sub> pressure fell from the start to the end of the procedures by a mean of 4.4 ± 7.9 mm Hg. The blood pressure fell by a mean of 1.9 ± 7.5 mm Hg. There was one case of modest subcutaneous emphysema, and there were no cases of pneumothorax or air embolism. No conversions to open resection were necessary.</jats:p><jats:p><jats:bold>Conclusions</jats:bold> Robotically enhanced endoscopic surgery in the neck is feasible and offers a number of compelling advantages over conventional endoscopic neck surgery. Clinical trials will be necessary to determine whether these advantages can be achieved in clinical practice.</jats:p>",
+        "DOI": "10.1097/00005537-200307000-00008",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2003,
+              11,
+              19
+            ]
+          ],
+          "date-time": "2003-11-19T11:09:57Z",
+          "timestamp": 1069240197000
+        },
+        "page": "1139-1144",
+        "source": "Crossref",
+        "is-referenced-by-count": 97,
+        "title": [
+          "Surgical Robotic Applications in Otolaryngology"
+        ],
+        "prefix": "10.1002",
+        "volume": "113",
+        "author": [
+          {
+            "given": "Brian M.",
+            "family": "Haus",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Neeraja",
+            "family": "Kambham",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "David",
+            "family": "Le",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Frederic M.",
+            "family": "Moll",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Christine",
+            "family": "Gourin",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "David J.",
+            "family": "Terris",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              1,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_6_2_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1089/105072501300042848"
+          },
+          {
+            "key": "e_1_2_6_3_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1001/archsurg.135.4.481"
+          },
+          {
+            "key": "e_1_2_6_4_2",
+            "first-page": "791",
+            "article-title": "Endoscopic resection of thyroid tumors by the axillary approach",
+            "volume": "41",
+            "author": "Ikeda Y",
+            "year": "2000",
+            "journal-title": "J Cardiovasc Surg (Torino)"
+          },
+          {
+            "key": "e_1_2_6_5_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00268-001-0018-3"
+          },
+          {
+            "key": "e_1_2_6_6_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1067/mtc.2000.109543"
+          },
+          {
+            "key": "e_1_2_6_7_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1055/s-2000-6904"
+          },
+          {
+            "key": "e_1_2_6_8_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0022-5347(05)65162-2"
+          },
+          {
+            "key": "e_1_2_6_9_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S1091-255X(01)00032-4"
+          },
+          {
+            "key": "e_1_2_6_10_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/00005537-200206000-00028"
+          },
+          {
+            "key": "e_1_2_6_11_2",
+            "unstructured": "TerrisDJ MonfaredA ThomasA KambhamN SaenzY.Endoscopic selective neck dissection in a porcine model.Arch Otolaryngol Head Neck Surg(in press)."
+          },
+          {
+            "key": "e_1_2_6_12_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1053/otot.2002.36444"
+          },
+          {
+            "key": "e_1_2_6_13_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1001/archotol.126.3.417"
+          },
+          {
+            "key": "e_1_2_6_14_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/00005537-199902000-00013"
+          },
+          {
+            "key": "e_1_2_6_15_2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1067/msy.2000.110238"
+          }
+        ],
+        "container-title": [
+          "The Laryngoscope"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1097%2F00005537-200307000-00008",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1097/00005537-200307000-00008",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2023-11-17T07:25:12Z",
+          "timestamp": 1700205912000
+        },
+        "score": 37.044796,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1097/00005537-200307000-00008"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        },
+        "references-count": 14,
+        "journal-issue": {
+          "issue": "7",
+          "published-print": {
+            "date-parts": [
+              [
+                2003,
+                7
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1097/00005537-200307000-00008"
+        ],
+        "URL": "https://doi.org/10.1097/00005537-200307000-00008",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "0023-852X",
+          "1531-4995"
+        ],
+        "issn-type": [
+          {
+            "value": "0023-852X",
+            "type": "print"
+          },
+          {
+            "value": "1531-4995",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

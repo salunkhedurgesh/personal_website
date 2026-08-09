@@ -1,0 +1,506 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6400610,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T04:44:07Z",
+          "timestamp": 1742964247660,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 22,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783030489885"
+          },
+          {
+            "type": "electronic",
+            "value": "9783030489892"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2020-01-01T00:00:00Z",
+              "timestamp": 1577836800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2020-01-01T00:00:00Z",
+              "timestamp": 1577836800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-030-48989-2_44",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              18
+            ]
+          ],
+          "date-time": "2020-06-18T10:04:20Z",
+          "timestamp": 1592474660000
+        },
+        "page": "408-418",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "A New RCM Mechanism for an Ear and Facial Surgical Application"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Guillaume",
+            "family": "Michel",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Durgesh Haribhau",
+            "family": "Salunkhe",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Damien",
+            "family": "Chablat",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Philippe",
+            "family": "Bordure",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              19
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "5",
+            "key": "44_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "1265",
+            "DOI": "10.1016/j.otc.2016.05.015",
+            "volume": "49",
+            "author": "M Alicandri-Ciufelli",
+            "year": "2016",
+            "unstructured": "Alicandri-Ciufelli, M., Marchioni, D., Kakehata, S., Presutti, L., Villari, D.: Endoscopic management of attic cholesteatoma: long-term results. Otolaryngol. Clin. North Am. 49(5), 1265–1270 (2016)",
+            "journal-title": "Otolaryngol. Clin. North Am."
+          },
+          {
+            "issue": "1",
+            "key": "44_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "14",
+            "DOI": "10.5152/iao.2017.3322",
+            "volume": "13",
+            "author": "G Iannella",
+            "year": "2017",
+            "unstructured": "Iannella, G., Marcotullio, D., Re, M., Manno, A., Pasquariello, B., Angeletti, D., et al.: Endoscopic vs microscopic approach in stapes surgery: advantages in the middle ear structures visualization and trainee’s point of view. J. Int. Adv. Otol. 13(1), 14–20 (2017)",
+            "journal-title": "J. Int. Adv. Otol."
+          },
+          {
+            "key": "44_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "907372",
+            "DOI": "10.1100/2012/907372",
+            "volume": "2012",
+            "author": "M Miroir",
+            "year": "2012",
+            "unstructured": "Miroir, M., Nguyen, Y., Szewczyk, J., Sterkers, O., Bozorg, G.A.: Design, kinematic optimization, and evaluation of a teleoperated system for middle ear microsurgery. Sci. World J. 2012, 907372 (2012)",
+            "journal-title": "Sci. World J."
+          },
+          {
+            "issue": "8",
+            "key": "44_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "1207",
+            "DOI": "10.1097/MAO.0b013e3181f2ebc3",
+            "volume": "31",
+            "author": "D Schurzig",
+            "year": "2010",
+            "unstructured": "Schurzig, D., Webster, R.J., Dietrich, M.S., Labadie, R.F.: Force of cochlear implant electrode insertion performed by a robotic insertion tool: comparison of traditional versus Advance Off-Stylet techniques. Otol. Neurotol. 31(8), 1207–1210 (2010)",
+            "journal-title": "Otol. Neurotol."
+          },
+          {
+            "issue": "3",
+            "key": "44_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "0310031",
+            "DOI": "10.1115/1.4030083",
+            "volume": "9",
+            "author": "NP Dillon",
+            "year": "2015",
+            "unstructured": "Dillon, N.P., Balachandran, R., Fitzpatrick, J.M., Siebold, M.A., Labadie, R.F., Wanna, G.B., et al.: A compact, bone-attached robot for mastoidectomy. J. Med. Devices 9(3), 0310031–0310037 (2015)",
+            "journal-title": "J. Med. Devices"
+          },
+          {
+            "issue": "3",
+            "key": "44_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "139",
+            "DOI": "10.3342/ceo.2008.1.3.139",
+            "volume": "1",
+            "author": "J-Y Ahn",
+            "year": "2008",
+            "unstructured": "Ahn, J.-Y., Park, H.J., Park, G.-H., Jeong, Y.-S., Kwak, H.-B., Lee, Y.-J., et al.: Tympanometry and CT measurement of middle ear volumes in patients with unilateral chronic otitis media. Clin. Exp. Otorhinolaryngol. 1(3), 139–142 (2008)",
+            "journal-title": "Clin. Exp. Otorhinolaryngol."
+          },
+          {
+            "key": "44_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "127",
+            "DOI": "10.1016/j.heares.2015.12.005",
+            "volume": "340",
+            "author": "O Cros",
+            "year": "2016",
+            "unstructured": "Cros, O., Knutsson, H., Andersson, M., Pawels, E., Borga, M., Gaihede, M.: Determination of the mastoid surface area and volume based on micro-CT scanning of human temporal bones. Geometrical parameters depend on scanning resolutions. Hear. Res. 340, 127–134 (2016)",
+            "journal-title": "Hear. Res."
+          },
+          {
+            "issue": "2",
+            "key": "44_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "143",
+            "DOI": "10.1097/01.coc.0000143847.57027.16",
+            "volume": "28",
+            "author": "HD Pacholke",
+            "year": "2005",
+            "unstructured": "Pacholke, H.D., Amdur, R.J., Schmalfuss, I.M., Louis, D., Mendenhall, W.M.: Contouring the middle and inner ear on radiotherapy planning scans. Am. J. Clin. Oncol. 28(2), 143–147 (2005)",
+            "journal-title": "Am. J. Clin. Oncol."
+          },
+          {
+            "issue": "1",
+            "key": "44_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "57",
+            "DOI": "10.5603/FM.a2017.0057",
+            "volume": "77",
+            "author": "N Gocmen-Mas",
+            "year": "2018",
+            "unstructured": "Gocmen-Mas, N., Kahveci, O., Fahrioğlu, S.L., Okur, N., Canan, S., Özel, O., et al.: Volumetric evaluation of temporal bone structures in the cases with bilateral tinnitus: clinical and morphometrical study. Folia Morphol (Warsz) 77(1), 57–64 (2018)",
+            "journal-title": "Folia Morphol (Warsz)"
+          },
+          {
+            "issue": "3",
+            "key": "44_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "387",
+            "DOI": "10.1016/j.jare.2013.06.006",
+            "volume": "5",
+            "author": "RM Hamdy",
+            "year": "2014",
+            "unstructured": "Hamdy, R.M., Abdel-Wahed, N.: Three-dimensional linear and volumetric analysis of maxillary sinus pneumatization. J. Adv. Res. 5(3), 387–395 (2014)",
+            "journal-title": "J. Adv. Res."
+          },
+          {
+            "issue": "2",
+            "key": "44_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "163",
+            "DOI": "10.4103/0975-1475.154595",
+            "volume": "7",
+            "author": "RK Kanthem",
+            "year": "2015",
+            "unstructured": "Kanthem, R.K., Guttikonda, V.R., Yeluri, S., Kumari, G.: Sex determination using maxillary sinus. J. Forensic Dent. Sci. 7(2), 163–167 (2015)",
+            "journal-title": "J. Forensic Dent. Sci."
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "Velasco-Torres, M., Padial-Molina, M., Avila-Ortiz, G., García-Delgado, R., O’Valle, F., Catena, A., et al.: Maxillary sinus dimensions decrease as age and tooth loss increase. Implant Dent. 26(2), 288–295 (2017)",
+            "key": "44_CR12",
+            "DOI": "10.1097/ID.0000000000000551"
+          },
+          {
+            "key": "44_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "69",
+            "DOI": "10.1016/j.aanat.2015.02.013",
+            "volume": "203",
+            "author": "N Štoković",
+            "year": "2016",
+            "unstructured": "Štoković, N., Trkulja, V., Dumić-Čule, I., Čuković-Bagić, I., Lauc, T., Vukičević, S., et al.: Sphenoid sinus types, dimensions and relationship with surrounding structures. Ann. Anat. 203, 69–76 (2016)",
+            "journal-title": "Ann. Anat."
+          },
+          {
+            "key": "44_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "1100",
+            "DOI": "10.4018/978-1-5225-7368-5.ch080",
+            "volume-title": "Advanced Methodologies and Technologies in Artificial Intelligence, Computer Simulation, and Human-Computer Interaction",
+            "author": "S Nisa",
+            "year": "2019",
+            "unstructured": "Nisa, S., Hasan, O.: State of the art and key design challenges of telesurgical robotics. In: Khosrow-Pour, D.B.A. (ed.) Advanced Methodologies and Technologies in Artificial Intelligence, Computer Simulation, and Human-Computer Interaction, pp. 1100–1111. IGI Global, Hershey (2019)"
+          },
+          {
+            "unstructured": "Schena, B.: Robotic manipulator with remote center of motion and compact drive. Patent WO 2008/157225 (2007)",
+            "key": "44_CR15"
+          },
+          {
+            "unstructured": "Dreux, M., Ginzburg, L., Bordure, P., Chablat, D., Michel, G.: Etat de l’art des systèmes robotisés en vue d’une application pour la chirurgie otologique. In: Congrès Français de Mécanique, Brest, France, August 2019",
+            "key": "44_CR16"
+          },
+          {
+            "unstructured": "Rosen, J., Brown J.D., Chang, L., Barreca, M., Sinanan, M., Hannaford, B.: The BlueDragon - a system for measuring the kinematics and dynamics of minimally invasive surgical tools in-vivo, In: Proceedings 2002 IEEE International Conference on Robotics and Automation (2002)",
+            "key": "44_CR17"
+          },
+          {
+            "unstructured": "Gosselin, C.M., Hamel, J.-F.: The agile eye: a high-performance three-degree-of-freedom camera-orienting device. In: Proceedings of the 1994 IEEE international conference on robotics and automation, pp. 781–786 (1994)",
+            "key": "44_CR18"
+          },
+          {
+            "unstructured": "Caron, F.: Analyse et développement d’un manipulateur parallèle sphérique à deux degrés de liberté pour l’orientation d’une caméra, Université Laval, Québec, August 1997",
+            "key": "44_CR19"
+          },
+          {
+            "unstructured": "Ur-Rehman, R., Caro, S., Chablat, D., Wenger, P.: Kinematic and dynamic analysis of the 2-DOF spherical wrist of orthoglide 5-axis. In: Troisième Congrès International Conception et Modélisation des Systèmes Mécaniques, Hammamet, Tunisie, March 2009",
+            "key": "44_CR20"
+          },
+          {
+            "doi-asserted-by": "crossref",
+            "unstructured": "Caro, S., Chablat, D., Lemoine, P., Wenger, P.: Kinematic analysis and trajectory planning of the Orthoglide 5-axis. In: ASME 2015 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (2015)",
+            "key": "44_CR21",
+            "DOI": "10.1115/DETC2015-46292"
+          },
+          {
+            "unstructured": "Chablat, D., Michel, G., Phillipe, B.: Dispositif d’aide à la chirugie, 2020 Patent FR1910523 Centre Nationale de Recherche Scientifique - CHU de Nantes",
+            "key": "44_CR22"
+          }
+        ],
+        "container-title": [
+          "Mechanisms and Machine Science",
+          "Advances in Service and Industrial Robotics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-030-48989-2_44",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              18
+            ]
+          ],
+          "date-time": "2020-06-18T10:37:31Z",
+          "timestamp": 1592476651000
+        },
+        "score": 43.12169,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-030-48989-2_44"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783030489885",
+          "9783030489892"
+        ],
+        "references-count": 22,
+        "URL": "https://doi.org/10.1007/978-3-030-48989-2_44",
+        "ISSN": [
+          "2211-0984",
+          "2211-0992"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2211-0984"
+          },
+          {
+            "type": "electronic",
+            "value": "2211-0992"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "19 June 2020",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "RAAD",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "International Conference on Robotics in Alpe-Adria Danube Region",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Kaiserslautern",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Germany",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2020",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "19 June 2020",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "19 June 2020",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "raad2020",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "https://agrosy.informatik.uni-kl.de/raad/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

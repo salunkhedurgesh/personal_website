@@ -1,0 +1,281 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 800258,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2025-03-26T10:25:53Z",
+          "timestamp": 1742984753930,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Berlin, Heidelberg",
+        "reference-count": 10,
+        "publisher": "Springer Berlin Heidelberg",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783662484951"
+          },
+          {
+            "type": "electronic",
+            "value": "9783662484975"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  8,
+                  17
+                ]
+              ],
+              "date-time": "2016-08-17T00:00:00Z",
+              "timestamp": 1471392000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc/2.5"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-662-48497-5_3",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              16
+            ]
+          ],
+          "date-time": "2016-08-16T14:17:08Z",
+          "timestamp": 1471357028000
+        },
+        "page": "103-154",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Elementary Differential Geometry"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Hung",
+            "family": "Nguyen-Schäfer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jan-Philip",
+            "family": "Schmidt",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              17
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "3_CR1",
+            "volume-title": "Elementare Differentialgeometrie (in German)",
+            "author": "C Bär",
+            "year": "2001",
+            "unstructured": "Bär, C.: Elementare Differentialgeometrie (in German), Zweiteth edn. De Gruyter, Berlin (2001)",
+            "edition": "Zweite"
+          },
+          {
+            "key": "3_CR2",
+            "volume-title": "Fundamental Forms of Surfaces and the Gauss-Bonnet Theorem",
+            "author": "HS Chase",
+            "year": "2012",
+            "unstructured": "Chase, H.S.: Fundamental Forms of Surfaces and the Gauss-Bonnet Theorem. University of Chicago, Chicago, IL (2012)"
+          },
+          {
+            "key": "3_CR3",
+            "volume-title": "Tensorrechnung für Ingenieure (in German)",
+            "author": "E Klingbeil",
+            "year": "1966",
+            "unstructured": "Klingbeil, E.: Tensorrechnung für Ingenieure (in German). B.I.-Wissenschafts-verlag, Mannheim (1966)"
+          },
+          {
+            "key": "3_CR4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-658-00615-0",
+            "volume-title": "Differentialgeometrie – Kurven, Flächen, Mannigfaltigkeit (in German)",
+            "author": "W Kühnel",
+            "year": "2013",
+            "unstructured": "Kühnel, W.: Differentialgeometrie – Kurven, Flächen, Mannigfaltigkeit (in German), 6th edn. Springer-Spektrum, Wiesbaden (2013)",
+            "edition": "6"
+          },
+          {
+            "key": "3_CR5",
+            "volume-title": "Fundamentals of Differential Geometry",
+            "author": "S Lang",
+            "year": "2001",
+            "unstructured": "Lang, S.: Fundamentals of Differential Geometry, 2nd edn. Springer, New York, NY (2001)",
+            "edition": "2"
+          },
+          {
+            "key": "3_CR6",
+            "volume-title": "Vectors and Tensors in Engineering and Physics",
+            "author": "DA Danielson",
+            "year": "2003",
+            "unstructured": "Danielson, D.A.: Vectors and Tensors in Engineering and Physics, 2nd edn. ABP, Westview Press, CO (2003)",
+            "edition": "2"
+          },
+          {
+            "key": "3_CR7",
+            "volume-title": "The Road to Reality",
+            "author": "R Penrose",
+            "year": "2005",
+            "unstructured": "Penrose, R.: The Road to Reality. Alfred A. Knopf, New York, NY (2005)"
+          },
+          {
+            "key": "3_CR8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9781139171540",
+            "volume-title": "Geometrical Methods of Mathematical Physics",
+            "author": "B Schutz",
+            "year": "1980",
+            "unstructured": "Schutz, B.: Geometrical Methods of Mathematical Physics. Cambridge University Press (CUP), Cambridge (1980)"
+          },
+          {
+            "key": "3_CR9",
+            "volume-title": "Differential Geometry and Lie Groups for Physicists",
+            "author": "M Fecko",
+            "year": "2011",
+            "unstructured": "Fecko, M.: Differential Geometry and Lie Groups for Physicists. Cambridge University Press, Cambridge (2011)"
+          },
+          {
+            "key": "3_CR10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4614-7867-6",
+            "volume-title": "Introduction to Tensor Analysis and the Calculus of Moving Surfaces",
+            "author": "P Grinfeld",
+            "year": "2013",
+            "unstructured": "Grinfeld, P.: Introduction to Tensor Analysis and the Calculus of Moving Surfaces. Springer Science + Business Media, New York, NY (2013)"
+          }
+        ],
+        "container-title": [
+          "Mathematical Engineering",
+          "Tensor Analysis and Elementary Differential Geometry for Physicists and Engineers"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-662-48497-5_3",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2023-11-17T03:33:03Z",
+          "timestamp": 1700191983000
+        },
+        "score": 29.55146,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-662-48497-5_3"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              17
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783662484951",
+          "9783662484975"
+        ],
+        "references-count": 10,
+        "URL": "https://doi.org/10.1007/978-3-662-48497-5_3",
+        "ISSN": [
+          "2192-4732",
+          "2192-4740"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2192-4732"
+          },
+          {
+            "type": "electronic",
+            "value": "2192-4740"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              17
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "17 August 2016",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

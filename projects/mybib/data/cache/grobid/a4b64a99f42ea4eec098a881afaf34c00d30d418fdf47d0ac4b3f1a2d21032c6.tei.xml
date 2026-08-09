@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Synthesis of Planar Parallel Manipulators with Prismatic Joints for an Optimal, Singularity-Free Workspace</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Marise</forename><surname>Gallant</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculté d&apos;ingénierie</orgName>
+								<orgName type="institution">Université de Moncton Moncton</orgName>
+								<address>
+									<postBox>N.B. E1A 3E9</postBox>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Roger</forename><surname>Boudreau</surname></persName>
+							<email>boudrer@umoncton.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculté d&apos;ingénierie</orgName>
+								<orgName type="institution">Université de Moncton Moncton</orgName>
+								<address>
+									<postBox>N.B. E1A 3E9</postBox>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Synthesis of Planar Parallel Manipulators with Prismatic Joints for an Optimal, Singularity-Free Workspace</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B38142F299D81539EC4693EEC21081C8</idno>
+					<note type="submission">Received 29 September 2000; revised 6 April 2001; accepted 19 September 2001</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The synthesis of three-degree-of-freedom planar parallel manipulators is performed using a genetic algorithm. The architecture of a manipulator and its position and orientation with respect to a prescribed workspace are determined. The architectural parameters are optimized so that the manipulator&apos;s constantorientation workspace is as close as possible to a prescribed workspace. The manipulator&apos;s workspace is discretized and its dexterity is computed as a global property of the manipulator. An analytical expression of the singularity loci (local null dexterity) can be obtained from the Jacobian matrix determinant, and its intersection with the manipulator&apos;s workspace may be verified and avoided. Results are shown for different conditions. First, the manipulators&apos; workspaces are optimized for a prescribed workspace, without considering whether the singularity loci intersect it or not. Then the same type of optimization is performed, taking intersections with the singularity loci into account. In the following results, the optimization of the manipulator&apos;s dexterity is also included in an objective function, along with the workspace optimization and the avoidance of singularity loci. Results show that the end-effector&apos;s location has a significant effect on the manipulator&apos;s dexterity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,213 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 8879048,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2024-10-23T08:59:24Z",
+          "timestamp": 1729673964208,
+          "version": "3.28.0"
+        },
+        "reference-count": 9,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/is.2010.5548331",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2010-08-19T10:51:46Z",
+          "timestamp": 1282215106000
+        },
+        "page": "49-54",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Attitude determination from single camera vector observations"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Vasko",
+            "family": "Sazdovski",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Peter M G",
+            "family": "Silson",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Antonios",
+            "family": "Tsourdos",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "article-title": "The Global Positioning System and Inertial Navigation",
+            "year": "1999",
+            "author": "farrell",
+            "key": "ref4"
+          },
+          {
+            "article-title": "Classical Mechanics",
+            "year": "1980",
+            "author": "goldstein",
+            "key": "ref3"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1137/1007077",
+            "article-title": "A Least Squares Estimate of Spacecraft Attitude",
+            "volume": "7",
+            "author": "wahba",
+            "year": "1965",
+            "journal-title": "SIAM Review"
+          },
+          {
+            "article-title": "Nonlinear Regresion Analysis and its Applications",
+            "year": "1988",
+            "author": "bates",
+            "key": "ref5"
+          },
+          {
+            "article-title": "Fast Quatenion Attitude Estimation from Two Vector Measurements",
+            "year": "0",
+            "author": "markley",
+            "key": "ref8"
+          },
+          {
+            "article-title": "A Vector Approach to the Algebra of Rotations with Applications",
+            "year": "1968",
+            "author": "davenport",
+            "key": "ref7"
+          },
+          {
+            "key": "ref2",
+            "first-page": "1081",
+            "article-title": "Safe UAV Navigation with Sensor Processing Delays in an Unknown Environment",
+            "author": "sivakumar",
+            "year": "2004",
+            "journal-title": "43rd IEEE Conference on Decision and Control"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.19717"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/6.2005-6478"
+          }
+        ],
+        "event": {
+          "name": "2010 5th IEEE International Conference Intelligent Systems (IS)",
+          "start": {
+            "date-parts": [
+              [
+                2010,
+                7,
+                7
+              ]
+            ]
+          },
+          "location": "London, United Kingdom",
+          "end": {
+            "date-parts": [
+              [
+                2010,
+                7,
+                9
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2010 5th IEEE International Conference Intelligent Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/5540657/5548318/05548331.pdf?arnumber=5548331",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2017-06-19T08:52:54Z",
+          "timestamp": 1497862374000
+        },
+        "score": 35.013634,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/5548331/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              7
+            ]
+          ]
+        },
+        "references-count": 9,
+        "URL": "https://doi.org/10.1109/is.2010.5548331",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5248305,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2026-04-10T10:01:15Z",
+          "timestamp": 1775815275063,
+          "version": "3.50.1"
+        },
+        "reference-count": 150,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  6,
+                  3
+                ]
+              ],
+              "date-time": "2022-06-03T00:00:00Z",
+              "timestamp": 1654214400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  6,
+                  3
+                ]
+              ],
+              "date-time": "2022-06-03T00:00:00Z",
+              "timestamp": 1654214400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001659",
+            "name": "Deutsche Forschungsgemeinschaft",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "TRR-169"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "TRR-169"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001659",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "CONACYT"
+          },
+          {
+            "DOI": "10.13039/501100005711",
+            "name": "Universität Hamburg",
+            "doi-asserted-by": "crossref",
+            "id": [
+              {
+                "id": "10.13039/501100005711",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Artif Intell Rev"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>In recent years some researchers have explored the use of reinforcement learning (RL) algorithms as key components in the solution of various natural language processing (NLP) tasks. For instance, some of these algorithms leveraging deep neural learning have found their way into conversational systems. This paper reviews the state of the art of RL methods for their possible use for different problems of NLP, focusing primarily on conversational systems, mainly due to their growing relevance. We provide detailed descriptions of the problems as well as discussions of why RL is well-suited to solve them. Also, we analyze the advantages and limitations of these methods. Finally, we elaborate on promising research directions in NLP that might benefit from RL.</jats:p>",
+        "DOI": "10.1007/s10462-022-10205-5",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              3
+            ]
+          ],
+          "date-time": "2022-06-03T18:02:43Z",
+          "timestamp": 1654279363000
+        },
+        "page": "1543-1575",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 110,
+        "title": [
+          "Survey on reinforcement learning for language processing"
+        ],
+        "prefix": "10.1007",
+        "volume": "56",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4713-3762",
+            "authenticated-orcid": false,
+            "given": "Víctor",
+            "family": "Uc-Cetina",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Nicolás",
+            "family": "Navarro-Guerrero",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Anabel",
+            "family": "Martin-Gonzalez",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Cornelius",
+            "family": "Weber",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stefan",
+            "family": "Wermter",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              3
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "10205_CR1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Antunes A, Laflaquiere A, Ogata T, Cangelosi A (2019) A bi-directional multiple timescales LSTM model for grounding of actions and verbs. In: IEEE/RSJ international conference on intelligent robots and systems (IROS), Macau, China, pp 2614–2621",
+            "DOI": "10.1109/IROS40897.2019.8967799"
+          },
+          {
+            "key": "10205_CR2",
+            "unstructured": "Arora S, Liang Y, Ma T (2017) A simple but tough-to-beat baseline for sentence embeddings. In: International conference on learning representations (ICLR), Toulon, France. OpenReview.net"
+          },
+          {
+            "key": "10205_CR3",
+            "unstructured": "Bahdanau D, Cho K, Bengio Y (2015) Neural machine translation by jointly learning to align and translate. In: International conference on learning representations (ICLR), San Diego, CA, USA. arxiv"
+          },
+          {
+            "key": "10205_CR4",
+            "unstructured": "Bengio S, Vinyals O, Jaitly N, Shazeer N (2015) Scheduled sampling for sequence prediction with recurrent neural networks. In: International conference on neural information processing systems (NIPS), Montreal, QC, Canada, vol 1. MIT Press, pp 1171–1179"
+          },
+          {
+            "key": "10205_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "135",
+            "DOI": "10.1162/tacl_a_00051",
+            "volume": "5",
+            "author": "P Bojanowski",
+            "year": "2017",
+            "unstructured": "Bojanowski P, Grave E, Joulin A, Mikolov T (2017) Enriching word vectors with subword information. Trans Assoc Comput Linguist 5:135–146",
+            "journal-title": "Trans Assoc Comput Linguist"
+          },
+          {
+            "key": "10205_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bothe C, Magg S, Weber C, Wermter S (2017) Dialogue-based neural learning to estimate the sentiment of a next upcoming utterance. In: Lintas A, Rovetta S, Verschure PF, Villa AE (eds) International conference on artificial neural networks (ICANN), Alghero, Italy. Lecture notes in computer science, vol 10614. Springer, pp 477–485",
+            "DOI": "10.1007/978-3-319-68612-7_54"
+          },
+          {
+            "key": "10205_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "661",
+            "DOI": "10.1613/jair.3484",
+            "volume": "43",
+            "author": "SRK Branavan",
+            "year": "2012",
+            "unstructured": "Branavan SRK, Silver D, Barzilay R (2012) Learning to win by reading manuals in a Monte Carlo framework. J Artif Intell Res 43:661–704",
+            "journal-title": "J Artif Intell Res"
+          },
+          {
+            "issue": "2",
+            "key": "10205_CR8",
+            "first-page": "79",
+            "volume": "16",
+            "author": "PF Brown",
+            "year": "1990",
+            "unstructured": "Brown PF, Cocke J, Pietra SAD, Pietra VJD, Jelinek F, Lafferty JD, Mercer RL, Roossin PS (1990) A statistical approach to machine translation. Comput Linguist 16(2):79–85",
+            "journal-title": "Comput Linguist"
+          },
+          {
+            "key": "10205_CR9",
+            "unstructured": "Brown TB, Mann B, Ryder N, Subbiah M, Kaplan J, Dhariwal P, Neelakantan A, Shyam P, Sastry G, Askell A, Agarwal S, Herbert-Voss A, Krueger G, Henighan T, Child R, Ramesh A, Ziegler DM, Wu J, Winter C, Hesse C, Chen M, Sigler E, Litwin M, Gray S, Chess B, Clark J, Berner C, McCandlish S, Radford A, Sutskever I, Amodei D (2020) Language models are few-shot learners. In: Neural information processing systems (NeurIPS). Online conference"
+          },
+          {
+            "key": "10205_CR10",
+            "volume-title": "Simulating the evolution of language",
+            "year": "2002",
+            "unstructured": "Cangelosi A, Parisi D (eds) (2002) Simulating the evolution of language. Springer, London"
+          },
+          {
+            "key": "10205_CR11",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Cao R, Zhu S, Liu C, Li J, Yu K (2019) Semantic parsing with dual learning. In: Annual meeting of the Association for Computational Linguistics (ACL), Florence, Italy, vol 57. Association for Computational Linguistics, pp 51–64.https://doi.org/10.18653/v1/P19-1007",
+            "DOI": "10.18653/v1/P19-1007"
+          },
+          {
+            "key": "10205_CR12",
+            "unstructured": "Cer D, Yang Y, Kong Sy, Hua N, Limtiaco N, John RS, Constant N, Guajardo-Cespedes M, Yuan S, Tar C, Sung YH, Strope B, Kurzweil R (2018) Universal sentence encoder. arXiv:1803.11175 [cs]"
+          },
+          {
+            "key": "10205_CR13",
+            "unstructured": "Che T, Li Y, Zhang R, Hjelm RD, Li W, Song Y, Bengio Y (2017) Maximum-likelihood augmented discrete generative adversarial networks. arXiv:1702.07983 [cs]"
+          },
+          {
+            "key": "10205_CR14",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Chen D, Fisch A, Weston J, Bordes A (2017) Reading Wikipedia to answer open-domain questions. In: Annual meeting of the Association for Computational Linguistics (ACL), Vancouver, BC, Canada, vol 55. Association for Computational Linguistics, pp. 1870–1879. https://doi.org/10.18653/v1/P17-1171",
+            "DOI": "10.18653/v1/P17-1171"
+          },
+          {
+            "key": "10205_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chen L, Yang R, Chang C, Ye Z, Zhou X, Yu K (2017) On-line dialogue policy learning with companion teaching. In: Conference of the European Chapter of the Association for Computational Linguistics (EACL), Valencia, Spain. Short papers, vol 15. Association for Computational Linguistics, pp 198–204",
+            "DOI": "10.18653/v1/E17-2032"
+          },
+          {
+            "key": "10205_CR16",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Chen L, Zhou X, Chang C, Yang R, Yu K (2017) Agent-aware dropout DQN for safe and efficient on-line dialogue policy learning. In: Conference on empirical methods in natural language processing (EMNLP), Copenhagen, Denmark. Association for Computational Linguistics, pp 2454–2464. https://doi.org/10.18653/v1/D17-1260",
+            "DOI": "10.18653/v1/D17-1260"
+          },
+          {
+            "key": "10205_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "2400",
+            "DOI": "10.1109/TASLP.2020.3013392",
+            "volume": "28",
+            "author": "Z Chen",
+            "year": "2020",
+            "unstructured": "Chen Z, Chen L, Liu X, Yu K (2020) Distributed structured actor-critic reinforcement learning for universal dialogue management. IEEE/ACM Trans Audio Speech Lang Process 28:2400–2411. https://doi.org/10.1109/TASLP.2020.3013392",
+            "journal-title": "IEEE/ACM Trans Audio Speech Lang Process"
+          },
+          {
+            "key": "10205_CR18",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Cho K, van Merriënboer B, Gulcehre C, Bahdanau D, Bougares F, Schwenk H, Bengio Y (2014) Learning phrase representations using RNN encoder–decoder for statistical machine translation. In: Conference on empirical methods in natural language processing (EMNLP), Doha, Qatar. Association for Computational Linguistics, pp 1724–1734. https://doi.org/10.3115/v1/D14-1179",
+            "DOI": "10.3115/v1/D14-1179"
+          },
+          {
+            "issue": "2",
+            "key": "10205_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "137",
+            "DOI": "10.1016/S0019-9958(59)90362-6",
+            "volume": "2",
+            "author": "N Chomsky",
+            "year": "1959",
+            "unstructured": "Chomsky N (1959) On certain formal properties of grammars. Inf Control 2(2):137–167. https://doi.org/10.1016/S0019-9958(59)90362-6",
+            "journal-title": "Inf Control"
+          },
+          {
+            "key": "10205_CR20",
+            "volume-title": "Aspects of the theory of syntax",
+            "author": "N Chomsky",
+            "year": "1965",
+            "unstructured": "Chomsky N (1965) Aspects of the theory of syntax. The MIT Press, Cambridge"
+          },
+          {
+            "key": "10205_CR21",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Conneau A, Kiela D, Schwenk H, Barrault L, Bordes A (2017) Supervised learning of universal sentence representations from natural language inference data. In: Conference on empirical methods in natural language processing (EMNLP), Copenhagen, Denmark. Association for Computational Linguistics, pp 670–680. https://doi.org/10.18653/v1/D17-1070",
+            "DOI": "10.18653/v1/D17-1070"
+          },
+          {
+            "issue": "4",
+            "key": "10205_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "873",
+            "DOI": "10.1016/j.csl.2013.12.002",
+            "volume": "28",
+            "author": "PA Crook",
+            "year": "2014",
+            "unstructured": "Crook PA, Keizer S, Wang Z, Tang W, Lemon O (2014) Real user evaluation of a POMDP spoken dialogue system using automatic belief compression. Comput Speech Lang 28(4):873–887. https://doi.org/10.1016/j.csl.2013.12.002",
+            "journal-title": "Comput Speech Lang"
+          },
+          {
+            "issue": "3",
+            "key": "10205_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "306",
+            "DOI": "10.1080/09540091.2018.1443318",
+            "volume": "30",
+            "author": "F Cruz",
+            "year": "2018",
+            "unstructured": "Cruz F, Magg S, Nagai Y, Wermter S (2018) Improving interactive reinforcement learning: what makes a good teacher? Connect Sci 30(3):306–325. https://doi.org/10.1080/09540091.2018.1443318",
+            "journal-title": "Connect Sci"
+          },
+          {
+            "key": "10205_CR24",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Cruz F, Parisi GI, Wermter S (2018) Multi-modal feedback for affordance-driven interactive reinforcement learning. In: International joint conference on neural networks (IJCNN), Rio de Janeiro, Brazil, pp 1–8. https://doi.org/10.1109/IJCNN.2018.8489237",
+            "DOI": "10.1109/IJCNN.2018.8489237"
+          },
+          {
+            "issue": "3",
+            "key": "10205_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "15:1",
+            "DOI": "10.1145/2659003",
+            "volume": "4",
+            "author": "H Cuayáhuitl",
+            "year": "2014",
+            "unstructured": "Cuayáhuitl H, Kruijff-Korbayová I, Dethlefs N (2014) Nonstrict hierarchical reinforcement learning for interactive systems and robots. ACM Trans Interact Intell Syst 4(3):15:1-15:30. https://doi.org/10.1145/2659003",
+            "journal-title": "ACM Trans Interact Intell Syst"
+          },
+          {
+            "key": "10205_CR26",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Das A, Kottur S, Moura JMF, Lee S, Batra D (2017) Learning cooperative visual dialog agents with deep reinforcement learning. In: IEEE international conference on computer vision (ICCV), Venice, Italy, pp 2951–2960. https://doi.org/10.1109/ICCV.2017.321",
+            "DOI": "10.1109/ICCV.2017.321"
+          },
+          {
+            "key": "10205_CR27",
+            "unstructured": "Das R, Dhuliawala S, Zaheer M, Vilnis L, Durugkar I, Krishnamurthy A, Smola A, McCallum A (2018) Go for a walk and arrive at the answer: reasoning over paths in knowledge bases using reinforcement learning. In: International conference on learning representations (ICLR), Vancouver, BC, Canada"
+          },
+          {
+            "issue": "3",
+            "key": "10205_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "297",
+            "DOI": "10.1007/s10994-009-5106-x",
+            "volume": "75",
+            "author": "H Daumé III",
+            "year": "2009",
+            "unstructured": "Daumé H III, Langford J, Marcu D (2009) Search-based structured prediction. Mach Learn 75(3):297–325. https://doi.org/10.1007/s10994-009-5106-x",
+            "journal-title": "Mach Learn"
+          },
+          {
+            "key": "10205_CR29",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Deng Y, Guo X, Zhang N, Guo D, Liu H, Sun F (2020) MQA: answering the question via robotic manipulation. arXiv:2003.04641 [cs]",
+            "DOI": "10.15607/RSS.2021.XVII.044"
+          },
+          {
+            "key": "10205_CR30",
+            "unstructured": "Dethlefs N, Cuayáhuitl H (2011) Combining hierarchical reinforcement learning and Bayesian networks for natural language generation in situated dialogue. In: European workshop on natural language generation (ENLG), Nancy, France, vol 11. Association for Computational Linguistics, pp 110–120"
+          },
+          {
+            "key": "10205_CR31",
+            "unstructured": "Dethlefs N, Cuayáhuitl H (2011) Hierarchical reinforcement learning and hidden Markov models for task-oriented natural language generation. In: Annual meeting of the Association for Computational Linguistics: human language technologies (ACL). Short papers, Portland, OR, USA, vol 49. Association for Computational Linguistics, pp 654–659"
+          },
+          {
+            "key": "10205_CR32",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Devlin J, Chang MW, Lee K, Toutanova K (2019) BERT: pre-training of deep bidirectional transformers for language understanding. In: Conference of the North American Chapter of the Association for Computational Linguistics: human language technologies (NAACL HLT), Minneapolis, MN, USA. Association for Computational Linguistics, pp. 4171–4186. https://doi.org/10.18653/v1/N19-1423",
+            "DOI": "10.18653/v1/N19-1423"
+          },
+          {
+            "key": "10205_CR33",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Devlin J, Zbib R, Huang Z, Lamar T, Schwartz R, Makhoul J (2014) Fast and robust neural network joint models for statistical machine translation. In: Annual meeting of the Association for Computational Linguistics (ACL), Baltimore, MD, USA, vol 52. Association for Computational Linguistics, pp 1370–1380. https://doi.org/10.3115/v1/P14-1129",
+            "DOI": "10.3115/v1/P14-1129"
+          },
+          {
+            "key": "10205_CR34",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Eisermann A, Lee JH, Weber C, Wermter S (2021) Generalization in multimodal language learning from simulation. In: International joint conference on neural networks (IJCNN), Shenzhen, China. pp 1–8. https://doi.org/10.1109/IJCNN52387.2021.9534275",
+            "DOI": "10.1109/IJCNN52387.2021.9534275"
+          },
+          {
+            "key": "10205_CR35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/frobt.2019.00123",
+            "author": "M Eppe",
+            "year": "2019",
+            "unstructured": "Eppe M, Nguyen PDH, Wermter S (2019) From semantics to execution: integrating action planning with reinforcement learning for robotic causal problem-solving. Front Robot AI. https://doi.org/10.3389/frobt.2019.00123",
+            "journal-title": "Front Robot AI"
+          },
+          {
+            "issue": "4",
+            "key": "10205_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "209",
+            "DOI": "10.1007/s10590-008-9047-0",
+            "volume": "21",
+            "author": "C Fügen",
+            "year": "2007",
+            "unstructured": "Fügen C, Waibel A, Kolss M (2007) Simultaneous translation of lectures and speeches. Mach Transl 21(4):209–252. https://doi.org/10.1007/s10590-008-9047-0",
+            "journal-title": "Mach Transl"
+          },
+          {
+            "key": "10205_CR37",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gao J, Galley M, Li L (2018) Neural approaches to conversational AI. In: International ACM SIGIR conference on research and development in information retrieval, Ann Arbor, MI, USA, vol 41. Association for Computing Machinery, pp 1371–1374",
+            "DOI": "10.1145/3209978.3210183"
+          },
+          {
+            "key": "10205_CR38",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gao Y, Meyer C, Mesgar M, Gurevych I (2019) Reward learning for efficient reinforcement learning in extractive document summarisation. In: 19th International joint conference on artificial intelligence (IJCAI), Macao, China. AAAI Press, pp 2350–2356",
+            "DOI": "10.24963/ijcai.2019/326"
+          },
+          {
+            "key": "10205_CR39",
+            "unstructured": "Goodfellow I, Pouget-Abadie J, Mirza M, Xu B, Warde-Farley D, Ozair S, Courville A, Bengio Y (2014) Generative adversarial nets. In: Advances in neural information processing systems (NIPS), Montreal, QC, Canada, vol 27. Curran Associates, Inc., pp 2672–2680"
+          },
+          {
+            "key": "10205_CR40",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Grissom II A, He H, Boyd-Graber J, Morgan J, Daumé III H (2014) Don’t until the final verb wait: reinforcement learning for simultaneous machine translation. In: Conference on empirical methods in natural language processing (EMNLP), Doha, Qatar. Association for Computational Linguistics, pp 1342–1352. https://doi.org/10.3115/v1/D14-1140",
+            "DOI": "10.3115/v1/D14-1140"
+          },
+          {
+            "key": "10205_CR41",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gu J, Neubig G, Cho K, Li VO (2017) Learning to translate in real-time with neural machine translation. In: Conference of the European Chapter of the Association for Computational Linguistics (EACL), Valencia, Spain, vol 15. Association for Computational Linguistics, pp 1053–1062",
+            "DOI": "10.18653/v1/E17-1099"
+          },
+          {
+            "key": "10205_CR42",
+            "unstructured": "Guo H (2015) Generating text with deep reinforcement learning. In: NIPS deep reinforcement learning workshop, Montreal, QC, Canada"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR43",
+            "first-page": "5141",
+            "volume": "32",
+            "author": "J Guo",
+            "year": "2018",
+            "unstructured": "Guo J, Lu S, Cai H, Zhang W, Yu Y, Wang J (2018) Long text generation via adversarial training with leaked information. Proc AAAI Conf Artif Intell 32(1):5141–5148",
+            "journal-title": "Proc AAAI Conf Artif Intell"
+          },
+          {
+            "key": "10205_CR44",
+            "unstructured": "Guo X, Klinger T, Rosenbaum C, Bigus JP, Campbell M, Kawas B, Talamadupula K, Tesauro G, Singh S (2017) Learning to query, reason, and answer questions on ambiguous texts. In: International conference on learning representations (ICLR), Toulon, France"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR45",
+            "doi-asserted-by": "publisher",
+            "first-page": "14",
+            "DOI": "10.1515/pjbr-2019-0005",
+            "volume": "10",
+            "author": "MB Hafez",
+            "year": "2019",
+            "unstructured": "Hafez MB, Weber C, Kerzel M, Wermter S (2019) Deep intrinsically motivated continuous actor-critic for efficient robotic visuomotor skill learning. Paladyn J Behav Robot 10(1):14–29. https://doi.org/10.1515/pjbr-2019-0005",
+            "journal-title": "Paladyn J Behav Robot"
+          },
+          {
+            "key": "10205_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "103630",
+            "DOI": "10.1016/j.robot.2020.103630",
+            "volume": "133",
+            "author": "MB Hafez",
+            "year": "2020",
+            "unstructured": "Hafez MB, Weber C, Kerzel M, Wermter S (2020) Improving robot dual-system motor learning with intrinsically motivated meta-control and latent-space experience imagination. Robot Auton Syst 133:103630",
+            "journal-title": "Robot Auton Syst"
+          },
+          {
+            "key": "10205_CR47",
+            "unstructured": "Hassan H, Aue A, Chen C, Chowdhary V, Clark J, Federmann C, Huang X, Junczys-Dowmunt M, Lewis W, Li M, Liu S, Liu TY, Luo R, Menezes A, Qin T, Seide F, Tan X, Tian F, Wu L, Wu S, Xia Y, Zhang D, Zhang Z, Zhou M (2018) Achieving human parity on automatic Chinese to English news translation. arXiv:1803.05567 [cs]"
+          },
+          {
+            "key": "10205_CR48",
+            "unstructured": "He D, Lu H, Xia Y, Qin T, Wang L, Liu TY (2017) Decoding with value networks for neural machine translation. In: International conference on neural information processing systems (NIPS), Long Beach, CA, USA, vol 30. Curran Associates, Inc., pp 177–186"
+          },
+          {
+            "key": "10205_CR49",
+            "unstructured": "He D, Xia Y, Qin T, Wang L, Yu N, Liu TY, Ma WY (2016) Dual learning for machine translation. In: Advances in neural information processing systems (NIPS), Barcelona, Spain, vol 29, pp 820–828"
+          },
+          {
+            "key": "10205_CR50",
+            "doi-asserted-by": "crossref",
+            "unstructured": "He J, Chen J, He X, Gao J, Li L, Deng L, Ostendorf M (2016) Deep reinforcement learning with a natural language action space. In: Annual meeting of the Association for Computational Linguistics (ACL), Berlin, Germany, vol 54. Association for Computational Linguistics, pp 1621–1630",
+            "DOI": "10.18653/v1/P16-1153"
+          },
+          {
+            "key": "10205_CR51",
+            "doi-asserted-by": "crossref",
+            "unstructured": "He J, Ostendorf M, He X (2017) Reinforcement learning with external knowledge and two-stage Q-functions for predicting popular Reddit threads. arXiv:1704.06217 [cs]",
+            "DOI": "10.18653/v1/D16-1189"
+          },
+          {
+            "key": "10205_CR52",
+            "doi-asserted-by": "publisher",
+            "unstructured": "He J, Ostendorf M, He X, Chen J, Gao J, Li L, Deng L (2016) Deep reinforcement learning with a combinatorial action space for predicting popular Reddit threads. In: Conference on empirical methods in natural language processing (EMNLP), Austin, TX, USA. Association for Computational Linguistics, pp 1838–1848. https://doi.org/10.18653/v1/D16-1189",
+            "DOI": "10.18653/v1/D16-1189"
+          },
+          {
+            "key": "10205_CR53",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fnbot.2020.00052",
+            "author": "S Heinrich",
+            "year": "2020",
+            "unstructured": "Heinrich S, Yao Y, Hinz T, Liu Z, Hummel T, Kerzel M, Weber C, Wermter S (2020) Crossmodal language grounding in an embodied neurocognitive model. Front Neurorobot. https://doi.org/10.3389/fnbot.2020.00052",
+            "journal-title": "Front Neurorobot"
+          },
+          {
+            "issue": "4",
+            "key": "10205_CR54",
+            "doi-asserted-by": "publisher",
+            "first-page": "487",
+            "DOI": "10.1162/coli.2008.07-028-R2-05-82",
+            "volume": "34",
+            "author": "J Henderson",
+            "year": "2008",
+            "unstructured": "Henderson J, Lemon O, Georgila K (2008) Hybrid reinforcement/supervised learning of dialogue policies from fixed datasets. Comput Linguist 34(4):487–511",
+            "journal-title": "Comput Linguist"
+          },
+          {
+            "key": "10205_CR55",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Higashinaka R, Mizukami M, Funakoshi K, Araki M, Tsukahara H, Kobayashi Y (2015) Fatal or not? Finding errors that lead to dialogue breakdowns in chat-oriented dialogue systems. In: Conference on empirical methods in natural language processing (EMNLP), Lisbon, Portugal. Association for Computational Linguistics, pp 2243–2248",
+            "DOI": "10.18653/v1/D15-1268"
+          },
+          {
+            "issue": "8",
+            "key": "10205_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "1735",
+            "DOI": "10.1162/neco.1997.9.8.1735",
+            "volume": "9",
+            "author": "S Hochreiter",
+            "year": "1997",
+            "unstructured": "Hochreiter S, Schmidhuber J (1997) Long short-term memory. Neural Comput 9(8):1735–1780. https://doi.org/10.1162/neco.1997.9.8.1735",
+            "journal-title": "Neural Comput"
+          },
+          {
+            "key": "10205_CR57",
+            "volume-title": "An introduction to machine translation",
+            "author": "WJ Hutchins",
+            "year": "1992",
+            "unstructured": "Hutchins WJ, Somers HL (1992) An introduction to machine translation. Academic, London"
+          },
+          {
+            "key": "10205_CR58",
+            "unstructured": "Jiang J, Teichert A, Eisner J, Daumé III H (2012) Learned prioritization for trading off accuracy and speed. In: Advances in neural information processing systems (NIPS), Lake Tahoe, NV, USA, vol 25"
+          },
+          {
+            "key": "10205_CR59",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Jurcicek F, Thomson B, Keizer S, Mairesse F, Gasic M, Yu K, Young SJ (2010) Natural belief-critic: a reinforcement algorithm for parameter estimation in statistical spoken dialogue systems. In: Annual conference of the International Speech Communication Association (INTERSPEECH), Makuhari, Japan, pp 90–93",
+            "DOI": "10.21437/Interspeech.2010-41"
+          },
+          {
+            "key": "10205_CR60",
+            "unstructured": "Kalchbrenner N, Blunsom P (2013) Recurrent continuous translation models. In: Conference on empirical methods in natural language processing (EMNLP), Seattle, WA, USA. Association for Computational Linguistics, pp 1700–1709"
+          },
+          {
+            "issue": "7",
+            "key": "10205_CR61",
+            "doi-asserted-by": "publisher",
+            "first-page": "2469",
+            "DOI": "10.1109/TNNLS.2019.2929141",
+            "volume": "31",
+            "author": "Y Keneshloo",
+            "year": "2020",
+            "unstructured": "Keneshloo Y, Shi T, Ramakrishnan N, Reddy CK (2020) Deep reinforcement learning for sequence-to-sequence models. IEEE Trans Neural Netw Learn Syst 31(7):2469–2489. https://doi.org/10.1109/TNNLS.2019.2929141",
+            "journal-title": "IEEE Trans Neural Netw Learn Syst"
+          },
+          {
+            "key": "10205_CR62",
+            "unstructured": "Kiros R, Zhu Y, Salakhutdinov RR, Zemel R, Urtasun R, Torralba A, Fidler S (2015) Skip-thought vectors. In: Advances in neural information processing systems (NIPS), Montreal, QC, Canada, vol 28. Curran Associates, Inc., pp 3294–3302"
+          },
+          {
+            "key": "10205_CR63",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511815829",
+            "volume-title": "Statistical machine translation",
+            "author": "P Koehn",
+            "year": "2009",
+            "unstructured": "Koehn P (2009) Statistical machine translation. Cambridge University Press, Cambridge"
+          },
+          {
+            "key": "10205_CR64",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Koehn P, Och FJ, Marcu D (2003) Statistical phrase-based translation. In: Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology (HLT-NAACL), Edmonton, AB, Canada. Association for Computational Linguistics, pp 48–54. https://doi.org/10.3115/1073445.1073462",
+            "DOI": "10.3115/1073445.1073462"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR65",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.2200/S00169ED1V01Y200901HLT002",
+            "volume": "2",
+            "author": "S Kübler",
+            "year": "2008",
+            "unstructured": "Kübler S, McDonald R, Nivre J (2008) Dependency Parsing. Synth Lect Hum Lang Technol 2(1):1–127. https://doi.org/10.2200/S00169ED1V01Y200901HLT002",
+            "journal-title": "Synth Lect Hum Lang Technol"
+          },
+          {
+            "key": "10205_CR66",
+            "unstructured": "Kudashkina K, Pilarski PM, Sutton RS (2020) Document-editing assistants and model-based reinforcement learning as a path to conversational AI. arXiv:2008.12095 [cs]"
+          },
+          {
+            "key": "10205_CR67",
+            "unstructured": "Lam TK, Schamoni S, Riezler S (2019) Interactive–predictive neural machine translation through reinforcement and imitation. In: Proceedings of machine translation summit XVII: research track, Dublin, Ireland, vol 1. European Association for Machine Translation, pp 96–106"
+          },
+          {
+            "key": "10205_CR68",
+            "unstructured": "Langford J, Zhang T (2007) The epoch-greedy algorithm for contextual multi-armed bandits. In: Advances in neural information processing systems (NIPS), 2007, Vancouver, BC, Canada, vol 20. Curran Associates, Inc., pp 817–824"
+          },
+          {
+            "key": "10205_CR69",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lê M, Fokkens A (2017) Tackling error propagation through reinforcement learning: a case of greedy dependency parsing. In: Conference of the European Chapter of the Association for Computational Linguistics (EACL), Valencia, Spain, vol 1. Association for Computational Linguistics, pp 677–687",
+            "DOI": "10.18653/v1/E17-1064"
+          },
+          {
+            "key": "10205_CR70",
+            "unstructured": "Le Q, Mikolov T (2014) Distributed representations of sentences and documents. In: International conference on machine learning (ICML), Beijing, China, vol 32. PMLR, pp 1188–1196"
+          },
+          {
+            "issue": "7553",
+            "key": "10205_CR71",
+            "doi-asserted-by": "publisher",
+            "first-page": "436",
+            "DOI": "10.1038/nature14539",
+            "volume": "521",
+            "author": "Y LeCun",
+            "year": "2015",
+            "unstructured": "LeCun Y, Bengio Y, Hinton G (2015) Deep learning. Nature 521(7553):436–444. https://doi.org/10.1038/nature14539",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "2",
+            "key": "10205_CR72",
+            "doi-asserted-by": "publisher",
+            "first-page": "210",
+            "DOI": "10.1016/j.csl.2010.04.005",
+            "volume": "25",
+            "author": "O Lemon",
+            "year": "2011",
+            "unstructured": "Lemon O (2011) Learning what to say and how to say it: joint optimisation of spoken dialogue management and natural language generation. Comput Speech Lang 25(2):210–221. https://doi.org/10.1016/j.csl.2010.04.005",
+            "journal-title": "Comput Speech Lang"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR73",
+            "doi-asserted-by": "publisher",
+            "first-page": "11",
+            "DOI": "10.1109/89.817450",
+            "volume": "8",
+            "author": "E Levin",
+            "year": "2000",
+            "unstructured": "Levin E, Pieraccini R, Eckert W (2000) A stochastic model of human–machine interaction for learning dialog strategies. IEEE Trans Speech Audio Process 8(1):11–23. https://doi.org/10.1109/89.817450",
+            "journal-title": "IEEE Trans Speech Audio Process"
+          },
+          {
+            "key": "10205_CR74",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Li J, Monroe W, Ritter A, Galley M, Gao J, Jurafsky D (2016) Deep reinforcement learning for dialogue generation. In: Conference on empirical methods in natural language processing (EMNLP), Austin, TX, USA. Association for Computational Linguistics, pp 1192–1202",
+            "DOI": "10.18653/v1/D16-1127"
+          },
+          {
+            "key": "10205_CR75",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Li L, Chu W, Langford J, Schapire RE (2010) A contextual-bandit approach to personalized news article recommendation. In: International conference on world wide web (WWW), Raleigh, NC, USA, vol 19. Association for Computing Machinery, pp 661–670. https://doi.org/10.1145/1772690.1772758",
+            "DOI": "10.1145/1772690.1772758"
+          },
+          {
+            "key": "10205_CR76",
+            "unstructured": "Li X, Chen YN, Li L, Gao J, Celikyilmaz A (2017) End-to-end task-completion neural dialogue systems. In: International joint conference on natural language processing (IJCNLP), Taipei, Taiwan. Asian Federation of Natural Language Processing, pp 733–743"
+          },
+          {
+            "key": "10205_CR77",
+            "unstructured": "Li X, Lipton ZC, Dhingra B, Li L, Gao J, Chen YN (2017) A user simulator for task-completion dialogues. arXiv:1612.05688 [cs]"
+          },
+          {
+            "key": "10205_CR78",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Li Z, Jiang X, Shang L, Li H (2018) Paraphrase generation with deep reinforcement learning. In: Conference on empirical methods in natural language processing (EMNLP), Brussels, Belgium. Association for Computational Linguistics, pp 3865–3878. https://doi.org/10.18653/v1/D18-1421",
+            "DOI": "10.18653/v1/D18-1421"
+          },
+          {
+            "key": "10205_CR79",
+            "unstructured": "Lillicrap TP, Hunt JJ, Pritzel A, Heess N, Erez T, Tassa Y, Silver D, Wierstra D (2015) Continuous control with deep reinforcement learning. arXiv:1509.02971"
+          },
+          {
+            "key": "10205_CR80",
+            "unstructured": "Lin K, Li D, He X, Zhang Z, Sun Mt (2017) Adversarial ranking for language generation. In: Advances in neural information processing systems (NIPS), Long Beach, CA, USA, vol 30. Curran Associates, Inc."
+          },
+          {
+            "key": "10205_CR81",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Litman DJ, Kearns MS, Singh SP, Walker MA (2000) Automatic optimization of dialogue management. In: International conference on computational linguistics (COLING), vol 18, Saarbrücken, Germany. Association for Computational Linguistics, pp 502–508",
+            "DOI": "10.3115/990820.990893"
+          },
+          {
+            "key": "10205_CR82",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Liu Q, Chen Y, Chen B, Lou JG, Chen Z, Zhou B, Zhang D (2020) You impress me: dialogue generation via mutual persona perception. In: Annual meeting of the Association for Computational Linguistics (ACL), vol 58. Association for Computational Linguistics, pp 1417–1427.https://doi.org/10.18653/v1/2020.acl-main.131",
+            "DOI": "10.18653/v1/2020.acl-main.131"
+          },
+          {
+            "issue": "01",
+            "key": "10205_CR83",
+            "first-page": "2596",
+            "volume": "33",
+            "author": "K Lu",
+            "year": "2019",
+            "unstructured": "Lu K, Zhang S, Chen X (2019) Goal-oriented dialogue policy learning from failures. Proc AAAI Conf Artif Intell 33(01):2596–2603",
+            "journal-title": "Proc AAAI Conf Artif Intell"
+          },
+          {
+            "key": "10205_CR84",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Luketina J, Nardelli N, Farquhar G, Foerster J, Andreas J, Grefenstette E, Whiteson S, Rocktäschel T (2019) A survey of reinforcement learning informed by natural language. In: 28th International joint conference on artificial intelligence (IJCAI), Macau, China, pp 6309–6317.https://doi.org/10.24963/ijcai.2019/880",
+            "DOI": "10.24963/ijcai.2019/880"
+          },
+          {
+            "key": "10205_CR85",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Mesgar M, Simpson E, Gurevych I (2021) Improving factual consistency between a response and persona facts. In: Conference of the European Chapter of the Association for Computational Linguistics (EACL), Main Volume. Association for Computational Linguistics, pp 549–562. https://doi.org/10.18653/v1/2021.eacl-main.44",
+            "DOI": "10.18653/v1/2021.eacl-main.44"
+          },
+          {
+            "key": "10205_CR86",
+            "unstructured": "Mikolov T, Chen K, Corrado G, Dean J (2013) Efficient estimation of word representations in vector space. arXiv:1301.3781 [cs]"
+          },
+          {
+            "key": "10205_CR87",
+            "unstructured": "Mnih V, Badia AP, Mirza M, Graves A, Lillicrap T, Harley T, Silver D, Kavukcuoglu K (2016) Asynchronous methods for deep reinforcement learning. In: 33rd International conference on machine learning (ICML), proceedings of machine learning research (PMLR), New York, NY, USA, vol 48, pp 1928–1937"
+          },
+          {
+            "issue": "7540",
+            "key": "10205_CR88",
+            "doi-asserted-by": "publisher",
+            "first-page": "529",
+            "DOI": "10.1038/nature14236",
+            "volume": "518",
+            "author": "V Mnih",
+            "year": "2015",
+            "unstructured": "Mnih V, Kavukcuoglu K, Silver D, Rusu AA, Veness J, Bellemare MG, Graves A, Riedmiller M, Fidjeland AK, Ostrovski G, Petersen S, Beattie C, Sadik A, Antonoglou I, King H, Kumaran D, Wierstra D, Legg S, Hassabis D (2015) Human-level control through deep reinforcement learning. Nature 518(7540):529–533",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10205_CR89",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mordatch I, Abbeel P (2018) Emergence of grounded compositional language in multi-agent populations. In: Proceedings of the AAAI conference on artificial intelligence, vol 32(1)",
+            "DOI": "10.1609/aaai.v32i1.11492"
+          },
+          {
+            "key": "10205_CR90",
+            "doi-asserted-by": "publisher",
+            "first-page": "849",
+            "DOI": "10.1613/jair.1.11263",
+            "volume": "63",
+            "author": "K Narasimhan",
+            "year": "2018",
+            "unstructured": "Narasimhan K, Barzilay R, Jaakkola T (2018) Grounding language for transfer in deep reinforcement learning. J Artif Intell Res 63:849–874",
+            "journal-title": "J Artif Intell Res"
+          },
+          {
+            "key": "10205_CR91",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Narasimhan K, Kulkarni TD, Barzilay R (2015) Language understanding for text-based games using deep reinforcement learning. In: Conference on empirical methods for natural language processing (EMNLP), Lisbon, Portugal. Association for Computational Linguistics, pp 1–11",
+            "DOI": "10.18653/v1/D15-1001"
+          },
+          {
+            "key": "10205_CR92",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Narasimhan K, Yala A, Barzilay R (2016) Improving information extraction by acquiring external evidence with reinforcement learning. In: Conference on empirical methods in natural language processing (EMNLP), Austin, TX, USA. Association for Computational Linguistics, pp 2355–2365. https://doi.org/10.18653/v1/D16-1261",
+            "DOI": "10.18653/v1/D16-1261"
+          },
+          {
+            "issue": "2",
+            "key": "10205_CR93",
+            "doi-asserted-by": "publisher",
+            "first-page": "303",
+            "DOI": "10.1007/s10994-009-5110-1",
+            "volume": "77",
+            "author": "G Neu",
+            "year": "2009",
+            "unstructured": "Neu G, Szepesvári C (2009) Training parsers by inverse reinforcement learning. Mach Learn 77(2):303. https://doi.org/10.1007/s10994-009-5110-1",
+            "journal-title": "Mach Learn"
+          },
+          {
+            "key": "10205_CR94",
+            "unstructured": "Ng AY, Russell SJ (2000) Algorithms for inverse reinforcement learning. In: International conference on machine learning (ICML), Stanford, CA, USA, vol 17. Morgan Kaufmann Publishers, Inc., pp 663–670"
+          },
+          {
+            "key": "10205_CR95",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Och FJ (2003) Minimum error rate training in statistical machine translation. In: 41st Annual meeting on Association for Computational Linguistics (ACL), Sapporo, Japan, vol 1. Association for Computational Linguistics, pp 160–167",
+            "DOI": "10.3115/1075096.1075117"
+          },
+          {
+            "key": "10205_CR96",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Papaioannou I, Lemon O (2017) Combining chat and task-based multimodal dialogue for more engaging HRI: a scalable method using reinforcement learning. In: ACM/IEEE international conference on human–robot interaction (HRI), Vienna, Austria. ACM, pp. 365–366. https://doi.org/10.1145/3029798.3034820",
+            "DOI": "10.1145/3029798.3034820"
+          },
+          {
+            "key": "10205_CR97",
+            "unstructured": "Papangelis A, Namazifar M, Khatri C, Wang YC, Molino P, Tur G (2020) Plato dialogue system: a flexible conversational AI research platform. arXiv:2001.06463 [cs]"
+          },
+          {
+            "key": "10205_CR98",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Papangelis A, Wang YC, Molino P, Tur G (2019) Collaborative multi-agent dialogue model training via reinforcement learning. In: Annual SIGdial meeting on discourse and dialogue (SIGDIAL), Stockholm, Sweden, vol 20. Association for Computational Linguistics, pp. 92–102. https://doi.org/10.18653/v1/W19-5912",
+            "DOI": "10.18653/v1/W19-5912"
+          },
+          {
+            "key": "10205_CR99",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Papineni K, Roukos S, Ward T, Zhu WJ (2002) BLEU: a method for automatic evaluation of machine translation. In: Annual meeting of the Association for Computational Linguistics (ACL), Philadelphia, Pennsylvania, USA, vol 40. Association for Computational Linguistics, pp. 311–318. https://doi.org/10.3115/1073083.1073135",
+            "DOI": "10.3115/1073083.1073135"
+          },
+          {
+            "key": "10205_CR100",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Pennington J, Socher R, Manning C (2014) GloVe: global vectors for word representation. In: Conference on empirical methods in natural language processing (EMNLP), Doha, Qatar. Association for Computational Linguistics, pp 1532–1543. https://doi.org/10.3115/v1/D14-1162",
+            "DOI": "10.3115/v1/D14-1162"
+          },
+          {
+            "key": "10205_CR101",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Peters M, Neumann M, Iyyer M, Gardner M, Clark C, Lee K, Zettlemoyer L (2018) Deep contextualized word representations. In: Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), New Orleans, LA, USA. Association for Computational Linguistics, pp 2227–2237",
+            "DOI": "10.18653/v1/N18-1202"
+          },
+          {
+            "key": "10205_CR102",
+            "first-page": "45",
+            "volume": "3",
+            "author": "BT Poljak",
+            "year": "1973",
+            "unstructured": "Poljak BT (1973) Pseudogradient adaptation and training algorithms. Avtom Telemeh 3:45–68",
+            "journal-title": "Avtom Telemeh"
+          },
+          {
+            "key": "10205_CR103",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Röder F, Eppe M, Nguyen PDH, Wermter S (2020) Curious hierarchical actor-critic reinforcement learning. In: International conference on artificial neural networks (ICANN). Lecture notes in computer science, Bratislava, Slovakia. Springer, pp 408–419",
+            "DOI": "10.1007/978-3-030-61616-8_33"
+          },
+          {
+            "key": "10205_CR104",
+            "unstructured": "Rücklé A, Eger S, Peyrard M, Gurevych I (2018) Concatenated power mean word embeddings as universal cross-lingual sentence representations. arXiv:1803.01400 [cs]"
+          },
+          {
+            "key": "10205_CR105",
+            "volume-title": "Artificial intelligence: a modern approach",
+            "author": "S Russell",
+            "year": "2010",
+            "unstructured": "Russell S, Norvig P (2010) Artificial intelligence: a modern approach, 3rd edn. Pearson, Harlow",
+            "edition": "3"
+          },
+          {
+            "key": "10205_CR106",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sankar C, Ravi S (2019) Deep reinforcement learning for modeling chit-chat dialog with discrete attributes. In: Annual SIGdial meeting on discourse and dialogue, Stockholm, Sweden, vol 20. Association for Computational Linguistics, pp 1–10",
+            "DOI": "10.18653/v1/W19-5901"
+          },
+          {
+            "issue": "4",
+            "key": "10205_CR107",
+            "doi-asserted-by": "publisher",
+            "first-page": "733",
+            "DOI": "10.1109/TASL.2008.2012071",
+            "volume": "17",
+            "author": "J Schatzmann",
+            "year": "2009",
+            "unstructured": "Schatzmann J, Young S (2009) The hidden agenda user simulation model. IEEE Trans Audio Speech Lang Process 17(4):733–747. https://doi.org/10.1109/TASL.2008.2012071",
+            "journal-title": "IEEE Trans Audio Speech Lang Process"
+          },
+          {
+            "issue": "7839",
+            "key": "10205_CR108",
+            "doi-asserted-by": "publisher",
+            "first-page": "604",
+            "DOI": "10.1038/s41586-020-03051-4",
+            "volume": "588",
+            "author": "J Schrittwieser",
+            "year": "2020",
+            "unstructured": "Schrittwieser J, Antonoglou I, Hubert T, Simonyan K, Sifre L, Schmitt S, Guez A, Lockhart E, Hassabis D, Graepel T, Lillicrap T, Silver D (2020) Mastering Atari, Go, Chess and Shogi by planning with a learned model. Nature 588(7839):604–609",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10205_CR109",
+            "unstructured": "Schulman J, Levine S, Abbeel P, Jordan M, Moritz P (2015) Trust region policy optimization. In: International conference on machine learning (ICML), proceedings of machine learning research (PMLR), Lille, France, vol 37, pp 1889–1897"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR110",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.5087/dad.2018.101",
+            "volume": "9",
+            "author": "IV Serban",
+            "year": "2018",
+            "unstructured": "Serban IV, Lowe R, Henderson P, Charlin L, Pineau J (2018) A survey of available corpora for building data-driven dialogue systems: the journal version. Dialogue Discourse 9(1):1–49. https://doi.org/10.5087/dad.2018.101",
+            "journal-title": "Dialogue Discourse"
+          },
+          {
+            "key": "10205_CR111",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Shi Z, Chen X, Qiu X, Huang X (2018) Toward diverse text generation with inverse reinforcement learning. In: International joint conference on artificial intelligence (IJCAI), Stockholm, Sweden, vol 27, pp 4361–4367. https://doi.org/10.24963/ijcai.2018/606",
+            "DOI": "10.24963/ijcai.2018/606"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR112",
+            "doi-asserted-by": "publisher",
+            "first-page": "10",
+            "DOI": "10.1631/FITEE.1700826",
+            "volume": "19",
+            "author": "HY Shum",
+            "year": "2018",
+            "unstructured": "Shum HY, He XD, Li D (2018) From Eliza to XiaoIce: challenges and opportunities with social chatbots. Front Inf Technol Electron Eng 19(1):10–26. https://doi.org/10.1631/FITEE.1700826",
+            "journal-title": "Front Inf Technol Electron Eng"
+          },
+          {
+            "issue": "7587",
+            "key": "10205_CR113",
+            "doi-asserted-by": "publisher",
+            "first-page": "484",
+            "DOI": "10.1038/nature16961",
+            "volume": "529",
+            "author": "D Silver",
+            "year": "2016",
+            "unstructured": "Silver D, Huang A, Maddison CJ, Guez A, Sifre L, van den Driessche G, Schrittwieser J, Antonoglou I, Panneershelvam V, Lanctot M, Dieleman S, Grewe D, Nham J, Kalchbrenner N, Sutskever I, Lillicrap T, Leach M, Kavukcuoglu K, Graepel T, Hassabis D (2016) Mastering the game of go with deep neural networks and tree search. Nature 529(7587):484–489. https://doi.org/10.1038/nature16961",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10205_CR114",
+            "unstructured": "Silver D, Lever G, Heess N, Degris T, Wierstra D, Riedmiller M (2014) Deterministic policy gradient algorithms. In: 31st International conference on machine learning (ICML). Proceedings of machine learning research (PMLR), Beijing, China, vol 32, pp 387–395"
+          },
+          {
+            "issue": "7676",
+            "key": "10205_CR115",
+            "doi-asserted-by": "publisher",
+            "first-page": "354",
+            "DOI": "10.1038/nature24270",
+            "volume": "550",
+            "author": "D Silver",
+            "year": "2017",
+            "unstructured": "Silver D, Schrittwieser J, Simonyan K, Antonoglou I, Huang A, Guez A, Hubert T, Baker L, Lai M, Bolton A, Chen Y, Lillicrap T, Hui F, Sifre L, van den Driessche G, Graepel T, Hassabis D (2017) Mastering the game of go without human knowledge. Nature 550(7676):354–359. https://doi.org/10.1038/nature24270",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10205_CR116",
+            "unstructured": "Singh S, Kearns M, Litman DJ, Walker MA (2000) Empirical evaluation of a reinforcement learning spoken dialogue system. In: National conference on artificial intelligence (AAAI), Austin, TX, USA, vol 17. AAAI Press, pp 645–651"
+          },
+          {
+            "key": "10205_CR117",
+            "doi-asserted-by": "publisher",
+            "first-page": "105",
+            "DOI": "10.1613/jair.859",
+            "volume": "16",
+            "author": "SP Singh",
+            "year": "2002",
+            "unstructured": "Singh SP, Litman D, Kearns M, Walker M (2002) Optimizing dialogue management with reinforcement learning: experiments with the NJFun system. J Artif Intell Res 16:105–133. https://doi.org/10.1613/jair.859",
+            "journal-title": "J Artif Intell Res"
+          },
+          {
+            "key": "10205_CR118",
+            "series-title": "Course technology",
+            "volume-title": "Introduction to the theory of computation",
+            "author": "M Sipser",
+            "year": "2013",
+            "unstructured": "Sipser M (2013) Introduction to the theory of computation, 3rd edn. Course technology. Cengage Learning, Boston",
+            "edition": "3"
+          },
+          {
+            "key": "10205_CR119",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Sokolov A, Kreutzer J, Lo C, Riezler S (2016) Learning structured predictors from bandit feedback for interactive NLP. In: Annual meeting of the Association for Computational Linguistics (ACL), Berlin, Germany, vol 54. Association for Computational Linguistics, pp 1610–1620. https://doi.org/10.18653/v1/P16-1152",
+            "DOI": "10.18653/v1/P16-1152"
+          },
+          {
+            "key": "10205_CR120",
+            "unstructured": "Sokolov A, Riezler S, Urvoy T (2015) Bandit structured prediction for learning from partial feedback in statistical machine translation. In: Proceedings of MT summit XV, Miami, FL, USA. Association for Machine Translation in the Americas, pp 160–171"
+          },
+          {
+            "key": "10205_CR121",
+            "doi-asserted-by": "publisher",
+            "first-page": "343",
+            "DOI": "10.1613/jair.1.12007",
+            "volume": "69",
+            "author": "F Stahlberg",
+            "year": "2020",
+            "unstructured": "Stahlberg F (2020) Neural machine translation: a review. J Artif Intell Res 69:343–418. https://doi.org/10.1613/jair.1.12007",
+            "journal-title": "J Artif Intell Res"
+          },
+          {
+            "key": "10205_CR122",
+            "doi-asserted-by": "publisher",
+            "first-page": "24",
+            "DOI": "10.1016/j.csl.2018.02.003",
+            "volume": "51",
+            "author": "PH Su",
+            "year": "2018",
+            "unstructured": "Su PH, Gašić M, Young S (2018) Reward estimation for dialogue policy optimisation. Comput Speech Lang 51:24–43. https://doi.org/10.1016/j.csl.2018.02.003",
+            "journal-title": "Comput Speech Lang"
+          },
+          {
+            "key": "10205_CR123",
+            "unstructured": "Sutskever I, Vinyals O, Le QV (2014) Sequence to sequence learning with neural networks. In: Advances in neural information processing systems (NIPS), Montreal, QC, Canada, vol 27. Curran Associates, Inc., pp 3104–3112"
+          },
+          {
+            "key": "10205_CR124",
+            "series-title": "Adaptive computation and machine learning series",
+            "volume-title": "Reinforcement learning: an introduction",
+            "author": "RS Sutton",
+            "year": "2018",
+            "unstructured": "Sutton RS, Barto AG (2018) Reinforcement learning: an introduction, 2nd edn. Adaptive computation and machine learning series. The MIT Press, Cambridge",
+            "edition": "2"
+          },
+          {
+            "key": "10205_CR125",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tamar A, WU Y, Thomas G, Levine S, Abbeel P (2016) Value iteration networks. In: Advances in neural information processing systems (NIPS), Barcelona, Spain, vol 29. Curran Associates, Inc., pp. 2154–2162",
+            "DOI": "10.24963/ijcai.2017/700"
+          },
+          {
+            "key": "10205_CR126",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tan S, Liu H (2020) Towards embodied scene description. In: Robotics: science and systems. RSS Foundation, Corvallis",
+            "DOI": "10.15607/RSS.2020.XVI.038"
+          },
+          {
+            "issue": "4",
+            "key": "10205_CR127",
+            "doi-asserted-by": "publisher",
+            "first-page": "562",
+            "DOI": "10.1016/j.csl.2009.07.003",
+            "volume": "24",
+            "author": "B Thomson",
+            "year": "2010",
+            "unstructured": "Thomson B, Young S (2010) Bayesian update of dialogue state: a POMDP framework for spoken dialogue systems. Comput Speech Lang 24(4):562–588",
+            "journal-title": "Comput Speech Lang"
+          },
+          {
+            "key": "10205_CR128",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ultes S, Rojas-Barahona LM, Su PH, Vandyke D, Kim D, Casanueva I, Budzianowski P, Mrkšić N, Wen TH, Gašić M, Young S (2017) PyDial: a multi-domain statistical dialogue system toolkit. In: Proceedings of system demonstrations, Vancouver, BC, Canada, vol 55. Association for Computational Linguistics, pp 73–78",
+            "DOI": "10.18653/v1/P17-4013"
+          },
+          {
+            "key": "10205_CR129",
+            "doi-asserted-by": "publisher",
+            "unstructured": "van Hasselt H, Wiering MA (2007) Reinforcement learning in continuous action spaces. In: IEEE symposium on approximate dynamic programming and reinforcement learning (ADPRL), Honolulu, HI, USA, pp 272–279. https://doi.org/10.1109/ADPRL.2007.368199",
+            "DOI": "10.1109/ADPRL.2007.368199"
+          },
+          {
+            "key": "10205_CR130",
+            "unstructured": "Vogel A, Jurafsky D (2010) Learning to follow navigational directions. In: Annual meeting of the Association for Computational Linguistics (ACL), Uppsala, Sweden, vol 48. Association for Computational Linguistics, pp 806–814"
+          },
+          {
+            "key": "10205_CR131",
+            "doi-asserted-by": "publisher",
+            "first-page": "387",
+            "DOI": "10.1613/jair.713",
+            "volume": "12",
+            "author": "MA Walker",
+            "year": "2000",
+            "unstructured": "Walker MA (2000) An application of reinforcement learning to dialogue strategy selection in a spoken dialogue system for email. J Artif Intell Res 12:387–416. https://doi.org/10.1613/jair.713",
+            "journal-title": "J Artif Intell Res"
+          },
+          {
+            "key": "10205_CR132",
+            "unstructured": "Watkins CJCH (1989) Learning from delayed rewards. Dissertation, Cambridge University"
+          },
+          {
+            "key": "10205_CR133",
+            "doi-asserted-by": "publisher",
+            "first-page": "159",
+            "DOI": "10.1007/978-3-319-91241-7_8",
+            "volume-title": "Translation quality assessment: from principles to practice, machine translation: technologies and applications",
+            "author": "A Way",
+            "year": "2018",
+            "unstructured": "Way A (2018) Quality expectations of machine translation. In: Moorkens J, Castilho S, Gaspari F, Doherty S (eds) Translation quality assessment: from principles to practice, machine translation: technologies and applications, vol 1. Springer, Cham, pp 159–178. https://doi.org/10.1007/978-3-319-91241-7_8"
+          },
+          {
+            "key": "10205_CR134",
+            "first-page": "15",
+            "volume-title": "Machine translation of languages: fourteen essays",
+            "author": "W Weaver",
+            "year": "1955",
+            "unstructured": "Weaver W (1955) Translation. In: Locke WN, Booth AD (eds) Machine translation of languages: fourteen essays. The MIT Press, Cambridge, pp 15–23"
+          },
+          {
+            "issue": "2",
+            "key": "10205_CR135",
+            "doi-asserted-by": "publisher",
+            "first-page": "393",
+            "DOI": "10.1016/j.csl.2006.06.008",
+            "volume": "21",
+            "author": "JD Williams",
+            "year": "2007",
+            "unstructured": "Williams JD, Young S (2007) Partially observable Markov decision processes for spoken dialog systems. Comput Speech Lang 21(2):393–422",
+            "journal-title": "Comput Speech Lang"
+          },
+          {
+            "key": "10205_CR136",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Williams P, Sennrich R, Post M, Koehn P (2016) Syntax-based statistical machine translation, synthesis lectures on human language technologies, vol 9. Morgan & Claypool Publishers. https://doi.org/10.2200/S00716ED1V04Y201604HLT033",
+            "DOI": "10.2200/S00716ED1V04Y201604HLT033"
+          },
+          {
+            "key": "10205_CR137",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Wu L, Tian F, Qin T, Lai J, Liu TY (2018) A study of reinforcement learning for neural machine translation. In: Conference on empirical methods in natural language processing (EMNLP), Brussels, Belgium. Association for Computational Linguistics, pp 3612–3621. https://doi.org/10.18653/v1/D18-1397",
+            "DOI": "10.18653/v1/D18-1397"
+          },
+          {
+            "key": "10205_CR138",
+            "unstructured": "Wu Y, Schuster M, Chen Z, Le QV, Norouzi M, Macherey W, Krikun M, Cao Y, Gao Q, Macherey K, Klingner J, Shah A, Johnson M, Liu X, Kaiser Ł, Gouws S, Kato Y, Kudo T, Kazawa H, Stevens K, Kurian G, Patil N, Wang W, Young C, Smith J, Riesa J, Rudnick A, Vinyals O, Corrado G, Hughes M, Dean J (2016) Google’s neural machine translation system: bridging the gap between human and machine translation. Computing Research Repository (CoRR) in arXiv abs/1609.08144, 23"
+          },
+          {
+            "key": "10205_CR139",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Wuebker J, Muehr S, Lehnen P, Peitz S, Ney H (2015) A comparison of update strategies for large-scale maximum expected BLEU training. In: Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT), Denver, CO, USA. Association for Computational Linguistics, pp 1516–1526. https://doi.org/10.3115/v1/N15-1175",
+            "DOI": "10.3115/v1/N15-1175"
+          },
+          {
+            "key": "10205_CR140",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Xiong W, Hoang T, Wang WY (2017) DeepPath: a reinforcement learning method for knowledge graph reasoning. In: Conference on empirical methods in natural language processing (EMNLP), Copenhagen, Denmark. Association for Computational Linguistics, pp 564–573. https://doi.org/10.18653/v1/D17-1060",
+            "DOI": "10.18653/v1/D17-1060"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR141",
+            "doi-asserted-by": "publisher",
+            "first-page": "49",
+            "DOI": "10.1109/TNNLS.2020.2975035",
+            "volume": "32",
+            "author": "M Yang",
+            "year": "2021",
+            "unstructured": "Yang M, Huang W, Tu W, Qu Q, Shen Y, Lei K (2021) Multitask learning and reinforcement learning for personalized dialog generation: an empirical study. IEEE Trans Neural Netw Learn Syst 32(1):49–62",
+            "journal-title": "IEEE Trans Neural Netw Learn Syst"
+          },
+          {
+            "issue": "2",
+            "key": "10205_CR142",
+            "doi-asserted-by": "publisher",
+            "first-page": "150",
+            "DOI": "10.1016/j.csl.2009.04.001",
+            "volume": "24",
+            "author": "S Young",
+            "year": "2010",
+            "unstructured": "Young S, Gašić M, Keizer S, Mairesse F, Schatzmann J, Thomson B, Yu K (2010) The hidden information state model: a practical framework for POMDP-based spoken dialogue management. Comput Speech Lang 24(2):150–174",
+            "journal-title": "Comput Speech Lang"
+          },
+          {
+            "issue": "5",
+            "key": "10205_CR143",
+            "doi-asserted-by": "publisher",
+            "first-page": "1160",
+            "DOI": "10.1109/JPROC.2012.2225812",
+            "volume": "101",
+            "author": "S Young",
+            "year": "2013",
+            "unstructured": "Young S, Gašić M, Thomson B, Williams JD (2013) POMDP-based statistical spoken dialog systems: a review. Proc IEEE 101(5):1160–1179",
+            "journal-title": "Proc IEEE"
+          },
+          {
+            "issue": "1769",
+            "key": "10205_CR144",
+            "doi-asserted-by": "publisher",
+            "first-page": "1389",
+            "DOI": "10.1098/rsta.2000.0593",
+            "volume": "358",
+            "author": "SJ Young",
+            "year": "2000",
+            "unstructured": "Young SJ (2000) Probabilistic methods in spoken-dialogue systems. Philos Trans Math Phys Eng Sci 358(1769):1389–1402",
+            "journal-title": "Philos Trans Math Phys Eng Sci"
+          },
+          {
+            "issue": "1",
+            "key": "10205_CR145",
+            "first-page": "2852",
+            "volume": "31",
+            "author": "L Yu",
+            "year": "2017",
+            "unstructured": "Yu L, Zhang W, Wang J, Yu Y (2017) SeqGAN: sequence generative adversarial nets with policy gradient. Proc AAAI Conf Artif Intell 31(1):2852–2858",
+            "journal-title": "Proc AAAI Conf Artif Intell"
+          },
+          {
+            "key": "10205_CR146",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Yu Z, Rudnicky A, Black A (2017) Learning conversational systems that interleave task and non-task content. In: International joint conference on artificial intelligence (IJCAI), Melbourne, VIC, Australia, vol 26, pp 4214–4220. https://doi.org/10.24963/ijcai.2017/589",
+            "DOI": "10.24963/ijcai.2017/589"
+          },
+          {
+            "key": "10205_CR147",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhang L, Chan KP (2009) Dependency parsing with energy-based reinforcement learning. In: International conference on parsing technologies (IWPT), Paris, France, vol 11. Association for Computational Linguistics, pp 234–237",
+            "DOI": "10.3115/1697236.1697284"
+          },
+          {
+            "key": "10205_CR148",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Zhao T, Xie K, Eskenazi M (2019) Rethinking action spaces for reinforcement learning in end-to-end dialog agents with latent variable models. In: Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT), Minneapolis, Minnesota, vol 1. Association for Computational Linguistics, pp 1208–1218. https://doi.org/10.18653/v1/N19-1123",
+            "DOI": "10.18653/v1/N19-1123"
+          },
+          {
+            "key": "10205_CR149",
+            "doi-asserted-by": "publisher",
+            "first-page": "1936",
+            "DOI": "10.1109/TASLP.2020.3001684",
+            "volume": "28",
+            "author": "S Zhu",
+            "year": "2020",
+            "unstructured": "Zhu S, Cao R, Yu K (2020) Dual learning for semi-supervised natural language understanding. IEEE/ACM Trans Audio Speech Lang Process 28:1936–1947. https://doi.org/10.1109/TASLP.2020.3001684",
+            "journal-title": "IEEE/ACM Trans Audio Speech Lang Process"
+          },
+          {
+            "key": "10205_CR150",
+            "unstructured": "Ziebart BD, Maas A, Bagnell JA, Dey AK (2008) Maximum entropy inverse reinforcement learning. In: 23rd National conference on artificial intelligence (AAAI), Chicago, IL, USA, vol 3. AAAI Press, pp 1433–1438"
+          }
+        ],
+        "container-title": [
+          "Artificial Intelligence Review"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10462-022-10205-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10462-022-10205-5/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10462-022-10205-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              30
+            ]
+          ],
+          "date-time": "2023-01-30T12:53:09Z",
+          "timestamp": 1675083189000
+        },
+        "score": 27.148142,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s10462-022-10205-5"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              3
+            ]
+          ]
+        },
+        "references-count": 150,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10205"
+        ],
+        "URL": "https://doi.org/10.1007/s10462-022-10205-5",
+        "ISSN": [
+          "0269-2821",
+          "1573-7462"
+        ],
+        "issn-type": [
+          {
+            "value": "0269-2821",
+            "type": "print"
+          },
+          {
+            "value": "1573-7462",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "3 June 2022",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

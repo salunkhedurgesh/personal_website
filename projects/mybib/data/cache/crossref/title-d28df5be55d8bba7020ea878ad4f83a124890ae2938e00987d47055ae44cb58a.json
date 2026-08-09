@@ -1,0 +1,307 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 928794,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2026-05-04T19:56:14Z",
+          "timestamp": 1777924574237,
+          "version": "3.51.4"
+        },
+        "reference-count": 14,
+        "publisher": "SAGE Publications",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2013-05-16T00:00:00Z",
+              "timestamp": 1368662400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "journals.sagepub.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The oblique circular torus (OCT) and its main geometric properties are introduced. Intrinsic vector calculation is utilized to mathematically describe the OCT. The coordinate-free approach leads to the algebraic equation of an OCT in a privileged Cartesian reference frame. The OCT equation is used to confirm a theorem of Euclidean geometry. In a broad category of OCT, through any point five circles can be drawn on the surface, namely the parallel of latitude and four circular generatrices whose planes pass through the OCT center of symmetry. In the special case of a right circular torus, the Villarceau theorem is verified. Next, consider the four RRS open chains whose S spherical-joint centers move on the same OCT and their possible in-parallel assemblies in single-loop RRRS chains. From a category of the foregoing RRRS chains, a new derivation of the amazing Bennett 4R linkage is proposed. Two kinds of Bennett linkages are further verified and each kind contains two enantiomorphic or symmetric linkages. Four types of Bennett linkages associated with one OCT are established by uniquely specifying the link twist as an acute value. Two cases of special type, rectangular and equilateral configurations, are also confirmed.</jats:p>",
+        "DOI": "10.1177/0954406213489925",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2013-05-16T20:22:41Z",
+          "timestamp": 1368735761000
+        },
+        "page": "742-752",
+        "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "Oblique circular torus, Villarceau circles, and four types of Bennett linkages"
+        ],
+        "prefix": "10.1177",
+        "volume": "228",
+        "author": [
+          {
+            "given": "Chung-Ching",
+            "family": "Lee",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mold and Die Engineering, National Kaohsiung University of Applied Sciences, Kaohsiung, Taiwan, Republic of China"
+              }
+            ]
+          },
+          {
+            "given": "Jacques M.",
+            "family": "Hervé",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ecole Centrale des Arts et Manufactures, Grande Voie des Vignes, Chatenay-Malabry, France"
+              }
+            ]
+          }
+        ],
+        "member": "179",
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              16
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "bibr1-0954406213489925",
+            "first-page": "345",
+            "volume": "7",
+            "author": "Villarceau Y",
+            "year": "1848",
+            "journal-title": "Nouvelles Annales de Mathématiques"
+          },
+          {
+            "key": "bibr2-0954406213489925",
+            "first-page": "777",
+            "volume": "76",
+            "author": "Bennett GT",
+            "year": "1903",
+            "journal-title": "Engineering"
+          },
+          {
+            "key": "bibr3-0954406213489925",
+            "first-page": "56",
+            "volume": "23",
+            "author": "Borel E",
+            "year": "1904",
+            "journal-title": "Comptes Rendus"
+          },
+          {
+            "key": "bibr4-0954406213489925",
+            "first-page": "69",
+            "volume": "4",
+            "author": "Bricard R",
+            "year": "1906",
+            "journal-title": "Nouvelles Annales de Mathématiques"
+          },
+          {
+            "key": "bibr5-0954406213489925",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1142/4257"
+          },
+          {
+            "key": "bibr6-0954406213489925",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(78)90017-4"
+          },
+          {
+            "key": "bibr7-0954406213489925",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechmachtheory.2011.01.012"
+          },
+          {
+            "key": "bibr8-0954406213489925",
+            "first-page": "151",
+            "volume": "13",
+            "author": "Bennett GT",
+            "year": "1913",
+            "journal-title": "Proc London Math Soc"
+          },
+          {
+            "key": "bibr9-0954406213489925",
+            "first-page": "308",
+            "volume": "5",
+            "author": "Bricard R",
+            "year": "1924",
+            "journal-title": "Nouvelles Annales de Mathématiques"
+          },
+          {
+            "key": "bibr10-0954406213489925",
+            "first-page": "1194",
+            "volume": "192",
+            "author": "Myard FE",
+            "year": "1931",
+            "journal-title": "Comptes-Rendus de l’Académie des Sciences de Paris, Cinématique Appliquée"
+          },
+          {
+            "key": "bibr11-0954406213489925",
+            "first-page": "145",
+            "volume": "146",
+            "author": "Krames J",
+            "year": "1937",
+            "journal-title": "Sitzungsber., Abt. II, österr. Akad. Wiss., Math.-Naturw. Kl"
+          },
+          {
+            "key": "bibr12-0954406213489925",
+            "unstructured": "Hervé JM and Dahan M. The two kinds of Bennett’s mechanisms. In:\n                      Proceedings of the sixth IFToMM world congress on theory of machines and mechanisms\n                      , New Delhi, India, 15-20 December 1983, Vol. 1. New Delhi: Wiley Eastern Ltd, pp.116-119."
+          },
+          {
+            "key": "bibr13-0954406213489925",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(75)90017-8"
+          },
+          {
+            "key": "bibr14-0954406213489925",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1243/095440605X31436"
+          }
+        ],
+        "container-title": [
+          "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0954406213489925",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0954406213489925",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0954406213489925",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T21:27:15Z",
+          "timestamp": 1777670835000
+        },
+        "score": 83.83005,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.sagepub.com/doi/10.1177/0954406213489925"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              16
+            ]
+          ]
+        },
+        "references-count": 14,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2014,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1177/0954406213489925"
+        ],
+        "URL": "https://doi.org/10.1177/0954406213489925",
+        "ISSN": [
+          "0954-4062",
+          "2041-2983"
+        ],
+        "issn-type": [
+          {
+            "value": "0954-4062",
+            "type": "print"
+          },
+          {
+            "value": "2041-2983",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              16
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

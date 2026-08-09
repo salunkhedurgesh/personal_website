@@ -1,0 +1,180 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 167558,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              20
+            ]
+          ],
+          "date-time": "2023-11-20T00:05:59Z",
+          "timestamp": 1700438759419
+        },
+        "reference-count": 0,
+        "publisher": "Wiley",
+        "issue": "9",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  28
+                ]
+              ],
+              "date-time": "2013-03-28T00:00:00Z",
+              "timestamp": 1364428800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 3861,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Stahlbau"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1002/stab.200202280",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2013-03-28T08:56:18Z",
+          "timestamp": 1364460978000
+        },
+        "page": "699-699",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "25 Jahre RAL‐Gütezeichen \"Stahlhochbau\""
+        ],
+        "prefix": "10.1002",
+        "volume": "71",
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              28
+            ]
+          ]
+        },
+        "container-title": [
+          "Stahlbau"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fstab.200202280",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/stab.200202280",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              19
+            ]
+          ],
+          "date-time": "2023-11-19T11:14:37Z",
+          "timestamp": 1700392477000
+        },
+        "score": 24.818216,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/stab.200202280"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2002,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "9",
+          "published-print": {
+            "date-parts": [
+              [
+                2002,
+                9
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1002/stab.200202280"
+        ],
+        "URL": "https://doi.org/10.1002/stab.200202280",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "0038-9145",
+          "1437-1049"
+        ],
+        "issn-type": [
+          {
+            "value": "0038-9145",
+            "type": "print"
+          },
+          {
+            "value": "1437-1049",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2002,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

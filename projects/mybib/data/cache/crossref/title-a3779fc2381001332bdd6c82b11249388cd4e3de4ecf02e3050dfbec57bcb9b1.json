@@ -1,0 +1,428 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1429544,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              18
+            ]
+          ],
+          "date-time": "2025-06-18T04:23:18Z",
+          "timestamp": 1750220598375,
+          "version": "3.41.0"
+        },
+        "publisher-location": "New York, NY, USA",
+        "reference-count": 32,
+        "publisher": "ACM",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  11,
+                  17
+                ]
+              ],
+              "date-time": "2020-11-17T00:00:00Z",
+              "timestamp": 1605571200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "dl.acm.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              17
+            ]
+          ]
+        },
+        "DOI": "10.1145/3415263.3419166",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              4
+            ]
+          ],
+          "date-time": "2020-12-04T20:13:37Z",
+          "timestamp": 1607112817000
+        },
+        "page": "1-62",
+        "update-policy": "https://doi.org/10.1145/crossmark-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "title": [
+          "eXplainable AI (XAI)"
+        ],
+        "prefix": "10.1145",
+        "author": [
+          {
+            "given": "Rowan",
+            "family": "Hughes",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "UNSW, Sydney, Australia"
+              }
+            ]
+          },
+          {
+            "given": "Cameron",
+            "family": "Edmond",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UNSW, Sydney, Australia"
+              }
+            ]
+          },
+          {
+            "given": "Lindsay",
+            "family": "Wells",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UNSW, Sydney, Australia"
+              }
+            ]
+          },
+          {
+            "given": "Mashhuda",
+            "family": "Glencross",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UQ, Brisbane, Australia"
+              }
+            ]
+          },
+          {
+            "given": "Liming",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CSIRO's, Australia"
+              }
+            ]
+          },
+          {
+            "given": "Tomasz",
+            "family": "Bednarz",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UNSW, Sydney, Australia"
+              }
+            ]
+          }
+        ],
+        "member": "320",
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              4
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_3_2_2_1_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-94-007-6046-2_131"
+          },
+          {
+            "key": "e_1_3_2_2_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.inffus.2019.12.012"
+          },
+          {
+            "key": "e_1_3_2_2_3_1",
+            "volume-title": "Emergent tool use from multi-agent autocurricula. arXiv preprint arXiv:1909.07528",
+            "author": "Baker B.",
+            "year": "2019",
+            "unstructured": "Baker , B. , Kanitscheider , I. , Markov , T. , Wu , Y. , Powell , G. , McGrew , B. , & Mordatch , I. ( 2019 ). Emergent tool use from multi-agent autocurricula. arXiv preprint arXiv:1909.07528 . Baker, B., Kanitscheider, I., Markov, T., Wu, Y., Powell, G., McGrew, B., & Mordatch, I. (2019). Emergent tool use from multi-agent autocurricula. arXiv preprint arXiv:1909.07528."
+          },
+          {
+            "key": "e_1_3_2_2_4_1",
+            "unstructured": "Bau D. Zhu J. Y. Strobelt H. Zhou B. Tenenbaum J. B. Freeman W. T. & Torralba A. (2018). Gan dissection: Visualizing and understanding generative adversarial networks. arXiv preprint arXiv:1811.10597.  Bau D. Zhu J. Y. Strobelt H. Zhou B. Tenenbaum J. B. Freeman W. T. & Torralba A. (2018). Gan dissection: Visualizing and understanding generative adversarial networks. arXiv preprint arXiv:1811.10597."
+          },
+          {
+            "key": "e_1_3_2_2_5_1",
+            "series-title": "Vol. 17",
+            "volume-title": "The hero with a thousand faces",
+            "author": "Campbell J.",
+            "year": "2008",
+            "unstructured": "Campbell , J. ( 2008 ). The hero with a thousand faces ( Vol. 17 ) . New World Library . Campbell, J. (2008). The hero with a thousand faces (Vol. 17). New World Library."
+          },
+          {
+            "key": "e_1_3_2_2_6_1",
+            "volume-title": "Story and discourse: Narrative structure in fiction and film",
+            "author": "Chatman S. B.",
+            "year": "1980",
+            "unstructured": "Chatman , S. B. ( 1980 ). Story and discourse: Narrative structure in fiction and film . Cornell University Press . Chatman, S. B. (1980). Story and discourse: Narrative structure in fiction and film. Cornell University Press."
+          },
+          {
+            "key": "e_1_3_2_2_7_1",
+            "volume-title": "Advances in neural information processing systems (pp. 2172--2180).",
+            "author": "Chen X.",
+            "year": "2016",
+            "unstructured": "Chen , X. , Duan , Y. , Houthooft , R. , Schulman , J. , Sutskever , I. , & Abbeel , P. ( 2016 ). Infogan: Interpretable representation learning by information maximizing generative adversarial nets . In Advances in neural information processing systems (pp. 2172--2180). Chen, X., Duan, Y., Houthooft, R., Schulman, J., Sutskever, I., & Abbeel, P. (2016). Infogan: Interpretable representation learning by information maximizing generative adversarial nets. In Advances in neural information processing systems (pp. 2172--2180)."
+          },
+          {
+            "key": "e_1_3_2_2_8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3301275.3302316"
+          },
+          {
+            "key": "e_1_3_2_2_9_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/INCoS.2014.53"
+          },
+          {
+            "key": "e_1_3_2_2_10_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-68677-4_3"
+          },
+          {
+            "key": "e_1_3_2_2_11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3130800.3130804"
+          },
+          {
+            "key": "e_1_3_2_2_12_1",
+            "volume-title": "Explainable artificial intelligence (xai)",
+            "author": "Gunning D.",
+            "year": "2017",
+            "unstructured": "Gunning , D. ( 2017 ). Explainable artificial intelligence (xai) . Defense Advanced Research Projects Agency (DARPA) , nd Web, 2, 2. Gunning, D. (2017). Explainable artificial intelligence (xai). Defense Advanced Research Projects Agency (DARPA), nd Web, 2, 2."
+          },
+          {
+            "key": "e_1_3_2_2_13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3278721.3278776"
+          },
+          {
+            "key": "e_1_3_2_2_14_1",
+            "volume-title": "Gan lab: Understanding complex deep generative models using interactive visual experimentation",
+            "author": "Kahng M.",
+            "year": "2018",
+            "unstructured": "Kahng , M. , Thorat , N. , Chau , D. H. P. , Viégas , F. B. , & Wattenberg , M. ( 2018 ). Gan lab: Understanding complex deep generative models using interactive visual experimentation . IEEE transactions on visualization and computer graphics, 25(1), 1--11. Kahng, M., Thorat, N., Chau, D. H. P., Viégas, F. B., & Wattenberg, M. (2018). Gan lab: Understanding complex deep generative models using interactive visual experimentation. IEEE transactions on visualization and computer graphics, 25(1), 1--11."
+          },
+          {
+            "key": "e_1_3_2_2_15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0146167219853845"
+          },
+          {
+            "key": "e_1_3_2_2_16_1",
+            "first-page": "2970",
+            "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33",
+            "author": "Lyu D.",
+            "year": "2019",
+            "unstructured": "Lyu , D. , Yang , F. , Liu , B. , & Gustafson , S. ( 2019 , July). SDRL: interpretable and data-efficient deep reinforcement learning leveraging symbolic planning . In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33 , pp. 2970 -- 2977 ). Lyu, D., Yang, F., Liu, B., & Gustafson, S. (2019, July). SDRL: interpretable and data-efficient deep reinforcement learning leveraging symbolic planning. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, pp. 2970--2977)."
+          },
+          {
+            "key": "e_1_3_2_2_17_1",
+            "volume-title": "Explainable reinforcement learning through a causal lens. arXiv preprint arXiv:1905.10958",
+            "author": "Madumal P.",
+            "year": "2019",
+            "unstructured": "Madumal , P. , Miller , T. , Sonenberg , L. , & Vetere , F. ( 2019 ). Explainable reinforcement learning through a causal lens. arXiv preprint arXiv:1905.10958 . Madumal, P., Miller, T., Sonenberg, L., & Vetere, F. (2019). Explainable reinforcement learning through a causal lens. arXiv preprint arXiv:1905.10958."
+          },
+          {
+            "key": "e_1_3_2_2_18_1",
+            "volume-title": "Narrative Building and Visualising Tool (NBVT). https://dlnarratives.eu/tool.html",
+            "author": "Meghini C.",
+            "year": "2020",
+            "unstructured": "Meghini , C. , Bartalesi , V. , Metilli , D. , & Benedetti , F. ( 2020 ). Narrative Building and Visualising Tool (NBVT). https://dlnarratives.eu/tool.html Meghini, C., Bartalesi, V., Metilli, D., & Benedetti, F. (2020). Narrative Building and Visualising Tool (NBVT). https://dlnarratives.eu/tool.html"
+          },
+          {
+            "key": "e_1_3_2_2_19_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.artint.2018.07.007"
+          },
+          {
+            "key": "e_1_3_2_2_20_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3236024.3264843"
+          },
+          {
+            "key": "e_1_3_2_2_21_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/11944577_13"
+          },
+          {
+            "key": "e_1_3_2_2_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/acrefore/9780190201098.013.996"
+          },
+          {
+            "key": "e_1_3_2_2_23_1",
+            "series-title": "Vol. 9",
+            "volume-title": "Morphology of the Folktale",
+            "author": "Propp V.",
+            "year": "2010",
+            "unstructured": "Propp , V. ( 2010 ). Morphology of the Folktale ( Vol. 9 ) . University of Texas Press. Propp, V. (2010). Morphology of the Folktale (Vol. 9). University of Texas Press."
+          },
+          {
+            "key": "e_1_3_2_2_24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-90403-0_5"
+          },
+          {
+            "key": "e_1_3_2_2_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/hbe2.117"
+          },
+          {
+            "key": "e_1_3_2_2_26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3377930.3389821"
+          },
+          {
+            "key": "e_1_3_2_2_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s13218-019-00616-y"
+          },
+          {
+            "key": "e_1_3_2_2_28_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3203186"
+          },
+          {
+            "key": "e_1_3_2_2_29_1",
+            "volume-title": "Rhetorical structure theory: Looking back and moving ahead. Discourse studies, 8(3), 423--459",
+            "author": "Taboada M.",
+            "year": "2006",
+            "unstructured": "Taboada , M. , & Mann , W. C. ( 2006 ). Rhetorical structure theory: Looking back and moving ahead. Discourse studies, 8(3), 423--459 . Taboada, M., & Mann, W. C. (2006). Rhetorical structure theory: Looking back and moving ahead. Discourse studies, 8(3), 423--459."
+          },
+          {
+            "key": "e_1_3_2_2_30_1",
+            "volume-title": "Dqnviz: A visual analytics approach to understand deep q-networks",
+            "author": "Wang J.",
+            "year": "2018",
+            "unstructured": "Wang , J. , Gou , L. , Shen , H. W. , & Yang , H. ( 2018 ). Dqnviz: A visual analytics approach to understand deep q-networks . IEEE transactions on visualization and computer graphics, 25(1), 288--298. Wang, J., Gou, L., Shen, H. W., & Yang, H. (2018). Dqnviz: A visual analytics approach to understand deep q-networks. IEEE transactions on visualization and computer graphics, 25(1), 288--298."
+          },
+          {
+            "key": "e_1_3_2_2_31_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MS.2019.2956701"
+          },
+          {
+            "key": "e_1_3_2_2_32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1631/FITEE.1601883"
+          }
+        ],
+        "event": {
+          "name": "SA '20: SIGGRAPH Asia 2020",
+          "sponsor": [
+            "SIGGRAPH ACM Special Interest Group on Computer Graphics and Interactive Techniques"
+          ],
+          "location": "Virtual Event",
+          "acronym": "SA '20"
+        },
+        "container-title": [
+          "SIGGRAPH Asia 2020 Courses"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3415263.3419166",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3415263.3419166",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2025-06-17T21:31:53Z",
+          "timestamp": 1750195913000
+        },
+        "score": 36.651134,
+        "resource": {
+          "primary": {
+            "URL": "https://dl.acm.org/doi/10.1145/3415263.3419166"
+          }
+        },
+        "subtitle": [
+          "an introduction to the XAI landscape with practical examples"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              17
+            ]
+          ]
+        },
+        "references-count": 32,
+        "alternative-id": [
+          "10.1145/3415263.3419166",
+          "10.1145/3415263"
+        ],
+        "URL": "https://doi.org/10.1145/3415263.3419166",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              17
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2020-12-04",
+            "order": 2,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

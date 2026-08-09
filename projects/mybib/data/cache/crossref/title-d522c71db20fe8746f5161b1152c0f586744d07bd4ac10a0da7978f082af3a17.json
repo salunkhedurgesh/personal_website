@@ -1,0 +1,474 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6619480,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              17
+            ]
+          ],
+          "date-time": "2026-01-17T08:16:44Z",
+          "timestamp": 1768637804443,
+          "version": "3.49.0"
+        },
+        "publisher-location": "Berlin, Heidelberg",
+        "reference-count": 29,
+        "publisher": "Springer Berlin Heidelberg",
+        "isbn-type": [
+          {
+            "value": "9783642159725",
+            "type": "print"
+          },
+          {
+            "value": "9783642159732",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2011-01-01T00:00:00Z",
+              "timestamp": 1293840000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2011-01-01T00:00:00Z",
+              "timestamp": 1293840000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-642-15973-2_37",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2011-05-05T10:51:42Z",
+          "timestamp": 1304592702000
+        },
+        "page": "373-383",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 11,
+        "title": [
+          "Multiobjective Design Optimization of 3–PRR Planar Parallel Manipulators"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "S.",
+            "family": "Caro",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "D.",
+            "family": "Chablat",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "R.",
+            "family": "Ur-Rehman",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "P.",
+            "family": "Wenger",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "11",
+            "key": "37_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "131",
+            "DOI": "10.1002/nme.871",
+            "volume": "59",
+            "author": "A.M. Hay",
+            "year": "2004",
+            "unstructured": "Hay, A.M., Snyman, J.A. (2004) Methodologies for the optimal design of parallel manipulators. International Journal for Numerical Methods in Engineering, 59(11):131–152.",
+            "journal-title": "International Journal for Numerical Methods in Engineering"
+          },
+          {
+            "key": "37_CR2",
+            "volume-title": "Parallel Robots",
+            "author": "J.P. Merlet",
+            "year": "2006",
+            "unstructured": "Merlet, J.P. (2006) Parallel Robots. Kluwer, Norwell, MA."
+          },
+          {
+            "key": "37_CR3",
+            "unstructured": "Lou, Y., Liu, G., Chen, N., Li, Z. (2005) Optimal design of parallel manipulators for maximum effective regular workspace. Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, Alberta, pp. 795–800."
+          },
+          {
+            "issue": "2",
+            "key": "37_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "223",
+            "DOI": "10.1109/TASE.2007.909446",
+            "volume": "5",
+            "author": "Y. Lou",
+            "year": "2008",
+            "unstructured": "Lou, Y., Liu, G., Li, Z. (2008) Randomized optimal design of parallel manipulators. IEEE Transactions on Automation Science and Engineering, 5(2):223–233,.",
+            "journal-title": "IEEE Transactions on Automation Science and Engineering"
+          },
+          {
+            "issue": "3",
+            "key": "37_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "203",
+            "DOI": "10.1023/A:1010359523780",
+            "volume": "35",
+            "author": "E. Ottaviano",
+            "year": "2000",
+            "unstructured": "Ottaviano, E., Ceccarelli, M. (May 2000) Workspace and optimal design of a pure translation parallel manipulator-tsai manipulator. Meccanica, 35(3):203–214.",
+            "journal-title": "Meccanica"
+          },
+          {
+            "key": "37_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ottaviano, E., Ceccarelli, M. (2001) Optimal design of capaman (cassino parallel manipulator) with prescribed workspace. 2nd Workshop on Computational Kinematics KC2001, Seoul, South Korea, pp. 35–43.",
+            "DOI": "10.1017/S026357470100385X"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "157",
+            "DOI": "10.1016/j.mechmachtheory.2004.07.002",
+            "volume": "40",
+            "author": "F. Hao",
+            "year": "2005",
+            "unstructured": "Hao, F., Merlet, J.-P. (2005) Multi-criteria optimal design of parallel manipulators based on interval analysis. Mechanism and Machine Theory, 40(2):157–171.",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "37_CR8",
+            "unstructured": "Ceccarelli, M., Carbone, G., Ottaviano, E. (2005) Multi criteria optimum design of manipulators. In Bulletin of the Polish Academy of Technical Sciences, 53(1):9–18."
+          },
+          {
+            "key": "37_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "35",
+            "DOI": "10.1115/1.3258901",
+            "volume": "110",
+            "author": "C.M. Gosselin",
+            "year": "1988",
+            "unstructured": "Gosselin, C.M., Angeles, J. (1988) The optimum kinematic design of a planar three-degree-of-freedom parallel manipulator. ASME Journal of Mechanisms, Transmission and Automation in Design, 110:35–41.",
+            "journal-title": "ASME Journal of Mechanisms, Transmission and Automation in Design"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "202",
+            "DOI": "10.1115/1.3258984",
+            "volume": "111",
+            "author": "C.M. Gosselin",
+            "year": "1989",
+            "unstructured": "Gosselin, C.M., Angeles, J. (1989) The optimum kinematic design of a spherical three-degree-of-freedom parallel manipulator. Journal of Mechanisms, Transmissions and Automation in Design, 111(2):202–207.",
+            "journal-title": "Journal of Mechanisms, Transmissions and Automation in Design"
+          },
+          {
+            "key": "37_CR11",
+            "unstructured": "Pham, H.H., Chen, I.-M. (2003) Optimal synthesis for workspace and manipulability of parallel flexure mechanism. Proceeding of the 11th World Congress in Mechanism and Machine Science, Tianjin, China, April 1–4 2003, pp 2069–2073."
+          },
+          {
+            "key": "37_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Stamper, R.E., Tsai, L.-W., Walsh, G.C. (1997) Optimization of a three-dof translational platform for well-conditioned workspace. Proceedings of the IEEE International Conference on Robotics and Automation, New Mexico, pp. 3250–3255.",
+            "DOI": "10.1109/ROBOT.1997.606784"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "292",
+            "DOI": "10.1115/1.1563632",
+            "volume": "125",
+            "author": "M. Stock",
+            "year": "2003",
+            "unstructured": "Stock, M., Miller, K. (2003) Optimal kinematic design of spatial parallel manipulators: Application of linear delta robot. Transactions of the ASME, Journal of Mechanical Design, 125(2):292–301.",
+            "journal-title": "Transactions of the ASME, Journal of Mechanical Design"
+          },
+          {
+            "issue": "1",
+            "key": "37_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "12",
+            "DOI": "10.1109/TRO.2008.2008744",
+            "volume": "25",
+            "author": "C. Menon",
+            "year": "2009",
+            "unstructured": "Menon, C., Vertechy, R., Markot, M.C., Parenti-Castelli, V. (February 2009) Geometrical optimization of parallel mechanisms based on natural frequency evaluation: application to a spherical mechanism for future space applications. IEEE Transactions on Robotics, 25(1):12–24.",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "195",
+            "DOI": "10.1007/s00158-008-0276-x",
+            "volume": "38",
+            "author": "H. Li",
+            "year": "2009",
+            "unstructured": "Li, H., Yang, Z., Huang, T. (2009) Dynamics and elasto-dynamics optimization of a 2-dof planar parallel pick and place robot with flexible links. Journal of Structural and Multidisciplinary Optimization, 38(2):195–204.",
+            "journal-title": "Journal of Structural and Multidisciplinary Optimization"
+          },
+          {
+            "key": "37_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Krefft, M., Hesselbach, J. (2005) Elastodynamic optimization of parallel kinematics. Proceedings of the IEEE International Conference on Automation Science and Engineering, Edmonton, AB, Canada, Aug 1–2 2005.",
+            "DOI": "10.1109/COASE.2005.1506795"
+          },
+          {
+            "issue": "3",
+            "key": "37_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "403",
+            "DOI": "10.1109/TRA.2003.810242",
+            "volume": "19",
+            "author": "D. Chablat",
+            "year": "2003",
+            "unstructured": "Chablat, D., Wenger, P. (2003) Architecture optimization of a 3-dof parallel mechanism for machining applications, the orthoglide. IEEE Transactions On Robotics and Automation, 19(3):403–410.",
+            "journal-title": "IEEE Transactions On Robotics and Automation"
+          },
+          {
+            "key": "37_CR18",
+            "unstructured": "Chablat, D., Wenger, Ph., Caro, S., Angeles, J. (2002) The isoconditioning loci of planar 3-dof parallel manipulator. Proceedings of DETC’2002, ASME Design Engineering Technical Conference, Montreal, QC, Canada, 29 Sep–2 Oct 2002."
+          },
+          {
+            "key": "37_CR19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chablat, D., Wenger, P. (May 1998) Working modes and aspects in fully parallel manipulators. Proceedings of the IEEE International Conference on Robotics and Automation, pp. 1964–1969.",
+            "DOI": "10.1109/ROBOT.1998.680601"
+          },
+          {
+            "issue": "8",
+            "key": "37_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "1088",
+            "DOI": "10.1016/0094-114X(94)90001-9",
+            "volume": "29",
+            "author": "C.M. Gosselin",
+            "year": "1994",
+            "unstructured": "Gosselin, C.M., Merlet, J.P. (1994) The direct kinematics of planar parallel manipulators: special architectures and number of solutions. Mechanism and Machine Theory, 29(8):1088–1097.",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "5",
+            "key": "37_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "966",
+            "DOI": "10.1016/j.mechmachtheory.2008.05.017",
+            "volume": "44",
+            "author": "A. Pashkevich",
+            "year": "2009",
+            "unstructured": "Pashkevich, A., Chablat, D., Wenger, P. (2009) Stiffness analysis of overconstrained parallel manipulators. Mechanism and Machine Theory, 44(5):966–982.",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "37_CR22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pashkevich, A., Chablat, D., Wenger, P. (2009) Design optimization of parallel manipulators for high-speed precision machining application. 13th IFAC Symposium on Information Control Problems in Manufacturing, Moscow, Russia, 3–5 June 2009.",
+            "DOI": "10.3182/20090603-3-RU-2001.0095"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "209",
+            "DOI": "10.1023/B:JINT.0000015403.67717.68",
+            "volume": "39",
+            "author": "X.J. Liu",
+            "year": "2004",
+            "unstructured": "Liu, X.J., Wang, J., Oh, K.K., Kim, J. (February 2004) A new approach to the design of a delta robot with a desired workspace. Journal of Intelligent and Robotic Systems, 39(2):209–225.",
+            "journal-title": "Journal of Intelligent and Robotic Systems"
+          },
+          {
+            "key": "37_CR24",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wenger, P., Chablat, D. (2000) Kinematic analysis of a new parallel machine tool: The orthoglide. Proceedings of the 7th International Symposium on Advances in Robot Kinematics, Portoroz, Slovenia.",
+            "DOI": "10.1007/978-94-011-4120-8_32"
+          },
+          {
+            "issue": "3",
+            "key": "37_CR25",
+            "first-page": "139",
+            "volume": "5",
+            "author": "Z. Li",
+            "year": "1990",
+            "unstructured": "Li, Z. (1990) Geometrical consideration of robot kinematics singularities. The International Journal of Robotics and Automation, 5(3):139–145.",
+            "journal-title": "The International Journal of Robotics and Automation"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "43",
+            "DOI": "10.1177/027836498800700204",
+            "volume": "7",
+            "author": "B. Paden",
+            "year": "1988",
+            "unstructured": "Paden, B., Sastry, S. (1988) Optimal kinematic design of 6r manipulator. The International Journal of Robotics Research, 7(2):43–61.",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "1",
+            "key": "37_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "21",
+            "DOI": "10.1007/BF01254006",
+            "volume": "14",
+            "author": "F. Ranjbaran",
+            "year": "1995",
+            "unstructured": "Ranjbaran, F., Angeles, J., Gonzalez Palacios, M.A., Patel, R. (1995) The mechanical design of a seven-axes manipulator with kinematic isotropy. ASME Journal of Intelligent and Robotic Systems, 14(1):21–41.",
+            "journal-title": "ASME Journal of Intelligent and Robotic Systems"
+          },
+          {
+            "key": "37_CR28",
+            "unstructured": "ESTECO (2008) Modefrontier, version 4.0.3."
+          },
+          {
+            "issue": "3",
+            "key": "37_CR29",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1115/1.3066659",
+            "volume": "131",
+            "author": "O. Altuzarra",
+            "year": "2009",
+            "unstructured": "Altuzarra, O., Salgado, O., Hernandez, A., Angeles, J. (2009) Multiobjective optimum design of a symmetric parallel schnflies-motion generator. ASME Journal of Mechanical Design, 131(3):031002-1–031002-11.",
+            "journal-title": "ASME Journal of Mechanical Design"
+          }
+        ],
+        "container-title": [
+          "Global Product Development"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-642-15973-2_37",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2025-03-05T11:24:05Z",
+          "timestamp": 1741173845000
+        },
+        "score": 47.705975,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-642-15973-2_37"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783642159725",
+          "9783642159732"
+        ],
+        "references-count": 29,
+        "URL": "https://doi.org/10.1007/978-3-642-15973-2_37",
+        "published": {
+          "date-parts": [
+            [
+              2011
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "12 February 2011",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

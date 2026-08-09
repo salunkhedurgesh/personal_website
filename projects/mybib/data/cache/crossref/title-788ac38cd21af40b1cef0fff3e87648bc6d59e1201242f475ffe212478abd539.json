@@ -1,0 +1,232 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3163254,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T00:17:43Z",
+          "timestamp": 1775607463732,
+          "version": "3.50.1"
+        },
+        "reference-count": 7,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "6",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2019-12-01T00:00:00Z",
+              "timestamp": 1575158400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2019-12-01T00:00:00Z",
+              "timestamp": 1575158400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-009"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2019-12-01T00:00:00Z",
+              "timestamp": 1575158400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-001"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Control Syst."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1109/mcs.2019.2937265",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2022-02-01T21:42:04Z",
+          "timestamp": 1643751724000
+        },
+        "page": "100-102",
+        "source": "Crossref",
+        "is-referenced-by-count": 45,
+        "title": [
+          "Modern Robotics: Mechanics, Planning, and Control [Bookshelf]"
+        ],
+        "prefix": "10.1109",
+        "volume": "39",
+        "author": [
+          {
+            "given": "Andreas",
+            "family": "Mueller",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "author": "chevallier",
+            "year": "2017",
+            "journal-title": "Multi-Body Kinematics and Dynamics with Lie Groups"
+          },
+          {
+            "key": "ref3",
+            "author": "angeles",
+            "year": "2003",
+            "journal-title": "Fundamentals of Robotic Mechanical Systems"
+          },
+          {
+            "key": "ref6",
+            "author": "murray",
+            "year": "1994",
+            "journal-title": "A Mathematical Introduction to Robotic Manipulation"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4899-7560-7"
+          },
+          {
+            "key": "ref7",
+            "author": "selig",
+            "year": "2005",
+            "journal-title": "Geometric Fundamentals of Robotics"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BFb0031048"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-32552-1"
+          }
+        ],
+        "container-title": [
+          "IEEE Control Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5488303/8897097/08897162.pdf?arnumber=8897162",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              16
+            ]
+          ],
+          "date-time": "2022-07-16T17:10:06Z",
+          "timestamp": 1657991406000
+        },
+        "score": 38.603832,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8897162/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "references-count": 7,
+        "journal-issue": {
+          "issue": "6"
+        },
+        "URL": "https://doi.org/10.1109/mcs.2019.2937265",
+        "ISSN": [
+          "1066-033X",
+          "1941-000X"
+        ],
+        "issn-type": [
+          {
+            "value": "1066-033X",
+            "type": "print"
+          },
+          {
+            "value": "1941-000X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

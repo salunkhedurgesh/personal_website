@@ -1,0 +1,176 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 125774,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              25
+            ]
+          ],
+          "date-time": "2026-02-25T16:03:28Z",
+          "timestamp": 1772035408219,
+          "version": "3.50.1"
+        },
+        "publisher-location": "Boston, MA",
+        "reference-count": 0,
+        "publisher": "Birkhäuser Boston",
+        "isbn-type": [
+          {
+            "value": "9781461277415",
+            "type": "print"
+          },
+          {
+            "value": "9781461229742",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1992,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1992-01-01T00:00:00Z",
+              "timestamp": 694224000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1992,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "1992-01-01T00:00:00Z",
+              "timestamp": 694224000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4612-2974-2_3",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2011-11-13T09:55:21Z",
+          "timestamp": 1321178121000
+        },
+        "page": "227-430",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Topology and Algebraic Topology"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Hassler",
+            "family": "Whitney",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "container-title": [
+          "Contemporary Mathematicians",
+          "Hassler Whitney Collected Papers"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-1-4612-2974-2_3",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              25
+            ]
+          ],
+          "date-time": "2026-02-25T15:02:49Z",
+          "timestamp": 1772031769000
+        },
+        "score": 23.977858,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-1-4612-2974-2_3"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781461277415",
+          "9781461229742"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-1-4612-2974-2_3",
+        "ISSN": [
+          "0884-7037"
+        ],
+        "issn-type": [
+          {
+            "value": "0884-7037",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

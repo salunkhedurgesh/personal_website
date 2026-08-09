@@ -1,0 +1,108 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 275792,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2024-09-10T05:26:25Z",
+          "timestamp": 1725945985372
+        },
+        "reference-count": 0,
+        "publisher": "Oxford University Press",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              31
+            ]
+          ]
+        },
+        "DOI": "10.1093/benz/9780199773787.article.b00195977",
+        "type": "reference-entry",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              24
+            ]
+          ],
+          "date-time": "2018-01-24T13:19:07Z",
+          "timestamp": 1516799947000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Wenger"
+        ],
+        "prefix": "10.1093",
+        "member": "286",
+        "container-title": [
+          "Benezit Dictionary of Artists"
+        ],
+        "original-title": [
+          "Wenger"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              26
+            ]
+          ],
+          "date-time": "2018-01-26T12:28:27Z",
+          "timestamp": 1516969707000
+        },
+        "score": 21.588814,
+        "resource": {
+          "primary": {
+            "URL": "http://www.oxfordartonline.com/benezit/view/10.1093/benz/9780199773787.001.0001/acref-9780199773787-e-00195977"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              31
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1093/benz/9780199773787.article.b00195977",
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              31
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

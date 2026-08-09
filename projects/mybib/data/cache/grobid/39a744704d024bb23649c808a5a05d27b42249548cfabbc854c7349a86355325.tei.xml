@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Knowledge-Based Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-11-16">16 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Hammoudi</forename><surname>Abderazek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Optics and Precision Mechanics</orgName>
+								<orgName type="laboratory">Applied Precision Mechanics Laboratory</orgName>
+								<orgName type="institution">Setif-1-University</orgName>
+								<address>
+									<country key="DZ">Algeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ali</forename><surname>Riza Yildiz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Automotive Engineering</orgName>
+								<orgName type="institution">Bursa Uludağ University</orgName>
+								<address>
+									<settlement>Görükle Bursa</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Seyedali</forename><surname>Mirjalili</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Center for Artificial Intelligence Research and Optimization</orgName>
+								<orgName type="institution">Torrens University Australia</orgName>
+								<address>
+									<addrLine>90 Bowen Terrace Fortitude Valley</addrLine>
+									<postCode>4006</postCode>
+									<settlement>Brisbane</settlement>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Knowledge-Based Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-11-16">16 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AA1302B7A997802865ABF30CB3773CC9</idno>
+					<note type="submission">Received 12 January 2019 Received in revised form 11 November 2019 Accepted 12 November 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Algorithms Metaheuristics Optimization</keywords>
+			</textClass>
+			<abstract>
+				<p>This study presents the application of seven recent meta-heuristic optimization algorithms to automate design of disk cam mechanism with translating roller follower regarding four follower motion laws. The algorithms are: salp swarm algorithm (SSA), moth-flame optimization (MFO), ant lion optimizer (ALO), multi verse optimizer (MVO), grey wolf optimizer (GWO), evaporation rate water cycle algorithm (ER-WCA), and mine blast algorithm (MBA). The optimum cam design problem is formulated with three objectives including the minimum congestion, maximum performance, and maximum strength resistance of the cam. Moreover, the effect of selecting follower motion law on the optimal design of mechanism is investigated. The computational results clearly indicate that the utilized algorithms are very competitive in structural design optimization, especially MBA, ER-WCA, MFO and GWO techniques. Among the four follower motion laws, the polynomial 3-4-5 degree is the best one.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

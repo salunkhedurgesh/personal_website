@@ -1,0 +1,232 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 447064,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2026-03-28T09:09:28Z",
+          "timestamp": 1774688968995,
+          "version": "3.50.1"
+        },
+        "reference-count": 5,
+        "publisher": "ASME International",
+        "issue": "4",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              7,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This note provides a direct method for obtaining Lagrange’s equations describing the rotational motion of a rigid body in terms of quaternions by using the so-called fundamental equation of constrained motion.</jats:p>",
+        "DOI": "10.1115/1.4000917",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              19
+            ]
+          ],
+          "date-time": "2010-04-19T22:49:43Z",
+          "timestamp": 1271717383000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 73,
+        "title": [
+          "An Alternative Derivation of the Quaternion Equations of Motion for Rigid-Body Rotational Dynamics"
+        ],
+        "prefix": "10.1115",
+        "volume": "77",
+        "author": [
+          {
+            "given": "Firdaus E.",
+            "family": "Udwadia",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Departments of Aerospace and Mechanical Engineering, Civil Engineering, Mathematics, and Information and Operations Management, University of Southern California, 430K Olin Hall, Los Angeles, CA 90089-1453"
+              }
+            ]
+          },
+          {
+            "given": "Aaron D.",
+            "family": "Schutte",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Aerospace and Mechanical Engineering, University of Southern California, Los Angeles, CA 90089-1453"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2019100512583596800_c1",
+            "doi-asserted-by": "crossref",
+            "first-page": "358",
+            "DOI": "10.1115/1.3260722",
+            "article-title": "Euler Parameters in Computational Kinematics and Dynamics",
+            "volume": "107",
+            "author": "Nikravesh",
+            "journal-title": "ASME J. Mech., Transm., Autom. Des.",
+            "ISSN": "https://id.crossref.org/issn/0738-0666",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100512583596800_c2",
+            "first-page": "569",
+            "article-title": "Hamiltonian and Lagrangian Formulations of Rigid-Body Rotational Dynamics Based on the Euler Parameters",
+            "volume": "41",
+            "author": "Morton",
+            "journal-title": "J. Astronaut. Sci.",
+            "ISSN": "https://id.crossref.org/issn/0021-9142",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100512583596800_c3",
+            "doi-asserted-by": "publisher",
+            "first-page": "407",
+            "DOI": "10.1098/rspa.1992.0158",
+            "article-title": "A New Perspective on Constrained Motion",
+            "volume": "439",
+            "author": "Udwadia",
+            "journal-title": "Proc. R. Soc. London, Ser. A",
+            "ISSN": "https://id.crossref.org/issn/0950-1207",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100512583596800_c4",
+            "doi-asserted-by": "crossref",
+            "volume-title": "Analytical Dynamics: A New Approach",
+            "author": "Udwadia",
+            "DOI": "10.1017/CBO9780511665479"
+          },
+          {
+            "key": "2019100512583596800_c5",
+            "volume-title": "Matrices With Applications in Statistics",
+            "author": "Graybill"
+          }
+        ],
+        "container-title": [
+          "Journal of Applied Mechanics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/doi/10.1115/1.4000917/5481265/044505_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/doi/10.1115/1.4000917/5481265/044505_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2019-10-05T16:58:41Z",
+          "timestamp": 1570294721000
+        },
+        "score": 23.236115,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/appliedmechanics/article/doi/10.1115/1.4000917/459518/An-Alternative-Derivation-of-the-Quaternion"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              12
+            ]
+          ]
+        },
+        "references-count": 5,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                7,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.4000917",
+        "ISSN": [
+          "0021-8936",
+          "1528-9036"
+        ],
+        "issn-type": [
+          {
+            "value": "0021-8936",
+            "type": "print"
+          },
+          {
+            "value": "1528-9036",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              12
+            ]
+          ]
+        },
+        "article-number": "044505"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

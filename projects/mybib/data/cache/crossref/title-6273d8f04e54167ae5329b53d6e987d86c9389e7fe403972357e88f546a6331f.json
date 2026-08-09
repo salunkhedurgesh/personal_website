@@ -1,0 +1,190 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 139160,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2025-03-27T09:04:24Z",
+          "timestamp": 1743066264237,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 0,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783319184128"
+          },
+          {
+            "type": "electronic",
+            "value": "9783319184135"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2015-01-01T00:00:00Z",
+              "timestamp": 1420070400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2015-01-01T00:00:00Z",
+              "timestamp": 1420070400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-319-18413-5_1",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              25
+            ]
+          ],
+          "date-time": "2015-04-25T11:25:58Z",
+          "timestamp": 1429961158000
+        },
+        "page": "1-24",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Geometric Algebra"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "David",
+            "family": "Hestenes",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "Space-Time Algebra"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-18413-5_1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              24
+            ]
+          ],
+          "date-time": "2023-01-24T12:24:04Z",
+          "timestamp": 1674563044000
+        },
+        "score": 23.771744,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-319-18413-5_1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783319184128",
+          "9783319184135"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-3-319-18413-5_1",
+        "published": {
+          "date-parts": [
+            [
+              2015
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "26 April 2015",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

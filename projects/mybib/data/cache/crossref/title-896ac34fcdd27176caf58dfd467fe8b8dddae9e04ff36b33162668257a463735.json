@@ -1,0 +1,483 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7999288,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              25
+            ]
+          ],
+          "date-time": "2026-01-25T14:46:50Z",
+          "timestamp": 1769352410114,
+          "version": "3.49.0"
+        },
+        "reference-count": 17,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  7,
+                  18
+                ]
+              ],
+              "date-time": "2022-07-18T00:00:00Z",
+              "timestamp": 1658102400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  7,
+                  18
+                ]
+              ],
+              "date-time": "2022-07-18T00:00:00Z",
+              "timestamp": 1658102400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "funder": [
+          {
+            "name": "The Scientific and Technological Research Council of Turkey",
+            "award": [
+              "BIDEB 2211-E"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "BIDEB 2211-E"
+                ]
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100002428",
+            "name": "Austrian Science Fund",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "P 33397-N"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "P 33397-N"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100002428",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Adv. Appl. Clifford Algebras"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We introduce the Study variety of conformal kinematics and investigate some of its properties. The Study variety is a projective variety of dimension ten and degree twelve in real projective space of dimension 15, and it generalizes the well-known Study quadric model of rigid body kinematics. Despite its high dimension, co-dimension, and degree it is amenable to concrete calculations via conformal geometric algebra (CGA) associated to three-dimensional Euclidean space. Calculations are facilitated by a four quaternion representation which extends the dual quaternion description of rigid body kinematics. In particular, we study straight lines on the Study variety. It turns out that they are related to a class of one-parametric conformal motions introduced by Dorst in (Math Comput Sci 10:97–113, 2016, <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" xlink:href=\"10.1007/s11786-016-0250-8\">https://doi.org/10.1007/s11786-016-0250-8</jats:ext-link>). Similar to rigid body kinematics, straight lines (that is, Dorst’s motions) are important for the decomposition of rational conformal motions into lower degree motions via the factorization of certain polynomials with coefficients in CGA.</jats:p>",
+        "DOI": "10.1007/s00006-022-01227-x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2022-07-18T12:03:31Z",
+          "timestamp": 1658145811000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "The Study Variety of Conformal Kinematics"
+        ],
+        "prefix": "10.1007",
+        "volume": "32",
+        "author": [
+          {
+            "given": "Bahar",
+            "family": "Kalkan",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Zijia",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2601-6695",
+            "authenticated-orcid": false,
+            "given": "Hans-Peter",
+            "family": "Schröcker",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Johannes",
+            "family": "Siegele",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "1227_CR1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bayro-Corrochano, E.: Geometric Algebra Applications. Computer Vision, Graphics and Neurocomputing, vol. 1. Springer, Berlin (2019)",
+            "DOI": "10.1007/978-3-319-74830-6"
+          },
+          {
+            "issue": "7",
+            "key": "1227_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "106604",
+            "DOI": "10.1016/j.jpaa.2020.106604",
+            "volume": "225",
+            "author": "N Djintelbe",
+            "year": "2021",
+            "unstructured": "Djintelbe, N., Coste, M.: Compactification of the group of rigid motions and applications to robotics. J. Pure Appl. Algebra 225(7), 106604 (2021). https://doi.org/10.1016/j.jpaa.2020.106604",
+            "journal-title": "J. Pure Appl. Algebra"
+          },
+          {
+            "key": "1227_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "97",
+            "DOI": "10.1007/s11786-016-0250-8",
+            "volume": "10",
+            "author": "L Dorst",
+            "year": "2016",
+            "unstructured": "Dorst, L.: The construction of 3D conformal motions. Math. Comput. Sci. 10, 97–113 (2016). https://doi.org/10.1007/s11786-016-0250-8",
+            "journal-title": "Math. Comput. Sci."
+          },
+          {
+            "key": "1227_CR4",
+            "volume-title": "Geometric Algebra for Computer Science",
+            "author": "L Dorst",
+            "year": "2007",
+            "unstructured": "Dorst, L., Fontijne, D., Mann, S.: Geometric Algebra for Computer Science. Elsevier, Amsterdam (2007)"
+          },
+          {
+            "issue": "2",
+            "key": "1227_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "211",
+            "DOI": "10.1007/s00022-014-0243-1",
+            "volume": "106",
+            "author": "M Gallet",
+            "year": "2015",
+            "unstructured": "Gallet, M., Nawratil, G., Schicho, J.: Bond theory for pentapods and hexapods. J. Geom. 106(2), 211–228 (2015). https://doi.org/10.1007/s00022-014-0243-1",
+            "journal-title": "J. Geom."
+          },
+          {
+            "issue": "1",
+            "key": "1227_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "142",
+            "DOI": "10.1016/j.mechmachtheory.2013.05.010",
+            "volume": "69",
+            "author": "G Hegedüs",
+            "year": "2013",
+            "unstructured": "Hegedüs, G., Schicho, J., Schröcker, H.P.: Factorization of rational curves in the study quadric and revolute linkages. Mech. Mach. Theory 69(1), 142–152 (2013). https://doi.org/10.1016/j.mechmachtheory.2013.05.010",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "1227_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "407",
+            "DOI": "10.1016/j.mechmachtheory.2013.08.004",
+            "volume": "70",
+            "author": "G Hegedüs",
+            "year": "2013",
+            "unstructured": "Hegedüs, G., Schicho, J., Schröcker, H.P.: The theory of bonds: a new method for the analysis of linkages. Mech. Mach. Theory 70, 407–424 (2013). https://doi.org/10.1016/j.mechmachtheory.2013.08.004",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "1227_CR8",
+            "first-page": "85",
+            "volume-title": "21st Century Kinematics. The 2012 NSF Workshop",
+            "author": "M Husty",
+            "year": "2012",
+            "unstructured": "Husty, M., Schröcker, H.P.: Kinematics and algebraic geometry. In: McCarthy, J.M. (ed.) 21st Century Kinematics. The 2012 NSF Workshop, pp. 85–123. Springer, London (2012)"
+          },
+          {
+            "key": "1227_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "508",
+            "DOI": "10.1016/j.cam.2018.09.045",
+            "volume": "349",
+            "author": "Z Li",
+            "year": "2019",
+            "unstructured": "Li, Z., Scharler, D.F., Schröcker, H.P.: Factorization results for left polynomials in some associative real algebras: state of the art, applications, and open questions. J. Comput. Appl. Math. 349, 508–522 (2019). https://doi.org/10.1016/j.cam.2018.09.045",
+            "journal-title": "J. Comput. Appl. Math."
+          },
+          {
+            "key": "1227_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "190",
+            "DOI": "10.1016/j.jsc.2018.02.005",
+            "volume": "92",
+            "author": "Z Li",
+            "year": "2019",
+            "unstructured": "Li, Z., Schicho, J., Schröcker, H.P.: Factorization of motion polynomials. J. Symb. Comput. 92, 190–202 (2019). https://doi.org/10.1016/j.jsc.2018.02.005",
+            "journal-title": "J. Symb. Comput."
+          },
+          {
+            "key": "1227_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "11",
+            "DOI": "10.1016/j.cagd.2018.06.001",
+            "volume": "64",
+            "author": "N Lubbes",
+            "year": "2018",
+            "unstructured": "Lubbes, N., Schicho, J.: Kinematic generation of Darboux cyclides. Comput. Aided Geom. Design 64, 11–14 (2018). https://doi.org/10.1016/j.cagd.2018.06.001",
+            "journal-title": "Comput. Aided Geom. Design"
+          },
+          {
+            "issue": "10",
+            "key": "1227_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "1477",
+            "DOI": "10.1017/S0263574718000504",
+            "volume": "36",
+            "author": "TD Rad",
+            "year": "2018",
+            "unstructured": "Rad, T.D., Scharler, D.F., Schröcker, H.P.: The kinematic image of RR, PR, and RP dyads. Robotica 36(10), 1477–1492 (2018). https://doi.org/10.1017/S0263574718000504",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "1227_CR13",
+            "volume-title": "Handbook of Geometric Constraint Systems Principles. Discrete Mathematics and Its Applications",
+            "author": "HP Schröcker",
+            "year": "2018",
+            "unstructured": "Schröcker, H.P., Pfurner, M., Schadlbauer, J.: Constraint varieties in mechanism science. In: Sitharam, M., St. John, A., Sidman, J. (eds.) Handbook of Geometric Constraint Systems Principles. Discrete Mathematics and Its Applications. Chapman and Hall/CRC, Boca Raton (2018)"
+          },
+          {
+            "issue": "5",
+            "key": "1227_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "545",
+            "DOI": "10.1017/s0263574799002568",
+            "volume": "18",
+            "author": "JM Selig",
+            "year": "2000",
+            "unstructured": "Selig, J.M.: Clifford algebra of points, lines and planes. Robotica 18(5), 545–556 (2000). https://doi.org/10.1017/s0263574799002568",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "1227_CR15",
+            "unstructured": "Selig, J.M.: Geometric Fundamentals of Robotics, 2nd edn. Monographs in Computer Science. Springer, Berlin (2005)"
+          },
+          {
+            "key": "1227_CR16",
+            "volume-title": "Latest Advances in Robot Kinematics",
+            "author": "JM Selig",
+            "year": "2012",
+            "unstructured": "Selig, J.M.: Some rigid-body constraint varieties generated by linkages. In: Lenarčič, J., Husty, M. (eds.) Latest Advances in Robot Kinematics. Springer, Dordrecht (2012)"
+          },
+          {
+            "key": "1227_CR17",
+            "volume-title": "Geometric Computing with Clifford Algebras: Theoretical Foundations and Applications in Computer Vision and Robotics",
+            "author": "G Sommer",
+            "year": "2013",
+            "unstructured": "Sommer, G.: Geometric Computing with Clifford Algebras: Theoretical Foundations and Applications in Computer Vision and Robotics. Springer Science and Business Media, New York (2013)"
+          }
+        ],
+        "container-title": [
+          "Advances in Applied Clifford Algebras"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00006-022-01227-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00006-022-01227-x/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00006-022-01227-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              17
+            ]
+          ],
+          "date-time": "2022-09-17T09:20:06Z",
+          "timestamp": 1663406406000
+        },
+        "score": 35.834824,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s00006-022-01227-x"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "references-count": 17,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                9
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "1227"
+        ],
+        "URL": "https://doi.org/10.1007/s00006-022-01227-x",
+        "ISSN": [
+          "0188-7009",
+          "1661-4909"
+        ],
+        "issn-type": [
+          {
+            "value": "0188-7009",
+            "type": "print"
+          },
+          {
+            "value": "1661-4909",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2 December 2021",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "17 June 2022",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "18 July 2022",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "The authors declare that they have no conflict of interest or competing interests. No special data is used to support this article.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Conflict of interest"
+            }
+          }
+        ],
+        "article-number": "44"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

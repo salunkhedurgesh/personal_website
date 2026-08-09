@@ -1,0 +1,591 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9336591,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2026-03-27T03:22:42Z",
+          "timestamp": 1774581762534,
+          "version": "3.50.1"
+        },
+        "reference-count": 25,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  5,
+                  26
+                ]
+              ],
+              "date-time": "2020-05-26T00:00:00Z",
+              "timestamp": 1590451200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  5,
+                  26
+                ]
+              ],
+              "date-time": "2020-05-26T00:00:00Z",
+              "timestamp": 1590451200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Eur Arch Otorhinolaryngol"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00405-020-06070-z",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              26
+            ]
+          ],
+          "date-time": "2020-05-26T22:02:38Z",
+          "timestamp": 1590530558000
+        },
+        "page": "77-85",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 58,
+        "title": [
+          "Robot-based assistance in middle ear surgery and cochlear implantation: first clinical report"
+        ],
+        "prefix": "10.1007",
+        "volume": "278",
+        "author": [
+          {
+            "given": "Sykopetrites",
+            "family": "Vittoria",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Ghizlene",
+            "family": "Lahlou",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Renato",
+            "family": "Torres",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Hannah",
+            "family": "Daoudi",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Isabelle",
+            "family": "Mosnier",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Stéphane",
+            "family": "Mazalaigue",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Evelyne",
+            "family": "Ferrary",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4635-0658",
+            "authenticated-orcid": false,
+            "given": "Yann",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Olivier",
+            "family": "Sterkers",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              26
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "6070_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "672",
+            "DOI": "10.1097/00129492-200109000-00019",
+            "volume": "22",
+            "author": "D Murbe",
+            "year": "2001",
+            "unstructured": "Murbe D, Huttenbrink KB, Zahnert T et al (2001) Tremor in otosurgery: influence of physical strain on hand steadiness. Otol Neurotol 22:672–677",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "6070_CR2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Vendrametto T, McAfee JS, Hirsch BE et al (2015) Robot assisted stapedotomy ex vivo with an active handheld instrument. IEEE pp 4879–4882",
+            "DOI": "10.1109/EMBC.2015.7319486"
+          },
+          {
+            "key": "6070_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Entsfellner K, Schuermann J, Coy JA et al (2015) A modular micro-macro robot system for instrument guiding in middle ear surgery. IEEE pp 374–379",
+            "DOI": "10.1109/ROBIO.2015.7418796"
+          },
+          {
+            "key": "6070_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "290",
+            "DOI": "10.1097/MAO.0000000000001288",
+            "volume": "38",
+            "author": "R Yasin",
+            "year": "2017",
+            "unstructured": "Yasin R, O’Connell BP, Yu H et al (2017) Steerable robot-assisted micromanipulation in the middle ear: preliminary feasibility evaluation. Otol Neurotol 38:290–295. https://doi.org/10.1097/MAO.0000000000001288",
+            "journal-title": "Otol Neurotol"
+          },
+          {
+            "key": "6070_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "320",
+            "DOI": "10.1177/0194599818815144",
+            "volume": "160",
+            "author": "CR Razavi",
+            "year": "2019",
+            "unstructured": "Razavi CR, Wilkening PR, Yin R et al (2019) Applied force during piston prosthesis placement in a 3D-printed model: freehand vs robot-assisted techniques. Otolaryngol Neck Surg 160:320–325. https://doi.org/10.1177/0194599818815144",
+            "journal-title": "Otolaryngol Neck Surg"
+          },
+          {
+            "key": "6070_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "853",
+            "DOI": "10.1007/s00405-012-2056-x",
+            "volume": "270",
+            "author": "S Ayache",
+            "year": "2013",
+            "unstructured": "Ayache S (2013) Cartilaginous myringoplasty: the endoscopic transcanal procedure. Eur Arch Otorhinolaryngol 270:853–860. https://doi.org/10.1007/s00405-012-2056-x",
+            "journal-title": "Eur Arch Otorhinolaryngol"
+          },
+          {
+            "key": "6070_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "1557",
+            "DOI": "10.1007/s00405-011-1533-y",
+            "volume": "268",
+            "author": "D Marchioni",
+            "year": "2011",
+            "unstructured": "Marchioni D, Villari D, Alicandri-Ciufelli M et al (2011) Endoscopic open technique in patients with middle ear cholesteatoma. Eur Arch Otorhinolaryngol 268:1557–1563. https://doi.org/10.1007/s00405-011-1533-y",
+            "journal-title": "Eur Arch Otorhinolaryngol"
+          },
+          {
+            "key": "6070_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "1853",
+            "DOI": "10.1007/s00405-016-4428-0",
+            "volume": "274",
+            "author": "S Doğan",
+            "year": "2017",
+            "unstructured": "Doğan S, Bayraktar C (2017) Endoscopic tympanoplasty: learning curve for a surgeon already trained in microscopic tympanoplasty. Eur Arch Otorhinolaryngol 274:1853–1858. https://doi.org/10.1007/s00405-016-4428-0",
+            "journal-title": "Eur Arch Otorhinolaryngol"
+          },
+          {
+            "issue": "1",
+            "key": "6070_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "e47",
+            "DOI": "10.1097/SCS.0000000000004022",
+            "volume": "29",
+            "author": "O Ozturan",
+            "year": "2018",
+            "unstructured": "Ozturan O, Yenigun A, Aksoy F, Ertas B (2018) Proposal of a budget-friendly camera holder for endoscopic ear surgery. J Craniofac Surg 29(1):e47–e49. https://doi.org/10.1097/SCS.0000000000004022",
+            "journal-title": "J Craniofac Surg"
+          },
+          {
+            "key": "6070_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "127",
+            "DOI": "10.1016/j.ijporl.2017.03.017",
+            "volume": "96",
+            "author": "LOR De Zinis",
+            "year": "2017",
+            "unstructured": "De Zinis LOR, Berlucchi M, Nassif N (2017) Double-handed endoscopic myringoplasty with a holding system in children: preliminary observations. Int J Pediatr Otorhinolaryngol 96:127–130. https://doi.org/10.1016/j.ijporl.2017.03.017",
+            "journal-title": "Int J Pediatr Otorhinolaryngol"
+          },
+          {
+            "key": "6070_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "230",
+            "DOI": "10.1007/s12070-015-0916-6",
+            "volume": "68",
+            "author": "MM Khan",
+            "year": "2016",
+            "unstructured": "Khan MM, Parab SR (2016) Novel concept of attaching endoscope holder to microscope for two handed endoscopic tympanoplasty. Indian J Otolaryngol Head Neck Surg 68:230–240. https://doi.org/10.1007/s12070-015-0916-6",
+            "journal-title": "Indian J Otolaryngol Head Neck Surg"
+          },
+          {
+            "key": "6070_CR12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1100/2012/907372",
+            "author": "M Miroir",
+            "year": "2012",
+            "unstructured": "Miroir M, Nguyen Y, Szewczyk J et al (2012) Design, kinematic optimization, and evaluation of a teleoperated system for middle ear microsurgery. Sci World J. https://doi.org/10.1100/2012/907372",
+            "journal-title": "Sci World J"
+          },
+          {
+            "key": "6070_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "475",
+            "DOI": "10.1016/j.otc.2017.11.016",
+            "volume": "51",
+            "author": "Y Nguyen",
+            "year": "2018",
+            "unstructured": "Nguyen Y, Bernardeschi D, Sterkers O (2018) Potential of robot-based surgery for otosclerosis surgery. Otolaryngol Clin North Am 51:475–485. https://doi.org/10.1016/j.otc.2017.11.016",
+            "journal-title": "Otolaryngol Clin North Am"
+          },
+          {
+            "key": "6070_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "241",
+            "DOI": "10.1177/1553350611426012",
+            "volume": "19",
+            "author": "Y Nguyen",
+            "year": "2012",
+            "unstructured": "Nguyen Y, Miroir M, Kazmitcheff G et al (2012) From conception to application of a tele-operated assistance robot for middle ear surgery. Surg Innov 19:241–251. https://doi.org/10.1177/1553350611426012",
+            "journal-title": "Surg Innov"
+          },
+          {
+            "key": "6070_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kazmitcheff G, Miroir M, Nguyen Y et al (2011) Evaluation of command modes of an assistance robot for middle ear surgery. IEEE pp 2532–2538",
+            "DOI": "10.1109/IROS.2011.6048317"
+          },
+          {
+            "key": "6070_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "e0183674",
+            "DOI": "10.1371/journal.pone.0183674",
+            "volume": "12",
+            "author": "M Drouillard",
+            "year": "2017",
+            "unstructured": "Drouillard M, Torres R, Mamelle E et al (2017) Influence of electrode array stiffness and diameter on hearing in cochlear implanted guinea pig. PLoS ONE 12:e0183674. https://doi.org/10.1371/journal.pone.0183674",
+            "journal-title": "PLoS ONE"
+          },
+          {
+            "key": "6070_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "715",
+            "DOI": "10.1007/s00405-016-4329-2",
+            "volume": "274",
+            "author": "R Torres",
+            "year": "2017",
+            "unstructured": "Torres R, Kazmitcheff G, De Seta D et al (2017) Improvement of the insertion axis for cochlear implantation with a robot-based system. Eur Arch Otorhinolaryngol 274:715–721. https://doi.org/10.1007/s00405-016-4329-2",
+            "journal-title": "Eur Arch Otorhinolaryngol"
+          },
+          {
+            "key": "6070_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "967",
+            "DOI": "10.1002/lary.26802",
+            "volume": "128",
+            "author": "MS Cohen",
+            "year": "2018",
+            "unstructured": "Cohen MS, Basonbul RA, Barber SR et al (2018) Development and validation of an endoscopic ear surgery classification system: endoscopic ear surgery classification system. Laryngoscope 128:967–970. https://doi.org/10.1002/lary.26802",
+            "journal-title": "Laryngoscope"
+          },
+          {
+            "key": "6070_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "259",
+            "DOI": "10.1080/00016489.2016.1247499",
+            "volume": "137",
+            "author": "G Canu",
+            "year": "2017",
+            "unstructured": "Canu G, Lauretani F, Russo FY et al (2017) Early functional results using the nitibond prosthesis in stapes surgery. Acta Otolaryngol (Stockh) 137:259–264. https://doi.org/10.1080/00016489.2016.1247499",
+            "journal-title": "Acta Otolaryngol (Stockh)"
+          },
+          {
+            "key": "6070_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "16",
+            "DOI": "10.1016/j.jclinane.2016.09.020",
+            "volume": "36",
+            "author": "T Dubovoy",
+            "year": "2017",
+            "unstructured": "Dubovoy T, Shanks AM, Devine S, Kheterpal S (2017) Frequency of inadequate neuromuscular blockade during general anesthesia. J Clin Anesth 36:16–20. https://doi.org/10.1016/j.jclinane.2016.09.020",
+            "journal-title": "J Clin Anesth"
+          },
+          {
+            "key": "6070_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "1687",
+            "DOI": "10.1002/lary.24514",
+            "volume": "124",
+            "author": "I Wegner",
+            "year": "2014",
+            "unstructured": "Wegner I, Kamalski DMA, Tange RA et al (2014) Laser versus conventional fenestration in stapedotomy for otosclerosis: a systematic review: laser vs. conventional stapedotomy. Laryngoscope 124:1687–1693. https://doi.org/10.1002/lary.24514",
+            "journal-title": "Laryngoscope"
+          },
+          {
+            "key": "6070_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "448",
+            "DOI": "10.1002/lsm.1900100509",
+            "volume": "10",
+            "author": "SG Lesinski",
+            "year": "1990",
+            "unstructured": "Lesinski SG (1990) Lasers for otosclerosis–which one if any and why. Lasers Surg Med 10:448–457",
+            "journal-title": "Lasers Surg Med"
+          },
+          {
+            "key": "6070_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "1477",
+            "DOI": "10.1007/s00405-013-2624-8",
+            "volume": "271",
+            "author": "DMA Kamalski",
+            "year": "2014",
+            "unstructured": "Kamalski DMA, Verdaasdonk RM, de Boorder T et al (2014) Comparison of KTP, Thulium, and CO2 laser in stapedotomy using specialized visualization techniques: thermal effects. Eur Arch Otorhinolaryngol 271:1477–1483. https://doi.org/10.1007/s00405-013-2624-8",
+            "journal-title": "Eur Arch Otorhinolaryngol"
+          },
+          {
+            "key": "6070_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "939",
+            "DOI": "10.1288/00005537-199308000-00021",
+            "volume": "103",
+            "author": "JM Thomassin",
+            "year": "1993",
+            "unstructured": "Thomassin JM, Korchia D, Doris JM (1993) Endoscopic-guided otosurgery in the prevention of residual cholesteatomas. Laryngoscope 103:939–943. https://doi.org/10.1288/00005537-199308000-00021",
+            "journal-title": "Laryngoscope"
+          },
+          {
+            "key": "6070_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "117",
+            "DOI": "10.1017/S002221511600982",
+            "volume": "131",
+            "author": "S Mitchell",
+            "year": "2017",
+            "unstructured": "Mitchell S, Coulson C (2017) Endoscopic ear surgery: a hot topic? J Laryngol Otol 131:117–122. https://doi.org/10.1017/S002221511600982",
+            "journal-title": "J Laryngol Otol"
+          }
+        ],
+        "container-title": [
+          "European Archives of Oto-Rhino-Laryngology"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00405-020-06070-z.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s00405-020-06070-z/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s00405-020-06070-z.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              25
+            ]
+          ],
+          "date-time": "2021-05-25T23:29:46Z",
+          "timestamp": 1621985386000
+        },
+        "score": 36.186405,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s00405-020-06070-z"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              26
+            ]
+          ]
+        },
+        "references-count": 25,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                1
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "6070"
+        ],
+        "URL": "https://doi.org/10.1007/s00405-020-06070-z",
+        "ISSN": [
+          "0937-4477",
+          "1434-4726"
+        ],
+        "issn-type": [
+          {
+            "value": "0937-4477",
+            "type": "print"
+          },
+          {
+            "value": "1434-4726",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              26
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "3 March 2020",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "19 May 2020",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "26 May 2020",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Compliance with ethical standards"
+            }
+          },
+          {
+            "value": "SM is an employee from Collin Orl Ltd. Other authors report no conflict of interest.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Conflict of interest"
+            }
+          },
+          {
+            "value": "All of the procedures performed in studies involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki Declaration and its later amendments or comparable ethical standards.",
+            "order": 3,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Ethical approval"
+            }
+          },
+          {
+            "value": "Informed consent was obtained from all individual participants included in the study.",
+            "order": 4,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Informed consent"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

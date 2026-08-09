@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3269108,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2025-06-19T04:52:18Z",
+          "timestamp": 1750308738071,
+          "version": "3.41.0"
+        },
+        "reference-count": 0,
+        "publisher": "Association for Computing Machinery (ACM)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2008,
+                  11,
+                  30
+                ]
+              ],
+              "date-time": "2008-11-30T00:00:00Z",
+              "timestamp": 1228003200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "dl.acm.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "SIGACT News"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              11,
+              30
+            ]
+          ]
+        },
+        "DOI": "10.1145/1466390.1466396",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              12,
+              4
+            ]
+          ],
+          "date-time": "2008-12-04T17:19:26Z",
+          "timestamp": 1228411166000
+        },
+        "page": "27-30",
+        "update-policy": "https://doi.org/10.1145/crossmark-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Review of Geometric algebra for computer science by Leo Dorst, Daniel Fontijne, and Stephen Mann  (Morgan Kaufmann Publishers, 2007)"
+        ],
+        "prefix": "10.1145",
+        "volume": "39",
+        "author": [
+          {
+            "given": "Brittany Terese",
+            "family": "Fasy",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "David L.",
+            "family": "Millman",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "320",
+        "published-online": {
+          "date-parts": [
+            [
+              2008,
+              11,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM SIGACT News"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/1466390.1466396",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/1466390.1466396",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              18
+            ]
+          ],
+          "date-time": "2025-06-18T20:22:07Z",
+          "timestamp": 1750278127000
+        },
+        "score": 38.471004,
+        "resource": {
+          "primary": {
+            "URL": "https://dl.acm.org/doi/10.1145/1466390.1466396"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008,
+              11,
+              30
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2008,
+                11,
+                30
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1145/1466390.1466396"
+        ],
+        "URL": "https://doi.org/10.1145/1466390.1466396",
+        "ISSN": [
+          "0163-5700"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0163-5700"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              11,
+              30
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2008-11-30",
+            "order": 2,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

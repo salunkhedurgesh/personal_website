@@ -1,0 +1,182 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3737998,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2025-07-30T12:37:15Z",
+          "timestamp": 1753879035511,
+          "version": "3.41.2"
+        },
+        "reference-count": 0,
+        "publisher": "American Society of Mechanical Engineers",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              18
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Laminate devices have the potential to lower the cost and complexity of robots. Taking advantage of laminate materials’ flexibility, a high-performance jumping platform has been developed with the goal of optimizing jump ground clearance. Four simulations are compared in order to understand which dynamic model elements (leg flexibility, motor dynamics, contact, joint damping, etc.) must be included to accurately model jumping performance. The resulting simulations have been validated with experimental data gathered from a small set of physical leg prototypes spanning design considerations such as gear ratio and leg length, and one in particular was selected for the fidelity of performance trends against experimental results. This simulation has subsequently been used to predict the performance of new leg designs outside the initial design set. The design predicted to achieve the highest jump ground clearance was then built and tested as a demonstration of the usefulness of this simulation.</jats:p>",
+        "DOI": "10.1115/detc2019-98109",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              25
+            ]
+          ],
+          "date-time": "2019-11-25T20:43:21Z",
+          "timestamp": 1574714601000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Design, Modeling, and Optimization of a Hopping Robot Platform"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Jacob W.",
+            "family": "Knaup",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Arizona State University, Tempe, AZ"
+              }
+            ]
+          },
+          {
+            "given": "Daniel M.",
+            "family": "Aukes",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Arizona State University, Tempe, AZ"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              25
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                8,
+                18
+              ]
+            ]
+          },
+          "sponsor": [
+            "Design Engineering Division",
+            "Computers and Information in Engineering Division"
+          ],
+          "location": "Anaheim, California, USA",
+          "end": {
+            "date-parts": [
+              [
+                2019,
+                8,
+                21
+              ]
+            ]
+          },
+          "acronym": "IDETC-CIE2019"
+        },
+        "container-title": [
+          "Volume 5A: 43rd Mechanisms and Robotics Conference"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2019-98109/6453820/v05at07a070-detc2019-98109.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2019-98109/6453820/v05at07a070-detc2019-98109.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2019-12-03T18:26:16Z",
+          "timestamp": 1575397576000
+        },
+        "score": 23.956068,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2019/59230/Anaheim,%20California,%20USA/1070064"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              18
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/detc2019-98109",
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              18
+            ]
+          ]
+        },
+        "article-number": "V05AT07A070"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": "https://openalex.org/W4235805400",
+  "doi": "https://doi.org/10.1007/bf02578920",
+  "title": "Carlos A. Coello Coello",
+  "display_name": "Carlos A. Coello Coello",
+  "publication_year": 2004,
+  "publication_date": "2004-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4235805400",
+    "doi": "https://doi.org/10.1007/bf02578920"
+  },
+  "language": "war",
+  "primary_location": {
+    "id": "doi:10.1007/bf02578920",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/bf02578920",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S141140845",
+      "display_name": "Top",
+      "issn_l": "1134-5764",
+      "issn": [
+        "1134-5764",
+        "1863-8279"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Top",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2290,
+    "currency": "EUR",
+    "value_usd": 2890
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": {
+    "value": 0.4428551,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "1",
+    "first_page": "66",
+    "last_page": "70"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12391",
+    "display_name": "Artificial Immune Systems Applications",
+    "score": 0.9577999711036682,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2204",
+      "display_name": "Biomedical Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12391",
+      "display_name": "Artificial Immune Systems Applications",
+      "score": 0.9577999711036682,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11975",
+      "display_name": "Evolutionary Algorithms and Applications",
+      "score": 0.9204999804496765,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.36790192127227783
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-economics",
+      "display_name": "Mathematical economics",
+      "score": 0.3670205771923065
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.31217893958091736
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.36790192127227783
+    },
+    {
+      "id": "https://openalex.org/C144237770",
+      "wikidata": "https://www.wikidata.org/wiki/Q747534",
+      "display_name": "Mathematical economics",
+      "level": 1,
+      "score": 0.3670205771923065
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.31217893958091736
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/bf02578920",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/bf02578920",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S141140845",
+        "display_name": "Top",
+        "issn_l": "1134-5764",
+        "issn": [
+          "1134-5764",
+          "1863-8279"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Top",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 17,
+  "referenced_works": [
+    "https://openalex.org/W107299040",
+    "https://openalex.org/W192749064",
+    "https://openalex.org/W570301008",
+    "https://openalex.org/W1551186452",
+    "https://openalex.org/W1563728692",
+    "https://openalex.org/W1585939719",
+    "https://openalex.org/W1600188168",
+    "https://openalex.org/W1918036644",
+    "https://openalex.org/W1984186785",
+    "https://openalex.org/W1987443278",
+    "https://openalex.org/W2062015398",
+    "https://openalex.org/W2066806664",
+    "https://openalex.org/W2122837282",
+    "https://openalex.org/W2126105956",
+    "https://openalex.org/W2140882991",
+    "https://openalex.org/W2157601049",
+    "https://openalex.org/W4240602096"
+  ],
+  "related_works": [
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W1979597421",
+    "https://openalex.org/W2007980826",
+    "https://openalex.org/W4245490552",
+    "https://openalex.org/W4225152035",
+    "https://openalex.org/W2061531152",
+    "https://openalex.org/W3002753104",
+    "https://openalex.org/W2077600819",
+    "https://openalex.org/W1587224694",
+    "https://openalex.org/W2911598644"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2025-10-10T00:00:00"
+}

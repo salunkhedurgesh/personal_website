@@ -1,0 +1,414 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6057842,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2026-05-02T09:53:47Z",
+          "timestamp": 1777715627615,
+          "version": "3.51.4"
+        },
+        "reference-count": 33,
+        "publisher": "SAGE Publications",
+        "issue": "13-14",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  6,
+                  5
+                ]
+              ],
+              "date-time": "2018-06-05T00:00:00Z",
+              "timestamp": 1528156800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "journals.sagepub.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:p>We present a novel computational approach to optimizing the morphological design of robots. Our framework takes as input a parameterized robot design as well as a motion plan consisting of trajectories for end-effectors and, optionally, for its body. The algorithm optimizes the design parameters including link lengths and actuator placements whereas concurrently adjusting motion parameters such as joint trajectories, actuator inputs, and contact forces. Our key insight is that the complex relationship between design and motion parameters can be established via sensitivity analysis if the robot’s movements are modeled as spatiotemporal solutions to an optimal control problem. This relationship between form and function allows us to automatically optimize the robot design based on specifications expressed as a function of actuator forces or trajectories. We evaluate our model by computationally optimizing four simulated robots that employ linear actuators, four-bar linkages, or rotary servos. We further validate our framework by optimizing the design of two small quadruped robots and testing their performances using hardware implementations.</jats:p>",
+        "DOI": "10.1177/0278364918771172",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              5
+            ]
+          ],
+          "date-time": "2018-06-05T09:20:41Z",
+          "timestamp": 1528190441000
+        },
+        "page": "1521-1536",
+        "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 81,
+        "title": [
+          "Computational co-optimization of design parameters and motion trajectories for robotic systems"
+        ],
+        "prefix": "10.1177",
+        "volume": "37",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1972-328X",
+            "authenticated-orcid": false,
+            "given": "Sehoon",
+            "family": "Ha",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Disney Research, USA"
+              }
+            ]
+          },
+          {
+            "given": "Stelian",
+            "family": "Coros",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ETH Zürich, Switzerland"
+              }
+            ]
+          },
+          {
+            "given": "Alexander",
+            "family": "Alspach",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Disney Research, USA"
+              }
+            ]
+          },
+          {
+            "given": "Joohyung",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Disney Research, USA"
+              }
+            ]
+          },
+          {
+            "given": "Katsu",
+            "family": "Yamane",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Disney Research, USA"
+              }
+            ]
+          }
+        ],
+        "member": "179",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              5
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "bibr1-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1143844.1143845"
+          },
+          {
+            "key": "bibr2-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15607/RSS.2017.XIII.020"
+          },
+          {
+            "key": "bibr3-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0094-114X(03)00109-5"
+          },
+          {
+            "key": "bibr4-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2463372.2463404"
+          },
+          {
+            "key": "bibr5-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11044-005-4080-8"
+          },
+          {
+            "key": "bibr6-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2012.2234311"
+          },
+          {
+            "key": "bibr7-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2508363.2508399"
+          },
+          {
+            "key": "bibr8-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.conengprac.2015.05.005"
+          },
+          {
+            "key": "bibr9-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2016.7759324"
+          },
+          {
+            "key": "bibr10-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF00933522"
+          },
+          {
+            "key": "bibr11-0278364918771172",
+            "unstructured": "Jones E, Oliphant T, Peterson P (2001) SciPy: Open source scientific tools for Python. Availabe at: http://www.scipy.org/ (accessed 31 March 2018)."
+          },
+          {
+            "key": "bibr12-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICMA.2011.5985854"
+          },
+          {
+            "key": "bibr13-0278364918771172",
+            "volume-title": "Modeling, Identification and Control of Robots",
+            "author": "Khalil W",
+            "year": "2004"
+          },
+          {
+            "key": "bibr14-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechmachtheory.2011.11.013"
+          },
+          {
+            "key": "bibr15-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRA.2003.814496"
+          },
+          {
+            "issue": "1",
+            "key": "bibr16-0278364918771172",
+            "first-page": "58733",
+            "volume": "11",
+            "author": "Kuehn D",
+            "year": "2014",
+            "journal-title": "International Journal of Advanced Robotic Systems"
+          },
+          {
+            "key": "bibr17-0278364918771172",
+            "unstructured": "Leger C (1999) Automated synthesis and optimization of robot configurations: An evolutionary approach. PhD thesis (Technical report CMU-RI-TR-99-43), The Robotics Institute, Carnegie Mellon University, Pittsburgh, PA."
+          },
+          {
+            "key": "bibr18-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3083157.3083161"
+          },
+          {
+            "key": "bibr19-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2000.844850"
+          },
+          {
+            "key": "bibr20-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3099564.3099576"
+          },
+          {
+            "key": "bibr21-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2816795.2818137"
+          },
+          {
+            "key": "bibr22-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2897824.2925886"
+          },
+          {
+            "key": "bibr23-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF00710856"
+          },
+          {
+            "key": "bibr24-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICAR.1991.240594"
+          },
+          {
+            "key": "bibr25-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2461912.2461957"
+          },
+          {
+            "key": "bibr26-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s12206-012-0219-8"
+          },
+          {
+            "key": "bibr27-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1137/1.9780898718003"
+          },
+          {
+            "key": "bibr28-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0959651811402275"
+          },
+          {
+            "key": "bibr29-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMECH.2014.2339013"
+          },
+          {
+            "key": "bibr30-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/192161.192167"
+          },
+          {
+            "key": "bibr31-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.compag.2008.11.004"
+          },
+          {
+            "key": "bibr32-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/1531326.1531366"
+          },
+          {
+            "key": "bibr33-0278364918771172",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.rcim.2011.05.001"
+          }
+        ],
+        "container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364918771172",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0278364918771172",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364918771172",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T10:15:43Z",
+          "timestamp": 1777457743000
+        },
+        "score": 27.074888,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.sagepub.com/doi/10.1177/0278364918771172"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              5
+            ]
+          ]
+        },
+        "references-count": 33,
+        "journal-issue": {
+          "issue": "13-14",
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                12
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1177/0278364918771172"
+        ],
+        "URL": "https://doi.org/10.1177/0278364918771172",
+        "ISSN": [
+          "0278-3649",
+          "1741-3176"
+        ],
+        "issn-type": [
+          {
+            "value": "0278-3649",
+            "type": "print"
+          },
+          {
+            "value": "1741-3176",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

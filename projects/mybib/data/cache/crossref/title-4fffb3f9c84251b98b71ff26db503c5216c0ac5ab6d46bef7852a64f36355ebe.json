@@ -1,0 +1,188 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5993458,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2025-12-18T14:02:56Z",
+          "timestamp": 1766066576159
+        },
+        "reference-count": 8,
+        "publisher": "Norwegian Society of Automatic Control",
+        "issue": "1",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "MIC"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "DOI": "10.4173/mic.2016.1.6",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2016-04-22T14:54:19Z",
+          "timestamp": 1461336859000
+        },
+        "page": "63-75",
+        "source": "Crossref",
+        "is-referenced-by-count": 28,
+        "title": [
+          "Inverse Kinematics for Industrial Robots using Conformal Geometric Algebra"
+        ],
+        "prefix": "10.4173",
+        "volume": "37",
+        "author": [
+          {
+            "given": "Adam L.",
+            "family": "Kleppe",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Olav",
+            "family": "Egeland",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "2675",
+        "reference": [
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB1",
+            "author": "Dorst, L., Fontijne, D., and Mann, S.",
+            "year": "2009",
+            "unstructured": "Dorst, L., Fontijne, D., and Mann, S. (2009). Dorst, L. , Fontijne, D., and Mann, S. Geometric Algebra for Computer Science: An Object-Oriented Approach to Geometry. Morgan Kaufmann Publishers Inc. San Francisco, CA, USA. http://www.geometricalgebra.net/."
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-31794-1"
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2005.1570850"
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB4",
+            "author": "Hildenbrand, D., Fontijne, D., Wang, Y., Alexa, M., and Dorst, L.",
+            "year": "2006",
+            "unstructured": "Hildenbrand, D., Fontijne, D., Wang, Y., Alexa, M., and Dorst, L. (2006). Hildenbrand, D. , Fontijne, D., Wang, Y., Alexa, M., and Dorst, L. Competitive runtime performance for inverse kinematics algorithms using conformal geometric algebra. Eurographics conference. pages 2006--2006. http://www.gaalop.de/dhilden_data/EG06_Performance.pdf."
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-89068-3"
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB6",
+            "author": "Siciliano, B., Sciavicco, L., Villani, L., and Oriolo, G.",
+            "year": "2009",
+            "unstructured": "Siciliano, B., Sciavicco, L., Villani, L., and Oriolo, G. (2009). Siciliano, B. , Sciavicco, L., Villani, L., and Oriolo, G. Robotics: modelling, planning and control. 2009. http://www.springer.com/fr/book/9781846286414."
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.2006.890316"
+          },
+          {
+            "key": "1890-1328:10.4173/mic.2016.1.6-BIB8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2004.1390013"
+          }
+        ],
+        "container-title": [
+          "Modeling, Identification and Control: A Norwegian Research Bulletin"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2016-04-22T14:54:20Z",
+          "timestamp": 1461336860000
+        },
+        "score": 36.343613,
+        "resource": {
+          "primary": {
+            "URL": "http://www.mic-journal.no/ABS/MIC-2016-1-6.asp"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "references-count": 8,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.4173/mic.2016.1.6",
+        "ISSN": [
+          "0332-7353",
+          "1890-1328"
+        ],
+        "issn-type": [
+          {
+            "value": "0332-7353",
+            "type": "print"
+          },
+          {
+            "value": "1890-1328",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3919146,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2026-04-27T08:11:38Z",
+          "timestamp": 1777277498344,
+          "version": "3.51.4"
+        },
+        "reference-count": 20,
+        "publisher": "ASME International",
+        "issue": "3",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Correct evaluation of robot performance has been a problem in the field of robotics. Many scholars have proposed a variety of performance indices, such as manipulability, condition number, and minimum singular value, to describe quantitatively the kinematic performance of a robotic mechanism. However, two questions remain: (1) how to describe the kinematic performance completely for the design of a robotic mechanism, and (2) how to comprehensively describe the global performance distribution characteristics in the workspace. This paper presents a global performance index system for kinematic optimization of a robotic mechanism based on Jacobian matrix, manipulability ellipsoid, and descriptive statistics theory that can comprehensively describe the kinematic performance and the performance distribution characteristics in a robot's workspace. First, the Jacobian matrix, a linear mapping from the joint space to the task space of a robotic mechanism, is analyzed, and the kinematic transmission ability indices and the kinematic transmission accuracy index are determined. Second, four indices, including global average value, global volatility, global skewness, and global kurtosis, are presented to describe the global performance index's distribution in the workspace. Third, the global performance index system is established to evaluate a robot's global kinematic performance based on the above analysis. Finally, a two-degrees of freedom (DOF) robotic mechanism is designed based on the global performance index system as a case, analysis of which shows that the final mechanism has good kinematic performance in the workspace. This demonstrates that the global performance index system proposed in this paper can be useful for the evaluation of the kinematic performance and kinematic optimization of a robotic mechanism.</jats:p>",
+        "DOI": "10.1115/1.4026031",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              14
+            ]
+          ],
+          "date-time": "2013-11-14T09:34:39Z",
+          "timestamp": 1384421679000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 31,
+        "title": [
+          "Global Performance Index System for Kinematic Optimization of Robotic Mechanism"
+        ],
+        "prefix": "10.1115",
+        "volume": "136",
+        "author": [
+          {
+            "given": "Pu",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The State Key Lab of Mechanical System\n             and Vibration, School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China e-mail:"
+              }
+            ]
+          },
+          {
+            "given": "Zhenqiang",
+            "family": "Yao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The State Key Lab of Mechanical System\n             and Vibration, School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China e-mail:"
+              }
+            ]
+          },
+          {
+            "given": "Zhengchun",
+            "family": "Du",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The State Key Lab of Mechanical System and Vibration, School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China e-mail:"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              12,
+              19
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2019100615131302400_B1",
+            "first-page": "650",
+            "article-title": "Dexterity Indices for Planar and Spatial Robotic Manipulators",
+            "volume-title": "IEEE",
+            "year": "1990"
+          },
+          {
+            "issue": "1",
+            "key": "2019100615131302400_B2",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1177/027836498200100102",
+            "article-title": "Articulated Hands: Force Control and Kinematic Issues",
+            "volume": "1",
+            "year": "1982",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "issue": "3",
+            "key": "2019100615131302400_B3",
+            "doi-asserted-by": "crossref",
+            "first-page": "220",
+            "DOI": "10.1115/1.2912772",
+            "article-title": "A Global Performance Index for the Kinematic Optimization of Robotic Manipulators",
+            "volume": "113",
+            "year": "1991",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "key": "2019100615131302400_B4",
+            "first-page": "735",
+            "article-title": "Analysis and Control of Robot Manipulators With Redundancy",
+            "year": "1984"
+          },
+          {
+            "issue": "2",
+            "key": "2019100615131302400_B5",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/027836498500400201",
+            "article-title": "Manipulability of Robotic Mechanisms",
+            "volume": "4",
+            "year": "1985",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "2019100615131302400_B6",
+            "first-page": "207",
+            "article-title": "Use of Redundancy in the Design of Robotic Systems",
+            "year": "1985"
+          },
+          {
+            "key": "2019100615131302400_B7",
+            "first-page": "758",
+            "article-title": "Dexterity Measures for Design and Control of Manipulators",
+            "volume-title": "IEEE",
+            "year": "1991"
+          },
+          {
+            "key": "2019100615131302400_B8",
+            "first-page": "1346",
+            "article-title": "Matrix Normalization for Optimal Robot Design",
+            "year": "1998"
+          },
+          {
+            "key": "2019100615131302400_B9",
+            "unstructured": "Liu, X., 1999, “The Relationships Between the Performance Criteria and Link Lengths of the Parallel Manipulators and Their Design Theory,” PhD thesis, Yanshan University, Qinhuangdao, pp. 50–120."
+          },
+          {
+            "issue": "5",
+            "key": "2019100615131302400_B10",
+            "first-page": "420",
+            "article-title": "On Global Performance Indices of Robotic Mechanisms",
+            "volume": "27",
+            "year": "2005",
+            "journal-title": "Robot"
+          },
+          {
+            "issue": "1",
+            "key": "2019100615131302400_B11",
+            "first-page": "199",
+            "article-title": "Jacobian, Manipulability, Condition Number, and Accuracy of Parallel Robots",
+            "volume": "128",
+            "year": "2005",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "1",
+            "key": "2019100615131302400_B12",
+            "doi-asserted-by": "crossref",
+            "first-page": "93",
+            "DOI": "10.1017/S0263574707003621",
+            "article-title": "Dynamic Dexterity of a Planar 2-Dof Parallel Manipulator in a Hybrid Machine Tool",
+            "volume": "26",
+            "year": "2008",
+            "journal-title": "Robotica,"
+          },
+          {
+            "issue": "3",
+            "key": "2019100615131302400_B13",
+            "first-page": "153",
+            "article-title": "A Kinematics Performance Index Based on the Rate of Change of a Standard Isotropy Condition for Robot Design Optimization",
+            "volume": "53",
+            "year": "2005",
+            "journal-title": "Rob. Auton. Syst."
+          },
+          {
+            "key": "2019100615131302400_B14",
+            "first-page": "2931",
+            "article-title": "Morphological Design Optimization of Kinematically Redundant Manipulators Using Weighted Isotropy Measures",
+            "volume-title": "IEEE",
+            "year": "2009"
+          },
+          {
+            "key": "2019100615131302400_B15",
+            "first-page": "645",
+            "article-title": "Improvement of Redundant Manipulator Task Agility Using Multiobjective Weighted Isotropy- Based Placement Optimization",
+            "volume-title": "IEEE",
+            "year": "2009"
+          },
+          {
+            "issue": "3",
+            "key": "2019100615131302400_B16",
+            "first-page": "449",
+            "article-title": "Conceptual Design and Dimensional Synthesis of a Novel 2-DOF Translational Parallel Robot for Pick-and-Place Operations",
+            "volume": "126",
+            "year": "2003",
+            "journal-title": "ASME J. Mech. Des."
+          },
+          {
+            "issue": "3",
+            "key": "2019100615131302400_B17",
+            "doi-asserted-by": "crossref",
+            "first-page": "538",
+            "DOI": "10.1109/TRA.2004.824690",
+            "article-title": "Optimal Kinematic Design of 2-DOF Parallel Manipulators With Well-Shaped Workspace Bounded by a Specified Conditioning Index",
+            "volume": "20",
+            "year": "2004",
+            "journal-title": "IEEE Trans. Rob. Autom."
+          },
+          {
+            "issue": "10",
+            "key": "2019100615131302400_B18",
+            "doi-asserted-by": "crossref",
+            "first-page": "1462",
+            "DOI": "10.1016/j.mechmachtheory.2010.05.001",
+            "article-title": "Performance Evaluation of Parallel Manipulators: Motion/Force Transmissibility and Its Index",
+            "volume": "45",
+            "year": "2010",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "issue": "03",
+            "key": "2019100615131302400_B19",
+            "doi-asserted-by": "crossref",
+            "first-page": "406",
+            "DOI": "10.1017/S0305004100030401",
+            "article-title": "A Generalized Inverse for Matrices",
+            "volume": "51",
+            "year": "1955",
+            "journal-title": "Math. Proc. Cambridge Philos. Soc."
+          },
+          {
+            "key": "2019100615131302400_B20",
+            "volume-title": "Descriptive Statistics",
+            "year": "2001"
+          }
+        ],
+        "container-title": [
+          "Journal of Mechanical Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/doi/10.1115/1.4026031/6223538/md_136_03_031001.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/doi/10.1115/1.4026031/6223538/md_136_03_031001.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              6
+            ]
+          ],
+          "date-time": "2019-10-06T15:13:32Z",
+          "timestamp": 1570374812000
+        },
+        "score": 24.881918,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/doi/10.1115/1.4026031/376011/Global-Performance-Index-System-for-Kinematic"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              12,
+              19
+            ]
+          ]
+        },
+        "references-count": 20,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2014,
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.4026031",
+        "ISSN": [
+          "1050-0472",
+          "1528-9001"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-0472",
+            "type": "print"
+          },
+          {
+            "value": "1528-9001",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              12,
+              19
+            ]
+          ]
+        },
+        "article-number": "031001"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

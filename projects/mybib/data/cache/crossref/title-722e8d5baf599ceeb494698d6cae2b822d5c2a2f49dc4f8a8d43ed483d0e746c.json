@@ -1,0 +1,560 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2281194,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              18
+            ]
+          ],
+          "date-time": "2026-01-18T11:35:52Z",
+          "timestamp": 1768736152773,
+          "version": "3.49.0"
+        },
+        "reference-count": 25,
+        "publisher": "Elsevier BV",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2010-02-01T00:00:00Z",
+              "timestamp": 1264982400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2009.06.007",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2009,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2009-10-22T08:42:23Z",
+          "timestamp": 1256200943000
+        },
+        "page": "200-211",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 120,
+        "title": [
+          "Optimum design of spherical parallel manipulators for a prescribed workspace"
+        ],
+        "prefix": "10.1016",
+        "volume": "45",
+        "author": [
+          {
+            "given": "Shaoping",
+            "family": "Bai",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib1",
+            "unstructured": "C.M. Gosselin, J.F. Hamel, The Agile Eye: a high-performance three-degree-of-freedom camera-orienting device, in: IEEE International Conference on Robotics and Automation, 1994, pp. 781–786."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "133",
+            "DOI": "10.1017/S0263574701003873",
+            "article-title": "Design of spherical parallel mechanisms for application to laparoscopic surgery",
+            "volume": "20",
+            "author": "Li",
+            "year": "2002",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib3",
+            "unstructured": "E. Cavallo, R.C. Michelini, A robotic equipment for the guidance of a vectored thrustor, in: 35th International Symposium on Robotics (ISR 2004), Paris, 2004."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "661",
+            "DOI": "10.1177/0278364904044077",
+            "article-title": "A novel fully decoupled two-degrees-of-freedom parallel wrist",
+            "volume": "23",
+            "author": "Carricato",
+            "year": "2004",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "199",
+            "DOI": "10.1115/1.2121740",
+            "article-title": "Jacobian, manipulability, condition number, and accuracy of parallel robots",
+            "volume": "128",
+            "author": "Merlet",
+            "year": "2006",
+            "journal-title": "ASME Journal of Mechanical Design"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "237",
+            "DOI": "10.1177/0278364904041562",
+            "article-title": "Type synthesis of three-degree-of-freedom spherical parallel manipulators",
+            "volume": "23",
+            "author": "Kong",
+            "year": "2004",
+            "journal-title": "The International Journal of Robotics Research"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "1257",
+            "DOI": "10.1016/S0094-114X(99)00072-5",
+            "article-title": "Optimum design of 3-DOF spherical parallel manipulators with respect to the conditioning and stiffness indices",
+            "volume": "35",
+            "author": "Liu",
+            "year": "2000",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "1011",
+            "DOI": "10.1109/TRO.2006.878983",
+            "article-title": "Analytical determination of the workspace of symmetrical spherical parallel mechanisms",
+            "volume": "22",
+            "author": "Bonev",
+            "year": "2006",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "202",
+            "DOI": "10.1115/1.3258984",
+            "article-title": "The optimum kinematic design of a spherical three-degree-of-freedom parallel manipulator",
+            "volume": "111",
+            "author": "Gosselin",
+            "year": "1989",
+            "journal-title": "ASME Journal of Mechanisms, Transmissions, and Automation in Design"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "399",
+            "DOI": "10.1017/S0263574797000490",
+            "article-title": "Optimal design of a redundant spherical parallel manipulator",
+            "volume": "15",
+            "author": "Leguay-Durand",
+            "year": "1997",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib11",
+            "doi-asserted-by": "crossref",
+            "unstructured": "H. Asada, J. Granito, Kinematic and static characterization of wrist joints and their optimal design, in: IEEE International Conference on Robotics and Automation, 1985, pp. 244–250.",
+            "DOI": "10.1109/ROBOT.1985.1087324"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "644",
+            "DOI": "10.1109/70.163788",
+            "article-title": "Multiple-goal kinematic optimization of a parallel spherical mechanism with actuator redundancy",
+            "volume": "8",
+            "author": "Kurtz",
+            "year": "1992",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "176",
+            "DOI": "10.1115/1.3258981",
+            "article-title": "Design conditions for the orientation and attitude of a robot tool carried by a 3-R spherical wrist",
+            "volume": "111",
+            "author": "Trabia",
+            "year": "1989",
+            "journal-title": "ASME Journal of Mechanisms, Transmissions, and Automation in Design"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1177/027836498200100102",
+            "article-title": "Articulated hands, force control and kinematic issues",
+            "volume": "1",
+            "author": "Salisbury",
+            "year": "1982",
+            "journal-title": "International Journal of Robotics Research"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "220",
+            "DOI": "10.1115/1.2912772",
+            "article-title": "A global performance index for the kinematic optimization of robotic manipulators",
+            "volume": "113",
+            "author": "Gosselin",
+            "year": "1991",
+            "journal-title": "ASME Journal of Mechanical Design"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "704",
+            "DOI": "10.1115/1.3256412",
+            "article-title": "Design considerations for manipulator workspace",
+            "volume": "104",
+            "author": "Gupta",
+            "year": "1983",
+            "journal-title": "ASME Journal of Mechanical Design"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "224",
+            "DOI": "10.1115/1.3267442",
+            "article-title": "Rigid body location and robot workspace: some alternative manipulator forms",
+            "volume": "109",
+            "author": "Davidson",
+            "year": "1987",
+            "journal-title": "ASME Journal of Mechanisms, Transmissions, and Automation in Design"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "1301",
+            "DOI": "10.1016/S0094-114X(01)00053-2",
+            "article-title": "On the kinematic design of the 5R planar, symmetric manipulator",
+            "volume": "36",
+            "author": "Cervantes-Sanchez",
+            "year": "2001",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "1210",
+            "DOI": "10.1016/j.mechmachtheory.2006.08.002",
+            "article-title": "A new methodology for optimal kinematic design of parallel mechanisms",
+            "volume": "42",
+            "author": "Liu",
+            "year": "2007",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib20",
+            "unstructured": "P. Zsombor-Murray, Kinematic mapping and kinematics of some parallel manipulators, in: Proceedings of the Second International Workshop on Fundamental Issues and Future Research Directions for Parallel Mechanisms and Manipulators, September 21–22, Montpellier, France, 2008."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "367",
+            "DOI": "10.1109/TRA.2002.1019472",
+            "article-title": "Eclipse II: a new parallel mechanism enabling continuous 360-degree spinning plus three-axis translational motions",
+            "volume": "18",
+            "author": "Kim",
+            "year": "2002",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "F. Janabi-Sharifi, B. Shchokin, A rotary parallel manipulator: modeling and workspace analysis, in: IEEE International Conference on Robotics and Automation, 2004, pp. 3671–3677.",
+            "DOI": "10.1109/ROBOT.2004.1308829"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib23",
+            "unstructured": "http://www.en.wikipedia.org/wiki/Rotation_matrix."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "869",
+            "DOI": "10.1109/TRO.2006.878792",
+            "article-title": "Equivolumetric partition of solid spheres with applications to orientation workspace analysis of robot manipulators",
+            "volume": "22",
+            "author": "Yang",
+            "year": "2006",
+            "journal-title": "IEEE Transactions on Robotics"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2009.06.007_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "281",
+            "DOI": "10.1109/70.56660",
+            "article-title": "Singularity analysis of closed-loop kinematic chains",
+            "volume": "6",
+            "author": "Gosselin",
+            "year": "1990",
+            "journal-title": "IEEE Transactions of Robotics and Automation"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X09001190?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X09001190?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T13:57:59Z",
+          "timestamp": 1758808679000
+        },
+        "score": 38.14702,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X09001190"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              2
+            ]
+          ]
+        },
+        "references-count": 25,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0094114X09001190"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2009.06.007",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Optimum design of spherical parallel manipulators for a prescribed workspace",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2009.06.007",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2009 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

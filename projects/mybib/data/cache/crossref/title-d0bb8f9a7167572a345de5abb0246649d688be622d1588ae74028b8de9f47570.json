@@ -1,0 +1,549 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6489185,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2025-11-05T07:02:23Z",
+          "timestamp": 1762326143086,
+          "version": "3.40.3"
+        },
+        "publisher-location": "Cham",
+        "reference-count": 26,
+        "publisher": "Springer Nature Switzerland",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783031559846"
+          },
+          {
+            "type": "electronic",
+            "value": "9783031559853"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2024-01-01T00:00:00Z",
+              "timestamp": 1704067200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2024-01-01T00:00:00Z",
+              "timestamp": 1704067200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-031-55985-3_2",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              3
+            ]
+          ],
+          "date-time": "2024-06-03T12:02:17Z",
+          "timestamp": 1717416137000
+        },
+        "page": "43-76",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Physical Geometry by Plane-Based Geometric Algebra"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Leo",
+            "family": "Dorst",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Steven",
+            "family": "De Keninck",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              4
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2_CR1",
+            "unstructured": "De Keninck, S.: Geometric algebra, not just algebra: ganja.js (2018). https://zenodo.org/record/3635774"
+          },
+          {
+            "key": "2_CR2",
+            "unstructured": "De Keninck, S.: Ganja demo at https://enkimute.github.io/ganja.js/examples/coffeeshop.html#inertia_spring (2021)"
+          },
+          {
+            "key": "2_CR3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "De Keninck, S., Dorst, L.: Geometric algebra Levenberg-Marquardt. In: Gavrilova, M., Chang, J., Thalmann, N., Hitzer, E., Ishikawa, H. (eds.) Advances in Computer Graphics, pp. 511–522. Springer International Publishing, Cham (2019)",
+            "DOI": "10.1007/978-3-030-22514-8_51"
+          },
+          {
+            "key": "2_CR4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "De Keninck, S., Roelfs, M.: Normalization, square roots, and the exponential and logarithmic maps in geometric algebras of less than 6D. Math. Meth. Appl. Sci. 1–17 (2022)",
+            "DOI": "10.1002/mma.8639"
+          },
+          {
+            "key": "2_CR5",
+            "unstructured": "Doran, C.: Euclidean geometry and geometric algebra, June 2020. Blogpost. https://geometry.mrao.cam.ac.uk/2020/06/euclidean-geometry-and-geometric-algebra/"
+          },
+          {
+            "key": "2_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Doran, C., Lasenby, A.: Geometric Algebra for Physicists. Cambridge University Press (2003)",
+            "DOI": "10.1017/CBO9780511807497"
+          },
+          {
+            "key": "2_CR7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Dorst, L., Fontijne, D., Mann, S.: Geometric Algebra for Computer Science: An Object-oriented Approach to Geometry. Morgan Kaufman (2009)",
+            "DOI": "10.1016/B978-0-12-374942-0.00006-3"
+          },
+          {
+            "key": "2_CR8",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Dorst, L., Projective duality encodes complementary orientations in geometric algebras. Math. Meth. Appl. Sci. 1–17 (2023). https://doi.org/10.1002/mma.9754",
+            "DOI": "10.1002/mma.9754"
+          },
+          {
+            "key": "2_CR9",
+            "unstructured": "Dorst , L., De Keninck, S.: Guided tour to the plane-based geometric algebra PGA (version 2.0) (2022). https://bivector.net/PGA4CS.html"
+          },
+          {
+            "key": "2_CR10",
+            "unstructured": "Dorst, L., De Keninck, S.: May the forque be with you, dynamics in PGA (version 2.6) (2023). https://bivector.net/PGADYN.html"
+          },
+          {
+            "key": "2_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "841",
+            "DOI": "10.1177/02783640122068137",
+            "volume": "20",
+            "author": "Roy Featherstone",
+            "year": "2001",
+            "unstructured": "Featherstone Roy (2001) The acceleration vector of a rigid body. Int. J. Robot. Res. 20:841–846",
+            "journal-title": "Int. J. Robot. Res."
+          },
+          {
+            "key": "2_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Featherstone, R.: Rigid Body Dynamics Algorithms. Springer (2008)",
+            "DOI": "10.1007/978-1-4899-7560-7"
+          },
+          {
+            "key": "2_CR13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Featherstone, R.: A beginner’s guide to 6-D vectors (part 1). IEEE Robot. Autom. Mag. (2010)",
+            "DOI": "10.1109/MRA.2010.937853"
+          },
+          {
+            "key": "2_CR14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Featherstone, R.: A beginner’s guide to 6-D vectors (part 2). IEEE Robot. Autom. Mag. (2010)",
+            "DOI": "10.1109/MRA.2010.939560"
+          },
+          {
+            "key": "2_CR15",
+            "unstructured": "Gunn, C.: Geometry, Kinematics, and Rigid Body Mechanics in Cayley-Klein Geometries. PhD thesis, TUBerlin (2011)"
+          },
+          {
+            "key": "2_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gunn, C.: On the homogeneous model of Euclidean geometry. In: Dorst, L., Lasenby, J. (eds.) Guide to Geometric in Practice, pp. 297–327. Springer (2011)",
+            "DOI": "10.1007/978-0-85729-811-9_15"
+          },
+          {
+            "key": "2_CR17",
+            "unstructured": "Gunn, C.: A bit better: variants of duality in geometric algebras with degenerate metrics (2022). https://arxiv.org/abs/2206.02459"
+          },
+          {
+            "key": "2_CR18",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gunn, C.G., De Keninck, S.: Geometric algebra and computer graphics. In: ACM SIGGRAPH 2019 Courses, SIGGRAPH ’19. New York, NY, USA (2019). Association for Computing Machinery",
+            "DOI": "10.1145/3305366.3328099"
+          },
+          {
+            "key": "2_CR19",
+            "unstructured": "Hadfield, H., Lasenby, J.: Constrained dynamics in conformal and projective geometric algebra. In: Magnenat-Thalmann, N., Stephanidis, C., Wu, E., Thalmann, D., Sheng, B., Kim, J., Papagiannakis, G., Gavrilova, M. (eds.) Advances in Computer Graphics, pp. 459–471. Springer International Publishing, Cham (2020)"
+          },
+          {
+            "key": "2_CR20",
+            "unstructured": "Hestenes, D.: New Foundations for Classical Mechanics. Reidel, 2nd edn. (2000)"
+          },
+          {
+            "key": "2_CR21",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hitzer, E., Hildenbrand, D.: Introduction to geometric algebra (in this volume). In: Araujo Da Silva, D.W.H., Hildenbrand, D., Hitzer, E. (eds.) Advanced Computational Applications of Geometric Algebra, pp. xx–xx (2024)",
+            "DOI": "10.1007/978-3-031-55985-3_1"
+          },
+          {
+            "key": "2_CR22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lasenby, A.: Rigid body dynamics in a constant curvature space and the ‘1d-up’ approach to conformal geometric algebra. In: Dorst, L., Lasenby, J. (eds.) Guide to Geometric in Practice, pp. 371–389. Springer (2011)",
+            "DOI": "10.1007/978-0-85729-811-9_18"
+          },
+          {
+            "key": "2_CR23",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lasenby, A., Lasenby, R., Doran, C.: Rigid body dynamics and conformal geometric algebra. In: Dorst, L., Lasenby, J. (eds.) Guide to Geometric in Practice, pp. 3–24. Springer (2011)",
+            "DOI": "10.1007/978-0-85729-811-9_1"
+          },
+          {
+            "key": "2_CR24",
+            "unstructured": "Lengyel, E.: Projective geometric algebra illuminated. Terathon Software (2024)"
+          },
+          {
+            "key": "2_CR25",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Roelfs, M., De Keninck, S.: Graded symmetry groups: plane and simple. Adv. Appl. Clifford Algebras 33(30) (2023)",
+            "DOI": "10.1007/s00006-023-01269-9"
+          },
+          {
+            "key": "2_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "545",
+            "DOI": "10.1017/S0263574799002568",
+            "volume": "18",
+            "author": "Jon M Selig",
+            "year": "2000",
+            "unstructured": "Selig Jon M (2000) Clifford algebra of points, lines and planes. Robotica 18:545–556",
+            "journal-title": "Robotica"
+          }
+        ],
+        "container-title": [
+          "Springer Proceedings in Mathematics &amp; Statistics",
+          "Advanced Computational Applications of Geometric Algebra"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-55985-3_2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              21
+            ]
+          ],
+          "date-time": "2024-11-21T00:06:44Z",
+          "timestamp": 1732147604000
+        },
+        "score": 31.037905,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-3-031-55985-3_2"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783031559846",
+          "9783031559853"
+        ],
+        "references-count": 26,
+        "URL": "https://doi.org/10.1007/978-3-031-55985-3_2",
+        "ISSN": [
+          "2194-1009",
+          "2194-1017"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2194-1009"
+          },
+          {
+            "type": "electronic",
+            "value": "2194-1017"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "4 June 2024",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "ICACGA",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "International Conference on Advanced Computational Applications of Geometric Algebra",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Denver, CO",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "USA",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2022",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2 October 2022",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "5 October 2022",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "1",
+            "order": 9,
+            "name": "conference_number",
+            "label": "Conference Number",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "icacga2022",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "https://easychair.org/cfp/icacga2022",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Double-blind",
+            "order": 1,
+            "name": "type",
+            "label": "Type",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "easy chair",
+            "order": 2,
+            "name": "conference_management_system",
+            "label": "Conference Management System",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "24",
+            "order": 3,
+            "name": "number_of_submissions_sent_for_review",
+            "label": "Number of Submissions Sent for Review",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "18",
+            "order": 4,
+            "name": "number_of_full_papers_accepted",
+            "label": "Number of Full Papers Accepted",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "0",
+            "order": 5,
+            "name": "number_of_short_papers_accepted",
+            "label": "Number of Short Papers Accepted",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "75% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+            "order": 6,
+            "name": "acceptance_rate_of_full_papers",
+            "label": "Acceptance Rate of Full Papers",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "3",
+            "order": 7,
+            "name": "average_number_of_reviews_per_paper",
+            "label": "Average Number of Reviews per Paper",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "2,5",
+            "order": 8,
+            "name": "average_number_of_papers_per_reviewer",
+            "label": "Average Number of Papers per Reviewer",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          },
+          {
+            "value": "Yes",
+            "order": 9,
+            "name": "external_reviewers_involved",
+            "label": "External Reviewers Involved",
+            "group": {
+              "name": "ConfEventPeerReviewInformation",
+              "label": "Peer Review Information (provided by the conference organizers)"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

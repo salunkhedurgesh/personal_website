@@ -1,0 +1,504 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5464187,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2026-04-10T18:19:13Z",
+          "timestamp": 1775845153918,
+          "version": "3.50.1"
+        },
+        "reference-count": 44,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2005,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2005-01-01T00:00:00Z",
+              "timestamp": 1104537600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2005,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2005-01-01T00:00:00Z",
+              "timestamp": 1104537600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2005,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2005-01-01T00:00:00Z",
+              "timestamp": 1104537600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Aerosp. Electron. Syst."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/taes.2005.1413751",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2005-04-06T15:27:44Z",
+          "timestamp": 1112801264000
+        },
+        "page": "110-132",
+        "source": "Crossref",
+        "is-referenced-by-count": 206,
+        "title": [
+          "Strapdown inertial navigation system algorithms based on dual quaternions"
+        ],
+        "prefix": "10.1109",
+        "volume": "41",
+        "author": [
+          {
+            "family": "Yuanxin Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Dept. of Autom. Control, Nat. Univ. of Defense Technol., Hunan, China"
+              }
+            ]
+          },
+          {
+            "family": "Xiaoping Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Autom. Control, Nat. Univ. of Defense Technol., Hunan, China"
+              }
+            ]
+          },
+          {
+            "family": "Dewen Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Autom. Control, Nat. Univ. of Defense Technol., Hunan, China"
+              }
+            ]
+          },
+          {
+            "family": "Tao Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Autom. Control, Nat. Univ. of Defense Technol., Hunan, China"
+              }
+            ]
+          },
+          {
+            "family": "Junxiang Lian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Autom. Control, Nat. Univ. of Defense Technol., Hunan, China"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref39",
+            "doi-asserted-by": "crossref",
+            "first-page": "441",
+            "DOI": "10.1007/BF01199824",
+            "article-title": "Von den bewegungen und umlegungen",
+            "volume": "39",
+            "author": "study",
+            "year": "1891",
+            "journal-title": "Mathematische Annalen"
+          },
+          {
+            "key": "ref38",
+            "author": "soloviev",
+            "year": "2002",
+            "journal-title": "Investigation into performance enhancement of integrated global positioning/inertial navigation systems by frequency domain implementation of inertial computational procedures"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.21382"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.19831"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.56124"
+          },
+          {
+            "key": "ref30",
+            "first-page": "53",
+            "author": "mccarthy",
+            "year": "1990",
+            "journal-title": "Introduction to Theoretical Kinematics"
+          },
+          {
+            "key": "ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/2.4242"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/2.4228"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/2.4718"
+          },
+          {
+            "key": "ref34",
+            "author": "pitman",
+            "year": "1962",
+            "journal-title": "Inertial Guidance"
+          },
+          {
+            "key": "ref10",
+            "author": "branets",
+            "year": "1992",
+            "journal-title": "Introduction to the Theory of Strapdown Inertial Navigation System"
+          },
+          {
+            "key": "ref40",
+            "author": "titterton",
+            "year": "1997",
+            "journal-title": "Strapdown Inertial Navigation Technology"
+          },
+          {
+            "key": "ref11",
+            "first-page": "321",
+            "article-title": "Note sur les propri�t�s g�n�rales du syst�me de deux crps semblables entr?eux et places d?une mani�re quelcoque dans l?espace; et sur le d�placement fini ou infiniment petit d?un corps solide libre",
+            "volume": "14",
+            "author": "chasles",
+            "year": "1830",
+            "journal-title": "Bulletin des Sciences Math�matiques"
+          },
+          {
+            "key": "ref12",
+            "first-page": "381",
+            "article-title": "Preliminary sketch of bi-quaternions",
+            "volume": "4",
+            "author": "clifford",
+            "year": "1873",
+            "journal-title": "Proceedings of the London Mathematical Society"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/02783649922066213"
+          },
+          {
+            "key": "ref14",
+            "first-page": "1",
+            "article-title": "A kinematic notation for the lower-pair mechanisms based on matrices",
+            "volume": "25",
+            "author": "denavit",
+            "year": "1955",
+            "journal-title": "ASME Journal of Applied Mechanics"
+          },
+          {
+            "key": "ref15",
+            "author": "fischer",
+            "year": "1999",
+            "journal-title": "Dual-number Methods in Kinematics Statics and Dynamics"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56653"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56658"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "crossref",
+            "first-page": "673",
+            "DOI": "10.2514/2.4130",
+            "article-title": "New procedure for deriving optimized strapdown attitude algorithm",
+            "volume": "20",
+            "author": "gusinsky",
+            "year": "1997",
+            "journal-title": "Journal of Guidance Control and Dynamics"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/j.2161-4296.1997.tb02340.x"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/2.4770"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAES.1977.308509"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/2.4517"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5962/bhl.title.18548"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1137/1.9781611971330"
+          },
+          {
+            "key": "ref29",
+            "first-page": "22",
+            "article-title": "On sculling algorithms",
+            "author": "mark",
+            "year": "1996",
+            "journal-title": "Proceedings of the 3 S Petersburg International Conference on Integrated Navigation System"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0031-3203(00)00183-7"
+          },
+          {
+            "key": "ref8",
+            "author": "bottema",
+            "year": "1979",
+            "journal-title": "Theoretical Kinematics"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAES.1971.310252"
+          },
+          {
+            "key": "ref2",
+            "volume": "174",
+            "author": "chatfield",
+            "year": "0",
+            "journal-title": "Progress in Astronautics and Aeronautics"
+          },
+          {
+            "key": "ref9",
+            "author": "branets",
+            "year": "1973",
+            "journal-title": "Application of quaternions in problems of the rigid body orientation"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/3477.662755"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.20558"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/j.2161-4296.1998.tb02373.x"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2514/3.21635"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAES.2003.1261144"
+          },
+          {
+            "key": "ref24",
+            "article-title": "On the theory of screws and the dual method",
+            "author": "keler",
+            "year": "2000",
+            "journal-title": "Proceedings of A Symposium Commemorating the Legacy Works and Life of Sir Robert Stawell Ball Upon the 100th Anniversary of \"A Treatise on the Theory of Screws\""
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/j.2161-4296.1990.tb01544.x"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/7.144574"
+          },
+          {
+            "key": "ref44",
+            "author": "yang",
+            "year": "1964",
+            "journal-title": "Application of dual-number quaternion algebra and dual numbers to the analysis of spatial mechanisms"
+          },
+          {
+            "key": "ref26",
+            "article-title": "Strapdown attitude/navigation algorithms with angular rate/specific force multiple integrals as input signals",
+            "author": "litmanovich",
+            "year": "1999",
+            "journal-title": "55th Annu Meeting Institute of Navigation"
+          },
+          {
+            "key": "ref43",
+            "article-title": "A framework of strapdown attitude algorithms using generalized kinematic vector",
+            "author": "wu",
+            "year": "0",
+            "journal-title": "IEEE Transactions on Aerospace and Electronic Systems"
+          },
+          {
+            "key": "ref25",
+            "article-title": "Screw calculus and some applications to geometry and mechanics",
+            "author": "kotelnikov",
+            "year": "1895",
+            "journal-title": "Annuals of Imperial University of Kazan"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Aerospace and Electronic Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/7/30637/01413751.pdf?arnumber=1413751",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              16
+            ]
+          ],
+          "date-time": "2025-04-16T17:53:05Z",
+          "timestamp": 1744825985000
+        },
+        "score": 42.50398,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/1413751/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005,
+              1
+            ]
+          ]
+        },
+        "references-count": 44,
+        "journal-issue": {
+          "issue": "1"
+        },
+        "URL": "https://doi.org/10.1109/taes.2005.1413751",
+        "ISSN": [
+          "0018-9251",
+          "1557-9603",
+          "2371-9877"
+        ],
+        "issn-type": [
+          {
+            "value": "0018-9251",
+            "type": "print"
+          },
+          {
+            "value": "1557-9603",
+            "type": "electronic"
+          },
+          {
+            "value": "2371-9877",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

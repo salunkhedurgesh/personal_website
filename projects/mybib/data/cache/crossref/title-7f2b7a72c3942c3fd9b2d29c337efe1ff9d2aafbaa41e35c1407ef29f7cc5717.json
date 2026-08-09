@@ -1,0 +1,183 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2107656,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2022-04-04T02:14:12Z",
+          "timestamp": 1649038452971
+        },
+        "reference-count": 0,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2005,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2005-02-01T00:00:00Z",
+              "timestamp": 1107216000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Eur J Clin Microbiol Infect Dis"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10096-005-1292-z",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2005-03-02T08:31:32Z",
+          "timestamp": 1109752292000
+        },
+        "page": "163-164",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Februar 2005"
+        ],
+        "prefix": "10.1007",
+        "volume": "24",
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "European Journal of Clinical Microbiology &amp; Infectious Diseases"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10096-005-1292-z.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s10096-005-1292-z/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10096-005-1292-z",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              29
+            ]
+          ],
+          "date-time": "2019-05-29T09:30:20Z",
+          "timestamp": 1559122220000
+        },
+        "score": 27.175568,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s10096-005-1292-z"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005,
+              2
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2005,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "1292"
+        ],
+        "URL": "https://doi.org/10.1007/s10096-005-1292-z",
+        "ISSN": [
+          "0934-9723",
+          "1435-4373"
+        ],
+        "issn-type": [
+          {
+            "value": "0934-9723",
+            "type": "print"
+          },
+          {
+            "value": "1435-4373",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

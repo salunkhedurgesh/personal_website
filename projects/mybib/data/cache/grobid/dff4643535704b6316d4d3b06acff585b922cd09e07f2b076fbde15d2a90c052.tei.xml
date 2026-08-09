@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Design optimization of a spatial six degree-of-freedom parallel manipulator based on artificial intelligence approaches</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Zhen</forename><surname>Gao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Engineering and Applied Science</orgName>
+								<orgName type="institution">University of Ontario Institute of Technology</orgName>
+								<address>
+									<postCode>L1H 7K4</postCode>
+									<settlement>Oshawa</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Dan</forename><surname>Zhang</surname></persName>
+							<email>dan.zhang@uoit.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Engineering and Applied Science</orgName>
+								<orgName type="institution">University of Ontario Institute of Technology</orgName>
+								<address>
+									<postCode>L1H 7K4</postCode>
+									<settlement>Oshawa</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yunjian</forename><surname>Ge</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Intelligent Machines</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>230031</postCode>
+									<settlement>Hefei</settlement>
+									<region>Anhui Province</region>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Ontario Institute of Technology</orgName>
+								<address>
+									<postCode>L1H 7K4</postCode>
+									<settlement>Oshawa</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Design optimization of a spatial six degree-of-freedom parallel manipulator based on artificial intelligence approaches</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">83219401CB6C245E225828C0F07F4C38</idno>
+					<idno type="DOI">10.1016/j.rcim.2009.07.002</idno>
+					<note type="submission">Received 26 March 2008 Received in revised form 7 April 2009 Accepted 1 July 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Optimization design System stiffness Dexterity Genetic algorithms Artificial neural networks</keywords>
+			</textClass>
+			<abstract>
+				<p>Optimizing the system stiffness and dexterity of parallel manipulators by adjusting the geometrical parameters can be a difficult and time-consuming endeavor, especially when the variables are diverse and the objective functions are excessively complex. However, optimization techniques that are based on artificial intelligence approaches can be an effective solution for addressing this issue. Accordingly, this paper describes the implementation of genetic algorithms and artificial neural networks as an intelligent optimization tool for the dimensional synthesis of the spatial six degree-of-freedom (DOF) parallel manipulator. The objective functions of system stiffness and dexterity are derived according to kinematic analysis of the parallel mechanism. In particular, the neural network-based standard backpropagation learning algorithm and the Levenberg-Marquardt algorithm are utilized to approximate the analytical solutions of system stiffness and dexterity. Subsequently, genetic algorithms are derived from the objective functions described by the trained neural networks, which model various performance solutions. The multi-objective optimization (MOO) of performance indices is established by searching the Pareto-optimal frontier sets in the solution space. Consequently, the effectiveness of this method is validated by simulation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

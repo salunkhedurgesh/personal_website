@@ -1,0 +1,539 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 40566,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              29
+            ]
+          ],
+          "date-time": "2026-01-29T23:54:23Z",
+          "timestamp": 1769730863875,
+          "version": "3.49.0"
+        },
+        "reference-count": 33,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  28
+                ]
+              ],
+              "date-time": "2025-02-28T00:00:00Z",
+              "timestamp": 1740700800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100008476",
+            "name": "University of California, Irvine",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100008476",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.mechmachtheory.2025.105949",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2025-03-05T16:46:23Z",
+          "timestamp": 1741193183000
+        },
+        "page": "105949",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "special_numbering": "C",
+        "title": [
+          "Quaternions in Kinematics"
+        ],
+        "prefix": "10.1016",
+        "volume": "209",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3991-4681",
+            "authenticated-orcid": false,
+            "given": "J. Michael",
+            "family": "McCarthy",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b1",
+            "series-title": "Elements of Quaternions",
+            "author": "Hamilton",
+            "year": "1866"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b2",
+            "doi-asserted-by": "crossref",
+            "first-page": "291",
+            "DOI": "10.1080/0025570X.1989.11977459",
+            "article-title": "Hamilton, Rodrigues, and the quaternion scandal",
+            "volume": "62",
+            "author": "Altmann",
+            "year": "1989",
+            "journal-title": "Math. Mag."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b3",
+            "doi-asserted-by": "crossref",
+            "first-page": "139",
+            "DOI": "10.1115/1.3176034",
+            "article-title": "An historical note on finite rotations",
+            "volume": "56",
+            "author": "Cheng",
+            "year": "1989",
+            "journal-title": "J. Appl. Mech."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b4",
+            "series-title": "Geometric Design of Linkages",
+            "author": "McCarthy",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b5",
+            "series-title": "Mathematical Papers",
+            "author": "Clifford",
+            "year": "1882"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b6",
+            "first-page": "380",
+            "article-title": "Des lois géométriques qui régissent les déplacements dún système solide dans l’espace, et de la variation des coordonnées provenant de ces déplacements considérés indépendamment des causes qui peuvent les produire",
+            "volume": "5",
+            "author": "Rodrigues",
+            "year": "1840",
+            "journal-title": "J. de Math. Pures et Appl."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b7",
+            "doi-asserted-by": "crossref",
+            "first-page": "144",
+            "DOI": "10.1016/j.mechmachtheory.2015.03.004",
+            "article-title": "Euler-rodrigues formula variations, quaternion conjugation and intrinsic connections",
+            "volume": "92",
+            "author": "Dai",
+            "year": "2015",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b8",
+            "series-title": "Mathematics for celestial navigation",
+            "first-page": "1",
+            "author": "Lao",
+            "year": "2018"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b9",
+            "series-title": "Spherical Geometry and its Applications",
+            "author": "Whittlesey",
+            "year": "2020"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b10",
+            "doi-asserted-by": "crossref",
+            "first-page": "102",
+            "DOI": "10.1115/1.3609977",
+            "article-title": "On the screw axes and other special lines associated with spatial displacements of a rigid body",
+            "volume": "89",
+            "author": "Roth",
+            "year": "1967",
+            "journal-title": "J. Eng. Ind."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b11",
+            "series-title": "Theoretical Kinematics",
+            "author": "Bottema",
+            "year": "1979"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b12",
+            "series-title": "Kinematic Synthesis of Mechanisms: Using Excel® and Geogebra",
+            "first-page": "113",
+            "author": "Söylemez",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b13",
+            "series-title": "Volume 8: 47th Mechanisms and Robotics Conference",
+            "article-title": "Approximate motion synthesis of four-bar linkages using poles: A Bi-invariant approach",
+            "author": "Xu",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b14",
+            "series-title": "Kinematics of Spherical Mechanisms",
+            "author": "Chiang",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b15",
+            "article-title": "Quaternionic algebras",
+            "author": "Voight",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b16",
+            "series-title": "Computer Graphics (SIG-GRAPH ’85 Proceedings), Vol. 19",
+            "first-page": "245",
+            "article-title": "Animating rotation with quaternion curves",
+            "author": "Shoemake",
+            "year": "1985"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b17",
+            "doi-asserted-by": "crossref",
+            "first-page": "749",
+            "DOI": "10.1115/1.2919446",
+            "article-title": "Geometric construction of bezier motions",
+            "volume": "116",
+            "author": "Ge",
+            "year": "1994",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b18",
+            "series-title": "Volume 4: 3rd Design for Manufacturing Conference",
+            "article-title": "Double quaternions for motion interpolation",
+            "author": "Ge",
+            "year": "1998"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b19",
+            "doi-asserted-by": "crossref",
+            "first-page": "39",
+            "DOI": "10.1115/1.2829427",
+            "article-title": "Interpolation of spatial displacements using the Clifford algebra of E4",
+            "volume": "121",
+            "author": "Etzel",
+            "year": "1999",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b20",
+            "doi-asserted-by": "crossref",
+            "first-page": "569",
+            "DOI": "10.1115/1.3267398",
+            "article-title": "Planar and spatial rigid motion as special cases of spherical and 3-spherical motion",
+            "volume": "105",
+            "author": "McCarthy",
+            "year": "1983",
+            "journal-title": "J. Mech. Transm. Autom. Des."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b21",
+            "doi-asserted-by": "crossref",
+            "unstructured": "K. Etzel, J. McCarthy, A metric for spatial displacement using biquaternions on SO(4), in: Proceedings of IEEE International Conference on Robotics and Automation, Vol. 4, 1996, pp. 3185–3190 vol.4.",
+            "DOI": "10.1109/ROBOT.1996.509197"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b22",
+            "doi-asserted-by": "crossref",
+            "first-page": "193",
+            "DOI": "10.1016/j.mechmachtheory.2009.05.013",
+            "article-title": "Inverse kinematic analysis of the general 6R serial manipulators based on double quaternions",
+            "volume": "45",
+            "author": "Qiao",
+            "year": "2010",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b23",
+            "series-title": "Proceedings of 2021 Chinese Intelligent Automation Conference",
+            "first-page": "482",
+            "article-title": "Novel trajectory planning method based on double quaternion and tau theory",
+            "author": "Wang",
+            "year": "2022"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b24",
+            "series-title": "Proceedings of MSR-RoManSy 2024",
+            "first-page": "215",
+            "article-title": "Constructing Kinematic Confidence Regions with double quaternions",
+            "author": "Ge",
+            "year": "2024"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b25",
+            "series-title": "Introduction to Theoretical Kinematics",
+            "author": "McCarthy",
+            "year": "1990"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b26",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1115/1.3629601",
+            "article-title": "Application of dual-number quaternion algebra to the analysis of spatial mechanisms",
+            "author": "Yang",
+            "year": "1964",
+            "journal-title": "J. Appl. Mech."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b27",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/TRO.2014.2341312",
+            "article-title": "Approaching dual quaternions from matrix algebra",
+            "volume": "30",
+            "author": "Thomas",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b28",
+            "doi-asserted-by": "crossref",
+            "first-page": "404",
+            "DOI": "10.1115/1.2829166",
+            "article-title": "On the matrix realization of the theory of biquaternions",
+            "volume": "120",
+            "author": "Ge",
+            "year": "1998",
+            "journal-title": "J. Mech. Des."
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b29",
+            "series-title": "The Screw Calculus and Its Appplications in Mechanics (translation)",
+            "author": "Dimentberg",
+            "year": "1968"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b30",
+            "doi-asserted-by": "crossref",
+            "first-page": "101",
+            "DOI": "10.1115/1.3258772",
+            "article-title": "On the scalar and dual formulations of the curvature theory of line trajectories",
+            "volume": "109",
+            "author": "McCarthy",
+            "year": "1987",
+            "journal-title": "J. Mech. Transm. Autom. Des."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.mechmachtheory.2025.105949_b31",
+            "doi-asserted-by": "crossref",
+            "first-page": "143",
+            "DOI": "10.1016/S0094-114X(01)00073-8",
+            "article-title": "Automated synthesis of mechanisms using dual-vector algebra",
+            "volume": "37",
+            "author": "Moon",
+            "year": "2002",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b32",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.mechmachtheory.2022.104999",
+            "article-title": "Higher-order relative kinematics of rigid body and multibody systems. a novel approach with real and dual Lie algebras",
+            "volume": "176",
+            "author": "Condurache",
+            "year": "2022",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "10.1016/j.mechmachtheory.2025.105949_b33",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.mechmachtheory.2022.105184",
+            "article-title": "The dual Euler-Rodrigues formula in various mathematical forms and their intrinsic relations",
+            "volume": "181",
+            "author": "Wang",
+            "year": "2023",
+            "journal-title": "Mech. Mach. Theory"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X25000382?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X25000382?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2025-05-13T20:38:56Z",
+          "timestamp": 1747168736000
+        },
+        "score": 28.58077,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X25000382"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "references-count": 33,
+        "alternative-id": [
+          "S0094114X25000382"
+        ],
+        "URL": "https://doi.org/10.1016/j.mechmachtheory.2025.105949",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Quaternions in Kinematics",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Mechanism and Machine Theory",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mechmachtheory.2025.105949",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2025 The Author. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "105949"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

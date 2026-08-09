@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pose and Motion Estimation Using Dual Quaternion-Based Extended Kalman Filtering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Goddarda</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Abidi</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">aOak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">TN bUniversity of Tennessee</orgName>
+								<address>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pose and Motion Estimation Using Dual Quaternion-Based Extended Kalman Filtering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EA7629AF806A02EF72D2FCB2A3880DE1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>pose estimation</term>
+					<term>motion estimation</term>
+					<term>iterated extended Kalman filter</term>
+					<term>dual quaternion</term>
+					<term>line features Further author information -</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>A solution to the remote threedimensionai (3-D) measurement problem is presented for a dynamic system given a sequence of two-dimensional (2-D) intensity images of a moving object. The 3-D transformation is modeled as a nonlinear stochastic system with the state estimate providing the six-degree-of-freedom motion and position values as well as structure. The stochastic model uses the iterated extended Kalman filter (IEKF) as a nonlinear estimator and a screw representation of the 3-D transformation based on dual quaternions. Dual quaternions, whose elements are dual numbers, provide a means to represent both rotation and translation in a unified notation. Linear object features, represented as dual vectors, are transformed using the dual quaternion transformation and are then projected to linear features in the image plane. The method has been implemented and tested with both simulated and actual experimental data. Simulation results are provided, along with comparisons to a point-based IEKF method using rotation and translation, to show the relative advantages of this method. Experimental results from testing using a camera mounted on the end effector of a robot arm are also given.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

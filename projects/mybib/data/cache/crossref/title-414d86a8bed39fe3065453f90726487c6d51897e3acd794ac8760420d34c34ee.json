@@ -1,0 +1,922 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2776417,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T21:15:39Z",
+          "timestamp": 1777497339846,
+          "version": "3.51.4"
+        },
+        "reference-count": 87,
+        "publisher": "AIP Publishing",
+        "issue": "15",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  4,
+                  19
+                ]
+              ],
+              "date-time": "2022-04-19T00:00:00Z",
+              "timestamp": 1650326400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  4,
+                  19
+                ]
+              ],
+              "date-time": "2022-04-19T00:00:00Z",
+              "timestamp": 1650326400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001691",
+            "name": "Japan Society for the Promotion of Science",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JP20J14619"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JP20J14619"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001691",
+            "name": "Japan Society for the Promotion of Science",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JP18K05049"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JP18K05049"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001691",
+            "name": "Japan Society for the Promotion of Science",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JP18H01188"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JP18H01188"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001691",
+            "name": "Japan Society for the Promotion of Science",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JP19H01812"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JP19H01812"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001691",
+            "name": "Japan Society for the Promotion of Science",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JP20H05221"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JP20H05221"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001691",
+            "name": "Japan Society for the Promotion of Science",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JP19H04206"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JP19H04206"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001691",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001700",
+            "name": "Ministry of Education, Culture, Sports, Science and Technology",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JPMXP1020200308"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JPMXP1020200308"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001700",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001700",
+            "name": "Ministry of Education, Culture, Sports, Science and Technology",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "JPMXP0112101003"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "JPMXP0112101003"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001700",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "aip.scitation.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "J. Chem. Phys."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              21
+            ]
+          ]
+        },
+        "abstract": "<jats:p> A method for obtaining appropriate reaction coordinates is required to identify transition states distinguishing the product and reactant in complex molecular systems. Recently, abundant research has been devoted to obtaining reaction coordinates using artificial neural networks from deep learning literature, where many collective variables are typically utilized in the input layer. However, it is difficult to explain the details of which collective variables contribute to the predicted reaction coordinates owing to the complexity of the nonlinear functions in deep neural networks. To overcome this limitation, we used Explainable Artificial Intelligence (XAI) methods of the Local Interpretable Model-agnostic Explanation (LIME) and the game theory-based framework known as Shapley Additive exPlanations (SHAP). We demonstrated that XAI enables us to obtain the degree of contribution of each collective variable to reaction coordinates that is determined by nonlinear regressions with deep learning for the committor of the alanine dipeptide isomerization in vacuum. In particular, both LIME and SHAP provide important features to the predicted reaction coordinates, which are characterized by appropriate dihedral angles consistent with those previously reported from the committor test analysis. The present study offers an AI-aided framework to explain the appropriate reaction coordinates, which acquires considerable significance when the number of degrees of freedom increases. </jats:p>",
+        "DOI": "10.1063/5.0087310",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2022-03-31T21:05:19Z",
+          "timestamp": 1648760719000
+        },
+        "page": "154108",
+        "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+        "source": "Crossref",
+        "is-referenced-by-count": 44,
+        "title": [
+          "Explaining reaction coordinates of alanine dipeptide isomerization obtained from deep neural networks using Explainable Artificial Intelligence (XAI)"
+        ],
+        "prefix": "10.1063",
+        "volume": "156",
+        "author": [
+          {
+            "given": "Takuma",
+            "family": "Kikutsuji",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Division of Chemical Engineering, Department of Materials Engineering Science, Graduate School of Engineering Science, Osaka University, Toyonaka, Osaka 560-8531, Japan"
+              }
+            ]
+          },
+          {
+            "given": "Yusuke",
+            "family": "Mori",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Division of Chemical Engineering, Department of Materials Engineering Science, Graduate School of Engineering Science, Osaka University, Toyonaka, Osaka 560-8531, Japan"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2168-3069",
+            "authenticated-orcid": false,
+            "given": "Kei-ichi",
+            "family": "Okazaki",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Center for Computational Science, Institute for Molecular Science, Okazaki, Aichi 444-8585, Japan"
+              },
+              {
+                "name": "The Graduate University for Advanced Studies, Sokendai, Okazaki, Aichi 444-8585, Japan"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0188-0794",
+            "authenticated-orcid": false,
+            "given": "Toshifumi",
+            "family": "Mori",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute for Materials Chemistry and Engineering, Kyushu University, Kasuga, Fukuoka 816-8580, Japan"
+              },
+              {
+                "name": "Interdisciplinary Graduate School of Engineering Sciences, Kyushu University, Kasuga, Fukuoka 816-8580, Japan"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7047-3183",
+            "authenticated-orcid": false,
+            "given": "Kang",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Division of Chemical Engineering, Department of Materials Engineering Science, Graduate School of Engineering Science, Osaka University, Toyonaka, Osaka 560-8531, Japan"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7176-441X",
+            "authenticated-orcid": false,
+            "given": "Nobuyuki",
+            "family": "Matubayasi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Division of Chemical Engineering, Department of Materials Engineering Science, Graduate School of Engineering Science, Osaka University, Toyonaka, Osaka 560-8531, Japan"
+              }
+            ]
+          }
+        ],
+        "member": "317",
+        "reference": [
+          {
+            "key": "c1/c1_1",
+            "volume-title": "Reaction Rate Theory and Rare Events",
+            "author": "Peters B.",
+            "year": "2017"
+          },
+          {
+            "key": "c2/c2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ct3008292"
+          },
+          {
+            "key": "c3/c3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/08927022.2014.907898"
+          },
+          {
+            "key": "c4/c4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.4775807"
+          },
+          {
+            "key": "c5/c5_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.4916307"
+          },
+          {
+            "key": "c6/c6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev-physchem-040215-112215"
+          },
+          {
+            "key": "c7/c7_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/wcms.1276"
+          },
+          {
+            "key": "c8/c8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.revip.2017.05.001"
+          },
+          {
+            "key": "c9/c9_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adts.202000237"
+          },
+          {
+            "key": "c10/c10_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev.physchem.53.082301.113146"
+          },
+          {
+            "key": "c11/c11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1140/epjb/s10051-021-00233-5"
+          },
+          {
+            "key": "c12/c12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.475393"
+          },
+          {
+            "key": "c13/c13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp984837g"
+          },
+          {
+            "key": "c14/c14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.100127697"
+          },
+          {
+            "key": "c15/c15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.2036378100"
+          },
+          {
+            "key": "c16/c16_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.1630572"
+          },
+          {
+            "key": "c17/c17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp0471249"
+          },
+          {
+            "key": "c18/c18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp045544s"
+          },
+          {
+            "key": "c19/c19_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.1818091"
+          },
+          {
+            "key": "c20/c20_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.0408098102"
+          },
+          {
+            "key": "c21/c21_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/physrevlett.94.235703"
+          },
+          {
+            "key": "c22/c22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.2409924"
+          },
+          {
+            "key": "c23/c23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.2432340"
+          },
+          {
+            "key": "c24/c24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.0704304104"
+          },
+          {
+            "key": "c25/c25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.3123162"
+          },
+          {
+            "key": "c26/c26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cplett.2010.05.069"
+          },
+          {
+            "key": "c27/c27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.7b00571"
+          },
+          {
+            "key": "c28/c28_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.2234477"
+          },
+          {
+            "key": "c29/c29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.2748396"
+          },
+          {
+            "key": "c30/c30_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/08927020903536382"
+          },
+          {
+            "key": "c31/c31_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ja0687567"
+          },
+          {
+            "key": "c32/c32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp710192u"
+          },
+          {
+            "key": "c33/c33_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ct100051a"
+          },
+          {
+            "key": "c34/c34_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.0908754107"
+          },
+          {
+            "key": "c35/c35_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.3491818"
+          },
+          {
+            "key": "c36/c36_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp905411n"
+          },
+          {
+            "key": "c37/c37_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jz2002887"
+          },
+          {
+            "key": "c38/c38_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cplett.2012.10.051"
+          },
+          {
+            "key": "c39/c39_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp3099973"
+          },
+          {
+            "key": "c40/c40_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00268976.2013.832820"
+          },
+          {
+            "key": "c41/c41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ct4009798"
+          },
+          {
+            "key": "c42/c42_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.5b00032"
+          },
+          {
+            "key": "c43/c43_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.4961652"
+          },
+          {
+            "key": "c44/c44_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.4997378"
+          },
+          {
+            "key": "c45/c45_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.1713452115"
+          },
+          {
+            "key": "c46/c46_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jpcb.8b08718"
+          },
+          {
+            "key": "c47/c47_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41467-019-09739-0"
+          },
+          {
+            "key": "c48/c48_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.1906502116"
+          },
+          {
+            "key": "c49/c49_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0010074"
+          },
+          {
+            "key": "c50/c50_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jpcb.0c04139"
+          },
+          {
+            "key": "c51/c51_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.5144258"
+          },
+          {
+            "key": "c52/c52_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.0c01199"
+          },
+          {
+            "key": "c53/c53_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jpcb.0c09725"
+          },
+          {
+            "key": "c54/c54_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.9b01279"
+          },
+          {
+            "key": "c55/c55_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0009066"
+          },
+          {
+            "key": "c56/c56_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jp045546c"
+          },
+          {
+            "key": "c57/c57_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.5029972"
+          },
+          {
+            "key": "c58/c58_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.5011399"
+          },
+          {
+            "key": "c59/c59_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41467-017-02388-1"
+          },
+          {
+            "key": "c60/c60_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.5035183"
+          },
+          {
+            "key": "c61/c61_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/jcc.25520"
+          },
+          {
+            "key": "c62/c62_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.5025487"
+          },
+          {
+            "key": "c63/c63_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/physrevlett.123.245701"
+          },
+          {
+            "key": "c64/c64_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jpclett.0c00535"
+          },
+          {
+            "key": "c65/c65_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sbi.2019.12.016"
+          },
+          {
+            "key": "c66/c66_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0038198"
+          },
+          {
+            "key": "c67/c67_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00268976.2020.1737742"
+          },
+          {
+            "key": "c68/c68_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/d0cp06184k"
+          },
+          {
+            "key": "c69/c69_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0058639"
+          },
+          {
+            "key": "c70/c70_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.0c00981"
+          },
+          {
+            "key": "c71/c71_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.2113533118"
+          },
+          {
+            "key": "c72/c72_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1140/epjb/s10051-021-00220-w"
+          },
+          {
+            "key": "c73/c73_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.1c00415"
+          },
+          {
+            "key": "c74/c74_1",
+            "unstructured": "H. Jung, R. Covino, and G. Hummer, “Artificial intelligence assists discovery of reaction coordinates and mechanisms from molecular dynamics simulations,” arXiv:1901.04595 (2019)."
+          },
+          {
+            "key": "c75/c75_1",
+            "unstructured": "H. Jung, R. Covino, A. Arjun, P. G. Bolhuis, and G. Hummer, “Autonomous artificial intelligence discovers mechanisms of molecular self-organization in virtual experiments,” arXiv:2105.06673 (2021)."
+          },
+          {
+            "key": "c76/c76_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jctc.1c00752"
+          },
+          {
+            "key": "c77/c77_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.2013256"
+          },
+          {
+            "key": "c78/c78_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jpcb.1c00904"
+          },
+          {
+            "key": "c79/c79_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.1782813"
+          },
+          {
+            "key": "c80/c80_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/access.2018.2870052"
+          },
+          {
+            "key": "c81/c81_1",
+            "volume-title": "Interpretable Machine Learning",
+            "author": "Molnar C.",
+            "year": "2020"
+          },
+          {
+            "key": "c82/c82_1",
+            "first-page": "97",
+            "volume-title": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+            "author": "Ribeiro M. T.",
+            "year": "2016"
+          },
+          {
+            "key": "c83/c83_1",
+            "first-page": "4768",
+            "volume-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems",
+            "author": "Lundberg S. M.",
+            "year": "2017"
+          },
+          {
+            "key": "c84/c84_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1.1.693.1422"
+          },
+          {
+            "key": "c85/c85_1",
+            "unstructured": "D. P. Kingma and J. Ba, “Adam: A method for stochastic optimization,” arXiv:1412.6980 (2014)."
+          },
+          {
+            "key": "c86/c86_1",
+            "unstructured": "M. Abadi, A. Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. S. Corrado, A. Davis, J. Dean, M. Devin, S. Ghemawat, I. Goodfellow, A. Harp, G. Irving, M. Isard, Y. Jia, R. Jozefowicz, L. Kaiser, M. Kudlur, J. Levenberg, D. Mane, R. Monga, S. Moore, D. Murray, C. Olah, M. Schuster, J. Shlens, B. Steiner, I. Sutskever, K. Talwar, P. Tucker, V. Vanhoucke, V. Vasudevan, F. Viegas, O. Vinyals, P. Warden, M. Wattenberg, M. Wicke, Y. Yu, and X. Zheng, “TensorFlow: Large-scale machine learning on heterogeneous distributed systems,” arXiv:1603.04467 (2016)."
+          },
+          {
+            "key": "c87/c87_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "307",
+            "DOI": "10.1515/9781400881970-018",
+            "volume-title": "Contributions to the Theory of Games (AM-28), Volume II",
+            "author": "Shapley L. S.",
+            "year": "1953"
+          }
+        ],
+        "container-title": [
+          "The Journal of Chemical Physics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0087310/16540045/154108_1_online.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://aip.scitation.org/doi/pdf/10.1063/5.0087310",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2025-05-27T20:20:37Z",
+          "timestamp": 1748377237000
+        },
+        "score": 27.005033,
+        "resource": {
+          "primary": {
+            "URL": "https://pubs.aip.org/aip/jcp/article/2840998"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              21
+            ]
+          ]
+        },
+        "references-count": 87,
+        "journal-issue": {
+          "issue": "15",
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                21
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1063/5.0087310"
+        ],
+        "URL": "https://doi.org/10.1063/5.0087310",
+        "ISSN": [
+          "0021-9606",
+          "1089-7690"
+        ],
+        "issn-type": [
+          {
+            "value": "0021-9606",
+            "type": "print"
+          },
+          {
+            "value": "1089-7690",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              21
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2022-02-03",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2022-03-31",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2022-04-19",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

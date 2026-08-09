@@ -1,0 +1,267 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5284522,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2024-10-29T15:05:40Z",
+          "timestamp": 1730214340128,
+          "version": "3.28.0"
+        },
+        "reference-count": 19,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/devlrn.2014.6983025",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              30
+            ]
+          ],
+          "date-time": "2014-12-30T18:48:19Z",
+          "timestamp": 1419965299000
+        },
+        "page": "469-475",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "title": [
+          "Effective transfer learning of affordances for household robots"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Chang",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Koen V.",
+            "family": "Hindriks",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Robert",
+            "family": "Babuska",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "19",
+            "article-title": "Robot learning and use of affordances in goal-directed tasks",
+            "author": "wang",
+            "year": "2013",
+            "journal-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+          },
+          {
+            "key": "17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2011.04.005"
+          },
+          {
+            "key": "18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2011.5980299"
+          },
+          {
+            "key": "15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2013.7029967"
+          },
+          {
+            "key": "16",
+            "first-page": "17",
+            "article-title": "Transfer Learning",
+            "volume": "3",
+            "author": "torrey",
+            "year": "2009",
+            "journal-title": "Handbook of Research on Machine Learning Applications IGI Global"
+          },
+          {
+            "key": "13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2005.1570580"
+          },
+          {
+            "key": "14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2013.12.005"
+          },
+          {
+            "key": "11",
+            "volume": "936",
+            "author": "seber",
+            "year": "2012",
+            "journal-title": "Linear Regression Analysis"
+          },
+          {
+            "key": "12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2014.6907321"
+          },
+          {
+            "key": "3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICARSC.2014.6849774"
+          },
+          {
+            "journal-title": "The Ecological Approach to Visual Perception",
+            "year": "1979",
+            "author": "gibson",
+            "key": "2"
+          },
+          {
+            "key": "1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2003.1242073"
+          },
+          {
+            "key": "10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/1059712307084689"
+          },
+          {
+            "key": "7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2007.914848"
+          },
+          {
+            "key": "6",
+            "first-page": "3725",
+            "article-title": "Exploration in relational domains for model-based reinforcement learning",
+            "volume": "13",
+            "author": "lang",
+            "year": "2012",
+            "journal-title": "The Journal of Machine Learning Research"
+          },
+          {
+            "key": "5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.robot.2011.05.009"
+          },
+          {
+            "key": "4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2012.6385903"
+          },
+          {
+            "key": "9",
+            "first-page": "1939",
+            "article-title": "A unifying view of sparse approximate gaussian process regression",
+            "volume": "6",
+            "author": "quinonero-candela",
+            "year": "2005",
+            "journal-title": "The Journal of Machine Learning Research"
+          },
+          {
+            "key": "8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/DEVLRN.2007.4354046"
+          }
+        ],
+        "event": {
+          "name": "2014 Joint IEEE International Conferences on Development and Learning and Epigenetic Robotics (ICDL-Epirob)",
+          "start": {
+            "date-parts": [
+              [
+                2014,
+                10,
+                13
+              ]
+            ]
+          },
+          "location": "Genoa, Italy",
+          "end": {
+            "date-parts": [
+              [
+                2014,
+                10,
+                16
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "4th International Conference on Development and Learning and on Epigenetic Robotics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6971976/6982939/06983025.pdf?arnumber=6983025",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2017-03-24T00:38:29Z",
+          "timestamp": 1490315909000
+        },
+        "score": 47.556362,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/6983025/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              10
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.1109/devlrn.2014.6983025",
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              10
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

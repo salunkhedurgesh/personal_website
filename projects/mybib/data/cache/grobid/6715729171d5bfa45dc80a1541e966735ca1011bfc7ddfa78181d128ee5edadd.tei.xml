@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Architecture Optimization of a 3-DOF Translational Parallel Mechanism for Machining Applications, the Orthoglide</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2007-08-24">24 Aug 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Chablat</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Wenger</surname></persName>
+						</author>
+						<title level="a" type="main">Architecture Optimization of a 3-DOF Translational Parallel Mechanism for Machining Applications, the Orthoglide</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2007-08-24">24 Aug 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C7625E8DEF100D0B0E3B9E4C4008AC71</idno>
+					<note type="submission">W2001-255 REGULAR PAPER ACCEPTED TO IEEE TRANSACTIONS ON ROBOTICS AND AUTOMATION 1</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Parallel mechanism</term>
+					<term>Optimal design</term>
+					<term>Singularity</term>
+					<term>Isotropic design</term>
+					<term>Workspace</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper addresses the architecture optimization of a 3-DOF translational parallel mechanism designed for machining applications. The design optimization is conducted on the basis of a prescribed Cartesian workspace with prescribed kinetostatic performances. The resulting machine, the Orthoglide, features three fixed parallel linear joints which are mounted orthogonally and a mobile platform which moves in the Cartesian x-y-z space with fixed orientation. The interesting features of the Orthoglide are a regular Cartesian workspace shape, uniform performances in all directions and good compactness. A smallscale prototype of the Orthoglide under development is presented at the end of this paper.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

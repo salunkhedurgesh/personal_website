@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A STUDY OF MULTIPLE MANIPULATOR INVERSE KINEMATIC SOLUTIONS WITH APPLICATIONS TO TRAJECTORY PLANNING AND WORKSPACE DETERMINATION</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Borrel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire d&apos;Automatique et de Microklectronique de Montpellier 34060 MONTPELLIER Ckdex</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Liegeois</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire d&apos;Automatique et de Microklectronique de Montpellier 34060 MONTPELLIER Ckdex</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A STUDY OF MULTIPLE MANIPULATOR INVERSE KINEMATIC SOLUTIONS WITH APPLICATIONS TO TRAJECTORY PLANNING AND WORKSPACE DETERMINATION</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C1B0755C8510F3182E2C2F42C6272212</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The paper deals with the problem of the multiple solutions of the coordinate transformations for an n-link robot maniputor. Aspect decomposition of the admissible domain of the joint space is introduced and an algorithm for automatic computation of Aspect decomposition is presented. This decomposition takes into account the morphology of the robot arm and the kinematic task definition as well. Two fields of applications are then investigated : automatic generation of the end effector workspace, predetermination of trajectories which avoid mechanical limits of the manipulator actuators. Finally an implementation of these methods and algorithms in the CATIA CAD system is given .</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

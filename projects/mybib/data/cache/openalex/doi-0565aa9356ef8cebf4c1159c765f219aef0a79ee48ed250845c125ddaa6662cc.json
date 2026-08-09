@@ -1,0 +1,217 @@
+{
+  "id": "https://openalex.org/W4247932533",
+  "doi": "https://doi.org/10.18356/d99d8195-en-fr",
+  "title": "No. 32552. Germany and Chile",
+  "display_name": "No. 32552. Germany and Chile",
+  "publication_year": 2001,
+  "publication_date": "2001-06-27",
+  "ids": {
+    "openalex": "https://openalex.org/W4247932533",
+    "doi": "https://doi.org/10.18356/d99d8195-en-fr"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.18356/d99d8195-en-fr",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.18356/d99d8195-en-fr",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210238570",
+      "display_name": "United Nations Treaty Series",
+      "issn_l": "0379-8267",
+      "issn": [
+        "0379-8267",
+        "2412-1495"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310321776",
+      "host_organization_name": "United Nations",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310321776"
+      ],
+      "host_organization_lineage_names": [
+        "United Nations"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "United Nations Treaty Series",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.64482547,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "121",
+    "last_page": "184"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T14448",
+    "display_name": "EU Law and Policy Analysis",
+    "score": 0.426800012588501,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3308",
+      "display_name": "Law"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T14448",
+      "display_name": "EU Law and Policy Analysis",
+      "score": 0.426800012588501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13710",
+      "display_name": "European and International Law Studies",
+      "score": 0.37229999899864197,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.3197537660598755
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.3197537660598755
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.18356/d99d8195-en-fr",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.18356/d99d8195-en-fr",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210238570",
+        "display_name": "United Nations Treaty Series",
+        "issn_l": "0379-8267",
+        "issn": [
+          "0379-8267",
+          "2412-1495"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310321776",
+        "host_organization_name": "United Nations",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310321776"
+        ],
+        "host_organization_lineage_names": [
+          "United Nations"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "United Nations Treaty Series",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W3120165752",
+    "https://openalex.org/W2344506138",
+    "https://openalex.org/W3158585187",
+    "https://openalex.org/W4211064241",
+    "https://openalex.org/W1964191721",
+    "https://openalex.org/W85411530",
+    "https://openalex.org/W2597744361",
+    "https://openalex.org/W3195275078"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2025-10-10T00:00:00"
+}

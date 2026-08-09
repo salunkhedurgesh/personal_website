@@ -1,0 +1,196 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9919748,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2025-09-29T08:21:05Z",
+          "timestamp": 1759134065738,
+          "version": "3.41.2"
+        },
+        "reference-count": 0,
+        "publisher": "American Society of Mechanical Engineers",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              4
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This paper deals with the design optimization of the IRSBot-2 based on an optimized test trajectory for fast pick and place operations. The IRSBot-2 is a two degree-of-freedom translational parallel manipulator dedicated to fast and accurate pick-and-place operations.</jats:p>\n               <jats:p>First, an optimization problem is formulated to determine the optimal test trajectory. This problem aims at finding the path defined with s-curves and the time trajectory that minimize the cycle time while the maximum acceleration of the moving platform remains lower than 20 G and the time trajectory functions are C2 continuous.</jats:p>\n               <jats:p>Then, two design optimization problems are formulated to find the optimal design parameters of the IRSBot-2 based on the previous optimal test trajectory. These two problems are formulated so that they can be solved in cascade. The first problem aims to define the design parameters that affect the geometric and kinematic performances of the manipulator. The second problem is about the determination of the remaining parameters by considering elastostatic and dynamic performances.</jats:p>\n               <jats:p>Finally, the optimal design parameters are given and will be used for the realization of an industrial prototype of the IRSBot-2.</jats:p>",
+        "DOI": "10.1115/detc2013-13037",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2014-02-12T12:34:27Z",
+          "timestamp": 1392208467000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 13,
+        "title": [
+          "Optimal Design of the IRSBot-2 Based on an Optimized Test Trajectory"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Coralie",
+            "family": "Germain",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Ecole Centrale Nantes, Nantes, France"
+              }
+            ]
+          },
+          {
+            "given": "Stéphane",
+            "family": "Caro",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CNRS, Nantes, France"
+              }
+            ]
+          },
+          {
+            "given": "Sébastien",
+            "family": "Briot",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CNRS, Nantes, France"
+              }
+            ]
+          },
+          {
+            "given": "Philippe",
+            "family": "Wenger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CNRS, Nantes, France"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              12
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2013 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                8,
+                4
+              ]
+            ]
+          },
+          "sponsor": [
+            "Design Engineering Division",
+            "Computers and Information in Engineering Division"
+          ],
+          "location": "Portland, Oregon, USA",
+          "end": {
+            "date-parts": [
+              [
+                2013,
+                8,
+                7
+              ]
+            ]
+          },
+          "acronym": "IDETC-CIE2013"
+        },
+        "container-title": [
+          "Volume 6A: 37th Mechanisms and Robotics Conference"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2013-13037/4254699/v06at07a056-detc2013-13037.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2019-08-31T19:23:59Z",
+          "timestamp": 1567279439000
+        },
+        "score": 28.714235,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2013/55935/Portland,%20Oregon,%20USA/252983"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              4
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/detc2013-13037",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              4
+            ]
+          ]
+        },
+        "article-number": "V06AT07A056"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

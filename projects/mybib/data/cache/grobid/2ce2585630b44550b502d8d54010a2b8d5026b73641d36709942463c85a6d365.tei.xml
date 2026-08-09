@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Design Optimization of a 3-DOF Star Triangle Manipulator for Machining Applications</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><surname>Shankar Ganesh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Koteswara Rao</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Sarath Kumar</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Mechanical Engineering Department</orgName>
+								<orgName type="institution">G.V.P College of Engineering (A)</orgName>
+								<address>
+									<addrLine>Visakkhapatnam-530048</addrLine>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Mechanical Engineering Department</orgName>
+								<orgName type="institution">G.V.P College of Engineering (A)</orgName>
+								<address>
+									<addrLine>Visakkhapatnam-530048</addrLine>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Mechanical Engineering Department</orgName>
+								<orgName type="institution" key="instit1">Tech student</orgName>
+								<orgName type="institution" key="instit2">G.V.P College of Engineering (A)</orgName>
+								<address>
+									<postCode>Visakkhapatnam-530048</postCode>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Design Optimization of a 3-DOF Star Triangle Manipulator for Machining Applications</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E7FB99FAA95FB15F71556356F1B404DB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Star Triangualr Manipulator</term>
+					<term>GCI</term>
+					<term>WSI</term>
+					<term>GSI</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In this paper, kinematics modelling of a 3 degree-of-freedom (DOF) planar PRP (P-Prismatic, R-Revolute, P-Prismatic) parallel manipulator is presented. By solving the inverse kinematics, position and velocity of actuators in terms of position and velocity of end-effector are expressed. Secondly, considering various non-dimensional performance measures, namely, WSI, GCI and GSI as the objective functions, a multi-objective optimization problem is formulated. Finally, optimal solution is obtained using Genetic Algorithms (GA). Effect of tool platform orientation angle (θ) on the performance indices is also studied.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,196 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7260686,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2025-10-17T13:46:29Z",
+          "timestamp": 1760708789335,
+          "version": "3.41.2"
+        },
+        "reference-count": 0,
+        "publisher": "American Society of Mechanical Engineers",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              17
+            ]
+          ]
+        },
+        "abstract": "<jats:p>For a humanoid robot to have the versatility of humans, it needs to have similar motion capabilities. This paper presents the design of the hip joint of the Tactical Hazardous Operations Robot (THOR), which was created to perform disaster response duties in human-structured environments. The lower body of THOR was designed to have a similar range of motion to the average human. To accommodate the large range of motion requirements of the hip, it was divided into a parallel-actuated universal joint and a linkage-driven pin joint. The yaw and roll degrees of freedom are driven cooperatively by a pair of parallel series elastic linear actuators to provide high joint torques and low leg inertia. In yaw, the left hip can produce a peak of 115.02 [Nm] of torque with a range of motion of −20° to 45°. In roll, it can produce a peak of 174.72 [Nm] of torque with a range of motion of −30° to 45°. The pitch degree of freedom uses a Hoeken’s linkage mechanism to produce 100 [Nm] of torque with a range of motion of −120° to 30°.</jats:p>",
+        "DOI": "10.1115/detc2014-35214",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2015-01-13T14:58:15Z",
+          "timestamp": 1421161095000
+        },
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "title": [
+          "Design of a Human-Like Range of Motion Hip Joint for Humanoid Robots"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Bryce",
+            "family": "Lee",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Virginia Tech, Blacksburg, VA"
+              }
+            ]
+          },
+          {
+            "given": "Coleman",
+            "family": "Knabe",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech, Blacksburg, VA"
+              }
+            ]
+          },
+          {
+            "given": "Viktor",
+            "family": "Orekhov",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech, Blacksburg, VA"
+              }
+            ]
+          },
+          {
+            "given": "Dennis",
+            "family": "Hong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California, Los Angeles, Los Angeles, CA"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              13
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2014 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+          "start": {
+            "date-parts": [
+              [
+                2014,
+                8,
+                17
+              ]
+            ]
+          },
+          "sponsor": [
+            "Design Engineering Division",
+            "Computers and Information in Engineering Division"
+          ],
+          "location": "Buffalo, New York, USA",
+          "end": {
+            "date-parts": [
+              [
+                2014,
+                8,
+                20
+              ]
+            ]
+          },
+          "acronym": "IDETC-CIE2014"
+        },
+        "container-title": [
+          "Volume 5B: 38th Mechanisms and Robotics Conference"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2014-35214/4262932/v05bt08a018-detc2014-35214.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T20:10:12Z",
+          "timestamp": 1567368612000
+        },
+        "score": 39.022743,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2014/46377/Buffalo,%20New%20York,%20USA/257702"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              17
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/detc2014-35214",
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              17
+            ]
+          ]
+        },
+        "article-number": "V05BT08A018"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

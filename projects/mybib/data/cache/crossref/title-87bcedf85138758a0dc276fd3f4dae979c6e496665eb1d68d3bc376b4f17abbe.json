@@ -1,0 +1,295 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3266083,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T12:17:51Z",
+          "timestamp": 1777637871777,
+          "version": "3.51.4"
+        },
+        "reference-count": 17,
+        "publisher": "Elsevier BV",
+        "issue": "23-26",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2004,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2004-09-01T00:00:00Z",
+              "timestamp": 1093996800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Computers &amp; Structures"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.compstruc.2004.03.072",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2004,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2004-08-31T13:27:23Z",
+          "timestamp": 1093958843000
+        },
+        "page": "2251-2260",
+        "source": "Crossref",
+        "is-referenced-by-count": 223,
+        "title": [
+          "Globalized Nelder–Mead method for engineering optimization"
+        ],
+        "prefix": "10.1016",
+        "volume": "82",
+        "author": [
+          {
+            "given": "Marco A.",
+            "family": "Luersen",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Rodolphe",
+            "family": "Le Riche",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib1",
+            "series-title": "Global optimization",
+            "author": "Törn",
+            "year": "1989"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib2",
+            "series-title": "Evolutionary algorithms in theory and practice",
+            "author": "Bäck",
+            "year": "1996"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib3",
+            "unstructured": "Shang Y, Wan Y, Fromherz MPJ, Crawford L. Toward adaptive cooperation between global and local solvers for continuous constraint problems. in: CP’01 Workshop on cooperative Solvers in Constraints Programming, Pahos, Cyprus, December 2001"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib4",
+            "unstructured": "Durand N, Alliot J-M. A Combined Nelder–Mead simplex and genetic algorithm. Available from: http://www.recherche.enac.fr/opti/papers/, 1999"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1016/S0096-3003(97)10007-8",
+            "article-title": "Nonlinear numerical optimization with use of a hybrid genetic algorithm incorporating the modified Powell method",
+            "volume": "91",
+            "author": "Okamoto",
+            "year": "1998",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib6",
+            "first-page": "49",
+            "article-title": "A search-clustering approach to global optimization",
+            "volume": "2",
+            "author": "Törn",
+            "year": "1978",
+            "journal-title": "Towards Global Optim."
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib7",
+            "unstructured": "Goldberg DE, Voessner S. Optimizing global–local search hybrids. In: GECCO 99––Genetic and Evolutionary Computation Conference, Orlando, FL, USA, 1999. p. 220–8"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib8",
+            "unstructured": "Moscato P. On Evolution, search, optimization, genetic algorithms and martial arts: towards memetic algorithms. Caltech Concurrent Computation Program, C3P Report 826, 1989"
+          },
+          {
+            "issue": "May",
+            "key": "10.1016/j.compstruc.2004.03.072_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "1094",
+            "DOI": "10.1126/science.276.5315.1094",
+            "article-title": "TRUST: A deterministic algorithm for global constrained optimization",
+            "volume": "276",
+            "author": "Barhen",
+            "year": "1997",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib10",
+            "unstructured": "Hu X, Shonkwiller R, Spruill MC. Random restarts in global optimization. Technical Report, School of Mathematics, Georgia Institute of Technology, Atlanta, January 1994"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib11",
+            "first-page": "2",
+            "article-title": "A simple multistart algorithm for global optimization",
+            "volume": "1",
+            "author": "Hickernell",
+            "year": "1997",
+            "journal-title": "OR Trans."
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "308",
+            "DOI": "10.1093/comjnl/7.4.308",
+            "article-title": "A simplex for function minimization",
+            "volume": "7",
+            "author": "Nelder",
+            "year": "1965",
+            "journal-title": "Comput. J."
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib13",
+            "series-title": "Pattern classification",
+            "author": "Duda",
+            "year": "2001"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib14",
+            "unstructured": "Wright MH. Direct search methods: one scorned, now respectable. In: Dundee Biennal Conference in Numerical Analysis, Harlow, UK, 1996. p. 191–208"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib15",
+            "series-title": "Foundations of genetic algorithms",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/B978-0-08-050684-5.50009-4",
+            "article-title": "A study of reproduction in generational and steady state genetic algorithms",
+            "author": "Syswerda",
+            "year": "1991"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib16",
+            "series-title": "Composite materials mechanical behavior and structural analysis. Mechanical engineering series",
+            "author": "Berthelot",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.compstruc.2004.03.072_bib17",
+            "series-title": "Elements of structural optimization",
+            "author": "Haftka",
+            "year": "1992"
+          }
+        ],
+        "container-title": [
+          "Computers &amp; Structures"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0045794904002378?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0045794904002378?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              4
+            ]
+          ],
+          "date-time": "2019-02-04T10:21:28Z",
+          "timestamp": 1549275688000
+        },
+        "score": 52.499176,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0045794904002378"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              9
+            ]
+          ]
+        },
+        "references-count": 17,
+        "journal-issue": {
+          "issue": "23-26",
+          "published-print": {
+            "date-parts": [
+              [
+                2004,
+                9
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0045794904002378"
+        ],
+        "URL": "https://doi.org/10.1016/j.compstruc.2004.03.072",
+        "ISSN": [
+          "0045-7949"
+        ],
+        "issn-type": [
+          {
+            "value": "0045-7949",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              9
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

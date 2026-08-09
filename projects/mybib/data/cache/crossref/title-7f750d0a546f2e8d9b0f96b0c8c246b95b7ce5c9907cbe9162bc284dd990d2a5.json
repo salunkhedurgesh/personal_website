@@ -1,0 +1,553 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4614718,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              27
+            ]
+          ],
+          "date-time": "2026-03-27T15:44:24Z",
+          "timestamp": 1774626264385,
+          "version": "3.50.1"
+        },
+        "reference-count": 25,
+        "publisher": "Elsevier BV",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2011-04-01T00:00:00Z",
+              "timestamp": 1301616000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Robotics and Computer-Integrated Manufacturing"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.rcim.2010.09.004",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2010-10-15T04:37:41Z",
+          "timestamp": 1287117461000
+        },
+        "page": "434-449",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 49,
+        "title": [
+          "The power manipulability – A new homogeneous performance index of robot manipulators"
+        ],
+        "prefix": "10.1016",
+        "volume": "27",
+        "author": [
+          {
+            "given": "Imed",
+            "family": "Mansouri",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Mohammed",
+            "family": "Ouali",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib1",
+            "series-title": "Fundamentals of Robotic Mechanical Systems",
+            "author": "Angeles",
+            "year": "1997"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "567",
+            "DOI": "10.1016/j.robot.2006.04.002",
+            "article-title": "Comparative study of performance indices for fundamental robot manipulators",
+            "volume": "54",
+            "author": "Kucuk",
+            "year": "2006",
+            "journal-title": "Robotics and Autonomous Systems"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.rcim.2010.09.004_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "462",
+            "DOI": "10.1109/70.388791",
+            "article-title": "Robot manipulability",
+            "volume": "11",
+            "author": "Doty",
+            "year": "1995",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.rcim.2010.09.004_bib4",
+            "first-page": "1",
+            "article-title": "Noncommensurable systems in robotics",
+            "volume": "17",
+            "author": "Schwartz",
+            "year": "2002",
+            "journal-title": "International Journal of Robotics and Automation"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.rcim.2010.09.004_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "166",
+            "DOI": "10.1109/TRO.2009.2037252",
+            "article-title": "Kinematic-sensitivity indices for dimensionally nonhomogeneous Jacobian matrices",
+            "volume": "26",
+            "author": "Cardou",
+            "year": "2010",
+            "journal-title": "IEEE Transaction on Robotics"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.rcim.2010.09.004_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/027836498500400201",
+            "article-title": "Manipulability of robotic mechanisms",
+            "volume": "4",
+            "author": "Yoshikawa",
+            "year": "1985",
+            "journal-title": "International Journal of Robotic Research"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yoshikawa T. Translational and rotational manipulability of robotic manipulator. In: Proceedings of the American control conference, S. Diego, CA, 1990.",
+            "DOI": "10.23919/ACC.1990.4790733"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib8",
+            "series-title": "Springer handbook of robotics, Part B, robotic structure, performance evaluation and design criteria",
+            "author": "Angeles",
+            "year": "2008"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.rcim.2010.09.004_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "560",
+            "DOI": "10.1177/027836499201100605",
+            "article-title": "Kinematic isotropy and the conditioning index of serial manipulators",
+            "volume": "11",
+            "author": "Angeles",
+            "year": "1992",
+            "journal-title": "International Journal of Robotics Research"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "220",
+            "DOI": "10.1115/1.2912772",
+            "article-title": "A global performance index for the kinematic optimization of robotic manipulators",
+            "volume": "113",
+            "author": "Gosselin",
+            "year": "1991",
+            "journal-title": "Transactions of ASME Journal of Mechanical Design"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.rcim.2010.09.004_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "213",
+            "DOI": "10.1016/0921-8890(92)90039-2",
+            "article-title": "The optimum design of robotic manipulators using dexterity indices",
+            "volume": "9",
+            "author": "Gosselin",
+            "year": "1992",
+            "journal-title": "Robotics and Autonomous Systems"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "199",
+            "DOI": "10.1115/1.2121740",
+            "article-title": "Jacobian, manipulability, condition number, and accuracy of parallel robots",
+            "volume": "128",
+            "author": "Merlet",
+            "year": "2006",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "1063",
+            "DOI": "10.1016/S0094-114X(02)00053-8",
+            "article-title": "Optimal pose trajectory planning for robot manipulators",
+            "volume": "37",
+            "author": "Zha",
+            "year": "2002",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "255",
+            "DOI": "10.1016/S0957-4158(03)00039-4",
+            "article-title": "Non-dimensionalized performance indices based optimal grasping for multi-fingered hands",
+            "volume": "14",
+            "author": "Kim",
+            "year": "2004",
+            "journal-title": "Mechatronics"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "323",
+            "DOI": "10.1016/j.mechatronics.2006.01.004",
+            "article-title": "Task based kinematic design of a two DOF manipulator with a parallelogram five-bar link mechanism",
+            "volume": "16",
+            "author": "Kim",
+            "year": "2006",
+            "journal-title": "Mechatronics"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib16",
+            "first-page": "113",
+            "article-title": "Dynamic manipulability of robot manipulators",
+            "volume": "2",
+            "author": "Yoshikawa",
+            "year": "1985",
+            "journal-title": "Journal of Robotic Systems"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib17",
+            "unstructured": "Stocco L, Salcudean SE, Sassani F. Matrix normalization for optimal robot design. In: Proceedings of the IEEE International Conference on Robotics & Automation, Leuven, Belgium, 1998."
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib18",
+            "unstructured": "Finotello Roberto, Grasso Tlberio, Rossi Giorgio, Terribile Antonio. Computation of kinetostatic performances of robot manipulators with polytopes. In: Proceedings of the IEEE International Conference on Robotics & Automation, Leuven, Belgium, 1998."
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "884",
+            "DOI": "10.1016/j.mechmachtheory.2006.03.010",
+            "article-title": "Is there a characteristic length of a rigid-body displacement?",
+            "volume": "41",
+            "author": "Angeles",
+            "year": "2006",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "168",
+            "DOI": "10.1115/1.2120808",
+            "article-title": "The kinetostatic optimization of robotic manipulators: the inverse and the direct problems",
+            "volume": "128",
+            "author": "Khan",
+            "year": "2006",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "1505",
+            "DOI": "10.1016/j.mechmachtheory.2006.01.003",
+            "article-title": "Formulating Jacobian matrices for the dexterity analysis of parallel manipulators",
+            "volume": "41",
+            "author": "Pond",
+            "year": "2006",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "215",
+            "DOI": "10.1115/1.4011045",
+            "article-title": "A Kinematic notation for lower-pair mechanisms based on matrices",
+            "volume": "77",
+            "author": "Denavit",
+            "year": "1955",
+            "journal-title": "Journal of Applied Mechanics"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib23",
+            "unstructured": "Dombre E, Khalil W. Analyse et modélisation des robots manipulateurs, Hermès Science/Lavoisier, 2001."
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "445",
+            "DOI": "10.1016/j.mechmachtheory.2007.04.002",
+            "article-title": "Accuracy analysis of 3-DOF planar parallel robots",
+            "volume": "43",
+            "author": "Briot",
+            "year": "2008",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/j.rcim.2010.09.004_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "1045",
+            "DOI": "10.1016/j.mechmachtheory.2008.05.009",
+            "article-title": "Power requirement comparison in the 3-RPR planar parallel robot dynamics",
+            "volume": "44",
+            "author": "Staicu",
+            "year": "2009",
+            "journal-title": "Mechanism and Machine Theory"
+          }
+        ],
+        "container-title": [
+          "Robotics and Computer-Integrated Manufacturing"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0736584510001225?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0736584510001225?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2025-10-09T16:52:32Z",
+          "timestamp": 1760028752000
+        },
+        "score": 30.033182,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0736584510001225"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              4
+            ]
+          ]
+        },
+        "references-count": 25,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2011,
+                4
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0736584510001225"
+        ],
+        "URL": "https://doi.org/10.1016/j.rcim.2010.09.004",
+        "ISSN": [
+          "0736-5845"
+        ],
+        "issn-type": [
+          {
+            "value": "0736-5845",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              4
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "The power manipulability – A new homogeneous performance index of robot manipulators",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Robotics and Computer-Integrated Manufacturing",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.rcim.2010.09.004",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2010 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

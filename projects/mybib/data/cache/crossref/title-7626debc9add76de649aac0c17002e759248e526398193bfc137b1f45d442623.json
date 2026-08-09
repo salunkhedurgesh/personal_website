@@ -1,0 +1,544 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 10820774,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              17
+            ]
+          ],
+          "date-time": "2026-02-17T02:12:24Z",
+          "timestamp": 1771294344459,
+          "version": "3.50.1"
+        },
+        "reference-count": 23,
+        "publisher": "Elsevier BV",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2013-03-01T00:00:00Z",
+              "timestamp": 1362096000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "60704020"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "60704020"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Aerospace Science and Technology"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.ast.2011.12.013",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              12,
+              23
+            ]
+          ],
+          "date-time": "2011-12-23T12:03:24Z",
+          "timestamp": 1324641804000
+        },
+        "page": "102-113",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 92,
+        "title": [
+          "Relative motion coupled control based on dual quaternion"
+        ],
+        "prefix": "10.1016",
+        "volume": "25",
+        "author": [
+          {
+            "given": "Jian-Ying",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Hai-Zhao",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Zhao-Wei",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Shu-Nan",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Shi-Jie",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "5",
+            "key": "10.1016/j.ast.2011.12.013_br0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "693",
+            "DOI": "10.1016/S0094-114X(98)00049-4",
+            "article-title": "Dual numbers representation of rigid body dynamics",
+            "volume": "34",
+            "author": "Brodsky",
+            "year": "1999",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0020",
+            "first-page": "381",
+            "article-title": "Preliminary sketch of bi-quaternions",
+            "volume": "4",
+            "author": "Clifford",
+            "year": "1873",
+            "journal-title": "Proceedings of the London Mathematical Society"
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.ast.2011.12.013_br0030",
+            "first-page": "1593",
+            "article-title": "Dual quaternion-based inverse kinetics of the general spatial 7R mechanism",
+            "volume": "222",
+            "author": "Dong",
+            "year": "2008",
+            "journal-title": "Proceedings of the Institution of Mechanical Engineering Science"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0040",
+            "series-title": "Dual-Number Methods in Kinematics, Statics and Dynamics",
+            "author": "Fischer",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0050",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S. Gaulocher, Modeling the coupled translational and rotational relative dynamics for formation flying control, in: AIAA Guidance, Navigation, and Control Conference and Exhibit, San Francisco, USA, 2005.",
+            "DOI": "10.2514/6.2005-6091"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0060",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D.P. Han, Q. Wei, Z.X. Li, W.M. Sun, Control of oriented mechanical systems: a method based on dual quaternion, in: Proceedings of the 17th World Congress the International Federation of Automatic Control, Seoul, Korea, 2008, pp. 3836–3841.",
+            "DOI": "10.3182/20080706-5-KR-1001.00645"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0070",
+            "doi-asserted-by": "crossref",
+            "unstructured": "E.D. Jin, Z.W. Sun, A new simple PD-like robust attitude tracking controller for rigid spacecraft, in: IMACS Multi Conference on Computational Engineering in Systems Applications, Beijing, China, 2006, pp. 727–732.",
+            "DOI": "10.1109/CESA.2006.4281748"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ast.2011.12.013_br0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "43",
+            "DOI": "10.1002/(SICI)1099-1778(199601)7:1<43::AID-VIS136>3.0.CO;2-T",
+            "article-title": "A compact differential formula for the first derivative of a unit quaternion curve",
+            "volume": "7",
+            "author": "Kim",
+            "year": "1996",
+            "journal-title": "Journal of Visualization and Computer Animation"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0090",
+            "unstructured": "R. Kristiansen, Dynamic synchronization of spacecraft: Modeling and coordinated control of leader–follower spacecraft formations, PhD thesis, Norwegian University of Science and Technology, 2008, pp. 59–60."
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "1537",
+            "DOI": "10.1016/j.actaastro.2009.04.014",
+            "article-title": "Spacecraft formation flying: A review and new results on state feedback control",
+            "volume": "65",
+            "author": "Kristiansen",
+            "year": "2009",
+            "journal-title": "Acta Astronautica"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.ast.2011.12.013_br0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "2896",
+            "DOI": "10.1016/j.automatica.2008.04.019",
+            "article-title": "Spacecraft coordination control in 6DOF: Integrator backstepping vs passivity-based control",
+            "volume": "44",
+            "author": "Kristiansen",
+            "year": "2008",
+            "journal-title": "Automatica"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0120",
+            "unstructured": "S.E. Lennox, Coupled attitude and orbital control system using spacecraft simulators, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, USA, 2004, pp. 27–41."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ast.2011.12.013_br0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "425",
+            "DOI": "10.1115/1.1737378",
+            "article-title": "Dual quaternion synthesis of constrained robotic systems",
+            "volume": "126",
+            "author": "Perez",
+            "year": "2004",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0140",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S.R. Polen, F.Y. Hadaegh, D.P. Scharf, Rigid body equations of motion for modeling and control of spacecraft formations – Part 1, in: Proceedings of the American Control Conference, Evaston, USA, 2004, pp. 3646–3653.",
+            "DOI": "10.23919/ACC.2004.1384478"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0150",
+            "series-title": "Adaptive Control: Stability, Convergence, and Robustness",
+            "author": "Sastry",
+            "year": "1989"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ast.2011.12.013_br0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "368",
+            "DOI": "10.2514/1.9910",
+            "article-title": "Application of Cayley form to general spacecraft motion",
+            "volume": "29",
+            "author": "Sinclair",
+            "year": "2006",
+            "journal-title": "Control and Dynamics"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0170",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S.M. Song, B.Q. Zhang, X.Q. Wei, X.L. Chen, Asymptotical stability analysis of “PD+” controller for spacecraft attitude tracking system, in: Proceedings of the 8th World Congress on Intelligent Control and Automation, Jinan, China, 2009, pp. 3908–3913.",
+            "DOI": "10.1109/WCICA.2010.5554976"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0180",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D.T. Stansbery, J.R. Cloutier, Position and attitude control of a spacecraft using the state-dependent Riccati equation technique, in: Proceedings of the American Control Conference, Chicago, USA, 2000, pp. 1867–1871.",
+            "DOI": "10.1109/ACC.2000.879525"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0190",
+            "series-title": "Geometrie der Dynamen",
+            "author": "Study",
+            "year": "1901"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.ast.2011.12.013_br0200",
+            "doi-asserted-by": "crossref",
+            "first-page": "1148",
+            "DOI": "10.1109/9.90228",
+            "article-title": "The attitude control problem",
+            "volume": "36",
+            "author": "Ting-Yung Wen",
+            "year": "1991",
+            "journal-title": "IEEE Transactions on Automatic Control"
+          },
+          {
+            "key": "10.1016/j.ast.2011.12.013_br0210",
+            "unstructured": "H. Wong, H.Z. Pan, V. Kapila, Output feedback control for spacecraft formation flying with coupled translation and attitude dynamics, in: Proceedings of the 2005 American Control Conference, 2005, pp. 2419–2426."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ast.2011.12.013_br0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "110",
+            "DOI": "10.1109/TAES.2005.1413751",
+            "article-title": "Strapdown inertial navigation system algorithms based on dual quaternions",
+            "volume": "41",
+            "author": "Wu",
+            "year": "2005",
+            "journal-title": "Aerospace and Electronic Systems"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ast.2011.12.013_br0230",
+            "first-page": "23",
+            "article-title": "Nonlinear robust control without velocity measurements for satellite formation flying",
+            "volume": "24",
+            "author": "Zhang",
+            "year": "2003",
+            "journal-title": "Journal of Astronautics"
+          }
+        ],
+        "container-title": [
+          "Aerospace Science and Technology"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1270963811002136?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1270963811002136?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2025-10-22T11:21:35Z",
+          "timestamp": 1761132095000
+        },
+        "score": 38.016148,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1270963811002136"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              3
+            ]
+          ]
+        },
+        "references-count": 23,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2013,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S1270963811002136"
+        ],
+        "URL": "https://doi.org/10.1016/j.ast.2011.12.013",
+        "ISSN": [
+          "1270-9638"
+        ],
+        "issn-type": [
+          {
+            "value": "1270-9638",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Relative motion coupled control based on dual quaternion",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Aerospace Science and Technology",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.ast.2011.12.013",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2011 Elsevier Masson SAS. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

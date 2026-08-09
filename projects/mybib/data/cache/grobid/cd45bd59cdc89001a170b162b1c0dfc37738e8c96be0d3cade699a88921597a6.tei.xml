@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Development and Control of the Multi-Legged Robot MANTIS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Sebastian</forename><surname>Bartsch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>Manz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Kampmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexander</forename><surname>Dettmann</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bremen</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hendrik</forename><surname>Hanff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Malte</forename><surname>Langosz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Von Szadkowski</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bremen</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jens</forename><surname>Hilljegerdes</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bremen</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>Simnofske</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philipp</forename><surname>Kloss</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manuel</forename><surname>Meder</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bremen</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Frank</forename><surname>Kirchner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">DFKI GmbH</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bremen</orgName>
+								<address>
+									<settlement>Bremen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Development and Control of the Multi-Legged Robot MANTIS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EF6988F0B4D1DC120C81DE4702CD614B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper presents the multi-legged robot MANTIS which is developed within the project LIMES at the DFKI RIC and the University of Bremen. In particular, we describe the mechanical design, the sensor setup, electronics, and computing hardware. Furthermore we give a short introduction to the software framework for simulation-based motion behavior generation and optimization for such kinematically complex robots as well as to the online locomotion control and evaluation approach for context-based utilization and adaptation of these behaviors. Finally, applied methodologies and experiments allowing to assess and reduce the difference between observed and simulated behavior of the robot and its subsystems are presented.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

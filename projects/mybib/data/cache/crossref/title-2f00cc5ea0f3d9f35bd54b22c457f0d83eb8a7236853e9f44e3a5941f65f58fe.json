@@ -1,0 +1,1067 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6828538,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              8
+            ]
+          ],
+          "date-time": "2026-02-08T11:50:54Z",
+          "timestamp": 1770551454233,
+          "version": "3.49.0"
+        },
+        "reference-count": 79,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  6
+                ]
+              ],
+              "date-time": "2022-01-06T00:00:00Z",
+              "timestamp": 1641427200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  6
+                ]
+              ],
+              "date-time": "2022-01-06T00:00:00Z",
+              "timestamp": 1641427200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "11961077"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "11961077"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "11601470"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "11601470"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "IRTSTYN and Joint Key Project of Yunnan Provincial Science and Technology Department of Yunnan University",
+            "award": [
+              "2018FY001(-014)"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2018FY001(-014)"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J Geom Anal"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1007/s12220-021-00831-w",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2022-01-06T21:11:51Z",
+          "timestamp": 1641503511000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 14,
+        "title": [
+          "A New Quaternion Hyper-Complex Space with Hyper Argument and Basic Functions via Quaternion Dynamic Equations"
+        ],
+        "prefix": "10.1007",
+        "volume": "32",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6357-3661",
+            "authenticated-orcid": false,
+            "given": "Chao",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Zhien",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ravi P.",
+            "family": "Agarwal",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              6
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "831_CR1",
+            "first-page": "11",
+            "volume": "1046",
+            "author": "SL Adler",
+            "year": "1986",
+            "unstructured": "Adler, S.L.: Quaternionic quantum field theory. Commun. Math. Phys. 1046, 11–656 (1986)",
+            "journal-title": "Commun. Math. Phys."
+          },
+          {
+            "key": "831_CR2",
+            "volume-title": "Quaternionic Quantum Mechanics and Quantum Fields",
+            "author": "SL Adler",
+            "year": "1995",
+            "unstructured": "Adler, S.L.: Quaternionic Quantum Mechanics and Quantum Fields. Oxford Univ. Press, NewYork (1995)"
+          },
+          {
+            "key": "831_CR3",
+            "first-page": "153",
+            "volume": "99",
+            "author": "RP Agarwal",
+            "year": "1999",
+            "unstructured": "Agarwal, R.P., Bohner, M., Wong, P.J.Y.: Sturm-Liouville eigenvalue problems on time scales. Appl. Math. Comput. 99, 153–166 (1999)",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "831_CR4",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9780511543005",
+            "volume-title": "Fixed Point Theory and Applications. Cambridge Tracts in Mathematics",
+            "author": "RP Agarwal",
+            "year": "2001",
+            "unstructured": "Agarwal, R.P., Meehan, M., O’Regan, D.: Fixed Point Theory and Applications. Cambridge Tracts in Mathematics, vol. 141. Cambridge University Press, Cambridge (2001)"
+          },
+          {
+            "key": "831_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/S0377-0427(01)00432-0",
+            "volume": "141",
+            "author": "RP Agarwal",
+            "year": "2002",
+            "unstructured": "Agarwal, R.P., Meehan, M., O’Regan, D., Peterson, A.: Dynamic equations on time scales: a survey. J. Comput. Appl. Math. 141, 1–26 (2002)",
+            "journal-title": "J. Comput. Appl. Math."
+          },
+          {
+            "key": "831_CR6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Alpay, D., Colombo, F., Sabadini, I.: Quaternionic de Branges Spaces and Characteristic Operator Function. Springer Briefs in Mathematics. Springer, Cham (2020)",
+            "DOI": "10.1007/978-3-030-38312-1"
+          },
+          {
+            "key": "831_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "1939",
+            "DOI": "10.1007/s12220-014-9499-9",
+            "volume": "25",
+            "author": "D Alpay",
+            "year": "2015",
+            "unstructured": "Alpay, D., Colombo, F., Gantner, J., Sabadini, I.: A new resolvent equation for the S-functional calculus. J. Geom. Anal. 25, 1939–1968 (2015)",
+            "journal-title": "J. Geom. Anal."
+          },
+          {
+            "key": "831_CR8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Alpay, D., Colombo, F., Sabadini, I.: Slice Hyperholomorphic Schur Analysis, Operator Theory: Advances and Applications, vol. 256. Birkhäuser/Springer, Cham (2016)",
+            "DOI": "10.1007/978-3-319-42514-6"
+          },
+          {
+            "key": "831_CR9",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Alpay, D., Colombo, F., Kimsey, D.P.: The spectral theorem for quaternionic unbounded normal operators based on the S-spectrum. J. Math. Phys. 57,(2016). https://doi.org/10.1063/1.4940051",
+            "DOI": "10.1063/1.4940051"
+          },
+          {
+            "key": "831_CR10",
+            "volume-title": "Rotations, Quaternions and Double Groups",
+            "author": "SL Altmann",
+            "year": "1986",
+            "unstructured": "Altmann, S.L.: Rotations, Quaternions and Double Groups. Clarendon Press, Oxford (1986)"
+          },
+          {
+            "key": "831_CR11",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4757-1693-1",
+            "volume-title": "Mathematical Methods of Classical Mechanics",
+            "author": "VI Arnold",
+            "year": "1978",
+            "unstructured": "Arnold, V.I.: Mathematical Methods of Classical Mechanics. Springer, New York (1978)"
+          },
+          {
+            "key": "831_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "57",
+            "DOI": "10.1007/BF03024312",
+            "volume": "18",
+            "author": "H Aslaksen",
+            "year": "1996",
+            "unstructured": "Aslaksen, H.: Quaternionic determinants. Math. Intell. 18, 57–65 (1996)",
+            "journal-title": "Math. Intell."
+          },
+          {
+            "key": "831_CR13",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4612-0201-1",
+            "volume-title": "Dynamic Equations on Time Scales",
+            "author": "M Bohner",
+            "year": "2001",
+            "unstructured": "Bohner, M., Peterson, A.: Dynamic Equations on Time Scales. Birkhăuser, Boston (2001)"
+          },
+          {
+            "key": "831_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "109",
+            "DOI": "10.1007/s10231-004-0139-z",
+            "volume": "185",
+            "author": "J Campos",
+            "year": "2006",
+            "unstructured": "Campos, J., Mawhin, J.: Periodic solutions of quaternionic-values ordinary differential equations. Ann. Mat. 185, 109–127 (2006)",
+            "journal-title": "Ann. Mat."
+          },
+          {
+            "key": "831_CR15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cayley, A.: On certain results relating to quaternions, Philos. Mag. 26, 141–145 (1845). Reprinted in the Collected Mathematical Papers, vol. 1, pp. 123–126. Cambridge University Press, Cambridge (1989)",
+            "DOI": "10.1017/CBO9780511703676.021"
+          },
+          {
+            "key": "831_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "3257",
+            "DOI": "10.1090/tran/7749",
+            "volume": "372",
+            "author": "P Cerejeiras",
+            "year": "2019",
+            "unstructured": "Cerejeiras, P., Colombo, F., Kähler, U., Sabadini, I.: Perturbation of normal quaternionic operators. Trans. Am. Math. Soc. 372, 3257–3281 (2019)",
+            "journal-title": "Trans. Am. Math. Soc."
+          },
+          {
+            "key": "831_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "1045",
+            "DOI": "10.1090/tran/7013",
+            "volume": "370",
+            "author": "F Colombo",
+            "year": "2018",
+            "unstructured": "Colombo, F., Gantner, J.: Fractional powers of quaternionic operators and Kato’s formula using slice hyperholomorphicity. Trans. Am. Math. Soc. 370, 1045–1100 (2018)",
+            "journal-title": "Trans. Am. Math. Soc."
+          },
+          {
+            "key": "831_CR18",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Colombo, F., Gantner, J.: Quaternionic Closed Operators, Fractional Powers and Fractional Diffusion Processes. Operator Theory: Advances and Applications, vol. 274. Birkhäuser/Springer, Cham (2019)",
+            "DOI": "10.1007/978-3-030-16409-6"
+          },
+          {
+            "key": "831_CR19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Colombo, F., Sabadini, I.: A structure formula for slice monogenic functions and some of its consequences. In: Hypercomplex Analysis, pp. 101–114. Trends in Mathematics. Birkhäuser Verlag, Basel (2009)",
+            "DOI": "10.1007/978-3-7643-9893-4_6"
+          },
+          {
+            "key": "831_CR20",
+            "doi-asserted-by": "crossref",
+            "first-page": "601",
+            "DOI": "10.1007/s12220-009-9075-x",
+            "volume": "19",
+            "author": "F Colombo",
+            "year": "2009",
+            "unstructured": "Colombo, F., Sabadini, I.: On some properties of the quaternionic functional calculus. J. Geom. Anal. 19, 601–627 (2009)",
+            "journal-title": "J. Geom. Anal."
+          },
+          {
+            "key": "831_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "1490",
+            "DOI": "10.1016/j.geomphys.2010.05.014",
+            "volume": "60",
+            "author": "F Colombo",
+            "year": "2010",
+            "unstructured": "Colombo, F., Sabadini, I.: On the formulations of the quaternionic functional calculus. J. Geom. Phys. 60, 1490–1508 (2010)",
+            "journal-title": "J. Geom. Phys."
+          },
+          {
+            "key": "831_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "1772",
+            "DOI": "10.1016/j.aim.2011.04.001",
+            "volume": "227",
+            "author": "F Colombo",
+            "year": "2011",
+            "unstructured": "Colombo, F., Sabadini, I.: The quaternionic evolution operator. Adv. Math. 227, 1772–1805 (2011)",
+            "journal-title": "Adv. Math."
+          },
+          {
+            "key": "831_CR23",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Colombo, F., Sabadini, I., Struppa, D.C.: Noncommutative functional calculus. Theory and applications of slice hyperholomorphic functions, Progress in Mathematics, 289. Birkhäuser/Springer Basel AG, Basel (2011)",
+            "DOI": "10.1007/978-3-0348-0110-2"
+          },
+          {
+            "key": "831_CR24",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Colombo, F., Gantner, J., Kimsey, D.P.: Spectral Theory on the S-Spectrum for Quaternionic Operators. Operator Theory: Advances and Applications, vol. 270. Birkhauser/Springer, Cham (2018)",
+            "DOI": "10.1007/978-3-030-03074-2"
+          },
+          {
+            "key": "831_CR25",
+            "doi-asserted-by": "crossref",
+            "first-page": "45",
+            "DOI": "10.1007/s00006-021-01148-1",
+            "volume": "31",
+            "author": "F Colombo",
+            "year": "2021",
+            "unstructured": "Colombo, F., Gantner, J., Pinton, S.: An introduction to hyperholomorphic spectral theories and fractional powers of vector operators. Adv. Appl. Clifford Algebr. 31, 45 (2021)",
+            "journal-title": "Adv. Appl. Clifford Algebr."
+          },
+          {
+            "key": "831_CR26",
+            "volume-title": "A Course in Functional Analysis",
+            "author": "JB Conway",
+            "year": "1994",
+            "unstructured": "Conway, J.B.: A Course in Functional Analysis, 2nd edn. Springer, Berlin (1994)",
+            "edition": "2"
+          },
+          {
+            "key": "831_CR27",
+            "first-page": "1",
+            "volume": "147",
+            "author": "V Cortés",
+            "year": "2000",
+            "unstructured": "Cortés, V.: A new construction of homogeneous quaternionic manifolds and related geometric structures. Mem. AMS 147, 1–63 (2000)",
+            "journal-title": "Mem. AMS"
+          },
+          {
+            "key": "831_CR28",
+            "doi-asserted-by": "crossref",
+            "first-page": "787",
+            "DOI": "10.1007/s00220-012-1541-9",
+            "volume": "317",
+            "author": "V Cortés",
+            "year": "2013",
+            "unstructured": "Cortés, V., Louis, J., Smyth, P., Triend, H.: On certain Kähler quotients of quaternionic Kähler manifolds. Commun. Math. Phys. 317, 787–816 (2013)",
+            "journal-title": "Commun. Math. Phys."
+          },
+          {
+            "key": "831_CR29",
+            "first-page": "1",
+            "volume": "12",
+            "author": "M Danielewski",
+            "year": "2020",
+            "unstructured": "Danielewski, M., Sapa, L.: Foundations of quaternion quantum mechanics. J. Math. Phys. 12, 1–22 (2020)",
+            "journal-title": "J. Math. Phys."
+          },
+          {
+            "key": "831_CR30",
+            "first-page": "1",
+            "volume": "267",
+            "author": "J Gantner",
+            "year": "2020",
+            "unstructured": "Gantner, J.: Operator theory on one-sided quaternionic linear spaces: intrinsic S-functional calculus and spectral operators. Mem. Am. Math. Soc. 267, 1–101 (2020)",
+            "journal-title": "Mem. Am. Math. Soc."
+          },
+          {
+            "key": "831_CR31",
+            "doi-asserted-by": "crossref",
+            "first-page": "082705",
+            "DOI": "10.1063/1.3139115",
+            "volume": "50",
+            "author": "A Gasull",
+            "year": "2009",
+            "unstructured": "Gasull, A., Llibre, J., Zhang, X.: One-dimensional quaternion homogeneous polynomial differential equations. J. Math. Phys. 50, 082705 (2009)",
+            "journal-title": "J. Math. Phys."
+          },
+          {
+            "key": "831_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "550",
+            "DOI": "10.1063/1.4825549",
+            "volume": "1558",
+            "author": "S Georgiev",
+            "year": "2013",
+            "unstructured": "Georgiev, S., Morais, J.: An introduction to the Hilger quaternion numbers. AIP Conf. Proc. 1558, 550–553 (2013). https://doi.org/10.1063/1.4825549",
+            "journal-title": "AIP Conf. Proc."
+          },
+          {
+            "key": "831_CR33",
+            "first-page": "17",
+            "volume": "166",
+            "author": "JD Gibbon",
+            "year": "2002",
+            "unstructured": "Gibbon, J.D.: A quaternionic structure in the three-dimensional Euler and ideal magneto-hydrodynamics equation. Physica 166, 17–28 (2002)",
+            "journal-title": "Physica"
+          },
+          {
+            "key": "831_CR34",
+            "doi-asserted-by": "crossref",
+            "first-page": "1969",
+            "DOI": "10.1088/0951-7715/19/8/011",
+            "volume": "19",
+            "author": "JD Gibbon",
+            "year": "2006",
+            "unstructured": "Gibbon, J.D., Holm, D.D., Kerr, R.M., Roulstone, I.: Quaternions and particle dynamics in the Euler fluid equations. Nonlinearity 19, 1969–1983 (2006)",
+            "journal-title": "Nonlinearity"
+          },
+          {
+            "key": "831_CR35",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gürlebeck, K., Sprössig, W.: Quaternionic Analysis and Elliptic Boundary Value Problem. Mathematical Research, vol. 56. Akademie-Verlag, Berlin (1989)",
+            "DOI": "10.1007/978-3-0348-7295-9"
+          },
+          {
+            "key": "831_CR36",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-0348-7295-9",
+            "volume-title": "Quaternionic Analysis and Elliptic Boundary Value Problems",
+            "author": "K Gürlebeck",
+            "year": "1990",
+            "unstructured": "Gürlebeck, K., Sprößig, W.: Quaternionic Analysis and Elliptic Boundary Value Problems. Birkhäuser, Basel (1990)"
+          },
+          {
+            "key": "831_CR37",
+            "volume-title": "Quaternionic and Clifford Calculus for Physicists and Engineers",
+            "author": "K Gürlebeck",
+            "year": "1997",
+            "unstructured": "Gürlebeck, K., Sprössig, W.: Quaternionic and Clifford Calculus for Physicists and Engineers. Wiley, New York (1997)"
+          },
+          {
+            "key": "831_CR38",
+            "volume-title": "Quaternionic Calculus for Engineers and Physicists",
+            "author": "K Gürlebeck",
+            "year": "1997",
+            "unstructured": "Gürlebeck, K., Sprößig, W.: Quaternionic Calculus for Engineers and Physicists. Wiley, Chichester (1997)"
+          },
+          {
+            "key": "831_CR39",
+            "unstructured": "Hamilton, S.W.R.: Lectures on Quaternions, Royal Irish Academy. Hodges and Smith, Dublin (1853)"
+          },
+          {
+            "key": "831_CR40",
+            "volume-title": "Visualizing Quaternions",
+            "author": "AJ Hanson",
+            "year": "2006",
+            "unstructured": "Hanson, A.J.: Visualizing Quaternions. Elsevier, San Francisco (2006)"
+          },
+          {
+            "key": "831_CR41",
+            "unstructured": "Hilger, S.: Ein Maßettenkalkül mit Anwendung auf Zentrumsmannigfaltigkeiten. PhD thesis, Universităt Wŭrzburg (1988)"
+          },
+          {
+            "key": "831_CR42",
+            "doi-asserted-by": "crossref",
+            "first-page": "95",
+            "DOI": "10.1016/0022-1236(92)90065-Q",
+            "volume": "106",
+            "author": "S Hilger",
+            "year": "1992",
+            "unstructured": "Hilger, S.: Smoothness of invariant manifolds. J. Funct. Anal. 106, 95–129 (1992)",
+            "journal-title": "J. Funct. Anal."
+          },
+          {
+            "key": "831_CR43",
+            "doi-asserted-by": "crossref",
+            "first-page": "157",
+            "DOI": "10.1017/S1446788700037587",
+            "volume": "60",
+            "author": "S Hilger",
+            "year": "1996",
+            "unstructured": "Hilger, S.: Generalized theorem of Hartman–Grobman on measure chains. J. Austral. Math. Soc. Ser. A. 60, 157–191 (1996)",
+            "journal-title": "J. Austral. Math. Soc. Ser. A."
+          },
+          {
+            "key": "831_CR44",
+            "doi-asserted-by": "crossref",
+            "first-page": "2683",
+            "DOI": "10.1016/S0362-546X(96)00204-0",
+            "volume": "30",
+            "author": "S Hilger",
+            "year": "1997",
+            "unstructured": "Hilger, S.: Differential and difference calculus-united! Nonlinear Anal. 30, 2683–2694 (1997)",
+            "journal-title": "Nonlinear Anal."
+          },
+          {
+            "issue": "3–4",
+            "key": "831_CR45",
+            "first-page": "489",
+            "volume": "8",
+            "author": "R Hilscher",
+            "year": "1999",
+            "unstructured": "Hilscher, R.: Linear Hamiltonian systems on time scales: transformations. Dyn. Syst. Appl. 8(3–4), 489–501 (1999)",
+            "journal-title": "Dyn. Syst. Appl."
+          },
+          {
+            "key": "831_CR46",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1111/sapm.12211",
+            "volume": "141",
+            "author": "KI Kou",
+            "year": "2018",
+            "unstructured": "Kou, K.I., Xia, Y.: Linear quaternion differential equations: basic theory and fundamental results. Stud. Appl. Math. 141, 3–45 (2018)",
+            "journal-title": "Stud. Appl. Math."
+          },
+          {
+            "key": "831_CR47",
+            "volume-title": "Quaternions and Rotation Sequences—A Primer with Applications to Orbits, Aerospace, and Virtual Reality",
+            "author": "JB Kuipers",
+            "year": "1999",
+            "unstructured": "Kuipers, J.B.: Quaternions and Rotation Sequences—A Primer with Applications to Orbits, Aerospace, and Virtual Reality. Princeton University Press, Princeton, NJ (1999)"
+          },
+          {
+            "key": "831_CR48",
+            "series-title": "Lecture Notes in Physics",
+            "first-page": "1",
+            "volume-title": "Dynamical Systems, Theory and Applications",
+            "author": "OE Lanford",
+            "year": "1975",
+            "unstructured": "Lanford, O.E.: Time evolution of large classical systems. In: Moser, J. (ed.) Dynamical Systems, Theory and Applications. Lecture Notes in Physics, vol. 38, pp. 1–111. Springer, Berlin (1975)"
+          },
+          {
+            "key": "831_CR49",
+            "doi-asserted-by": "crossref",
+            "first-page": "2224",
+            "DOI": "10.1063/1.1563735",
+            "volume": "44",
+            "author": "SD Leo",
+            "year": "2003",
+            "unstructured": "Leo, S.D., Ducati, G.C.: Solving simple quaternionic differential equations. J. Math. Phys. 44, 2224–2233 (2003)",
+            "journal-title": "J. Math. Phys."
+          },
+          {
+            "key": "831_CR50",
+            "doi-asserted-by": "crossref",
+            "first-page": "353",
+            "DOI": "10.1515/math-2020-0021",
+            "volume": "18",
+            "author": "Z Li",
+            "year": "2020",
+            "unstructured": "Li, Z., Wang, C.: Cauchy matrix and Liouville formula of quaternion impulsive dynamic equations on time scales. Open Math. 18, 353–377 (2020)",
+            "journal-title": "Open Math."
+          },
+          {
+            "key": "831_CR51",
+            "doi-asserted-by": "crossref",
+            "first-page": "665",
+            "DOI": "10.4171/RMI/164",
+            "volume": "10",
+            "author": "C Li",
+            "year": "1994",
+            "unstructured": "Li, C., McIntosh, A., Qian, T.: Clifford algebras, Fourier transforms and singular convolution operators on Lipschitz surfaces. Rev. Mat. Iberoam. 10, 665–721 (1994)",
+            "journal-title": "Rev. Mat. Iberoam."
+          },
+          {
+            "key": "831_CR52",
+            "doi-asserted-by": "crossref",
+            "first-page": "139",
+            "DOI": "10.1111/sapm.12344",
+            "volume": "146",
+            "author": "Z Li",
+            "year": "2021",
+            "unstructured": "Li, Z., Wang, C., Agarwal, R.P., O’Regan, D.: Commutativity of quaternion-matrix-valued functions and quaternion matrix dynamic equations on time scales. Stud. Appl. Math. 146, 139–210 (2021)",
+            "journal-title": "Stud. Appl. Math."
+          },
+          {
+            "key": "831_CR53",
+            "doi-asserted-by": "crossref",
+            "first-page": "101",
+            "DOI": "10.1002/mma.560",
+            "volume": "28",
+            "author": "L Meister",
+            "year": "2005",
+            "unstructured": "Meister, L., Schaeben, H.: A concise quaternion geometry of rotations. Math. Meth. Appl. Sci. 28, 101–126 (2005)",
+            "journal-title": "Math. Meth. Appl. Sci."
+          },
+          {
+            "key": "831_CR54",
+            "doi-asserted-by": "crossref",
+            "first-page": "1317",
+            "DOI": "10.1090/S0025-5718-2014-02888-3",
+            "volume": "84",
+            "author": "J Morais",
+            "year": "2015",
+            "unstructured": "Morais, J., Cação, I.: Quaternion Zernike spherical polynomials. Math. Comput. 84, 1317–1337 (2015)",
+            "journal-title": "Math. Comput."
+          },
+          {
+            "key": "831_CR55",
+            "doi-asserted-by": "crossref",
+            "first-page": "3961",
+            "DOI": "10.1002/mma.3838",
+            "volume": "39",
+            "author": "J Morais",
+            "year": "2016",
+            "unstructured": "Morais, J., Kou, K.I.: Constructing prolate spheroidal quaternion wave functions on the sphere. Math. Methods Appl. Sci. 39, 3961–3978 (2016)",
+            "journal-title": "Math. Methods Appl. Sci."
+          },
+          {
+            "key": "831_CR56",
+            "volume-title": "Real Quaternionic Calculus Handbook",
+            "author": "J Morais",
+            "year": "2010",
+            "unstructured": "Morais, J., Georgiev, S., Sprößig, W.: Real Quaternionic Calculus Handbook. Springer, Basel (2010)"
+          },
+          {
+            "key": "831_CR57",
+            "unstructured": "Neumann, J.V.: Mathematical Foundations of Quantum Mechanics (Trans. R.T. Beyer). Princeton University Press, Princeton (1955)"
+          },
+          {
+            "key": "831_CR58",
+            "unstructured": "Qian, T.: Singular integrals on the n-torus and its Lipschitz perturbations. In: Clifford Algebras in Analysis and Related Topics. Studies in Advanced Mathematics, pp. 94–108. CRC Press, Boca Raton (1996)"
+          },
+          {
+            "key": "831_CR59",
+            "doi-asserted-by": "crossref",
+            "first-page": "601",
+            "DOI": "10.1007/s002080050162",
+            "volume": "310",
+            "author": "T Qian",
+            "year": "1998",
+            "unstructured": "Qian, T.: Singular integrals on star-shaped Lipschitz surfaces in the quaternionic space. Math. Ann. 310, 601–630 (1998)",
+            "journal-title": "Math. Ann."
+          },
+          {
+            "key": "831_CR60",
+            "first-page": "349",
+            "volume": "35",
+            "author": "T Qian",
+            "year": "1996",
+            "unstructured": "Qian, T., Ryan, J.: Conformal transformations and Hardy spaces arising in Clifford analysis. J. Oper. Theory. 35, 349–372 (1996)",
+            "journal-title": "J. Oper. Theory."
+          },
+          {
+            "key": "831_CR61",
+            "doi-asserted-by": "crossref",
+            "first-page": "753",
+            "DOI": "10.1007/s00041-009-9062-4",
+            "volume": "15",
+            "author": "T Qian",
+            "year": "2009",
+            "unstructured": "Qian, T., Yang, Y.: Hilbert transforms on the sphere with the Clifford algebra setting. J. Fourier Anal. Appl. 15, 753–774 (2009)",
+            "journal-title": "J. Fourier Anal. Appl."
+          },
+          {
+            "key": "831_CR62",
+            "volume-title": "Topic in Quaternion Linear Algebra",
+            "author": "L Rodman",
+            "year": "2014",
+            "unstructured": "Rodman, L.: Topic in Quaternion Linear Algebra. Princeton University Press, Princeton (2014)"
+          },
+          {
+            "key": "831_CR63",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1088/0305-4470/30/4/004",
+            "volume": "30",
+            "author": "VN Roubtsov",
+            "year": "1997",
+            "unstructured": "Roubtsov, V.N., Roulstone, I.: Examples of quaternionic and Kähler structures in Hamiltonian models of nearly geostrophic flow. J. Phys. A. 30, 63–68 (1997)",
+            "journal-title": "J. Phys. A."
+          },
+          {
+            "key": "831_CR64",
+            "doi-asserted-by": "crossref",
+            "first-page": "1519",
+            "DOI": "10.1098/rspa.2001.0779",
+            "volume": "457",
+            "author": "VN Roubtsov",
+            "year": "2001",
+            "unstructured": "Roubtsov, V.N., Roulstone, I.: Holomorphic structures in hydrodynamical models of nearly geostrophic flow. Proc. R. Soc. Lond. A 457, 1519–1531 (2001)",
+            "journal-title": "Proc. R. Soc. Lond. A"
+          },
+          {
+            "key": "831_CR65",
+            "doi-asserted-by": "crossref",
+            "first-page": "151",
+            "DOI": "10.1080/00036818208839388",
+            "volume": "13",
+            "author": "J Ryan",
+            "year": "1982",
+            "unstructured": "Ryan, J.: Clifford analysis with generalized elliptic and quasi-elliptic functions. Appl. Anal. 13, 151–171 (1982)",
+            "journal-title": "Appl. Anal."
+          },
+          {
+            "key": "831_CR66",
+            "first-page": "167",
+            "volume": "5",
+            "author": "W Sprößig",
+            "year": "1995",
+            "unstructured": "Sprößig, W.: On decompositions of the Clifford valued Hilbert space and their applications to boundary value problems. Adv. Appl. Clifford Algebr. 5, 167–186 (1995)",
+            "journal-title": "Adv. Appl. Clifford Algebr."
+          },
+          {
+            "key": "831_CR67",
+            "doi-asserted-by": "crossref",
+            "first-page": "199",
+            "DOI": "10.1017/S0305004100055638",
+            "volume": "85",
+            "author": "A Sudbery",
+            "year": "1979",
+            "unstructured": "Sudbery, A.: Quaternionic analysis. Math. Proc. Camb. Philos. Soc. 85, 199–224 (1979)",
+            "journal-title": "Math. Proc. Camb. Philos. Soc."
+          },
+          {
+            "key": "831_CR68",
+            "first-page": "337",
+            "volume": "162",
+            "author": "K Viswanath",
+            "year": "1971",
+            "unstructured": "Viswanath, K.: Normal operators on quaternionic Hilbert space. Trans. Am. Math. Soc. 162, 337–350 (1971)",
+            "journal-title": "Trans. Am. Math. Soc."
+          },
+          {
+            "key": "831_CR69",
+            "doi-asserted-by": "crossref",
+            "first-page": "58",
+            "DOI": "10.1016/j.aml.2017.03.009",
+            "volume": "70",
+            "author": "C Wang",
+            "year": "2017",
+            "unstructured": "Wang, C., Agarwal, R.P.: Almost periodic solution for a new type of neutral impulsive stochastic Lasota–Wazewska timescale model. Appl. Math. Lett. 70, 58–65 (2017)",
+            "journal-title": "Appl. Math. Lett."
+          },
+          {
+            "key": "831_CR70",
+            "doi-asserted-by": "crossref",
+            "first-page": "781",
+            "DOI": "10.3934/dcdsb.2020099",
+            "volume": "25",
+            "author": "C Wang",
+            "year": "2020",
+            "unstructured": "Wang, C., Agarwal, R.P.: Almost automorphic functions on semigroups induced by complete-closed time scales and application to dynamic equations. Discret. Contin. Dyn. Syst. Ser. B 25, 781–798 (2020)",
+            "journal-title": "Discret. Contin. Dyn. Syst. Ser. B"
+          },
+          {
+            "key": "831_CR71",
+            "doi-asserted-by": "crossref",
+            "first-page": "3005",
+            "DOI": "10.1007/s40314-017-0495-0",
+            "volume": "37",
+            "author": "C Wang",
+            "year": "2018",
+            "unstructured": "Wang, C., Agarwal, R.P., Sakthivel, R.: Almost periodic oscillations for delay impulsive stochastic Nicholson’s blowflies timescale model. Comput. Appl. Math. 37, 3005–3026 (2018)",
+            "journal-title": "Comput. Appl. Math."
+          },
+          {
+            "key": "831_CR72",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.fss.2018.12.008",
+            "volume": "375",
+            "author": "C Wang",
+            "year": "2019",
+            "unstructured": "Wang, C., Agarwal, R.P., O’Regan, D.: Calculus of fuzzy vector-valued functions and almost periodic fuzzy vector-valued functions on time scales. Fuzzy. Sets Syst. 375, 1–52 (2019)",
+            "journal-title": "Fuzzy. Sets Syst."
+          },
+          {
+            "key": "831_CR73",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-030-38644-3",
+            "volume-title": "Theory of Translation Closedness for Time Scales, Developments in Mathematics",
+            "author": "C Wang",
+            "year": "2020",
+            "unstructured": "Wang, C., Agarwal, R.P., O’Regan, D., Sakthivel, R.: Theory of Translation Closedness for Time Scales, Developments in Mathematics, vol. 62. Springer, Switzerland (2020)"
+          },
+          {
+            "key": "831_CR74",
+            "doi-asserted-by": "crossref",
+            "first-page": "2163",
+            "DOI": "10.1016/j.jde.2009.06.015",
+            "volume": "247",
+            "author": "P Wilczyński",
+            "year": "2009",
+            "unstructured": "Wilczyński, P.: Quaternionic-valued ordinary differential equations. The Riccati equation. J. Differ. Equ. 247, 2163–2187 (2009)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "831_CR75",
+            "doi-asserted-by": "crossref",
+            "first-page": "4503",
+            "DOI": "10.1016/j.jde.2012.01.005",
+            "volume": "252",
+            "author": "P Wilczyński",
+            "year": "2012",
+            "unstructured": "Wilczyński, P.: Quaternionic-valued ordinary differential equations II. Coinciding sectors. J. Differ. Equ. 252, 4503–4528 (2012)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "831_CR76",
+            "doi-asserted-by": "crossref",
+            "first-page": "249",
+            "DOI": "10.1109/TNNLS.2015.2440473",
+            "volume": "27",
+            "author": "D Xu",
+            "year": "2016",
+            "unstructured": "Xu, D., Xia, Y., Mandic, D.P.: Optimization in quaternion dynamic systems: gradient, hessian, and learning algorithms. IEEE Trans. Neural Netw. Learn. Syst. 27, 249–261 (2016)",
+            "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+          },
+          {
+            "key": "831_CR77",
+            "doi-asserted-by": "crossref",
+            "first-page": "139",
+            "DOI": "10.1016/j.laa.2006.08.004",
+            "volume": "424",
+            "author": "F Zhang",
+            "year": "2007",
+            "unstructured": "Zhang, F.: Gersgorin type theorems for quaternionic matrices. Linear Algebr. Appl. 424, 139–153 (2007)",
+            "journal-title": "Linear Algebr. Appl."
+          },
+          {
+            "key": "831_CR78",
+            "doi-asserted-by": "crossref",
+            "first-page": "301",
+            "DOI": "10.1007/s00220-011-1196-y",
+            "volume": "303",
+            "author": "X Zhang",
+            "year": "2011",
+            "unstructured": "Zhang, X.: Global structure of quaternion polynomial differential equations. Commun. Math. Phys. 303, 301–316 (2011)",
+            "journal-title": "Commun. Math. Phys."
+          },
+          {
+            "key": "831_CR79",
+            "doi-asserted-by": "crossref",
+            "first-page": "2363",
+            "DOI": "10.1081/AGB-100002394",
+            "volume": "29",
+            "author": "F Zhang",
+            "year": "2001",
+            "unstructured": "Zhang, F., Wei, Y.: Jordan canonical from of a partitioned complex matrix and its application to real quaternion matrices. Commun. Algebr. 29, 2363–2375 (2001)",
+            "journal-title": "Commun. Algebr."
+          }
+        ],
+        "container-title": [
+          "The Journal of Geometric Analysis"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s12220-021-00831-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s12220-021-00831-w/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s12220-021-00831-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2024-09-15T20:52:18Z",
+          "timestamp": 1726433538000
+        },
+        "score": 46.679127,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s12220-021-00831-w"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              6
+            ]
+          ]
+        },
+        "references-count": 79,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "831"
+        ],
+        "URL": "https://doi.org/10.1007/s12220-021-00831-w",
+        "ISSN": [
+          "1050-6926",
+          "1559-002X"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-6926",
+            "type": "print"
+          },
+          {
+            "value": "1559-002X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              6
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "1 May 2021",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "27 July 2021",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "6 January 2022",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "The authors declare that they have no competing interests.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Conflict of interest"
+            }
+          }
+        ],
+        "article-number": "67"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

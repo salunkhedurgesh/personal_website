@@ -1,0 +1,258 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1115877,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2026-03-05T17:56:52Z",
+          "timestamp": 1772733412886,
+          "version": "3.50.1"
+        },
+        "reference-count": 13,
+        "publisher": "ASME International",
+        "issue": "2",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In this paper, we present a general and systematic analysis of cable-driven planar parallel mechanisms. The equations for the velocities are derived, and the forces in the cables are obtained by the principle of virtual work. Then, a detailed analysis of the workspace is performed and an analytical method for the determination of the boundaries of an x-y two-dimensional subset is proposed. The new notion of dynamic workspace is defined, as its shape depends on the accelerations of the end-effector. We demonstrate that any subset of the workspace can be considered as a combination of three-cable subworkspaces, with boundaries being of two kinds: two-cable equilibrium loci and three-cable singularity loci. By using a parametric representation, we see that for the x-y workspace of a simple no-spring mechanism, the two-cable equilibrium loci represent a hyperbolic section, degenerating, in some particular cases, to one or two linear segments. Examples of such loci are presented. We use quadratic programming to choose which sections of the curves constitute the boundaries of the workspace for any particular dynamic state. A detailed example of workspace determination is included for a six-cable mechanism.</jats:p>",
+        "DOI": "10.1115/1.1830045",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2005-03-25T23:01:17Z",
+          "timestamp": 1111791677000
+        },
+        "page": "242-248",
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 138,
+        "title": [
+          "Determination of the Dynamic Workspace of Cable-Driven Planar Parallel Mechanisms"
+        ],
+        "prefix": "10.1115",
+        "volume": "127",
+        "author": [
+          {
+            "given": "Guillaume",
+            "family": "Barrette",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "De´partement de Ge´nie Me´canique, Universite´ Laval, Que´bec, PQ G1K 7P4, Canada"
+              }
+            ]
+          },
+          {
+            "given": "Cle´ment M.",
+            "family": "Gosselin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "De´partement de Ge´nie Me´canique, Universite´ Laval, Que´bec, PQ G1K 7P4, Canada"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2019100400024848500_r1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Landsberger, S. E., and Sheridan, T. B., 1993, “A Minimal, Minimal Linkage: The Tension-Compression Parallel Link Manipulator,” Rob. Mechatron. Manuf. Syst., 2, pp. 81–88.",
+            "DOI": "10.1016/B978-0-444-89700-8.50017-8"
+          },
+          {
+            "key": "2019100400024848500_r2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Li, C., and Rahn, C. D., 2002, “Design of Continuous Backbone, Cable-Driven Robots,” J. Mech. Des., 124(2), pp. 265–271.",
+            "DOI": "10.1115/1.1447546"
+          },
+          {
+            "key": "2019100400024848500_r3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Higuchi, T., Ming, A., and Jiang-yu, J., 1988, “Application of Multi-Dimensional Wire Cranes in Construction,” Proc. of 5th International Symposium on Robotics in Construction, Tokyo, June 6–8, pp. 661–668.",
+            "DOI": "10.22260/ISARC1988/0074"
+          },
+          {
+            "key": "2019100400024848500_r4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Albus, J., Bostelman, R., and Dagalakis, N., 1992, “The NIST Robocrane,” J. Rob. Syst., 10(5), pp. 709–724.",
+            "DOI": "10.1002/rob.4620100509"
+          },
+          {
+            "key": "2019100400024848500_r5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kawamura, S., Choe, W., Tanaka, S., and Pandian, S. R., 1995, “Development of an Ultrahigh Speed Robot FALCON Using Wire Drive System,” Proc. of IEEE International Conference on Robotics and Automation, IEEE, New York, pp. 215–220.",
+            "DOI": "10.1109/ROBOT.1995.525288"
+          },
+          {
+            "key": "2019100400024848500_r6",
+            "unstructured": "Cone, L. L. , 1985, “Skycam: An Aerial Robotic Camera System,” BYTE, Oct. pp. 122–132."
+          },
+          {
+            "key": "2019100400024848500_r7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Jeong, J. W., Kim, S. H., and Kwak, Y. K., 1999, “Kinematics and Workspace Analysis of a Parallel Wire Mechanism for Measuring a Robot Pose,” Mech. Mach. Theory, 34, pp. 825–841.",
+            "DOI": "10.1016/S0094-114X(98)00080-9"
+          },
+          {
+            "key": "2019100400024848500_r8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Morizono, T., Kurahashi, K., and Kawamura, S., 1997, “Realization of a Virtual Sports Training System With Parallel Wire Mechanism,” Proc. of IEEE International Conference on Robotics and Automation, IEEE, New York, pp. 3025–3030.",
+            "DOI": "10.1109/ROBOT.1997.606747"
+          },
+          {
+            "key": "2019100400024848500_r9",
+            "unstructured": "Ming, A., and Higuchi, T., 1994, “Study on Multiple Degree-of-Freedom Positioning Mechanism Using Wires (Part 2)-Development of a Planar Completely Restrained Positioning Mechanism,” Int. J. Jpn. Soc. Precis. Eng., 28(3), pp. 235–242."
+          },
+          {
+            "key": "2019100400024848500_r10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hong, D. W., and Cipra, R. J., 2003, “A Method for Representing the Configuration and Analyzing the Motion of Complex Cable-Pulley Systems,” J. Mech. Des., 125(2), pp. 332–341.",
+            "DOI": "10.1115/1.1564062"
+          },
+          {
+            "key": "2019100400024848500_r11",
+            "unstructured": "Nahon, M., 1991, “Optimization of Force Distribution in Redundantly-Actuated Robotic Systems,” Ph.D. thesis, Universite´ McGill, Montre´al"
+          },
+          {
+            "key": "2019100400024848500_r12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Goldfarb, D., and Idnani, A., 1983, “A Numerically Stable Dual Method for Solving Strictly Convex Quadratic Programs,” Math. Program., 27(1), pp. 1–33.",
+            "DOI": "10.1007/BF02591962"
+          },
+          {
+            "key": "2019100400024848500_r13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Sefrioui, J., and Gosselin, C. M., 1995, “On the Quadratic Nature of the Singularity Curves of Planar Three-Degree-of-Freedom Parallel Manipulators,” Mech. Mach. Theory, 30(4), pp. 533–551.",
+            "DOI": "10.1016/0094-114X(94)00052-M"
+          }
+        ],
+        "container-title": [
+          "Journal of Mechanical Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/127/2/242/5921899/242_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/127/2/242/5921899/242_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              29
+            ]
+          ],
+          "date-time": "2024-12-29T00:27:29Z",
+          "timestamp": 1735432049000
+        },
+        "score": 30.67945,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/127/2/242/461917/Determination-of-the-Dynamic-Workspace-of"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              1
+            ]
+          ]
+        },
+        "references-count": 13,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2005,
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.1830045",
+        "ISSN": [
+          "1050-0472",
+          "1528-9001"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-0472",
+            "type": "print"
+          },
+          {
+            "value": "1528-9001",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

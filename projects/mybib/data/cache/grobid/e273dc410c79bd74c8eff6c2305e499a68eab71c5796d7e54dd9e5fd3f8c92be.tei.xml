@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Transfer Learning Decision Forests for Gesture Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Norberto</forename><forename type="middle">A</forename><surname>Goussies</surname></persName>
+							<email>ngoussie@dc.uba.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Departamento de Computación</orgName>
+								<orgName type="department" key="dep2">Pabellón I Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires Ciudad Autónoma de Buenos Aires</orgName>
+								<address>
+									<country>C1428EGA Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marta</forename><surname>Mejail</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Departamento de Computación</orgName>
+								<orgName type="department" key="dep2">Pabellón I Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires Ciudad Autónoma de Buenos Aires</orgName>
+								<address>
+									<country>C1428EGA Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Transfer Learning Decision Forests for Gesture Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E7FA9B75443D826B1C6CACADEB4765EA</idno>
+					<note type="submission">Submitted 12/12; Revised 7/14;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>decision forests</term>
+					<term>transfer learning</term>
+					<term>gesture recognition</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Decision forests are an increasingly popular tool in computer vision problems. Their advantages include high computational efficiency, state-of-the-art accuracy and multi-class support. In this paper, we present a novel method for transfer learning which uses decision forests, and we apply it to recognize gestures and characters. We introduce two mechanisms into the decision forest framework in order to transfer knowledge from the source tasks to a given target task. The first one is mixed information gain, which is a databased regularizer. The second one is label propagation, which infers the manifold structure of the feature space. We show that both of them are important to achieve higher accuracy. Our experiments demonstrate improvements over traditional decision forests in the ChaLearn Gesture Challenge and MNIST data set. They also compare favorably against other state-of-the-art classifiers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

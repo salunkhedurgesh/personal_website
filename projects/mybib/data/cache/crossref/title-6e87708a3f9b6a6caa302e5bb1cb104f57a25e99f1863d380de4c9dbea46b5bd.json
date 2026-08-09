@@ -1,0 +1,230 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2096735,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T09:32:54Z",
+          "timestamp": 1725442374836
+        },
+        "reference-count": 0,
+        "publisher": "ASMEDC",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              1,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Modular robotic systems have become popular in recent years due to the ease of reconfigurability to satisfy varying task requirements. Due to the nonlinear nature of the actuator performance parameters, it is often difficult to map component specifications to the overall system performance making it cumbersome to use these parameters to design the system. Specifying system requirements based on task specifications, on the other hand, provides greater insight into how the system must perform in order to complete a given task and the resources required to achieve this performance. In this paper, we present a method for optimal design of modular robotic manipulators using a finite set of actuators to execute various tasks. Three different tasks — material removal, welding and a pick-and-place operation — which have different requirements in terms of the force, speed, precision and energy required to perform them, are considered. A set of five actuators is used to form different serial robotic manipulator configurations whose ability to accomplish the task is then evaluated using various performance metrics. A sequential filtering method is used to eliminate infeasible manipulator configurations and the remaining feasible set of manipulator configurations are then optimized using the weighted sum and compromise multiobjective optimization methods to determine a Pareto optimal manipulator configuration to accomplish each of the three tasks individually, in addition to a fourth manipulator configuration that is capable of accomplishing all the three tasks.</jats:p>",
+        "DOI": "10.1115/detc2007-34499",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2009,
+              5,
+              22
+            ]
+          ],
+          "date-time": "2009-05-22T22:33:30Z",
+          "timestamp": 1243031610000
+        },
+        "page": "533-540",
+        "update-policy": "http://dx.doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Task-Based Configuration Management for Modular Serial Robotic Manipulators"
+        ],
+        "prefix": "10.1115",
+        "author": [
+          {
+            "given": "Oziel",
+            "family": "Rios",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          },
+          {
+            "given": "Ganesh",
+            "family": "Krishnamoorthy",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          },
+          {
+            "given": "Aaron",
+            "family": "Hulse",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          },
+          {
+            "given": "Lucas",
+            "family": "Koran",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          },
+          {
+            "given": "Benjamin",
+            "family": "Gully",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          },
+          {
+            "given": "Carolyn Conner",
+            "family": "Seepersad",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          },
+          {
+            "given": "Delbert",
+            "family": "Tesar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Texas at Austin, Austin, TX"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              5,
+              20
+            ]
+          ]
+        },
+        "event": {
+          "name": "ASME 2007 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+          "start": {
+            "date-parts": [
+              [
+                2007,
+                9,
+                4
+              ]
+            ]
+          },
+          "sponsor": [
+            "Design Engineering Division and Computers and Information in Engineering Division"
+          ],
+          "location": "Las Vegas, Nevada, USA",
+          "end": {
+            "date-parts": [
+              [
+                2007,
+                9,
+                7
+              ]
+            ]
+          },
+          "acronym": "IDETC-CIE2007"
+        },
+        "container-title": [
+          "Volume 5: 6th International Conference on Multibody Systems, Nonlinear Dynamics, and Control, Parts A, B, and C"
+        ],
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2007-34499/4566806/533_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/doi/10.1115/DETC2007-34499/4566806/533_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              10
+            ]
+          ],
+          "date-time": "2020-01-10T09:44:22Z",
+          "timestamp": 1578649462000
+        },
+        "score": 27.543879,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2007/4806X/533/324752"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2007,
+              1,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.1115/detc2007-34499",
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

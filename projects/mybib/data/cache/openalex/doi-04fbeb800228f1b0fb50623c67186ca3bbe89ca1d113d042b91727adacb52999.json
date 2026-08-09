@@ -1,0 +1,377 @@
+{
+  "id": "https://openalex.org/W7124151291",
+  "doi": "https://doi.org/10.5040/9798216007562-594",
+  "title": "Innocenti.",
+  "display_name": "Innocenti.",
+  "publication_year": 1987,
+  "publication_date": "1987-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W7124151291",
+    "doi": "https://doi.org/10.5040/9798216007562-594"
+  },
+  "language": null,
+  "primary_location": {
+    "id": "doi:10.5040/9798216007562-594",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.5040/9798216007562-594",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Renaissance Art",
+    "raw_type": "other"
+  },
+  "type": "other",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "140",
+    "last_page": "140"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/order",
+      "display_name": "Order (exchange)",
+      "score": 0.39329999685287476
+    },
+    {
+      "id": "https://openalex.org/keywords/period",
+      "display_name": "Period (music)",
+      "score": 0.2971000075340271
+    },
+    {
+      "id": "https://openalex.org/keywords/subject",
+      "display_name": "Subject (documents)",
+      "score": 0.2939999997615814
+    },
+    {
+      "id": "https://openalex.org/keywords/etymology",
+      "display_name": "Etymology",
+      "score": 0.2937000095844269
+    },
+    {
+      "id": "https://openalex.org/keywords/presentation",
+      "display_name": "Presentation (obstetrics)",
+      "score": 0.29260000586509705
+    },
+    {
+      "id": "https://openalex.org/keywords/interpretation",
+      "display_name": "Interpretation (philosophy)",
+      "score": 0.2761000096797943
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.4004000127315521
+    },
+    {
+      "id": "https://openalex.org/C182306322",
+      "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+      "display_name": "Order (exchange)",
+      "level": 2,
+      "score": 0.39329999685287476
+    },
+    {
+      "id": "https://openalex.org/C95457728",
+      "wikidata": "https://www.wikidata.org/wiki/Q309",
+      "display_name": "History",
+      "level": 0,
+      "score": 0.32440000772476196
+    },
+    {
+      "id": "https://openalex.org/C2781291010",
+      "wikidata": "https://www.wikidata.org/wiki/Q178580",
+      "display_name": "Period (music)",
+      "level": 2,
+      "score": 0.2971000075340271
+    },
+    {
+      "id": "https://openalex.org/C2777855551",
+      "wikidata": "https://www.wikidata.org/wiki/Q12310021",
+      "display_name": "Subject (documents)",
+      "level": 2,
+      "score": 0.2939999997615814
+    },
+    {
+      "id": "https://openalex.org/C193427332",
+      "wikidata": "https://www.wikidata.org/wiki/Q35245",
+      "display_name": "Etymology",
+      "level": 2,
+      "score": 0.2937000095844269
+    },
+    {
+      "id": "https://openalex.org/C2777601897",
+      "wikidata": "https://www.wikidata.org/wiki/Q3409113",
+      "display_name": "Presentation (obstetrics)",
+      "level": 2,
+      "score": 0.29260000586509705
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.2800000011920929
+    },
+    {
+      "id": "https://openalex.org/C527412718",
+      "wikidata": "https://www.wikidata.org/wiki/Q855395",
+      "display_name": "Interpretation (philosophy)",
+      "level": 2,
+      "score": 0.2761000096797943
+    },
+    {
+      "id": "https://openalex.org/C2780532074",
+      "wikidata": "https://www.wikidata.org/wiki/Q1200314",
+      "display_name": "Derogation",
+      "level": 2,
+      "score": 0.2694000005722046
+    },
+    {
+      "id": "https://openalex.org/C1701360",
+      "wikidata": "https://www.wikidata.org/wiki/Q192625",
+      "display_name": "Linguistic typology",
+      "level": 3,
+      "score": 0.2662000060081482
+    },
+    {
+      "id": "https://openalex.org/C15708023",
+      "wikidata": "https://www.wikidata.org/wiki/Q80083",
+      "display_name": "Humanities",
+      "level": 1,
+      "score": 0.2630999982357025
+    },
+    {
+      "id": "https://openalex.org/C25343380",
+      "wikidata": "https://www.wikidata.org/wiki/Q277521",
+      "display_name": "Relation (database)",
+      "level": 2,
+      "score": 0.25929999351501465
+    },
+    {
+      "id": "https://openalex.org/C33566652",
+      "wikidata": "https://www.wikidata.org/wiki/Q1065927",
+      "display_name": "Theme (computing)",
+      "level": 2,
+      "score": 0.25699999928474426
+    },
+    {
+      "id": "https://openalex.org/C2781238097",
+      "wikidata": "https://www.wikidata.org/wiki/Q175026",
+      "display_name": "Object (grammar)",
+      "level": 2,
+      "score": 0.25540000200271606
+    },
+    {
+      "id": "https://openalex.org/C90805587",
+      "wikidata": "https://www.wikidata.org/wiki/Q10944557",
+      "display_name": "Word (group theory)",
+      "level": 2,
+      "score": 0.25519999861717224
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5040/9798216007562-594",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.5040/9798216007562-594",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Renaissance Art",
+      "raw_type": "other"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Innocenti": [
+      0
+    ],
+    "is": [
+      1,
+      40
+    ],
+    "an": [
+      2
+    ],
+    "Italian": [
+      3
+    ],
+    "word": [
+      4
+    ],
+    "for": [
+      5
+    ],
+    "“Innocents,”": [
+      6
+    ],
+    "referring": [
+      7
+    ],
+    "to": [
+      8
+    ],
+    "the": [
+      9,
+      13,
+      16,
+      29,
+      38,
+      43,
+      47
+    ],
+    "Bible’s": [
+      10
+    ],
+    "usage": [
+      11
+    ],
+    "of": [
+      12,
+      18,
+      46
+    ],
+    "children": [
+      14
+    ],
+    "under": [
+      15
+    ],
+    "age": [
+      17
+    ],
+    "two": [
+      19
+    ],
+    "who": [
+      20
+    ],
+    "were": [
+      21
+    ],
+    "killed": [
+      22
+    ],
+    "by": [
+      23
+    ],
+    "King": [
+      24
+    ],
+    "Herod’s": [
+      25
+    ],
+    "order": [
+      26
+    ],
+    "so": [
+      27
+    ],
+    "that": [
+      28
+    ],
+    "Child": [
+      30
+    ],
+    "Jesus": [
+      31
+    ],
+    "would": [
+      32
+    ],
+    "definitely": [
+      33
+    ],
+    "be": [
+      34
+    ],
+    "destroyed.": [
+      35
+    ],
+    "In": [
+      36
+    ],
+    "art": [
+      37
+    ],
+    "scene": [
+      39
+    ],
+    "depicted": [
+      41
+    ],
+    "with": [
+      42
+    ],
+    "title": [
+      44
+    ],
+    "*Massacre": [
+      45
+    ],
+    "Innocents.Example:": [
+      48
+    ],
+    "Domenico": [
+      49
+    ],
+    "del": [
+      50
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-02-20T08:17:22.645390",
+  "created_date": "2026-01-15T00:00:00"
+}

@@ -1,0 +1,123 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9970606,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2024-09-09T14:25:28Z",
+          "timestamp": 1725891928726
+        },
+        "reference-count": 0,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781402049408"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1007/978-1-4020-4941-5_33",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2006,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2006-10-09T13:45:31Z",
+          "timestamp": 1160401531000
+        },
+        "page": "307-314",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "Level-set method for workspace analysis of serial manipulators"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "E.",
+            "family": "Ottaviano",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "M.",
+            "family": "Husty",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "M.",
+            "family": "Ceccarelli",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "container-title": [
+          "Advances in Robot Kinematics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4020-4941-5_33.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2021-04-29T00:47:09Z",
+          "timestamp": 1619657229000
+        },
+        "score": 42.619232,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4020-4941-5_33"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781402049408"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-1-4020-4941-5_33"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

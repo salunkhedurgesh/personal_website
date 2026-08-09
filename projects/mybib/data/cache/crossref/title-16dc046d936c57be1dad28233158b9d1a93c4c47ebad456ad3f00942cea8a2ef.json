@@ -1,0 +1,155 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1039821,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T21:29:04Z",
+          "timestamp": 1775597344606,
+          "version": "3.50.1"
+        },
+        "edition-number": "1",
+        "reference-count": 0,
+        "publisher": "Cambridge University Press",
+        "isbn-type": [
+          {
+            "value": "9781009336741",
+            "type": "electronic"
+          },
+          {
+            "value": "9781009336727",
+            "type": "print"
+          },
+          {
+            "value": "9781009336703",
+            "type": "print"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  13
+                ]
+              ],
+              "date-time": "2025-10-13T00:00:00Z",
+              "timestamp": 1760313600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              30
+            ]
+          ]
+        },
+        "DOI": "10.1017/9781009336741.012",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2025-10-13T00:05:34Z",
+          "timestamp": 1760313934000
+        },
+        "page": "145-161",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Motio Metaphorica"
+        ],
+        "prefix": "10.1017",
+        "author": [
+          {
+            "given": "Giuseppe",
+            "family": "Capriati",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "56",
+        "container-title": [
+          "Suárez's &lt;i&gt;Metaphysical Disputations&lt;/i&gt;"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2025-10-13T00:05:36Z",
+          "timestamp": 1760313936000
+        },
+        "score": 22.334011,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/9781009336741%23bp12/type/book_part"
+          }
+        },
+        "subtitle": [
+          "Suárez on Final Causality"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              30
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781009336741",
+          "9781009336727",
+          "9781009336703"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1017/9781009336741.012",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              30
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

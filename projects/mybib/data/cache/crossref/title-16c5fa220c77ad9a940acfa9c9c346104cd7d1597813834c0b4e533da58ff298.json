@@ -1,0 +1,299 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7377495,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2024-08-20T15:55:11Z",
+          "timestamp": 1724169311721
+        },
+        "reference-count": 15,
+        "publisher": "IOP Publishing",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2018-07-01T00:00:00Z",
+              "timestamp": 1530403200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2018-07-01T00:00:00Z",
+              "timestamp": 1530403200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/3.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IOP Conf. Ser.: Earth Environ. Sci."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1088/1755-1315/170/4/042166",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2018-07-17T12:15:30Z",
+          "timestamp": 1531829730000
+        },
+        "page": "042166",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Kinematics Analysis and Workspace Calculation of a 3-DOF Manipulator"
+        ],
+        "prefix": "10.1088",
+        "volume": "170",
+        "author": [
+          {
+            "given": "Jianqiang",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Fang",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "266",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              7,
+              17
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1108/01439910810876418"
+          },
+          {
+            "key": "2",
+            "first-page": "1",
+            "author": "Chen X",
+            "year": "2017",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechmachtheory.2012.10.002"
+          },
+          {
+            "key": "4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.rcim.2012.06.006"
+          },
+          {
+            "key": "5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5772/56403"
+          },
+          {
+            "key": "6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0278364902021010835"
+          },
+          {
+            "key": "7",
+            "first-page": "3",
+            "author": "Ciobanu R I",
+            "year": "2014",
+            "journal-title": "International Conference on Mechatronics, Electronics and Automotive Engineering"
+          },
+          {
+            "key": "8",
+            "doi-asserted-by": "crossref",
+            "first-page": "125973",
+            "DOI": "10.1155/2014/125973",
+            "author": "Tao Y",
+            "year": "2014",
+            "journal-title": "Advances in Mechanical Engineering"
+          },
+          {
+            "key": "9",
+            "author": "Roth B",
+            "year": "1970",
+            "journal-title": "Performance evaluation of manipulators from a kinematic view point [C]"
+          },
+          {
+            "key": "10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0094-114X(00)00031-8"
+          },
+          {
+            "key": "11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/15397730701729478"
+          },
+          {
+            "key": "12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1163/016918611X563256"
+          },
+          {
+            "key": "13",
+            "first-page": "167",
+            "author": "Rubinstein R Y",
+            "year": "2008",
+            "journal-title": "John Wiley & Sons"
+          },
+          {
+            "key": "14",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-642-20144-8",
+            "volume": "39",
+            "author": "Corke P",
+            "year": "2011",
+            "journal-title": "Springer Tracts in Advanced Robotics"
+          },
+          {
+            "key": "15",
+            "doi-asserted-by": "crossref",
+            "first-page": "1984",
+            "DOI": "10.1109/IROS.2006.282406",
+            "author": "Guan Y",
+            "year": "2006",
+            "journal-title": "Ieee/rsj International Conference on Intelligent Robots and Systems"
+          }
+        ],
+        "container-title": [
+          "IOP Conference Series: Earth and Environmental Science"
+        ],
+        "link": [
+          {
+            "URL": "http://stacks.iop.org/1755-1315/170/i=4/a=042166/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://stacks.iop.org/1755-1315/170/i=4/a=042166?key=crossref.624c9d1335ca885c763ff1e249894394",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://stacks.iop.org/1755-1315/170/i=4/a=042166/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://stacks.iop.org/1755-1315/170/i=4/a=042166?key=crossref.624c9d1335ca885c763ff1e249894394",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              6
+            ]
+          ],
+          "date-time": "2020-11-06T02:52:15Z",
+          "timestamp": 1604631135000
+        },
+        "score": 33.84834,
+        "resource": {
+          "primary": {
+            "URL": "https://iopscience.iop.org/article/10.1088/1755-1315/170/4/042166"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        },
+        "references-count": 15,
+        "URL": "https://doi.org/10.1088/1755-1315/170/4/042166",
+        "ISSN": [
+          "1755-1307",
+          "1755-1315"
+        ],
+        "issn-type": [
+          {
+            "value": "1755-1307",
+            "type": "print"
+          },
+          {
+            "value": "1755-1315",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

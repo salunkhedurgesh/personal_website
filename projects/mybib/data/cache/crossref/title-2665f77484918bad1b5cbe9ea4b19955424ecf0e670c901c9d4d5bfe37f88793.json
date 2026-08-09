@@ -1,0 +1,144 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 67,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              30
+            ]
+          ],
+          "date-time": "2024-06-30T21:50:37Z",
+          "timestamp": 1719784237808
+        },
+        "reference-count": 0,
+        "publisher": "Ivan Franko National University of Lviv",
+        "issue": "2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "ms"
+        ],
+        "DOI": "10.15330/ms.51.2.195-199",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              23
+            ]
+          ],
+          "date-time": "2019-07-23T11:03:11Z",
+          "timestamp": 1563879791000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "On generalized preopen sets"
+        ],
+        "prefix": "10.30970",
+        "volume": "51",
+        "author": [
+          {
+            "given": "A.",
+            "family": "Mukharjee",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "R. M.",
+            "family": "Roy",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "14744",
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              25
+            ]
+          ]
+        },
+        "container-title": [
+          "Matematychni Studii"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              16
+            ]
+          ],
+          "date-time": "2019-11-16T08:08:17Z",
+          "timestamp": 1573891697000
+        },
+        "score": 20.881504,
+        "resource": {
+          "primary": {
+            "URL": "http://matstud.org.ua/texts/2019/51_2/195-199.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              25
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                23
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.15330/ms.51.2.195-199",
+        "ISSN": [
+          "1027-4634"
+        ],
+        "issn-type": [
+          {
+            "value": "1027-4634",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              25
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

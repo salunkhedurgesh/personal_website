@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contact-initiated shared control strategies for four-arm supernumerary manipulation with foot interfaces</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Walid</forename><surname>Amanhoud</surname></persName>
+							<email>walid.amanhoud@epfl.ch</email>
+						</author>
+						<author>
+							<persName><forename type="first">Jacob</forename><forename type="middle">Hernandez</forename><surname>Sanchez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mohamed</forename><surname>Bouri</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aude</forename><surname>Billard</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jacob</forename><surname>Hernandez Sanchez</surname></persName>
+							<email>jacob.hernandezsanchez@epfl.ch</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Translational Neural Engineering Laboratory (TNE)</orgName>
+								<orgName type="laboratory">LASA Laboratory</orgName>
+								<orgName type="institution">Swiss Federal Institute of Technology (EPFL)</orgName>
+								<address>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">BIOROB Laboratory</orgName>
+								<orgName type="institution">Swiss Federal School of Technology in Lausanne EPFL</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Swiss Federal School of Technology in Lausanne EPFL</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contact-initiated shared control strategies for four-arm supernumerary manipulation with foot interfaces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D04D7654BABCC57BE2E1DF57C163E1BB</idno>
+					<idno type="DOI">10.1177/02783649211017642</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Tele-robotics</term>
+					<term>haptics and haptic interfaces</term>
+					<term>physical human-robot interaction</term>
+					<term>human performance augmentation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In industrial or surgical settings, to achieve many tasks successfully, at least two people are needed. To this end, robotic assistance could be used to enable a single person to perform such tasks alone, with the help of robots through direct, shared, or autonomous control. We are interested in four-arm manipulation scenarios, where both feet are used to control two robotic arms via bi-pedal haptic interfaces. The robotic arms complement the tasks of the biological arms, for instance, in supporting and moving an object while working on it (using both hands). To reduce fatigue, cognitive workload, and to ease the execution of the foot manipulation, we propose two types of assistance that can be enabled upon contact with the object (i.e., based on the interaction forces): autonomous-contact force generation and auto-coordination of the robotic arms. The latter relates to controlling both arms with a single foot, once the object is grasped. We designed four (shared) control strategies that are derived from the combinations (absence/presence) of both assistance modalities, and we compared them through a user study (with 12 participants) on a four-arm manipulation task. The results show that force assistance positively improves human-robot fluency in the four-arm task, the ease of use and usefulness; it also reduces the fatigue. Finally, to make the dual-assistance approach the preferred and most successful among the proposed control strategies, delegating the grasping force to the robotic arms is a crucial factor when controlling them both with a single foot.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

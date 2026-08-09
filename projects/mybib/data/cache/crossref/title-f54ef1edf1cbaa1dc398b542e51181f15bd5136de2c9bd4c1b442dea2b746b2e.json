@@ -1,0 +1,250 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4974713,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2024-09-05T05:27:32Z",
+          "timestamp": 1725514052415
+        },
+        "publisher-location": "Dordrecht",
+        "reference-count": 11,
+        "publisher": "Springer Netherlands",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781402085994"
+          },
+          {
+            "type": "electronic",
+            "value": "9781402086007"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-1-4020-8600-7_1",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              5,
+              28
+            ]
+          ],
+          "date-time": "2008-05-28T01:10:43Z",
+          "timestamp": 1211937043000
+        },
+        "page": "3-12",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "A New Assessment of Singularities of Parallel Kinematic Chains"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Michele",
+            "family": "Conconi",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Marco",
+            "family": "Carricato",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "issue": "2",
+            "key": "1_CR1_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "259",
+            "DOI": "10.1115/1.1471530",
+            "volume": "124",
+            "author": "R Gregorio Di",
+            "year": "2002",
+            "unstructured": "Di Gregorio, R. and Parenti-Castelli, V.: Mobility analysis of the 3-UPU parallel mechanism assembled for a pure translation motion. ASME J. of Mechanical Design 124(2), 259-264 (2002).",
+            "journal-title": "ASME J. of Mechanical Design"
+          },
+          {
+            "issue": "6",
+            "key": "1_CR2_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "743",
+            "DOI": "10.1016/S0094-114X(01)00002-7",
+            "volume": "36",
+            "author": "C Galletti",
+            "year": "2001",
+            "unstructured": "Galletti, C. and Fanghella, P.: Single-loop kinematotropic mechanisms. Mechanism and Ma-chine Theory 36(6), 743-761 (2001).",
+            "journal-title": "Mechanism and Ma-chine Theory"
+          },
+          {
+            "issue": "3",
+            "key": "1_CR3_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "281",
+            "DOI": "10.1109/70.56660",
+            "volume": "6",
+            "author": "CM Gosselin",
+            "year": "1990",
+            "unstructured": "Gosselin, C.M. and Angeles, J.: Singularity analysis of closed-loop kinematic chains. IEEE Trans. on Robotics and Automation 6(3), 281-290 (1990).",
+            "journal-title": "IEEE Trans. on Robotics and Automation"
+          },
+          {
+            "key": "1_CR4_Ref",
+            "volume-title": "Kinematic Geometry of Mechanisms",
+            "author": "KH Hunt",
+            "year": "1978",
+            "unstructured": "Hunt, K.H.: Kinematic Geometry of Mechanisms. Clarendon Press, Oxford (1978)."
+          },
+          {
+            "issue": "2",
+            "key": "1_CR5_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "254",
+            "DOI": "10.1115/1.1469549",
+            "volume": "124",
+            "author": "SA Joshi",
+            "year": "2002",
+            "unstructured": "Joshi, S.A. and Tsai, L.W.: Jacobian analysis of limited-DOF parallel manipulators. ASME J. of Mechanical Design 124(2), 254-258 (2002).",
+            "journal-title": "ASME J. of Mechanical Design"
+          },
+          {
+            "key": "1_CR6_Ref",
+            "volume-title": "Type Synthesis of Parallel Mechanisms",
+            "author": "X Kong",
+            "year": "2006",
+            "unstructured": "Kong, X. and Gosselin, C.: Type Synthesis of Parallel Mechanisms. Springer, Dordrecht (2006)."
+          },
+          {
+            "issue": "4",
+            "key": "1_CR7_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "579",
+            "DOI": "10.1109/TRA.2003.814507",
+            "volume": "19",
+            "author": "G Liu",
+            "year": "2003",
+            "unstructured": "Liu, G., Luo, Y. and Li, Z.: Singularities of parallel manipulators: A geometric treatment. IEEE Trans. on Robotics and Automation 19(4), 579-594 (2003).",
+            "journal-title": "IEEE Trans. on Robotics and Automation"
+          },
+          {
+            "key": "1_CR8_Ref",
+            "volume-title": "Parallel Robots",
+            "author": "J-P Merlet",
+            "year": "2006",
+            "unstructured": "Merlet, J.-P.: Parallel Robots. Springer, Dordrecht (2006)."
+          },
+          {
+            "issue": "1",
+            "key": "1_CR9_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "32",
+            "DOI": "10.1115/1.2829426",
+            "volume": "121",
+            "author": "FC Park",
+            "year": "1999",
+            "unstructured": "Park, F.C. and Kim, J.W.: Singularity analysis of closed kinematic chains. ASME J. of Mech-anical Design 121(1), 32-38 (1999).",
+            "journal-title": "ASME J. of Mech-anical Design"
+          },
+          {
+            "key": "1_CR10_Ref",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zlatanov, D., Bonev, I.A. and Gosselin, C.M.: Constraint singularities of parallel mechanisms. In: Proc. of the 2002 IEEE Int. Conference on Robotics and Automation, pp. 496-502, Wash-ington, DC, USA (2002).",
+            "DOI": "10.1109/ROBOT.2002.1013408"
+          },
+          {
+            "issue": "4",
+            "key": "1_CR11_Ref",
+            "doi-asserted-by": "publisher",
+            "first-page": "566",
+            "DOI": "10.1115/1.2826720",
+            "volume": "117",
+            "author": "D Zlatanov",
+            "year": "1995",
+            "unstructured": "Zlatanov, D., Fenton, R.G. and Benhabib, B.: Unifying framework for classification and inter-pretation of mechanism singularities. ASME J. of Mechanical Design 117(4), 566-572 (1995).",
+            "journal-title": "ASME J. of Mechanical Design"
+          }
+        ],
+        "container-title": [
+          "Advances in Robot Kinematics: Analysis and Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4020-8600-7_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2021-04-29T01:43:09Z",
+          "timestamp": 1619660589000
+        },
+        "score": 44.498592,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-1-4020-8600-7_1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781402085994",
+          "9781402086007"
+        ],
+        "references-count": 11,
+        "URL": "https://doi.org/10.1007/978-1-4020-8600-7_1",
+        "published": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

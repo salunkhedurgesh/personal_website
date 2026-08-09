@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">NON-SINGULAR ASSEMBLY MODE CHANGING TRAJECTORIES OF A 6-DOF PARALLEL ROBOT</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Éphane</forename><surname>St</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Institut de Recherche en Communications et Cybern étique de Nantes (IRCCyN)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS n •</orgName>
+								<address>
+									<addrLine>6597 1, rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Caro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Institut de Recherche en Communications et Cybern étique de Nantes (IRCCyN)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS n •</orgName>
+								<address>
+									<addrLine>6597 1, rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Wenger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Institut de Recherche en Communications et Cybern étique de Nantes (IRCCyN)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS n •</orgName>
+								<address>
+									<addrLine>6597 1, rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Chablat</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Institut de Recherche en Communications et Cybern étique de Nantes (IRCCyN)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS n •</orgName>
+								<address>
+									<addrLine>6597 1, rue de la No ë</addrLine>
+									<postCode>44321</postCode>
+									<settlement>Nantes Cedex 03</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">NON-SINGULAR ASSEMBLY MODE CHANGING TRAJECTORIES OF A 6-DOF PARALLEL ROBOT</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B89ADD023206EC59B68818D780F3AF06</idno>
+					<idno type="DOI">10.1115/DETC2012-70662</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>This paper deals with the non-singular assembly mode changing of a six degrees of freedom parallel manipulator. The manipulator is composed of three identical limbs and one moving platform. Each limb is composed of three prismatic joints of directions orthogonal to each other and one spherical joint. The first two prismatic joints of each limb are actuated. The planes normal to the directions of the first two prismatic joints of each limb are orthogonal to each other. It appears that the parallel singularities of the manipulator depend only on the orientation of its moving platform. Moreover, the manipulator turns to have two aspects, namely, two maximal singularity free domains without any singular configuration, in its orientation workspace. As the manipulator can get up to eight solutions to its direct kinematic model, several assembly modes can be connected by nonsingular trajectories. It is noteworthy that the images of those trajectories in the joint space of the manipulator encircle one or several cusp point(s). This property can be depicted in a three dimensional space because the singularities depend only on the orientation of the moving-platform and the mapping between the orientation parameters of the manipulator and three joint variables can be obtained with a simple change of variables. Finally, to the best of the authors&apos; knowledge, this is the first spatial parallel manipulator for which non-singular assembly mode changing trajectories have been found and shown.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

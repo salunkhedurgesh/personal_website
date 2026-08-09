@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Periodic DMP formulation for Quaternion Trajectories</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><surname>Fares</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Abu-Dakka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matteo</forename><surname>Saveriano</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Luka</forename><surname>Peternel</surname></persName>
+						</author>
+						<title level="a" type="main">Periodic DMP formulation for Quaternion Trajectories</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BF4A34F3ECE99C9305109CD44B73B488</idno>
+					<idno type="DOI">10.1109/ICAR53236.2021.9659319</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Imitation learning techniques have been used as a way to transfer skills to robots. Among them, dynamic movement primitives (DMPs) have been widely exploited as an effective and an efficient technique to learn and reproduce complex discrete and periodic skills. While DMPs have been properly formulated for learning point-to-point movements for both translation and orientation, periodic ones are missing a formulation to learn the orientation. To address this gap, we propose a novel DMP formulation that enables encoding of periodic orientation trajectories. Within this formulation we develop two approaches: Riemannian metric-based projection approach and unit quaternion based periodic DMP. Both formulations exploit unit quaternions to represent the orientation. However, the first exploits the properties of Riemannian manifolds to work in the tangent space of the unit sphere. The second encodes directly the unit quaternion trajectory while guaranteeing the unitary norm of the generated quaternions. We validated the technical aspects of the proposed methods in simulation. Then we performed experiments on a real robot to execute daily tasks that involve periodic orientation changes (i.e., surface polishing/wiping and liquid mixing by shaking).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

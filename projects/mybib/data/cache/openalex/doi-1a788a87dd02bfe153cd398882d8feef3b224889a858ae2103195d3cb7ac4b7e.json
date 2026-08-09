@@ -1,0 +1,251 @@
+{
+  "id": "https://openalex.org/W4235898051",
+  "doi": "https://doi.org/10.4135/9781452281889.n408",
+  "title": "Gong Lum et al. v. Rice et al.",
+  "display_name": "Gong Lum et al. v. Rice et al.",
+  "publication_year": 2014,
+  "publication_date": "2014-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4235898051",
+    "doi": "https://doi.org/10.4135/9781452281889.n408"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.4135/9781452281889.n408",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.4135/9781452281889.n408",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4363604565",
+      "display_name": "Asian American Society: An Encyclopedia",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Asian American Society: An Encyclopedia",
+    "raw_type": "reference-entry"
+  },
+  "type": "reference-entry",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5099798119",
+        "display_name": "Mary YuDanico",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Mary YuDanico",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5099798119"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10804",
+    "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+    "score": 0.06459999829530716,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2002",
+      "display_name": "Economics and Econometrics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/20",
+      "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "score": 0.06459999829530716,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13656",
+      "display_name": "Science, Research, and Medicine",
+      "score": 0.06350000202655792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10582",
+      "display_name": "Ethics in Clinical Research",
+      "score": 0.06340000033378601,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/humanities",
+      "display_name": "Humanities",
+      "score": 0.3332976698875427
+    },
+    {
+      "id": "https://openalex.org/keywords/art",
+      "display_name": "Art",
+      "score": 0.2971445918083191
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15708023",
+      "wikidata": "https://www.wikidata.org/wiki/Q80083",
+      "display_name": "Humanities",
+      "level": 1,
+      "score": 0.3332976698875427
+    },
+    {
+      "id": "https://openalex.org/C142362112",
+      "wikidata": "https://www.wikidata.org/wiki/Q735",
+      "display_name": "Art",
+      "level": 0,
+      "score": 0.2971445918083191
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.4135/9781452281889.n408",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.4135/9781452281889.n408",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4363604565",
+        "display_name": "Asian American Society: An Encyclopedia",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Asian American Society: An Encyclopedia",
+      "raw_type": "reference-entry"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Zero hunger",
+      "score": 0.6499999761581421,
+      "id": "https://metadata.un.org/sdg/2"
+    }
+  ],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W93312527",
+    "https://openalex.org/W2603296253",
+    "https://openalex.org/W1589203209",
+    "https://openalex.org/W2557454913",
+    "https://openalex.org/W828925460",
+    "https://openalex.org/W11365241",
+    "https://openalex.org/W1013667899",
+    "https://openalex.org/W2559405764",
+    "https://openalex.org/W157591366",
+    "https://openalex.org/W2732870254"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-05-12T00:00:00"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using Computer Algebra Tools to Classify Serial Manipulators</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Solen</forename><surname>Corvez</surname></persName>
+							<email>scorvez@univ-rennes1.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">IRMAR</orgName>
+								<orgName type="institution">Université de Rennes I</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabrice</forename><surname>Rouillier</surname></persName>
+							<email>fabrice.rouillier@loria.fr</email>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">LORIA</orgName>
+								<orgName type="institution" key="instit2">INRIA-Lorraine</orgName>
+								<address>
+									<settlement>Nancy</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using Computer Algebra Tools to Classify Serial Manipulators</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">87A145C0CBB8610CBAFFA47A212DA73C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Groebner Basis</term>
+					<term>Cylindrical Algebraic Decomposition</term>
+					<term>Triangular Sets</term>
+					<term>Serial Manipulators</term>
+					<term>Semialgebraic Sets</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In this paper we present a classification of 3-revolute-jointed manipulators based on the cuspidal behaviour. It was shown in a previous work [16] that this ability to change posture without meeting a singularity is equivalent to the existence of a point in the workspace, such that a polynomial of degree four depending on the parameters of the manipulator and on the cartesian coordinates of the effector has a triple root. More precisely, from a partition of the parameters&apos;space, such that in any connected component of this partition the number of triple roots is constant, we need to compute one sample point by cell, in order to have a full description, in terms of cuspidality, of the different possible configurations. This kind of work can be divided into two parts. First of all, thanks to Groebner Bases computations, the goal is to obtain an algebraic set in the parameters&apos;space describing the cuspidality behavior and then to compute a CAD adapted to this set. In order to simplify the problem, we use strongly the fact that a manipulator cannot be constructed with exact parameters, in other words, we are just interested in the generic solutions of our problem. This consideration leads us to work with triangular sets rather than with the global Groebner Bases and to adapt the CAD of Collins as we will just take care of the cells of maximal dimension.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

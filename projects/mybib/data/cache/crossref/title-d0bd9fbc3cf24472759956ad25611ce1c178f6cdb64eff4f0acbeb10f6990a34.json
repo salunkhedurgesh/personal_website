@@ -1,0 +1,201 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1810041,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T16:21:50Z",
+          "timestamp": 1758817310110
+        },
+        "reference-count": 3,
+        "publisher": "Elsevier BV",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1997,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "1997-05-01T00:00:00Z",
+              "timestamp": 862444800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1997,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0094-114x(96)00061-4",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              7,
+              25
+            ]
+          ],
+          "date-time": "2002-07-25T22:45:15Z",
+          "timestamp": 1027637115000
+        },
+        "page": "529-532",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "Comments on “A classification of 3R regional manipulator geometries and singularities”"
+        ],
+        "prefix": "10.1016",
+        "volume": "32",
+        "author": [
+          {
+            "given": "Phillippe",
+            "family": "Wenger",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jouad",
+            "family": "El Omri",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/S0094-114X(96)00061-4_BIB1",
+            "doi-asserted-by": "crossref",
+            "first-page": "71",
+            "DOI": "10.1016/0094-114X(94)00043-K",
+            "volume": "30",
+            "author": "Burdick",
+            "year": "1995",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/S0094-114X(96)00061-4_BIB2",
+            "author": "Smith",
+            "year": "1990"
+          },
+          {
+            "key": "10.1016/S0094-114X(96)00061-4_BIB3",
+            "series-title": "Proceedings of Advances in Robot Kinematics",
+            "first-page": "29",
+            "author": "Wenger",
+            "year": "1994"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X96000614?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0094114X96000614?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2019-04-18T21:28:41Z",
+          "timestamp": 1555622921000
+        },
+        "score": 30.227169,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094114X96000614"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1997,
+              5
+            ]
+          ]
+        },
+        "references-count": 3,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                1997,
+                5
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0094114X96000614"
+        ],
+        "URL": "https://doi.org/10.1016/s0094-114x(96)00061-4",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1997,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

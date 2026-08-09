@@ -1,0 +1,485 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 736,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2024-05-16T01:40:10Z",
+          "timestamp": 1715823610322
+        },
+        "reference-count": 19,
+        "publisher": "Elsevier BV",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2023-08-01T00:00:00Z",
+              "timestamp": 1690848000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Journal of Mathematical Analysis and Applications"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.jmaa.2023.127215",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2023-03-15T07:16:25Z",
+          "timestamp": 1678864585000
+        },
+        "page": "127215",
+        "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Transversality versus strong tangential transversality"
+        ],
+        "prefix": "10.1016",
+        "volume": "524",
+        "author": [
+          {
+            "given": "Nadezhda",
+            "family": "Ribarska",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Maria",
+            "family": "Tasheva",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0010",
+            "unstructured": "S. Apostolov, M. Bivas, Characterizations of metric (sub)regularity via (sub)transversality, in press."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "1041",
+            "DOI": "10.1007/s11228-022-00633-4",
+            "article-title": "On transversality-type and regularity-type properties",
+            "volume": "30",
+            "author": "Apostolov",
+            "year": "2022",
+            "journal-title": "Set-Valued Var. Anal."
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.jmaa.2023.127215_br0050",
+            "first-page": "875",
+            "article-title": "Properties of uniform tangent sets and Lagrange multiplier rule",
+            "volume": "71",
+            "author": "Bivas",
+            "year": "2018",
+            "journal-title": "C. R. Acad. Bulgare Sci."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jmaa.2023.127215_br0030",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.jmaa.2019.123445",
+            "article-title": "On tangential transversality",
+            "volume": "481",
+            "author": "Bivas",
+            "year": "2020",
+            "journal-title": "J. Math. Anal. Appl."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jmaa.2023.127215_br0040",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.jmaa.2020.124235",
+            "article-title": "On strong tangential transversality",
+            "volume": "490",
+            "author": "Bivas",
+            "year": "2020",
+            "journal-title": "J. Math. Anal. Appl."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0070",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/s10013-020-00388-1",
+            "article-title": "Geometric and metric characterizations of transversality properties",
+            "author": "Bui",
+            "year": "2020",
+            "journal-title": "Vietnam J. Math."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jmaa.2023.127215_br0080",
+            "first-page": "287",
+            "article-title": "Nonlinear transversality of collections of sets: primal space characterizations",
+            "volume": "27",
+            "author": "Cuong",
+            "year": "2020",
+            "journal-title": "J. Convex Anal."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0090",
+            "series-title": "Implicit Functions and Solution Mappings: A View from Variational Analysis",
+            "author": "Dontchev",
+            "year": "2014"
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0100",
+            "first-page": "389",
+            "article-title": "Approximate subdifferentials and applications I: the finite dimensional theory",
+            "volume": "281",
+            "author": "Ioffe",
+            "year": "1984",
+            "journal-title": "Trans. Am. Math. Soc."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0110",
+            "article-title": "Variational Analysis of Regular Mappings: Theory and Applications",
+            "author": "Ioffe",
+            "year": "2017"
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0120",
+            "series-title": "Nonlinear Analysis, Differential Equations and Control",
+            "first-page": "447",
+            "article-title": "Variational methods in local and global nonsmooth analysis",
+            "volume": "vol. 258",
+            "author": "Ioffe",
+            "year": "1999"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.jmaa.2023.127215_br0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "501",
+            "DOI": "10.1070/RM2000v055n03ABEH000292",
+            "article-title": "Metric regularity and subdifferential calculus",
+            "volume": "55",
+            "author": "Ioffe",
+            "year": "2000",
+            "journal-title": "Russ. Math. Surv."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.jmaa.2023.127215_br0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "1598",
+            "DOI": "10.1137/16M1074965",
+            "article-title": "Nonseparation of sets and optimality conditions",
+            "volume": "55",
+            "author": "Krastanov",
+            "year": "2017",
+            "journal-title": "SIAM J. Control Optim."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0140",
+            "series-title": "Variational Analysis and Generalized Differentiation I",
+            "author": "Mordukhovich",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0150",
+            "series-title": "Variational Analysis and Generalized Differentiation II",
+            "author": "Mordukhovich",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "479",
+            "DOI": "10.1007/s10013-014-0073-3",
+            "article-title": "A unified approach to convex and convexified generalized differentiation of nonsmooth functions and set-valued mappings",
+            "volume": "42",
+            "author": "Nam",
+            "year": "2014",
+            "journal-title": "Vietnam J. Math."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "331",
+            "DOI": "10.1112/plms/s3-39.2.331",
+            "article-title": "Directionally Lipschitzian functions and subdifferential calculus",
+            "volume": "39",
+            "author": "Rockafellar",
+            "year": "1979",
+            "journal-title": "Proc. Lond. Math. Soc."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "257",
+            "DOI": "10.4153/CJM-1980-020-7",
+            "article-title": "Generalized directional derivatives and subgradients of nonconvex functions",
+            "volume": "32",
+            "author": "Rockafellar",
+            "year": "1980",
+            "journal-title": "Can. J. Math."
+          },
+          {
+            "key": "10.1016/j.jmaa.2023.127215_br0190",
+            "series-title": "Proceedings of the 45-th IEEE CDC",
+            "first-page": "241",
+            "article-title": "On the validity of the transversality condition for different concepts of tangent cone to a set",
+            "author": "Sussmann",
+            "year": "2006"
+          }
+        ],
+        "container-title": [
+          "Journal of Mathematical Analysis and Applications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0022247X23002184?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0022247X23002184?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2024-05-16T01:25:19Z",
+          "timestamp": 1715822719000
+        },
+        "score": 20.94776,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0022247X23002184"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "references-count": 19,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0022247X23002184"
+        ],
+        "URL": "https://doi.org/10.1016/j.jmaa.2023.127215",
+        "ISSN": [
+          "0022-247X"
+        ],
+        "issn-type": [
+          {
+            "value": "0022-247X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Transversality versus strong tangential transversality",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Journal of Mathematical Analysis and Applications",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.jmaa.2023.127215",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2023 Elsevier Inc. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "127215"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5477380,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              24
+            ]
+          ],
+          "date-time": "2026-04-24T10:29:06Z",
+          "timestamp": 1777026546359,
+          "version": "3.51.4"
+        },
+        "reference-count": 43,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2018-04-01T00:00:00Z",
+              "timestamp": 1522540800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Austrian COMET-K2 program of the Linz Center of Mechatronics (LCM)"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Ind. Inf."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/tii.2018.2792002",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              11
+            ]
+          ],
+          "date-time": "2018-01-11T20:07:20Z",
+          "timestamp": 1515701240000
+        },
+        "page": "1681-1690",
+        "source": "Crossref",
+        "is-referenced-by-count": 121,
+        "title": [
+          "On Higher Order Inverse Kinematics Methods in Time-Optimal Trajectory Planning for Kinematically Redundant Manipulators"
+        ],
+        "prefix": "10.1109",
+        "volume": "14",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7875-8108",
+            "authenticated-orcid": false,
+            "given": "Alexander",
+            "family": "Reiter",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Andreas",
+            "family": "Muller",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8846-9051",
+            "authenticated-orcid": false,
+            "given": "Hubert",
+            "family": "Gattringer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref39",
+            "first-page": "1211",
+            "article-title": "A general framework for managing multiple tasks in highly\n redundant robotic systems",
+            "volume": "2",
+            "author": "slotine",
+            "year": "0",
+            "journal-title": "Proc 5th Int Conf Adv Robot"
+          },
+          {
+            "key": "ref38",
+            "first-page": "97",
+            "article-title": "Robot\n redundancy resolution at the acceleration level",
+            "volume": "4",
+            "author": "de luca",
+            "year": "1992",
+            "journal-title": "Lab Robot Autom"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498500400201"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/CDC.1984.272258"
+          },
+          {
+            "key": "ref31",
+            "volume": "15",
+            "author": "ben-israel",
+            "year": "2003",
+            "journal-title": "Generalized Inverses Theory and Applications"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechmachtheory.2006.02.001"
+          },
+          {
+            "key": "ref37",
+            "article-title": "A general-purpose software framework for dynamic optimization",
+            "author": "andersson",
+            "year": "2013"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498700600201"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574799002106"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1985.1087277"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/(SICI)1099-1239(199809)8:11<965::AID-RNC371>3.0.CO;2-4"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10107-004-0559-y"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11044-013-9391-6"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.2008.4543454"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10846-014-0024-y"
+          },
+          {
+            "key": "ref14",
+            "author": "nakamura",
+            "year": "1990",
+            "journal-title": "Advanced Robotics Redundancy and Optimization"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1163/156855388X00029"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1985.1087234"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JRA.1987.1087118"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICNN.1988.23979"
+          },
+          {
+            "key": "ref19",
+            "first-page": "351",
+            "article-title": "A real-time learning neural robot controller",
+            "volume": "1",
+            "author": "van der smagt",
+            "year": "0",
+            "journal-title": "Proc Int Conf Artif Neural Netw"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3426611"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1990.125962"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-32552-1"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.1986.1104317"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/(SICI)1097-4563(200005)17:5<233::AID-ROB1>3.0.CO;2-Y"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574797000672"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.313107"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IECON.2016.7793436"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.1985.1104009"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1985.1087280"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/pamm.201010018"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/027836498500400301"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5220/0005975800610068"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.833194"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROBOT.1987.1087950"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2016.2526072"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMMS.1969.299896"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574714001465"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1299/jsmec.47.582"
+          },
+          {
+            "key": "ref26",
+            "first-page": "242",
+            "article-title": "A multiple shooting algorithm for direct solution of optimal control problems",
+            "author": "bock",
+            "year": "0",
+            "journal-title": "Proc IFAC World Congr"
+          },
+          {
+            "key": "ref43",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2017.7989289"
+          },
+          {
+            "key": "ref25",
+            "first-page": "868",
+            "article-title": "Automatic supervisory control of the configuration and behavior of\n multibody mechanisms",
+            "volume": "smc 7",
+            "author": "liégeois",
+            "year": "1977",
+            "journal-title": "IEEE Trans Syst Man Cybern"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Industrial Informatics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/9424/8331183/08253867.pdf?arnumber=8253867",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              26
+            ]
+          ],
+          "date-time": "2022-01-26T05:05:56Z",
+          "timestamp": 1643173556000
+        },
+        "score": 33.583668,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/8253867/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "references-count": 43,
+        "journal-issue": {
+          "issue": "4"
+        },
+        "URL": "https://doi.org/10.1109/tii.2018.2792002",
+        "ISSN": [
+          "1551-3203",
+          "1941-0050"
+        ],
+        "issn-type": [
+          {
+            "value": "1551-3203",
+            "type": "print"
+          },
+          {
+            "value": "1941-0050",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

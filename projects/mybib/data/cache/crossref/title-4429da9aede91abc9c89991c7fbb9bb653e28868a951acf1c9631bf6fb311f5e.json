@@ -1,0 +1,276 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1632753,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ],
+          "date-time": "2026-03-14T00:23:11Z",
+          "timestamp": 1773447791083,
+          "version": "3.50.1"
+        },
+        "reference-count": 11,
+        "publisher": "Elsevier BV",
+        "issue": "2-3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  1975,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "1975-06-01T00:00:00Z",
+              "timestamp": 170812800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1975,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/0094-114x(75)90017-8",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              2,
+              10
+            ]
+          ],
+          "date-time": "2005-02-10T22:04:36Z",
+          "timestamp": 1108073076000
+        },
+        "page": "167-176",
+        "source": "Crossref",
+        "is-referenced-by-count": 26,
+        "title": [
+          "The fecund torus, its bitangent-circles and derived linkages"
+        ],
+        "prefix": "10.1016",
+        "volume": "10",
+        "author": [
+          {
+            "given": "E.F",
+            "family": "Fichter",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "K.H",
+            "family": "Hunt",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB1",
+            "doi-asserted-by": "crossref",
+            "first-page": "183",
+            "DOI": "10.24033/bsmf.1179",
+            "article-title": "Contribution à la géometrie des systèmes articulés",
+            "volume": "59",
+            "author": "Myard",
+            "year": "1931",
+            "journal-title": "Bull. Soc. Mathématique de France"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB2",
+            "doi-asserted-by": "crossref",
+            "first-page": "704",
+            "DOI": "10.1115/1.3438213",
+            "article-title": "Analysis of spatial RRGRR mechanisms by the method of generated surfaces",
+            "volume": "95B",
+            "author": "Torfason",
+            "year": "1973",
+            "journal-title": "Trans. ASME, J. Engng Ind."
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB3",
+            "doi-asserted-by": "crossref",
+            "first-page": "511",
+            "DOI": "10.1115/1.3438184",
+            "article-title": "Dwell motion from spatial linkages",
+            "volume": "95B",
+            "author": "Shrivastava",
+            "year": "1973",
+            "journal-title": "Trans. ASME, J. Engng Ind."
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB4",
+            "volume": "Vol. 2",
+            "author": "Klein",
+            "year": "1939"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB5",
+            "series-title": "Analytical Geometry of Three Dimensions",
+            "author": "Sommerville",
+            "year": "1934"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB6",
+            "series-title": "Plane Algebraic Curves",
+            "author": "Primrose",
+            "year": "1955"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB7",
+            "first-page": "345",
+            "volume": "7",
+            "author": "Villarceau",
+            "year": "1848",
+            "journal-title": "Théorème sur le tore. Nouvelles Annales de Mathématiques (1st Series)"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB8",
+            "first-page": "241",
+            "article-title": "Quadruple dwell from a four-bar spatial linkage",
+            "volume": "6",
+            "author": "Shrivastava",
+            "year": "1971",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB9",
+            "series-title": "Proc. Third World Congress for the Theory of Machines and Mechanisms",
+            "first-page": "247",
+            "article-title": "Use of the intersection of surfaces as a method for the design of spatial mechanisms",
+            "author": "Torfason",
+            "year": "1971"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB10",
+            "doi-asserted-by": "crossref",
+            "first-page": "233",
+            "DOI": "10.1016/0094-114X(73)90058-X",
+            "article-title": "A study of overconstrained linkage geometry by solution of closure equations—II. Four-bar linkages with lower pair joints other than screw joints",
+            "volume": "8",
+            "author": "Waldron",
+            "year": "1973",
+            "journal-title": "Mechanism and Machine Theory"
+          },
+          {
+            "key": "10.1016/0094-114X(75)90017-8_BIB11",
+            "first-page": "105",
+            "article-title": "Sur le théorème de Schoelcher",
+            "volume": "3",
+            "author": "Mannheim",
+            "year": "1903",
+            "journal-title": "Nouvelles Annales de Mathématiques (4th Series)"
+          }
+        ],
+        "container-title": [
+          "Mechanism and Machine Theory"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X75900178?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0094114X75900178?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              28
+            ]
+          ],
+          "date-time": "2019-01-28T22:59:02Z",
+          "timestamp": 1548716342000
+        },
+        "score": 58.02277,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/0094114X75900178"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1975,
+              6
+            ]
+          ]
+        },
+        "references-count": 11,
+        "journal-issue": {
+          "issue": "2-3",
+          "published-print": {
+            "date-parts": [
+              [
+                1975,
+                6
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "0094114X75900178"
+        ],
+        "URL": "https://doi.org/10.1016/0094-114x(75)90017-8",
+        "ISSN": [
+          "0094-114X"
+        ],
+        "issn-type": [
+          {
+            "value": "0094-114X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1975,
+              6
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

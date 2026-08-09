@@ -1,0 +1,322 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 9979280,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              23
+            ]
+          ],
+          "date-time": "2026-01-23T11:42:03Z",
+          "timestamp": 1769168523926,
+          "version": "3.49.0"
+        },
+        "reference-count": 29,
+        "publisher": "Informa UK Limited",
+        "issue": "3",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Computer Methods in Biomechanics and Biomedical Engineering"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1080/10255840410001727805",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2004,
+              10,
+              6
+            ]
+          ],
+          "date-time": "2004-10-06T14:49:15Z",
+          "timestamp": 1097074155000
+        },
+        "page": "159-166",
+        "source": "Crossref",
+        "is-referenced-by-count": 88,
+        "title": [
+          "A 3D Generic Inverse Dynamic Method using Wrench Notation and Quaternion Algebra"
+        ],
+        "prefix": "10.1080",
+        "volume": "7",
+        "author": [
+          {
+            "given": "R.",
+            "family": "Dumas",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "R.",
+            "family": "Aissaoui",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "J.A.",
+            "family": "de Guise",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "reference": [
+          {
+            "key": "bib1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1053/joca.2002.0797"
+          },
+          {
+            "key": "bib2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1097/00002060-199909000-00006"
+          },
+          {
+            "key": "bib3",
+            "first-page": "803",
+            "volume-title": "Journal of Biomechanics",
+            "author": "Gregersen CS",
+            "year": "2003"
+          },
+          {
+            "key": "bib4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1053/joca.2000.0511"
+          },
+          {
+            "key": "bib5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0167-9457(96)00009-7"
+          },
+          {
+            "key": "bib6",
+            "unstructured": "Winter DA 1990Biomechanics and Motor Control of Human MovementJohn Wiley & Sons New York 296"
+          },
+          {
+            "key": "bib7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0021-9290(89)90037-7"
+          },
+          {
+            "key": "bib8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0966-6362(97)00026-X"
+          },
+          {
+            "key": "bib9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0966-6362(97)00041-6"
+          },
+          {
+            "key": "bib10",
+            "unstructured": "Vaughan CL Davis BL O'Connor JC 1992Dynamics of Human GaitHuman Kinetics Champaign, IL 137"
+          },
+          {
+            "key": "bib11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0167-9457(91)90046-Z"
+          },
+          {
+            "key": "bib12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0966-6362(99)00011-9"
+          },
+          {
+            "key": "bib13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0021-9290(95)00017-C"
+          },
+          {
+            "key": "bib14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0021-9290(94)00124-M"
+          },
+          {
+            "key": "bib15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0167-9457(96)00004-8"
+          },
+          {
+            "key": "bib16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0094-114X(86)90084-4"
+          },
+          {
+            "key": "bib17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wittenburg J 1977Dynamics of Systems of Rigid BodiesTeubner Stuttgart 224",
+            "DOI": "10.1007/978-3-322-90942-8"
+          },
+          {
+            "key": "bib18",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.21236/ADA097238",
+            "volume-title": "Anthropometric Relationships of Body and Body Segment Moments of Inertia",
+            "author": "McConville JT",
+            "year": "1980"
+          },
+          {
+            "key": "bib19",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1037/e465662008-001",
+            "volume-title": "Anthropometric and Mass Distribution Characteristics of the Adults Female",
+            "author": "Young JW",
+            "year": "1983"
+          },
+          {
+            "key": "bib20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF02523852"
+          },
+          {
+            "key": "bib21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0021-9290(01)00222-6"
+          },
+          {
+            "key": "bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "223",
+            "DOI": "10.2514/3.55767b",
+            "volume": "16",
+            "author": "Shepperd SW",
+            "year": "1978",
+            "journal-title": "Journal of Guidance Control and Dynamics"
+          },
+          {
+            "key": "bib23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.127239"
+          },
+          {
+            "key": "bib24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0021-9290(96)00186-8"
+          },
+          {
+            "key": "bib25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0021-9290(92)90076-D"
+          },
+          {
+            "key": "bib26",
+            "unstructured": "van den Bogert, T (1993). Angles 3D [Biomch-L]. Available at: http://isb.ri.ccf.org/biomch-l/files/angles3d.topic"
+          },
+          {
+            "key": "bib27",
+            "unstructured": "Kirtley, C (2001). Summary: quaternions vs. Euler angles [Biomch-L]. Available at: http://isb.ri.ccf.org/biomch-l/archives/biomch-l-2001-05/00018.html"
+          },
+          {
+            "key": "bib28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3138397"
+          },
+          {
+            "key": "bib29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF02441745"
+          }
+        ],
+        "container-title": [
+          "Computer Methods in Biomechanics and Biomedical Engineering"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/10255840410001727805",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              3
+            ]
+          ],
+          "date-time": "2020-04-03T08:48:13Z",
+          "timestamp": 1585903693000
+        },
+        "score": 45.78017,
+        "resource": {
+          "primary": {
+            "URL": "http://www.tandfonline.com/doi/abs/10.1080/10255840410001727805"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              6
+            ]
+          ]
+        },
+        "references-count": 29,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2004,
+                6
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1080/10255840410001727805"
+        ],
+        "URL": "https://doi.org/10.1080/10255840410001727805",
+        "ISSN": [
+          "1025-5842",
+          "1476-8259"
+        ],
+        "issn-type": [
+          {
+            "value": "1025-5842",
+            "type": "print"
+          },
+          {
+            "value": "1476-8259",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              6
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 940884,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2024-09-07T06:26:46Z",
+          "timestamp": 1725690406603
+        },
+        "reference-count": 15,
+        "publisher": "AIP Publishing",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1063/5.0180095",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              29
+            ]
+          ],
+          "date-time": "2023-11-29T18:00:22Z",
+          "timestamp": 1701280822000
+        },
+        "page": "020005",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Simple way to achieve inner-health with Manache Shlok: A machine learning way"
+        ],
+        "prefix": "10.1063",
+        "volume": "2954",
+        "author": [
+          {
+            "given": "Preeti",
+            "family": "Mulay",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Neha",
+            "family": "Divekar",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Swati",
+            "family": "Kadlag",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Rajeev",
+            "family": "Raje",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Sushama",
+            "family": "Purandare",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "317",
+        "reference": [
+          {
+            "key": "10.1063/5.0180095_c1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "R.R. Sharma, and R. Batra, 2019, “Bhagvad Gita Approach to Stress Mitigation and Holistic Well-Being,” Managing by the Bhagavad Gītā, pp. 137–154, Springer, Cham",
+            "DOI": "10.1007/978-3-319-99611-0_7"
+          },
+          {
+            "key": "10.1063/5.0180095_c2",
+            "unstructured": "R. Cheser, 1994, “Kaizen is more than continuous improvement,” Quality progress, 27(4), pp. 23–26."
+          },
+          {
+            "key": "10.1063/5.0180095_c3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S.R. Rawat, 2017, “Traits of Transformational Leader: Durga Saptshati-A Case Study,” PURUSHARTHA-A J. of Management, Ethics and Spirituality, 9(2), pp. 18–26.",
+            "DOI": "10.21844/pajmes.v9i2.6937"
+          },
+          {
+            "key": "10.1063/5.0180095_c4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4103/0972-6748.119586"
+          },
+          {
+            "key": "10.1063/5.0180095_c5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4103/0972-6748.90335"
+          },
+          {
+            "key": "10.1063/5.0180095_c6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/09585192.2012.709186"
+          },
+          {
+            "key": "10.1063/5.0180095_c7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0971685816673484"
+          },
+          {
+            "key": "10.1063/5.0180095_c8",
+            "unstructured": "P. Patki, 2014, “Application of ancient Indian sutras in modern management framework: Towards a sustainable paradigm,” Int. J. of Management & Social Science Res., 3(1), pp. 80–85."
+          },
+          {
+            "key": "10.1063/5.0180095_c9",
+            "unstructured": "S. Yadav, 2014, “The role of emotional intelligence in organization development,” IUP J. of Knowledge Management, 12(4), p. 49."
+          },
+          {
+            "key": "10.1063/5.0180095_c10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4018/978-1-5225-9893-0.ch006"
+          },
+          {
+            "key": "10.1063/5.0180095_c11",
+            "unstructured": "https://www.dailypioneer.com/2019/sunday-edition/mind-your-management--how-to-be-a-mindful-leader.html"
+          },
+          {
+            "key": "10.1063/5.0180095_c12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S. Dhiman, and V. Kumar, 2020, “New Horizons in Transformational Leadership: A Vedāntic Perspective on Values-Based Leadership,” New Horizons in Positive Leadership and Change, pp. 381–412, Springer, Cham.",
+            "DOI": "10.1007/978-3-030-38129-5_21"
+          },
+          {
+            "key": "10.1063/5.0180095_c13",
+            "unstructured": "E.L. Lydia, P. Govindaswamy, S. Lakshmanaprabu, and D. Ramya, 2018, “Document clustering based on text mining K-means algorithm using euclidean distance similarity,” J. Adv. Res. Dyn. Control Syst. (JARDCS), 10(2), pp. 208–214."
+          },
+          {
+            "key": "10.1063/5.0180095_c14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1504/IJHPCN.2019.099265"
+          },
+          {
+            "key": "10.1063/5.0180095_c15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "P. Xie, L. Zhang, Y. Wang, Q. Li, 2013, “Application of An Improved DBSCAN Algorithm in Web Text Mining,” 1st Int. Workshop on Cloud Computing and Information Security, pp. 400–403.",
+            "DOI": "10.2991/ccis-13.2013.92"
+          }
+        ],
+        "event": {
+          "name": "INTERNATIONAL CONFERENCE ON RESEARCH INNOVATIONS: TRENDS IN SCIENCE AND TECHNOLOGY",
+          "location": "Penang, Malaysia"
+        },
+        "container-title": [
+          "AIP Conference Proceedings",
+          "INTERNATIONAL CONFERENCE ON RESEARCH INNOVATIONS: TRENDS IN SCIENCE AND TECHNOLOGY"
+        ],
+        "link": [
+          {
+            "URL": "http://aip.scitation.org/doi/pdf/10.1063/5.0180095",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              29
+            ]
+          ],
+          "date-time": "2023-11-29T18:07:17Z",
+          "timestamp": 1701281237000
+        },
+        "score": 29.04222,
+        "resource": {
+          "primary": {
+            "URL": "http://aip.scitation.org/doi/abs/10.1063/5.0180095"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "references-count": 15,
+        "URL": "https://doi.org/10.1063/5.0180095",
+        "ISSN": [
+          "0094-243X"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0094-243X"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

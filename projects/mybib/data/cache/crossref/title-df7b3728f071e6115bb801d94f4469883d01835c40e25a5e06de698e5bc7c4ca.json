@@ -1,0 +1,132 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1118386,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2024-09-05T06:00:57Z",
+          "timestamp": 1725516057020
+        },
+        "publisher-location": "Berlin, Heidelberg",
+        "reference-count": 0,
+        "publisher": "Springer Berlin Heidelberg",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783540693918"
+          },
+          {
+            "type": "electronic",
+            "value": "9783540693932"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-540-69393-2_2",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2008,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2008-07-19T01:38:14Z",
+          "timestamp": 1216431494000
+        },
+        "page": "19-30",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Introduction to Riemannian Geometry"
+        ],
+        "prefix": "10.1007",
+        "member": "297",
+        "container-title": [
+          "Lecture Notes in Mathematics",
+          "Information Geometry"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-540-69393-2_2.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2021-05-03T04:38:15Z",
+          "timestamp": 1620016695000
+        },
+        "score": 29.850212,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-540-69393-2_2"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783540693918",
+          "9783540693932"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-3-540-69393-2_2",
+        "ISSN": [
+          "0075-8434"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0075-8434"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

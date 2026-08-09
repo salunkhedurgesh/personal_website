@@ -1,0 +1,170 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 6209216,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2024-09-05T21:34:58Z",
+          "timestamp": 1725572098505
+        },
+        "reference-count": 0,
+        "publisher": "CRC Press",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9780849307751"
+          },
+          {
+            "type": "electronic",
+            "value": "9780849307768"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              10,
+              17
+            ]
+          ]
+        },
+        "DOI": "10.1201/9780849307768.ch20",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              12,
+              16
+            ]
+          ],
+          "date-time": "2010-12-16T13:23:23Z",
+          "timestamp": 1292505803000
+        },
+        "page": "20-1-20-11",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Kinematic Design Optimization of Acrobot"
+        ],
+        "prefix": "10.1201",
+        "author": [
+          {
+            "given": "L",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "C",
+            "family": "Chew",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A",
+            "family": "Poo",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "C",
+            "family": "de Silva",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              12,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Mechanical Engineering Series",
+          "Mechatronic Systems"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2010,
+              12,
+              16
+            ]
+          ],
+          "date-time": "2010-12-16T13:23:52Z",
+          "timestamp": 1292505832000
+        },
+        "score": 23.922836,
+        "resource": {
+          "primary": {
+            "URL": "http://www.crcnetbase.com/doi/abs/10.1201/9780849307768.ch20"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2007,
+              10,
+              17
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780849307751",
+          "9780849307768"
+        ],
+        "references-count": 0,
+        "alternative-id": [
+          "10.1201/9780849307768.ch20",
+          "10.1201/CRCMECHAENG",
+          "10.1201/9780849307768"
+        ],
+        "URL": "https://doi.org/10.1201/9780849307768.ch20",
+        "ISSN": [
+          "2154-8854"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2154-8854"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              10,
+              17
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

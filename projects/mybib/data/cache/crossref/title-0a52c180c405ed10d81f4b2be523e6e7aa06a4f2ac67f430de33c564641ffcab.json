@@ -1,0 +1,887 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2750297,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              10
+            ]
+          ],
+          "date-time": "2026-01-10T02:17:53Z",
+          "timestamp": 1768011473183,
+          "version": "3.49.0"
+        },
+        "reference-count": 60,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2019-12-01T00:00:00Z",
+              "timestamp": 1575158400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2019-12-01T00:00:00Z",
+              "timestamp": 1575158400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100012669",
+            "name": "Natural Science Foundation Project of Chongqing, Chongqing Science and Technology Commission",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100012669",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100010338",
+            "name": "Chongqing Normal University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100010338",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Physica A: Statistical Mechanics and its Applications"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.physa.2019.122358",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              9
+            ]
+          ],
+          "date-time": "2019-08-09T11:33:01Z",
+          "timestamp": 1565350381000
+        },
+        "page": "122358",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 43,
+        "special_numbering": "C",
+        "title": [
+          "Stability and stabilization of quaternion-valued neural networks with uncertain time-delayed impulses: Direct quaternion method"
+        ],
+        "prefix": "10.1016",
+        "volume": "535",
+        "author": [
+          {
+            "given": "Zhengwen",
+            "family": "Tu",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Xinsong",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Liangwei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Nan",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.physa.2019.122358_b1",
+            "series-title": "Elements of Quaternions",
+            "author": "Hamilton",
+            "year": "1866"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b2",
+            "series-title": "Quaternion Neural Network and Its Application",
+            "first-page": "318",
+            "author": "Isokawa",
+            "year": "2003"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b3",
+            "doi-asserted-by": "crossref",
+            "first-page": "249",
+            "DOI": "10.1109/TNNLS.2015.2440473",
+            "article-title": "Optimization in quaternion dynamic systems: gradient, Hessian, and learning algorithms",
+            "volume": "27",
+            "author": "Xu",
+            "year": "2016",
+            "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b4",
+            "unstructured": "S. Buchholz, B.N. Le, Optimal separation of polarized signals by quaternionic neural networks, in: 14th European Signal Processing Conference, 2006, pp. 4–8."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.physa.2019.122358_b5",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1111/sapm.12211",
+            "article-title": "Linear quaternion differential equations: Basic theory and fundamental results",
+            "volume": "141",
+            "author": "Kou",
+            "year": "2018",
+            "journal-title": "Stud. Appl. Math."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b6",
+            "first-page": "172",
+            "article-title": "Linear quaternion-valued dynamic equations on time scales",
+            "volume": "8",
+            "author": "Chen",
+            "year": "2018",
+            "journal-title": "J. Appl. Anal. Comput."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b7",
+            "doi-asserted-by": "crossref",
+            "first-page": "614",
+            "DOI": "10.1109/83.760310",
+            "article-title": "Color image processing by using binary quaternion-moment-preserving thresholding technique",
+            "volume": "8",
+            "author": "Pei",
+            "year": "1999",
+            "journal-title": "IEEE Trans. Image Process."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.physa.2019.122358_b8",
+            "doi-asserted-by": "crossref",
+            "first-page": "969",
+            "DOI": "10.1049/el:19980697",
+            "article-title": "Colour image edge dectector based on quaternion convolution",
+            "volume": "34",
+            "author": "Sangwine",
+            "year": "1998",
+            "journal-title": "Electron Lett."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b9",
+            "doi-asserted-by": "crossref",
+            "first-page": "5736",
+            "DOI": "10.1109/TIT.2014.2333734",
+            "article-title": "Quaternion reproducing kernel Hilbert spaces: Existence and uniqueness conditions",
+            "volume": "60",
+            "author": "Tobar",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Inform. Theory"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b10",
+            "doi-asserted-by": "crossref",
+            "first-page": "89",
+            "DOI": "10.1016/j.molstruc.2014.07.031",
+            "article-title": "Description of protein secondary structure using dual quaternions",
+            "volume": "1076",
+            "author": "Proškovǎ",
+            "year": "2014",
+            "journal-title": "J. Mol. Struct."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.physa.2019.122358_b11",
+            "doi-asserted-by": "crossref",
+            "first-page": "1950016",
+            "DOI": "10.1142/S1793524519500165",
+            "article-title": "Periodicity of non-autonomous inertial neural networks involving proportional delays and non-reduced order method",
+            "volume": "12",
+            "author": "Huang",
+            "year": "2019",
+            "journal-title": "Int. J. Biomath."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.physa.2019.122358_b12",
+            "doi-asserted-by": "crossref",
+            "first-page": "1954",
+            "DOI": "10.1002/mma.4722",
+            "article-title": "Global exponential convergence in a delayed almost periodic Nicholson’s blowflies model with discontinuous harvesting",
+            "volume": "41",
+            "author": "Duan",
+            "year": "2018",
+            "journal-title": "Math. Methods Appl. Sci."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.physa.2019.122358_b13",
+            "doi-asserted-by": "crossref",
+            "first-page": "52",
+            "DOI": "10.1016/j.nahs.2010.08.005",
+            "article-title": "Exponential stability for stochastic jumping BAM neural networks with time-varying and distributed delays",
+            "volume": "5",
+            "author": "Zhu",
+            "year": "2011",
+            "journal-title": "Nonlinear Anal. Hybrid Syst."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.physa.2019.122358_b14",
+            "doi-asserted-by": "crossref",
+            "first-page": "2952",
+            "DOI": "10.1016/j.physa.2008.01.068",
+            "article-title": "Robust μ-stability for uncertain stochastic neural networks with unbounded time-varying delays",
+            "volume": "387",
+            "author": "Liu",
+            "year": "2008",
+            "journal-title": "Physica A"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b15",
+            "doi-asserted-by": "crossref",
+            "first-page": "16",
+            "DOI": "10.1016/j.neunet.2016.05.003",
+            "article-title": "Synchronization of fractional-order complex-valued neural networks with time delay",
+            "volume": "81",
+            "author": "Bao",
+            "year": "2016",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b16",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.matcom.2015.04.005",
+            "article-title": "Global Lagrange stability for neutral-type Cohen-Grossberg BAM neural networks with mixed time-varying delays",
+            "volume": "116",
+            "author": "Jian",
+            "year": "2015",
+            "journal-title": "Math. Comput. Simulation"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b17",
+            "doi-asserted-by": "crossref",
+            "first-page": "690",
+            "DOI": "10.1109/TNNLS.2013.2280458",
+            "article-title": "Lagrange stability of memristive neural networks with discrete and distributed delays",
+            "volume": "25",
+            "author": "Wu",
+            "year": "2014",
+            "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b18",
+            "doi-asserted-by": "crossref",
+            "first-page": "393",
+            "DOI": "10.1016/j.chaos.2004.11.035",
+            "article-title": "Global dissipativity of neural networks with both variable and unbounded delays",
+            "volume": "25",
+            "author": "Song",
+            "year": "2005",
+            "journal-title": "Chaos Solitons Fractals"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.physa.2019.122358_b19",
+            "first-page": "292",
+            "article-title": "Dissipativity analysis for discrete stochastic neural networks with Markovian delays and partially known transition matrix",
+            "volume": "228",
+            "author": "Mahmoud",
+            "year": "2014",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b20",
+            "doi-asserted-by": "crossref",
+            "first-page": "2101",
+            "DOI": "10.1016/j.jde.2013.12.015",
+            "article-title": "On the basins of attraction for a class of delay differential equations with non-monotone bistable nonlinearities",
+            "volume": "256",
+            "author": "Huang",
+            "year": "2014",
+            "journal-title": "J. Differential Equations"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.physa.2019.122358_b21",
+            "doi-asserted-by": "crossref",
+            "first-page": "3021",
+            "DOI": "10.1109/TCYB.2017.2749248",
+            "article-title": "Finite-time synchronization of networks via quantized intermittent pinning control",
+            "volume": "48",
+            "author": "Xu",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Cybern."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b22",
+            "doi-asserted-by": "crossref",
+            "first-page": "6520",
+            "DOI": "10.1016/j.jfranklin.2018.06.021",
+            "article-title": "Synchronization of nonlinearly coupled dynamical networks under hybrid pinning impulsive controllers",
+            "volume": "355",
+            "author": "Li",
+            "year": "2018",
+            "journal-title": "J. Franklin Inst."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b23",
+            "doi-asserted-by": "crossref",
+            "first-page": "59",
+            "DOI": "10.1007/s11063-016-9568-0",
+            "article-title": "Impulsive synchronization of stochastic neural networks via controlling partial states",
+            "volume": "46",
+            "author": "Li",
+            "year": "2017",
+            "journal-title": "Neural Process. Lett."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b24",
+            "first-page": "10",
+            "article-title": "Globally exponential stabilization of neural networks with mixed time delays via impulsive control",
+            "volume": "260",
+            "author": "Wei",
+            "year": "2015",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "issue": "16",
+            "key": "10.1016/j.physa.2019.122358_b25",
+            "doi-asserted-by": "crossref",
+            "first-page": "5986",
+            "DOI": "10.1002/mma.4448",
+            "article-title": "Global exponential stability of periodic solutions in a nonsmooth model of hematopoiesis with time-varying delays",
+            "volume": "40",
+            "author": "Tan",
+            "year": "2017",
+            "journal-title": "Math. Methods Appl. Sci."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b26",
+            "doi-asserted-by": "crossref",
+            "first-page": "103",
+            "DOI": "10.1016/j.neucom.2018.09.030",
+            "article-title": "Global dissipativity analysis of quaternion-valued memristor-based neural networks with proportional delay",
+            "volume": "321",
+            "author": "Li",
+            "year": "2018",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b27",
+            "doi-asserted-by": "crossref",
+            "first-page": "417",
+            "DOI": "10.1016/j.neucom.2017.06.047",
+            "article-title": "Boundedness and periodicity for linear threshold discrete-time quaternion-valued neural network with time-delays",
+            "volume": "267",
+            "author": "Hu",
+            "year": "2017",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b28",
+            "article-title": "Constrained quaternion-variable convex optimization: a quaternion-valued recurrent neural network approach",
+            "author": "Liu",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+          },
+          {
+            "issue": "84",
+            "key": "10.1016/j.physa.2019.122358_b29",
+            "doi-asserted-by": "crossref",
+            "first-page": "767",
+            "DOI": "10.1007/s11071-015-2526-y",
+            "article-title": "Global stability of clifford-valued recurrent neural networks with time delays",
+            "volume": "2",
+            "author": "Liu",
+            "year": "2016",
+            "journal-title": "Nonlinear Dynam."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b30",
+            "first-page": "342",
+            "article-title": "Stability analysis of quaternion-valued neural networks with both discrete and distributed delays",
+            "volume": "343",
+            "author": "Tu",
+            "year": "2019",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.physa.2019.122358_b31",
+            "doi-asserted-by": "crossref",
+            "first-page": "4201",
+            "DOI": "10.1109/TNNLS.2017.2755697",
+            "article-title": "Stability analysis of quaternion-valued neural networks: decomposition and direct approaches",
+            "volume": "29",
+            "author": "Liu",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b32",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1016/j.neunet.2017.06.014",
+            "article-title": "Decomposition approach to the stability of recurrent neural networks with asynchronous time delays in quaternion field",
+            "volume": "94",
+            "author": "Zhang",
+            "year": "2017",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.physa.2019.122358_b33",
+            "doi-asserted-by": "crossref",
+            "first-page": "553",
+            "DOI": "10.1007/s11071-016-3060-2",
+            "article-title": "Global exponential stability for quaternion-valued recurrent neural networks with time-varying delays",
+            "volume": "87",
+            "author": "Liu",
+            "year": "2017",
+            "journal-title": "Nonlinear Dynam."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b34",
+            "doi-asserted-by": "crossref",
+            "first-page": "273",
+            "DOI": "10.1016/j.ins.2016.04.033",
+            "article-title": "Gobal μ-stability criteria for quaternion-valued neural networks with unbounded time-varying delays",
+            "volume": "360",
+            "author": "Liu",
+            "year": "2016",
+            "journal-title": "Inform. Sci."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b35",
+            "doi-asserted-by": "crossref",
+            "first-page": "202",
+            "DOI": "10.1016/j.neucom.2017.03.052",
+            "article-title": "Global μ-stability of quaternion-valued neural networks with non-differentiable time-varying delays",
+            "volume": "247",
+            "author": "Shu",
+            "year": "2017",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.physa.2019.122358_b36",
+            "first-page": "2769",
+            "article-title": "Stability analysis of continuous-time and discrete-time quaternion-valued neural networks with linear threshold neurons",
+            "volume": "29",
+            "author": "Chen",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b37",
+            "first-page": "382",
+            "article-title": "Exponential input-to-state stability of quaternion-valued neural networks with time delay",
+            "volume": "358",
+            "author": "Qi",
+            "year": "2019",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b38",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.physa.2019.121351",
+            "article-title": "Fixed-time synchronization of quaternion-valued neural networks",
+            "volume": "527",
+            "author": "Deng",
+            "year": "2019",
+            "journal-title": "Physica A"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b39",
+            "first-page": "63",
+            "article-title": "Impulsive effects on stability of Cohen-Grossberg neural networks with variable delays",
+            "volume": "177",
+            "author": "Yang",
+            "year": "2006",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b40",
+            "first-page": "153",
+            "article-title": "Consensus of signed networked multi-agent systems with nonlinear coupling and communication delays",
+            "volume": "350",
+            "author": "Lu",
+            "year": "2019",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b41",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1155/2012/603535",
+            "article-title": "Stochastic synchronization of reaction–diffusion neural networks under general impulsive controller with mixed delays",
+            "volume": "2012",
+            "author": "Yang",
+            "year": "2012",
+            "journal-title": "Abstr. Appl. Anal."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b42",
+            "doi-asserted-by": "crossref",
+            "unstructured": "C. Huang, R. Su, J. Cao, S. Xiao, Asymptotically stable of high-order neutral cellular neural networks with proportional delays and D operators, Mathematics and Computers in Simulation, http://dx.doi.org/10.1016/j.matcom.2019.06.001.",
+            "DOI": "10.1016/j.matcom.2019.06.001"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.physa.2019.122358_b43",
+            "doi-asserted-by": "crossref",
+            "first-page": "684",
+            "DOI": "10.1016/j.physa.2007.05.060",
+            "article-title": "Synchronization in complex delayed dynamical networks with impulsive effects",
+            "volume": "384",
+            "author": "Zhou",
+            "year": "2007",
+            "journal-title": "Physica A"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b44",
+            "doi-asserted-by": "crossref",
+            "first-page": "186",
+            "DOI": "10.1186/s13662-018-1589-8",
+            "article-title": "Dynamical behaviors of a food-chain model with stage structure and time delays",
+            "volume": "2018",
+            "author": "Huang",
+            "year": "2018",
+            "journal-title": "Adv. Difference Equ."
+          },
+          {
+            "issue": "13",
+            "key": "10.1016/j.physa.2019.122358_b45",
+            "doi-asserted-by": "crossref",
+            "first-page": "3314",
+            "DOI": "10.1016/j.physa.2008.01.079",
+            "article-title": "Stability analysis of impulsive stochastic Cohen-Grossberg neural networks with mixed time delays",
+            "volume": "387",
+            "author": "Song",
+            "year": "2008",
+            "journal-title": "Physica A"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.physa.2019.122358_b46",
+            "doi-asserted-by": "crossref",
+            "first-page": "93",
+            "DOI": "10.1016/j.nonrwa.2010.05.037",
+            "article-title": "Generalized lag-synchronization of chaotic mix-delayed systems with uncertain parameters and unknown perturbations",
+            "volume": "12",
+            "author": "Yang",
+            "year": "2011",
+            "journal-title": "Nonlinear Anal. RWA"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.physa.2019.122358_b47",
+            "doi-asserted-by": "crossref",
+            "first-page": "233",
+            "DOI": "10.1016/j.camwa.2016.11.010",
+            "article-title": "Periodic attractor for reaction–diffusion high-order hopfield neural networks with time-varying delays",
+            "volume": "73",
+            "author": "Duan",
+            "year": "2017",
+            "journal-title": "Comput. Math. Appl."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.physa.2019.122358_b48",
+            "first-page": "3591",
+            "article-title": "Generalized Lyapunov-razumikhin method for retarded differential inclusions: Applications to discontinuous neural networks",
+            "volume": "22",
+            "author": "Cai",
+            "year": "2017",
+            "journal-title": "Discrete Contin. Dyn. Syst. Ser. B"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b49",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1016/j.neucom.2018.01.018",
+            "article-title": "Stability of quaternion-valued impulsive delay difference systems and its application to neural networks",
+            "volume": "284",
+            "author": "Zhu",
+            "year": "2018",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b50",
+            "article-title": "Multistability and multiperiodicity in impulsive hybrid quaternion-valued neural networks with mixed delays",
+            "author": "Popa",
+            "year": "2018",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b51",
+            "doi-asserted-by": "crossref",
+            "first-page": "25",
+            "DOI": "10.1016/j.fss.2013.06.008",
+            "article-title": "Synchronization of T-S fuzzy complex dynamical networks with time-varying impulsive delays and stochastic effects",
+            "volume": "235",
+            "author": "Yang",
+            "year": "2014",
+            "journal-title": "Fuzzy Sets and Systems"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b52",
+            "doi-asserted-by": "crossref",
+            "first-page": "80",
+            "DOI": "10.1016/j.neunet.2015.01.008",
+            "article-title": "pth moment exponential stochastic synchronization of coupled memristor-based neural networks with mixed delays via delayed impulsive control",
+            "volume": "65",
+            "author": "Yang",
+            "year": "2015",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b53",
+            "first-page": "22",
+            "article-title": "Exponential synchronization of complex-valued complex networks with time-varying delays and stochastic perturbations via time-delayed impulsive control",
+            "volume": "306",
+            "author": "Zhang",
+            "year": "2017",
+            "journal-title": "Appl. Math. Comput."
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.physa.2019.122358_b54",
+            "doi-asserted-by": "crossref",
+            "first-page": "3618",
+            "DOI": "10.1109/TAC.2017.2669580",
+            "article-title": "An impulsive delay inequality involving unbounded time-varying delay and applications",
+            "volume": "62",
+            "author": "Li",
+            "year": "2017",
+            "journal-title": "IEEE T. Automat. Contr."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b55",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1016/j.neunet.2017.04.006",
+            "article-title": "Robust stability analysis of quaternion-valued neural networks with time delays and parameter uncertainties",
+            "volume": "91",
+            "author": "Chen",
+            "year": "2017",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b56",
+            "article-title": "Robust stability analysis of quaternion-valued neural networks via LMI approach",
+            "volume": "131",
+            "author": "Chen",
+            "year": "2018",
+            "journal-title": "Adv. Differential Equations"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b57",
+            "series-title": "Linear Matrix Inequalities in System and Control Theory",
+            "author": "Boyd",
+            "year": "1994"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b58",
+            "series-title": "Quaternion Matrices",
+            "author": "Li",
+            "year": "2002"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b59",
+            "doi-asserted-by": "crossref",
+            "first-page": "2495",
+            "DOI": "10.1016/j.neucom.2006.08.005",
+            "article-title": "Global exponential stability of delayed cellular neural networks with impulses",
+            "volume": "70",
+            "author": "Xia",
+            "year": "2007",
+            "journal-title": "Neurocomputing"
+          },
+          {
+            "key": "10.1016/j.physa.2019.122358_b60",
+            "doi-asserted-by": "crossref",
+            "first-page": "108",
+            "DOI": "10.1016/j.neunet.2016.03.007",
+            "article-title": "Global exponential stability of complex-valued neural networks with both time-varying delays and impulsive effects",
+            "volume": "79",
+            "author": "Song",
+            "year": "2016",
+            "journal-title": "Neural Netw."
+          }
+        ],
+        "container-title": [
+          "Physica A: Statistical Mechanics and its Applications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0378437119313585?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0378437119313585?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2025-10-08T07:15:48Z",
+          "timestamp": 1759907748000
+        },
+        "score": 23.697779,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378437119313585"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "references-count": 60,
+        "alternative-id": [
+          "S0378437119313585"
+        ],
+        "URL": "https://doi.org/10.1016/j.physa.2019.122358",
+        "ISSN": [
+          "0378-4371"
+        ],
+        "issn-type": [
+          {
+            "value": "0378-4371",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Stability and stabilization of quaternion-valued neural networks with uncertain time-delayed impulses: Direct quaternion method",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Physica A: Statistical Mechanics and its Applications",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.physa.2019.122358",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2019 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "122358"
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

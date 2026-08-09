@@ -1,0 +1,406 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4153821,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2026-02-11T13:29:04Z",
+          "timestamp": 1770816544778,
+          "version": "3.50.1"
+        },
+        "reference-count": 9,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "7630",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2016-11-01T00:00:00Z",
+              "timestamp": 1477958400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Nature"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1038/nature19779",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2016-11-22T17:17:50Z",
+          "timestamp": 1479835070000
+        },
+        "page": "E10-E11",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "Mirazón Lahr et al. reply"
+        ],
+        "prefix": "10.1038",
+        "volume": "539",
+        "author": [
+          {
+            "given": "M. Mirazón",
+            "family": "Lahr",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "F.",
+            "family": "Rivera",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "R. K.",
+            "family": "Power",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A.",
+            "family": "Mounier",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "B.",
+            "family": "Copsey",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "F.",
+            "family": "Crivellaro",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "J. E.",
+            "family": "Edung",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "J. M.",
+            "family": "Maillo Fernandez",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "C.",
+            "family": "Kiarie",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "J.",
+            "family": "Lawrence",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A.",
+            "family": "Leakey",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "E.",
+            "family": "Mbua",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "H.",
+            "family": "Miller",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A.",
+            "family": "Muigai",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "D. M.",
+            "family": "Mukhongo",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A.",
+            "family": "Van Baelen",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "R.",
+            "family": "Wood",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "J.-L.",
+            "family": "Schwenninger",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "R.",
+            "family": "Grün",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "H.",
+            "family": "Achyuthan",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A.",
+            "family": "Wilshaw",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "R. A.",
+            "family": "Foley",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              23
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "BFnature19779_CR1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "Stojanowski, C. M. et al. Contesting the massacre at Nataruk. Nature 539, \n                    http://dx.doi.org/10.1038/nature19778\n                    \n                   (2016)",
+            "DOI": "10.1038/nature19778"
+          },
+          {
+            "key": "BFnature19779_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "394",
+            "DOI": "10.1038/nature16477",
+            "volume": "529",
+            "author": "M Mirazón Lahr",
+            "year": "2016",
+            "unstructured": "Mirazón Lahr, M. et al. Inter-group violence among early Holocene hunter-gatherers of West Turkana, Kenya. Nature 529, 394–398 (2016)",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "BFnature19779_CR3",
+            "first-page": "120",
+            "volume": "44",
+            "author": "JE Buikstra",
+            "year": "1994",
+            "unstructured": "Buikstra, J. E. & Ubelaker, D. H. Standards for data collection from human skeletal remains. Am J Hum Biol. 44, 120 (1994)",
+            "journal-title": "Am J Hum Biol."
+          },
+          {
+            "key": "BFnature19779_CR4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Knüsel, C. & Smith, M. J. (Eds). The Handbook of the Bioarchaeology of Human Conflict. (Routledge, 2013)",
+            "DOI": "10.4324/9781315883366"
+          },
+          {
+            "key": "BFnature19779_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "177",
+            "DOI": "10.1007/s10437-011-9095-3",
+            "volume": "28",
+            "author": "S Salvatori",
+            "year": "2011",
+            "unstructured": "Salvatori, S., Usai, D. & Zerboni, A. Mesolithic site formation and palaeoenvironment along the White Nile (Central Sudan). Afr. Archaeol. Rev. 28, 177–211 (2011)",
+            "journal-title": "Afr. Archaeol. Rev."
+          },
+          {
+            "key": "BFnature19779_CR6",
+            "unstructured": "Wendorf, F. & Schild, R. The Wadi Kubbaniya skeleton: A Late Paleolithic burial from southern Egypt 71–74 (Southern Methodist University Press, 1986)"
+          },
+          {
+            "key": "BFnature19779_CR7",
+            "unstructured": "Addison, F. Jebel Moya (Oxford University Press, 1949)"
+          },
+          {
+            "key": "BFnature19779_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "455",
+            "DOI": "10.1080/0067270X.2013.843258",
+            "volume": "48",
+            "author": "M Brass",
+            "year": "2013",
+            "unstructured": "Brass, M. & Schwenniger, J. L. Jebel Moya (Sudan): new dates from a mortuary complex at the southern Meroitic frontier. Azania 48, 455–472 (2013)",
+            "journal-title": "Azania"
+          },
+          {
+            "key": "BFnature19779_CR9",
+            "first-page": "169",
+            "volume": "16",
+            "author": "LSB Leakey",
+            "year": "1942",
+            "unstructured": "Leakey, L. S. B. The Naivasha fossil skull and skeleton. J. East African Natural History Society 16, 169–177 (1942)",
+            "journal-title": "J. East African Natural History Society"
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.nature.com/articles/nature19779.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://www.nature.com/articles/nature19779",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://www.nature.com/articles/nature19779.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              18
+            ]
+          ],
+          "date-time": "2023-05-18T17:55:47Z",
+          "timestamp": 1684432547000
+        },
+        "score": 32.059223,
+        "resource": {
+          "primary": {
+            "URL": "https://www.nature.com/articles/nature19779"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              11
+            ]
+          ]
+        },
+        "references-count": 9,
+        "journal-issue": {
+          "issue": "7630",
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                11
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "BFnature19779"
+        ],
+        "URL": "https://doi.org/10.1038/nature19779",
+        "ISSN": [
+          "0028-0836",
+          "1476-4687"
+        ],
+        "issn-type": [
+          {
+            "value": "0028-0836",
+            "type": "print"
+          },
+          {
+            "value": "1476-4687",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              11
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "23 November 2016",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5596744,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2025-09-30T00:03:03Z",
+          "timestamp": 1759190583008,
+          "version": "3.44.0"
+        },
+        "reference-count": 5,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2020-06-01T00:00:00Z",
+              "timestamp": 1590969600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2020-06-01T00:00:00Z",
+              "timestamp": 1590969600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100013741",
+            "name": "Royal Australian and New Zealand College of Radiologists",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100013741",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "clinicalkey.com",
+            "clinicalkey.com.au",
+            "clinicalkey.es",
+            "clinicalkey.fr",
+            "clinicalkey.jp",
+            "thegreenjournal.com",
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Radiotherapy and Oncology"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.radonc.2020.03.002",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2020-03-26T01:18:36Z",
+          "timestamp": 1585185516000
+        },
+        "page": "239",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "special_numbering": "C",
+        "title": [
+          "Response to MM Rojas-Rojas et al"
+        ],
+        "prefix": "10.1016",
+        "volume": "147",
+        "author": [
+          {
+            "given": "Michael",
+            "family": "Jones",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jarad",
+            "family": "Martin",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.radonc.2020.03.002_b0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "7",
+            "DOI": "10.1016/j.radonc.2019.10.001",
+            "article-title": "A prospective, multi-centre trial of multi-parametric MRI as a biomarker in anal carcinoma",
+            "volume": "144",
+            "author": "Jones",
+            "year": "2019",
+            "journal-title": "Radiother Oncol"
+          },
+          {
+            "key": "10.1016/j.radonc.2020.03.002_b0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "2243",
+            "DOI": "10.1007/s00330-018-5866-4",
+            "article-title": "Variability in quantitative diffusion-weighted MR imaging (DWI) across different scanners and imaging sites: is there a potential consensus that can help reducing the limits of expected bias?",
+            "volume": "29",
+            "author": "Schmeel",
+            "year": "2019",
+            "journal-title": "Eur Radiol"
+          },
+          {
+            "key": "10.1016/j.radonc.2020.03.002_b0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "4540463",
+            "DOI": "10.1148/radiol.13130819",
+            "article-title": "Diffusion-weighted MR imaging of upper abdominal organs: field strength and intervendor variability of apparent diffusion coefficients",
+            "volume": "270",
+            "author": "Donati",
+            "year": "2014",
+            "journal-title": "Radiology"
+          },
+          {
+            "key": "10.1016/j.radonc.2020.03.002_b0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "624",
+            "DOI": "10.1148/radiol.2492071681",
+            "article-title": "Variability in absolute apparent diffusion coefficient values across different platforms may be substantial: a multivendor, multi-institutional comparison study",
+            "volume": "249",
+            "author": "Sasaki",
+            "year": "2008",
+            "journal-title": "Radiology"
+          },
+          {
+            "key": "10.1016/j.radonc.2020.03.002_b0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "146",
+            "DOI": "10.1016/j.radonc.2013.08.002",
+            "article-title": "p16, p53, EGFR expression and KRAS mutation status in squamous cell cancers of the anus: correlation with outcomes following chemo-radiotherapy",
+            "volume": "109",
+            "author": "Gilbert",
+            "year": "2013",
+            "journal-title": "Radiother Oncol"
+          }
+        ],
+        "container-title": [
+          "Radiotherapy and Oncology"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0167814020301109?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0167814020301109?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2025-09-29T05:12:33Z",
+          "timestamp": 1759122753000
+        },
+        "score": 30.046154,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0167814020301109"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "references-count": 5,
+        "alternative-id": [
+          "S0167814020301109"
+        ],
+        "URL": "https://doi.org/10.1016/j.radonc.2020.03.002",
+        "ISSN": [
+          "0167-8140"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0167-8140"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Response to MM Rojas-Rojas et al",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Radiotherapy and Oncology",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.radonc.2020.03.002",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "simple-article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Crown Copyright © 2020 Published by Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

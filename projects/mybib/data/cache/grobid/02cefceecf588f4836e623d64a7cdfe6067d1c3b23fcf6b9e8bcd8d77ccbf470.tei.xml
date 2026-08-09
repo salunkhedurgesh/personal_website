@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The KUKA-DLR Lightweight Robot arm -a new reference platform for robotics research and manufacturing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Rainer</forename><surname>Bischoff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">KUKA Roboter GmbH</orgName>
+								<address>
+									<settlement>Augsburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johannes</forename><surname>Kurth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">KUKA Roboter GmbH</orgName>
+								<address>
+									<settlement>Augsburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Günter</forename><surname>Schreiber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">KUKA Roboter GmbH</orgName>
+								<address>
+									<settlement>Augsburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ralf</forename><surname>Koeppe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">KUKA Roboter GmbH</orgName>
+								<address>
+									<settlement>Augsburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alin</forename><surname>Albu-Schäffer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexan- Der</forename><surname>Beyer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oliver</forename><surname>Eiberger</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sami</forename><surname>Haddadin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andreas</forename><surname>Stemmer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerhard</forename><surname>Grunwald</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerhard</forename><surname>Hirzinger</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Deutsches Zentrum für Luft-und Raumfahrt e.V</orgName>
+								<address>
+									<settlement>Wessling</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The KUKA-DLR Lightweight Robot arm -a new reference platform for robotics research and manufacturing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2A784CA0AEB9B1F1F4647E8233680943</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Transforming research results into marketable products requires considerable endurance and a strong sense of entrepreneurship. The KUKA Lightweight Robot (LWR) is the latest outcome of a bilateral research collaboration between KUKA Roboter, Augsburg, and the Institute of Robotics and Mechatronics at the German Aerospace Center (DLR), Wessling. The LWR has unique characteristics including a low mass-payload ratio and a programmable, active compliance which enables researchers and engineers to develop new industrial and service robotics applications with unprecedented performance, making it a unique reference platform for robotics research and future manufacturing. The stages of product genesis, the most innovative features and first application examples are presented.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

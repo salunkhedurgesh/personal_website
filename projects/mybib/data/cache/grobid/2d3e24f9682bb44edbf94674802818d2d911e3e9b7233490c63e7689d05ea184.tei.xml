@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Transfer Learning of Shared Latent Spaces between Robots with Similar Kinematic Structure</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Brian</forename><surname>Delhaisse</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Advanced Robotics Istituto Italiano di Tecnologia Via Morego 30</orgName>
+								<address>
+									<postCode>16163</postCode>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Domingo</forename><surname>Esteban</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Advanced Robotics Istituto Italiano di Tecnologia Via Morego 30</orgName>
+								<address>
+									<postCode>16163</postCode>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Leonel</forename><surname>Rozo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Advanced Robotics Istituto Italiano di Tecnologia Via Morego 30</orgName>
+								<address>
+									<postCode>16163</postCode>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Darwin</forename><surname>Caldwell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Advanced Robotics Istituto Italiano di Tecnologia Via Morego 30</orgName>
+								<address>
+									<postCode>16163</postCode>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Transfer Learning of Shared Latent Spaces between Robots with Similar Kinematic Structure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B162D8AD0B6151F6422A0D88FFF7E874</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Learning complex manipulation tasks often requires to collect a large training dataset to obtain a model of a specific skill. This process may become laborious when dealing with high-DoF robots, and even more tiresome if the skill needs to be learned by multiple robots. In this paper, we investigate how this learning process can be accelerated by using shared latent variable models for knowledge transfer among similar robots in an imitation setting. For this purpose, we take advantage of a shared Gaussian process latent variable model to learn a common latent representation of robot skills. Such representation is then reused as prior information to train new robots by reducing the learning process to a latent-to-output mapping. We show that our framework exhibits faster training convergence and similar performance when compared to single-and multirobot models. All experiments were conducted in simulation on three different robotic platforms: WALK-MAN, COMAN and CENTAURO robots.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

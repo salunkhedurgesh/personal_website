@@ -1,0 +1,418 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3817966,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ],
+          "date-time": "2026-05-02T09:59:54Z",
+          "timestamp": 1777715994460,
+          "version": "3.51.4"
+        },
+        "reference-count": 45,
+        "publisher": "SAGE Publications",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2004,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2004-02-01T00:00:00Z",
+              "timestamp": 1075593600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Parallel manipulators offer much higher rigidity and smaller mobile mass than their                serial counterparts, thus allowing much faster and more precise manipulations. The                main disadvantage of parallel robots is their small workspace in comparison to                serial arms of similar size. Furthermore, the manipulability of parallel robots is                often poor in some regions of the (already small) workspace. Another problematic                issue is effective modeling of parallel robot dynamics, often needed for control                algorithms. Dynamic algorithms developed for serial robots or general closed-loop                mechanisms cannot be easily applied to parallel robots when the objective is                real-time, dynamicmodelbased control. Therefore, in this work we investigate how to                design parallel manipulators so that their workspace size and manipulability are                maximized, and how to model parallel robot dynamics effectively. We develop a new                performance index that combines measures of manipulability and workspace size, and a                kinematic optimization process yielding a design that delivers the best compromise                between manipulability and space utilization. Two examples are considered: the New                University of Western Australia Robot (NUWAR) and the Linear Delta robot. Our                experience in optimal design studies shows that the exhaustive search minimization                algorithm is effective for as many as four independent design variables and presents                a viable alternative to advanced non-linear programming methods. We develop a method                based on Hamilton’s canonical equations to solve both the inverse and                direct problems of dynamics for parallel robots. The method uses carefully chosen                dependent coordinates, called here the coordinates of the extended space. The                approach is shown to be computationally more efficient than the more common                acceleration-based methods.</jats:p>",
+        "DOI": "10.1177/0278364904041322",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2004,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2004-05-27T09:25:01Z",
+          "timestamp": 1085649901000
+        },
+        "page": "127-140",
+        "source": "Crossref",
+        "is-referenced-by-count": 109,
+        "title": [
+          "Optimal Design and Modeling of Spatial Parallel Manipulators"
+        ],
+        "prefix": "10.1177",
+        "volume": "23",
+        "author": [
+          {
+            "given": "Karol",
+            "family": "Miller",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Mechanical Engineering,The University of Western Australia,                        Crawley/Perth WA 6009, Australia"
+              }
+            ]
+          }
+        ],
+        "member": "179",
+        "published-online": {
+          "date-parts": [
+            [
+              2004,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_1_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.34773"
+          },
+          {
+            "key": "e_1_2_1_3_1",
+            "unstructured": "Arai T. and Tanikawa T. 1996. Development of a new parallel manipulator with fixed linear actuator . In Proceedings of Japan/USA Symposium on Flexible Automation Vol. 1 ASME New York pp. 145–149 ."
+          },
+          {
+            "key": "e_1_2_1_4_1",
+            "unstructured": "Badano F. Betempts M. Burckhardt C. W. Clavel R. and Jutard A. 1993. Assembly of chamferless parts using a fast robot . In Proceedings of the 24th International Symposium on Industrial Robots Tokyo Japan pp. 89–96 ."
+          },
+          {
+            "key": "e_1_2_1_5_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Baiges I. J. and Duffy J. 1996. Dynamic modeling of parallel manipulators . In Proceedings of the 1996 ASME Design Engineering Technical Conference Paper No. 96-DETC/MECH-1136.",
+            "DOI": "10.1115/96-DETC/MECH-1136"
+          },
+          {
+            "key": "e_1_2_1_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0045-7825(72)90018-7"
+          },
+          {
+            "key": "e_1_2_1_7_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Bayo E. and Garcia de Jalon J. 1994. Kinematic and Dynamic Simulation of Multibody Systems: The Real-Time Challenge Springer-Verlag New York .",
+            "DOI": "10.1007/978-1-4612-2600-0"
+          },
+          {
+            "key": "e_1_2_1_8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.2893772"
+          },
+          {
+            "key": "e_1_2_1_9_1",
+            "unstructured": "Blajer W. 1998. Methods of Multibody System Dynamics Technical University of Radom Publishers Radom Poland ."
+          },
+          {
+            "key": "e_1_2_1_10_1",
+            "unstructured": "Brenan K. E. Campbell S. L. and Petzold L. R. 1989. The Numerical Solution of Initial Value Problems in Differential-Algebraic Equations Elsevier Science Amsterdam ."
+          },
+          {
+            "key": "e_1_2_1_11_1",
+            "unstructured": "Clavel R. 1988. Delta a fast robot with parallel geometry . In Proceedings of the 18th International Symposium on Industrial Robots Lausanne Switzerland pp. 91–100 ."
+          },
+          {
+            "key": "e_1_2_1_12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574797000477"
+          },
+          {
+            "key": "e_1_2_1_13_1",
+            "unstructured": "Frame N. 1999. The Lagrange-based model of NUWAR dynamics. BEng. Honours Thesis Department of Mechanical and Materials Engineering The University ofWestern Australia Crawley/Perth."
+          },
+          {
+            "key": "e_1_2_1_14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3258984"
+          },
+          {
+            "key": "e_1_2_1_15_1",
+            "unstructured": "Guglielmetti P. 1994. Model-based control of fast parallel robots: a global approach in operational space. PhD Thesis No. 1228 Swiss Federal Institute of Technology Lausanne."
+          },
+          {
+            "key": "e_1_2_1_16_1",
+            "unstructured": "Gutowski R. 1971. Analytical Mechanics PWN Warsaw Poland ."
+          },
+          {
+            "key": "e_1_2_1_17_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Herve J. M. 1994. Methodological design of new parallel robots via the Lie group of displacements . In Proceedings of CISM/IFToMM Conference Ro.Man.Sy. ’94 Gdansk Poland pp. 301–306 .",
+            "DOI": "10.1007/978-3-7091-2698-1_38"
+          },
+          {
+            "key": "e_1_2_1_18_1",
+            "unstructured": "Lanczos C. 1962. The Variational Principles of Mechanics University of Toronto Press Toronto ."
+          },
+          {
+            "key": "e_1_2_1_19_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lankarani H. M. and Nikravesh P. E. 1988. Application of the canonical equations of motion in problems of constrained multibody systems with intermittent motion. In Advances in Design Automation S. S. Rao editor ASME New York Vol. 14 pp. 417–423.",
+            "DOI": "10.1115/DETC1988-0054"
+          },
+          {
+            "key": "e_1_2_1_20_1",
+            "unstructured": "LePage S. 1999. Trajectory generation. BEng. Honours Thesis Department of Mechanical and Materials Engineering The University of Western Australia Crawley/Perth."
+          },
+          {
+            "key": "e_1_2_1_21_1",
+            "unstructured": "Liegois A. Fournier A. and Aldom M. 1980. Model reference control of high-velocity industrial robots . In Proceedings of Joint Automatic Control Conference San Francisco CA."
+          },
+          {
+            "key": "e_1_2_1_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/rob.4620070402"
+          },
+          {
+            "key": "e_1_2_1_23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JRA.1985.1087008"
+          },
+          {
+            "key": "e_1_2_1_24_1",
+            "first-page": "468",
+            "volume": "25",
+            "year": "1980",
+            "unstructured": "Luh, M., Walker, M. W., and Paul, R. C. 1980. Resolved acceleration control of mechanical manipulators . IEEE Transactions on Robotics and Automation 25(3): 468–474 .",
+            "journal-title": "IEEE Transactions on Robotics and Automation"
+          },
+          {
+            "key": "e_1_2_1_25_1",
+            "unstructured": "MATLAB. 1999. Version 5.3 Student Edition Prentice Hall Englewood Cliffs NJ ."
+          },
+          {
+            "key": "e_1_2_1_26_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Merlet J. P. 2000. Parallel Robots Kluwer Academic Dordrecht .",
+            "DOI": "10.1007/978-94-010-9587-7"
+          },
+          {
+            "key": "e_1_2_1_27_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Miller K. 1995. Experimental verification of modeling of Delta robot dynamics by direct application of Hamilton’s principle . In IEEE Conference on Robotics and Automation Nagoya Japan pp. 532–537 .",
+            "DOI": "10.1109/ROBOT.1995.525338"
+          },
+          {
+            "key": "e_1_2_1_28_1",
+            "unstructured": "Miller K. 1998. Parallel robot. Australian Provisional Patent Application No. PP7518."
+          },
+          {
+            "key": "e_1_2_1_29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.1462621"
+          },
+          {
+            "key": "e_1_2_1_30_1",
+            "first-page": "49",
+            "volume": "8",
+            "year": "1992",
+            "unstructured": "Miller, K., and Clavel, R. 1992. The Lagrange-based model of Delta-4 robot dynamics . Robotersysteme 8, Springer-Verlag, Berlin , pp. 49–54 .",
+            "journal-title": "Robotersysteme"
+          },
+          {
+            "key": "e_1_2_1_31_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.34765"
+          },
+          {
+            "key": "e_1_2_1_32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0263574797000465"
+          },
+          {
+            "key": "e_1_2_1_33_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Pierrot F. Dauchez P. and Fournier A. 1991. Hexa a fast 6-degree-of-freedom fully parallel robot . In Proceedings of the International Conference on Advanced Robotics Pisa Italy Vol. 2/2 pp. 1158–1163 .",
+            "DOI": "10.1109/ICAR.1991.240399"
+          },
+          {
+            "key": "e_1_2_1_34_1",
+            "unstructured": "Pollard W. L. V. 1942. Position controlling apparatus US Patent No. 2 286 571."
+          },
+          {
+            "key": "e_1_2_1_35_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Stamper R. E. Tsai L.-W. and Walsh G. C. 1997. Optimization of a three DOF translational platform for wellconditioned workspace . In Proceedings of the 1997 IEEE International Conference on Robotics and Automation IEEE Piscataway NJ Vol. 4 pp. 3250–3255 .",
+            "DOI": "10.1109/ROBOT.1997.606784"
+          },
+          {
+            "key": "e_1_2_1_36_1",
+            "first-page": "371",
+            "volume": "180",
+            "year": "1966",
+            "unstructured": "Stewart, D. 1966. A platform with six degrees of freedom . Proceedings of the Institution of Mechanical Engineers, Part I, 180(15): 371–386 .",
+            "journal-title": "Proceedings of the Institution of Mechanical Engineers, Part I"
+          },
+          {
+            "key": "e_1_2_1_37_1",
+            "unstructured": "Stock M. 2000. The Linear Delta robot. BEng. Honours Thesis Department of Mechanical and Materials Engineering The University of Western Australia Crawley/Perth."
+          },
+          {
+            "key": "e_1_2_1_38_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.1563632"
+          },
+          {
+            "key": "e_1_2_1_39_1",
+            "unstructured": "Tsai L. W. 1997. Multi-degree-of-freedom mechanisms for machine tools and the like US Patent No. 5 656 905."
+          },
+          {
+            "key": "e_1_2_1_40_1",
+            "unstructured": "Tsai L. W. 1999. Robot Analysis: The Mechanics of Serial and Parallel Manipulators Wiley New York ."
+          },
+          {
+            "key": "e_1_2_1_41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.533540"
+          },
+          {
+            "key": "e_1_2_1_42_1",
+            "unstructured": "Tsumaki Y. Narusew H. Nenchev D. N. and Uchiyama M. 1998. Design of compact 6-dof interface . In Proceedings of 1998 IEEE Conference on Robotics and Automation pp. 2581–2585 ."
+          },
+          {
+            "key": "e_1_2_1_43_1",
+            "first-page": "601",
+            "volume": "8",
+            "year": "1994",
+            "unstructured": "Uchiyama, M. 1994. A 6 d.o.f. parallel robot HEXA . Advanced Robotics 8(6): 601-601 .",
+            "journal-title": "Advanced Robotics"
+          },
+          {
+            "key": "e_1_2_1_44_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1009740326195"
+          },
+          {
+            "key": "e_1_2_1_45_1",
+            "unstructured": "Wolfram S. 1999. The Mathematica Book Cambridge University Press Cambridge ."
+          },
+          {
+            "key": "e_1_2_1_46_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/rob.4620100505"
+          }
+        ],
+        "container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364904041322",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0278364904041322",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T10:17:05Z",
+          "timestamp": 1777457825000
+        },
+        "score": 32.511787,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.sagepub.com/doi/10.1177/0278364904041322"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              2
+            ]
+          ]
+        },
+        "references-count": 45,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2004,
+                2
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1177/0278364904041322"
+        ],
+        "URL": "https://doi.org/10.1177/0278364904041322",
+        "ISSN": [
+          "0278-3649",
+          "1741-3176"
+        ],
+        "issn-type": [
+          {
+            "value": "0278-3649",
+            "type": "print"
+          },
+          {
+            "value": "1741-3176",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

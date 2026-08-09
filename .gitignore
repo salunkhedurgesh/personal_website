@@ -10,3 +10,8 @@
 
 # Python virtual environment
 .venv/
+
+# MyBib synced PDF cache
+projects/mybib/.venv/
+projects/mybib/pdfs/*
+!projects/mybib/pdfs/.gitkeep

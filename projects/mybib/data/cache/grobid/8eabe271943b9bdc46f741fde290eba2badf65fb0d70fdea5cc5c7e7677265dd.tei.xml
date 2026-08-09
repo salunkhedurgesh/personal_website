@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Full Quaternion Based Attitude Control for a Quadrotor</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Emil</forename><surname>Fresk</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><surname>Nikolakopoulos</surname></persName>
+						</author>
+						<title level="a" type="main">Full Quaternion Based Attitude Control for a Quadrotor</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A9BE7FEE377C1CC8280F48E6F86D7C83</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>The aim of this article is to present a novel quaternion based control scheme for the attitude control problem of a quadrotor. A quaternion is a hyper complex number of rank 4 that can be utilized to avoid the inherent geometrical singularity when representing rigid body dynamics with Euler angles or the complexity of having coupled differential equations with the Direction Cosine Matrix (DCM). In the presented approach both the quadrotor&apos;s attitude model and the proposed non-linear Proportional squared (P 2) control algorithm have been implemented in the quaternion space, without any transformations and calculations in the Euler&apos;s angle space or DCM. Throughout the article, the merits of the proposed novel approach are being analyzed and discussed, while the efficacy of the suggested novel quaternion based controller are being evaluated by extended simulation results.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

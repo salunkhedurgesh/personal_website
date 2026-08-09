@@ -1,0 +1,155 @@
+{
+  "id": "https://openalex.org/W4236171617",
+  "doi": "https://doi.org/10.5194/acp-2019-120-rc2",
+  "title": "Review of El zein et al.",
+  "display_name": "Review of El zein et al.",
+  "publication_year": 2019,
+  "publication_date": "2019-04-14",
+  "ids": {
+    "openalex": "https://openalex.org/W4236171617",
+    "doi": "https://doi.org/10.5194/acp-2019-120-rc2"
+  },
+  "language": "es",
+  "primary_location": {
+    "id": "doi:10.5194/acp-2019-120-rc2",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+    "pdf_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+    "any_repository_has_fulltext": null
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A9999999999",
+        "display_name": "Atallah El",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Atallah El",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A9999999999"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.2828921675682068
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.2828921675682068
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5194/acp-2019-120-rc2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+      "pdf_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "peer-review"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.5194/acp-2019-120-rc2",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+    "pdf_url": "https://doi.org/10.5194/acp-2019-120-rc2",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "peer-review"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4236171617.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4236171617.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W47249500",
+    "https://openalex.org/W28312922",
+    "https://openalex.org/W13187946",
+    "https://openalex.org/W16592002",
+    "https://openalex.org/W44821908",
+    "https://openalex.org/W12985931",
+    "https://openalex.org/W18975104",
+    "https://openalex.org/W45727539",
+    "https://openalex.org/W44990420",
+    "https://openalex.org/W48489418"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2026-01-09T06:25:30.743933",
+  "created_date": "2022-05-12T00:00:00"
+}

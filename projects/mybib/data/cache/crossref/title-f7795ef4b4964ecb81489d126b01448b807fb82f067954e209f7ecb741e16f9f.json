@@ -1,0 +1,717 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 474303,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2026-05-03T01:46:48Z",
+          "timestamp": 1777772808461,
+          "version": "3.51.4"
+        },
+        "reference-count": 58,
+        "publisher": "ASME International",
+        "issue": "1",
+        "content-domain": {
+          "domain": [
+            "asmedigitalcollection.asme.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              1,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Although the concepts of Jacobian matrix, manipulability, and condition number have existed since the very early beginning of robotics their real significance is not always well understood. In this paper we revisit these concepts for parallel robots as accuracy indices in view of optimal design. We first show that the usual Jacobian matrix derived from the input-output velocities equations may not be sufficient to analyze the positioning errors of the platform. We then examine the concept of manipulability and show that its classical interpretation is erroneous. We then consider various common local dexterity indices, most of which are based on the condition number of the Jacobian matrix. It is emphasized that even for a given robot in a particular pose there are a variety of condition numbers and that their values are not coherent between themselves but also with what we may expect from an accuracy index. Global conditioning indices are then examined. Apart from the problem of being based on the local accuracy indices that are questionable, there is a computational problem in their calculation that is neglected most of the time. Finally, we examine what other indices may be used for optimal design and show that their calculation is most challenging.</jats:p>",
+        "DOI": "10.1115/1.2121740",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              12,
+              21
+            ]
+          ],
+          "date-time": "2005-12-21T10:53:47Z",
+          "timestamp": 1135162427000
+        },
+        "page": "199-206",
+        "update-policy": "https://doi.org/10.1115/crossmarkpolicy-asme",
+        "source": "Crossref",
+        "is-referenced-by-count": 637,
+        "title": [
+          "Jacobian, Manipulability, Condition Number, and Accuracy of Parallel Robots"
+        ],
+        "prefix": "10.1115",
+        "volume": "128",
+        "author": [
+          {
+            "given": "J. P.",
+            "family": "Merlet",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "INRIA, BP 93, 06902 Sophia-Antipolis, France"
+              }
+            ]
+          }
+        ],
+        "member": "33",
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              6,
+              20
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2019100516185228500_c1",
+            "unstructured": "Gough, V. E.\n          , “Contribution to Discussion of Papers on Research in Automobile Stability, Control and Tyre Performance, 1956–1957,” Proc. Inst. Mech. Eng., Part D (J. Automob. Eng.)0954-4070, pp. 392–394."
+          },
+          {
+            "key": "2019100516185228500_c2",
+            "first-page": "1159",
+            "article-title": "Hexa: A Fast Six-DOF Fully Parallel Robot",
+            "volume-title": "ICAR",
+            "author": "Pierrot"
+          },
+          {
+            "key": "2019100516185228500_c3",
+            "first-page": "91",
+            "article-title": "DELTA, a Fast Robot With Parallel Geometry",
+            "volume-title": "18th Int. Symp. on Industrial Robot",
+            "author": "Clavel"
+          },
+          {
+            "key": "2019100516185228500_c4",
+            "first-page": "401",
+            "article-title": "Kinematics of a Three-DOF Platform With Three Extensible Limbs",
+            "volume-title": "ARK",
+            "author": "Tsai"
+          },
+          {
+            "key": "2019100516185228500_c5",
+            "first-page": "357",
+            "article-title": "The Optimum Design of a 6 DOF Fully Parallel Micromanipulator for Enhanced Robot Accuracy",
+            "volume-title": "ASME Design Automation Conf.",
+            "author": "Han"
+          },
+          {
+            "key": "2019100516185228500_c6",
+            "unstructured": "Gosselin, C.\n          , 1988, “Kinematic Analysis Optimization and Programming of Parallel Robotic Manipulators,” Ph.D. thesis, McGill University, Montréal."
+          },
+          {
+            "issue": "3",
+            "key": "2019100516185228500_c7",
+            "doi-asserted-by": "publisher",
+            "first-page": "281",
+            "DOI": "10.1109/70.56660",
+            "article-title": "Singularity Analysis of Closed-Loop Kinematic Chains",
+            "volume": "6",
+            "author": "Gosselin",
+            "journal-title": "IEEE Trans. Rob. Autom.",
+            "ISSN": "https://id.crossref.org/issn/1042-296X",
+            "issn-type": "print"
+          },
+          {
+            "issue": "4",
+            "key": "2019100516185228500_c8",
+            "doi-asserted-by": "crossref",
+            "first-page": "566",
+            "DOI": "10.1115/1.2826720",
+            "article-title": "A Unifying Framework for Classification and Interpretation of Mechanism Singularities",
+            "volume": "117",
+            "author": "Zlatanov",
+            "journal-title": "J. Mech. Des.",
+            "ISSN": "https://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c9",
+            "first-page": "1011",
+            "article-title": "Geometric Error Effects on the Performances of a Parallel Wrist",
+            "volume-title": "3rd Chemnitzer Parallelkinematik Seminar",
+            "author": "Di Gregorio"
+          },
+          {
+            "key": "2019100516185228500_c10",
+            "first-page": "215",
+            "article-title": "On the Joint Clearance Effects in Serial and Parallel Manipulators",
+            "volume-title": "Workshop: Fondamental Issues and Future Directions for Parallel Mechanisms and Manipulators",
+            "author": "Parenti-Castelli"
+          },
+          {
+            "issue": "12",
+            "key": "2019100516185228500_c11",
+            "doi-asserted-by": "crossref",
+            "first-page": "821",
+            "DOI": "10.1002/rob.4620121206",
+            "article-title": "Measurement of Pose Repetability of Stewart Platforms",
+            "volume": "12",
+            "author": "Masory",
+            "journal-title": "J. Rob. Syst.",
+            "ISSN": "https://id.crossref.org/issn/0741-2223",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c12",
+            "first-page": "4091",
+            "article-title": "Study of the Source of Inaccuracy of a 3 DOF Flexure Hinge-Based Parallel Manipulator",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Niaritsiry"
+          },
+          {
+            "key": "2019100516185228500_c13",
+            "first-page": "227",
+            "article-title": "Predicting the Slop of In-Series∕Parallel Manipulators Caused by Joint Clearances",
+            "volume-title": "ARK",
+            "author": "Tischler"
+          },
+          {
+            "key": "2019100516185228500_c14",
+            "first-page": "114",
+            "article-title": "On the Accuracy of a Stewart Platform, Part I: The Effect of Manufacturing Tolerances",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Wang"
+          },
+          {
+            "key": "2019100516185228500_c15",
+            "doi-asserted-by": "publisher",
+            "first-page": "286",
+            "DOI": "10.1115/1.1445148",
+            "article-title": "Error Model and Accuracy Analysis of a Six-DOF Stewart Platform",
+            "volume": "124",
+            "author": "Wang",
+            "journal-title": "ASME J. Manuf. Sci. Eng.",
+            "ISSN": "https://id.crossref.org/issn/1087-1357",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c16",
+            "first-page": "57",
+            "article-title": "On the Invariance of Manipulability Indices",
+            "volume-title": "ARK",
+            "author": "Staffetti"
+          },
+          {
+            "issue": "11",
+            "key": "2019100516185228500_c17",
+            "doi-asserted-by": "crossref",
+            "first-page": "659",
+            "DOI": "10.1002/rob.10115",
+            "article-title": "Force Transmissibility Performance of Parallel Manipulators",
+            "volume": "20",
+            "author": "Chang",
+            "journal-title": "J. Rob. Syst.",
+            "ISSN": "https://id.crossref.org/issn/0741-2223",
+            "issn-type": "print"
+          },
+          {
+            "issue": "4",
+            "key": "2019100516185228500_c18",
+            "doi-asserted-by": "crossref",
+            "first-page": "526",
+            "DOI": "10.1109/70.954767",
+            "article-title": "Forward∕Inverse Force Transmission Capability Analyses of Fully Parallel Manipulators",
+            "volume": "17",
+            "author": "Kim",
+            "journal-title": "IEEE Trans. Rob. Autom.",
+            "ISSN": "https://id.crossref.org/issn/1042-296X",
+            "issn-type": "print"
+          },
+          {
+            "issue": "8",
+            "key": "2019100516185228500_c19",
+            "doi-asserted-by": "publisher",
+            "first-page": "787",
+            "DOI": "10.1016/S0094-114X(02)00021-6",
+            "article-title": "Kinematic Sensitivity Analysis of the 3-UPU Parallel Manipulator",
+            "volume": "37",
+            "author": "Han",
+            "journal-title": "Mech. Mach. Theory",
+            "ISSN": "https://id.crossref.org/issn/0094-114X",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c20",
+            "first-page": "85",
+            "article-title": "Influence of Manufacturing Errors on the Kinematic Performance of the 3-UPU Parallel Mechanism",
+            "volume-title": "2nd Chemnitzer Parallelkinematik Seminar",
+            "author": "Parenti-Castelli"
+          },
+          {
+            "key": "2019100516185228500_c21",
+            "unstructured": "Bonev, I. A., and Zlatanov, D., 2001, “The Mystery of the Singular SNU Translational Parallel Robot,” www.parallemic.org∕Reviews∕Review004.html"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c22",
+            "doi-asserted-by": "publisher",
+            "first-page": "259",
+            "DOI": "10.1115/1.1471530",
+            "article-title": "Mobility Analysis of the 3-UPU Parallel Mechanism Assembled for a Pure Translational Motion",
+            "volume": "124",
+            "author": "Di Gregorio",
+            "journal-title": "J. Mech. Des.",
+            "ISSN": "https://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c23",
+            "doi-asserted-by": "publisher",
+            "first-page": "254",
+            "DOI": "10.1115/1.1469549",
+            "article-title": "Jacobian Analysis of Limited-DOF Parallel Manipulators",
+            "volume": "124",
+            "author": "Joshi",
+            "journal-title": "J. Mech. Des.",
+            "ISSN": "https://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c24",
+            "first-page": "165",
+            "article-title": "Investigation of Singularities and Self-Motions of the 3-UPU Robot",
+            "volume-title": "ARK",
+            "author": "Wolf"
+          },
+          {
+            "key": "2019100516185228500_c25",
+            "unstructured": "Bonev, I. A., and Gosselin, C. M., 2001, “Constraint Singularities,” www.parallemic.org∕Reviews∕Review005.html"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c26",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1177/027836498500400201",
+            "article-title": "Manipulability of Robotic Mechanisms",
+            "volume": "4",
+            "author": "Yoshikawa",
+            "journal-title": "Int. J. Robot. Res.",
+            "ISSN": "https://id.crossref.org/issn/0278-3649",
+            "issn-type": "print"
+          },
+          {
+            "issue": "4",
+            "key": "2019100516185228500_c27",
+            "doi-asserted-by": "crossref",
+            "first-page": "463",
+            "DOI": "10.1002/rob.4620100405",
+            "article-title": "A Family of Stewart Platforms With Optimal Dexterity",
+            "volume": "10",
+            "author": "Pittens",
+            "journal-title": "J. Rob. Syst.",
+            "ISSN": "https://id.crossref.org/issn/0741-2223",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c28",
+            "first-page": "4104",
+            "article-title": "Workspace and Dexterity Analyses of Hexaslide Machine-Tool",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Rao"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c29",
+            "doi-asserted-by": "publisher",
+            "first-page": "166",
+            "DOI": "10.1109/70.238280",
+            "article-title": "A Modified Stewart Platform Manipulator With Improved Dexterity",
+            "volume": "9",
+            "author": "Stoughton",
+            "journal-title": "IEEE Trans. Rob. Autom.",
+            "ISSN": "https://id.crossref.org/issn/1042-296X",
+            "issn-type": "print"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c30",
+            "doi-asserted-by": "crossref",
+            "first-page": "147",
+            "DOI": "10.1177/027836402760475351",
+            "article-title": "Identification of the Special Configurations of the Octahedral Manipulators Using the Pure Condition",
+            "volume": "21",
+            "author": "Downing",
+            "journal-title": "Int. J. Robot. Res.",
+            "ISSN": "https://id.crossref.org/issn/0278-3649",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c31",
+            "first-page": "1977",
+            "article-title": "Determination of Singular Points and Their Vicinity in Parallel Manipulators Based on the Transmission Index",
+            "volume-title": "9th World Congress on the Theory of Machines and Mechanisms",
+            "author": "Funabashi"
+          },
+          {
+            "key": "2019100516185228500_c32",
+            "first-page": "4539",
+            "article-title": "Measuring ‘Closeness’ to Singularities for Parallel Manipulators",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Voglewede"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c33",
+            "doi-asserted-by": "crossref",
+            "first-page": "133",
+            "DOI": "10.1017/S026357470001763X",
+            "article-title": "On the Optimum Design of a Stewart Platform Type Parallel Manipulators",
+            "volume": "13",
+            "author": "Bhattacharya",
+            "journal-title": "Robotica",
+            "ISSN": "https://id.crossref.org/issn/0263-5747",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c34",
+            "first-page": "1209",
+            "article-title": "A Comparative Study Between Two Three-DOF Parallel Kinematic Machines Using Kinetostatic Criteria and Interval Analysis",
+            "volume-title": "11th World Congress on Theory of Machines and Mechanisms",
+            "author": "Chablat"
+          },
+          {
+            "key": "2019100516185228500_c35",
+            "first-page": "337",
+            "article-title": "The Optimal Synthesis of Parallel Manipulators for Desired Workspace",
+            "volume-title": "ARK",
+            "author": "Hay"
+          },
+          {
+            "issue": "8",
+            "key": "2019100516185228500_c36",
+            "doi-asserted-by": "crossref",
+            "first-page": "403",
+            "DOI": "10.1002/1097-4563(200008)17:8<403::AID-ROB1>3.0.CO;2-J",
+            "article-title": "Manipulability Analysis of a Parallel Machine Tool: Application to Optimal Link Length Design",
+            "volume": "17",
+            "author": "Hong",
+            "journal-title": "J. Rob. Syst.",
+            "ISSN": "https://id.crossref.org/issn/0741-2223",
+            "issn-type": "print"
+          },
+          {
+            "issue": "9",
+            "key": "2019100516185228500_c37",
+            "doi-asserted-by": "crossref",
+            "first-page": "837",
+            "DOI": "10.1163/156855303770558651",
+            "article-title": "Kinematic Optimal Design of a New Parallel-Type Rolling Mill: Paramill",
+            "volume": "17",
+            "author": "Hong",
+            "journal-title": "Adv. Rob.",
+            "ISSN": "https://id.crossref.org/issn/0169-1864",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c38",
+            "first-page": "489",
+            "article-title": "Mechanism Configuration Evaluation of a Linear-Actuated Parallel Mechanism Using Manipulability",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Masuda"
+          },
+          {
+            "key": "2019100516185228500_c39",
+            "first-page": "3250",
+            "article-title": "Optimization of a Three DOF Translational Platform for Well-Conditionned Workspace",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Stamper"
+          },
+          {
+            "issue": "4",
+            "key": "2019100516185228500_c40",
+            "doi-asserted-by": "crossref",
+            "first-page": "439",
+            "DOI": "10.1115/1.1311612",
+            "article-title": "Kinematics and Optimization of a Spatial 3-UPU Parallel Manipulator",
+            "volume": "112",
+            "author": "Tsai",
+            "journal-title": "J. Mech. Des.",
+            "ISSN": "https://id.crossref.org/issn/1050-0472",
+            "issn-type": "print"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c41",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1177/027836499701600205",
+            "article-title": "Kinematic Isotropy and the Optimum Design of Parallel Manipulators",
+            "volume": "16",
+            "author": "Zanganeh",
+            "journal-title": "Int. J. Robot. Res.",
+            "ISSN": "https://id.crossref.org/issn/0278-3649",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c42",
+            "first-page": "397",
+            "article-title": "Workspace Analysis of the Orthoglide Using Interval Analysis",
+            "volume-title": "ARK",
+            "author": "Chablat"
+          },
+          {
+            "key": "2019100516185228500_c43",
+            "first-page": "1131",
+            "article-title": "Optimum Architecture Design of Platform Manipulator",
+            "volume-title": "ICAR",
+            "author": "Ma"
+          },
+          {
+            "issue": "4",
+            "key": "2019100516185228500_c44",
+            "first-page": "731",
+            "article-title": "New Dimensionally Homogeneous Jacobian Matrix Formulation by Three End-Effector Points for Optimal Design of Parallel Manipulators",
+            "volume": "19",
+            "author": "Kim",
+            "journal-title": "IEEE Trans. Rob. Autom.",
+            "ISSN": "https://id.crossref.org/issn/1042-296X",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c45",
+            "first-page": "99",
+            "article-title": "Kinematic Manipulability of Closed Chains",
+            "volume-title": "ARK",
+            "author": "Park"
+          },
+          {
+            "key": "2019100516185228500_c46",
+            "first-page": "9",
+            "article-title": "The Robust Design of Parallel Manipulators",
+            "volume-title": "1st Int. Colloquium, Collaborative Research Centre 562",
+            "author": "Angeles"
+          },
+          {
+            "key": "2019100516185228500_c47",
+            "first-page": "357",
+            "article-title": "The Isotropic Conditions of Parallel Manipulators of Delta Topology",
+            "volume-title": "ARK",
+            "author": "Baron"
+          },
+          {
+            "issue": "2",
+            "key": "2019100516185228500_c48",
+            "doi-asserted-by": "publisher",
+            "first-page": "161",
+            "DOI": "10.1177/027836402760475360",
+            "article-title": "Singularity-Free Fully Isotropic Translational Parallel Mechanisms",
+            "volume": "21",
+            "author": "Carricato",
+            "journal-title": "Int. J. Robot. Res.",
+            "ISSN": "https://id.crossref.org/issn/0278-3649",
+            "issn-type": "print"
+          },
+          {
+            "issue": "9",
+            "key": "2019100516185228500_c49",
+            "doi-asserted-by": "publisher",
+            "first-page": "811",
+            "DOI": "10.1177/0278364902021009842",
+            "article-title": "Isotropic Design of Spatial Parallel Manipulators",
+            "volume": "21",
+            "author": "Fattah",
+            "journal-title": "Int. J. Robot. Res.",
+            "ISSN": "https://id.crossref.org/issn/0278-3649",
+            "issn-type": "print"
+          },
+          {
+            "issue": "11",
+            "key": "2019100516185228500_c50",
+            "doi-asserted-by": "publisher",
+            "first-page": "1199",
+            "DOI": "10.1016/S0094-114X(03)00067-3",
+            "article-title": "The Design of Isotropic 6-DOF Parallel Manipulators Using Isotropy Generators",
+            "volume": "38",
+            "author": "Tsai",
+            "journal-title": "Mech. Mach. Theory",
+            "ISSN": "https://id.crossref.org/issn/0094-114X",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c51",
+            "first-page": "16",
+            "article-title": "Design of a Three-Axis Isotropic Parallel Manipulator for Machining Applications: The Orthoglide",
+            "volume-title": "Workshop: Fondamental Issues and Future Directions for Parallel Mechanisms and Manipulators",
+            "author": "Wenger"
+          },
+          {
+            "key": "2019100516185228500_c52",
+            "first-page": "213",
+            "article-title": "On the Isotropic Design of General Six-Degree-of-Freedom Parallel Manipulators",
+            "volume-title": "Computational Kinematics",
+            "author": "Zanganeh"
+          },
+          {
+            "issue": "4",
+            "key": "2019100516185228500_c53",
+            "doi-asserted-by": "crossref",
+            "first-page": "595",
+            "DOI": "10.1109/TRA.2003.814506",
+            "article-title": "Orthogonal Gough-Stewart Platforms for Micromanipulation",
+            "volume": "19",
+            "author": "Jafari",
+            "journal-title": "IEEE Trans. Rob. Autom.",
+            "ISSN": "https://id.crossref.org/issn/1042-296X",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c54",
+            "first-page": "4109",
+            "article-title": "A High-Speed Parallel Robot for Scara Motion",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Krut"
+          },
+          {
+            "key": "2019100516185228500_c55",
+            "article-title": "Optimal Synthesis for Workspace and Manipulability of Parallel Flexure Mechanism",
+            "volume-title": "11th World Congress on Theory of Machines and Mechanisms",
+            "author": "Pham"
+          },
+          {
+            "issue": "1",
+            "key": "2019100516185228500_c56",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1002/(SICI)1097-4563(200001)17:1<63::AID-ROB4>3.0.CO;2-R",
+            "article-title": "The Kinematic Error Bound Analysis of the Stewart Platform",
+            "volume": "17",
+            "author": "Kim",
+            "journal-title": "J. Rob. Syst.",
+            "ISSN": "https://id.crossref.org/issn/0741-2223",
+            "issn-type": "print"
+          },
+          {
+            "issue": "1",
+            "key": "2019100516185228500_c57",
+            "doi-asserted-by": "crossref",
+            "first-page": "287",
+            "DOI": "10.1016/S0007-8506(07)60827-0",
+            "article-title": "Volumetric Error Analysis of a Stewart Platform Based Machine Tool",
+            "volume": "46",
+            "author": "Patel",
+            "journal-title": "CIRP Ann.",
+            "ISSN": "https://id.crossref.org/issn/0007-8506",
+            "issn-type": "print"
+          },
+          {
+            "key": "2019100516185228500_c58",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/ROBOT.2005.1570238",
+            "article-title": "Dimensional Synthesis of Parallel Robots With a Guaranteed Given Accuracy Over a Specific Workspace",
+            "volume-title": "IEEE Int. Conf. on Robotics and Automation",
+            "author": "Merlet"
+          }
+        ],
+        "container-title": [
+          "Journal of Mechanical Design"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/128/1/199/5584002/199_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/128/1/199/5584002/199_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2019-10-05T16:19:07Z",
+          "timestamp": 1570292347000
+        },
+        "score": 40.049034,
+        "resource": {
+          "primary": {
+            "URL": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/128/1/199/470479/Jacobian-Manipulability-Condition-Number-and"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005,
+              6,
+              20
+            ]
+          ]
+        },
+        "references-count": 58,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                2006,
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1115/1.2121740",
+        "ISSN": [
+          "1050-0472",
+          "1528-9001"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-0472",
+            "type": "print"
+          },
+          {
+            "value": "1528-9001",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              6,
+              20
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

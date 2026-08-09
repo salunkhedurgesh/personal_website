@@ -1,0 +1,420 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2856787,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2026-02-28T18:30:03Z",
+          "timestamp": 1772303403156,
+          "version": "3.50.1"
+        },
+        "reference-count": 20,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2021-07-01T00:00:00Z",
+              "timestamp": 1625097600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2021-07-01T00:00:00Z",
+              "timestamp": 1625097600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2021-07-01T00:00:00Z",
+              "timestamp": 1625097600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004543",
+            "name": "China Scholarship Council",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "201906270139"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "201906270139"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004543",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "LEARN-REAL Project"
+          },
+          {
+            "DOI": "10.13039/501100001711",
+            "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100001711",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100016089",
+            "name": "National Key Laboratory of Human Factors Engineering",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "6142222180311"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "6142222180311"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100016089",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Open Funding Project of National Key Laboratory of Science and Technology on Space Intelligent Control Laboratory",
+            "award": [
+              "6142208180301"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "6142208180301"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Robot. Autom. Lett."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/lra.2021.3068924",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2021-03-25T19:58:14Z",
+          "timestamp": 1616702294000
+        },
+        "page": "5048-5055",
+        "source": "Crossref",
+        "is-referenced-by-count": 27,
+        "title": [
+          "Motion Mappings for Continuous Bilateral Teleoperation"
+        ],
+        "prefix": "10.1109",
+        "volume": "6",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1495-4724",
+            "authenticated-orcid": false,
+            "given": "Xiao",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1428-8933",
+            "authenticated-orcid": false,
+            "given": "Joao",
+            "family": "Silverio",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6612-5322",
+            "authenticated-orcid": false,
+            "given": "Emmanuel",
+            "family": "Pignat",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9036-6799",
+            "authenticated-orcid": false,
+            "given": "Sylvain",
+            "family": "Calinon",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2244-2104",
+            "authenticated-orcid": false,
+            "given": "Miao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8212-2452",
+            "authenticated-orcid": false,
+            "given": "Xiaohui",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-48113-3_5"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS40897.2019.8967856"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2015.7353107"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2018.2805105"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10514-018-9745-2"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sysconle.2016.06.018"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.automatica.2006.06.027"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mechatronics.2004.05.006"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LRA.2017.2657001"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPAMI.2020.2992934"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROMAN.1992.253876"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/WHC.2005.118"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ROMAN.2014.6926293"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/02783640022068020"
+          },
+          {
+            "key": "ref8",
+            "first-page": "161",
+            "article-title": "Evaluation of a proposed workspace spanning technique for small haptic device based manipulator teleoperation",
+            "author": "mamdouh",
+            "year": "0",
+            "journal-title": "Proc Intel Robot Appl"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "crossref",
+            "first-page": "723",
+            "DOI": "10.1016/j.cja.2018.07.009",
+            "article-title": "Haptic based teleoperation with master-slave motion mapping and haptic rendering for space exploration",
+            "volume": "32",
+            "author": "guanyang",
+            "year": "2019",
+            "journal-title": "Chin J Aeronaut"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2010.5650186"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SSRR.2011.6106798"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TOH.2012.22"
+          },
+          {
+            "key": "ref20",
+            "article-title": "Density estimation using real NVP",
+            "author": "dinh",
+            "year": "0",
+            "journal-title": "Proc Int Conf Learn Representations"
+          }
+        ],
+        "container-title": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7083369/9399748/09387124.pdf?arnumber=9387124",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              10
+            ]
+          ],
+          "date-time": "2022-05-10T14:53:58Z",
+          "timestamp": 1652194438000
+        },
+        "score": 35.875774,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/9387124/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              7
+            ]
+          ]
+        },
+        "references-count": 20,
+        "journal-issue": {
+          "issue": "3"
+        },
+        "URL": "https://doi.org/10.1109/lra.2021.3068924",
+        "ISSN": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "issn-type": [
+          {
+            "value": "2377-3766",
+            "type": "electronic"
+          },
+          {
+            "value": "2377-3774",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

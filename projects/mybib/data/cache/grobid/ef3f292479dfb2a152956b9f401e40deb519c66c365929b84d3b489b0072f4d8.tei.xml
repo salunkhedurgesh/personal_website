@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CAD Based Geometric Procedures for Workspace and Singularity Determination of the 3-RPR Parallel Manipulator</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Khaled</forename><forename type="middle">Assad</forename><surname>Arrouk</surname></persName>
+							<email>akhaled.arrouk@ifma.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 6602</orgName>
+								<orgName type="institution" key="instit1">Clermont Université, Pascal Institute</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">UBP/IFMA</orgName>
+								<address>
+									<postCode>BP10448 F-63000</postCode>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chedli</forename><surname>Bouzgarrou</surname></persName>
+							<email>bbelhassen-chedli.bouzgarrou@ifma.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 6602</orgName>
+								<orgName type="institution" key="instit1">Clermont Université, Pascal Institute</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">UBP/IFMA</orgName>
+								<address>
+									<postCode>BP10448 F-63000</postCode>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Grigore</forename><surname>Gogu</surname></persName>
+							<email>cgrigore.gogu@ifma.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 6602</orgName>
+								<orgName type="institution" key="instit1">Clermont Université, Pascal Institute</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">UBP/IFMA</orgName>
+								<address>
+									<postCode>BP10448 F-63000</postCode>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">CAD Based Geometric Procedures for Workspace and Singularity Determination of the 3-RPR Parallel Manipulator</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FCE786F5AB7030B7A33226F2330B9723</idno>
+					<idno type="DOI">10.4028/www.scientific.net/AMM.162.131</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>CAD tools</term>
+					<term>parallel manipulators</term>
+					<term>workspace</term>
+					<term>singularity</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper presents a set of techniques based on the use of CAD geometric approaches for singularity surfaces and total operational workspace and joint space determination. The main emphasis is given to the use of CAD tools used to characterize and analyze the performance of planar parallel robot manipulators. The CAD environment provides powerful tools for the graphical programming and geometric feature handling. This paper points out the effectiveness of such a method in the robot design process. These developments are illustrated by the 3-RPR planar parallel manipulator case study. All of the proposed geometric algorithms are implemented in the CATIA CAD environment.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

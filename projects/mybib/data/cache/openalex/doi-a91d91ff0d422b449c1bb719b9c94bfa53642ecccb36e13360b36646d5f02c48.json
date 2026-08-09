@@ -1,0 +1,685 @@
+{
+  "id": "https://openalex.org/W2200956881",
+  "doi": "https://doi.org/10.1017/9781009106696.025",
+  "title": "Solving Ordinary Differential Equations",
+  "display_name": "Solving Ordinary Differential Equations",
+  "publication_year": 2023,
+  "publication_date": "2023-10-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2200956881",
+    "doi": "https://doi.org/10.1017/9781009106696.025",
+    "mag": "2200956881"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1017/9781009106696.025",
+    "is_oa": false,
+    "landing_page_url": "http://dx.doi.org/10.1017/9781009106696.025",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306462995",
+      "display_name": "Cambridge University Press eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310311721",
+      "host_organization_name": "Cambridge University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311721",
+        "https://openalex.org/P4310311702"
+      ],
+      "host_organization_lineage_names": [
+        "Cambridge University Press",
+        "University of Cambridge"
+      ],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Python for Chemists",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5063788129",
+        "display_name": "C. Hill",
+        "orcid": "https://orcid.org/0000-0001-6604-0126"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Christian Hill",
+      "raw_affiliation_strings": [
+        "International Atomic Energy Agency"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "International Atomic Energy Agency",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5063788129"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 8.8997,
+  "has_fulltext": false,
+  "cited_by_count": 12,
+  "citation_normalized_percentile": {
+    "value": 0.96391753,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "272",
+    "last_page": "281"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12327",
+    "display_name": "Various Chemistry Research Topics",
+    "score": 0.8266000151634216,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1606",
+      "display_name": "Physical and Theoretical Chemistry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/16",
+      "display_name": "Chemistry"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12327",
+      "display_name": "Various Chemistry Research Topics",
+      "score": 0.8266000151634216,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1606",
+        "display_name": "Physical and Theoretical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/python",
+      "display_name": "Python (programming language)",
+      "score": 0.8809421062469482
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6993719339370728
+    },
+    {
+      "id": "https://openalex.org/keywords/syntax",
+      "display_name": "Syntax",
+      "score": 0.5423865914344788
+    },
+    {
+      "id": "https://openalex.org/keywords/programming-language",
+      "display_name": "Programming language",
+      "score": 0.4472259283065796
+    },
+    {
+      "id": "https://openalex.org/keywords/ordinary-differential-equation",
+      "display_name": "Ordinary differential equation",
+      "score": 0.4371717572212219
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-science",
+      "display_name": "Computational science",
+      "score": 0.3712853193283081
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.22783809900283813
+    },
+    {
+      "id": "https://openalex.org/keywords/differential-equation",
+      "display_name": "Differential equation",
+      "score": 0.22009271383285522
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.13711386919021606
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C519991488",
+      "wikidata": "https://www.wikidata.org/wiki/Q28865",
+      "display_name": "Python (programming language)",
+      "level": 2,
+      "score": 0.8809421062469482
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6993719339370728
+    },
+    {
+      "id": "https://openalex.org/C60048249",
+      "wikidata": "https://www.wikidata.org/wiki/Q37437",
+      "display_name": "Syntax",
+      "level": 2,
+      "score": 0.5423865914344788
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.4472259283065796
+    },
+    {
+      "id": "https://openalex.org/C51544822",
+      "wikidata": "https://www.wikidata.org/wiki/Q465274",
+      "display_name": "Ordinary differential equation",
+      "level": 3,
+      "score": 0.4371717572212219
+    },
+    {
+      "id": "https://openalex.org/C459310",
+      "wikidata": "https://www.wikidata.org/wiki/Q117801",
+      "display_name": "Computational science",
+      "level": 1,
+      "score": 0.3712853193283081
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.22783809900283813
+    },
+    {
+      "id": "https://openalex.org/C78045399",
+      "wikidata": "https://www.wikidata.org/wiki/Q11214",
+      "display_name": "Differential equation",
+      "level": 2,
+      "score": 0.22009271383285522
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.13711386919021606
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1017/9781009106696.025",
+      "is_oa": false,
+      "landing_page_url": "http://dx.doi.org/10.1017/9781009106696.025",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306462995",
+        "display_name": "Cambridge University Press eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Python for Chemists",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2341492732",
+    "https://openalex.org/W3187193180",
+    "https://openalex.org/W106542691",
+    "https://openalex.org/W4287027380",
+    "https://openalex.org/W1699080303",
+    "https://openalex.org/W4297799326",
+    "https://openalex.org/W3116064965",
+    "https://openalex.org/W2207495067",
+    "https://openalex.org/W1906486629",
+    "https://openalex.org/W1486009489"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "accessible": [
+      1
+    ],
+    "and": [
+      2,
+      22,
+      29,
+      59,
+      66,
+      71,
+      90,
+      109,
+      124
+    ],
+    "self-contained": [
+      3
+    ],
+    "guide": [
+      4
+    ],
+    "provides": [
+      5
+    ],
+    "a": [
+      6,
+      16,
+      47,
+      115,
+      131
+    ],
+    "comprehensive": [
+      7
+    ],
+    "introduction": [
+      8
+    ],
+    "to": [
+      9,
+      27,
+      34,
+      56,
+      74,
+      120
+    ],
+    "the": [
+      10,
+      51,
+      104
+    ],
+    "popular": [
+      11
+    ],
+    "programming": [
+      12,
+      52
+    ],
+    "language": [
+      13,
+      53
+    ],
+    "Python,": [
+      14
+    ],
+    "with": [
+      15,
+      99
+    ],
+    "focus": [
+      17
+    ],
+    "on": [
+      18,
+      114
+    ],
+    "applications": [
+      19,
+      60
+    ],
+    "in": [
+      20,
+      39,
+      50,
+      61,
+      83
+    ],
+    "chemistry": [
+      21,
+      32
+    ],
+    "chemical": [
+      23
+    ],
+    "physics.": [
+      24
+    ],
+    "Ideally": [
+      25
+    ],
+    "suited": [
+      26
+    ],
+    "students": [
+      28
+    ],
+    "researchers": [
+      30
+    ],
+    "of": [
+      31,
+      93
+    ],
+    "learning": [
+      33
+    ],
+    "employ": [
+      35
+    ],
+    "Python": [
+      36
+    ],
+    "for": [
+      37
+    ],
+    "problem-solving": [
+      38
+    ],
+    "their": [
+      40,
+      122,
+      128
+    ],
+    "research,": [
+      41
+    ],
+    "this": [
+      42
+    ],
+    "fast-paced": [
+      43
+    ],
+    "primer": [
+      44
+    ],
+    "first": [
+      45
+    ],
+    "builds": [
+      46
+    ],
+    "solid": [
+      48
+    ],
+    "foundation": [
+      49
+    ],
+    "before": [
+      54
+    ],
+    "progressing": [
+      55
+    ],
+    "advanced": [
+      57
+    ],
+    "concepts": [
+      58
+    ],
+    "chemistry.": [
+      62
+    ],
+    "The": [
+      63
+    ],
+    "required": [
+      64
+    ],
+    "syntax": [
+      65
+    ],
+    "data": [
+      67
+    ],
+    "structures": [
+      68
+    ],
+    "are": [
+      69,
+      81,
+      96,
+      112
+    ],
+    "established,": [
+      70
+    ],
+    "then": [
+      72
+    ],
+    "applied": [
+      73
+    ],
+    "solve": [
+      75
+    ],
+    "problems": [
+      76,
+      95
+    ],
+    "computationally.": [
+      77
+    ],
+    "Popular": [
+      78
+    ],
+    "numerical": [
+      79
+    ],
+    "packages": [
+      80
+    ],
+    "described": [
+      82
+    ],
+    "detail,": [
+      84
+    ],
+    "including": [
+      85
+    ],
+    "NumPy,": [
+      86
+    ],
+    "SciPy,": [
+      87
+    ],
+    "Matplotlib,": [
+      88
+    ],
+    "SymPy,": [
+      89
+    ],
+    "pandas.": [
+      91
+    ],
+    "End": [
+      92
+    ],
+    "chapter": [
+      94
+    ],
+    "included": [
+      97
+    ],
+    "throughout,": [
+      98
+    ],
+    "worked": [
+      100
+    ],
+    "solutions": [
+      101
+    ],
+    "available": [
+      102
+    ],
+    "within": [
+      103
+    ],
+    "book.": [
+      105
+    ],
+    "Additional": [
+      106
+    ],
+    "resources,": [
+      107
+    ],
+    "datasets,": [
+      108
+    ],
+    "Jupyter": [
+      110
+    ],
+    "Notebooks": [
+      111
+    ],
+    "provided": [
+      113
+    ],
+    "companion": [
+      116
+    ],
+    "website,": [
+      117
+    ],
+    "allowing": [
+      118
+    ],
+    "readers": [
+      119
+    ],
+    "reinforce": [
+      121
+    ],
+    "understanding": [
+      123
+    ],
+    "gain": [
+      125
+    ],
+    "confidence": [
+      126
+    ],
+    "applying": [
+      127
+    ],
+    "knowledge": [
+      129
+    ],
+    "through": [
+      130
+    ],
+    "hands-on": [
+      132
+    ],
+    "approach.": [
+      133
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-12-21T23:12:01.093139",
+  "created_date": "2016-06-24T00:00:00"
+}

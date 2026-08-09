@@ -1,0 +1,824 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4811677,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              24
+            ]
+          ],
+          "date-time": "2024-11-24T14:10:01Z",
+          "timestamp": 1732457401523,
+          "version": "3.28.0"
+        },
+        "edition-number": "1",
+        "reference-count": 66,
+        "publisher": "Wiley",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9781394178414"
+          },
+          {
+            "type": "electronic",
+            "value": "9781394178445"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1002/9781394178445.ch2",
+        "type": "other",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2024-07-19T23:43:35Z",
+          "timestamp": 1721432615000
+        },
+        "page": "31-82",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Evolutionary Large‐Scale Multi‐Objective Optimization"
+        ],
+        "prefix": "10.1002",
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "2",
+            "key": "e_1_2_1_2_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "703",
+            "DOI": "10.1109/TCYB.2018.2871673",
+            "article-title": "A network reduction‐based multiobjective evolutionary algorithm for community detection in large‐scale complex networks",
+            "volume": "50",
+            "author": "Zhang X.",
+            "year": "2018",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "key": "e_1_2_1_3_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "374",
+            "DOI": "10.1016/j.ins.2021.06.089",
+            "article-title": "A parallel multi‐objective evolutionary algorithm for community detection in large‐scale complex networks",
+            "volume": "576",
+            "author": "Su Y.",
+            "year": "2021",
+            "journal-title": "Information Sciences"
+          },
+          {
+            "issue": "9",
+            "key": "e_1_2_1_4_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "4861",
+            "DOI": "10.1109/TNNLS.2021.3061630",
+            "article-title": "A gradient‐guided evolutionary approach to training deep neural networks",
+            "volume": "33",
+            "author": "Yang S.",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+          },
+          {
+            "issue": "8",
+            "key": "e_1_2_1_5_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "4173",
+            "DOI": "10.1109/TCYB.2019.2950626",
+            "article-title": "An evolutionary multiobjective route grouping‐based heuristic algorithm for large‐scale capacitated vehicle routing problems",
+            "volume": "51",
+            "author": "Xiao J.",
+            "year": "2019",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "issue": "12",
+            "key": "e_1_2_1_6_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "7544",
+            "DOI": "10.1109/TII.2019.2962137",
+            "article-title": "A clustering‐based surrogate‐assisted multiobjective evolutionary algorithm for shelter location problem under uncertainty of road networks",
+            "volume": "16",
+            "author": "Xiang X.",
+            "year": "2019",
+            "journal-title": "IEEE Transactions on Industrial Informatics"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_2_1_7_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "868",
+            "DOI": "10.1109/TEVC.2020.2967501",
+            "article-title": "Evolutionary large‐scale multiobjective optimization for ratio error estimation of voltage transformers",
+            "volume": "24",
+            "author": "He C.",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "6",
+            "key": "e_1_2_1_8_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1511",
+            "DOI": "10.1109/TEVC.2022.3144675",
+            "article-title": "A large‐scale combinatorial many‐objective evolutionary algorithm for intensity‐modulated radiotherapy planning",
+            "volume": "26",
+            "author": "Tian Y.",
+            "year": "2022",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "8",
+            "key": "e_1_2_1_9_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "3696",
+            "DOI": "10.1109/TCYB.2019.2906383",
+            "article-title": "Efficient large‐scale multiobjective optimization based on a competitive swarm optimizer",
+            "volume": "50",
+            "author": "Tian Y.",
+            "year": "2019",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_10_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "155",
+            "DOI": "10.1007/s11633-020-1253-0",
+            "article-title": "Evolutionary computation for large‐scale multi‐objective optimization: a decade of progresses",
+            "volume": "18",
+            "author": "Hong W.",
+            "year": "2021",
+            "journal-title": "International Journal of Automation and Computing"
+          },
+          {
+            "key": "e_1_2_1_11_1",
+            "unstructured": "K.Tang X.Yao P. N.Suganthan C.MacNish Y. P.Chen C. M.Chen andZ.Yang “Benchmark functions for the CEC'2008 special session and competition on large‐scale global optimization ”Technical Report 2007."
+          },
+          {
+            "key": "e_1_2_1_12_1",
+            "unstructured": "K.Tang X.Li P. N.Suganthan Z.Yang andT.Weise “Benchmark functions for the CEC'2010 special session and competition on large‐scale global optimization ”Technical Report 2009."
+          },
+          {
+            "key": "e_1_2_1_13_1",
+            "unstructured": "X.Li K.Tang M. N.Omidvar Z.Yang andK.Qin “Benchmark functions for the CEC'2013 special session and competition on large‐scale global optimization ”Technical Report 2012."
+          },
+          {
+            "key": "e_1_2_1_14_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "419",
+            "DOI": "10.1016/j.ins.2014.12.062",
+            "article-title": "Designing benchmark problems for large‐scale continuous optimization",
+            "volume": "316",
+            "author": "Omidvar M. N.",
+            "year": "2015",
+            "journal-title": "Information Sciences"
+          },
+          {
+            "key": "e_1_2_1_15_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "101280",
+            "DOI": "10.1016/j.swevo.2023.101280",
+            "article-title": "A large‐scale continuous optimization benchmark suite with versatile coupled heterogeneous modules",
+            "volume": "78",
+            "author": "Xu P.",
+            "year": "2023",
+            "journal-title": "Swarm and Evolutionary Computation"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_2_1_16_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "802",
+            "DOI": "10.1109/TEVC.2021.3130838",
+            "article-title": "A review of population‐based metaheuristics for large‐scale black‐box global optimizationPart I",
+            "volume": "26",
+            "author": "Omidvar M. N.",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_17_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "407",
+            "DOI": "10.1016/j.ins.2014.10.042",
+            "article-title": "Metaheuristics in large‐scale global continues optimization: a survey",
+            "volume": "295",
+            "author": "Mahdavi S.",
+            "year": "2015",
+            "journal-title": "Information Sciences"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_2_1_18_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "823",
+            "DOI": "10.1109/TEVC.2021.3130835",
+            "article-title": "A review of population‐based metaheuristics for large‐scale black‐box global optimizationPart II",
+            "volume": "26",
+            "author": "Omidvar M. N.",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_19_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Y.Zhang Y.Tian andX.Zhang “A comparison study of evolutionary algorithms on large‐scale sparse multi‐objective optimization problems ” inProceedings of IEEE International Conference on Evolutionary Multi‐Criterion Optimization 2021 pp.424–437.",
+            "DOI": "10.1007/978-3-030-72062-9_34"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_20_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "173",
+            "DOI": "10.1162/106365600568202",
+            "article-title": "Comparison of multiobjective evolutionary algorithms: empirical results",
+            "volume": "8",
+            "author": "Zitzler E.",
+            "year": "2000",
+            "journal-title": "Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_21_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "K.Deb L.Thiele M.Laumanns andE.Zitzler “Scalable test problems for evolutionary multiobjective optimization ” inProceedings of IEEE International Conference on Evolutionary Multiobjective Optimization 2005 pp.105–145.",
+            "DOI": "10.1007/1-84628-137-7_6"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_2_1_22_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "477",
+            "DOI": "10.1109/TEVC.2005.861417",
+            "article-title": "A review of multiobjective test problems and a scalable test problem toolkit",
+            "volume": "10",
+            "author": "Huband S.",
+            "year": "2006",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_2_1_23_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "52",
+            "DOI": "10.1109/TCYB.2015.2507366",
+            "article-title": "Biased multiobjective optimization and decomposition algorithm",
+            "volume": "47",
+            "author": "Li H.",
+            "year": "2016",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "key": "e_1_2_1_24_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "67",
+            "DOI": "10.1007/s40747-017-0039-7",
+            "article-title": "A benchmark test suite for evolutionary many‐objective optimization",
+            "volume": "3",
+            "author": "Cheng R.",
+            "year": "2017",
+            "journal-title": "Complex & Intelligent Systems"
+          },
+          {
+            "issue": "12",
+            "key": "e_1_2_1_25_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "4108",
+            "DOI": "10.1109/TCYB.2016.2600577",
+            "article-title": "Test problems for large‐scale multiobjective and many‐objective optimization",
+            "volume": "47",
+            "author": "Cheng R.",
+            "year": "2016",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_26_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "401",
+            "DOI": "10.1109/TEVC.2021.3099487",
+            "article-title": "Evolutionary large‐scale multiobjective optimization: benchmarks and algorithms",
+            "volume": "27",
+            "author": "Liu S.",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_27_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1145/3300148",
+            "article-title": "Quality evaluation of solution sets in multiobjective optimization: a survey",
+            "volume": "52",
+            "author": "Li M.",
+            "year": "2019",
+            "journal-title": "ACM Computing Surveys"
+          },
+          {
+            "issue": "4",
+            "key": "e_1_2_1_28_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "251",
+            "DOI": "10.1023/A:1015516501242",
+            "article-title": "Evolutionary algorithms for multi‐objective optimization: performance assessments and comparisons",
+            "volume": "17",
+            "author": "Tan K. C.",
+            "year": "2002",
+            "journal-title": "Artificial Intelligence Review"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_2_1_29_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2088",
+            "DOI": "10.1109/TSMCB.2004.834438",
+            "article-title": "Multiobjective GAs, quantitative indices, and pattern classification",
+            "volume": "34",
+            "author": "Bandyopadhyay S.",
+            "year": "2004",
+            "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)"
+          },
+          {
+            "key": "e_1_2_1_30_1",
+            "unstructured": "D. A.Van VeldhuizenandG. B.Lamont “Evolutionary computation and convergence to a Pareto front ” inProceedings of Late Breaking Papers at the 1998 International Conference on Genetic Programming 1998 pp.221–228."
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_31_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "201",
+            "DOI": "10.1109/TEVC.2014.2308305",
+            "article-title": "An efficient approach to nondominated sorting for evolutionary multiobjective optimization",
+            "volume": "19",
+            "author": "Zhang X.",
+            "year": "2014",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "volume-title": "Fault tolerant design using single and multi‐criteria genetic algorithms",
+            "year": "1995",
+            "author": "Schott J. R.",
+            "key": "e_1_2_1_32_1"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_2_1_33_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "18",
+            "DOI": "10.1115/1.1329875",
+            "article-title": "Metrics for quality assessment of a multiobjective design optimization solution set",
+            "volume": "123",
+            "author": "Wu J.",
+            "year": "2001",
+            "journal-title": "Journal of Mechanical Design"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_34_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "61",
+            "DOI": "10.1109/MCI.2019.2919398",
+            "article-title": "Diversity assessment of multi‐objective evolutionary algorithms: performance metric and benchmark problems [research frontier]",
+            "volume": "14",
+            "author": "Tian Y.",
+            "year": "2019",
+            "journal-title": "IEEE Computational Intelligence Magazine"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_35_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "174",
+            "DOI": "10.1109/TEVC.2003.810761",
+            "article-title": "The balance between proximity and diversity in multiobjective evolutionary algorithms",
+            "volume": "7",
+            "author": "Bosman P.",
+            "year": "2003",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_2_1_36_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1109/TEVC.2020.3013290",
+            "article-title": "A survey on the hypervolume indicator in evolutionary multiobjective optimization",
+            "volume": "25",
+            "author": "Shang K.",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_37_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "C. A. C.Coello CoelloandM.Reyes Sierra “A study of the parallelization of a coevolutionary multi‐objective evolutionary algorithm ” inProceedings of the 2004 Mexican International Conference on Artificial Intelligence 2004 pp.688–697.",
+            "DOI": "10.1007/978-3-540-24694-7_71"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_38_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "204",
+            "DOI": "10.1109/TEVC.2003.810752",
+            "article-title": "Balance between genetic search and local search in memetic algorithms for multiobjective permutation flowshop scheduling",
+            "volume": "7",
+            "author": "Ishibuchi H.",
+            "year": "2003",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "1",
+            "key": "e_1_2_1_39_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "34",
+            "DOI": "10.1002/(SICI)1099-1360(199801)7:1<34::AID-MCDA161>3.0.CO;2-6",
+            "article-title": "Pareto simulated annealinga metaheuristic technique for multiple‐objective combinatorial optimization",
+            "volume": "7",
+            "author": "Czyzżak P.",
+            "year": "1998",
+            "journal-title": "Journal of Multi‐Criteria Decision Analysis"
+          },
+          {
+            "issue": "4",
+            "key": "e_1_2_1_40_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "257",
+            "DOI": "10.1109/4235.797969",
+            "article-title": "Multiobjective evolutionary algorithms: a comparative case study and the strength Pareto approach",
+            "volume": "3",
+            "author": "Zitzler E.",
+            "year": "1999",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "volume-title": "Evolutionary algorithms for multiobjective optimization: methods and applications",
+            "year": "1999",
+            "author": "Zitzler E.",
+            "key": "e_1_2_1_41_1"
+          },
+          {
+            "key": "e_1_2_1_42_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "M.Fleischer “The measure of Pareto optima applications to multi‐objective metaheuristics ” inProceedings of IEEE International Conference on Evolutionary Multi‐Criterion Optimization 2003 pp.519–533.",
+            "DOI": "10.1007/3-540-36970-8_37"
+          },
+          {
+            "volume-title": "Multiobjective evolutionary algorithms: classifications, analyses, and new innovations",
+            "year": "1999",
+            "author": "Van Veldhuizen D. A.",
+            "key": "e_1_2_1_43_1"
+          },
+          {
+            "key": "e_1_2_1_44_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Y.Tian X.Zhang R.Cheng andY.Jin “A multi‐objective evolutionary algorithm based on an enhanced inverted generational distance metric ” inProceedings of the 2016 IEEE Congress on Evolutionary Computation 2016 pp.5222–5229.",
+            "DOI": "10.1109/CEC.2016.7748352"
+          },
+          {
+            "issue": "4",
+            "key": "e_1_2_1_45_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "504",
+            "DOI": "10.1109/TEVC.2011.2161872",
+            "article-title": "Using the averaged Hausdorff distance as a performance measure in evolutionary multiobjective optimization",
+            "volume": "16",
+            "author": "Schutze O.",
+            "year": "2012",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_46_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "H.Ishibuchi H.Masuda Y.Tanigaki andY.Nojima “Modified distance calculation in generational distance and inverted generational distance ” inProceedings of IEEE International Conference on Evolutionary Multi‐Criterion Optimization 2015 pp.110–125.",
+            "DOI": "10.1007/978-3-319-15892-1_8"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_47_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "348",
+            "DOI": "10.1109/TEVC.2013.2262178",
+            "article-title": "Shift‐based density estimation for Pareto‐based algorithms in many‐objective optimization",
+            "volume": "18",
+            "author": "Li M.",
+            "year": "2014",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_48_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "305",
+            "DOI": "10.1109/TEVC.2003.810733",
+            "article-title": "Using unconstrained elite archives for multiobjective optimization",
+            "volume": "7",
+            "author": "Fieldsend J. E.",
+            "year": "2003",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "6",
+            "key": "e_1_2_1_49_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "961",
+            "DOI": "10.1109/TEVC.2017.2776226",
+            "article-title": "Reference point specification in inverted generational distance for triangular linear Pareto front",
+            "volume": "22",
+            "author": "Ishibuchi H.",
+            "year": "2018",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "key": "e_1_2_1_50_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "92",
+            "DOI": "10.1016/j.cosrev.2018.02.002",
+            "article-title": "The critical node detection problem in networks: a survey",
+            "volume": "28",
+            "author": "Lalou M.",
+            "year": "2018",
+            "journal-title": "Computer Science Review"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_51_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "397",
+            "DOI": "10.1109/TSMCC.2008.919172",
+            "article-title": "Pareto‐based multiobjective machine learning: an overview and case studies",
+            "volume": "38",
+            "author": "Jin Y.",
+            "year": "2008",
+            "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+          },
+          {
+            "issue": "12",
+            "key": "e_1_2_1_52_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "4396",
+            "DOI": "10.1109/TPAMI.2020.3002843",
+            "article-title": "Infinite feature selection: a graph‐based feature filtering approach",
+            "volume": "43",
+            "author": "Roffo G.",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_53_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "321",
+            "DOI": "10.1109/TEVC.2012.2196800",
+            "article-title": "A survey on multiobjective evolutionary algorithms for the solution of the portfolio optimization problem and other finance and economics applications",
+            "volume": "17",
+            "author": "Ponsich A.",
+            "year": "2012",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "5",
+            "key": "e_1_2_1_54_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1716",
+            "DOI": "10.1109/TNNLS.2017.2677973",
+            "article-title": "A preference‐based multiobjective evolutionary approach for sparse optimization",
+            "volume": "29",
+            "author": "Li H.",
+            "year": "2017",
+            "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_55_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "268",
+            "DOI": "10.1109/TAI.2022.3168038",
+            "article-title": "Imperceptible and sparse adversarial attacks via a dual‐population‐based constrained evolutionary algorithm",
+            "volume": "4",
+            "author": "Tian Y.",
+            "year": "2022",
+            "journal-title": "IEEE Transactions on Artificial Intelligence"
+          },
+          {
+            "issue": "2",
+            "key": "e_1_2_1_56_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "380",
+            "DOI": "10.1109/TEVC.2019.2918140",
+            "article-title": "An evolutionary algorithm for large‐scale sparse multiobjective optimization problems",
+            "volume": "24",
+            "author": "Tian Y.",
+            "year": "2019",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_57_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "405",
+            "DOI": "10.1109/TEVC.2020.3044711",
+            "article-title": "A multipopulation evolutionary algorithm for solving large‐scale multimodal multiobjective optimization problems",
+            "volume": "25",
+            "author": "Tian Y.",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Evolutionary Computation"
+          },
+          {
+            "issue": "6",
+            "key": "e_1_2_1_58_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "3115",
+            "DOI": "10.1109/TCYB.2020.2979930",
+            "article-title": "Solving large‐scale multiobjective optimization problems with sparse optimal solutions via unsupervised neural networks",
+            "volume": "51",
+            "author": "Tian Y.",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "issue": "6",
+            "key": "e_1_2_1_59_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1656",
+            "DOI": "10.1109/TSMCB.2012.2227469",
+            "article-title": "Particle swarm optimization for feature selection in classification: a multi‐objective approach",
+            "volume": "43",
+            "author": "Xue B.",
+            "year": "2012",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "key": "e_1_2_1_60_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "10",
+            "DOI": "10.1016/j.asoc.2015.09.006",
+            "article-title": "Evolutionary wrapper approaches for training set selection as preprocessing mechanism for support vector machines: experimental evaluation and support vector analysis",
+            "volume": "38",
+            "author": "Verbiest N.",
+            "year": "2016",
+            "journal-title": "Applied Soft Computing"
+          },
+          {
+            "issue": "9",
+            "key": "e_1_2_1_61_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2703",
+            "DOI": "10.1109/TCYB.2017.2711038",
+            "article-title": "A mixed representation‐based multiobjective evolutionary algorithm for overlapping community detection",
+            "volume": "47",
+            "author": "Zhang L.",
+            "year": "2017",
+            "journal-title": "IEEE Transactions on Cybernetics"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_62_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "43",
+            "DOI": "10.1109/MCI.2017.2708578",
+            "article-title": "Pattern recommendation in task‐oriented applications: a multi‐objective perspective [application notes]",
+            "volume": "12",
+            "author": "Zhang X.",
+            "year": "2017",
+            "journal-title": "IEEE Computational Intelligence Magazine"
+          },
+          {
+            "key": "e_1_2_1_63_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "R.RossiandN.Ahmed “The network data repository with interactive graph analytics and visualization ” inProceedings of the AAAI Conference on Artificial Intelligence vol.29 no.1 2015.",
+            "DOI": "10.1609/aaai.v29i1.9277"
+          },
+          {
+            "key": "e_1_2_1_64_1",
+            "unstructured": "J.Liang M.Gong H.Li C.Yue andB.Qu “Problem definitions and evaluation criteria for the CEC special session on evolutionary algorithms for sparse optimization ”Technical Report 2018."
+          },
+          {
+            "key": "e_1_2_1_65_1",
+            "unstructured": "R.AgrawalandR.Srikant “Fast algorithms for mining association rules ” inProceedings of the 20th International Conference on Very Large Data Bases 1994 pp.487–499."
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_66_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "411",
+            "DOI": "10.1162/evco_a_00226",
+            "article-title": "How to specify a reference point in hypervolume calculation for fair performance comparison",
+            "volume": "26",
+            "author": "Ishibuchi H.",
+            "year": "2018",
+            "journal-title": "Evolutionary Computation"
+          },
+          {
+            "issue": "3",
+            "key": "e_1_2_1_67_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "34",
+            "DOI": "10.1109/MCI.2022.3180913",
+            "article-title": "Comparing the performance of evolutionary algorithms for sparse multi‐objective optimization via a comprehensive indicator [research frontier]",
+            "volume": "17",
+            "author": "Su Y.",
+            "year": "2022",
+            "journal-title": "IEEE Computational Intelligence Magazine"
+          }
+        ],
+        "container-title": [
+          "Evolutionary Large‐Scale Multi‐Objective Optimization and Applications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781394178445.ch2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              24
+            ]
+          ],
+          "date-time": "2024-11-24T13:43:18Z",
+          "timestamp": 1732455798000
+        },
+        "score": 28.43834,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781394178445.ch2"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        },
+        "ISBN": [
+          "9781394178414",
+          "9781394178445"
+        ],
+        "references-count": 66,
+        "alternative-id": [
+          "10.1002/9781394178445.ch2",
+          "10.1002/9781394178445"
+        ],
+        "URL": "https://doi.org/10.1002/9781394178445.ch2",
+        "archive": [
+          "Portico"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

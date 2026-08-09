@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5848987,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2026-02-28T05:54:58Z",
+          "timestamp": 1772258098747,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Copernicus GmbH",
+        "content-domain": {
+          "domain": []
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              19
+            ]
+          ]
+        },
+        "DOI": "10.5194/amt-2019-222-rc1",
+        "type": "peer-review",
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2019-07-18T19:38:36Z",
+          "timestamp": 1563478716000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Review of Yang et al. (2019)"
+        ],
+        "prefix": "10.5194",
+        "member": "3145",
+        "review": {
+          "type": "referee-report",
+          "running-number": "RC1",
+          "stage": "pre-publication",
+          "recommendation": "minor-revision",
+          "language": "en"
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              2
+            ]
+          ],
+          "date-time": "2025-02-02T08:00:21Z",
+          "timestamp": 1738483221000
+        },
+        "score": 30.290337,
+        "resource": {
+          "primary": {
+            "URL": "https://amt.copernicus.org/preprints/amt-2019-222/amt-2019-222-RC1.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              19
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5194/amt-2019-222-rc1",
+        "relation": {
+          "is-review-of": [
+            {
+              "id-type": "doi",
+              "id": "10.5194/amt-12-5817-2019",
+              "asserted-by": "subject"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/amt-2019-222",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5194/amt-12-5817-2019",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              19
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

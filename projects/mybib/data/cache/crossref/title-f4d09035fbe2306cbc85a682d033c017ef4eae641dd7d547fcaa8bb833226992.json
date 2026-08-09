@@ -1,0 +1,574 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3638434,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2026-04-22T20:15:02Z",
+          "timestamp": 1776888902566,
+          "version": "3.51.2"
+        },
+        "reference-count": 48,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2023-01-01T00:00:00Z",
+              "timestamp": 1672531200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100000143",
+            "name": "NSF TRIPODS, NSF CCF",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "1717120"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "1717120"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100000143",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100000183",
+            "name": "ARO",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "W911NF1710438"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "W911NF1710438"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100000183",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100006754",
+            "name": "ARL",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "DCIST CRA W911NF-17-2-0181"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "DCIST CRA W911NF-17-2-0181"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100006754",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100000893",
+            "name": "Theorinet Simons",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000893",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Signal Process."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1109/tsp.2023.3297848",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              21
+            ]
+          ],
+          "date-time": "2023-07-21T17:41:32Z",
+          "timestamp": 1689961292000
+        },
+        "page": "3474-3489",
+        "source": "Crossref",
+        "is-referenced-by-count": 19,
+        "title": [
+          "Transferability Properties of Graph Neural Networks"
+        ],
+        "prefix": "10.1109",
+        "volume": "71",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9666-1211",
+            "authenticated-orcid": false,
+            "given": "Luana",
+            "family": "Ruiz",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7731-6650",
+            "authenticated-orcid": false,
+            "given": "Luiz F. O.",
+            "family": "Chamon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Simons Institute, U.C. Berkeley, Berkeley, CA, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4230-9906",
+            "authenticated-orcid": false,
+            "given": "Alejandro",
+            "family": "Ribeiro",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "first-page": "1",
+            "article-title": "Semi-supervised classification with graph convolutional networks",
+            "volume-title": "Proc. 5th Int. Conf. Learn. Representations",
+            "author": "Kipf",
+            "year": "2017"
+          },
+          {
+            "key": "ref2",
+            "first-page": "1",
+            "article-title": "Convolutional neural networks on graphs with fast localized spectral filtering",
+            "volume-title": "Proc. Neural Inf. Process. Syst.",
+            "author": "Defferrard",
+            "year": "2016"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSP.2018.2887403"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/MSP.2017.2693418",
+            "article-title": "Geometric deep learning: Going beyond Euclidean data",
+            "author": "Bronstein",
+            "year": "2017"
+          },
+          {
+            "key": "ref5",
+            "article-title": "Invariance-preserving localized activation functions for graph neural networks",
+            "author": "Ruiz",
+            "year": "2019"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tsp.2020.3026980"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MSP.2020.3016143"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/coll/060"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jctb.2006.05.002"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.aim.2008.07.008"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4007/annals.2012.176.1.2"
+          },
+          {
+            "key": "ref12",
+            "article-title": "Nonparametric graphon estimation",
+            "author": "Wolfe",
+            "year": "2013"
+          },
+          {
+            "key": "ref13",
+            "article-title": "Rates of convergence of spectral methods for graphon estimation",
+            "author": "Xu",
+            "year": "2017"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1214/15-AOS1354"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3328526.3329638"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TNSE.2018.2884235"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TNSE.2021.3069675"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/cdc.2018.8619758"
+          },
+          {
+            "key": "ref19",
+            "first-page": "1",
+            "article-title": "Graphon neural networks and the transferability of graph neural networks",
+            "volume-title": "Proc. Neural Inf. Process. Syst.",
+            "author": "Ruiz",
+            "year": "2020"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSP.2021.3106857"
+          },
+          {
+            "issue": "272",
+            "key": "ref21",
+            "first-page": "1",
+            "article-title": "Transferability of spectral graph convolutional neural networks",
+            "volume": "22",
+            "author": "Levie",
+            "year": "2021",
+            "journal-title": "J. Mach. Learn. Res."
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.acha.2022.11.008"
+          },
+          {
+            "key": "ref23",
+            "article-title": "Convergence and stability of graph convolutional networks on large random graphs",
+            "author": "Keriven",
+            "year": "2020"
+          },
+          {
+            "key": "ref24",
+            "article-title": "Transferability of graph neural networks: Understanding the structures and features of graph embeddings",
+            "author": "Thang"
+          },
+          {
+            "key": "ref25",
+            "first-page": "8038",
+            "article-title": "Stability of graph scattering transforms",
+            "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+            "volume": "32",
+            "author": "Gama",
+            "year": "2019"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/SampTA45681.2019.9030932",
+            "article-title": "On the transferability of spectral graph filters",
+            "author": "Levie",
+            "year": "2019"
+          },
+          {
+            "key": "ref27",
+            "first-page": "5388",
+            "article-title": "Interpretable stability bounds for spectral graph filters",
+            "volume-title": "Proc. Int. Conf. Mach. Learn.",
+            "author": "Kenlay",
+            "year": "2021"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICASSP39728.2021.9413474"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.23919/Eusipco47968.2020.9287695"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSP.2021.3061575"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MSP.2012.2235192"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JPROC.2018.2820126"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSP.2013.2238935"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s21041275"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/DSW.2018.8439904"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSP.2017.2703660"
+          },
+          {
+            "key": "ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TSP.2014.2321121"
+          },
+          {
+            "key": "ref38",
+            "article-title": "The graphon Fourier transform",
+            "author": "Ruiz",
+            "year": "2019"
+          },
+          {
+            "key": "ref39",
+            "volume-title": "Functional Analysis",
+            "author": "Lax",
+            "year": "2002"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.48550/ARXIV.1706.03762"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/2827872"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICASSP39728.2021.9414563"
+          },
+          {
+            "key": "ref43",
+            "first-page": "671",
+            "article-title": "Learning decentralized controllers for robot swarms with graph neural networks",
+            "volume-title": "Proc. Conf. Robot Learn.",
+            "author": "Tolstaya",
+            "year": "2020"
+          },
+          {
+            "key": "ref44",
+            "article-title": "Stability of manifold neural networks to deformations",
+            "author": "Wang",
+            "year": "2021"
+          },
+          {
+            "key": "ref45",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/tran/7543"
+          },
+          {
+            "key": "ref46",
+            "article-title": "Increase and conquer: Training graph neural networks on growing graphs",
+            "author": "Cervino",
+            "year": "2021"
+          },
+          {
+            "key": "ref47",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00020-014-2127-z"
+          },
+          {
+            "key": "ref48",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.37236/702"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Signal Processing"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/78/10040758/10190182.pdf?arnumber=10190182",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T15:18:01Z",
+          "timestamp": 1709306281000
+        },
+        "score": 34.85723,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10190182/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "references-count": 48,
+        "URL": "https://doi.org/10.1109/tsp.2023.3297848",
+        "ISSN": [
+          "1053-587X",
+          "1941-0476"
+        ],
+        "issn-type": [
+          {
+            "value": "1053-587X",
+            "type": "print"
+          },
+          {
+            "value": "1941-0476",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

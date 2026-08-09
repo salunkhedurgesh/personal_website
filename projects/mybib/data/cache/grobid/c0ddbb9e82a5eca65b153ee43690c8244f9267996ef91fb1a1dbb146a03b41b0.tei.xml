@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Motion Mappings for Continuous Bilateral Teleoperation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Xiao</forename><surname>Gao</surname></persName>
+							<email>xiaogao@whu.edu.cn</email>
+							<idno type="ORCID">0000-0002-1495-4724</idno>
+						</author>
+						<author>
+							<persName><forename type="first">João</forename><surname>Silvério</surname></persName>
+							<email>joao.silverio@idiap.ch</email>
+							<idno type="ORCID">0000-0003-1428-8933</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Emmanuel</forename><surname>Pignat</surname></persName>
+							<email>emmanuel.pignat@gmail.com</email>
+							<idno type="ORCID">0000-0001-6612-5322</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvain</forename><surname>Calinon</surname></persName>
+							<email>sylvain.calinon@idiap.ch</email>
+							<idno type="ORCID">0000-0002-9036-6799</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Miao</forename><surname>Li</surname></persName>
+							<email>miao.li@whu.edu.cn</email>
+							<idno type="ORCID">0000-0002-2244-2104</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaohui</forename><surname>Xiao</surname></persName>
+							<email>xhx-iao@whu.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratory of Science and Technology on Space Intelligent Control Laboratory under Grant</orgName>
+								<orgName type="laboratory" key="lab2">Hubei Key Laboratory of Waterjet Theory and New Technology</orgName>
+								<orgName type="institution">Wuhan University</orgName>
+								<address>
+									<postCode>430072</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Idiap Research Institute</orgName>
+								<address>
+									<postCode>1920</postCode>
+									<settlement>Martigny</settlement>
+									<region>CH</region>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Hubei Key Laboratory of Waterjet Theory and New Technology</orgName>
+								<orgName type="institution">Idiap Research Institute</orgName>
+								<address>
+									<postCode>1920</postCode>
+									<settlement>Martigny</settlement>
+									<region>CH</region>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Hubei Key Laboratory of Waterjet Theory and New Technology</orgName>
+								<orgName type="institution">Wuhan University</orgName>
+								<address>
+									<postCode>430072</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Wuhan University</orgName>
+								<address>
+									<postCode>430072</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Astro- nauts Research and Training Center</orgName>
+								<orgName type="institution">National Key Laboratory of Human Factors Engineering</orgName>
+								<address>
+									<postCode>100094</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Motion Mappings for Continuous Bilateral Teleoperation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">684C46627EB9324A38AACB3ED1883CF6</idno>
+					<idno type="DOI">10.1109/LRA.2021.3068924</idno>
+					<note type="submission">received December 11, 2020; accepted March 18, 2021. Date of publication March 25, 2021; date of current version April 21, 2021.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Bilateral teleoperation</term>
+					<term>diffeomorphic mappings</term>
+					<term>telerobotics and teleoperation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Mapping operator motions to a robot is a key problem in teleoperation. Due to differences between local and remote workspaces, such as object locations, it is particularly challenging to derive smooth motion mappings that fulfill different goals (e.g., picking objects with different poses on the two sides or passing through key points). Indeed, most state-of-the-art methods rely on mode switches, leading to a discontinuous, low-transparency experience. In this letter, we propose a unified formulation for position, orientation and velocity mappings based on the poses of objects of interest in the operator and robot workspaces. We apply it in the context of bilateral teleoperation. Two possible implementations to achieve the proposed mappings are studied: an iterative approach based on locally-weighted translations and rotations, and a neural network approach. Evaluations are conducted both in simulation and using two torque-controlled Franka Emika Panda robots. Our results show that, despite longer training time, the neural network approach provides faster mapping evaluations and lower interaction forces for the operator, which are crucial for continuous, real-time teleoperation.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

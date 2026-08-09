@@ -1,0 +1,688 @@
+{
+  "meta": {
+    "count": 1,
+    "db_response_time_ms": 205,
+    "page": 1,
+    "per_page": 1,
+    "groups_count": null,
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4206086454",
+      "doi": "https://doi.org/10.7287/peerj-cs.836v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Graph coloring using the reduced quantum genetic algorithm (v0.1)\"",
+      "display_name": "Peer Review #1 of \"Graph coloring using the reduced quantum genetic algorithm (v0.1)\"",
+      "relevance_score": 1.1014923,
+      "publication_year": 2022,
+      "publication_date": "2022-01-03",
+      "ids": {
+        "openalex": "https://openalex.org/W4206086454",
+        "doi": "https://doi.org/10.7287/peerj-cs.836v0.1/reviews/1"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.7287/peerj-cs.836v0.1/reviews/1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.7287/peerj-cs.836v0.1/reviews/1",
+        "pdf_url": "https://peerj.com/articles/cs-836v0.2/submission",
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "peer-review"
+      },
+      "type": "peer-review",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://peerj.com/articles/cs-836v0.2/submission",
+        "any_repository_has_fulltext": null
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5083873296",
+            "display_name": "Marouene Chaieb",
+            "orcid": "https://orcid.org/0000-0002-1503-1083"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I3122695212",
+              "display_name": "Polytechnic University of Timişoara",
+              "ror": "https://ror.org/02v91gy68",
+              "country_code": "RO",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I3122695212"
+              ]
+            }
+          ],
+          "countries": [
+            "RO"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "M Chaieb",
+          "raw_affiliation_strings": [
+            "Advanced Computing Systems and Architectures Laboratory, Department of Computer and Information Technology, Politehnica University of Timisoara, Timisoara 300223, Romania",
+            "Computer and Information Technology, University Politehnica of Timisoara, Timisoara, Timis, Romania"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Advanced Computing Systems and Architectures Laboratory, Department of Computer and Information Technology, Politehnica University of Timisoara, Timisoara 300223, Romania",
+              "institution_ids": [
+                "https://openalex.org/I3122695212"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Computer and Information Technology, University Politehnica of Timisoara, Timisoara, Timis, Romania",
+              "institution_ids": [
+                "https://openalex.org/I3122695212"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5083873296"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I3122695212"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12496",
+        "display_name": "Color perception and design",
+        "score": 0.8517000079154968,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12496",
+          "display_name": "Color perception and design",
+          "score": 0.8517000079154968,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3207",
+            "display_name": "Social Psychology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/32",
+            "display_name": "Psychology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/graph-coloring",
+          "display_name": "Graph coloring",
+          "score": 0.6687061786651611
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.5819693207740784
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.47409185767173767
+        },
+        {
+          "id": "https://openalex.org/keywords/quantum",
+          "display_name": "Quantum",
+          "score": 0.4738134443759918
+        },
+        {
+          "id": "https://openalex.org/keywords/graph",
+          "display_name": "Graph",
+          "score": 0.41712239384651184
+        },
+        {
+          "id": "https://openalex.org/keywords/theoretical-computer-science",
+          "display_name": "Theoretical computer science",
+          "score": 0.35599416494369507
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.13325002789497375
+        },
+        {
+          "id": "https://openalex.org/keywords/quantum-mechanics",
+          "display_name": "Quantum mechanics",
+          "score": 0.08569267392158508
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C76946457",
+          "wikidata": "https://www.wikidata.org/wiki/Q504843",
+          "display_name": "Graph coloring",
+          "level": 3,
+          "score": 0.6687061786651611
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.5819693207740784
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.47409185767173767
+        },
+        {
+          "id": "https://openalex.org/C84114770",
+          "wikidata": "https://www.wikidata.org/wiki/Q46344",
+          "display_name": "Quantum",
+          "level": 2,
+          "score": 0.4738134443759918
+        },
+        {
+          "id": "https://openalex.org/C132525143",
+          "wikidata": "https://www.wikidata.org/wiki/Q141488",
+          "display_name": "Graph",
+          "level": 2,
+          "score": 0.41712239384651184
+        },
+        {
+          "id": "https://openalex.org/C80444323",
+          "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+          "display_name": "Theoretical computer science",
+          "level": 1,
+          "score": 0.35599416494369507
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.13325002789497375
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.08569267392158508
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.7287/peerj-cs.836v0.1/reviews/1",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.7287/peerj-cs.836v0.1/reviews/1",
+          "pdf_url": "https://peerj.com/articles/cs-836v0.2/submission",
+          "source": null,
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "peer-review"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.7287/peerj-cs.836v0.1/reviews/1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.7287/peerj-cs.836v0.1/reviews/1",
+        "pdf_url": "https://peerj.com/articles/cs-836v0.2/submission",
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "peer-review"
+      },
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4206086454.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4206086454.grobid-xml"
+      },
+      "referenced_works_count": 37,
+      "referenced_works": [
+        "https://openalex.org/W231231925",
+        "https://openalex.org/W1500927487",
+        "https://openalex.org/W1546333213",
+        "https://openalex.org/W1629802966",
+        "https://openalex.org/W1645032862",
+        "https://openalex.org/W1673280996",
+        "https://openalex.org/W1830237929",
+        "https://openalex.org/W1963597719",
+        "https://openalex.org/W1965655408",
+        "https://openalex.org/W1969584586",
+        "https://openalex.org/W2003291739",
+        "https://openalex.org/W2004386756",
+        "https://openalex.org/W2014585043",
+        "https://openalex.org/W2058979950",
+        "https://openalex.org/W2061356123",
+        "https://openalex.org/W2084652510",
+        "https://openalex.org/W2086133268",
+        "https://openalex.org/W2101636610",
+        "https://openalex.org/W2102008187",
+        "https://openalex.org/W2150649057",
+        "https://openalex.org/W2534051629",
+        "https://openalex.org/W2725179571",
+        "https://openalex.org/W2764347725",
+        "https://openalex.org/W2781571271",
+        "https://openalex.org/W2808238377",
+        "https://openalex.org/W2888941620",
+        "https://openalex.org/W2946053196",
+        "https://openalex.org/W2953580776",
+        "https://openalex.org/W3096782567",
+        "https://openalex.org/W3099635212",
+        "https://openalex.org/W3100690283",
+        "https://openalex.org/W3101189937",
+        "https://openalex.org/W3101652746",
+        "https://openalex.org/W3105927794",
+        "https://openalex.org/W3110080432",
+        "https://openalex.org/W3111620526",
+        "https://openalex.org/W3158900442"
+      ],
+      "related_works": [
+        "https://openalex.org/W2386767533",
+        "https://openalex.org/W2391817034",
+        "https://openalex.org/W2131512900",
+        "https://openalex.org/W4293674267",
+        "https://openalex.org/W4318615610",
+        "https://openalex.org/W2107569626",
+        "https://openalex.org/W1967187705",
+        "https://openalex.org/W3086197249",
+        "https://openalex.org/W2373385557",
+        "https://openalex.org/W4367684998"
+      ],
+      "abstract_inverted_index": {
+        "Genetic": [
+          0,
+          60,
+          116
+        ],
+        "Algorithms": [
+          1
+        ],
+        "(GA)": [
+          2
+        ],
+        "are": [
+          3
+        ],
+        "computational": [
+          4,
+          133
+        ],
+        "methods": [
+          5,
+          44
+        ],
+        "for": [
+          6,
+          49
+        ],
+        "solving": [
+          7
+        ],
+        "optimization": [
+          8
+        ],
+        "problems": [
+          9,
+          134
+        ],
+        "inspired": [
+          10
+        ],
+        "by": [
+          11
+        ],
+        "natural": [
+          12
+        ],
+        "selection.Because": [
+          13
+        ],
+        "we": [
+          14,
+          37
+        ],
+        "can": [
+          15,
+          38,
+          80,
+          130
+        ],
+        "simulate": [
+          16
+        ],
+        "the": [
+          17,
+          46,
+          57,
+          65,
+          83,
+          87,
+          95,
+          98,
+          101,
+          106,
+          110,
+          122
+        ],
+        "quantum": [
+          18,
+          35,
+          47,
+          128
+        ],
+        "circuits": [
+          19
+        ],
+        "that": [
+          20,
+          63,
+          127
+        ],
+        "implement": [
+          21
+        ],
+        "GA": [
+          22,
+          32
+        ],
+        "in": [
+          23,
+          45
+        ],
+        "different": [
+          24
+        ],
+        "highly": [
+          25
+        ],
+        "configurable": [
+          26
+        ],
+        "noise": [
+          27
+        ],
+        "models": [
+          28
+        ],
+        "and": [
+          29,
+          76,
+          79,
+          104,
+          121
+        ],
+        "even": [
+          30
+        ],
+        "run": [
+          31
+        ],
+        "on": [
+          33
+        ],
+        "actual": [
+          34
+        ],
+        "computers,": [
+          36
+        ],
+        "analyze": [
+          39,
+          100
+        ],
+        "this": [
+          40
+        ],
+        "class": [
+          41
+        ],
+        "of": [
+          42,
+          56,
+          90
+        ],
+        "heuristic": [
+          43
+        ],
+        "context": [
+          48
+        ],
+        "NP-hard": [
+          50,
+          66
+        ],
+        "problems.This": [
+          51
+        ],
+        "paper": [
+          52
+        ],
+        "proposes": [
+          53
+        ],
+        "an": [
+          54
+        ],
+        "instantiation": [
+          55
+        ],
+        "Reduced": [
+          58,
+          114
+        ],
+        "Quantum": [
+          59,
+          115
+        ],
+        "Algorithm": [
+          61,
+          117
+        ],
+        "(RQGA)": [
+          62,
+          118
+        ],
+        "solves": [
+          64,
+          73
+        ],
+        "graph": [
+          67,
+          123
+        ],
+        "coloring": [
+          68,
+          78,
+          124
+        ],
+        "problem": [
+          69
+        ],
+        "in).The": [
+          70
+        ],
+        "proposed": [
+          71
+        ],
+        "implementation": [
+          72,
+          120
+        ],
+        "both": [
+          74
+        ],
+        "vertex": [
+          75
+        ],
+        "edge": [
+          77
+        ],
+        "also": [
+          81
+        ],
+        "determine": [
+          82
+        ],
+        "chromatic": [
+          84
+        ],
+        "number": [
+          85,
+          89
+        ],
+        "(i.e.,": [
+          86
+        ],
+        "minimum": [
+          88
+        ],
+        "colors": [
+          91
+        ],
+        "required": [
+          92
+        ],
+        "to": [
+          93
+        ],
+        "color": [
+          94
+        ],
+        "graph).We": [
+          96
+        ],
+        "examine": [
+          97
+        ],
+        "results,": [
+          99
+        ],
+        "algorithm": [
+          102
+        ],
+        "convergence,": [
+          103
+        ],
+        "measure": [
+          105
+        ],
+        "algorithm's": [
+          107
+        ],
+        "performance": [
+          108
+        ],
+        "using": [
+          109
+        ],
+        "Qiskit": [
+          111
+        ],
+        "simulation": [
+          112
+        ],
+        "environment.Our": [
+          113
+        ],
+        "circuit": [
+          119
+        ],
+        "results": [
+          125
+        ],
+        "show": [
+          126
+        ],
+        "heuristics": [
+          129
+        ],
+        "tackle": [
+          131
+        ],
+        "complex": [
+          132
+        ],
+        "more": [
+          135
+        ],
+        "efficiently": [
+          136
+        ],
+        "than": [
+          137
+        ],
+        "their": [
+          138
+        ],
+        "conventional": [
+          139
+        ],
+        "counterparts.": [
+          140
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "group_by": []
+}

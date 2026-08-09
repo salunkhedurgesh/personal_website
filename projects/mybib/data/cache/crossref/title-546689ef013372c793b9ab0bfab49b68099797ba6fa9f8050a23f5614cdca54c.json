@@ -1,0 +1,149 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5780605,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              8
+            ]
+          ],
+          "date-time": "2022-12-08T07:13:10Z",
+          "timestamp": 1670483590754
+        },
+        "reference-count": 0,
+        "publisher": "The Society of Instrument and Control Engineers",
+        "issue": "3",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "T. SICE"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "DOI": "10.9746/sicetr1965.28.343",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2014-11-17T11:45:22Z",
+          "timestamp": 1416224722000
+        },
+        "page": "343-350",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Two-Degree-of-Freedom Design of Optimal Servosystems"
+        ],
+        "prefix": "10.9746",
+        "volume": "28",
+        "author": [
+          {
+            "given": "Yasumasa",
+            "family": "FUJISAKI",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Masao",
+            "family": "IKEDA",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "4696",
+        "container-title": [
+          "Transactions of the Society of Instrument and Control Engineers"
+        ],
+        "original-title": [
+          "最適サーボ系の2自由度構成"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.jstage.jst.go.jp/article/sicetr1965/28/3/28_3_343/_pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2015,
+              7,
+              3
+            ]
+          ],
+          "date-time": "2015-07-03T17:09:32Z",
+          "timestamp": 1435943372000
+        },
+        "score": 29.101643,
+        "resource": {
+          "primary": {
+            "URL": "https://www.jstage.jst.go.jp/article/sicetr1965/28/3/28_3_343/_article"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                1992
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.9746/sicetr1965.28.343",
+        "ISSN": [
+          "0453-4654"
+        ],
+        "issn-type": [
+          {
+            "value": "0453-4654",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-01-01">2012 January 1.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Robotic</forename><surname>Mastoidectomy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andrei</forename><surname>Danilchenko</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Ramya</forename><surname>Balachandran</surname></persName>
+							<email>ramya.balachandran@vanderbilt.edu</email>
+						</author>
+						<author>
+							<persName><roleName>B.S</roleName><forename type="first">Jenna</forename><forename type="middle">L</forename><surname>Toennies</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stephan</forename><surname>Baron</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><surname>Munske</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Ph.D</roleName><forename type="first">J</forename><forename type="middle">Michael</forename><surname>Fitzpatrick</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Ph.D</roleName><forename type="first">Thomas</forename><forename type="middle">J</forename><surname>Withrow</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Ph.D</roleName><forename type="first">Webster</forename><surname>Iii</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>M.D</roleName><forename type="first">Robert</forename><forename type="middle">F</forename><surname>Labadie</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Graduate Student</orgName>
+								<orgName type="department" key="dep2">Dept. of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Otolaryngology</orgName>
+								<orgName type="institution">Vanderbilt University Medical Center</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Graduate Student</orgName>
+								<orgName type="department" key="dep2">Dept. of Mechanical Engineering</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Mechatronic Systems</orgName>
+								<orgName type="institution">Leibniz Universitat Hannover</orgName>
+								<address>
+									<settlement>Hanover</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Mechatronic Systems</orgName>
+								<orgName type="institution">Leibniz Universitat Hannover</orgName>
+								<address>
+									<settlement>Hanover</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Dept. of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Dept. of Mechanical Engineering</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Dept. of Mechanical Engineering</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">Dept. of Otolaryngology</orgName>
+								<orgName type="institution">Vanderbilt University Medical Center</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Otolaryngology-Head and Neck Surgery</orgName>
+								<orgName type="institution">Vanderbilt University Medical Center</orgName>
+								<address>
+									<addrLine>1215 21st Avenue South</addrLine>
+									<postCode>10450</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Medical Center</orgName>
+								<address>
+									<postCode>37232</postCode>
+									<settlement>East South Tower Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-01-01">2012 January 1.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DBCBFE59D36874A3ABD49ECB84B9F178</idno>
+					<idno type="DOI">10.1097/MAO.0b013e3181fcee9e</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Of autonomous robots, the ROBODOC® System (Integrated Surgical Systems, Davis, CA, USA) is the most widely used and referenced. This system was designed to bore a receiving lumen for orthopedic reconstructive joint surgery and has been used in more than 20,000 cases. In practice, the device is rigidly affixed to the long bone for the procedure. While it</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

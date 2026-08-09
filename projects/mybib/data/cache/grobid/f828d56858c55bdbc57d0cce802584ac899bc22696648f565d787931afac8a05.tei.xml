@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An Object-Based Approach to Map Human Hand Synergies onto Robotic Hands with Dissimilar Kinematics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">G</forename><surname>Gioioso</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Salvietti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Malvezzi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Prattichizzo</surname></persName>
+						</author>
+						<title level="a" type="main">An Object-Based Approach to Map Human Hand Synergies onto Robotic Hands with Dissimilar Kinematics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">835E23E8D0099CB7AA4115783B7B0F26</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>Robotic hands differ in kinematics, dynamics, programming, control and sensing frameworks. Borrowing the terminology from software engineering, there is a need for middleware solutions to control the robotic hands independently from their specific structure, and focusing only on the task. Results in neuroscience concerning the synergistic organization of the human hand, are the theoretical foundation of this work, which focuses on the problem of mapping human hand synergies on robotic hands with dissimilar kinematic structures. The proposed mapping is based on the use of a virtual ellipsoid and it is mediated by a model of an anthropomorphic robotic hand able to capture the idea of synergies in human hands. This approach has been tested in two different robotic hands with an anthropomorphic and non-anthropomorphic kinematic structure.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

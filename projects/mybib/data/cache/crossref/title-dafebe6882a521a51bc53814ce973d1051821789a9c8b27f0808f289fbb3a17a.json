@@ -1,0 +1,255 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1380141,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2025-10-27T15:58:38Z",
+          "timestamp": 1761580718516,
+          "version": "3.28.0"
+        },
+        "reference-count": 18,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/icma.2009.5246684",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2009,
+              9,
+              21
+            ]
+          ],
+          "date-time": "2009-09-21T11:59:06Z",
+          "timestamp": 1253534346000
+        },
+        "page": "26-31",
+        "source": "Crossref",
+        "is-referenced-by-count": 13,
+        "title": [
+          "Solution of inverse kinematic problem for serial robot using quaterninons"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Emre",
+            "family": "Sariyildiz",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Hakan",
+            "family": "Temeltas",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "17",
+            "article-title": "Inverse Kinematics Problem for 6-DOF Sapce Manipulator Based On The Theory of Screw",
+            "author": "xie",
+            "year": "2007",
+            "journal-title": "International Conference on Robotics and Biomimetics"
+          },
+          {
+            "key": "18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/RAMECH.2008.4681401"
+          },
+          {
+            "key": "15",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1142/4257",
+            "author": "selig",
+            "year": "2000",
+            "journal-title": "Geometr ical Foundation Of Robotics"
+          },
+          {
+            "journal-title": "A Mathematical Introduction to Robotic Manipulation",
+            "year": "1994",
+            "author": "murray",
+            "key": "16"
+          },
+          {
+            "key": "13",
+            "article-title": "Introduction tolntelligent Robotics",
+            "author": "bruyninckx",
+            "year": "2001",
+            "journal-title": "10ctober"
+          },
+          {
+            "key": "14",
+            "article-title": "Quaternions: From Classical Mechanics to Computer Graphics, and Beyond",
+            "author": "mukundan",
+            "year": "2002",
+            "journal-title": "Proceedings of the 7th Asian Technology Confrence in Mathematics"
+          },
+          {
+            "key": "11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.127239"
+          },
+          {
+            "key": "12",
+            "first-page": "319",
+            "article-title": "General quaternion transformation representation for roboticapplication",
+            "volume": "3",
+            "author": "tan",
+            "year": "1993",
+            "journal-title": "International Conference on Volume Issue"
+          },
+          {
+            "key": "3",
+            "article-title": "The kinematics of manipulators under computer control",
+            "author": "pieper",
+            "year": "1968",
+            "journal-title": "Tech Rep"
+          },
+          {
+            "year": "0",
+            "key": "2"
+          },
+          {
+            "year": "0",
+            "key": "1"
+          },
+          {
+            "key": "10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1115/1.3629601"
+          },
+          {
+            "journal-title": "Elements of Quaternions",
+            "year": "1869",
+            "author": "hamilton",
+            "key": "7"
+          },
+          {
+            "year": "0",
+            "key": "6"
+          },
+          {
+            "journal-title": "The Theory of Screws",
+            "year": "1951",
+            "author": "ball",
+            "key": "5"
+          },
+          {
+            "journal-title": "General Homogeneous Coordinates in Space of ThreeDimensions",
+            "year": "1951",
+            "author": "maxwell",
+            "key": "4"
+          },
+          {
+            "key": "9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56658"
+          },
+          {
+            "key": "8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/70.56653"
+          }
+        ],
+        "event": {
+          "name": "2009 International Conference on Mechatronics and Automation (ICMA)",
+          "start": {
+            "date-parts": [
+              [
+                2009,
+                8,
+                9
+              ]
+            ]
+          },
+          "location": "Changchun, China",
+          "end": {
+            "date-parts": [
+              [
+                2009,
+                8,
+                12
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2009 International Conference on Mechatronics and Automation"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/5226790/5244759/05246684.pdf?arnumber=5246684",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              22
+            ]
+          ],
+          "date-time": "2019-05-22T15:11:55Z",
+          "timestamp": 1558537915000
+        },
+        "score": 37.423737,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/5246684/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2009,
+              8
+            ]
+          ]
+        },
+        "references-count": 18,
+        "URL": "https://doi.org/10.1109/icma.2009.5246684",
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              8
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

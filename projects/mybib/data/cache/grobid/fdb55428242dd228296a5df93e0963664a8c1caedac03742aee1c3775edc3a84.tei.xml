@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GEOMETRIC CHARACTERIZATION OF THE WORKSPACE OF NON-ORTHOGONAL ROTATION AXES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Bertold</forename><surname>Bongardt</surname></persName>
+						</author>
+						<title level="a" type="main">GEOMETRIC CHARACTERIZATION OF THE WORKSPACE OF NON-ORTHOGONAL ROTATION AXES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4441C621C154E833ACBC6AEF2437C55F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>In this article, a novel characterization of the workspace of 3R chains with nonorthogonal, intersecting axes is derived by describing the set of singular orientations as two toroids that separate two-solvable from non-solvable orientations within SO(3). Therefore, the toroids provide the boundary of the workspace of the axes&apos; constellation. The derived characterization generalizes a recent result obtained by Piovan and Bullo. It is based on a specific, novel representation of rotations, called unit ball representation, which allows to interpret the workspace characterization with ease. In an appendix, tools for dealing with angles and rotations are introduced and the equivalence of unit quaternion representation and unit ball representation is described.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "listecobots-cf19b34160",
+    "pdf": "pdfs/ListeCobots.pdf",
+    "title": "Listecobots",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "hsu1987-97e9a0762c",
+    "pdf": "pdfs/hsu1987.pdf",
+    "title": "Hsu1987",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "hsu1987-1-97e9a0762c",
+    "pdf": "pdfs/hsu1987_1.pdf",
+    "title": "Hsu1987 1",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "hsu1987-1-1-97e9a0762c",
+    "pdf": "pdfs/hsu1987_1_1.pdf",
+    "title": "Hsu1987 1 1",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "hsu1987-2-97e9a0762c",
+    "pdf": "pdfs/hsu1987_2.pdf",
+    "title": "Hsu1987 2",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "hsu1987-2-1-97e9a0762c",
+    "pdf": "pdfs/hsu1987_2_1.pdf",
+    "title": "Hsu1987 2 1",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "hsu1987-3-97e9a0762c",
+    "pdf": "pdfs/hsu1987_3.pdf",
+    "title": "Hsu1987 3",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "10-1515-9789048517299",
+    "pdf": "pdfs/kohli1985.pdf",
+    "title": "Immigration and Social Systems",
+    "reasons": [
+      "crossref_not_found"
+    ]
+  },
+  {
+    "id": "10-1515-9789048517299",
+    "pdf": "pdfs/kohli1985_1.pdf",
+    "title": "Immigration and Social Systems",
+    "reasons": [
+      "crossref_not_found"
+    ]
+  },
+  {
+    "id": "10-1515-9789048517299",
+    "pdf": "pdfs/kohli1985_1_1.pdf",
+    "title": "Immigration and Social Systems",
+    "reasons": [
+      "crossref_not_found"
+    ]
+  },
+  {
+    "id": "10-1515-9789048517299",
+    "pdf": "pdfs/kohli1985_2.pdf",
+    "title": "Immigration and Social Systems",
+    "reasons": [
+      "crossref_not_found"
+    ]
+  },
+  {
+    "id": "shankar22a-6d7df4ebd3",
+    "pdf": "pdfs/shankar22a.pdf",
+    "title": "Shankar22A",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  },
+  {
+    "id": "trabucco22b-41424ac798",
+    "pdf": "pdfs/trabucco22b.pdf",
+    "title": "Trabucco22B",
+    "reasons": [
+      "metadata_not_extracted",
+      "crossref_not_found",
+      "openalex_not_found"
+    ]
+  }
+]

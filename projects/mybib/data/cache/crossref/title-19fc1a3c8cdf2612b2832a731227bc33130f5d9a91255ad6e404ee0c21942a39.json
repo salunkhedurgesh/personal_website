@@ -1,0 +1,251 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2677590,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2025-09-04T13:32:24Z",
+          "timestamp": 1756992744309,
+          "version": "3.28.0"
+        },
+        "reference-count": 17,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1109/humanoids.2016.7803366",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              5
+            ]
+          ],
+          "date-time": "2017-01-05T12:21:59Z",
+          "timestamp": 1483618919000
+        },
+        "page": "808-813",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "title": [
+          "Generalization of orientational motion in unit quaternion space"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Aljaz",
+            "family": "Kramberger",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Andrej",
+            "family": "Gams",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Bojan",
+            "family": "Nemec",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ales",
+            "family": "Ude",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10846-014-0100-3"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2013.7030008"
+          },
+          {
+            "key": "ref12",
+            "article-title": "Learning compliant movement primitives through demonstration and statistical generalization",
+            "volume": "pp",
+            "author": "deniša",
+            "year": "2016",
+            "journal-title": "IEEE/ASME Transactions on Mechatronics"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/HUMANOIDS.2015.7363559"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2011.2159412"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11370-015-0187-9"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2008.2006703"
+          },
+          {
+            "journal-title": "A Mathematical Introduction to Robotic Manipulation",
+            "year": "1994",
+            "author": "murray",
+            "key": "ref17"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICRA.2014.6907291"
+          },
+          {
+            "journal-title": "Gaussian Processes for Machine Learning",
+            "year": "2006",
+            "author": "rasmussen",
+            "key": "ref3"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/NECO_a_00393"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IROS.2011.6095059"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.neunet.2011.02.004"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1013258808932"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1006559212014"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TRO.2010.2065430"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICHR.2010.5686298"
+          }
+        ],
+        "event": {
+          "name": "2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids)",
+          "start": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                15
+              ]
+            ]
+          },
+          "location": "Cancun, Mexico",
+          "end": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                17
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7786013/7803244/07803366.pdf?arnumber=7803366",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              11
+            ]
+          ],
+          "date-time": "2017-01-11T16:23:32Z",
+          "timestamp": 1484151812000
+        },
+        "score": 35.914623,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/7803366/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              11
+            ]
+          ]
+        },
+        "references-count": 17,
+        "URL": "https://doi.org/10.1109/humanoids.2016.7803366",
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              11
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

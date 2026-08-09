@@ -1,0 +1,314 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2497208,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2025-09-29T08:05:16Z",
+          "timestamp": 1759133116715
+        },
+        "publisher-location": "Cham",
+        "reference-count": 14,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783319608662"
+          },
+          {
+            "type": "electronic",
+            "value": "9783319608679"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2017,
+                  7,
+                  5
+                ]
+              ],
+              "date-time": "2017-07-05T00:00:00Z",
+              "timestamp": 1499212800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-319-60867-9_53",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2017-07-04T06:54:35Z",
+          "timestamp": 1499151275000
+        },
+        "page": "467-474",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Motion Interpolation in Lie Subgroups and Symmetric Subspaces"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "J. M.",
+            "family": "Selig",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Yuanqing",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Marco",
+            "family": "Carricato",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "53_CR1",
+            "doi-asserted-by": "crossref",
+            "first-page": "267",
+            "DOI": "10.1007/BF01082452",
+            "volume": "32",
+            "author": "PS Donelan",
+            "year": "1993",
+            "unstructured": "Donelan, P.S., Gibson, C.G.: On the hierarchy of screw systems. Acta Appl. Math. 32, 267–296 (1993)",
+            "journal-title": "Acta Appl. Math."
+          },
+          {
+            "key": "53_CR2",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/0094-114X(90)90103-Q",
+            "volume": "25",
+            "author": "CG Gibson",
+            "year": "1990",
+            "unstructured": "Gibson, C.G., Hunt, K.H.: Geometry of screw systems. Mech. Mach. Theory 25, 1–27 (1990)",
+            "journal-title": "Mech. Mach. Theory"
+          },
+          {
+            "key": "53_CR3",
+            "volume-title": "Symmetric Spaces I",
+            "author": "O Loos",
+            "year": "1969",
+            "unstructured": "Loos, O.: Symmetric Spaces I. Benjamin, New York (1969)"
+          },
+          {
+            "issue": "3",
+            "key": "53_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "381",
+            "DOI": "10.1515/advgeom-2016-0015",
+            "volume": "16",
+            "author": "H Löwe",
+            "year": "2016",
+            "unstructured": "Löwe, H., Wu, Y., Carricato, M.: Symmetric subspaces of $$SE(3)$$ . Adv. Geom. 16(3), 381–388 (2016)",
+            "journal-title": "Adv. Geom."
+          },
+          {
+            "key": "53_CR5",
+            "unstructured": "Pfurner, M., Schröcker, H.-P., Husty, M.: Path planning in kinematic image space without the study condition. In: Lenarčič, J., Merlet, J.-P. (eds.) Advances in Robot Kinematics: Proceedings of the 15th International Conference on Advances in Robot Kinematics, 27–30 June 2016, Grasse, France. https://hal.archives-ouvertes.fr/hal-01339423"
+          },
+          {
+            "issue": "3",
+            "key": "53_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "169",
+            "DOI": "10.1016/S0010-4485(97)00056-0",
+            "volume": "30",
+            "author": "O Röschel",
+            "year": "1998",
+            "unstructured": "Röschel, O.: Rational motion design – a survey. Comput. Aided Des. 30(3), 169–178 (1998)",
+            "journal-title": "Comput. Aided Des."
+          },
+          {
+            "issue": "3",
+            "key": "53_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "766",
+            "DOI": "10.1109/TRO.2015.2426471",
+            "volume": "31",
+            "author": "JM Selig",
+            "year": "2015",
+            "unstructured": "Selig, J.M.: A class of explicitly solvable vehicle motion problems. IEEE Trans. Rob. 31(3), 766–777 (2015). doi: 10.1109/TRO.2015.2426471",
+            "journal-title": "IEEE Trans. Rob."
+          },
+          {
+            "key": "53_CR8",
+            "unstructured": "Selig, J.M.: Cayley maps for $$SE(3)$$ . In: The International Fedaration for the Promotion of Mechanism and Machine Science 12th World Congress, Besançon. http://79.6.136.172/iftomm/proceedings/proceedings_WorldCongress/WorldCongress07/articles/article_cd.htm . A corrected version of this work can be found at https://www.researchgate.net/publication/242315171_Cayley_Maps_for_SE3"
+          },
+          {
+            "key": "53_CR9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Selig, J.M., Wu, Y.: Interpolated rigid-body motions and robotics. In: IEEE International Conference on Robotics and Automation, Beijing, pp. 1086–1091 (2006)",
+            "DOI": "10.1109/IROS.2006.281815"
+          },
+          {
+            "issue": "3–4",
+            "key": "53_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "923",
+            "DOI": "10.1007/s00006-010-0229-5",
+            "volume": "20",
+            "author": "JM Selig",
+            "year": "2010",
+            "unstructured": "Selig, J.M.: Exponential and Cayley maps for dual quaternions. Adv. Appl. Clifford Algebra 20(3–4), 923–936 (2010). doi: 10.1007/s00006-010-0229-5",
+            "journal-title": "Adv. Appl. Clifford Algebra"
+          },
+          {
+            "key": "53_CR11",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wu, Y., Liu, G., Löwe, H., Li, Z.: Exponential submanifolds: a new kinematic model for mechanism analysis and synthesis. In: Proceedings of the IEEE International Conference on Robotics and Automation, pp. 4177–4182 (2013)",
+            "DOI": "10.1109/ICRA.2013.6631167"
+          },
+          {
+            "issue": "2",
+            "key": "53_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "312",
+            "DOI": "10.1109/TRO.2016.2522442",
+            "volume": "32",
+            "author": "Y Wu",
+            "year": "2016",
+            "unstructured": "Wu, Y., Löwe, H., Carricato, M., Li, Z.: Inversion symmetry of the Euclidean group: theory and application in robot kinematics. IEEE Trans. Robot. 32(2), 312–326 (2016)",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "53_CR13",
+            "unstructured": "Wu, Y., Müller, A., Carricato, M.: The 2D orientation interpolation problem: a symmetric space approach. In: Lenarčič, J., Merlet, J.-P. (eds.) Advances in Robot Kinematics: Proceedings of the 15th International Conference on Advances in Robot Kinematics, 27–30 June 2016, Grasse, France (2016). https://hal.archives-ouvertes.fr/hal-01339423"
+          },
+          {
+            "key": "53_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "305",
+            "DOI": "10.1016/j.mechmachtheory.2016.09.020",
+            "volume": "107",
+            "author": "Y Wu",
+            "year": "2017",
+            "unstructured": "Wu, Y., Carricato, M.: Identification and geometric characterization of Lie triple screw systems and their exponential images. Mech. Mach. Theory 107, 305–323 (2017)",
+            "journal-title": "Mech. Mach. Theory"
+          }
+        ],
+        "container-title": [
+          "Mechanisms and Machine Science",
+          "Computational Kinematics"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-60867-9_53",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              28
+            ]
+          ],
+          "date-time": "2019-09-28T10:45:49Z",
+          "timestamp": 1569667549000
+        },
+        "score": 36.616505,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-319-60867-9_53"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783319608662",
+          "9783319608679"
+        ],
+        "references-count": 14,
+        "URL": "https://doi.org/10.1007/978-3-319-60867-9_53",
+        "ISSN": [
+          "2211-0984",
+          "2211-0992"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "2211-0984"
+          },
+          {
+            "type": "electronic",
+            "value": "2211-0992"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

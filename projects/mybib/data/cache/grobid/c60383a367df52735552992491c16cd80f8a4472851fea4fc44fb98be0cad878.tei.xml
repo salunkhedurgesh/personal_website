@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Rigid body dynamics in terms of quaternions: Hamiltonian formulation and conserving numerical integration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2009-03-12">12 March 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Peter</forename><surname>Betsch</surname></persName>
+							<email>betsch@imr.mb.uni-siegen.de</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Siegen</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ralf</forename><surname>Siebert</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Siegen</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Chair of Computational Mechanics</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Rigid body dynamics in terms of quaternions: Hamiltonian formulation and conserving numerical integration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2009-03-12">12 March 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A7045BD1792E6E293D57928478F55488</idno>
+					<idno type="DOI">10.1002/nme.2586</idno>
+					<note type="submission">Received 8 August 2008; Revised 13 November 2008; Accepted 29 January 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>solids</term>
+					<term>multibody dynamics</term>
+					<term>rigid bodies</term>
+					<term>time integration</term>
+					<term>energy conserving</term>
+					<term>variational integrators</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In the present paper unit quaternions are used to describe the rotational motion of a rigid body. The unitlength constraint is enforced explicitly by means of an algebraic constraint. Correspondingly, the equations of motion assume the form of differential-algebraic equations (DAEs). A new route to the derivation of the mass matrix associated with the quaternion formulation is presented. In contrast to previous works, the newly proposed approach yields a non-singular mass matrix. Consequently, the passage to the Hamiltonian framework is made possible without the need to introduce undetermined inertia terms. The Hamiltonian form of the DAEs along with the notion of a discrete derivative make possible the design of a new quaternion-based energy-momentum scheme. Two numerical examples demonstrate the performance of the newly developed method. In this connection, comparison is made with a quaternion-based variational integrator, a director-based energy-momentum scheme, and a momentum conserving scheme relying on the discretization of the classical Euler&apos;s equations. Copyright q 2009 John Wiley &amp; Sons, Ltd.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

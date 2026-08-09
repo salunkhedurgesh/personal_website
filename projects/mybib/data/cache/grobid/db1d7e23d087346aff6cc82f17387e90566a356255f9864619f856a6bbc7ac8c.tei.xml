@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Alejandro</forename><surname>Barredo Arrieta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">TECNALIA</orgName>
+								<address>
+									<postCode>48160</postCode>
+									<region>Derio</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Natalia</forename><surname>Díaz-Rodríguez</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">ENSTA</orgName>
+								<orgName type="institution" key="instit2">Institute Polytechnique Paris</orgName>
+								<orgName type="institution" key="instit3">INRIA Flowers Team</orgName>
+								<address>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Javier</forename><forename type="middle">Del</forename><surname>Ser</surname></persName>
+							<email>javier.delser@tecnalia.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">TECNALIA</orgName>
+								<address>
+									<postCode>48160</postCode>
+									<region>Derio</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of the Basque Country (UPV/EHU)</orgName>
+								<address>
+									<postCode>48013</postCode>
+									<settlement>Bilbao</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Basque Center for Applied Mathematics (BCAM)</orgName>
+								<address>
+									<postCode>48009</postCode>
+									<settlement>Bilbao Bizkaia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adrien</forename><surname>Bennetot</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">ENSTA</orgName>
+								<orgName type="institution" key="instit2">Institute Polytechnique Paris</orgName>
+								<orgName type="institution" key="instit3">INRIA Flowers Team</orgName>
+								<address>
+									<settlement>Palaiseau</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Segula Technologies</orgName>
+								<address>
+									<addrLine>Parc d&apos;activité de Pissaloup</addrLine>
+									<settlement>Trappes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institut des Systèmes Intelligents et de Robotique</orgName>
+								<orgName type="institution">Sorbonne Universitè</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Siham</forename><surname>Tabik</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">DaSCI Andalusian Institute of Data Science and Computational Intelligence</orgName>
+								<orgName type="institution">University of Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alberto</forename><surname>Barbado</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Telefonica</orgName>
+								<address>
+									<postCode>28050</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Salvador</forename><surname>Garcia</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">DaSCI Andalusian Institute of Data Science and Computational Intelligence</orgName>
+								<orgName type="institution">University of Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><surname>Gil-Lopez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">TECNALIA</orgName>
+								<address>
+									<postCode>48160</postCode>
+									<region>Derio</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Molina</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">DaSCI Andalusian Institute of Data Science and Computational Intelligence</orgName>
+								<orgName type="institution">University of Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Benjamins</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Telefonica</orgName>
+								<address>
+									<postCode>28050</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raja</forename><surname>Chatila</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Institut des Systèmes Intelligents et de Robotique</orgName>
+								<orgName type="institution">Sorbonne Universitè</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francisco</forename><surname>Herrera</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">DaSCI Andalusian Institute of Data Science and Computational Intelligence</orgName>
+								<orgName type="institution">University of Granada</orgName>
+								<address>
+									<postCode>18071</postCode>
+									<settlement>Granada</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">TECNALIA. P. Tecnologico</orgName>
+								<address>
+									<addrLine>Ed. 700</addrLine>
+									<postCode>48170</postCode>
+									<settlement>Derio (Bizkaia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">260D58CB743AB312C01856F99084DAC0</idno>
+					<idno type="DOI">10.1016/j.inffus.2019.12.012</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-05-05T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Explainable Artificial Intelligence Machine Learning Deep Learning Data Fusion Interpretability Comprehensibility Transparency Privacy Fairness Accountability Responsible Artificial Intelligence</keywords>
+			</textClass>
+			<abstract>
+				<p>In the last few years, Artificial Intelligence (AI) has achieved a notable momentum that, if harnessed appropriately, may deliver the best of expectations over many application sectors across the field. For this to occur shortly in Machine Learning, the entire community stands in front of the barrier of explainability, an inherent problem of the latest techniques brought by sub-symbolism (e.g. ensembles or Deep Neural Networks) that were not present in the last hype of AI (namely, expert systems and rule based models). Paradigms underlying this problem fall within the so-called eXplainable AI (XAI) field, which is widely acknowledged as a crucial feature for the practical deployment of AI models. The overview presented in this article examines the existing literature and contributions already done in the field of XAI, including a prospect toward what is yet to be reached. For this purpose we summarize previous efforts made to define explainability in Machine Learning, establishing a novel definition of explainable Machine Learning that covers such prior conceptual propositions with a major focus on the audience for which the explainability is sought. Departing from this definition, we propose and discuss about a taxonomy of recent contributions related to the explainability of different Machine Learning models, including those aimed at explaining Deep Learning methods for which a second dedicated taxonomy is built and examined in detail. This critical literature analysis serves as the motivating background for a series of challenges faced by XAI, such as the interesting crossroads of data fusion and explainability. Our prospects lead toward the concept of Responsible Artificial Intelligence , namely, a methodology for the large-scale implementation of AI methods in real organizations with fairness, model explainability and accountability at its core. Our ultimate goal is to provide newcomers to the field of XAI with a thorough taxonomy that can serve as reference material in order to stimulate future research advances, but also to encourage experts and professionals from other disciplines to embrace the benefits of AI in their activity sectors, without any prior bias for its lack of interpretability.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

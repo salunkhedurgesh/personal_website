@@ -1,0 +1,638 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2793146,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              18
+            ]
+          ],
+          "date-time": "2026-03-18T06:34:41Z",
+          "timestamp": 1773815681914,
+          "version": "3.50.1"
+        },
+        "reference-count": 42,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2014,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2014-06-01T00:00:00Z",
+              "timestamp": 1401580800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2018-06-01T00:00:00Z",
+              "timestamp": 1527811200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 1461,
+            "URL": "https://www.elsevier.com/open-access/userlicense/1.0/"
+          }
+        ],
+        "funder": [
+          {
+            "name": "French agency ANR project SIROPA",
+            "award": [
+              "PSIROB06_174445"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "PSIROB06_174445"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "JSPS",
+            "award": [
+              "KAKENHI 23-3810"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "KAKENHI 23-3810"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Artificial Intelligence"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.artint.2014.02.001",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              18
+            ]
+          ],
+          "date-time": "2014-02-18T17:04:05Z",
+          "timestamp": 1392743045000
+        },
+        "page": "34-50",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 26,
+        "special_numbering": "C",
+        "title": [
+          "A branch and prune algorithm for the computation of generalized aspects of parallel robots"
+        ],
+        "prefix": "10.1016",
+        "volume": "211",
+        "author": [
+          {
+            "given": "S.",
+            "family": "Caro",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "D.",
+            "family": "Chablat",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "A.",
+            "family": "Goldsztejn",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "D.",
+            "family": "Ishii",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1383-3103",
+            "authenticated-orcid": false,
+            "given": "C.",
+            "family": "Jermann",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0020",
+            "series-title": "Type Synthesis of Parallel Mechanisms",
+            "author": "Kong",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0030",
+            "series-title": "Parallel Robots",
+            "author": "Merlet",
+            "year": "2000"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.artint.2014.02.001_br0040",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1115/1.4005336",
+            "article-title": "Singularity conditions of 3T1R parallel manipulators with identical limb structures",
+            "volume": "4",
+            "author": "Amine",
+            "year": "2012",
+            "journal-title": "ASME J. Mech. Robot."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0050",
+            "series-title": "International Conference on Robotics and Automation, vol. 3",
+            "first-page": "1964",
+            "article-title": "Working modes and aspects in fully parallel manipulators",
+            "author": "Chablat",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0060",
+            "series-title": "International Conference on Robotics and Automation",
+            "first-page": "3946",
+            "article-title": "Uniqueness domains and non singular assembly mode changing trajectories",
+            "author": "Chablat",
+            "year": "2011"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.artint.2014.02.001_br0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "393",
+            "DOI": "10.1109/TRO.2007.898981",
+            "article-title": "A formal-numerical approach for robust in-workspace singularity detection",
+            "volume": "23",
+            "author": "Merlet",
+            "year": "2007",
+            "journal-title": "IEEE Trans. Robot."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0080",
+            "series-title": "Proc. of ROMANSY 18 Robot Design, Dynamics and Control",
+            "first-page": "81",
+            "article-title": "Joint space and workspace analysis of a two-dof closed-chain manipulator",
+            "author": "Chablat",
+            "year": "2010"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.artint.2014.02.001_br0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1023/A:1011400431065",
+            "article-title": "Path planning using intervals and graphs",
+            "volume": "7",
+            "author": "Jaulin",
+            "year": "2001",
+            "journal-title": "Reliab. Comput."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.artint.2014.02.001_br0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "381",
+            "DOI": "10.1007/s11155-007-9043-8",
+            "article-title": "Guaranteeing the homotopy type of a set defined by non-linear inequalities",
+            "volume": "13",
+            "author": "Delanoue",
+            "year": "2007",
+            "journal-title": "Reliab. Comput."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.artint.2014.02.001_br0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "95",
+            "DOI": "10.1016/0020-0255(74)90008-5",
+            "article-title": "Networks of constraints: Fundamentals properties and applications to picture processing",
+            "volume": "7",
+            "author": "Montanari",
+            "year": "1974",
+            "journal-title": "Inf. Sci."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0120",
+            "series-title": "Interval Analysis",
+            "author": "Moore",
+            "year": "1966"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "797",
+            "DOI": "10.1137/S0036142995281504",
+            "article-title": "Solving polynomial systems using a branch and prune approach",
+            "volume": "34",
+            "author": "Van Hentenryck",
+            "year": "1997",
+            "journal-title": "SIAM J. Numer. Anal."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0140",
+            "series-title": "Interval Methods for Systems of Equations",
+            "author": "Neumaier",
+            "year": "1990"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0150",
+            "series-title": "Topology",
+            "author": "Munkres",
+            "year": "2000"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0160",
+            "article-title": "Introduction to Topological Manifolds",
+            "author": "Lee",
+            "year": "2010"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.artint.2014.02.001_br0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "717",
+            "DOI": "10.1017/S0263574707003761",
+            "article-title": "Cuspidal and noncuspidal robot manipulators",
+            "volume": "25",
+            "author": "Wenger",
+            "year": "2007",
+            "journal-title": "Robotica"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0180",
+            "series-title": "Proc. of ACM SAC 2006",
+            "first-page": "1650",
+            "article-title": "A branch and prune algorithm for the approximation of non-linear AE-solution sets",
+            "author": "Goldsztejn",
+            "year": "2006"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0190",
+            "series-title": "Sensitivity analysis using a fixed point interval iteration",
+            "author": "Goldsztejn",
+            "year": "2008"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0200",
+            "first-page": "1",
+            "article-title": "Inner approximation of the range of vector-valued functions",
+            "volume": "14",
+            "author": "Goldsztejn",
+            "year": "2010",
+            "journal-title": "Reliab. Comput."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0210",
+            "series-title": "Developments in Reliable Computing",
+            "first-page": "77",
+            "article-title": "INTLAB – INTerval LABoratory",
+            "author": "Rump",
+            "year": "1999"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.artint.2014.02.001_br0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "432",
+            "DOI": "10.1007/s10601-012-9126-y",
+            "article-title": "Interval-based projection method for under-constrained numerical systems",
+            "volume": "17",
+            "author": "Ishii",
+            "year": "2012",
+            "journal-title": "Constraints"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0230",
+            "series-title": "Proc. of International Conference on Logic Programming",
+            "first-page": "230",
+            "article-title": "Revising hull and box consistency",
+            "author": "Benhamou",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0240",
+            "series-title": "Proc. of IJCAI 1993",
+            "first-page": "232",
+            "article-title": "Consistency techniques for numeric CSPs",
+            "author": "Lhomme",
+            "year": "1993"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0250",
+            "series-title": "Proc. of ACM SAC 2010",
+            "first-page": "2049",
+            "article-title": "Box consistency through adaptive shaving",
+            "author": "Goldsztejn",
+            "year": "2010"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.artint.2014.02.001_br0260",
+            "doi-asserted-by": "crossref",
+            "first-page": "372",
+            "DOI": "10.1145/362248.362272",
+            "article-title": "Algorithm 447: efficient algorithms for graph manipulation",
+            "volume": "16",
+            "author": "Hopcroft",
+            "year": "1973",
+            "journal-title": "Commun. ACM"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.artint.2014.02.001_br0270",
+            "doi-asserted-by": "crossref",
+            "first-page": "138",
+            "DOI": "10.1145/1132973.1132980",
+            "article-title": "Algorithm 852: Realpaver: an interval solver using constraint satisfaction techniques",
+            "volume": "32",
+            "author": "Granvilliers",
+            "year": "2006",
+            "journal-title": "ACM Trans. Math. Softw."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0280",
+            "series-title": "Domaines d'unicité et parcourabilité pour les manipulateurs pleinement parallèles",
+            "author": "Chablat",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0290",
+            "series-title": "A simple proof that generic 3-RPR manipulators have two aspects",
+            "author": "Coste",
+            "year": "2010"
+          },
+          {
+            "issue": "1–3",
+            "key": "10.1016/j.artint.2014.02.001_br0300",
+            "doi-asserted-by": "crossref",
+            "first-page": "461",
+            "DOI": "10.1016/S0924-0136(03)00118-3",
+            "article-title": "Kinematic analysis of a biglide parallel grinder",
+            "volume": "138",
+            "author": "Zou",
+            "year": "2003",
+            "journal-title": "J. Mater. Process. Technol."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0310",
+            "series-title": "3rd Chemnitzer Parallelkinematik Seminar",
+            "first-page": "729",
+            "article-title": "Design and optimum operation of a reconfigurable planar Gough–Stewart machining platform",
+            "author": "Du Plessis",
+            "year": "2002"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0320",
+            "series-title": "Int. Workshop on Parallel Kinematic Machines",
+            "first-page": "23",
+            "article-title": "Comparative study of serial and parallel mechanism topologies for machine tool",
+            "author": "Wenger",
+            "year": "1999"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0330",
+            "series-title": "Proceedings of ASME Design Engineering Technical Conferences",
+            "article-title": "Kinematic sensitivity of robotic manipulators to joint clearances",
+            "author": "Binaud",
+            "year": "2010"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0340",
+            "doi-asserted-by": "crossref",
+            "first-page": "0410081",
+            "DOI": "10.1115/1.4007487",
+            "article-title": "Error modeling and experimental validation of a planar 3-PPR parallel manipulator with joint clearances",
+            "volume": "4",
+            "author": "Wu",
+            "year": "2012",
+            "journal-title": "ASME J. Mech. Robot."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0350",
+            "series-title": "Proceedings of the ASME 2012 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference IDETC/CIE",
+            "article-title": "Non-singular assembly mode changing trajectories of a 6-DOF parallel robot",
+            "author": "Caro",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0360",
+            "series-title": "Proceedings of the ASME 2012 11th Biennial Conference on Engineering Systems Design and Analysis, ESDA 2012",
+            "article-title": "Trajectory generation for high speed pick and place robots",
+            "author": "Barnard",
+            "year": "2012"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.artint.2014.02.001_br0370",
+            "doi-asserted-by": "crossref",
+            "first-page": "15",
+            "DOI": "10.1016/j.rcim.2012.10.002",
+            "article-title": "Kinematic calibration of a five-bar planar parallel robot using all working modes",
+            "volume": "29",
+            "author": "Joubair",
+            "year": "2013",
+            "journal-title": "Robot. Comput.-Integr. Manuf."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0380",
+            "series-title": "Statics and Kinematics with Applications to Robotics",
+            "author": "Duffy",
+            "year": "1996"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.artint.2014.02.001_br0390",
+            "doi-asserted-by": "crossref",
+            "first-page": "705",
+            "DOI": "10.1115/1.3258540",
+            "article-title": "Structural kinematics of in parallel actuated robot arms",
+            "volume": "105",
+            "author": "Hunt",
+            "year": "1983",
+            "journal-title": "J. Mech. Transm. Autom. Des."
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0400",
+            "series-title": "Kinematic analysis optimization and programming of parallel robotic manipulators",
+            "author": "Gosselin",
+            "year": "1988"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0410",
+            "series-title": "World Automation Congress, vol. 3",
+            "first-page": "339",
+            "article-title": "On the workspace of planar three-legged platforms",
+            "author": "Husty",
+            "year": "1996"
+          },
+          {
+            "key": "10.1016/j.artint.2014.02.001_br0420",
+            "series-title": "Advances in Robot Kinematics",
+            "first-page": "311",
+            "article-title": "Performance of a planar parallel mechanism with variable actuation",
+            "author": "Rakotomanga",
+            "year": "2008"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.artint.2014.02.001_br0430",
+            "doi-asserted-by": "crossref",
+            "first-page": "190",
+            "DOI": "10.1007/s10601-009-9082-3",
+            "article-title": "A new framework for sharp and efficient resolution of NCSP with manifolds of solutions",
+            "volume": "15",
+            "author": "Goldsztejn",
+            "year": "2010",
+            "journal-title": "Constraints"
+          }
+        ],
+        "container-title": [
+          "Artificial Intelligence"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0004370214000125?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0004370214000125?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              15
+            ]
+          ],
+          "date-time": "2020-08-15T13:33:53Z",
+          "timestamp": 1597498433000
+        },
+        "score": 29.748579,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0004370214000125"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "references-count": 42,
+        "alternative-id": [
+          "S0004370214000125"
+        ],
+        "URL": "https://doi.org/10.1016/j.artint.2014.02.001",
+        "ISSN": [
+          "0004-3702"
+        ],
+        "issn-type": [
+          {
+            "value": "0004-3702",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "A branch and prune algorithm for the computation of generalized aspects of parallel robots",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Artificial Intelligence",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.artint.2014.02.001",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2014 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

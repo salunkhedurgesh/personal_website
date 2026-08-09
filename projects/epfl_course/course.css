@@ -441,7 +441,7 @@ dd {
 
 .detail-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     border: 1px solid var(--black);
     border-right: 0;
     border-bottom: 0;
@@ -449,15 +449,20 @@ dd {
 
 .detail-grid div {
     min-height: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 1.1rem;
     background: var(--white);
     border-right: 1px solid var(--black);
     border-bottom: 1px solid var(--black);
+    text-align: center;
 }
 
 .detail-grid span {
     display: block;
-    margin-bottom: 2.2rem;
+    margin-bottom: 0.9rem;
     color: rgba(0, 0, 0, 0.55);
     font-family: var(--font-secondary);
     font-size: 0.78rem;

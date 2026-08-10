@@ -9,6 +9,12 @@ RewriteRule ^personal$ projects/personal/personal.html [L]
 RewriteRule ^blog$ projects/personal/blog/blog.html [L]
 RewriteRule ^hobbies$ projects/personal/hobbies/hobbies.html [L]
 RewriteRule ^travel$ projects/personal/travel/travel.html [L]
+RewriteRule ^eng-654$ projects/epfl_course/index.html [L]
+RewriteRule ^eng-654/mod1$ projects/epfl_course/modules/module1/index.html [L]
+RewriteRule ^eng-654/mod2$ projects/epfl_course/modules/module2/index.html [L]
+RewriteRule ^eng-654/mod3$ projects/epfl_course/modules/module3/index.html [L]
+RewriteRule ^eng-654/mod4$ projects/epfl_course/modules/module4/index.html [L]
+RewriteRule ^eng-654/mod5$ projects/epfl_course/modules/module5/index.html [L]
 
 # CNRS 2026
 RewriteRule ^selected_research$ projects/cnrs/seven_chosen.html [L]

@@ -102,7 +102,7 @@ function generateMiscPaperHTML({ id, title, authors, journal, short, year, doi, 
     return `
     <div class="paper">
         <div class="paper_description">
-            <div>
+            <div class="paper_logos">
                 ${actionsHTML}
             </div>
             <div class="paper_title">

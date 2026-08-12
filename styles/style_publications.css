@@ -213,12 +213,19 @@ body {
     text-align: left;
 }
 
+.paper_logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid lightblue; */
+}
 /* Merged from two duplicate .paper_title definitions */
 .paper_title {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     flex: 1;
+    /* border: 1px solid red; */
 }
 
 .paper_title .paper_heading {

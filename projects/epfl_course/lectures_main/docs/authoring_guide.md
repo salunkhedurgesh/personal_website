@@ -39,6 +39,16 @@ T(q)=e^{[S_1]q_1}\cdots e^{[S_n]q_n}M
 </div>
 ```
 
+### Notation-first rule
+
+Declare every symbol and index convention on a slide before the first slide that uses it.
+For frame notation, explicitly define:
+
+- what each frame label means;
+- whether a bold symbol represents a point coordinate, direction vector, or translation;
+- what left superscripts and right subscripts identify;
+- the source and destination frames of every rotation or transformation matrix.
+
 ## Step-by-step reveals
 
 Add `reveal-children` to a grid/flex container:
@@ -60,6 +70,13 @@ In deck mode, arrow/space reveals each child before advancing the slide.
 ```
 
 The 2D math convention is y-up. Internally, the visualizer flips y only at drawing time.
+The default `data-trace-mode="fading"` keeps the latest 250 path points. Use
+`data-trace-mode="persistent"` to retain the complete end-effector path, for example
+when tracing a workspace boundary. The on-screen path button can switch modes live.
+Set `data-fading-path-length` to customize the fading trail length.
+Slider motion uses critically damped interpolation so abrupt input still produces a smooth
+end-effector path. Set `data-smooth-time` in seconds to adjust its responsiveness (default `0.12`).
+Each joint can be configured with either its slider or the synchronized numeric degree input.
 
 ## 3D revolute joint demo
 

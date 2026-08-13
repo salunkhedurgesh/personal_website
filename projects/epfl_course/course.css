@@ -563,7 +563,7 @@ dd {
     .nav-links {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: repeat(6, minmax(0, 1fr));
         justify-content: stretch;
         overflow-x: visible;
     }
@@ -626,11 +626,31 @@ dd {
     line-height: 1.66;
 }
 
+.lecture-index-link {
+    display: inline-flex;
+    margin-top: 0.25rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--white);
+    font-family: var(--font-secondary);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lecture-index-link:hover {
+    color: var(--red);
+    border-color: var(--red);
+}
+
 .module-grid {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     border-top: 1px solid var(--white);
     border-left: 1px solid var(--white);
+}
+
+.lecture-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .module-card {
@@ -692,7 +712,8 @@ dd {
 }
 
 @media (max-width: 1200px) {
-    .module-grid {
+    .module-grid,
+    .lecture-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }

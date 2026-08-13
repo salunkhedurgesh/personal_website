@@ -27,7 +27,7 @@ button,input,select{font:inherit}
 .muted{color:rgba(255,255,255,.68)}.small{font-size:.9rem}.hidden{display:none!important}
 .badge{display:inline-block;padding:5px 9px;border:1px solid var(--red);color:var(--red);font-family:var(--font-secondary);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06rem}
 label{display:block;font-family:var(--font-secondary);font-size:.86rem;font-weight:600}
-input[type=text],input[type=password],input[type=number],select{
+input[type=text],input[type=number],select{
   width:100%;margin-top:5px;padding:9px 10px;border:1px solid var(--white);border-radius:0;
   background:var(--black);color:var(--white)
 }
@@ -58,7 +58,6 @@ h1,h2,h3{margin:.3em 0}
 
 /* ---------- Shared ENG-654 compact module layout ---------- */
 #appView.hidden{display:none!important}
-#authView.hidden{display:none!important}
 h1.module-title{
   max-width:none;
   margin:.25rem 0 .35rem;
@@ -68,13 +67,6 @@ h1.module-title{
   line-height:1;
   white-space:nowrap;
   text-transform:uppercase;
-}
-.auth-title{
-  margin:.2rem 0 .8rem;
-  font-family:var(--font-heading,"Arial Black",Arial,sans-serif);
-  font-size:1.35rem;
-  line-height:1.1;
-  white-space:nowrap;
 }
 .module-collapsible{
   border:1px solid var(--white,#fff);
@@ -148,7 +140,6 @@ h1.module-title{
     font-size:clamp(1.65rem,6vw,2.45rem);
     white-space:normal;
   }
-  .auth-title,
   .module-collapsible > summary{
     white-space:normal;
   }
@@ -157,16 +148,7 @@ h1.module-title{
 </head>
 <body>
 <div class="wrap">
-<section class="card" id="authView" style="max-width:560px;margin:30px auto">
-<h2 class="auth-title">ENG-654 · Module 5</h2>
-<p class="muted">Workspace Path &amp; Joint Trajectory Visualizer</p>
-<label>Module password<input autocomplete="off" id="password" type="password"/></label>
-<div class="row" style="margin-top:12px">
-<button id="unlock">Unlock Module 5</button>
-<span class="small muted" id="authFeedback"></span>
-</div>
-</section>
-<main class="hidden" id="appView" style="display:none">
+<main id="appView">
 <div class="badge">Module 5 · Motion Planning</div>
 <h1 class="module-title">Workspace &amp; Joint-Path Execution</h1>
 <p class="muted">
@@ -278,22 +260,18 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/+esm';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js/+esm';
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
 
-const MODULE_PASSWORD='plan654';
 const $=id=>document.getElementById(id);
+const DEFAULT_DATA_ROOT='../../assets/data';
+const DEFAULT_URDF_NAME='iiwa7_free_joints.urdf';
+const DEFAULT_JOINT_PATH_NAME='kuka_iiwa7_rectangle_joint_path_500.csv';
+const DEFAULT_WORKSPACE_PATH_NAME='kuka_iiwa7_rectangle_workspace_path_500_quaternion.csv';
+const DEFAULT_STL_NAMES=Array.from({length:8},(_,i)=>`link_${i}.stl`);
 
-function unlock(){
-  if($('password').value.trim()===MODULE_PASSWORD){
-    $('authView').style.display='none';
-    $('appView').style.display='';
-    $('authView').classList.add('hidden');
-    $('appView').classList.remove('hidden');
-    initialize();
-  }else{
-    $('authFeedback').textContent='Incorrect password.';
-  }
+async function fetchDefaultFile(url,name,type){
+  const response=await fetch(url);
+  if(!response.ok)throw new Error(`Unable to load ${name} (${response.status}).`);
+  return new File([await response.blob()],name,{type});
 }
-$('unlock').addEventListener('click',unlock);
-$('password').addEventListener('keydown',e=>{if(e.key==='Enter')unlock();});
 
 function initialize(){
   const viewport=$('viewport');
@@ -987,6 +965,53 @@ function initialize(){
     setSample(Number(e.target.value),false);
   });
 
+  async function loadDefaultAssets(){
+    try{
+      const [stlFiles,urdfResponse,workspaceResponse,jointResponse]=await Promise.all([
+        Promise.all(DEFAULT_STL_NAMES.map(name=>
+          fetchDefaultFile(`${DEFAULT_DATA_ROOT}/visual/${name}`,name,'model/stl')
+        )),
+        fetch(`${DEFAULT_DATA_ROOT}/urdf/${DEFAULT_URDF_NAME}`),
+        fetch(`${DEFAULT_DATA_ROOT}/mod5/${DEFAULT_WORKSPACE_PATH_NAME}`),
+        fetch(`${DEFAULT_DATA_ROOT}/mod5/${DEFAULT_JOINT_PATH_NAME}`)
+      ]);
+      for(const [response,name] of [
+        [urdfResponse,DEFAULT_URDF_NAME],
+        [workspaceResponse,DEFAULT_WORKSPACE_PATH_NAME],
+        [jointResponse,DEFAULT_JOINT_PATH_NAME]
+      ]){
+        if(!response.ok)throw new Error(`Unable to load ${name} (${response.status}).`);
+      }
+
+      state.visualFiles.clear();
+      stlFiles.forEach(file=>state.visualFiles.set(file.name.toLowerCase(),file));
+      state.geometryCache.clear();
+      state.urdfText=await urdfResponse.text();
+      await prepareRobot();
+
+      state.workspacePoses=parseWorkspaceCsv(await workspaceResponse.text());
+      $('workspaceCount').textContent=String(state.workspacePoses.length);
+      $('workspaceStatus').textContent=
+        `${state.workspacePoses.length} bundled workspace poses loaded.`;
+      redrawWorkspacePath();
+
+      state.jointPath=parseJointCsv(await jointResponse.text());
+      $('jointCount').textContent=String(state.jointPath.length);
+      $('jointStatus').textContent=
+        `${state.jointPath.length} bundled joint configurations loaded.`;
+      $('scrubber').disabled=false;
+      $('scrubber').min='0';
+      $('scrubber').max=String(state.jointPath.length-1);
+      $('scrubber').value='0';
+      resetAnimation();
+      fitCamera();
+      $('status').textContent=
+        `${state.robot.name} and both bundled 500-sample paths loaded`;
+    }catch(err){
+      $('status').textContent=`Default asset load failed: ${err.message}`;
+    }
+  }
+
   function resize(){
     const w=viewport.clientWidth,h=viewport.clientHeight;
     renderer.setSize(w,h,false);
@@ -1029,7 +1054,9 @@ function initialize(){
 
   resize();
   animate();
+  loadDefaultAssets();
 }
+initialize();
 </script>
 </body>
 </html>

@@ -330,7 +330,6 @@ code{
 
 /* ---------- Shared ENG-654 compact module layout ---------- */
 #appView.hidden{display:none!important}
-#authView.hidden{display:none!important}
 h1.module-title{
   max-width:none;
   margin:.25rem 0 .35rem;
@@ -340,13 +339,6 @@ h1.module-title{
   line-height:1;
   white-space:nowrap;
   text-transform:uppercase;
-}
-.auth-title{
-  margin:.2rem 0 .8rem;
-  font-family:var(--font-heading,"Arial Black",Arial,sans-serif);
-  font-size:1.35rem;
-  line-height:1.1;
-  white-space:nowrap;
 }
 .module-collapsible{
   border:1px solid var(--white,#fff);
@@ -420,7 +412,6 @@ h1.module-title{
     font-size:clamp(1.65rem,6vw,2.45rem);
     white-space:normal;
   }
-  .auth-title,
   .module-collapsible > summary{
     white-space:normal;
   }
@@ -428,7 +419,7 @@ h1.module-title{
 </style>
 </head>
 <body>
-<div class="wrap"><section class="card" id="authView" style="max-width:560px;margin:30px auto"><p class="badge">ENG-654 · Module 1</p><h2 class="auth-title">Robot Visualization &amp; URDF Inspection</h2><label>Module password<input autocomplete="off" id="password" type="password"/></label><div class="row" style="margin-top:12px"><button id="unlock">Unlock Module 1</button><span class="small muted" id="authFeedback"></span></div></section><main class="hidden" id="appView" style="display:none">
+<div class="wrap"><main id="appView">
 <div class="badge">Interactive Simulation · Module 01</div>
 <h1 class="module-title">Robot Visualization &amp; URDF Inspection</h1>
 <p class="muted">
@@ -599,21 +590,15 @@ import { TransformControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/ex
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
 
 const $=id=>document.getElementById(id);
-const MODULE_PASSWORD='visual654';
-function unlockModule(){
-  if($('password').value.trim()===MODULE_PASSWORD){
-    $('authView').style.display='none';
-    $('appView').style.display='';
-    $('authView').classList.add('hidden');
-    $('appView').classList.remove('hidden');
-    $('authFeedback').textContent='';
-    requestAnimationFrame(()=>resize());
-  }else{
-    $('authFeedback').textContent='Incorrect password.';
-  }
+const DEFAULT_DATA_ROOT='../../assets/data';
+const DEFAULT_URDF_NAME='iiwa7_free_joints.urdf';
+const DEFAULT_STL_NAMES=Array.from({length:8},(_,i)=>`link_${i}.stl`);
+
+async function fetchDefaultFile(url,name,type){
+  const response=await fetch(url);
+  if(!response.ok)throw new Error(`Unable to load ${name} (${response.status}).`);
+  return new File([await response.blob()],name,{type});
 }
-$('unlock').addEventListener('click',unlockModule);
-$('password').addEventListener('keydown',e=>{if(e.key==='Enter')unlockModule();});
 const viewport=$('viewport');
 
 const scene=new THREE.Scene();
@@ -1592,6 +1577,28 @@ $('zeroJointsBtn').addEventListener('click',()=>{
   rebuildJointControls();
   state.robotRoot.updateMatrixWorld(true);
 });
+
+async function loadDefaultAssets(){
+  try{
+    const stlFiles=await Promise.all(DEFAULT_STL_NAMES.map(name=>
+      fetchDefaultFile(`${DEFAULT_DATA_ROOT}/visual/${name}`,name,'model/stl')
+    ));
+    state.stlFiles.clear();
+    stlFiles.forEach(file=>state.stlFiles.set(file.name.toLowerCase(),file));
+    state.geometryCache.clear();
+    $('stlStatus').textContent=`${state.stlFiles.size} bundled STL files loaded.`;
+
+    const response=await fetch(`${DEFAULT_DATA_ROOT}/urdf/${DEFAULT_URDF_NAME}`);
+    if(!response.ok)throw new Error(`Unable to load ${DEFAULT_URDF_NAME} (${response.status}).`);
+    state.urdfFileName=DEFAULT_URDF_NAME;
+    await loadUrdfText(await response.text(),{setOriginal:true});
+  }catch(err){
+    $('urdfStatus').textContent=`Default asset load failed: ${err.message}`;
+    $('status').textContent=err.message;
+  }
+}
+
+loadDefaultAssets();
 
 renderer.domElement.addEventListener('pointerdown',e=>{
   if(transform.dragging||transform.axis)return;

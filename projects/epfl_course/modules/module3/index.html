@@ -28,7 +28,7 @@ button,input,select{font:inherit}
 h1{font-family:var(--font-title);font-weight:400;text-transform:uppercase;line-height:.95;font-size:clamp(2.8rem,6vw,5.8rem);margin:.25em 0}
 h2,h3{font-family:var(--font-heading);font-weight:900}
 label{display:block;font-family:var(--font-secondary);font-weight:700;text-transform:uppercase;font-size:.78rem}
-input[type=text],input[type=password],input[type=number],select{
+input[type=text],input[type=number],select{
  width:100%;margin-top:5px;padding:9px 10px;border:1px solid var(--white);border-radius:0;background:var(--black);color:var(--white)
 }
 input[type=range]{width:100%;accent-color:var(--red)}
@@ -51,7 +51,6 @@ tr.selected{outline:1px solid var(--red)}
 
 /* ---------- Shared ENG-654 compact module layout ---------- */
 #appView.hidden{display:none!important}
-#authView.hidden{display:none!important}
 h1.module-title{
   max-width:none;
   margin:.25rem 0 .35rem;
@@ -61,13 +60,6 @@ h1.module-title{
   line-height:1;
   white-space:nowrap;
   text-transform:uppercase;
-}
-.auth-title{
-  margin:.2rem 0 .8rem;
-  font-family:var(--font-heading,"Arial Black",Arial,sans-serif);
-  font-size:1.35rem;
-  line-height:1.1;
-  white-space:nowrap;
 }
 .module-collapsible{
   border:1px solid var(--white,#fff);
@@ -141,7 +133,6 @@ h1.module-title{
     font-size:clamp(1.65rem,6vw,2.45rem);
     white-space:normal;
   }
-  .auth-title,
   .module-collapsible > summary{
     white-space:normal;
   }
@@ -150,13 +141,7 @@ h1.module-title{
 </head>
 <body>
 <div class="wrap">
-<section class="card" id="authView" style="max-width:560px;margin:30px auto">
-<p class="eyebrow">ENG-654 · Module 3</p>
-<h2 class="auth-title">ENG-654 · Module 3</h2>
-<label>Module password<input id="password" type="password"/></label>
-<div class="row" style="margin-top:12px"><button id="unlock">Unlock Module 3</button><span class="muted small" id="authFeedback"></span></div>
-</section>
-<main class="hidden" id="appView" style="display:none">
+<main id="appView">
 <p class="eyebrow">Interactive Simulation · Module 03</p>
 <h1 class="module-title">Inverse Kinematics Visualization</h1>
 <p class="muted">
@@ -222,9 +207,17 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/+esm';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js/+esm';
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
 
-const PASSWORD='ik654',$=id=>document.getElementById(id);
-$('unlock').onclick=()=>{if($('password').value.trim()===PASSWORD){$('authView').style.display='none';$('appView').style.display='';$('authView').classList.add('hidden');$('appView').classList.remove('hidden');init()}else $('authFeedback').textContent='Incorrect password.'};
-$('password').addEventListener('keydown',e=>{if(e.key==='Enter')$('unlock').click()});
+const $=id=>document.getElementById(id);
+const DEFAULT_DATA_ROOT='../../assets/data';
+const DEFAULT_URDF_NAME='iiwa7_free_joints.urdf';
+const DEFAULT_IK_NAME='iiwa7_IK_q3_030deg.csv';
+const DEFAULT_STL_NAMES=Array.from({length:8},(_,i)=>`link_${i}.stl`);
+
+async function fetchDefaultFile(url,name,type){
+ const response=await fetch(url);
+ if(!response.ok)throw new Error(`Unable to load ${name} (${response.status}).`);
+ return new File([await response.blob()],name,{type});
+}
 
 function init(){
  const viewport=$('viewport'),scene=new THREE.Scene();scene.background=new THREE.Color(0x000000);
@@ -289,8 +282,43 @@ function init(){
  $('showSolutionFrames').onchange=e=>state.robots.forEach(r=>{const n=r.links.get(state.ee);if(n)for(const c of n.children)if(c.type==='AxesHelper')c.visible=e.target.checked});
  $('showAll').onclick=()=>setAll(true);$('hideAll').onclick=()=>setAll(false);$('invert').onclick=()=>{state.visibility=state.visibility.map(v=>!v);state.robots.forEach((r,i)=>r.root.visible=state.visibility[i]);renderToggles();renderTable()};$('onlySelected').onclick=()=>{if(state.selected>=0){state.visibility=state.visibility.map((_,i)=>i===state.selected);state.robots.forEach((r,i)=>r.root.visible=state.visibility[i]);renderToggles();renderTable()}};
  $('fitBtn').onclick=fit;
+ async function loadDefaultAssets(){
+  try{
+   const [files,urdfResponse,ikResponse]=await Promise.all([
+    Promise.all(DEFAULT_STL_NAMES.map(name=>
+     fetchDefaultFile(`${DEFAULT_DATA_ROOT}/visual/${name}`,name,'model/stl')
+    )),
+    fetch(`${DEFAULT_DATA_ROOT}/urdf/${DEFAULT_URDF_NAME}`),
+    fetch(`${DEFAULT_DATA_ROOT}/mod3/${DEFAULT_IK_NAME}`)
+   ]);
+   if(!urdfResponse.ok)throw new Error(`Unable to load ${DEFAULT_URDF_NAME} (${urdfResponse.status}).`);
+   if(!ikResponse.ok)throw new Error(`Unable to load ${DEFAULT_IK_NAME} (${ikResponse.status}).`);
+   state.files.clear();files.forEach(file=>state.files.set(file.name.toLowerCase(),file));
+   state.cache.clear();
+   state.urdfText=await urdfResponse.text();
+   await prep();
+   state.solutions=parseCsv(await ikResponse.text());
+   await rebuild();
+
+   const firstPose=state.robots.length?pose(state.robots[0]):null;
+   if(firstPose){
+    const euler=new THREE.Euler().setFromQuaternion(firstPose.q,'XYZ');
+    $('tx').value=firstPose.p.x.toFixed(6);
+    $('ty').value=firstPose.p.y.toFixed(6);
+    $('tz').value=firstPose.p.z.toFixed(6);
+    $('tr').value=THREE.MathUtils.radToDeg(euler.x).toFixed(6);
+    $('tp').value=THREE.MathUtils.radToDeg(euler.y).toFixed(6);
+    $('tyaw').value=THREE.MathUtils.radToDeg(euler.z).toFixed(6);
+    applyTarget();
+   }
+   $('status').textContent=
+    `${state.robot.name} loaded · ${state.solutions.length} bundled IK solutions`;
+  }catch(err){$('status').textContent=`Default asset load failed: ${err.message}`}
+ }
  function resize(){renderer.setSize(viewport.clientWidth,viewport.clientHeight,false);camera.aspect=viewport.clientWidth/viewport.clientHeight;camera.updateProjectionMatrix()}new ResizeObserver(resize).observe(viewport);
  function anim(){requestAnimationFrame(anim);orbit.update();renderer.render(scene,camera)}applyTarget();resize();anim()
+ loadDefaultAssets();
 }
+init();
 </script>
 </body></html>

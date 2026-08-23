@@ -1,33 +1,173 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ENG-654 Lecture Template</title>
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/layouts.css">
-  <link rel="stylesheet" href="css/components.css">
-  <style>
-    body { padding: clamp(2rem, 5vw, 6rem); }
-    .lecture-list { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:1rem; margin-top:2rem; }
-    .lecture-list a { display:block; text-decoration:none; color:var(--black); border-top:4px solid var(--epfl-red); padding:1rem; background:var(--soft); min-height:8rem; }
-    .lecture-list a:hover { outline:2px solid var(--epfl-red); }
-  </style>
-</head>
-<body>
-  <p class="eyebrow">ENG-654</p>
-  <h1 class="course-title">Kinematics-Grounded Motion Planning for Robots</h1>
-  <p class="subtitle">Reusable HTML/CSS/JS presentation template for the eight course lectures.</p>
 
-  <div class="lecture-list">
-    <a href="lectures/lecture_01.html"><strong>Lecture 1</strong><br>Introduction, Frames, Transformations, and DH Modelling</a>
-    <a href="lectures/lecture_02.html"><strong>Lecture 2</strong><br>Product of Exponentials and Reading URDF Models</a>
-    <a href="lectures/lecture_03.html"><strong>Lecture 3</strong><br>Analytical IK of a Representative 3R Robot</a>
-    <a href="lectures/lecture_04.html"><strong>Lecture 4</strong><br>Wrist-Partitioned 6R and 7R IK</a>
-    <a href="lectures/lecture_05.html"><strong>Lecture 5</strong><br>Jacobian-Based Singularity Analysis of 3R Robots</a>
-    <a href="lectures/lecture_06.html"><strong>Lecture 6</strong><br>IKS Distribution, Aspects, and Cuspidal Properties</a>
-    <a href="lectures/lecture_07.html"><strong>Lecture 7</strong><br>Joint-Space and Workspace Planning</a>
-    <a href="lectures/lecture_08.html"><strong>Lecture 8</strong><br>Motion Planning for Cuspidal and Redundant Robots</a>
-  </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Durgesh Salunkhe</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/generate_index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body class="index-page">
+
+    <div style="display: flex; flex-direction: row;">
+        <div class="logo" style="align-items: center;">
+            <a id="personalLink"><img id="logoImg" alt="logo" class="mainicon"></a>
+            <p>work</p>
+        </div>
+
+        <div id="small_name" m style="margin-left: 1rem; z-index: 10; translate: 0 -0.5rem;">
+            Durgesh Salunkhe
+        </div>
+
+    </div>
+
+
+    <div class="navcontent">
+        <a id="experienceLink">
+            <span class="navlogo"><img id="experienceImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">01.</span> <span class="navtitle">experience</span>
+        </a>
+        <a id="publicationsLink">
+            <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">02.</span> <span class="navtitle">publications</span>
+        </a>
+        <a id="projectsLink">
+            <span class="navlogo"><img id="projectsImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">03.</span> <span class="navtitle">projects</span>
+        </a>
+        <a id="contactLink" onclick="blink()">
+            <span class="navlogo"><img id="contactImage" class="navicon"></span>
+            <div style="width: 1rem;"></div>
+            <span class="navnum">04.</span> <span class="navtitle">contact</span>
+        </a>
+    </div>
+
+
+    <div class="topBack"></div>
+
+    <div class="hero">
+
+        <div id="contactTop"></div>
+        <script>
+            fetch('/projects/main/common/common_contact.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('contactTop').innerHTML = data;
+                });
+        </script>
+
+        <script type="text/javascript" src="/js/helpers_index.js"></script>
+
+        <div class="middleblock">
+            <p class="hello">Hello, I am</p>
+            <div class="nameblock" id="name">
+                <h1>D</h1>
+                <h1>u</h1>
+                <h1>r</h1>
+                <h1>g</h1>
+                <h1>e</h1>
+                <h1>s</h1>
+                <h1>h</h1>
+                <h1>&nbsp;</h1>
+                <h1>S</h1>
+                <h1>a</h1>
+                <h1>l</h1>
+                <h1>u</h1>
+                <h1>n</h1>
+                <h1>k</h1>
+                <h1>h</h1>
+                <h1>e</h1>
+            </div>
+
+            <h2>I am a researcher at
+                <a href="https://www.epfl.ch/labs/lasa/" target="_blank" class="ls2n">LASA lab</a>,
+                <a href="https://www.epfl.ch/" target="_blank" class="ls2n">EPFL</a>
+            </h2>
+
+            <script>
+                window.addEventListener("scroll", () => {
+                    const name_holder = document.getElementById("small_name")
+                    const current = window.scrollY;
+                    let w = window.innerWidth;
+                    let h = window.innerHeight;
+                    // console.log(current);
+                    // console.log(name_holder.style.display)
+                    // console.log(w)
+                    if (w < 1200) {
+                        return 0
+                    }
+                    if (window.scrollY >= 204) {
+                        name_holder.style.display = "flex"
+                        name_holder.style.transition = "linear"
+                    }
+                    else {
+                        name_holder.style.display = "none"
+                    }
+                })
+            </script>
+
+            <div class="profile">
+                <img src="/projects/main/webpage_resources/images/profile_pic.jpeg" alt="profile pic" id="profile-pic">
+                
+                <div class="profileDetails">
+                    <h2>About Me</h2>
+                    <div id="about_me"></div>
+                    <script>
+                        fetch('/projects/main/helper_index/aboutMe.html')
+                            .then(response => response.text())
+                            .then(data => {
+                                document.getElementById('about_me').innerHTML = data;
+                            });
+                    </script>
+
+                    <div class="flexbox">
+                        <a href="/projects/main/resources/resume_durgesh.pdf"
+                            target="_blank"><button>Resume</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="buzzwords"></div>
+            <script>
+                fetch('/projects/main/helper_index/buzzwords.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('buzzwords').innerHTML = data;
+                    });
+            </script>
+
+
+        </div>
+    </div>
+
+    <div class="desktop_spacer"></div>
+    <div class="desktop_spacer"></div>
+
+    <div class="middleblock">
+        <div id="recent_news"></div>
+        <div class="spacer"></div>
+        <div id="current"></div>
+    </div>
+
+    <!--<div class="spacer"></div>-->
+
+    <div id="contact"></div>
+    <script>
+        fetch('/projects/main/common/contact.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contact').innerHTML = data;
+            });
+    </script>
+
 </body>
+
 </html>

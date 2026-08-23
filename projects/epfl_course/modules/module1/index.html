@@ -433,9 +433,9 @@ h1.module-title{
 <div class="small muted" id="urdfStatus" style="margin-top:8px">No URDF loaded.</div>
 </div>
 <div class="card">
-<div class="section-title">2. Visual STL files</div>
-<input accept=".stl" id="stlInput" multiple="" type="file"/>
-<div class="small muted" id="stlStatus" style="margin-top:8px">No STL files loaded.</div>
+<div class="section-title">2. Visual mesh files</div>
+<input accept=".stl,.dae,model/stl,model/vnd.collada+xml" id="stlInput" multiple="" type="file"/>
+<div class="small muted" id="stlStatus" style="margin-top:8px">No STL or DAE files loaded.</div>
 </div>
 <div class="card">
 <div class="section-title">3. Export</div>
@@ -588,6 +588,8 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/+esm';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js/+esm';
 import { TransformControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/TransformControls.js/+esm';
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
+import { ColladaLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/ColladaLoader.js/+esm';
+import { mergeGeometries } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js/+esm';
 
 const $=id=>document.getElementById(id);
 const DEFAULT_DATA_ROOT='../../assets/data';
@@ -629,6 +631,7 @@ scene.add(grid);
 scene.add(new THREE.AxesHelper(0.3));
 
 const loader=new STLLoader();
+const colladaLoader=new ColladaLoader();
 const transform=new TransformControls(camera,renderer.domElement);
 scene.add(transform.getHelper());
 transform.setMode('translate');
@@ -862,13 +865,36 @@ function parseURDF(text){
     }
   };
 }
+function flattenCollada(text){
+  const root=colladaLoader.parse(text,'').scene;
+  root.updateMatrixWorld(true);
+  const parts=[];
+  root.traverse(object=>{
+    if(!object.isMesh||!object.geometry?.getAttribute('position'))return;
+    let part=object.geometry.clone();
+    part.applyMatrix4(object.matrixWorld);
+    for(const name of Object.keys(part.attributes))if(name!=='position')part.deleteAttribute(name);
+    part.morphAttributes={};
+    part.clearGroups();
+    if(part.index)part=part.toNonIndexed();
+    parts.push(part);
+  });
+  if(!parts.length)throw new Error('DAE file contains no mesh geometry.');
+  const geometry=parts.length===1?parts[0]:mergeGeometries(parts,false);
+  if(!geometry)throw new Error('Unable to combine the mesh geometry in the DAE file.');
+  geometry.computeVertexNormals();
+  geometry.computeBoundingSphere();
+  return geometry;
+}
 async function stlGeometry(filename){
   const key=basename(filename);
   if(state.geometryCache.has(key))return state.geometryCache.get(key);
   const file=state.stlFiles.get(key);
   if(!file)return null;
-  const g=loader.parse(await file.arrayBuffer());
-  g.computeVertexNormals();
+  const g=/\.dae$/i.test(file.name||key)
+    ?flattenCollada(await file.text())
+    :loader.parse(await file.arrayBuffer());
+  if(!g.getAttribute('normal'))g.computeVertexNormals();
   state.geometryCache.set(key,g);
   return g;
 }
@@ -1509,7 +1535,7 @@ $('stlInput').addEventListener('change',async e=>{
   state.stlFiles.clear();
   [...e.target.files].forEach(f=>state.stlFiles.set(f.name.toLowerCase(),f));
   state.geometryCache.clear();
-  $('stlStatus').textContent=`${state.stlFiles.size} STL file(s) loaded.`;
+  $('stlStatus').textContent=`${state.stlFiles.size} STL/DAE file(s) loaded.`;
   if(state.robot){
     await buildRobot();
     syncXmlEditor();
@@ -1586,7 +1612,7 @@ async function loadDefaultAssets(){
     state.stlFiles.clear();
     stlFiles.forEach(file=>state.stlFiles.set(file.name.toLowerCase(),file));
     state.geometryCache.clear();
-    $('stlStatus').textContent=`${state.stlFiles.size} bundled STL files loaded.`;
+    $('stlStatus').textContent=`${state.stlFiles.size} bundled mesh files loaded.`;
 
     const response=await fetch(`${DEFAULT_DATA_ROOT}/urdf/${DEFAULT_URDF_NAME}`);
     if(!response.ok)throw new Error(`Unable to load ${DEFAULT_URDF_NAME} (${response.status}).`);

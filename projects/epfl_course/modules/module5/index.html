@@ -157,8 +157,8 @@ h1.module-title{
     </p>
 <details class="module-collapsible compact-file-grid" open=""><summary>Files &amp; inputs</summary><div class="module-collapsible-body">
 <label>URDF<input accept=".urdf,.xml" id="urdfInput" type="file"/></label>
-<label>Visual STL files<input accept=".stl" id="visualInput" multiple="" type="file"/></label>
-<label>Collision STL files<input accept=".stl" id="collisionInput" multiple="" type="file"/></label>
+<label>Visual mesh files<input accept=".stl,.dae,model/stl,model/vnd.collada+xml" id="visualInput" multiple="" type="file"/></label>
+<label>Collision mesh files<input accept=".stl,.dae,model/stl,model/vnd.collada+xml" id="collisionInput" multiple="" type="file"/></label>
 </div></details>
 <div class="grid" style="grid-template-columns:1fr 1fr;margin-bottom:16px">
 <details class="module-collapsible" open=""><summary>Workspace path poses</summary><div class="module-collapsible-body">
@@ -259,6 +259,8 @@ h1.module-title{
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/+esm';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js/+esm';
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
+import { ColladaLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/ColladaLoader.js/+esm';
+import { mergeGeometries } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js/+esm';
 
 const $=id=>document.getElementById(id);
 const DEFAULT_DATA_ROOT='../../assets/data';
@@ -311,6 +313,7 @@ function initialize(){
   scene.add(makeThemeFrame(.28));
 
   const loader=new STLLoader();
+  const colladaLoader=new ColladaLoader();
 
   const state={
     urdfText:'',
@@ -460,6 +463,28 @@ function initialize(){
     };
   }
 
+  function flattenCollada(text){
+    const root=colladaLoader.parse(text,'').scene;
+    root.updateMatrixWorld(true);
+    const parts=[];
+    root.traverse(object=>{
+      if(!object.isMesh||!object.geometry?.getAttribute('position'))return;
+      let part=object.geometry.clone();
+      part.applyMatrix4(object.matrixWorld);
+      for(const name of Object.keys(part.attributes))if(name!=='position')part.deleteAttribute(name);
+      part.morphAttributes={};
+      part.clearGroups();
+      if(part.index)part=part.toNonIndexed();
+      parts.push(part);
+    });
+    if(!parts.length)throw new Error('DAE file contains no mesh geometry.');
+    const geometry=parts.length===1?parts[0]:mergeGeometries(parts,false);
+    if(!geometry)throw new Error('Unable to combine the mesh geometry in the DAE file.');
+    geometry.computeVertexNormals();
+    geometry.computeBoundingSphere();
+    return geometry;
+  }
+
   async function geometry(spec){
     const key=basename(spec.filename);
     if(state.geometryCache.has(key))return state.geometryCache.get(key);
@@ -467,8 +492,10 @@ function initialize(){
     const file=state.visualFiles.get(key);
     if(!file)return null;
 
-    const g=loader.parse(await file.arrayBuffer());
-    g.computeVertexNormals();
+    const g=/\.dae$/i.test(file.name||key)
+      ?flattenCollada(await file.text())
+      :loader.parse(await file.arrayBuffer());
+    if(!g.getAttribute('normal'))g.computeVertexNormals();
     state.geometryCache.set(key,g);
     return g;
   }

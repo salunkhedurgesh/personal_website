@@ -149,7 +149,7 @@ h1.module-title{
   </p>
 <details class="module-collapsible compact-file-grid" open=""><summary>Files &amp; inputs</summary><div class="module-collapsible-body">
 <label>URDF<input accept=".urdf,.xml" id="urdfInput" type="file"/></label>
-<label>Visual STL files<input accept=".stl" id="visualInput" multiple="" type="file"/></label>
+<label>Visual mesh files<input accept=".stl,.dae,model/stl,model/vnd.collada+xml" id="visualInput" multiple="" type="file"/></label>
 <label>IK solutions CSV<input accept=".csv,text/csv" id="ikCsv" type="file"/></label>
 </div></details>
 <div class="grid main">
@@ -206,6 +206,8 @@ h1.module-title{
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/+esm';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js/+esm';
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
+import { ColladaLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/ColladaLoader.js/+esm';
+import { mergeGeometries } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js/+esm';
 
 const $=id=>document.getElementById(id);
 const DEFAULT_DATA_ROOT='../../assets/data';
@@ -226,7 +228,7 @@ function init(){
  const orbit=new OrbitControls(camera,renderer.domElement);orbit.enableDamping=true;orbit.target.set(0,0,.7);
  scene.add(new THREE.HemisphereLight(0xffffff,0x111111,2));const dl=new THREE.DirectionalLight(0xffffff,2.5);dl.position.set(3,-3,5);scene.add(dl);
  const grid=new THREE.GridHelper(4,40,0x666666,0x2b2b2b);grid.rotation.x=Math.PI/2;scene.add(grid);scene.add(new THREE.AxesHelper(.25));
- const loader=new STLLoader(), targetGroup=new THREE.Group(), solutionRoot=new THREE.Group();scene.add(targetGroup,solutionRoot);
+ const loader=new STLLoader(),colladaLoader=new ColladaLoader(),targetGroup=new THREE.Group(),solutionRoot=new THREE.Group();scene.add(targetGroup,solutionRoot);
 
  const state={robot:null,urdfText:'',files:new Map(),cache:new Map(),movable:[],solutions:[],robots:[],visibility:[],ee:null,target:{p:new THREE.Vector3(.4,0,.6),q:new THREE.Quaternion()},selected:-1};
 
@@ -238,7 +240,8 @@ function init(){
  function parse(t){const d=new DOMParser().parseFromString(t,'application/xml'),R=d.querySelector('robot');if(!R)throw Error('Invalid URDF');
  const materialTable=new Map();R.querySelectorAll(':scope > material').forEach(m=>{const rgba=m.querySelector(':scope > color')?.getAttribute('rgba');if(rgba&&m.getAttribute('name'))materialTable.set(m.getAttribute('name'),nums(rgba))});
  const links=new Map();R.querySelectorAll(':scope > link').forEach(l=>{const visuals=[...l.querySelectorAll(':scope > visual')].map(v=>{const m=v.querySelector('geometry > mesh');if(!m)return null;let color=null;const mat=v.querySelector(':scope > material');if(mat){const inline=mat.querySelector(':scope > color')?.getAttribute('rgba');if(inline)color=nums(inline);else if(materialTable.has(mat.getAttribute('name')))color=materialTable.get(mat.getAttribute('name'))}return{filename:m.getAttribute('filename'),scale:nums(m.getAttribute('scale'),[1,1,1]),origin:org(v),color}}).filter(Boolean);links.set(l.getAttribute('name'),{name:l.getAttribute('name'),visuals})});const joints=[...R.querySelectorAll(':scope > joint')].map(j=>({name:j.getAttribute('name'),type:j.getAttribute('type')||'fixed',parent:j.querySelector('parent')?.getAttribute('link'),child:j.querySelector('child')?.getAttribute('link'),origin:org(j),axis:nums(j.querySelector('axis')?.getAttribute('xyz'),[1,0,0])}));const ch=new Set(joints.map(j=>j.child)),root=[...links.keys()].find(n=>!ch.has(n)),out=new Map();joints.forEach(j=>{if(!out.has(j.parent))out.set(j.parent,[]);out.get(j.parent).push(j)});const depth=new Map([[root,0]]);(function w(n){for(const j of out.get(n)||[]){depth.set(j.child,(depth.get(n)||0)+1);w(j.child)}})(root);const leaves=[...links.keys()].filter(n=>!out.has(n)).sort((a,b)=>(depth.get(b)||0)-(depth.get(a)||0));return{name:R.getAttribute('name')||'robot',links,joints,root,out,depth,leaves}}
- async function geom(s){const k=base(s.filename);if(state.cache.has(k))return state.cache.get(k);const f=state.files.get(k);if(!f)return null;const g=loader.parse(await f.arrayBuffer());g.computeVertexNormals();state.cache.set(k,g);return g}
+ function flattenCollada(text){const root=colladaLoader.parse(text,'').scene;root.updateMatrixWorld(true);const parts=[];root.traverse(o=>{if(!o.isMesh||!o.geometry?.getAttribute('position'))return;let g=o.geometry.clone();g.applyMatrix4(o.matrixWorld);for(const n of Object.keys(g.attributes))if(n!=='position')g.deleteAttribute(n);g.morphAttributes={};g.clearGroups();if(g.index)g=g.toNonIndexed();parts.push(g)});if(!parts.length)throw Error('DAE file contains no mesh geometry');const g=parts.length===1?parts[0]:mergeGeometries(parts,false);if(!g)throw Error('Unable to combine DAE mesh geometry');g.computeVertexNormals();g.computeBoundingSphere();return g}
+ async function geom(s){const k=base(s.filename);if(state.cache.has(k))return state.cache.get(k);const f=state.files.get(k);if(!f)return null;const g=/\.dae$/i.test(f.name||k)?flattenCollada(await f.text()):loader.parse(await f.arrayBuffer());if(!g.getAttribute('normal'))g.computeVertexNormals();state.cache.set(k,g);return g}
  function solutionMaterial(rgba){
    const c=rgba||[0.72,0.72,0.75,1];
    const baseAlpha=Number.isFinite(c[3])?c[3]:1;

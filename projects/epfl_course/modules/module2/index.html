@@ -149,7 +149,7 @@ h1.module-title{
   </p>
 <details class="module-collapsible compact-file-grid" open=""><summary>Files &amp; inputs</summary><div class="module-collapsible-body">
 <label>URDF<input accept=".urdf,.xml" id="urdfInput" type="file"/></label>
-<label>Visual STL files<input accept=".stl" id="visualInput" multiple="" type="file"/></label>
+<label>Visual mesh files<input accept=".stl,.dae,model/stl,model/vnd.collada+xml" id="visualInput" multiple="" type="file"/></label>
 <label>Joint trajectory CSV<input accept=".csv,text/csv" id="csvInput" type="file"/></label>
 </div></details>
 <div class="grid main">
@@ -208,6 +208,8 @@ h1.module-title{
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/+esm';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js/+esm';
 import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/STLLoader.js/+esm';
+import { ColladaLoader } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/loaders/ColladaLoader.js/+esm';
+import { mergeGeometries } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js/+esm';
 
 const $=id=>document.getElementById(id);
 const DEFAULT_DATA_ROOT='../../assets/data';
@@ -230,7 +232,7 @@ function init(){
  const grid=new THREE.GridHelper(4,40,0x666666,0x2b2b2b);grid.rotation.x=Math.PI/2;scene.add(grid);
  scene.add(new THREE.AxesHelper(.25));
 
- const loader=new STLLoader();
+ const loader=new STLLoader(),colladaLoader=new ColladaLoader();
  const state={robot:null,urdfText:'',files:new Map(),cache:new Map(),root:new THREE.Group(),links:new Map(),motions:new Map(),movable:[],q:[],ee:null,trace:[],traceLine:null,csv:[],idx:0,playing:false,last:0,ws:null};
  scene.add(state.root);
 
@@ -267,7 +269,8 @@ function init(){
    const leaves=[...links.keys()].filter(n=>!out.has(n)).sort((a,b)=>(depth.get(b)||0)-(depth.get(a)||0));
    return{links,joints,root,out,depth,leaves,name:R.getAttribute('name')||'robot'}
  }
- async function geom(s){const k=base(s.filename);if(state.cache.has(k))return state.cache.get(k);const f=state.files.get(k);if(!f)return null;const g=loader.parse(await f.arrayBuffer());g.computeVertexNormals();state.cache.set(k,g);return g}
+ function flattenCollada(text){const root=colladaLoader.parse(text,'').scene;root.updateMatrixWorld(true);const parts=[];root.traverse(o=>{if(!o.isMesh||!o.geometry?.getAttribute('position'))return;let g=o.geometry.clone();g.applyMatrix4(o.matrixWorld);for(const n of Object.keys(g.attributes))if(n!=='position')g.deleteAttribute(n);g.morphAttributes={};g.clearGroups();if(g.index)g=g.toNonIndexed();parts.push(g)});if(!parts.length)throw Error('DAE file contains no mesh geometry');const g=parts.length===1?parts[0]:mergeGeometries(parts,false);if(!g)throw Error('Unable to combine DAE mesh geometry');g.computeVertexNormals();g.computeBoundingSphere();return g}
+ async function geom(s){const k=base(s.filename);if(state.cache.has(k))return state.cache.get(k);const f=state.files.get(k);if(!f)return null;const g=/\.dae$/i.test(f.name||k)?flattenCollada(await f.text()):loader.parse(await f.arrayBuffer());if(!g.getAttribute('normal'))g.computeVertexNormals();state.cache.set(k,g);return g}
  function urdfMaterial(rgba){
    const c=rgba||[0.72,0.72,0.75,1];
    const a=Number.isFinite(c[3])?c[3]:1;

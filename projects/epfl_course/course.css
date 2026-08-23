@@ -213,7 +213,6 @@ h3 {
     padding: clamp(1rem, 3vw, 2rem);
     background:
         linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.9)),
-        url("/projects/epfl_course/assets/iiwa7_exercise_preview.png") center 18% / 115% auto no-repeat,
         var(--black);
 }
 

@@ -1,65 +1,201 @@
-/*
-  ENG-654 visualization bootstrap.
-  Navigation is intentionally loaded separately through js/deck/nav-runtime.js
-  so slide movement still works if a visualization module fails.
-*/
+var theme = "dark";
 
-document.addEventListener('DOMContentLoaded', async () => {
-  // Keep the visualization module graph on one revision. This prevents browsers
-  // from mixing a newly edited demo with stale cached dependencies.
-const revision = '20260820-62';
-  const loaders = [
-    async () => {
-      const module = await import(`./viz/robot2r.js?v=${revision}`);
-      module.initRobot2R?.();
-    },
-    async () => {
-      const module = await import(`./viz/threeRevolute.js?v=${revision}`);
-      module.initThreeRevoluteDemos?.();
-    },
-    async () => {
-      const module = await import(`./viz/frameDHPlayground.js?v=${revision}`);
-      module.initFrameDHPlaygrounds?.();
-    },
-    async () => {
-      const module = await import(`./viz/poeUrdfPlayground.js?v=${revision}`);
-      module.initPoeUrdfPlaygrounds?.();
-    },
-    async () => {
-      const module = await import(`./viz/custom3rIk.js?v=${revision}`);
-      module.initCustom3RIkDemos?.();
-    },
-    async () => {
-      const module = await import(`./viz/custom6rIk.js?v=${revision}`);
-      module.initCustom6RIkDemos?.();
-    },
-    async () => {
-      const module = await import(`./viz/pumaIiwaIk.js?v=${revision}`);
-      module.initPumaIiwaIkDemos?.();
-    },
-    async () => {
-      const module = await import(`./viz/singularityLecture.js?v=${revision}`);
-      module.initSingularityLecture?.();
-    },
-    async () => {
-      const module = await import(`./viz/cuspidalityLecture.js?v=${revision}`);
-      module.initCuspidalityLecture?.();
-    },
-    async () => {
-      const module = await import(`./viz/pathPlanningLecture.js?v=${revision}`);
-      module.initPathPlanningLecture?.();
-    },
-    async () => {
-      const module = await import(`./viz/redundantPlanningLecture.js?v=${revision}`);
-      module.initRedundantPlanningLecture?.();
-    }
-  ];
+function mysteryClick(address) {
+    let root = document.querySelector(":root")
+    root.style.setProperty("--halycon", "#f09d51")
+}
 
-  for (const load of loaders) {
-    try {
-      await load();
-    } catch (error) {
-      console.error('ENG-654 visualization module failed:', error);
+function abstractClick(element_id, element_id2 = "None") {
+    const hook = document.getElementById(element_id);
+    if (element_id2 != "None") {
+        const hook2 = document.getElementById(element_id2);
+        hook2.style.display = "none";
     }
-  }
+
+    if (hook.style.display === "none" || hook.style.display === "") {
+        hook.style.display = "block";
+    }
+    else {
+        hook.style.display = "none";
+        hook.style.color = "var(--blueBC)";
+    }
+}
+
+function open_tab(link_url) {
+    window.open(link_url, '_blank').focus();
+}
+
+function click_buzzword(element_id) {
+    let hook = document.getElementById(element_id);
+    let all_buzzwords = document.getElementsByClassName("buzzword")
+
+    for (let i = 0; i < all_buzzwords.length; i++) {
+        let current_buzzword = document.getElementById(all_buzzwords[i].id);
+        if ((current_buzzword.id !== element_id) && (current_buzzword.style.display) !== "none") {
+            current_buzzword.style.display = "none";
+        }
+    }
+
+    if (hook.style.display === "none" || hook.style.display === "") {
+        hook.style.display = "flex";
+    }
+    else {
+        hook.style.display = "none";
+    }
+}
+
+function project_image_click(currentIdPrefix) {
+    const parent = document.getElementById(currentIdPrefix).parentElement;
+    const images = Array.from(parent.getElementsByClassName("project_image"));
+    const currentIndex = images.findIndex(div => div.style.display === "flex" || div.style.display === "block");
+
+    if (currentIndex >= 0) {
+        images[currentIndex].style.display = "none";
+    }
+
+    const nextIndex = (currentIndex + 1) % images.length;
+    images[nextIndex].style.display = "flex";
+}
+
+function cycleImage(button, direction) {
+    const wrapper = button.closest(".carousel-wrapper");
+    const images = Array.from(wrapper.getElementsByClassName("project_image"));
+
+    let currentIndex = images.findIndex(img =>
+        img.style.display === "flex" || img.style.display === "block"
+    );
+
+    if (currentIndex !== -1) {
+        images[currentIndex].style.display = "none";
+        const nextIndex = (currentIndex + direction + images.length) % images.length;
+        images[nextIndex].style.display = "flex";
+    }
+}
+
+function click_recent(input_list, title_string) {
+    for (let ii = 0; ii < input_list.length; ii++) {
+        let hook = document.getElementById(input_list[ii]);
+        if (!hook.classList.contains("dropdown")) {
+            hook.style.display = "block";
+            hook.classList.remove("dropup");
+            void hook.offsetHeight;
+            hook.classList.add("dropdown");
+        } else {
+            hook.classList.remove("dropdown");
+            hook.classList.add("dropup");
+            setTimeout(() => {
+                if (hook.classList.contains("dropup")) {
+                    hook.style.display = "none";
+                    hook.classList.remove("dropup");
+                }
+            }, 260);
+        }
+    }
+
+    let hook = document.getElementById(title_string[0]);
+    if (hook.innerText.includes("+")) {
+        hook.innerText = "\u2014 " + title_string[1] + "  \u2191";
+    } else {
+        hook.innerText = "+ " + title_string[1] + "  \u2193";
+    }
+}
+
+function click_experience(address) {
+    const hook = document.getElementById(address);
+    const style = window.getComputedStyle(hook);
+    const isHidden = style.display === "none";
+
+    if (isHidden) {
+        hook.style.display = "flex";
+        hook.classList.add("dropdown");
+        if (address === "book_chapters") {
+            const spaceHook = document.getElementById("lastSpacer");
+            if (window.getComputedStyle(spaceHook).display === "block") {
+                spaceHook.style.display = "none";
+            }
+        }
+    } else {
+        hook.style.display = "none";
+        hook.classList.remove("dropdown");
+        if (address === "book_chapters") {
+            const spaceHook = document.getElementById("lastSpacer");
+            if (window.getComputedStyle(spaceHook).display === "none") {
+                spaceHook.style.display = "block";
+            }
+        }
+    }
+}
+
+function blink(retry = 0) {
+    const el = document.getElementById("logoBlock");
+    const foot = document.getElementById("emailid");
+
+    if ((!el || !foot) && retry < 8) {
+        setTimeout(() => blink(retry + 1), 140);
+        return;
+    }
+    if (!el || !foot) return;
+
+    foot.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    [el, foot].forEach(node => {
+        node.classList.remove("contact-spotlight-pulse", "blink");
+        void node.offsetWidth;
+        node.classList.add("contact-spotlight-pulse", "blink");
+    });
+
+    setTimeout(() => {
+        [el, foot].forEach(node => {
+            node.classList.remove("contact-spotlight-pulse", "blink");
+        });
+    }, 2500);
+}
+
+function changeTheme() {
+    let el = document.getElementById("logoBlock");
+    let foot = document.getElementById("emailid");
+    el.classList.remove("blink")
+    foot.classList.remove("blink")
+
+    setTimeout(function () {
+        el.classList.add("blink")
+        foot.classList.add("blink")
+    }, 5);
+}
+
+function adjustFooterPosition() {
+    const footer = document.querySelector("footer");
+    if (!footer) return;
+
+    footer.style.position = "";
+    footer.style.bottom = "";
+    footer.style.width = "";
+
+    const bodyHeight = document.body.offsetHeight;
+    const windowHeight = window.innerHeight;
+
+    if (bodyHeight < windowHeight) {
+        footer.style.position = "fixed";
+        footer.style.bottom = "0";
+        footer.style.width = "100%";
+    } else {
+        footer.style.position = "static";
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('a[data-target]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('data-target');
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+                history.replaceState(null, '', ' ');
+            }
+        });
+    });
 });
+
+document.addEventListener("DOMContentLoaded", adjustFooterPosition);
+window.addEventListener("resize", adjustFooterPosition);

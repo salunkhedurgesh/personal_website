@@ -1,0 +1,291 @@
+{
+  "reports": [
+    {
+      "name": "index",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "index",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "index",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "research",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "research",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "research",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "research-detail",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "research-detail",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "research-detail",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "projects",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "projects",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "projects",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "publications",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "publications",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "publications",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "courses",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "courses",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "courses",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "notes",
+      "scrollWidth": 1425,
+      "width": 1440,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "notes",
+      "scrollWidth": 375,
+      "width": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    },
+    {
+      "name": "notes",
+      "scrollWidth": 305,
+      "width": 320,
+      "overflow": [],
+      "brokenImages": [],
+      "fontReady": true
+    }
+  ],
+  "variants": [
+    {
+      "accent": "lime",
+      "font": "grotesk",
+      "headingFont": "\"Space Grotesk\", system-ui, sans-serif",
+      "bodyFont": "\"Space Grotesk\", system-ui, sans-serif",
+      "fonts": [
+        "Inter",
+        "Space Grotesk"
+      ],
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "accent": "lime",
+      "overflow": false
+    },
+    {
+      "accent": "lilac",
+      "font": "editorial",
+      "headingFont": "Newsreader, Georgia, serif",
+      "bodyFont": "Inter, system-ui, sans-serif",
+      "fonts": [
+        "Inter",
+        "Newsreader"
+      ],
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "accent": "lilac",
+      "overflow": false
+    },
+    {
+      "accent": "mint",
+      "font": "plex",
+      "headingFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "bodyFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "fonts": [
+        "Inter",
+        "IBM Plex Sans"
+      ],
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "accent": "mint",
+      "overflow": false
+    }
+  ],
+  "controls": [
+    {
+      "accent": "blue",
+      "ink": "#FFFFFF",
+      "pressed": 1
+    },
+    {
+      "accent": "lime",
+      "ink": "#111111",
+      "pressed": 1
+    },
+    {
+      "accent": "coral",
+      "ink": "#111111",
+      "pressed": 1
+    },
+    {
+      "accent": "violet",
+      "ink": "#FFFFFF",
+      "pressed": 1
+    },
+    {
+      "accent": "lilac",
+      "ink": "#111111",
+      "pressed": 1
+    },
+    {
+      "accent": "mint",
+      "ink": "#111111",
+      "pressed": 1
+    },
+    {
+      "accent": "peach",
+      "ink": "#111111",
+      "pressed": 1
+    },
+    {
+      "accent": "ice",
+      "ink": "#111111",
+      "pressed": 1
+    },
+    {
+      "preset": "grotesk",
+      "effect": "lift",
+      "url": "?accent=lime&font=grotesk&effect=lift",
+      "link": "http://127.0.0.1:8766/design-study/atlas-lab/research.html?accent=lime&font=grotesk&effect=lift"
+    },
+    {
+      "reset": "blue"
+    }
+  ],
+  "navigation": {
+    "path": "/design-study/atlas-lab/research.html",
+    "accent": "lime",
+    "font": "grotesk"
+  },
+  "filters": [
+    20,
+    1,
+    0,
+    true,
+    20,
+    "lime"
+  ],
+  "motion": {
+    "reduced": true,
+    "transition": "0s"
+  },
+  "errors": []
+}

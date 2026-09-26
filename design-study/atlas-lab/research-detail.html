@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="noindex" name="robots"/>
+<meta content="A plain-language introduction to kinematic intelligence for transferring demonstrated skills between robots." name="description"/>
+<title>Kinematic intelligence · Durgesh Salunkhe · Atlas lab</title>
+<link href="lab.css" rel="stylesheet"/>
+<script defer="" src="lab.js"></script>
+</head>
+<body data-page="research">
+<a class="skip" href="#main">Skip to content</a>
+<div id="experiment-controls"></div>
+<header class="site-header site-shell">
+<a class="identity" href="index.html">Durgesh Salunkhe<small>ROBOTICS RESEARCHER</small></a>
+<nav aria-label="Main navigation" class="site-nav"><a aria-current="page" href="research.html">Research</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="courses.html">Courses</a><a href="index.html#contact">Contact</a></nav>
+</header>
+<main class="site-shell" id="main">
+<section class="page-intro">
+<p class="eyebrow"><a href="research.html#learning">Research / Kinematic intelligence</a></p>
+<h1>One demonstrated skill.<br/>Different robot bodies.</h1>
+<p class="lead">A robot can learn a motion from a demonstration. But what happens when its arm changes? Our work uses an analytical understanding of robot geometry to help a learned skill transfer.</p>
+<p class="meta">Science Robotics · 2026 · Sthithpragya Gupta, Durgesh Haribhau Salunkhe &amp; Aude Billard</p>
+<div class="actions"><a class="button" href="../../projects/main/resources/papers/science25_gupta.pdf">Read the paper · PDF ↗</a><a class="button secondary" href="#idea">Understand the idea ↓</a></div>
+</section>
+<section class="section" id="idea">
+<div class="section-head"><div><p class="eyebrow">The question</p><h2>How much of a skill<br/>belongs to the robot?</h2></div></div>
+<div class="story-layout">
+<div class="prose">
+<p>Imagine showing one robot how to move toward a target. A second robot might have different link lengths, joint orientations or joint limits. The same command can produce a different motion—or request a configuration it cannot reach.</p>
+<p>Our approach brings these differences into the control policy itself. The robot’s kinematic structure becomes part of how a demonstrated behavior is represented and executed.</p>
+<h3>What we mean by “kinematic intelligence”</h3>
+<p>An internal representation of the robot’s joint limits, singularities and connectivity: which configurations are available, and how the robot can move between them. This gives learning an explicit description of the body it controls.</p>
+</div>
+<aside class="card">
+<p class="kicker">New to the topic?</p>
+<h3>Three words that help.</h3>
+<dl class="fact-list"><dt>Configuration</dt><dd>The robot’s joint positions.</dd><dt>Singularity</dt><dd>A configuration where the relationship between joint motion and tool motion loses rank.</dd><dt>Policy</dt><dd>A rule mapping the robot’s state to its next action.</dd></dl>
+<a class="text-link" href="courses.html">Explore the course foundations</a>
+</aside>
+</div>
+</section>
+<section class="section" id="method">
+<div class="section-head"><div><p class="eyebrow">Method &amp; evidence</p><h2>Geometry enters<br/>before execution.</h2></div><p>A reading guide to the contribution. The paper contains the formal assumptions, derivations and experiments.</p></div>
+<div class="grid-three">
+<article class="card"><p class="kicker">01 / Model</p><h3>Classify the geometry.</h3><p>The framework builds on an analytical classification of noncuspidal three-revolute-joint robots, useful building blocks for many commercial manipulators.</p></article>
+<article class="card"><p class="kicker">02 / Learn</p><h3>Represent the behavior.</h3><p>One or more demonstrations define a globally stable dynamical system. Robot-specific kinematic constraints enter the resulting joint-space policy.</p></article>
+<article class="card"><p class="kicker">03 / Transfer</p><h3>Evaluate across bodies.</h3><p>The study tests transfer on simulated and real robots with varied link geometries and joint configurations, including redundant and nonredundant robots.</p></article>
+</div>
+<div class="story-layout section">
+<div class="prose"><h3>What the experiments show</h3><p>The paper reports execution of demonstrated skills across the tested robot structures without retuning. The contribution connects an analytical description of kinematics with learning from demonstration.</p></div>
+<aside class="card"><p class="kicker">Scope matters</p><p>The analytical foundation concerns noncuspidal 3R structures. The paper’s conditions and experiments define the scope of its results; they are not a universal guarantee for arbitrary robots, tasks or environments.</p><a class="text-link" href="research.html#geometry">Why cuspidality is another research question</a></aside>
+</div>
+</section>
+<section class="section" id="paper">
+<div class="section-head"><div><p class="eyebrow">Read &amp; continue</p><h2>The complete study.</h2></div></div>
+<article class="card">
+<p class="kicker">Science Robotics · 2026</p>
+<h3>Demonstrate once, execute on many: Kinematic intelligence for cross-robot skill transfer</h3>
+<p>Sthithpragya Gupta, Durgesh Haribhau Salunkhe, Aude Billard</p>
+<div class="actions"><a class="button" href="../../projects/main/resources/papers/science25_gupta.pdf">Paper PDF ↗</a><a class="button secondary" href="https://doi.org/10.1126/scirobotics.aea1995">Publisher / DOI ↗</a><a class="text-link" href="../../projects/main/resources/citations/science25_gupta.bib">BibTeX</a></div>
+</article>
+<div class="actions"><a class="text-link" href="projects.html#kinematic-intelligence">Follow the related investigation</a><a class="text-link" href="research.html">Return to research themes</a></div>
+</section>
+</main>
+<footer class="site-footer site-shell"><span>Durgesh Salunkhe · Research Atlas design study</span><a href="../index.html">Design discussion →</a><a href="notes.html">Structure &amp; design notes</a></footer>
+</body>
+</html>

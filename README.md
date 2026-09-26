@@ -1,92 +1,72 @@
-# ENG-654 HTML Lecture Template
+# Dr. Durgesh Salunkhe · Research Portfolio & Academic Website
 
-This repository is a reusable HTML/CSS/JS lecture-deck template for **Kinematics-Grounded Motion Planning for Robots**.
+This repository contains the official academic website and research dissemination platform of **Dr. Durgesh Salunkhe**, Permanent Researcher at **CNRS** (Centre National de la Recherche Scientifique), formerly Postdoctoral Researcher at **EPFL LASA**, and Ph.D. graduate from **LS2N**, Nantes Université.
 
-## Run locally
+---
+
+## 🏛️ Research Focus
+
+* **Kinematic Intelligence:** Embedding analytical singularities, joint limits, and topology directly into robot learning dynamical systems to achieve zero-shot cross-robot skill transfer (*Science Robotics 2026*).
+* **Geometry & Certified Motion Planning:** Classifying cuspidal behaviors, non-singular posture changes, and feasibility in commercial cobots (Franka, KUKA, FANUC, JACO) (*IEEE RA-L 2025*, *IJRR 2024*, *ICRA 2023*).
+* **Mechanically Intelligent Design:** Novel mechanisms embodying physical intelligence, including spherical X-joints with pure rolling kinematics and surgical parallel manipulators (*CK 2025*, *MMT 2022*).
+
+---
+
+## 🚀 Running the Website Locally
+
+You can run the website with Python's built-in static server or the included Flask server:
 
 ```bash
-chmod +x start_server.sh
+# Option 1: Native Python HTTP Server
+python3 -m http.server 8000
+
+# Option 2: Full Flask Server (with clean routes and CNRS portal)
 ./start_server.sh
 ```
 
-Open: <http://localhost:8000>
+Then open your browser to [http://localhost:8000](http://localhost:8000) (or `http://localhost:8080` for Flask).
 
-Do not open the lecture files with `file://` when using JavaScript modules or Three.js.
+---
 
-## Repository structure
+## 📁 Repository Structure
 
 ```text
-lectures/                  eight lecture documents
-css/                       separated style layers
-js/deck/                   slide navigation, reveal logic, scroll/deck modes
-js/viz/                    importable visualization modules
-assets/images/             photos and raster figures
-assets/svg/                reusable SVG figures
-assets/videos/             mp4/gif assets
-assets/models/             URDF, mesh, robot assets
-vendor/three/              local Three.js path used by import map
-templates/                 copy-paste slide patterns
-docs/                      authoring notes and uploaded lecture plan
+personal_website/
+├── index.html              # Main homepage: Research pillars, highlights, interactive lab
+├── projects.html           # Research projects & consortia (EuRobin, DARKO, ECARP, FAME)
+├── publications.html       # Statically rendered, searchable publications library (20 papers)
+├── personal.html           # Personal perspectives, philosophy, chess, and languages
+├── server.py               # Clean routing server & CNRS access portal
+├── styles/
+│   ├── tokens.css          # Design tokens, local variable fonts, theme & accent presets
+│   └── site.css            # Modular master stylesheet (responsive, print-friendly)
+├── js/
+│   └── site.js             # Client engine: interactive design studio, filters, 2R kinematics
+├── assets/
+│   ├── fonts/              # Local variable fonts (Space Grotesk, Inter, Newsreader, IBM Plex)
+│   ├── icons/              # Verified UI icons (PNGs for cite, PDF, links, social)
+│   └── images/             # Profile portraits, project figures
+├── projects/
+│   ├── cnrs26/             # CNRS interview dossier & teleprompter
+│   ├── epfl_course/        # EPFL ENG-654 course overview & lectures
+│   └── journal_webpages/   # Dedicated paper microsites (e.g., IEEE RA-L 2025)
+├── lectures/               # ENG-654 lecture slide decks (Lectures 01 to 08)
+└── personal_website_backup.zip  # Full backup archive preserved prior to overhaul
 ```
 
-## Main conventions
+---
 
-- Theme: EPFL red, black, white; secondary scientific palette in `css/base.css`.
-- Typography: responsive `clamp(...)` variables in `:root`.
-- 2D SVG convention: mathematics is **y-up**; SVG drawing uses `svgY(y) = -y`.
-- 3D Three.js convention: robotics world is **z-up**. The root group is rotated by `Rx(-Math.PI/2)` in `js/viz/threeUtils.js`.
-- Step reveals: add `.reveal-children` or `data-reveal="children"` to a flex/grid container.
-- Toggle modes: press `T` or the navbar button to switch between deck side-scroll and infinite scroll.
-- Fullscreen: press `F`.
+## 🎨 Interactive Design & Typography Studio
 
-## Three.js note
+The website includes a live **Design & Typography Studio** (accessible via the `Studio ✦` button in the top navigation):
+* **Typography Pairings:** Switch between *Space Grotesk + Inter* (Kinematic Hybrid), *Newsreader + Inter* (Academic Editorial), *Space Grotesk Only* (Tech), or *IBM Plex Sans* (Humanist).
+* **Reading Density:** Select between Compact (15px), Standard (16.5px), and Large (18px) text scales.
+* **Accent Moods:** Choose from *Halycon Emerald*, *Warm Amber*, *Horizon Sky*, *Solar Coral*, or *Electric Lilac*.
+* **Canvas Modes:** Toggle between *Cosmic Dark* (`#03122b`) and *Academic Light* (`#f8fafc`).
+Preferences automatically persist across sessions in `localStorage`.
 
-The repository is wired for local Three.js through the import map in each lecture file:
+---
 
-```html
-"three": "../vendor/three/build/three.module.js",
-"three/addons/": "../vendor/three/examples/jsm/"
-```
+## 📄 License & Attribution
 
-A small local fallback is included so the template can be opened immediately. To replace it with official Three.js files when you have internet:
-
-```bash
-./tools/fetch_three.sh
-```
-
-This downloads `three.module.js` and `OrbitControls.js` into `vendor/three/`.
-
-## Creating a new slide
-
-Every slide is one `<section class="slide">...</section>` inside `<main id="deck">`.
-
-```html
-<section class="slide">
-  <h2 class="slide-title">My slide title</h2>
-  <div class="layout-40-60">
-    <div>
-      <p class="lead">Main concept.</p>
-    </div>
-    <div class="visual-container">
-      <img class="technical-figure" src="../assets/svg/example.svg" alt="Example">
-    </div>
-  </div>
-</section>
-```
-
-## Navigation controls
-
-Navigation is handled by `js/deck/nav-runtime.js`, a plain non-module script. This is deliberate: the lecture controls continue working even if a Three.js or other visualization import fails.
-
-- Right arrow, PageDown, Space: next reveal / next slide
-- Left arrow, PageUp: previous reveal / previous slide
-- Home / End: first / last slide
-- T: toggle deck mode and scroll mode
-- F: fullscreen
-- Bottom bar buttons: previous, next, scroll/deck toggle, fullscreen
-
-
-
-## Slide numbers
-
-Slide numbers are injected automatically by `js/deck/nav-runtime.js` as a subtle overlay in the bottom-left corner. To hide the number on a particular slide, add `data-slide-number="off"` to that `<section class="slide">`.
+All research publications, manuscripts, and slides remain the copyright of their respective authors and publishers (AAAS, IEEE, SAGE, Elsevier). Website code and design architecture are maintained by Durgesh Salunkhe.

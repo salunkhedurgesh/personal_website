@@ -1,173 +1,462 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="dark" data-accent="emerald" data-font="hybrid" data-scale="md">
 <head>
     <meta charset="UTF-8">
-    <title>Durgesh Salunkhe</title>
-    <link rel="stylesheet" href="/styles/style.css">
-    <script type="text/javascript" src="/js/main.js"></script>
-    <script type="text/javascript" src="/js/generate_index.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Durgesh Salunkhe · Robotics Researcher</title>
+    <meta name="description" content="Personal academic website of Dr. Durgesh Salunkhe, Researcher at CNRS, Strasbourg. Research in robot design, kinematics, dynamics, motion planning, robot learning, and skill transfer.">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="/styles/site.css">
+    <script src="/js/site.js" defer></script>
 </head>
+<body>
 
-<body class="index-page">
+    <!-- Header Navigation (Icons Only) -->
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a href="/" class="brand-link" title="Durgesh Salunkhe">
+                <img src="/assets/icons/logo_indark.png" alt="Durgesh Salunkhe logo" class="brand-logo">
+                <div class="brand-title">
+                    <span>Durgesh Salunkhe</span>
+                    <span class="brand-subtitle">CNRS, Strasbourg</span>
+                </div>
+            </a>
 
-    <div style="display: flex; flex-direction: row;">
-        <div class="logo" style="align-items: center;">
-            <a id="personalLink"><img id="logoImg" alt="logo" class="mainicon"></a>
-            <p>work</p>
-        </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
 
-        <div id="small_name" m style="margin-left: 1rem; z-index: 10; translate: 0 -0.5rem;">
-            Durgesh Salunkhe
-        </div>
+            <!-- Nav Links: Strictly Icons Only -->
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="/" class="active" data-tooltip="Home" aria-label="Home">
+                        <img src="/assets/icons/home_green.png" alt="Home" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/projects.html" data-tooltip="Projects" aria-label="Projects">
+                        <img src="/assets/icons/projects_green.png" alt="Projects" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/publications.html" data-tooltip="Publications" aria-label="Publications">
+                        <img src="/assets/icons/publications_green.png" alt="Publications" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/personal.html" data-tooltip="Personal" aria-label="Personal">
+                        <img src="/assets/icons/personal.png" alt="Personal" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#connect" data-tooltip="Connect" aria-label="Connect">
+                        <img src="/assets/icons/contact_green.png" alt="Connect" class="nav-icon">
+                    </a>
+                </li>
+            </ul>
 
-    </div>
-
-
-    <div class="navcontent">
-        <a id="experienceLink">
-            <span class="navlogo"><img id="experienceImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">01.</span> <span class="navtitle">experience</span>
-        </a>
-        <a id="publicationsLink">
-            <span class="navlogo"><img id="publicationsImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">02.</span> <span class="navtitle">publications</span>
-        </a>
-        <a id="projectsLink">
-            <span class="navlogo"><img id="projectsImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">03.</span> <span class="navtitle">projects</span>
-        </a>
-        <a id="contactLink" onclick="blink()">
-            <span class="navlogo"><img id="contactImage" class="navicon"></span>
-            <div style="width: 1rem;"></div>
-            <span class="navnum">04.</span> <span class="navtitle">contact</span>
-        </a>
-    </div>
-
-
-    <div class="topBack"></div>
-
-    <div class="hero">
-
-        <div id="contactTop"></div>
-        <script>
-            fetch('/projects/main/common/common_contact.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('contactTop').innerHTML = data;
-                });
-        </script>
-
-        <script type="text/javascript" src="/js/helpers_index.js"></script>
-
-        <div class="middleblock">
-            <p class="hello">Hello, I am</p>
-            <div class="nameblock" id="name">
-                <h1>D</h1>
-                <h1>u</h1>
-                <h1>r</h1>
-                <h1>g</h1>
-                <h1>e</h1>
-                <h1>s</h1>
-                <h1>h</h1>
-                <h1>&nbsp;</h1>
-                <h1>S</h1>
-                <h1>a</h1>
-                <h1>l</h1>
-                <h1>u</h1>
-                <h1>n</h1>
-                <h1>k</h1>
-                <h1>h</h1>
-                <h1>e</h1>
+            <div class="nav-actions">
+                <button id="studioToggleBtn" class="studio-toggle-btn" title="Open Design &amp; Typography Studio">
+                    <span>Studio ✦</span>
+                </button>
             </div>
+        </div>
+    </header>
 
-            <h2>I am a researcher at
-                <a href="https://www.epfl.ch/labs/lasa/" target="_blank" class="ls2n">LASA lab</a>,
-                <a href="https://www.epfl.ch/" target="_blank" class="ls2n">EPFL</a>
-            </h2>
+    <main class="site-main">
 
-            <script>
-                window.addEventListener("scroll", () => {
-                    const name_holder = document.getElementById("small_name")
-                    const current = window.scrollY;
-                    let w = window.innerWidth;
-                    let h = window.innerHeight;
-                    // console.log(current);
-                    // console.log(name_holder.style.display)
-                    // console.log(w)
-                    if (w < 1200) {
-                        return 0
-                    }
-                    if (window.scrollY >= 204) {
-                        name_holder.style.display = "flex"
-                        name_holder.style.transition = "linear"
-                    }
-                    else {
-                        name_holder.style.display = "none"
-                    }
-                })
-            </script>
+        <!-- Hero Section -->
+        <section class="section hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="hello">Hello, I am</p>
 
-            <div class="profile">
-                <img src="/projects/main/webpage_resources/images/profile_pic.jpeg" alt="profile pic" id="profile-pic">
-                
-                <div class="profileDetails">
-                    <h2>About Me</h2>
-                    <div id="about_me"></div>
-                    <script>
-                        fetch('/projects/main/helper_index/aboutMe.html')
-                            .then(response => response.text())
-                            .then(data => {
-                                document.getElementById('about_me').innerHTML = data;
-                            });
-                    </script>
-
-                    <div class="flexbox">
-                        <a href="/projects/main/resources/resume_durgesh.pdf"
-                            target="_blank"><button>Resume</button></a>
+                    <!-- Name with Dancing Fonts on Hover -->
+                    <div class="nameblock" id="name">
+                        <span class="dancing-letter">D</span>
+                        <span class="dancing-letter">u</span>
+                        <span class="dancing-letter">r</span>
+                        <span class="dancing-letter">g</span>
+                        <span class="dancing-letter">e</span>
+                        <span class="dancing-letter">s</span>
+                        <span class="dancing-letter">h</span>
+                        <span class="dancing-letter space">&nbsp;</span>
+                        <span class="dancing-letter">S</span>
+                        <span class="dancing-letter">a</span>
+                        <span class="dancing-letter">l</span>
+                        <span class="dancing-letter">u</span>
+                        <span class="dancing-letter">n</span>
+                        <span class="dancing-letter">k</span>
+                        <span class="dancing-letter">h</span>
+                        <span class="dancing-letter">e</span>
                     </div>
 
+                    <h2 class="hero-affiliation-heading">
+                        I am a Researcher at <a href="https://www.cnrs.fr/" target="_blank">CNRS, Strasbourg</a>.
+                    </h2>
+
+                    <p class="lead">
+                        I am interested in <strong>robot design, kinematics, dynamics, motion planning, robot learning and skill transfer</strong>.
+                    </p>
+
+                    <p>
+                        Previously, I was a postdoctoral researcher at the <a href="https://www.epfl.ch/labs/lasa/" target="_blank">LASA laboratory</a>, EPFL, and completed my Ph.D. at <a href="https://www.ls2n.fr/" target="_blank">LS2N</a>, Nantes Université, investigating cuspidal robots and certified geometric motion planning.
+                    </p>
+
+                    <div class="philosophy-card">
+                        <div class="philosophy-intro">I believe,</div>
+                        <p class="philosophy-quote">
+                            &ldquo;Pure learning is powerful but blind. Pure analysis is precise but brittle. The future of robotics demands both &mdash; robots that are mechanically intelligent by design, and relentlessly adaptive by learning.&rdquo;
+                        </p>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="#pillars" class="btn btn-primary">Research Pillars ↓</a>
+                        <a href="/publications.html" class="btn btn-secondary">
+                            <img src="/assets/icons/publications_green.png" alt="Publications" class="btn-icon">
+                            <span>Publications</span>
+                        </a>
+                        <a href="/projects.html" class="btn btn-secondary">
+                            <img src="/assets/icons/projects_green.png" alt="Projects" class="btn-icon">
+                            <span>Projects</span>
+                        </a>
+                        <a href="/personal.html" class="btn btn-secondary">
+                            <img src="/assets/icons/personal.png" alt="Personal" class="btn-icon">
+                            <span>Personal Side</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-portrait-card">
+                    <img src="/assets/images/profile_pic.jpeg" alt="Durgesh Salunkhe" class="portrait-img">
+                    <div class="portrait-caption">
+                        <div>
+                            <div class="portrait-caption-title">Dr. Durgesh Salunkhe</div>
+                            <div class="portrait-caption-sub">Researcher · CNRS, Strasbourg</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Research Pillars Section -->
+        <section class="section" id="pillars">
+            <div class="container">
+                <div class="eyebrow">01 / Focus Areas</div>
+                <h2>Core Research Pillars</h2>
+                <p class="lead" style="max-width: 820px;">
+                    Investigating the deep relationship between mechanism geometry, kinematics, and adaptive robot learning.
+                </p>
+
+                <div class="pillars-grid">
+                    <article class="pillar-card">
+                        <div>
+                            <span class="pillar-num">01</span>
+                            <h3 class="pillar-title">Kinematic Intelligence &amp; Skill Transfer</h3>
+                            <p class="pillar-text">
+                                Augmenting robot learning with analytical kinematics. Embedding singularities, boundaries, and joint topologies directly into dynamical system control policies so demonstrated skills transfer across heterogeneous robot embodiments without manual retuning.
+                            </p>
+                        </div>
+                        <div class="pillar-footer">
+                            <span class="venue-badge">Science Robotics '26</span>
+                            <a href="/projects.html#eurobin">Part of EuRobin ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="pillar-card">
+                        <div>
+                            <span class="pillar-num">02</span>
+                            <h3 class="pillar-title">Geometry, Dynamics &amp; Motion Planning</h3>
+                            <p class="pillar-text">
+                                Systematic classification of cuspidal robots, nonsingular posture changes, and certified motion planning for commercial serial arms and redundant 7R cobots using Conformal Geometric Algebra and polynomial algebra.
+                            </p>
+                        </div>
+                        <div class="pillar-footer">
+                            <span class="venue-badge">RA-L '25 · IJRR '24</span>
+                            <a href="/projects.html#darko">Part of DARKO &amp; ECARP ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="pillar-card">
+                        <div>
+                            <span class="pillar-num">03</span>
+                            <h3 class="pillar-title">Mechanically Intelligent Design</h3>
+                            <p class="pillar-text">
+                                Synthesizing novel robot mechanism topologies whose mechanical architecture embodies intelligence: cable-driven spherical X-joints with pure rolling kinematics, surgical parallel manipulators, and sensorless compliant platforms.
+                            </p>
+                        </div>
+                        <div class="pillar-footer">
+                            <span class="venue-badge">CK '25 · MMT '22</span>
+                            <a href="/projects.html#fame">Surgical &amp; Novel PMs ↗</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Works -->
+        <section class="section" id="selected-works">
+            <div class="container">
+                <div class="eyebrow">02 / Selected Works</div>
+                <h2>Featured Investigations</h2>
+                <p class="lead" style="max-width: 820px;">
+                    Key publications connecting kinematic theory with robotic learning and collaborative manipulation.
+                </p>
+
+                <!-- Science Robotics / EuRobin -->
+                <article class="breakthrough-card">
+                    <div class="breakthrough-info">
+                        <div class="breakthrough-meta">
+                            <span class="venue-badge">Science Robotics · 2026</span>
+                            <a href="/projects.html#eurobin" class="project-link-badge">Part of Project: EuRobin ↗</a>
+                        </div>
+                        <h3>Demonstrate once, execute on many: Kinematic intelligence for cross-robot skill transfer</h3>
+                        <p>
+                            Learning from demonstration (LfD) enables intuitive skill acquisition, but learned policies historically fail when transferred to robots with different kinematic structures or limits. We embed analytical singularities and joint constraints directly into globally stable dynamical systems, achieving zero-shot cross-robot transfer across both redundant and non-redundant manipulators.
+                        </p>
+                        <p style="font-size: 0.92rem; color: var(--text-muted);">
+                            <strong>Authors:</strong> Sthithpragya Gupta, <span class="highlight">Durgesh Haribhau Salunkhe</span>, Aude Billard
+                        </p>
+                        <div class="paper-actions">
+                            <a href="/projects/main/resources/papers/science25_gupta.pdf" target="_blank" class="action-btn">
+                                <img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon">
+                                <span>PDF</span>
+                            </a>
+                            <a href="https://doi.org/10.1126/scirobotics.aea1995" target="_blank" class="action-btn">
+                                <img src="/assets/icons/web_internet.png" alt="DOI" class="action-icon">
+                                <span>DOI Link</span>
+                            </a>
+                            <a href="/projects/main/resources/citations/science25_gupta.bib" target="_blank" class="action-btn">
+                                <img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon">
+                                <span>BibTeX</span>
+                            </a>
+                            <button onclick="toggleAbstract('sci-abs-home')" class="action-btn">
+                                <img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon">
+                                <span>Abstract</span>
+                            </button>
+                        </div>
+                        <div id="sci-abs-home" class="paper-abstract">
+                            Teaching robots new skills should be as natural as showing rather than programming. Learning from demonstration (LfD) moves toward this goal by allowing users to guide a robot or sketch a desired motion, enabling learning without writing a line of code. However, most LfD methods remain tied to the robot they were trained on. Here, we introduce a framework that endows robots with kinematic intelligence: an internal understanding of their own joint limits, singularities, and connectivity.
+                        </div>
+                    </div>
+                    <div class="breakthrough-visual">
+                        <svg viewBox="0 0 460 280" role="img" aria-label="Kinematic Skill Transfer Concept">
+                            <path d="M128 60 C155 14 188 104 229 62 S278 30 319 60" fill="none" stroke="var(--accent)" stroke-width="3.5"/>
+                            <circle cx="128" cy="60" r="6" fill="var(--accent)"/>
+                            <circle cx="319" cy="60" r="6" fill="var(--accent)"/>
+                            <path d="M225 95V120 M225 120H105V143 M225 120H345V143" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                            <path d="M70 242L95 174L150 205 M285 242L308 201L366 165L395 204" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+                            <circle cx="95" cy="174" r="7" fill="var(--accent)"/>
+                            <circle cx="150" cy="205" r="5" fill="var(--accent)"/>
+                            <circle cx="308" cy="201" r="7" fill="var(--accent)"/>
+                            <circle cx="366" cy="165" r="7" fill="var(--accent)"/>
+                            <text x="145" y="30" fill="currentColor" font-size="12" font-family="var(--font-heading)">Demonstrated Skill Trajectory</text>
+                        </svg>
+                        <span style="font-size:0.82rem; color:var(--text-muted); margin-top:0.5rem;">Skill generalization across distinct manipulator kinematics</span>
+                    </div>
+                </article>
+
+                <!-- RA-L / DARKO -->
+                <article class="breakthrough-card">
+                    <div class="breakthrough-info">
+                        <div class="breakthrough-meta">
+                            <span class="venue-badge">IEEE RA-L · 2025</span>
+                            <a href="/projects.html#darko" class="project-link-badge">Part of Project: DARKO ↗</a>
+                        </div>
+                        <h3>Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots</h3>
+                        <p>
+                            Redundant 7-DOF robots offer superior dexterity but introduce complex kinematic issues: cuspidality allows them to transition between inverse kinematic solutions without meeting a singularity. Under the European DARKO initiative, we established a systematic framework reducing 7R architectures to parameterized 3R equivalents, proving when commercial cobots exhibit unexpected nonsingular posture changes.
+                        </p>
+                        <p style="font-size: 0.92rem; color: var(--text-muted);">
+                            <strong>Authors:</strong> <span class="highlight">Durgesh Haribhau Salunkhe</span>, Sthithpragya Gupta, Aude Billard
+                        </p>
+                        <div class="paper-actions">
+                            <a href="/projects/main/resources/papers/ral25_salunkhe.pdf" target="_blank" class="action-btn">
+                                <img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon">
+                                <span>PDF</span>
+                            </a>
+                            <a href="/projects/journal_webpages/2025/ral25_salunkhe/index.html" class="action-btn">
+                                <img src="/assets/icons/web_internet.png" alt="Project Page" class="action-icon">
+                                <span>Interactive Page</span>
+                            </a>
+                            <a href="/projects/main/resources/citations/ral25_salunkhe.bib" target="_blank" class="action-btn">
+                                <img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon">
+                                <span>BibTeX</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="breakthrough-visual">
+                        <img src="/projects/journal_webpages/2025/ral25_salunkhe/figures/franka_kinematics.png" alt="Franka 7R kinematic parameterization">
+                        <span style="font-size:0.82rem; color:var(--text-muted); margin-top:0.5rem;">Cuspidality analysis for 7-DOF collaborative arms</span>
+                    </div>
+                </article>
+
+                <div style="text-align: center; margin-top: 1.5rem;">
+                    <a href="/publications.html" class="btn btn-secondary">
+                        <img src="/assets/icons/publications_green.png" alt="Publications" class="btn-icon">
+                        <span>View All Publications (20 Papers) ↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pedagogy Section -->
+        <section class="section" id="pedagogy">
+            <div class="container" style="max-width: 860px;">
+                <div class="eyebrow">03 / Teaching &amp; Mentorship</div>
+                <h2>Pedagogy</h2>
+                <p class="lead">
+                    Committed to rigorous education accessible to all.
+                </p>
+                <p>
+                    I actively contribute to educational initiatives bridging classical mathematics, kinematic geometry, and modern robotic control. This includes developing doctoral lecture materials for <strong>EPFL ENG-654</strong> (<em>Kinematics-Grounded Motion Planning for Robots</em>) and modules for <strong>IEEE RAS University</strong>.
+                </p>
+                <p>
+                    Prospective students, interns, and academic collaborators interested in geometric robotics, robot learning with guarantees, and mechanism design are warmly encouraged to connect.
+                </p>
+                <div class="btn-group" style="margin-top: 1.25rem;">
+                    <a href="/projects/epfl_course/index.html" class="btn btn-secondary">
+                        <span>EPFL Course Modules &amp; Simulators ↗</span>
+                    </a>
+                    <a href="https://www.ieee-ras.org/education/ras-university" target="_blank" class="btn btn-secondary">
+                        <span>IEEE RAS University ↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pure Icon Connect Section (No bulky blocks, no text buttons) -->
+        <section class="section" id="connect">
+            <div class="container" style="text-align: center; max-width: 680px;">
+                <div class="eyebrow">04 / Connect</div>
+                <h2>Let's talk robotics.</h2>
+                <p style="font-size: 1.05rem;">
+                    Whether you are a student exploring geometric robotics, an academic colleague, or an industrial collaborator, feel free to reach out.
+                </p>
+
+                <!-- Pure icons only -->
+                <div class="connect-icon-row">
+                    <a href="mailto:salunkhedurgesh@gmail.com" class="connect-icon-btn" data-tooltip="Email" aria-label="Email">
+                        <img src="/assets/icons/email_indark.png" alt="Email">
+                    </a>
+                    <a href="https://github.com/salunkhedurgesh" target="_blank" class="connect-icon-btn" data-tooltip="GitHub" aria-label="GitHub">
+                        <img src="/assets/icons/github_indark.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/durgesh-salunkhe/" target="_blank" class="connect-icon-btn" data-tooltip="LinkedIn" aria-label="LinkedIn">
+                        <img src="/assets/icons/linkedIn_indark.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://theses.hal.science/tel-04520763" target="_blank" class="connect-icon-btn" data-tooltip="HAL Archives" aria-label="HAL Archives">
+                        <img src="/assets/icons/web_internet.png" alt="HAL">
+                    </a>
+                    <a href="/projects/main/resources/resume_salunkhe_2026.pdf" target="_blank" class="connect-icon-btn" data-tooltip="Download CV" aria-label="Download CV">
+                        <img src="/assets/icons/icon_download_dark.png" alt="Download CV">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 style="margin-bottom: 0.6rem;">Dr. Durgesh Salunkhe</h3>
+                    <p style="font-size: 0.92rem; max-width: 320px;">
+                        Researcher at CNRS, Strasbourg. Specializing in robot design, kinematics, dynamics, motion planning, robot learning and skill transfer.
+                    </p>
+                    <div class="footer-social-links">
+                        <a href="mailto:salunkhedurgesh@gmail.com" class="social-icon-link" title="Email">
+                            <img src="/assets/icons/email_indark.png" alt="Email">
+                        </a>
+                        <a href="https://github.com/salunkhedurgesh" target="_blank" class="social-icon-link" title="GitHub">
+                            <img src="/assets/icons/github_indark.png" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/durgesh-salunkhe/" target="_blank" class="social-icon-link" title="LinkedIn">
+                            <img src="/assets/icons/linkedIn_indark.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="margin-bottom: 0.8rem;">Navigation</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects.html">Research Projects &amp; Consortia</a></li>
+                        <li><a href="/publications.html">Publications &amp; Open Science</a></li>
+                        <li><a href="/personal.html">Personal Perspectives &amp; Hobbies</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="margin-bottom: 0.8rem;">Affiliations &amp; Links</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+                        <li><a href="https://www.cnrs.fr/" target="_blank">CNRS (Centre National de la Recherche Scientifique)</a></li>
+                        <li><a href="https://www.epfl.ch/labs/lasa/" target="_blank">EPFL LASA Laboratory</a></li>
+                        <li><a href="https://www.ls2n.fr/" target="_blank">LS2N, Nantes Université</a></li>
+                        <li><a href="https://theses.hal.science/tel-04520763" target="_blank">Ph.D. Thesis on HAL</a></li>
+                        <li><a href="/projects/cnrs26/index.html">CNRS Dossier Portal</a></li>
+                    </ul>
                 </div>
             </div>
 
-            <div id="buzzwords"></div>
-            <script>
-                fetch('/projects/main/helper_index/buzzwords.html')
-                    .then(response => response.text())
-                    .then(data => {
-                        document.getElementById('buzzwords').innerHTML = data;
-                    });
-            </script>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Durgesh Salunkhe. All rights reserved.</span>
+                <span>Designed with variable typography &amp; open science principles.</span>
+            </div>
+        </div>
+    </footer>
 
+    <!-- Floating Design & Type Studio Drawer -->
+    <div id="studioDrawer" class="studio-drawer">
+        <div class="studio-header">
+            <h4>Design &amp; Typography Studio</h4>
+            <button id="studioCloseBtn" class="studio-close-btn" aria-label="Close studio">&times;</button>
+        </div>
 
+        <div class="studio-section">
+            <span class="studio-label">Typography Pairing</span>
+            <div class="pill-group">
+                <button class="pill-btn" data-set-font="hybrid">Space Grotesk + Inter</button>
+                <button class="pill-btn" data-set-font="editorial">Newsreader + Inter</button>
+                <button class="pill-btn" data-set-font="tech">Space Grotesk Only</button>
+                <button class="pill-btn" data-set-font="plex">IBM Plex Sans</button>
+            </div>
+        </div>
+
+        <div class="studio-section">
+            <span class="studio-label">Reading Scale</span>
+            <div class="pill-group">
+                <button class="pill-btn" data-set-scale="sm">Compact (15px)</button>
+                <button class="pill-btn" data-set-scale="md">Standard (16.5px)</button>
+                <button class="pill-btn" data-set-scale="lg">Large (18px)</button>
+            </div>
+        </div>
+
+        <div class="studio-section">
+            <span class="studio-label">Accent Mood</span>
+            <div class="pill-group" style="align-items: center;">
+                <button class="swatch-btn" data-set-accent="emerald" style="background: #00eeb6;" title="Halycon Emerald"></button>
+                <button class="swatch-btn" data-set-accent="amber" style="background: #f09d51;" title="Warm Amber"></button>
+                <button class="swatch-btn" data-set-accent="cyan" style="background: #38bdf8;" title="Horizon Sky"></button>
+                <button class="swatch-btn" data-set-accent="coral" style="background: #fb7185;" title="Solar Coral"></button>
+                <button class="swatch-btn" data-set-accent="lilac" style="background: #c084fc;" title="Electric Lilac"></button>
+            </div>
+        </div>
+
+        <div class="studio-section" style="margin-bottom: 0;">
+            <span class="studio-label">Theme Canvas</span>
+            <div class="pill-group">
+                <button class="pill-btn" data-set-theme="dark">Cosmic Dark</button>
+                <button class="pill-btn" data-set-theme="light">Academic Light</button>
+            </div>
         </div>
     </div>
 
-    <div class="desktop_spacer"></div>
-    <div class="desktop_spacer"></div>
-
-    <div class="middleblock">
-        <div id="recent_news"></div>
-        <div class="spacer"></div>
-        <div id="current"></div>
-    </div>
-
-    <!--<div class="spacer"></div>-->
-
-    <div id="contact"></div>
-    <script>
-        fetch('/projects/main/common/contact.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('contact').innerHTML = data;
-            });
-    </script>
-
 </body>
-
 </html>

@@ -20,15 +20,16 @@ CNRS26_SESSION_KEY = 'cnrs26_authenticated'
 # Add new clean-URL -> file-path entries here (relative to site root).
 # Trailing slashes in URLs are stripped automatically (matches cnrs1/? style).
 ROUTES = {
-    # Main pages
+    # Main restructured pages
     'about': 'index.html',
-    'publications': 'projects/main/publications/publications.html',
-    'experience': 'projects/main/experience/experience.html',
-    'researchprojects': 'projects/main/projects/projects.html',
-    'personal': 'projects/personal/personal.html',
-    'blog': 'projects/personal/blog/blog.html',
-    'hobbies': 'projects/personal/hobbies/hobbies.html',
-    'travel': 'projects/personal/travel/travel.html',
+    'projects': 'projects.html',
+    'researchprojects': 'projects.html',
+    'publications': 'publications.html',
+    'personal': 'personal.html',
+    'experience': 'index.html',  # redirect/fallback
+    'blog': 'personal.html',
+    'hobbies': 'personal.html',
+    'travel': 'personal.html',
     # CNRS 2026
     'selected_research': 'projects/cnrs/seven_chosen.html',
     'cnrs26': 'projects/cnrs26/index.html',

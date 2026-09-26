@@ -8,8 +8,15 @@
 /presentation_resource/
 /presentation_slides/
 
-# Python virtual environment
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
 .venv/
+
+# Local backup archives (> 100MB exceeds GitHub limits)
+personal_website_backup.zip
+*.zip
+*.tar.gz
 
 # MyBib synced PDF cache
 projects/mybib/.venv/

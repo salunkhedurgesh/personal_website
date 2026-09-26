@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-accent="emerald" data-font="hybrid" data-scale="md">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Publications &amp; Open Science · Durgesh Salunkhe</title>
+    <meta name="description" content="Peer-reviewed publications, preprints, conference proceedings and open-science citations by Dr. Durgesh Salunkhe.">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="/styles/site.css">
+    <script src="/js/site.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container nav-inner">
+            <a href="/" class="brand-link">
+                <img src="/assets/icons/logo_indark.png" alt="Durgesh Salunkhe logo" class="brand-logo">
+                <div class="brand-title">
+                    <span>Durgesh Salunkhe</span>
+                    <span class="brand-subtitle">Robotics Researcher</span>
+                </div>
+            </a>
+
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="/" data-tooltip="Home" aria-label="Home">
+                        <img src="/assets/icons/home_green.png" alt="Home" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/projects.html" data-tooltip="Projects" aria-label="Projects">
+                        <img src="/assets/icons/projects_green.png" alt="Projects" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/publications.html" class="active" data-tooltip="Publications" aria-label="Publications">
+                        <img src="/assets/icons/publications_green.png" alt="Publications" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/personal.html" data-tooltip="Personal" aria-label="Personal">
+                        <img src="/assets/icons/personal.png" alt="Personal" class="nav-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/#connect" data-tooltip="Connect" aria-label="Connect">
+                        <img src="/assets/icons/contact_green.png" alt="Connect" class="nav-icon">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="studioToggleBtn" class="studio-toggle-btn" title="Open Design & Typography Studio">
+                    <span>Studio ✦</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section class="section">
+            <div class="container">
+                <div class="eyebrow">Scholarly Outputs &amp; Open Science</div>
+                <h1>Publications</h1>
+                <p class="lead" style="max-width: 860px;">
+                    Peer-reviewed journals, international conference proceedings, and open preprints. Cross-linked to major research initiatives (EuRobin, DARKO, ECARP, FAME) with direct BibTeX, PDF, and interactive visualizers.
+                </p>
+
+                <!-- Filter & Search Controls -->
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">All (20)</button>
+                    <button class="filter-btn" data-filter="journal">Journals</button>
+                    <button class="filter-btn" data-filter="conference">Conferences</button>
+                    <button class="filter-btn" data-filter="eurobin">EuRobin</button>
+                    <button class="filter-btn" data-filter="darko">DARKO</button>
+                    <button class="filter-btn" data-filter="ecarp">ECARP</button>
+
+                    <div class="search-box">
+                        <input type="text" id="paperSearch" class="search-input" placeholder="Search by title, author, keyword (e.g. cuspidal, surgery)...">
+                    </div>
+                </div>
+
+                <div id="publicationCount" style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+                    Showing 20 publications
+                </div>
+
+                <!-- Complete Publications Container (Fully visible on initial load!) -->
+                <div class="publications-list" id="publicationList">
+                    
+    <article class="paper-card" id="science25_gupta" data-category="2026 journal eurobin">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2026 · Science</span>
+                    <a href="/projects.html#eurobin" class="project-link-badge">Project: EuRobin ↗</a>
+                </div>
+                <h3 class="paper-title">Demonstrate once, execute on many: Kinematic intelligence for cross-robot skill transfer</h3>
+                <p class="paper-authors">Sthithpragya Gupta and <span class="author-me">Durgesh Haribhau Salunkhe</span> and Aude Billard</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Science Robotics (Science), 2026 · DOI: 10.1126/scirobotics.aea1995</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/science25_gupta.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/science25_gupta.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="https://www.science.org/doi/abs/10.1126/scirobotics.aea1995" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('science25_gupta_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="science25_gupta_abs" class="paper-abstract"><p>Teaching robots new skills should be as natural as showing rather than programming. Learning from demonstration (LfD) moves toward this goal by allowing users to guide a robot or sketch a desired motion, enabling learning without writing a line of code. However, most LfD methods remain tied to the robot they were trained on. Changes in morphology, different link lengths, joint orientations, or limits often break the learned behavior, making retraining unavoidable. Here, we introduce a framework that endows robots with kinematic intelligence: an internal understanding of their own joint limits, singularities, and connectivity. Instead of correcting for these constraints after learning, we embedded them directly into the control policy from the outset. The approach takes one or multiple demonstrations, extracts a globally stable dynamical system, and produces behaviors that remain valid across robots with different kinematic structures. Our method is grounded in a comprehensive analytical classification of noncuspidal three-revolute (3R) robots, which form the building blocks of many commercial robots. This classification enables a joint space policy that preserves user intent and adapts to robot-specific constraints. We validated the framework on diverse simulated and real robots, both redundant and nonredundant, with varied link geometries and joint configurations. The demonstrated skill executes safely and consistently across robots without retuning, thereby achieving cross-robot skill transfer. Kinematic intelligence enables skills demonstrated once to be safely executed across robots with different kinematic structures.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="ral25_salunkhe" data-category="2025 journal darko">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2025 · RA-L</span>
+                    <a href="/projects.html#darko" class="project-link-badge">Project: DARKO ↗</a>
+                </div>
+                <h3 class="paper-title">Cuspidal Redundant Robots: Classification of Infinitely Many IKS of Special Classes of 7R Robots</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Sthithpragya Gupta and Aude Billard</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> IEEE Robotics and Automation Letters (RA-L), 2025 · DOI: 10.1109/LRA.2025.3623011</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/ral25_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/ral25_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="/projects/journal_webpages/2025/ral25_salunkhe/index.html" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('ral25_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="ral25_salunkhe_abs" class="paper-abstract"><p>Redundant robots, with more degrees of freedom than required for a given task, offer enhanced dexterity but can exhibit complex kinematic behaviour in motion planning. Cuspidal robots, which can change inverse kinematic solutions without crossing singularities, have been reported to pose unique challenges for motion feasibility and repeatability. While cuspidality has been extensively studied for 3R and certain 6R robots, no formal classification exists for redundant architectures. This letter presents a systematic framework for classifying 7R wrist-partitioned redundant robots based on their cuspidal properties. The method reduces the 7R structure to a parameterized 3R equivalent via the redundant joint angle, enabling the application of established theory for cuspidal robots. Using this approach, commercially available robots are analysed and categorized as cuspidal or noncuspidal. Results show that the design offsets in commercial cobots may lead to cuspidality, which can potentially cause a nonsingular change of operation mode in collaborative applications. This classification framework provides a foundation for cuspidality-aware path planning and offers practical guidelines for designing non-cuspidal redundant robots to ensure safer and more predictable operation.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="ck25_muralidharan" data-category="2025 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2025 · CK</span>
+                    <a href="/projects.html#cga-mechanisms" class="project-link-badge">Project: CGA & Mechanisms ↗</a>
+                </div>
+                <h3 class="paper-title">Kinematic and static analyses of the spherical X-joint: a new cable-driven spherical 4R linkage</h3>
+                <p class="paper-authors">Vimalesh Muralidharan, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Philippe Wenger and Christine Chevallereau</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> 8th International Workshop on Computational Kinematics (CK), 2025</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/ck25_muralidharan.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/ck25_muralidharan.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('ck25_muralidharan_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="ck25_muralidharan_abs" class="paper-abstract"><p>This work presents the spherical X-joint, a novel 4R spherical linkage featuring two pairs of identical links arranged in a crossed configuration. A rigorous kinematic analysis reveals that the mechanism exhibits a unique reflective symmetry and that its full-cycle mobility is theoretically equivalent to pure rolling between identical elliptical cones. This insight enables an unconstrained single-parameter description of the joint's motion that extends the inherent symmetry of the mechanism to the mathematical analysis also. Such a description provides a compact and efficient kinematic and static model for the spherical X-joint. Furthermore, a remote actuation strategy based on antagonistic cables is proposed, and it is analytically proven that the joint exhibits positive coactivation across its workspace. These findings demonstrate the spherical X-joint's strong potential for remote actuation applications, particularly in the design of lightweight, bio-inspired robotic wrists and manipulators.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="ima25b_salunkhe" data-category="2025 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2025 · IMA</span>
+                    <a href="/projects.html#cga-mechanisms" class="project-link-badge">Project: CGA & Mechanisms ↗</a>
+                </div>
+                <h3 class="paper-title">Geometric analysis of generic 3R robots, and necessary and sufficient conditions for a class of orthogonal robots to have four IKS</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span> and Abhilash Nayak</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> 3rd IMA Conference on Mathematics of Robotics (IMA), 2025</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/ima25_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/ima25_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('ima25b_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="ima25b_salunkhe_abs" class="paper-abstract"><p>The kinematic analysis of a generic 3R robot has been investigated with multiple approaches in the past. The algebraic approaches have established concrete results but are unfortunately limited to special classes or architectural simplifications. Geometric approaches on the other hand have extended the analysis to generic robots while also providing an intuitive understanding of their kinematic properties. We use the best of both approaches to present the kinematic analysis of a generic 3R robot, using the inverse kinematic model inherited from a method based on conformal geometric algebra. The paper discusses a generic framework to study the conditions for a 3R robot to have four inverse kinematic solutions (IKS) and allows to study the distribution of IKS as seen in workspace. The necessary and sufficient conditions for a class of orthogonal robots are presented using the proposed approach.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="ima25a_nayak" data-category="2025 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2025 · IMA</span>
+                    <a href="/projects.html#cga-mechanisms" class="project-link-badge">Project: CGA & Mechanisms ↗</a>
+                </div>
+                <h3 class="paper-title">Inverse kinematic solution for generic 3R positional robots using Conformal Geometric Algebra</h3>
+                <p class="paper-authors">Abhilash Nayak and <span class="author-me">Durgesh Haribhau Salunkhe</span></p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> 3rd IMA Conference on Mathematics of Robotics (IMA), 2025</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/ima25_nayak.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/ima25_nayak.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('ima25a_nayak_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="ima25a_nayak_abs" class="paper-abstract"><p>The inverse kinematics of generic 3R robots has been investigated through multiple approaches, mainly algebraic methods involving the solution of certain equation sets. Previous geometric interpretations of the solution, characterized as the intersection of a pair of conics have been confined to the joint-space domain. In this article, we study the Inverse Kinematic Model (IKM) of 3R robots, using the advantages of Conformal Geometric Algebra (CGA) to provide further insights on its kinematic properties. Our approach directly yields a univariate polynomial in terms of θ₂ without the need to eliminate θ₁ and θ₃ by reframing the problem as the intersection of two circles, which are fundamental elements within this algebraic framework.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="ijrr24_salunkhe" data-category="2024 journal ecarp">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2024 · IJRR</span>
+                    <a href="/projects.html#ecarp" class="project-link-badge">Project: ECARP ↗</a>
+                </div>
+                <h3 class="paper-title">6R cuspidal robots: kinematic issues and guidelines for path planning and design</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Tobias Marauli, Andreas Mueller, Damien Chablat, and Philippe Wenger</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> International Journal of Robotics Research (IJRR), 2024 · DOI: 10.1177/02783649241293481</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/ijrr24_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/ijrr24_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="https://www.youtube.com/watch?v=NAWq6LBL2Dc" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('ijrr24_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="ijrr24_salunkhe_abs" class="paper-abstract"><p>Cuspidal serial robots can change inverse kinematic solutions (IKS) without crossing singularities in the joint space because they have multiple IKS in a singularity-free region. This property of robots has been researched for over three decades but has not been taken seriously in consideration while designing new robots. The presented work points out issues related to nonsingular change of IKS and path planning specific to the cuspidal robots that are present in existing commercial robots used in various applications. The multiple IKS at the initial end-effector pose allows the user to choose an initial IKS that may lead to a continuous and repeatable path. We analyze in detail how the choice of the initial IKS affects the feasibility and repeatability of the prescribed path. Cuspidal robots can be used safely if the workspace is analyzed taking into account the cuspidality property. For these reasons, we propose a methodology for path testing and planning that considers different path scenarios. Given the rise of unconventional designs in 6R robots, the identification of cuspidal properties in the design phase of a robot is of paramount importance. We recall all the known criteria for cuspidality and propose new methods to decide if a given 6R robot is cuspidal. Accordingly, a practical guideline is proposed for deciding the cuspidality of a generic 6R robot.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="iros23_marauli" data-category="2023 conference ecarp">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2023 · IROS</span>
+                    <a href="/projects.html#ecarp" class="project-link-badge">Project: ECARP ↗</a>
+                </div>
+                <h3 class="paper-title">Time-Optimal Point-To-Point Motion Planning and Assembly Mode Change of Cuspidal Manipulators: Application to 3R and 6R Robots</h3>
+                <p class="paper-authors">Tobias Marauli, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Hubert Gattringer, Andreas Mueller, Damien Chablat, and Philippe Wenger</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of the International Conference on Intelligent Robots and Systems (IROS), 2023 · DOI: 10.1109/ICRA48891.2023.10161444</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/iros23_marauli.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/iros23_marauli.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('iros23_marauli_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="iros23_marauli_abs" class="paper-abstract"><p>The kinematics of cuspidal 3R regional robots was studied extensively in the past. Moreover, certain industrial 6R robots were found to be cuspidal (e.g. Fanuc CRX series, Kinova GEN2), which makes cuspidal robots finally interesting for practical applications. This necessitates optimal trajectory planning, respecting the dynamics and technical limits of the particular robot. In this paper, a method for singularity-free time-optimal point-to-point trajectory (PtP) trajectory planning is proposed. As a special case, this method is applicable to time optimal singularity-free assembly mode changing. Results are shown for 3R robots and a 6R FANUC CRX10iA/L.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="icra23_salunkhe" data-category="2023 conference ecarp">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2023 · ICRA</span>
+                    <a href="/projects.html#ecarp" class="project-link-badge">Project: ECARP ↗</a>
+                </div>
+                <h3 class="paper-title">Trajectory planning issues in commercial cuspidal robots</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Damien Chablat, Philippe Wenger</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of the International Conference on Robotics and Automation (ICRA), 2023 · DOI: 10.1109/ICRA48891.2023.10161444</span>
+                </div>
+                <p style="font-size: 0.84rem; color: var(--accent-text); margin-top: 0.35rem;"><em>Note: The α<sub>4</sub> and α<sub>5</sub> in Table I are 55 degrees instead of 90 degrees</em></p>
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/icra23_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/icra23_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="/projects/icra23/index.html" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('icra23_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="icra23_salunkhe_abs" class="paper-abstract"><p>A cuspidal serial robot can travel from one inverse kinematic solution to another without crossing a singularity. Cuspidal robots ask for extra care and caution in trajectory planning, as identifying an aspect related to one unique inverse kinematic solution is not possible. The issues related to motion planning with cuspidal robots are related to the inherent property arising from the geometric design of the robot. The cuspidality property has not been considered in recent industrial 6R robots with a non-spherical wrist. In this work, cuspidality is illustrated with the JACO robot (gen 2, non-spherical wrist), a serial arm by Kinova Robotics which is deployed in various applications and is cuspidal in nature. A nonsingular change of solutions for the robot is provided to highlight the effect of cuspidal robots on the interference with the environment. The pose with multiple inverse kinematic solutions in an aspect is presented. Problems in choosing the initial solution of the path in cuspidal robots, and its consequence, is illustrated with an example path in the workspace of the JACO robot. The paper presents the importance of cuspidality analysis of 6R robots and the implications of neglecting it.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="issac22_prebet" data-category="2022 conference ecarp">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · ISSAC</span>
+                    <a href="/projects.html#ecarp" class="project-link-badge">Project: ECARP ↗</a>
+                </div>
+                <h3 class="paper-title">Deciding Cuspidality of Manipulators through Computer Algebra and Algorithms in Real Algebraic Geometry</h3>
+                <p class="paper-authors">Damien Chablat, Remi Prebet, Mohab Safey El Din, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Philippe Wenger</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of the 2022 International Symposium on Symbolic and Algebraic Computation (ISSAC), 2022 · DOI: 10.1145/3476446.3535477</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/issac22_prebet.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/issac22_prebet.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('issac22_prebet_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="issac22_prebet_abs" class="paper-abstract"><p>Cuspidal robots are robots with at least two inverse kinematic solutions that can be connected by a singularity-free path. Deciding the cuspidality of generic 3R robots has been studied in the past, but extending the study to six-degree-of-freedom robots can be a challenging problem. Many robots can be modeled as a polynomial map together with a real algebraic set so that the notion of cuspidality can be extended to these data. In this paper we design an algorithm that, on input a polynomial map in n indeterminates, and s polynomials in the same indeterminates describing a real algebraic set of dimension d, decides the cuspidality of the restriction of the map to the real algebraic set under consideration. Moreover, if D and τ are, respectively the maximum degree and the bound on the bit size of the coefficients of the input polynomials, this algorithm runs in time log-linear in τ and polynomial in ((s+d)D)O(n²). It relies on many high-level algorithms in computer algebra which use advanced methods on real algebraic sets and critical loci of polynomial maps. As far as we know, this is the first algorithm that tackles the cuspidality problem from a general point of view.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="ark22_salunkhe" data-category="2022 conference ecarp">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · ARK</span>
+                    <a href="/projects.html#ecarp" class="project-link-badge">Project: ECARP ↗</a>
+                </div>
+                <h3 class="paper-title">Geometry Based Analysis of 3R Serial Robots</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Jose Capco, Damien Chablat, Philippe Wenger</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Advances in Robot Kinematics 2022 (ARK), 2022 · DOI: 10.1007/978-3-031-08140-8_8</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/ark22_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/ark22_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('ark22_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="ark22_salunkhe_abs" class="paper-abstract"><p>Cuspidal robots can travel from one inverse kinematic solution (IKS) to another without meeting a singularity. This property can be analyzed by understanding the inverse kinematic model (IKM) as well as the singularities in the joint space and in the workspace. In this article, we revisit the geometrical interpretation of the IKM with conics. The conditions of getting different conics and their implication on singularities are discussed and the observations regarding the nature of the conics are presented. Further, a sufficient condition for a 3R robot to be binary (i.e. with up to 2 IKS) as well as quaternary (i.e. with up to 4 IKS) is put forth by analyzing the geometrical interpretation of the IKM. The possibility to derive a necessary and sufficient condition is presented too.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="mmt22_salunkhe" data-category="2022 journal ecarp">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · MMT</span>
+                    <a href="/projects.html#ecarp" class="project-link-badge">Project: ECARP ↗</a>
+                </div>
+                <h3 class="paper-title">Necessary and sufficient condition for a generic 3R serial manipulator to be cuspidal</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Christoforos Spartalis, Jose Capco, Damien Chablat, and Philippe Wenger</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Mechanism and Machine Theory (MMT), 2022 · DOI: 10.1016/j.mechmachtheory.2022.104729</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/mmt22_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/mmt22_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('mmt22_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="mmt22_salunkhe_abs" class="paper-abstract"><p>Cuspidal robots can travel from one inverse kinematic solution to another without meeting a singularity. The name cuspidal was coined based on the existence of a cusp point in the workspace of 3R serial robots. The existence of a cusp point was proved to be a necessary and sufficient condition for orthogonal robots to be cuspidal, but it was not possible to extend this condition to non-orthogonal robots. The goal of this paper is to prove that this condition stands for any generic 3R serial robot. This result would give the designer more flexibility. In the presented work, the geometrical interpretation of the inverse kinematics of 3R robots is revisited and important observations on the nonsingular change of posture are noted. The paper presents a theorem regarding the existence of reduced aspects in any generic 3R serial robot. Based on these observations and on this theorem, we prove that the existence of a cusp point is a necessary and sufficient condition for any 3R generic robot to be cuspidal.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="mmt22_opt_salunkhe" data-category="2022 journal">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · MMT</span>
+                    <a href="/projects.html#fame" class="project-link-badge">Project: Surgical PKM (FAME) ↗</a>
+                </div>
+                <h3 class="paper-title">An efficient combined local and global search strategy for optimization of parallel kinematic mechanisms with joint limits and collision constraints</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Guillaume Michel, Shivesh Kumar, Marcello Sanguineti and Damien Chablat</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Mechanism and Machine Theory (MMT), 2022</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/mmt22_opt_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/mmt22_opt_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="https://github.com/salunkhedurgesh/ParaOpt" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('mmt22_opt_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="mmt22_opt_salunkhe_abs" class="paper-abstract"><p>The optimization of parallel kinematic manipulators (PKM) involve several constraints that are difficult to formalize, thus making optimal synthesis problem highly challenging. The presence of passive joint limits as well as the singularities and self-collisions lead to a complicated relation between the input and output parameters. In this article, a novel optimization methodology is proposed by combining a local search, Nelder-Mead algorithm, with global search methodologies such as low discrepancy distribution for faster and more efficient exploration of the optimization space. The effect of the dimension of the optimization problem and the different constraints are discussed to highlight the complexities of closed-loop kinematic chain optimization. The work also presents the approaches used to consider constraints for passive joint boundaries as well as singularities to avoid internal collisions in such mechanisms. The proposed algorithm can also optimize the length of the prismatic actuators and the constraints can be added in modular fashion, allowing to understand the impact of given criteria on the final result. The application of the presented approach is used to optimize two PKMs of different degrees of freedom.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="si22_michel" data-category="2022 journal">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · SI</span>
+                    <a href="/projects.html#fame" class="project-link-badge">Project: Surgical PKM (FAME) ↗</a>
+                </div>
+                <h3 class="paper-title">Geometric Atlas of the Middle Ear and Paranasal Sinuses for Robotic Applications</h3>
+                <p class="paper-authors">Guillaume Michel, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Philippe Bordure, Damien Chablat</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Surgical Innovation (SI), 2022 · DOI: 10.1177/15533506211039675</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/si22_michel.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/si22_michel.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('si22_michel_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="si22_michel_abs" class="paper-abstract"><p>In otolaryngologic surgery, more and more robots are being studied to meet the clinical needs of operating rooms. However, to help design and optimize these robots, the workspace must be precisely defined taking into account patient variability. The aim of this work is to define a geometric atlas of the middle ear and paranasal sinuses for endoscopic robotic applications. Scans of several patients of different ages and sexes were used to determine the average size of these workspaces, which are linked by the similar use of endoscopes in surgery.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="icra22_salunkhe" data-category="2022 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · ICRA</span>
+                    <a href="/projects.html#fame" class="project-link-badge">Project: Surgical PKM (FAME) ↗</a>
+                </div>
+                <h3 class="paper-title">Design optimization of a parallel manipulator for otological surgery</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Guillaume Michel, Shivesh Kumar, Elise Olivier, Marcello Sanguineti, Damien Chablat</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of New Frontiers of Parallel Robotics, International Conference on Robotics and Automation (ICRA), 2022</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/icra22_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/icra22_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('icra22_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="icra22_salunkhe_abs" class="paper-abstract"><p>The use of an endoscope in otological surgery as compared to using a microscope provides many benefits in terms of visibility and access to the operating region. The disadvantage of using an endoscope is that it has to be handled by the surgeon during the surgery. A novel parallel kinematic mechanism has been proposed recently for manipulating the endoscope during surgery. This paper details the design requirements considered for the optimization of the process, after consulting surgeons with various expertise. The paper further presents the different evaluation strategies that can be used to optimize the design parameters as per the needs of the application. The contribution of the presented work is the implementation of the surgeons' requirements into an objective function and the optimization of a proposed architecture of a parallel kinematic mechanism suitable for otological surgery.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="jmd22_michel" data-category="2022 journal">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2022 · JMD</span>
+                    <a href="/projects.html#fame" class="project-link-badge">Project: Surgical PKM (FAME) ↗</a>
+                </div>
+                <h3 class="paper-title">Literature Review on Endoscopic Robotic Systems in Ear and Sinus Surgery</h3>
+                <p class="paper-authors">Guillaume Michel, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Philippe Bordure, Damien Chablat</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Journal of Medical Devices (JMD), 2022 · DOI: 10.1115/1.4052516</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/jmd22_michel.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/jmd22_michel.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('jmd22_michel_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="jmd22_michel_abs" class="paper-abstract"><p>In otolaryngologic surgery, endoscopy is increasingly used to provide a better view of hard-to-reach areas and to promote minimally invasive surgery. However, the need to manipulate the endoscope limits the surgeon's ability to operate with only one instrument at a time. Currently, several robotic systems are being developed, demonstrating the value of robotic assistance in microsurgery. The aim of this literature review is to present and classify current robotic systems that are used for otological and endonasal applications. For these solutions, an analysis of the functionalities in relation to the surgeon's needs will be carried out to produce a set of specifications for the creation of new robots.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="raad20_michel" data-category="2020 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2020 · RAAD</span>
+                    <a href="/projects.html#fame" class="project-link-badge">Project: Surgical PKM (FAME) ↗</a>
+                </div>
+                <h3 class="paper-title">A new RCM mechanism for an ear and facial surgical application</h3>
+                <p class="paper-authors">Guillaume Michel, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Damien Chablat, Philippe Bordure</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Advances in Service and Industrial Robotics (RAAD), 2020 · DOI: 10.1007/978-3-030-48989-2_44</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/raad20_michel.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/raad20_michel.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('raad20_michel_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="raad20_michel_abs" class="paper-abstract"><p>In otolaryngologic surgery, endoscopy is increasingly used to provide a better view of hard-to-reach areas and to promote minimally invasive surgery. However, the need to manipulate the endoscope limits the surgeon's ability to operate with only one instrument at a time. Currently, several robotic systems are being developed, demonstrating the value of robotic assistance in microsurgery. The aim of this literature review is to present and classify current robotic systems that are used for otological and endonasal applications. For these solutions, an analysis of the functionalities in relation to the surgeon's needs will be carried out to produce a set of specifications for the creation of new robots.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="case19_tallamraju" data-category="2019 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2019 · CASE</span>
+                    
+                </div>
+                <h3 class="paper-title">Motion planning for multi-mobile-manipulator payload transport systems</h3>
+                <p class="paper-authors">Rahul Tallamraju, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Sujit Rajappa, Amir Ahmad, Kamlakar Karlapalem, Suril Shah</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of International Conference on Automation Science and Engineering (CASE), 2019 · DOI: 10.1109/COASE.2019.8842840</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/case19_tallamraju.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/case19_tallamraju.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<button onclick="toggleAbstract('case19_tallamraju_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="case19_tallamraju_abs" class="paper-abstract"><p>In this paper, a kinematic motion planning algorithm for cooperative spatial payload manipulation is presented. A hierarchical approach is introduced to compute realtime collision-free motion plans for a formation of mobile manipulator robots. Initially, collision-free configurations of a deformable 2-D virtual bounding box are identified, over a planning horizon, to determine a convex workspace for the entire system. Then, 3-D payload configurations whose projections lie within the convex workspace are computed. Finally, a convex decentralized model-predictive controller is formulated to plan collision-free trajectories for the formation of mobile manipulators. Our work facilitates real-time motion planning for the system and is scalable in the number of robots. The algorithm is validated in simulated dynamic environments.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="rcim19_dutta" data-category="2019 journal">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2019 · RCIM</span>
+                    <a href="/projects.html#compliance" class="project-link-badge">Project: Active Compliance ↗</a>
+                </div>
+                <h3 class="paper-title">Sensorless full body active compliance in a 6 DOF parallel manipulator</h3>
+                <p class="paper-authors">Anirvan Dutta, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Shivesh Kumar, Arun Dayal Udai, Suril Shah</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Robotics and Computer-Integrated Manufacturing (RCIM), 2019 · DOI: 10.1016/j.rcim.2019.04.010</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/rcim19_dutta.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/rcim19_dutta.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="https://www.youtube.com/watch?v=g8Je93soOZE" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('rcim19_dutta_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="rcim19_dutta_abs" class="paper-abstract"><p>Parallel manipulators are being used extensively to cater to the needs of a multitude of industrial automation applications. Due to its kinematic accuracy and structural stiffness, parallel manipulators have proven considerable advantage over their serial counterparts. In modern applications, humans train, collaborate and interact with the manipulators in order to maximize the productivity and the quality of the final product. The critical factor in this human-robot interaction is safety and the ability of the mechanism to comply with human intentions. It thus becomes a necessity for the manipulator to detect external disturbances and interactions, and be able to react accordingly. In this research, a methodology for sensor-less full body active compliance is proposed on a 6-DOF RSS (Rotary-Spherical-Spherical) parallel manipulator. By using the proposed approach, the manipulator can detect and comply with the external forces on any part of its body without using any explicit force/torque sensor at the joint or the end-effector. This is done by utilizing the estimated joint torque based on the actuator current feedback only. A three-layer cascaded impedance controller for active compliance and reaction to various human interactions are reported. The proposed design and unique methodology for compliance exhibits an effective and inexpensive yet reliable alternative to be used in safe human-robot interactions and force controlled manufacturing applications.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="air17_adu" data-category="2017 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2017 · AIR</span>
+                    
+                </div>
+                <h3 class="paper-title">Force/position control of 3 dof delta manipulator with voice coil actuator</h3>
+                <p class="paper-authors">Arun Dayal Udai, <span class="author-me">Durgesh Haribhau Salunkhe</span>, Anirvan Dutta, Sudipto Mukherjee</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of Advances in Robotics (AIR), 2017 · DOI: 10.1145/3132446.3134897</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/air17_adu.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/air17_adu.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="https://www.youtube.com/watch?v=VZk_wGmQab4" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('air17_adu_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="air17_adu_abs" class="paper-abstract"><p>Parallel manipulators are widely used in the industries for several applications. Due to its precision in motion as well as its robustness, parallel manipulators have proved its advantage over serial manipulators. In this paper, a 3DOF parallel manipulator is presented and force control of the manipulator is demonstrated. The proposed manipulator uses a direct drive voice coil arc actuators to achieve compliance required for human-robot interaction or soft mechanical manipulations. Its implementation in the proposed delta manipulator is discussed in the paper. The paper has discussed a unique method of controlling position as well as the force at the end-effector of the delta manipulator. The method used in making the manipulator compliant does not need an explicit force sensor and is convenient to implement. The method is inexpensive and works satisfactorily in a human interactive environment which is demonstrated through experiments discussed in the paper. The proposed design finds its application in robot-assisted assembly, surface finishing, cooperative manipulation, haptics etc.</p></div>
+    </article>
+    
+
+    <article class="paper-card" id="raha16_salunkhe" data-category="2016 conference">
+        <div class="paper-header">
+            <div>
+                <div class="breakthrough-meta">
+                    <span class="venue-badge">2016 · RAHA</span>
+                    
+                </div>
+                <h3 class="paper-title">Design, trajectory generation and control of quadrotor research platform</h3>
+                <p class="paper-authors"><span class="author-me">Durgesh Haribhau Salunkhe</span>, Siddhant Sharma, Sujal Topno, Chandana Darapaneni, Amol Kankane, Suril Shah</p>
+                <div class="paper-meta">
+                    <span><strong>In:</strong> Proceedings of Robotics and Automation for Humanitarian Applications (RAHA), 2016 · DOI: 10.1109/RAHA.2016.7931876</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="paper-actions">
+            <a href="/projects/main/resources/papers/raha16_salunkhe.pdf" target="_blank" class="action-btn"><img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon"><span>PDF</span></a>
+<a href="/projects/main/resources/citations/raha16_salunkhe.bib" target="_blank" class="action-btn"><img src="/assets/icons/icon_cite_dark.png" alt="Cite" class="action-icon"><span>BibTeX</span></a>
+<a href="https://www.youtube.com/watch?v=_vgJEXKVzeo" target="_blank" class="action-btn"><img src="/assets/icons/web_internet.png" alt="Link" class="action-icon"><span>Details / Video</span></a>
+<button onclick="toggleAbstract('raha16_salunkhe_abs')" class="action-btn"><img src="/assets/icons/icon_abstract_dark.png" alt="Abstract" class="action-icon"><span>Abstract</span></button>
+        </div>
+        <div id="raha16_salunkhe_abs" class="paper-abstract"><p>We describe the modeling, estimation and control of a quadrotor in 3D environment using the 3DR Pixhawk PX4 as controller through Robot Operating System (ROS). The paper discusses a method to measure moment of inertia of quadrotor about its principal axes to achieve better results in an inexpensive way. We also present the trajectory generation and segment optimization of the trajectory commanded to the quadrotor. We describe a method of controlling the quadrotor through ROS by providing necessary inputs to the flight controller using the built-in firmware.</p></div>
+    </article>
+    
+                </div>
+
+                <!-- Theses & Book Chapters Note -->
+                <div style="margin-top: 3.5rem; padding: 2rem; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-md);">
+                    <h3>Doctoral Thesis</h3>
+                    <p style="margin-top: 0.5rem;">
+                        <strong>Cuspidal Robots: theoretical study, classification and applications to commercial robots</strong><br>
+                        <em>Defended at LS2N, Nantes Université (December 2023) under Prof. Philippe Wenger and Prof. Damien Chablat.</em>
+                    </p>
+                    <div class="paper-actions" style="margin-top: 0.8rem;">
+                        <a href="https://theses.hal.science/tel-04520763" target="_blank" class="action-btn">
+                            <img src="/assets/icons/web_internet.png" alt="HAL" class="action-icon">
+                            <span>Open on HAL Archives ↗</span>
+                        </a>
+                        <a href="/projects/main/resources/papers/thesis23_salunkhe.pdf" target="_blank" class="action-btn">
+                            <img src="/assets/icons/icon_download_dark.png" alt="PDF" class="action-icon">
+                            <span>Download Thesis (PDF)</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 style="margin-bottom: 0.6rem;">Dr. Durgesh Salunkhe</h3>
+                    <p style="font-size: 0.92rem; max-width: 320px;">
+                        Permanent Researcher at CNRS. Specializing in kinematic intelligence, certified motion planning, and robot mechanisms.
+                    </p>
+                    <div class="footer-social-links">
+                        <a href="mailto:salunkhedurgesh@gmail.com" class="social-icon-link" title="Email">
+                            <img src="/assets/icons/email_indark.png" alt="Email">
+                        </a>
+                        <a href="https://github.com/salunkhedurgesh" target="_blank" class="social-icon-link" title="GitHub">
+                            <img src="/assets/icons/github_indark.png" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/durgesh-salunkhe/" target="_blank" class="social-icon-link" title="LinkedIn">
+                            <img src="/assets/icons/linkedIn_indark.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="margin-bottom: 0.8rem;">Navigation</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects.html">Research Projects &amp; Consortia</a></li>
+                        <li><a href="/publications.html">Publications &amp; Open Science</a></li>
+                        <li><a href="/personal.html">Personal Perspectives &amp; Hobbies</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="margin-bottom: 0.8rem;">Affiliations &amp; Links</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+                        <li><a href="https://www.cnrs.fr/" target="_blank">CNRS</a></li>
+                        <li><a href="https://www.epfl.ch/labs/lasa/" target="_blank">EPFL LASA</a></li>
+                        <li><a href="https://www.ls2n.fr/" target="_blank">LS2N, Nantes</a></li>
+                        <li><a href="https://theses.hal.science/tel-04520763" target="_blank">Ph.D. Thesis on HAL</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 Durgesh Salunkhe. All rights reserved.</span>
+                <span>Designed with variable typography &amp; open science principles.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Design & Type Studio Drawer -->
+    <div id="studioDrawer" class="studio-drawer">
+        <div class="studio-header">
+            <h4>Design &amp; Typography Studio</h4>
+            <button id="studioCloseBtn" class="studio-close-btn" aria-label="Close studio">&times;</button>
+        </div>
+
+        <div class="studio-section">
+            <span class="studio-label">Typography Pairing</span>
+            <div class="pill-group">
+                <button class="pill-btn" data-set-font="hybrid">Space Grotesk + Inter</button>
+                <button class="pill-btn" data-set-font="editorial">Newsreader + Inter</button>
+                <button class="pill-btn" data-set-font="tech">Space Grotesk Only</button>
+                <button class="pill-btn" data-set-font="plex">IBM Plex Sans</button>
+            </div>
+        </div>
+
+        <div class="studio-section">
+            <span class="studio-label">Reading Scale</span>
+            <div class="pill-group">
+                <button class="pill-btn" data-set-scale="sm">Compact (15px)</button>
+                <button class="pill-btn" data-set-scale="md">Standard (16.5px)</button>
+                <button class="pill-btn" data-set-scale="lg">Large (18px)</button>
+            </div>
+        </div>
+
+        <div class="studio-section">
+            <span class="studio-label">Accent Mood</span>
+            <div class="pill-group" style="align-items: center;">
+                <button class="swatch-btn" data-set-accent="emerald" style="background: #00eeb6;" title="Halycon Emerald"></button>
+                <button class="swatch-btn" data-set-accent="amber" style="background: #f09d51;" title="Warm Amber"></button>
+                <button class="swatch-btn" data-set-accent="cyan" style="background: #38bdf8;" title="Horizon Sky"></button>
+                <button class="swatch-btn" data-set-accent="coral" style="background: #fb7185;" title="Solar Coral"></button>
+                <button class="swatch-btn" data-set-accent="lilac" style="background: #c084fc;" title="Electric Lilac"></button>
+            </div>
+        </div>
+
+        <div class="studio-section" style="margin-bottom: 0;">
+            <span class="studio-label">Theme Canvas</span>
+            <div class="pill-group">
+                <button class="pill-btn" data-set-theme="dark">Cosmic Dark</button>
+                <button class="pill-btn" data-set-theme="light">Academic Light</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

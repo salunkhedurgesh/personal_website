@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="noindex" name="robots"/>
+<meta content="A research overview connecting robot geometry, skill transfer, motion planning and mechanism design." name="description"/>
+<title>Research · Durgesh Salunkhe · Atlas lab</title>
+<link href="lab.css" rel="stylesheet"/>
+<script defer="" src="lab.js"></script>
+</head>
+<body data-page="research">
+<a class="skip" href="#main">Skip to content</a>
+<div id="experiment-controls"></div>
+<header class="site-header site-shell">
+<a class="identity" href="index.html">Durgesh Salunkhe<small>ROBOTICS RESEARCHER</small></a>
+<nav aria-label="Main navigation" class="site-nav">
+<a aria-current="page" href="research.html">Research</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="courses.html">Courses</a>
+<a href="index.html#contact">Contact</a></nav>
+</header>
+<main class="site-shell" id="main">
+<section class="page-intro">
+<p class="eyebrow">Research / The bigger questions</p>
+<h1>Geometry gives<br/>learning a body.</h1>
+<p class="lead">I study how the way a robot is built shapes what it can learn and how it can move. These three questions connect my research, from analytical models to experiments with real robots.</p>
+<div class="actions"><a class="button" href="#learning">Explore the questions</a><a class="button secondary" href="projects.html">See ongoing projects →</a></div>
+</section>
+<section class="section" id="learning">
+<div class="section-head"><div><p class="eyebrow">01 / Kinematic intelligence</p><h2>Can a skill travel<br/>between different robots?</h2></div><p>A shared task does not mean a shared body. Link lengths, joint limits and configurations change what each robot can do.</p></div>
+<div class="grid-two">
+<article class="card">
+<p class="kicker">The research direction</p>
+<h3>Teach the task. Account for the robot.</h3>
+<p>A demonstration describes the desired behavior. Kinematic analysis describes the robot’s available motion. I work on connecting these two descriptions so learning can use a robot’s geometry from the beginning.</p>
+<p class="meta">Learning from demonstration · Dynamical systems · Skill transfer</p>
+<a class="text-link" href="research-detail.html">Read the Science Robotics research story</a>
+</article>
+<article class="card">
+<p class="kicker">For a first encounter</p>
+<h3>Picture the same gesture, with a different arm.</h3>
+<p>If an arm has shorter links or tighter joint limits, copying another robot’s joint angles will not reproduce the same motion. What should transfer—and what should adapt?</p>
+<a class="text-link" href="courses.html#start">Build the kinematics foundations</a>
+</article>
+</div>
+</section>
+<section class="section" id="geometry">
+<div class="section-head"><div><p class="eyebrow">02 / Geometry &amp; motion planning</p><h2>Reaching a point is only<br/>the beginning.</h2></div><p>A robot may reach every point on a path and still struggle to follow the entire path from its starting configuration.</p></div>
+<div class="grid-two">
+<article class="card">
+<p class="kicker">The research direction</p>
+<h3>Understand the space of possible motions.</h3>
+<p>My work studies inverse kinematic solutions, singularities and cuspidality: the ability of certain robots to change inverse kinematic solutions without crossing a singularity. This geometry has consequences for path feasibility, repeatability and robot design.</p>
+<p class="meta">Inverse kinematics · Cuspidality · Redundant manipulators</p>
+<a class="text-link" href="../../projects/journal_webpages/2025/ral25_salunkhe/index.html">Explore the 7R robot study · RA-L 2025</a>
+</article>
+<article class="card">
+<p class="kicker">A question you can explore</p>
+<h3>One target. Multiple configurations.</h3>
+<svg aria-labelledby="configuration-title configuration-description" role="img" viewbox="0 0 460 230" width="100%">
+<title id="configuration-title">A planar arm reaches one target in two ways</title>
+<desc id="configuration-description">Two equal-length arm configurations share one fixed base and endpoint. One configuration is solid and the other is dashed. This is a static two-link schematic, not a cuspidality example.</desc>
+<path d="M90 170 L165 47 L309 61" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"></path>
+<path d="M90 170 L234 184 L309 61" fill="none" stroke="var(--accent)" stroke-dasharray="10 10" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"></path>
+<circle cx="165" cy="47" fill="white" r="9" stroke="currentColor" stroke-width="4"></circle>
+<circle cx="234" cy="184" fill="white" r="9" stroke="currentColor" stroke-width="4"></circle>
+<circle cx="90" cy="170" fill="currentColor" r="12"></circle>
+<circle cx="309" cy="61" fill="var(--accent)" r="13" stroke="currentColor" stroke-width="2"></circle>
+<path d="M68 194 H112" stroke="currentColor" stroke-width="3"></path>
+<text fill="currentColor" font-size="14" x="332" y="64">One target</text>
+</svg>
+<p>Which starting configuration leaves room for the motion that comes next?</p>
+<a class="text-link" href="../../projects/epfl_course/lectures_main/lectures/lecture_06.html">Learn about configurations &amp; cuspidality</a>
+</article>
+</div>
+</section>
+<section class="section" id="design">
+<div class="section-head"><div><p class="eyebrow">03 / Mechanism design</p><h2>What can the mechanism<br/>itself make possible?</h2></div><p>Geometry is also a design choice. Changing a joint or an architecture changes the capabilities available to learning and control.</p></div>
+<div class="grid-two">
+<article class="card">
+<p class="kicker">The research direction</p>
+<h3>Design useful motion into the robot.</h3>
+<p>I investigate robot architectures and mechanisms with attention to mobility, actuation and compliance. This connects earlier work on parallel manipulators and surgical mechanisms with newer work on mechanically intelligent joints.</p>
+<p class="meta">Parallel mechanisms · Kinematic design · Novel joints</p>
+<a class="text-link" href="../../projects/main/resources/papers/ck25_muralidharan.pdf">Read the spherical X-joint study · PDF</a>
+</article>
+<article class="card">
+<p class="kicker">Follow the work</p>
+<h3>From the underlying question to a concrete project.</h3>
+<p>The Projects page brings together the specific investigations and collaborations pursuing these ideas. Publications provide the methods and results behind them.</p>
+<div class="actions"><a class="button secondary" href="projects.html#mechanism-design">Explore the project →</a><a class="text-link" href="publications.html">Browse publications</a></div>
+</article>
+</div>
+</section>
+</main>
+<footer class="site-footer site-shell"><span>Durgesh Salunkhe · Research Atlas design study</span><a href="../index.html">Design discussion →</a><a href="notes.html">Structure &amp; design notes</a></footer>
+</body>
+</html>

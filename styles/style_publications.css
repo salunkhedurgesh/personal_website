@@ -474,6 +474,10 @@ body {
         text-align: left;
     }
 
+    .abstract p {
+        font-size: 1rem;
+    }
+
     .publications li {
         font-size: 2rem;
         font-weight: lighter;

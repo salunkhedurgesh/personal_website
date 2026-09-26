@@ -8,13 +8,11 @@ const elements = [
     { id: 'homeLink', prop: 'href', value: '/' },
     { id: 'homeImage', prop: 'src', value: image_path + 'home_green.png' },
     { id: 'persoImage', prop: 'src', value: image_path + 'logo_perso.png' },
-    { id: 'experienceLink', prop: 'href', value: '/experience' },
-    { id: 'experienceImage', prop: 'src', value: image_path + 'experience_green.png' },
     { id: 'projectsLink', prop: 'href', value: '/researchprojects' },
     { id: 'projectsImage', prop: 'src', value: image_path + 'projects_green.png' },
     { id: 'publicationsLink', prop: 'href', value: '/publications' },
     { id: 'publicationsImage', prop: 'src', value: image_path + 'publications_green.png' },
-    { id: 'contactLink', prop: 'href', value: '#', prop: 'data-attribute', value: "contact" },
+    { id: 'contactLink', prop: 'href', value: '#' },
     { id: 'contactImage', prop: 'src', value: image_path + 'contact_green.png' }
 ];
 
@@ -54,3 +52,33 @@ document.querySelectorAll('.navlogo').forEach(logo => {
         if (tooltip) tooltip.style.display = 'none';
     });
 });
+
+function alignNavWithAboutMeRight() {
+    const nav = document.querySelector('.navcontent');
+    if (!nav) return;
+
+    if (window.innerWidth >= 800) {
+        const aboutMeText = document.querySelector('#about_me p') || document.getElementById('about_me') || document.querySelector('.profileDetails');
+        if (aboutMeText) {
+            const rect = aboutMeText.getBoundingClientRect();
+            if (rect.right > 0) {
+                const rightMargin = window.innerWidth - rect.right;
+                nav.style.right = `${rightMargin}px`;
+                nav.style.left = 'auto';
+                return;
+            }
+        }
+    } else {
+        nav.style.right = '1rem';
+        nav.style.left = 'auto';
+    }
+}
+
+window.addEventListener('resize', alignNavWithAboutMeRight);
+window.addEventListener('load', alignNavWithAboutMeRight);
+document.addEventListener('DOMContentLoaded', () => {
+    alignNavWithAboutMeRight();
+    setTimeout(alignNavWithAboutMeRight, 150);
+    setTimeout(alignNavWithAboutMeRight, 500);
+});
+

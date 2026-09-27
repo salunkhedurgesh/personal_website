@@ -8,8 +8,14 @@
 /presentation_resource/
 /presentation_slides/
 
-# Python virtual environment
+# Python virtual environment and bytecode
 .venv/
+*.pyc
+__pycache__/
+
+# Local backup archives
+personal_website_backup.zip
+*.zip
 
 # MyBib synced PDF cache
 projects/mybib/.venv/

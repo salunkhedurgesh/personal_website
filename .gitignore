@@ -10,12 +10,6 @@
 
 # Python virtual environment
 .venv/
-__pycache__/
-*.pyc
-
-# Local backup archives
-personal_website_backup.zip
-*.zip
 
 # MyBib synced PDF cache
 projects/mybib/.venv/

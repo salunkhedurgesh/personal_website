@@ -2,10 +2,17 @@
 // EDIT THESE ARRAYS TO UPDATE THE INDEX PAGE SECTIONS
 // ============================================================
 
+const recentNews = [
+    `15<sup>th</sup> April, 2026: Our paper on Kinematic Intelligence in Science Robotics is out!!`,
+    `19<sup>th</sup> February, 2026: Course proposed on Kinematics grounded robot motion planning at EPFL with Prof. Aude Billard.`,
+    `21<sup>st</sup> November, 2025: Invited talk at IISc, Bangalore.`
+];
+
 const currentWork = [
     `<span style="color:var(--halycon)">How can robot behaviour be made safe and explainable?</span> Kinematic intelligence: augmenting robot learning with analytical properties, with <span style="color:var(--blueBC)">Stithpragya Gupta, EPFL, Lausanne</span>`,
     `<span style="color:var(--halycon)">How to have better geometric insights regarding kinematics of robots?</span> Conformal Geometric Algebra, in collaboration with <span style="color:var(--blueBC)">Abhilash Nayak, CSIC, Barcelona</span>`,
     `<span style="color:var(--halycon)">What will the future generation of robots look like?</span> Novel kinematic actuations and robots of future, in collaboration with <span style="color:var(--blueBC)">Vimalesh Muralidharan, IIT Bhubaneswar</span>`,
+    `<span style="color:var(--halycon)">How can a robot learn from simpler building blocks?</span> Transfer Learning with Sub-domain guarantees, in collaboration with <span style="color:var(--blueBC)">Bernardo Fichera, Max Planck, Tubingen</span>`,
 ];
 
 // ============================================================
@@ -25,5 +32,6 @@ ${listItems}
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    renderSection('recent_news', 'recent_list', 'recent_title', 'Recent news', recentNews, true);
     renderSection('current', 'current_list', 'current_title', 'What I\'m thinking about', currentWork, false);
 });

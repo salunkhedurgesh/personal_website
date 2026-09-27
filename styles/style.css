@@ -151,37 +151,26 @@ body.index-page {
 .navcontent {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    width: fit-content;
     max-width: 80vw;
+    width: 40rem;
     height: var(--navLogoHeight);
     position: fixed;
-    right: calc(18vw - 80px);
+    right: 1rem;
     top: 0;
-    gap: 3rem;
     z-index: 3;
     background: var(--background_color);
-    padding: 0.5rem 0;
+    padding: 0.8rem;
 }
 
 .navcontent a {
     color: var(--navbarcolor);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 0.25rem;
+    padding: 0.5rem 0.5rem;
     font-size: 0.6rem;
-    position: relative;
-}
-
-.navcontent a:last-child {
-    padding-right: 0;
-}
-
-.navcontent a div {
-    display: none;
 }
 
 .navcontent a:hover {
@@ -190,7 +179,7 @@ body.index-page {
 
 .navcontent span {
     font-size: 1rem;
-    margin-right: 0;
+    margin-right: 0.5rem;
 }
 
 .navcontent .navlogo {
@@ -214,6 +203,9 @@ body.index-page {
     border: 1px solid var(--halycon);
 }
 
+.navcontent a {
+    position: relative;
+}
 
 .navicon {
     width: 20px;
@@ -669,10 +661,11 @@ footer {
     align-items: center;
     gap: 0.45rem;
     margin: 0.35rem 0 0.65rem;
-    padding: 0;
-    border: none;
-    background: transparent;
-    box-shadow: none;
+    padding: 0.38rem 0.78rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 238, 182, 0.32);
+    background: linear-gradient(90deg, rgba(0, 238, 182, 0.08), rgba(50, 139, 229, 0.07));
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
     font-family: 'PT Mono', monospace;
     font-size: clamp(0.72rem, 0.95vw, 0.82rem);
     letter-spacing: 0.04em;
@@ -727,7 +720,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: justify;
     background: var(--blueBC);
     color: black;
     border-radius: 1rem;
@@ -830,7 +823,7 @@ footer {
 
     .navcontent span {
         font-size: 1.5rem;
-        margin-right: 0;
+        margin-right: 3rem;
     }
 
     a .navicon {
@@ -840,7 +833,6 @@ footer {
 
     .navcontent {
         height: 3rem;
-        gap: 3.5rem;
     }
 
     a .mainicon {
@@ -880,49 +872,31 @@ footer {
         flex-direction: column;
         margin-top: 2rem;
         justify-content: center;
-        align-items: center;
-        width: 100%;
     }
 
     .profile img {
         width: 70%;
-        max-width: 280px;
+        max-width: 600px;
         border-radius: 50%;
     }
 
     .profileDetails {
-        max-width: 100%;
-        width: 100%;
+        max-width: 70vw;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: left;
-        margin-top: 2rem;
-    }
-
-    #about_me {
-        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin-top: 3rem;
     }
 
     .profileDetails p {
-        font-size: 0.95rem;
-        line-height: 1.6;
-        text-align: left;
-        margin-top: 1rem;
+        font-size: 0.85rem;
     }
 
     .profileDetails h2 {
         font-size: 1.5rem;
-        word-spacing: normal;
-        text-align: left;
-    }
-
-    .profileDetails .flexbox {
-        align-self: center;
-        width: 100%;
-        justify-content: center;
-        margin-top: 1.5rem;
+        word-spacing: 1rem;
     }
 
     .flexbox button {
@@ -969,11 +943,11 @@ footer {
 
     .navcontent {
         flex-flow: row nowrap;
-        width: fit-content;
+        width: 80vw;
         height: 2rem;
-        gap: 1.25rem;
-        right: 1rem;
-        justify-content: flex-start;
+        gap: 2rem;
+        right: 2vw;
+        justify-content: space-between;
     }
 
     .navcontent a {

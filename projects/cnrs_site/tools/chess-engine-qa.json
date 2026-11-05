@@ -1,0 +1,275 @@
+{
+  "results": [
+    {
+      "id": "stockfish-wasm",
+      "value": {
+        "depth": 8,
+        "cp": 26,
+        "moves": "e2e4 e7e5 g1f3",
+        "provider": "Stockfish 19 Lite",
+        "id": "stockfish-wasm"
+      },
+      "status": [
+        "Stockfish 19 Lite · searching depth 8 (depth 6 completed)…",
+        "Stockfish 19 Lite · searching depth 8 (depth 7 completed)…",
+        "Stockfish 19 Lite · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 3152.10000000149,
+      "position": "White to move"
+    },
+    {
+      "id": "stockfish-wasm",
+      "value": {
+        "depth": 8,
+        "mate": 1,
+        "moves": "f7g7",
+        "provider": "Stockfish 19 Lite",
+        "id": "stockfish-wasm"
+      },
+      "status": [
+        "Stockfish 19 Lite · searching depth 8 (depth 6 completed)…",
+        "Stockfish 19 Lite · searching depth 8 (depth 7 completed)…",
+        "Stockfish 19 Lite · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 4835.80000000447,
+      "position": "White mate in one"
+    },
+    {
+      "id": "stockfish-wasm",
+      "value": {
+        "depth": 8,
+        "mate": -1,
+        "moves": "f2e1",
+        "provider": "Stockfish 19 Lite",
+        "id": "stockfish-wasm"
+      },
+      "status": [
+        "Stockfish 19 Lite · searching depth 8 (depth 6 completed)…",
+        "Stockfish 19 Lite · searching depth 8 (depth 7 completed)…",
+        "Stockfish 19 Lite · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 417.40000000596046,
+      "position": "Black mate in one"
+    },
+    {
+      "id": "tomitank",
+      "value": {
+        "depth": 8,
+        "cp": 25,
+        "moves": "b1c3 d7d5 d2d4 c8f5 g1f3 e7e6 e2e3 b8c6",
+        "provider": "tomitankChess 7",
+        "id": "tomitank"
+      },
+      "status": [
+        "tomitankChess 7 · searching depth 8…",
+        "tomitankChess 7 · searching depth 8…",
+        "tomitankChess 7 · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 939,
+      "position": "White to move"
+    },
+    {
+      "id": "tomitank",
+      "value": {
+        "depth": 8,
+        "mate": 1,
+        "moves": "f7h7",
+        "provider": "tomitankChess 7",
+        "id": "tomitank"
+      },
+      "status": [
+        "tomitankChess 7 · searching depth 8 (depth 6 completed)…",
+        "tomitankChess 7 · searching depth 8 (depth 7 completed)…",
+        "tomitankChess 7 · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 385.40000000596046,
+      "position": "White mate in one"
+    },
+    {
+      "id": "tomitank",
+      "value": {
+        "depth": 8,
+        "mate": -1,
+        "moves": "f2f1",
+        "provider": "tomitankChess 7",
+        "id": "tomitank"
+      },
+      "status": [
+        "tomitankChess 7 · searching depth 8 (depth 6 completed)…",
+        "tomitankChess 7 · searching depth 8 (depth 7 completed)…",
+        "tomitankChess 7 · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 444.70000000298023,
+      "position": "Black mate in one"
+    },
+    {
+      "id": "lozza",
+      "value": {
+        "depth": 8,
+        "cp": 47,
+        "moves": "g1f3 g8f6 d2d4 d7d5 c1f4 c7c6 e2e3 c8f5",
+        "provider": "Lozza 11",
+        "id": "lozza"
+      },
+      "status": [
+        "Lozza 11 · searching depth 8 (depth 5 completed)…",
+        "Lozza 11 · searching depth 8 (depth 7 completed)…",
+        "Lozza 11 · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 247.5,
+      "position": "White to move"
+    },
+    {
+      "id": "lozza",
+      "value": {
+        "depth": 8,
+        "mate": 1,
+        "moves": "f7g7",
+        "provider": "Lozza 11",
+        "id": "lozza"
+      },
+      "status": [
+        "Lozza 11 · searching depth 8 (depth 6 completed)…",
+        "Lozza 11 · searching depth 8 (depth 7 completed)…",
+        "Lozza 11 · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 75.89999999850988,
+      "position": "White mate in one"
+    },
+    {
+      "id": "lozza",
+      "value": {
+        "depth": 8,
+        "mate": -1,
+        "moves": "f2g2",
+        "provider": "Lozza 11",
+        "id": "lozza"
+      },
+      "status": [
+        "Lozza 11 · searching depth 8 (depth 6 completed)…",
+        "Lozza 11 · searching depth 8 (depth 7 completed)…",
+        "Lozza 11 · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 78.69999999552965,
+      "position": "Black mate in one"
+    },
+    {
+      "id": "stockfish-asm",
+      "value": {
+        "depth": 8,
+        "cp": 26,
+        "moves": "e2e4 e7e5 g1f3",
+        "provider": "Stockfish 19 ASM",
+        "id": "stockfish-asm"
+      },
+      "status": [
+        "Stockfish 19 ASM · searching depth 8 (depth 6 completed)…",
+        "Stockfish 19 ASM · searching depth 8 (depth 7 completed)…",
+        "Stockfish 19 ASM · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 3040.89999999851,
+      "position": "White to move"
+    },
+    {
+      "id": "stockfish-asm",
+      "value": {
+        "depth": 8,
+        "mate": 1,
+        "moves": "f7g7",
+        "provider": "Stockfish 19 ASM",
+        "id": "stockfish-asm"
+      },
+      "status": [
+        "Stockfish 19 ASM · searching depth 8 (depth 6 completed)…",
+        "Stockfish 19 ASM · searching depth 8 (depth 7 completed)…",
+        "Stockfish 19 ASM · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 2399.2999999970198,
+      "position": "White mate in one"
+    },
+    {
+      "id": "stockfish-asm",
+      "value": {
+        "depth": 8,
+        "mate": -1,
+        "moves": "f2e1",
+        "provider": "Stockfish 19 ASM",
+        "id": "stockfish-asm"
+      },
+      "status": [
+        "Stockfish 19 ASM · searching depth 8 (depth 6 completed)…",
+        "Stockfish 19 ASM · searching depth 8 (depth 7 completed)…",
+        "Stockfish 19 ASM · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 2454.60000000149,
+      "position": "Black mate in one"
+    },
+    {
+      "id": "garbochess",
+      "value": {
+        "depth": 8,
+        "cp": 12,
+        "moves": "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d7d5",
+        "provider": "Garbochess-JS",
+        "id": "garbochess"
+      },
+      "status": [
+        "Garbochess-JS · searching depth 8 (depth 6 completed)…",
+        "Garbochess-JS · searching depth 8 (depth 7 completed)…",
+        "Garbochess-JS · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 1485.9000000059605,
+      "position": "White to move"
+    },
+    {
+      "id": "garbochess",
+      "value": {
+        "depth": 8,
+        "mate": 1,
+        "moves": "f7e8",
+        "provider": "Garbochess-JS",
+        "id": "garbochess"
+      },
+      "status": [
+        "Garbochess-JS · searching depth 8 (depth 6 completed)…",
+        "Garbochess-JS · searching depth 8 (depth 7 completed)…",
+        "Garbochess-JS · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 196.69999999552965,
+      "position": "White mate in one"
+    },
+    {
+      "id": "garbochess",
+      "value": {
+        "depth": 8,
+        "mate": -1,
+        "moves": "f2e1",
+        "provider": "Garbochess-JS",
+        "id": "garbochess"
+      },
+      "status": [
+        "Garbochess-JS · searching depth 8 (depth 6 completed)…",
+        "Garbochess-JS · searching depth 8 (depth 7 completed)…",
+        "Garbochess-JS · searching depth 8…"
+      ],
+      "count": 1,
+      "ms": 154.60000000149012,
+      "position": "Black mate in one"
+    }
+  ],
+  "errors": []
+}

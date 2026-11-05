@@ -1,0 +1,7 @@
+Geographic imagery and data in this edition
+Earth imagery: NASA Blue Marble via Matplotlib Basemap's bmng.jpg.
+Regional relief: shadedrelief.com and NASA Blue Marble via Basemap.
+Coasts / political boundaries: GSHHG 2.3.6 / GMT as distributed with basemap-data 2.0.0.
+The atlas adds its own color treatment, outline of metropolitan France, legends, geographic markers and perspective projection. This is not imagery from Google Maps or Google Earth.
+Original distribution, including the input rasters and vector data: https://pypi.org/project/basemap-data/2.0.0/ . Build script: tools/planet_textures.py in the source edition. The regional map and data-derived outline may be regenerated from this published distribution. The data bundle assigns LGPL-3.0-or-later to the boundary data and MIT to the other files, subject to the standard exceptions described in its package notice. Copies of the notices follow in this directory.
+See https://matplotlib.org/basemap/stable/users/geography.html and https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/ for context and attribution.

@@ -1,0 +1,21 @@
+{
+  "pageErrors": [],
+  "roles": {
+    "kin": "KINEMATICS / MECHANISM STUDIO",
+    "teach": "TEACHING / BLACKBOARD",
+    "cnrs": "CNRS / RESEARCH ATLAS"
+  },
+  "mobileDimensions": {
+    "scroll": 390,
+    "width": 390
+  },
+  "draggedIndex": 13,
+  "heldLetterHeight": 0.6688176099756168,
+  "impactCount": 1,
+  "nativeMotion": {
+    "maxPositionErrorStage": 2.2129645206412886e-08,
+    "maxOrientationErrorRadians": 2.3985185993513245e-08,
+    "allJointLimitsPassed": true,
+    "collisionChecked": false
+  }
+}

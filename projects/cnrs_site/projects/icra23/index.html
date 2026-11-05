@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Durgesh Salunkhe</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style_publications.css">
+  <script type="text/javascript" src="../main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body>
+  <div class="logo">
+    <a href="../index.html"><img src="images/logo_indark.png" alt="logo" width="25px"></a>
+    <p style="translate: -0.5rem 0">ICRA'23</p>
+  </div>
+
+  <div class="navcontent">
+    <a href="cusp_people.html"><span class="navlogo"><img src="images/projects_green.png" width="20px"
+          height="20px"></span><span class="navnum">02.</span> <span class="navtitle">people</span></a>
+    <a href="details.html"><span class="navlogo"><img src="images/publications_green.png" width="20px"
+          height="20px"></span><span class="navnum">03.</span> <span class="navtitle">details</span></a>
+    <a href="#footId" onclick="blink()"><span class="navlogo"><img src="images/contact_green.png" width="20px"
+          height="20px"></span><span class="navnum">04.</span> <span class="navtitle">contact</span></a>
+  </div>
+
+  <div class="imageblock" id="logoBlock">
+    <a href="https://fr.linkedin.com/in/salunkhedurgesh"><img src="images/linkedIn_indark.png" alt="LinkedIn"></a>
+    <a href="https://www.instagram.com/durgesh_salunkhe/"><img src="images/instagram_indark.png" alt="instagram"></a>
+    <a href="https://github.com/salunkhedurgesh"><img src="images/github_indark.png" alt="github"></a>
+  </div>
+
+  <div class="topBack"></div>
+
+
+
+  <div class="content" id="experienceContent" style="translate: 0 4rem">
+    <div class="title" style="z-index: 2" id="icra_title">
+      <p>ICRA 2023, London, UK</p>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <!-- paper -->
+    <div class="year_block">
+      <div class="experience2">
+        <p onclick="click_experience('icra_paper')">Paper</p>
+      </div>
+
+      <div class="paper last_paper" id="icra_paper" style="display: none">
+        <div class="paper_description">
+          <div class="action_row" id="icra23_paper">
+            <a href="../resources/citations/icra23_salunkhe.bib" target="_blank"><img src="images/icon_cite_dark.png"
+                alt="cite"></a>
+            <a href="../resources/papers/icra23_salunkhe.pdf" target="_blank"><img src="images/icon_download_dark.png"
+                alt="download"></a>
+            <a onclick="abstractClick('icra23_abstract')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">Trajectory planning issues in commercial cuspidal robots</p>
+            <p class="authors">D. H. Salunkhe, D. Chablat, P. Wenger, <br>In
+              Proceedings of the International Conference on Robotics and Automation,
+              (<span style="color: var(--halycon)">ICRA</span>), 2023, London, United Kingdom <br><span
+                style="color: white; text-decoration: #FFFFFF; text-decoration-line: underline">Error: The
+                &#x3B1;<sub>4</sub> and &#x3B1;<sub>5</sub> in Table I are 55 degrees instead of 90 degrees</span></p>
+          </div>
+        </div>
+        <div id="icra23_abstract" style="display: block;" class="abstract">
+          <p>
+            <span style="color: var(--halycon)">Abstract:</span> <br>
+            A cuspidal serial robot can travel from one inverse kinematic solution to another without crossing a
+            singularity. Cuspidal robots ask for extra care and caution in trajectory planning, as identifying an aspect
+            related to one unique inverse kinematic solution is not possible. The issues related to motion planning with
+            cuspidal robots are related to the inherent property arising from the geometric design of the robot. The
+            cuspidality property has not been considered in recent industrial 6R robots with a non-spherical wrist. In
+            this work, cuspidality is illustrated with the JACO robot (gen 2, non-spherical wrist), a serial arm by
+            Kinova Robotics which is deployed in various applications and is cuspidal in nature. A nonsingular change
+            of solutions for the robot is provided to highlight the effect of cuspidal robots on the interference with
+            the environment. The pose with multiple inverse kinematic solutions in an aspect is presented.
+            Problems in choosing the initial solution of the path in cuspidal robots, and its consequence, is
+            illustrated with an example path in the workspace of the JACO robot. The paper presents the importance of
+            cuspidality analysis of 6R robots and the implications of neglecting it.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- poster -->
+    <div class="year_block">
+      <div class="experience2">
+        <p onclick="click_experience('icra_poster')">Poster</p>
+      </div>
+
+      <div class="paper last_paper" id="icra_poster" style="display: none">
+        <div class="paper_description">
+          <div class="action_row" id="icra23_poster">
+            <a href="../resources/citations/icra23_salunkhe.bib" target="_blank"><img src="images/icon_cite_dark.png"
+                alt="cite"></a>
+            <a href="resources/poster_icra23.pdf" target="_blank"><img src="images/icon_download_dark.png"
+                alt="download"></a>
+            <a onclick="abstractClick('icra_poster_details')"><img src="images/icon_abstract_dark.png"
+                alt="abstract"></a>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">[POSTER] Trajectory planning issues in commercial cuspidal robots</p>
+            <p class="authors"> Presented by: D. H. Salunkhe</p>
+          </div>
+        </div>
+        <div id="icra_poster_details" style="display: block;" class="abstract">
+          <p>
+            <span style="color: var(--halycon)">Details:</span> <br>
+            In this poster, we explain the issues related to motion planning with
+            cuspidal robots that are related to the inherent property arising from the geometric design of such robots.
+            The cuspidality property has not been considered in recent industrial 6R robots with a non-spherical wrist.
+            We illustrate the JACO robot (gen 2, non-spherical wrist), a serial arm by Kinova Robotics which is deployed
+            in various applications, and is cuspidal by nature. A nonsingular change of solutions for the robot is
+            provided to highlight the effect of cuspidal robots on the interference with the environment. Problems
+            related to choosing the initial solution of the path in cuspidal robots, and its consequence, is illustrated
+            with an example path in the workspace of the JACO robot. The poster tries to ring a warning bell for all the
+            designers designing a 6R serial robot.
+          </p>
+          <a href="resources/poster_icra23.pdf" target="_blank"><img src="resources/poster_icra.png"
+              style="width: 100%;" alt="poster image .png"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- graphical abstract -->
+    <div class="year_block">
+      <div class="experience2">
+        <p onclick="click_experience('icra_ga')">Graphical abstract</p>
+      </div>
+
+      <div class="paper last_paper" id="icra_ga" style="display: none">
+        <div class="paper_description">
+          <div class="action_row" id="icra23_ga">
+            <a href="../resources/citations/icra23_salunkhe.bib" target="_blank"><img src="images/icon_cite_dark.png"
+                alt="cite"></a>
+            <a href="resources/graphical_abstract_icra.png" target="_blank"><img src="images/icon_download_dark.png"
+                alt="download"></a>
+            <a onclick="abstractClick('icra_ga_details')"><img src="images/icon_abstract_dark.png" alt="abstract"></a>
+          </div>
+          <div class="paper_title">
+            <p class="paper_heading">[GRAPHICAL ABSTRACT] Trajectory planning issues in commercial cuspidal robots</p>
+          </div>
+        </div>
+        <div id="icra_ga_details" style="display: block;" class="abstract">
+          <p>
+            <span style="color: var(--halycon)">Details:</span> <br>
+            The graphical abstract summarizes the contributions of the paper in 4 points: <br>
+            1. Introducing the terminology, 'cuspidal robot'. <br>
+            2. Showing an example of industrial arm that is cuspidal (JACO robot, KINOVA robotics). <br>
+            3. Explaining the issue of path feasibility and the dependence of path repeatability on the initial choice
+            of the inverse kinematic solution. <br>
+            4. A brief warning for caution in handling cuspidal robots in collaborative activities. <br>
+            It also asks an important question to the designers: <span style="color: var(--halycon)">IS YOUR ROBOT
+              CUSPIDAL?</span>
+          </p>
+          <a href="resources/graphical_abstract_icra.png" target="_blank"><img
+              src="resources/graphical_abstract_icra.png" style="width: 100%;" alt="graphical abstract image .png"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- videos -->
+    <div class="year_block">
+      <div class="experience2">
+        <p onclick="click_experience('icra_video')">Videos</p>
+      </div>
+
+      <div class="paper last_paper" id="icra_video" style="display: none">
+        <div style="display: block;" class="abstract">
+          <p>
+            <span style="color: var(--halycon)">Video description:</span> <br>
+            The video explains following things: <br>
+            1. Introduces the terminology, 'cuspidal robot'. <br>
+            2. Showing an example of industrial arm that is cuspidal (JACO robot, KINOVA robotics). <br>
+            3. Explaining the issue of path feasibility and the dependence of path repeatability on the initial choice
+            of the inverse kinematic solution. <br>
+            4. Real life failure in trajectory planning in industrial robots <br>
+          </p>
+          <div class="spacer_small"></div>
+          <iframe
+            src="https://player.vimeo.com/video/828783091?h=61d971b137&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+            title="Trajectory planning issues in commercial cuspidal robots"
+            style="width: 100%; border: none;"></iframe>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="desktop_spacer"></div>
+  <div class="desktop_spacer"></div>
+
+  <div class="spacer"></div>
+
+  <footer id="footId">
+    <p><span style="color: var(--halycon);">Designed by:</span> durgesh.salunkhe</p>
+    <p class="emailBlock" id="emailid"><img src="images/email_indark.png" alt="email"> &nbsp <a
+        href="mailto: salunkhedurgesh@gmail.com">
+        <span style="font-family: 'PT Mono', monospace; letter-spacing: 0.06rem;">salunkhedurgesh@gmail.com</span></a>
+    </p>
+  </footer>
+
+
+</body>
+
+</html>

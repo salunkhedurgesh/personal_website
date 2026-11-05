@@ -1,0 +1,155 @@
+{
+  "tested": "Rendered in Chromium using Three.js. Network disabled during preview tests.",
+  "keyboard_ground": [
+    {
+      "i": 0,
+      "letter": "D",
+      "heldIndex": 0,
+      "held": 0.5900001362229002,
+      "impacts": 1,
+      "adjacent": 0.13351367020591434,
+      "beforeImpact": 0
+    },
+    {
+      "i": 1,
+      "letter": "U",
+      "heldIndex": 1,
+      "held": 0.5900001844502939,
+      "impacts": 1,
+      "adjacent": 0.13351350622145755,
+      "beforeImpact": 0
+    },
+    {
+      "i": 2,
+      "letter": "R",
+      "heldIndex": 2,
+      "held": 0.5900001606368097,
+      "impacts": 1,
+      "adjacent": 0.13455240144424657,
+      "beforeImpact": 3.021075115534402e-10
+    },
+    {
+      "i": 3,
+      "letter": "G",
+      "heldIndex": 3,
+      "held": 0.5900001844475252,
+      "impacts": 1,
+      "adjacent": 0.13450268250993297,
+      "beforeImpact": 3.073683651527177e-10
+    },
+    {
+      "i": 4,
+      "letter": "E",
+      "heldIndex": 4,
+      "held": 0.5900001844515534,
+      "impacts": 1,
+      "adjacent": 0.1398930417477318,
+      "beforeImpact": 2.9017907508818173e-10
+    },
+    {
+      "i": 5,
+      "letter": "S",
+      "heldIndex": 5,
+      "held": 0.5900001844492756,
+      "impacts": 1,
+      "adjacent": 0.14405045830842028,
+      "beforeImpact": 3.018090968618667e-10
+    },
+    {
+      "i": 6,
+      "letter": "H",
+      "heldIndex": 6,
+      "held": 0.5900001844470097,
+      "impacts": 1,
+      "adjacent": 0.13683429156959484,
+      "beforeImpact": 3.1077947746273053e-10
+    },
+    {
+      "i": 7,
+      "letter": "S",
+      "heldIndex": 7,
+      "held": 0.5900001844558237,
+      "impacts": 1,
+      "adjacent": 0.1180101506298883,
+      "beforeImpact": 2.9521143463578306e-10
+    },
+    {
+      "i": 8,
+      "letter": "A",
+      "heldIndex": 8,
+      "held": 0.5900001988458938,
+      "impacts": 1,
+      "adjacent": 0.13468698711909122,
+      "beforeImpact": 2.455649383373684e-10
+    },
+    {
+      "i": 9,
+      "letter": "L",
+      "heldIndex": 9,
+      "held": 0.5900001844507223,
+      "impacts": 1,
+      "adjacent": 0.13558193488841835,
+      "beforeImpact": 2.737739344547743e-10
+    },
+    {
+      "i": 10,
+      "letter": "U",
+      "heldIndex": 10,
+      "held": 0.5900001844471281,
+      "impacts": 1,
+      "adjacent": 0.1381467661895526,
+      "beforeImpact": 2.925088265788716e-10
+    },
+    {
+      "i": 11,
+      "letter": "N",
+      "heldIndex": 11,
+      "held": 0.590000184448758,
+      "impacts": 1,
+      "adjacent": 0.12996999850682817,
+      "beforeImpact": 2.980417190482858e-10
+    },
+    {
+      "i": 12,
+      "letter": "K",
+      "heldIndex": 12,
+      "held": 0.590000184450904,
+      "impacts": 1,
+      "adjacent": 0.1305193697685752,
+      "beforeImpact": 2.820643915333539e-10
+    },
+    {
+      "i": 13,
+      "letter": "H",
+      "heldIndex": 13,
+      "held": 0.5900001844500745,
+      "impacts": 1,
+      "adjacent": 0.1334962173650201,
+      "beforeImpact": 2.8325544556697026e-10
+    },
+    {
+      "i": 14,
+      "letter": "E",
+      "heldIndex": 14,
+      "held": 0.590000184451584,
+      "impacts": 1,
+      "adjacent": 0.13953635032365075,
+      "beforeImpact": 2.897158935497406e-10
+    }
+  ],
+  "pointer_ground": {
+    "letter": "first S",
+    "observed_ground_impacts": 1,
+    "adjacent_glyph_peak_radians": 0.15035
+  },
+  "touch_ground": {
+    "viewport": [
+      390,
+      755
+    ],
+    "glyph": "D",
+    "observed_ground_impacts": 1
+  },
+  "native_Jolt": "WASM dependency unavailable in the preview test environment: not end-to-end tested here. Serve tools/jolt-check.html for a real runtime test. The deliberately separate offline simulation was used for no-network testing.",
+  "scene_exports": {}
+}

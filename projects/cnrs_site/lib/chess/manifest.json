@@ -1,0 +1,71 @@
+{
+  "description": "Pinned upstream engines; JavaScript files are unmodified. garbo-uci.js is the site adapter.",
+  "downloads": [
+    {
+      "file": "stockfish-19-lite-single.js",
+      "url": "https://github.com/nmrugg/stockfish.js/releases/download/v19.0.1/stockfish-19-lite-single.js",
+      "sha256": "ccb130d7ff29408531c47d859a49f91d59d4f482d05a53eb1a3231a4f624c91a",
+      "bytes": 28230
+    },
+    {
+      "file": "stockfish-19-lite-single.wasm",
+      "url": "https://github.com/nmrugg/stockfish.js/releases/download/v19.0.1/stockfish-19-lite-single.wasm",
+      "sha256": "ee4f115bdb2d32cadf96cada104a05b5ec257d7ad6f57582190b49bc71f096de",
+      "bytes": 1845971
+    },
+    {
+      "file": "stockfish-19-asm.js",
+      "url": "https://github.com/nmrugg/stockfish.js/releases/download/v19.0.1/stockfish-19-asm.js",
+      "sha256": "c07dad9a00a89f4b1dcba3971d58d8078715556eac0212368e4aab510e1e27c9",
+      "bytes": 3155627
+    },
+    {
+      "file": "tomitank-7.0.js",
+      "url": "https://raw.githubusercontent.com/tomitank/tomitankChess/543dffa8bc873736a01621db59424f1bbfec4dbe/tomitankChess.js",
+      "sha256": "6f77194ecb25fcf45812ff251d748b9a4eb344f9c64924fcc90a0cf5efbe5ace",
+      "bytes": 407214
+    },
+    {
+      "file": "lozza-11.0.js",
+      "url": "https://github.com/op12no2/lozza/releases/download/v11.0/lozza11.0.js",
+      "sha256": "36feb6a0614fd66148d454131371bd2e5d78d326c3cd10aca0e26483b3d213e1",
+      "bytes": 668003
+    },
+    {
+      "file": "garbochess.js",
+      "url": "https://raw.githubusercontent.com/glinscott/Garbochess-JS/4ff0f9e49a0041545b645e25d3d2da7af3b36a90/js/garbochess.js",
+      "sha256": "b0ebcf80e7bc7c5c9dd08e57f96a07af0a655f6138590243028d6b98717c938c",
+      "bytes": 81772
+    },
+    {
+      "file": "source/stockfish-19.0.1.tar.gz",
+      "url": "https://codeload.github.com/nmrugg/stockfish.js/tar.gz/refs/tags/v19.0.1",
+      "sha256": "a18aa8a871f5265014b110b3e07804ff3637899d2e189be6ded2b99e2c17a10e",
+      "bytes": 426054
+    },
+    {
+      "file": "../../notices/tomitankChess-GPL-3.0.txt",
+      "url": "https://raw.githubusercontent.com/tomitank/tomitankChess/543dffa8bc873736a01621db59424f1bbfec4dbe/LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "bytes": 35141
+    },
+    {
+      "file": "../../notices/Lozza-LICENCE.txt",
+      "url": "https://raw.githubusercontent.com/op12no2/lozza/v11.0/LICENCE",
+      "sha256": "c2305a862f8c9260429dd977a790371a1c5564e0f3151be8bf8bfc9e74e9b249",
+      "bytes": 136
+    },
+    {
+      "file": "../../notices/Garbochess-BSD.txt",
+      "url": "https://raw.githubusercontent.com/glinscott/Garbochess-JS/4ff0f9e49a0041545b645e25d3d2da7af3b36a90/LICENSE",
+      "sha256": "9c79c15b7c1b6f5205ec53c01d02f8179aa8c29b968b08609c0ddd74d5122ea7",
+      "bytes": 1391
+    }
+  ],
+  "network": {
+    "file": "source/nn-61e7af4bb97d.nnue",
+    "sha256": "61e7af4bb97d51eeeb25d322916f86513b5cd3a827ce189c98c6e31946f99e5b",
+    "bytes": 1166381,
+    "origin": "Exact NNUE bytes embedded in the Stockfish WASM release, recovered from its initialized data segments."
+  }
+}

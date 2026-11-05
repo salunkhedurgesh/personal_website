@@ -1,0 +1,41 @@
+{
+  "stress": {
+    "maxOffset": 0.076891237495345,
+    "finite": true,
+    "physics": {
+      "mode": "jolt",
+      "steps": 600,
+      "recoveries": 0,
+      "clothBodies": 6,
+      "particles": 330,
+      "collars": 0,
+      "tails": 6,
+      "maxVisualOffset": 0.08
+    }
+  },
+  "winter": {
+    "title": "Cold winter in Strasbourg (1 Dec – 28 Feb)",
+    "note": "-2.4 °C",
+    "button": "Cold winter in Strasbourg",
+    "option": "Cold winter in Strasbourg"
+  },
+  "weatherNote": "Temperature is a test fixture; production uses live/cached Strasbourg weather.",
+  "diwali": {
+    "title": "Diwali (5 Nov – 11 Nov)",
+    "noteHidden": true,
+    "note": ""
+  },
+  "mobile": {
+    "viewport": 390,
+    "document": 390,
+    "panelBottom": 166.765625,
+    "controlsTop": 183
+  },
+  "reducedMotion": {
+    "still": true,
+    "normal": true,
+    "cap": true
+  },
+  "runtimeErrors": [],
+  "result": "passed"
+}

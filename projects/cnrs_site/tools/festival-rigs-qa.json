@@ -1,0 +1,1808 @@
+{
+  "diwali": [
+    {
+      "t": 6,
+      "rigs": [],
+      "carrier": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": 0,
+        "lift": 0
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.014353175314047395,
+          "locked": true,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.253480117198639,
+          "locked": true,
+          "hold": false
+        }
+      ],
+      "lamps": [
+        {
+          "support": {
+            "letter": "U",
+            "index": 1,
+            "top": 0,
+            "point": [
+              -0.27573636101426796,
+              0.998028679395061,
+              0
+            ]
+          },
+          "position": [
+            -0.27573636101426796,
+            1.000028679395061,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "E",
+            "index": 4,
+            "top": 0,
+            "point": [
+              -0.011046275441881526,
+              1.0109427268076243,
+              0
+            ]
+          },
+          "position": [
+            -0.011046275441881526,
+            1.0129427268076243,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "H",
+            "index": 6,
+            "top": 1,
+            "point": [
+              0.25795195965439577,
+              1.0091078526180575,
+              0
+            ]
+          },
+          "position": [
+            0.25795195965439577,
+            1.0111078526180575,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "A",
+            "index": 8,
+            "top": 0,
+            "point": [
+              -0.011890475447331489,
+              1.0088981280288696,
+              0
+            ]
+          },
+          "position": [
+            -0.011890475447331489,
+            1.0108981280288696,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "N",
+            "index": 11,
+            "top": 1,
+            "point": [
+              0.3288325587450016,
+              1.0034373458222945,
+              0
+            ]
+          },
+          "position": [
+            0.3288325587450016,
+            1.0054373458222945,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "t": 9.5,
+      "rigs": [],
+      "carrier": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": 0,
+        "lift": 0
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": [
+        {
+          "support": {
+            "letter": "U",
+            "index": 1,
+            "top": 0,
+            "point": [
+              -0.27573636101426796,
+              0.998028679395061,
+              0
+            ]
+          },
+          "position": [
+            -0.27573636101426796,
+            1.000028679395061,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "E",
+            "index": 4,
+            "top": 0,
+            "point": [
+              -0.011046275441881526,
+              1.0109427268076243,
+              0
+            ]
+          },
+          "position": [
+            -0.011046275441881526,
+            1.0129427268076243,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "H",
+            "index": 6,
+            "top": 1,
+            "point": [
+              0.25795195965439577,
+              1.0091078526180575,
+              0
+            ]
+          },
+          "position": [
+            0.25795195965439577,
+            1.0111078526180575,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "A",
+            "index": 8,
+            "top": 0,
+            "point": [
+              -0.011890475447331489,
+              1.0088981280288696,
+              0
+            ]
+          },
+          "position": [
+            -0.011890475447331489,
+            1.0108981280288696,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "N",
+            "index": 11,
+            "top": 1,
+            "point": [
+              0.3288325587450016,
+              1.0034373458222945,
+              0
+            ]
+          },
+          "position": [
+            0.3288325587450016,
+            1.0054373458222945,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "t": 11.4,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.00008499541905909445
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.003380659730670106
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0.00007858335971832195,
+          0
+        ],
+        "rotation": 0,
+        "lift": 0.0002910494804382294
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": [
+        {
+          "support": {
+            "letter": "U",
+            "index": 1,
+            "top": 0,
+            "point": [
+              -0.27573636101426796,
+              0.998028679395061,
+              0
+            ]
+          },
+          "position": [
+            -0.27573636101426796,
+            1.000028679395061,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "E",
+            "index": 4,
+            "top": 0,
+            "point": [
+              -0.011046275441881526,
+              1.0109427268076243,
+              0
+            ]
+          },
+          "position": [
+            -0.011046275441881526,
+            1.0129427268076243,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "H",
+            "index": 6,
+            "top": 1,
+            "point": [
+              0.25795195965439577,
+              1.0091078526180575,
+              0
+            ]
+          },
+          "position": [
+            0.25795195965439577,
+            1.0111078526180575,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "A",
+            "index": 8,
+            "top": 0,
+            "point": [
+              -0.011890475447331489,
+              1.0088981280288696,
+              0
+            ]
+          },
+          "position": [
+            -0.011890475447331489,
+            1.0108981280288696,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "N",
+            "index": 11,
+            "top": 1,
+            "point": [
+              0.3288325587450016,
+              1.0034373458222945,
+              0
+            ]
+          },
+          "position": [
+            0.3288325587450016,
+            1.0054373458222945,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "t": 13,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.0000813510143261705
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.0010017756288179813
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0.1507791620492934,
+          0
+        ],
+        "rotation": 0,
+        "lift": 0.5584413409233089
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": [
+        {
+          "support": {
+            "letter": "U",
+            "index": 1,
+            "top": 0,
+            "point": [
+              -0.27573636101426796,
+              0.998028679395061,
+              0
+            ]
+          },
+          "position": [
+            -0.27573636101426796,
+            1.000028679395061,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "E",
+            "index": 4,
+            "top": 0,
+            "point": [
+              -0.011046275441881526,
+              1.0109427268076243,
+              0
+            ]
+          },
+          "position": [
+            -0.011046275441881526,
+            1.0129427268076243,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "H",
+            "index": 6,
+            "top": 1,
+            "point": [
+              0.25795195965439577,
+              1.0091078526180575,
+              0
+            ]
+          },
+          "position": [
+            0.25795195965439577,
+            1.0111078526180575,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "A",
+            "index": 8,
+            "top": 0,
+            "point": [
+              -0.011890475447331489,
+              1.0088981280288696,
+              0
+            ]
+          },
+          "position": [
+            -0.011890475447331489,
+            1.0108981280288696,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "N",
+            "index": 11,
+            "top": 1,
+            "point": [
+              0.3288325587450016,
+              1.0034373458222945,
+              0
+            ]
+          },
+          "position": [
+            0.3288325587450016,
+            1.0054373458222945,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "t": 16,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.00008453407200095115
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.0004590361162294856
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0.28339198441057384,
+          0
+        ],
+        "rotation": 0.0015613618060692303,
+        "lift": 1
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": [
+        {
+          "support": {
+            "letter": "U",
+            "index": 1,
+            "top": 0,
+            "point": [
+              -0.27573636101426796,
+              0.998028679395061,
+              0
+            ]
+          },
+          "position": [
+            -0.27573636101426796,
+            1.000028679395061,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "E",
+            "index": 4,
+            "top": 0,
+            "point": [
+              -0.011046275441881526,
+              1.0109427268076243,
+              0
+            ]
+          },
+          "position": [
+            -0.011046275441881526,
+            1.0129427268076243,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "H",
+            "index": 6,
+            "top": 1,
+            "point": [
+              0.25795195965439577,
+              1.0091078526180575,
+              0
+            ]
+          },
+          "position": [
+            0.25795195965439577,
+            1.0111078526180575,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "A",
+            "index": 8,
+            "top": 0,
+            "point": [
+              -0.011890475447331489,
+              1.0088981280288696,
+              0
+            ]
+          },
+          "position": [
+            -0.011890475447331489,
+            1.0108981280288696,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "N",
+            "index": 11,
+            "top": 1,
+            "point": [
+              0.3288325587450016,
+              1.0034373458222945,
+              0
+            ]
+          },
+          "position": [
+            0.3288325587450016,
+            1.0054373458222945,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "t": 20,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.00008163047293759804
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.00046284530444995166
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0.2560097844110682,
+          0
+        ],
+        "rotation": -0.0011711252467173005,
+        "lift": 1
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.005,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.00500000000000002,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": [
+        {
+          "support": {
+            "letter": "U",
+            "index": 1,
+            "top": 0,
+            "point": [
+              -0.27573636101426796,
+              0.998028679395061,
+              0
+            ]
+          },
+          "position": [
+            -0.27573636101426796,
+            1.000028679395061,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "E",
+            "index": 4,
+            "top": 0,
+            "point": [
+              -0.011046275441881526,
+              1.0109427268076243,
+              0
+            ]
+          },
+          "position": [
+            -0.011046275441881526,
+            1.0129427268076243,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "H",
+            "index": 6,
+            "top": 1,
+            "point": [
+              0.25795195965439577,
+              1.0091078526180575,
+              0
+            ]
+          },
+          "position": [
+            0.25795195965439577,
+            1.0111078526180575,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "A",
+            "index": 8,
+            "top": 0,
+            "point": [
+              -0.011890475447331489,
+              1.0088981280288696,
+              0
+            ]
+          },
+          "position": [
+            -0.011890475447331489,
+            1.0108981280288696,
+            0
+          ]
+        },
+        {
+          "support": {
+            "letter": "N",
+            "index": 11,
+            "top": 1,
+            "point": [
+              0.3288325587450016,
+              1.0034373458222945,
+              0
+            ]
+          },
+          "position": [
+            0.3288325587450016,
+            1.0054373458222945,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "puppets": [
+    {
+      "t": 0,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.0000024950331756249316
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 9.925650588783352e-7
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.1323116424556532,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.12858019196764375,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.11901486891810148,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.10825370512949556,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.10126791324054618,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.10135696517100018,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.1084980757347056,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.11932448731701195,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.12875268768559633,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.13225403941203911,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.12840513312593516,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.11879513667516006,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.10803053925054179,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.10117886377501184,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.1014566811506159,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": []
+    },
+    {
+      "t": 0.5,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.00045444019508713424
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 9.675162645205868e-7
+        }
+      ],
+      "carrier": {
+        "position": [
+          -0.01664965489677442,
+          -0.0342135541182784,
+          0
+        ],
+        "rotation": -0.0015785245246032892
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.07985123421566204,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.0779016538495318,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.06139258061429109,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.05067468493000771,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.0451578397431916,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.04355562906772403,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.04885695285030117,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.05772324298561432,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.06516538793758264,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.05771446828228638,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.06306337704633486,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.05000583349484172,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.03862825508868617,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.031246496062721226,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.03107487445272916,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": []
+    },
+    {
+      "t": 1.5,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 0.000003130568315884589
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.0000012501511890214011
+        }
+      ],
+      "carrier": {
+        "position": [
+          -0.011804604196009568,
+          0.028132454929306737,
+          0
+        ],
+        "rotation": -0.003958630919872515
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.08896600543086586,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.08541955158169429,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.06987061872042649,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.05792141848247512,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.05154434220012538,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.049512634119097454,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.0544331637829894,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.06246259048871222,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.06949834057551552,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.06520462825820489,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.06603457806460789,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.05243239230835467,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.040340082594013504,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.03218396815859437,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.03142037257921593,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": []
+    },
+    {
+      "t": 3.5,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 7.265703945717661e-7
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.000010872236181092585
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.08896600543086586,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.08541955158169429,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.06987061872042649,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.05792141848247512,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.05154434220012538,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.049512634119097454,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.0544331637829894,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.06246259048871222,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.06949834057551552,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.06520462825820489,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.06603457806460789,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.05243239230835467,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.040340082594013504,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.03218396815859437,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.03142037257921593,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": []
+    },
+    {
+      "t": 6,
+      "rigs": [
+        {
+          "name": "ABB GoFa / opening D",
+          "error": 7.265703945717661e-7
+        },
+        {
+          "name": "KUKA iiwa 7 / final E",
+          "error": 0.000010872236181092585
+        }
+      ],
+      "carrier": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "letters": [
+        {
+          "ch": "D",
+          "y": 0.09377603457263067,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.08975437603994912,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "R",
+          "y": 0.07459688905491318,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "G",
+          "y": 0.06237954109574306,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.055657330311413955,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.053555857530308004,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.05839120807392445,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "S",
+          "y": 0.06622843151077273,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "A",
+          "y": 0.07318299463540517,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "L",
+          "y": 0.06971934831978077,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "U",
+          "y": 0.0693395516965325,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "N",
+          "y": 0.05568661811334119,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "K",
+          "y": 0.043362717248168536,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "H",
+          "y": 0.03499583379910337,
+          "locked": false,
+          "hold": false
+        },
+        {
+          "ch": "E",
+          "y": 0.03405572638135923,
+          "locked": false,
+          "hold": false
+        }
+      ],
+      "lamps": []
+    }
+  ],
+  "orbit": 0,
+  "cards": [
+    {
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "crop": "10 10 820 326"
+    }
+  ],
+  "popup": {
+    "background": "rgb(255, 255, 255)",
+    "svg": "10 10 820 1295",
+    "width": 332.5625,
+    "height": 300.65625
+  },
+  "mobile": {
+    "diwali": {
+      "width": 390,
+      "scroll": 390
+    },
+    "puppets": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  "reduced": 1,
+  "runtimeErrors": [],
+  "result": "passed",
+  "scienceClipPaths": {
+    "card": "url(#science-card-crop)",
+    "detail": "url(#science-detail-crop)",
+    "cardViewBox": "10 10 820 326",
+    "detailViewBox": "10 10 820 1295",
+    "panels": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ]
+  }
+}

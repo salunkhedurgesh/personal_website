@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chess analysis engines and source</title>
+<style>body{max-width:760px;margin:48px auto;padding:0 20px;font:16px/1.6 system-ui,sans-serif;color:#153b36;background:#fff}h1{font:36px Georgia,serif}li{margin:16px 0}a{color:inherit}code{font-size:14px}</style>
+<h1>Chess analysis engines</h1>
+<p>The board checks <a href="https://lichess.org/api#operation/apiCloudEval">Lichess cloud evaluation</a> first. Lichess returns cached position analysis; a missing position does not start a new cloud search. Only the position (FEN) is sent.</p>
+<p>If a cloud evaluation is missing, unavailable, or below depth 8, these five free, open-source engine builds calculate live in browser workers, in this order. The backups run on your device; they are not five independent cloud services. Every displayed engine score must have completed at least depth 8 with a legal principal variation.</p>
+<ol>
+  <li><b>Stockfish 19 Lite, single-threaded WebAssembly</b> — <a href="https://github.com/nmrugg/stockfish.js/tree/v19.0.1">Stockfish.js 19.0.1</a>, GPL-3.0. <a href="Stockfish-GPL-3.0.txt">License</a>.</li>
+  <li><b>tomitankChess 7.0</b> — Tamas Kuzmics. <a href="https://github.com/tomitank/tomitankChess/tree/543dffa8bc873736a01621db59424f1bbfec4dbe">Upstream revision</a>, GPL-3.0-or-later. <a href="tomitankChess-GPL-3.0.txt">License</a>; <a href="../lib/chess/tomitank-7.0.js">complete engine source</a>.</li>
+  <li><b>Lozza 11.0</b> — Colin Jenkins. <a href="https://github.com/op12no2/lozza/releases/tag/v11.0">Upstream release</a>, <a href="Lozza-LICENCE.txt">permissive upstream license</a>; <a href="../lib/chess/lozza-11.0.js">complete engine source, including weights</a>.</li>
+  <li><b>Stockfish 19 ASM JavaScript</b> — a compatibility build from the same Stockfish.js release, for browsers where WebAssembly fails. GPL-3.0; shares the Stockfish source and license above.</li>
+  <li><b>Garbochess-JS</b> — Gary Linscott. <a href="https://github.com/glinscott/Garbochess-JS/tree/4ff0f9e49a0041545b645e25d3d2da7af3b36a90">Upstream revision</a>, <a href="Garbochess-BSD.txt">BSD license</a>; <a href="../lib/chess/garbochess.js">complete engine source</a> and <a href="../lib/chess/garbo-uci.js">the site's UCI worker adapter</a>.</li>
+</ol>
+<p>Corresponding source for both Stockfish builds is provided in the <a href="../lib/chess/source/stockfish-19.0.1.tar.gz">original Stockfish.js 19.0.1 source archive</a>, together with the <a href="../lib/chess/source/nn-61e7af4bb97d.nnue">exact embedded neural network</a>. The archive includes authors, build scripts, Emscripten glue, and the GPL license. See its README for build instructions. Place the network in <code>src/</code>; use Emscripten 6.0.9 and <code>node build.js --lite --single-threaded</code> or <code>node build.js --asm-js</code>.</p>
+<p>Positive scores favour White; negative scores favour Black. Scores from different engines can differ. The displayed depth is the engine's reported completed search depth, not a guarantee of perfect play. Checkmate and stalemate are shown directly when there are no legal moves.</p>
+<p>Release URLs and SHA-256 checksums are recorded in the <a href="../lib/chess/manifest.json">asset manifest</a>.</p>
+</html>

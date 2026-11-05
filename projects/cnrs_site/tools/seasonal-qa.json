@@ -1,0 +1,290 @@
+{
+  "runtimeErrors": [],
+  "desktop": {
+    "width": 1440,
+    "allThemesFit": true
+  },
+  "mobile": {
+    "diwali": {
+      "viewport": 390,
+      "document": 390
+    },
+    "christmas": {
+      "viewport": 390,
+      "document": 390
+    },
+    "snow": {
+      "viewport": 390,
+      "document": 390
+    }
+  },
+  "diwali": {
+    "oilLamps": 8,
+    "lanterns": 3,
+    "fountains": 2,
+    "stringLights": 30
+  },
+  "christmas": {
+    "trees": 1,
+    "stockings": 3,
+    "stockingColors": [
+      "b43540",
+      "b43540",
+      "b43540"
+    ],
+    "snowCaps": 15
+  },
+  "snow": {
+    "fullGeometryShells": 15,
+    "chatterDurationSeconds": {
+      "first": 13.649999999999999,
+      "last": 13
+    },
+    "chatterFrequencyHz": 6,
+    "freezeDurationSeconds": 10,
+    "iceThickness": [
+      0.003,
+      0.004
+    ],
+    "iceOpacity": 0.42,
+    "icicles": 45,
+    "snowHeight": 0.15959204733371735,
+    "placementSamples": [
+      {
+        "letter": "D",
+        "startsAt": 6.248,
+        "freezeCompletesAt": 16.248,
+        "shiverStopsAt": 19.898,
+        "restoredAt": 24.898
+      },
+      {
+        "letter": "E",
+        "startsAt": 6.898000000000001,
+        "freezeCompletesAt": 16.898,
+        "shiverStopsAt": 19.898,
+        "restoredAt": 24.898
+      }
+    ],
+    "motionVerified": true,
+    "shiverAfterFreezingSeconds": 3,
+    "snowSurface": {
+      "continuousMeshes": 1,
+      "vertices": 3381,
+      "height": 0.15959204733371735,
+      "hasUV": true,
+      "individualPiles": false
+    },
+    "meltDurationSeconds": 5,
+    "scarves": {
+      "count": 3,
+      "letters": [
+        "R",
+        "S",
+        "K"
+      ],
+      "remainAfterMelting": true
+    },
+    "stages": {
+      "freezing": {
+        "shivering": 15,
+        "iceShells": 15,
+        "icicles": 0,
+        "iceCoverage": 0.13185683264678918,
+        "melt": 0,
+        "scarves": [
+          {
+            "letter": "R",
+            "visible": false,
+            "progress": 0,
+            "draw": 0,
+            "full": 4608
+          },
+          {
+            "letter": "S",
+            "visible": false,
+            "progress": 0,
+            "draw": 0,
+            "full": 4608
+          },
+          {
+            "letter": "K",
+            "visible": false,
+            "progress": 0,
+            "draw": 0,
+            "full": 4608
+          }
+        ]
+      },
+      "frozen": {
+        "shivering": 15,
+        "iceShells": 15,
+        "icicles": 45,
+        "iceCoverage": 1,
+        "melt": 0,
+        "scarves": [
+          {
+            "letter": "R",
+            "visible": false,
+            "progress": 0,
+            "draw": 0,
+            "full": 4608
+          },
+          {
+            "letter": "S",
+            "visible": false,
+            "progress": 0,
+            "draw": 0,
+            "full": 4608
+          },
+          {
+            "letter": "K",
+            "visible": false,
+            "progress": 0,
+            "draw": 0,
+            "full": 4608
+          }
+        ]
+      },
+      "wrapping": {
+        "shivering": 15,
+        "iceShells": 15,
+        "icicles": 45,
+        "iceCoverage": 1,
+        "melt": 0,
+        "scarves": [
+          {
+            "letter": "R",
+            "visible": true,
+            "progress": 0.7583258122573668,
+            "draw": 3456,
+            "full": 4608
+          },
+          {
+            "letter": "S",
+            "visible": true,
+            "progress": 0.6310462168526363,
+            "draw": 2880,
+            "full": 4608
+          },
+          {
+            "letter": "K",
+            "visible": true,
+            "progress": 0.49218786168228074,
+            "draw": 2256,
+            "full": 4608
+          }
+        ]
+      },
+      "wrapped": {
+        "shivering": 0,
+        "iceShells": 15,
+        "icicles": 45,
+        "iceCoverage": 1,
+        "melt": 0,
+        "scarves": [
+          {
+            "letter": "R",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          },
+          {
+            "letter": "S",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          },
+          {
+            "letter": "K",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          }
+        ]
+      },
+      "melting": {
+        "shivering": 0,
+        "iceShells": 15,
+        "icicles": 45,
+        "iceCoverage": 0.5,
+        "melt": 0.5,
+        "scarves": [
+          {
+            "letter": "R",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          },
+          {
+            "letter": "S",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          },
+          {
+            "letter": "K",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          }
+        ]
+      },
+      "restored": {
+        "shivering": 0,
+        "iceShells": 0,
+        "icicles": 0,
+        "iceCoverage": 0,
+        "melt": 1,
+        "scarves": [
+          {
+            "letter": "R",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          },
+          {
+            "letter": "S",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          },
+          {
+            "letter": "K",
+            "visible": true,
+            "progress": 1,
+            "draw": 4608,
+            "full": 4608
+          }
+        ]
+      }
+    },
+    "finalState": "original green letters with three scarves; no ice or shivering"
+  },
+  "reducedMotion": {
+    "iceRemoved": true,
+    "normalLetters": true,
+    "scarves": 3,
+    "chattering": false,
+    "animationStopped": true
+  },
+  "festivalWindows": {
+    "days": 7,
+    "daysBefore": 3,
+    "daysAfter": 3,
+    "christmas": "December 22–28",
+    "boundaryChecks": "passed"
+  },
+  "regressions": [
+    "Robot assembly",
+    "Halloween props"
+  ],
+  "result": "passed"
+}

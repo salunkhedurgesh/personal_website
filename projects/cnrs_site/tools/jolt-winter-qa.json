@@ -1,0 +1,70 @@
+{
+  "physics": {
+    "mode": "jolt",
+    "steps": 7,
+    "clothBodies": 9,
+    "particles": 3144,
+    "collars": 3,
+    "tails": 6
+  },
+  "cap": {
+    "letter": "D",
+    "name": "Snowfall / knitted winter cap on D",
+    "visible": true,
+    "progress": 1
+  },
+  "desktopPanel": {
+    "visible": true,
+    "expanded": "true",
+    "title": "Snowfall",
+    "copy": "A winter interlude. The letters catch a frost, then warm up in knitted scarves and a cap as the ice melts away.",
+    "rect": {
+      "x": 920.8125,
+      "y": 90,
+      "width": 430,
+      "height": 64.140625,
+      "top": 90,
+      "right": 1350.8125,
+      "bottom": 154.140625,
+      "left": 920.8125
+    },
+    "button": {
+      "x": 876.8125,
+      "y": 124,
+      "width": 26,
+      "height": 26,
+      "top": 124,
+      "right": 902.8125,
+      "bottom": 150,
+      "left": 876.8125
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390,
+    "panelBottom": 186.140625,
+    "rolesTop": 202,
+    "visible": true
+  },
+  "reducedMotion": {
+    "normal": true,
+    "cap": true,
+    "mode": "still"
+  },
+  "runtimeErrors": [],
+  "result": "passed",
+  "stability": {
+    "finite": true,
+    "maxDisplacement": 0.009457753505557775,
+    "pinnedError": 0,
+    "stats": {
+      "mode": "jolt",
+      "steps": 374,
+      "clothBodies": 9,
+      "particles": 3144,
+      "collars": 3,
+      "tails": 6
+    }
+  },
+  "marionetteRuntime": "jolt"
+}

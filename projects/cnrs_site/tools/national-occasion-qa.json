@@ -1,0 +1,29 @@
+{
+  "report": [
+    {
+      "date": "2027-01-26",
+      "title": "Indian Republic Day (26 Jan)",
+      "hidden": false,
+      "copyHidden": true,
+      "button": "Close Indian Republic Day",
+      "theme": "india"
+    },
+    {
+      "date": "2027-08-15",
+      "title": "Indian Independence Day (15 Aug)",
+      "hidden": false,
+      "copyHidden": true,
+      "button": "Close Indian Independence Day",
+      "theme": "india"
+    },
+    {
+      "date": "2027-07-14",
+      "title": "France · la Fête nationale (14 Jul)",
+      "hidden": false,
+      "copyHidden": true,
+      "button": "Close France · la Fête nationale",
+      "theme": "france"
+    }
+  ],
+  "runtimeErrors": []
+}

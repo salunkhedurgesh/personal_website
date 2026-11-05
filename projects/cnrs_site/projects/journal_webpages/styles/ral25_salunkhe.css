@@ -1,0 +1,200 @@
+/* Base layout */
+.paper-hero { max-width: 700px; width: min(88vw, 700px); margin: 4rem auto 0; padding-bottom: 0.5rem; }
+.paper-venue { font-size: 0.72rem; color: var(--halycon); font-family: 'PT Mono', monospace; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.7rem; }
+.paper-title { font-size: 1.45rem; color: var(--title-color); font-weight: 400; line-height: 1.5; margin-bottom: 0.8rem; }
+.paper-authors { font-size: 0.85rem; color: var(--paper_color); line-height: 1.6; margin-bottom: 0.3rem; }
+.paper-meta { font-size: 0.75rem; color: var(--blueBC); margin-bottom: 1.4rem; }
+.paper-meta a { color: var(--blueBC); text-decoration: underline; text-underline-offset: 3px; }
+
+.btn-row { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.btn { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.38rem 0.85rem; border: 1px solid var(--halycon); border-radius: 3px; color: var(--halycon); font-family: 'PT Mono', monospace; font-size: 0.72rem; text-decoration: none; background: none; cursor: pointer; transition: background 0.15s, color 0.15s; }
+.btn:hover { background: var(--halycon); color: #03122b; }
+.btn img { width: 0.8rem; height: 0.8rem; }
+.btn-dim { border-color: rgba(136,146,176,0.4); color: rgba(136,146,176,0.55); cursor: default; }
+.btn-dim:hover { background: none; color: rgba(136,146,176,0.55); }
+
+.paper-section { max-width: 700px; width: min(88vw, 700px); margin: 0 auto; }
+.section-hdr { font-size: 0.78rem; color: var(--halycon); font-family: 'PT Mono', monospace; letter-spacing: 0.12em; text-transform: uppercase; padding: 1.1rem 0 0.4rem; border-top: 1px solid rgba(0,238,182,0.18); margin-top: 1.8rem; cursor: pointer; }
+.section-hdr:hover { color: var(--title-color); }
+.section-body { padding-bottom: 0.5rem; color: var(--paper_color); font-size: 0.88rem; font-weight: lighter; line-height: 1.7; text-align: justify; }
+.section-body a { color: var(--halycon); }
+.section-body a:hover { text-decoration: underline; }
+
+/* Contributions */
+.contrib-list { list-style: none; padding: 0; margin: 0.4rem 0 0; }
+.contrib-list li { display: flex; gap: 0.8rem; padding: 0.55rem 0; border-bottom: 1px solid rgba(136,146,176,0.1); font-size: 0.88rem; color: var(--paper_color); font-weight: lighter; line-height: 1.6; }
+.contrib-list li:last-child { border-bottom: none; }
+.contrib-num { color: var(--halycon); font-family: 'PT Mono', monospace; font-size: 0.72rem; min-width: 1.4rem; padding-top: 0.2rem; }
+
+/* FAQ */
+.faq-item { border-bottom: 1px solid rgba(136,146,176,0.1); }
+.faq-q { font-size: 0.88rem; color: var(--title-color); font-weight: 400; padding: 0.7rem 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; }
+.faq-q:hover { color: var(--halycon); }
+.faq-q .faq-arrow { font-size: 0.7rem; color: var(--halycon); font-family: 'PT Mono', monospace; }
+.faq-a { font-size: 0.85rem; color: var(--paper_color); font-weight: lighter; line-height: 1.7; padding-bottom: 0.8rem; display: none; }
+.faq-a a { color: var(--halycon); }
+
+/* Related work */
+.related-authors { font-size: 1.25rem; color: var(--blueBC); display: inline-block; margin-top: 0.2rem; }
+
+/* Cite feedback */
+.cite-feedback { font-size: 0.72rem; color: var(--halycon); font-family: 'PT Mono', monospace; opacity: 0; transition: opacity 0.3s; margin-left: 0.3rem; }
+
+/* Video */
+.video-wrap { position: relative; width: 100%; aspect-ratio: 16 / 9; margin-top: 0.8rem; }
+.video-wrap iframe { width: 100%; height: 100%; border: none; border-radius: 4px; }
+.video-wrap video { width: 100%; height: 100%; border-radius: 4px; }
+
+/* Contact form */
+.contact-form { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.6rem; }
+.contact-form input, .contact-form textarea {
+    width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(136,146,176,0.3);
+    border-radius: 3px; color: var(--title-color); font-family: Rubik, sans-serif;
+    font-size: 1.25rem; padding: 0.9rem 1.1rem; outline: none; caret-color: var(--halycon);
+}
+.contact-form input:focus, .contact-form textarea:focus { border-color: var(--halycon); }
+.contact-form textarea { resize: vertical; min-height: 140px; }
+.contact-form input::placeholder, .contact-form textarea::placeholder { color: rgba(136,146,176,0.5); }
+.form-row { display: flex; gap: 0.6rem; }
+.form-row input { flex: 1; }
+.form-status { font-size: 0.8rem; color: var(--halycon); margin-top: 0.3rem; min-height: 1.2em; }
+
+.contact-form .btn {
+    font-size: 1.25rem;
+    padding: 0.7rem 1.4rem;
+}
+
+/* Responsive: phones */
+@media (max-width: 480px) {
+    .paper-hero { margin: 2.5rem auto 0; width: 92vw; }
+    .paper-title { font-size: 1.2rem; line-height: 1.45; }
+    .paper-venue { font-size: 0.65rem; letter-spacing: 0.04em; }
+    .paper-authors { font-size: 0.8rem; }
+    .paper-meta { font-size: 0.7rem; }
+    .btn { font-size: 0.68rem; padding: 0.32rem 0.7rem; }
+    .paper-section { width: 92vw; }
+    .section-hdr { font-size: 0.72rem; }
+    .section-body { font-size: 0.84rem; line-height: 1.6; text-align: left; }
+    .contrib-list li { font-size: 0.84rem; gap: 0.6rem; }
+    .faq-q { font-size: 0.84rem; }
+    .faq-a { font-size: 0.82rem; }
+    .form-row { flex-direction: column; }
+    .contact-form input, .contact-form textarea { font-size: 0.9rem; padding: 0.7rem 0.9rem; }
+    .contact-form textarea { min-height: 120px; }
+    .contact-form .btn { font-size: 0.78rem; padding: 0.45rem 0.95rem; }
+}
+
+/* Responsive: tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .paper-hero { margin: 3rem auto 0; width: 90vw; }
+    .paper-title { font-size: 1.3rem; }
+    .paper-venue { font-size: 0.68rem; }
+    .paper-authors { font-size: 0.82rem; }
+    .paper-meta { font-size: 0.72rem; }
+    .btn { font-size: 0.7rem; }
+    .paper-section { width: 90vw; }
+    .section-body { font-size: 0.86rem; }
+    .contact-form input, .contact-form textarea { font-size: 0.94rem; }
+    .contact-form textarea { min-height: 130px; }
+}
+
+/* Responsive: laptops */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .paper-hero, .paper-section { width: 90vw; max-width: 1200px; }
+    .paper-title { font-size: 1.7rem; }
+    .paper-venue { font-size: 0.76rem; }
+    .paper-authors { font-size: 0.92rem; }
+    .paper-meta { font-size: 0.82rem; }
+    .section-hdr { font-size: 0.82rem; }
+    .section-body { font-size: 0.98rem; line-height: 1.75; }
+    .contrib-list li { font-size: 0.96rem; }
+    .faq-q { font-size: 0.95rem; }
+    .faq-a { font-size: 0.92rem; }
+    .contact-form input, .contact-form textarea { font-size: 1rem; }
+    .contact-form textarea { min-height: 150px; }
+    .contact-form .btn { font-size: 0.84rem; padding: 0.55rem 1.2rem; }
+    .related-authors { font-size: 0.96rem; }
+}
+
+/* Responsive: large laptops */
+@media (min-width: 1201px) and (max-width: 1399px) {
+    .paper-hero, .paper-section { width: 88vw; max-width: 1200px; }
+    .paper-title { font-size: 1.75rem; }
+    .paper-venue { font-size: 0.78rem; }
+    .paper-authors { font-size: 0.95rem; }
+    .paper-meta { font-size: 0.84rem; }
+    .section-hdr { font-size: 0.84rem; }
+    .section-body { font-size: 1rem; line-height: 1.75; }
+    .contrib-list li { font-size: 0.98rem; }
+    .faq-q { font-size: 0.96rem; }
+    .faq-a { font-size: 0.94rem; }
+    .contact-form input, .contact-form textarea { font-size: 1.02rem; }
+    .contact-form textarea { min-height: 160px; }
+    .contact-form .btn { font-size: 0.86rem; padding: 0.6rem 1.25rem; }
+    .related-authors { font-size: 0.98rem; }
+}
+
+/* Responsive: wide screens */
+@media (min-width: 1400px) {
+
+    .paper-hero,
+    .paper-section {
+        width: 88vw;
+        max-width: 1200px;
+    }
+
+    .paper-title {
+        font-size: 1.75rem;
+    }
+
+    .paper-venue {
+        font-size: 1.25rem;
+    }
+
+    .paper-authors {
+        font-size: 1.25rem;
+    }
+
+    .paper-meta {
+        font-size: 1.25rem;
+    }
+
+    .section-hdr {
+        font-size: 1.2rem;
+    }
+
+    .section-body {
+        font-size: 1.25rem;
+        line-height: 1.75;
+    }
+
+    .contrib-list li {
+        font-size: 1.25rem;
+    }
+
+    .faq-q {
+        font-size: 1.25rem;
+    }
+
+    .faq-a {
+        font-size: 1.25rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1.1rem;
+    }
+
+    .contact-form textarea {
+        min-height: 180px;
+    }
+
+    .contact-form .btn {
+        font-size: 0.95rem;
+        padding: 0.65rem 1.35rem;
+    }
+
+    .related-authors {
+        font-size: 1.05rem;
+    }
+}

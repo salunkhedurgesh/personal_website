@@ -16,7 +16,7 @@ await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion'
 await cdp('Page.enable');
 await cdp('Page.navigate',{url:base});
 
-await evaluate(`new Promise((resolve,reject)=>{let n=0;let id=setInterval(()=>{if(window.ChessAnalysis&&window.Rules){clearInterval(id);resolve(true)}else if(n++>100){clearInterval(id);reject(Error('Chess scripts not loaded'))}},100)})`);
+await evaluate(`new Promise((resolve,reject)=>{let n=0;const id=setInterval(()=>{if(window.SiteAssets){clearInterval(id);SiteAssets.chess().then(resolve,reject)}else if(n++>100){clearInterval(id);reject(Error('Site loader not ready'))}},100)})`);
 const results=[];
 const positions=[
  {name:'White to move',fen:'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'},

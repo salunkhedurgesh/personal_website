@@ -1,0 +1,39 @@
+{
+  "mobilePreview": {
+    "at": 835.5,
+    "paint": {
+      "lcp": 708
+    },
+    "live": "false",
+    "textVisible": true,
+    "preview": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=599b8bc1c4b6"
+  },
+  "mobileLive": {
+    "at": 14732.5,
+    "paint": {
+      "lcp": 708,
+      "preview": 856,
+      "letterheadLive": 8804.29999999702
+    },
+    "assetsReady": true,
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "reduced": {
+    "live": "false",
+    "clay": false,
+    "preview": 592,
+    "atlas": "stills"
+  },
+  "noGPU": {
+    "preview": 592,
+    "live": "false",
+    "atlas": "stills"
+  },
+  "modelFailure": {
+    "live": "false",
+    "preview": 592,
+    "status": "error"
+  },
+  "recovered": true
+}

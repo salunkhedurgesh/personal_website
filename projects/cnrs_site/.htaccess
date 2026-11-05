@@ -1,0 +1,20 @@
+# Static files keep the site's existing URLs. Versioned requests can be cached longer.
+<IfModule mod_mime.c>
+  AddType model/gltf-binary .glb
+  AddType application/wasm .wasm
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml model/gltf-binary application/wasm
+</IfModule>
+<IfModule mod_setenvif.c>
+  SetEnvIfExpr "%{QUERY_STRING} =~ m#(^|&)v=[A-Za-z0-9._-]+(&|$)#" versioned_asset
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js|mjs|json|svg|png|webp|glb|wasm)$">
+    Header set Cache-Control "public, max-age=300"
+    Header set Cache-Control "public, max-age=31536000, immutable" env=versioned_asset
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

@@ -18,7 +18,9 @@ await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion'
 await cdp('Page.addScriptToEvaluateOnNewDocument',{source:`localStorage.setItem('studio-strasbourg-meteo-v1',JSON.stringify({t:Date.now(),data:{temperature_2m:5,weather_code:3}}));`});
 await cdp('Page.navigate',{url:base});
 async function until(expression){return evaluate(`new Promise((resolve,reject)=>{const start=performance.now();const poll=()=>{const value=(${expression});if(value)return resolve(value);if(performance.now()-start>45000)return reject(Error('Timed out: '+${JSON.stringify(expression)}));setTimeout(poll,80)};poll()})`)}
-await until(`window.ChessAnalysis&&window.Rules&&document.querySelector('[data-role="chess"]')`);
+await until(`window.StudioSite&&window.SiteAssets`);
+await evaluate(`document.querySelector('[data-role="chess"]').click()`);
+await until(`window.ChessAnalysis&&window.Rules&&document.querySelector('.fenbox')`);
 const report={};
 report.liveLookup=await evaluate(`(async()=>{
  const log=[],status=[];

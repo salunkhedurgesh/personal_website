@@ -2,7 +2,16 @@
 window.AtelierArt=(()=>{
  const T=THREE, P=Math.PI, tau=2*P, library=new Map();
  const focus=['holi','india','france','halloween','puppets'];
- function texture(name,notify,color=true){if(library.has(name))return library.get(name);let path='images/atelier/'+name+'.webp';let t=new T.TextureLoader().load(window.siteAsset?siteAsset(path):path,notify);if(color)t.encoding=T.sRGBEncoding;t.anisotropy=4;if(/ceramic|walnut/.test(name))t.wrapS=t.wrapT=T.RepeatWrapping;library.set(name,t);return t}
+ function texture(name,notify,color=true){
+  if(library.has(name))return library.get(name);
+  const path='images/atelier/'+name+'.webp';let done,fail;
+  const ready=new Promise((resolve,reject)=>{done=resolve;fail=reject});
+  const t=new T.TextureLoader().load(window.siteAsset?siteAsset(path):path,()=>{done();notify()},undefined,fail);
+  t.userData.ready=ready;if(color)t.encoding=T.sRGBEncoding;t.anisotropy=4;
+  if(/ceramic|walnut/.test(name))t.wrapS=t.wrapT=T.RepeatWrapping;
+  library.set(name,t);return t;
+ }
+
  // Intersect the solid just below its top. Disconnected spans are separate uprights.
  // This distinguishes H/K/N/U from a continuous cap, arch or single apex.
  function suspensionTops(geometry){
@@ -44,7 +53,7 @@ window.AtelierArt=(()=>{
   });
  }
  function make(e){const {root,units,width:w,theme:k,style,mat,M,grp,ell,box,cyl,rod,curve,bevel,lathe,geom,actions,V,C,keep,rand,request,ease}=e;
- const l=-w*.5,r=-l, tx=n=>texture(n,request), normal=texture('ceramic-normal',request,false),grit=tx('ceramic-grit');
+ const l=-w*.5,r=-l, tx=n=>{const t=texture(n,request);e.ready.push(t.userData.ready);return t}, normal=texture('ceramic-normal',request,false),grit=tx('ceramic-grit');e.ready.push(normal.userData.ready);
  const colorways={E:['#d87d42','#d87b35','#d98c52','#c96b39']};
  // Local UVs for the paint atlas and a second custom attribute for isotropic modelling clay grain.
  units.forEach((u,i)=>{let g=u.body.geometry.clone();g.userData.shared=false;const p=g.attributes.position;const uv=new Float32Array(p.count*2),stone=new Float32Array(p.count*2);const atlas=['holi','india','france'].includes(k);for(let j=0;j<p.count;j++){let x=p.getX(j),y=p.getY(j),z=p.getZ(j);stone[2*j]=(x+z*.61)*.87+i*.37;stone[2*j+1]=(y-z*.44)*.87+i*.21;uv[2*j]=atlas?(u.x+x+w/2+.07*z)/w:stone[2*j];uv[2*j+1]=atlas?Math.max(.002,Math.min(.998,y*.977+.008+.026*z)):stone[2*j+1]}

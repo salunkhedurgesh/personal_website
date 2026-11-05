@@ -1,0 +1,92 @@
+{
+  "robots-desktop": {
+    "file": "images/previews/letterhead-robots-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "puppets-desktop": {
+    "file": "images/previews/letterhead-puppets-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "halloween-desktop": {
+    "file": "images/previews/letterhead-halloween-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "holi-desktop": {
+    "file": "images/previews/letterhead-holi-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "india-desktop": {
+    "file": "images/previews/letterhead-india-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "france-desktop": {
+    "file": "images/previews/letterhead-france-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "christmas-desktop": {
+    "file": "images/previews/letterhead-christmas-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "diwali-desktop": {
+    "file": "images/previews/letterhead-diwali-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "snow-desktop": {
+    "file": "images/previews/letterhead-snow-desktop.webp",
+    "width": 1353,
+    "height": 248
+  },
+  "robots-mobile": {
+    "file": "images/previews/letterhead-robots-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "puppets-mobile": {
+    "file": "images/previews/letterhead-puppets-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "halloween-mobile": {
+    "file": "images/previews/letterhead-halloween-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "holi-mobile": {
+    "file": "images/previews/letterhead-holi-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "india-mobile": {
+    "file": "images/previews/letterhead-india-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "france-mobile": {
+    "file": "images/previews/letterhead-france-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "christmas-mobile": {
+    "file": "images/previews/letterhead-christmas-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "diwali-mobile": {
+    "file": "images/previews/letterhead-diwali-mobile.webp",
+    "width": 592,
+    "height": 149
+  },
+  "snow-mobile": {
+    "file": "images/previews/letterhead-snow-mobile.webp",
+    "width": 592,
+    "height": 149
+  }
+}

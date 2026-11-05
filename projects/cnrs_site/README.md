@@ -14,6 +14,55 @@ Keep the `projects/main/resources/` directory from your existing website when
 merging this package: publication PDFs and BibTeX continue to reference it.
 The package is a complete interface update, not another copy of that large archive.
 
+## Faster startup and scene previews
+
+The page starts with its biography, navigation icons, and real rendered snapshots
+of the selected lettering and CNRS logo. It then loads the live letterhead after
+the first paint. The image remains visible until the models and textures are
+ready and the first live frame has rendered. A failed download keeps the image
+visible; selecting the theme again retries failed robot downloads.
+
+Only the lettering uses `models/letterhead/abb-gofa-crb15000.glb` and
+`models/letterhead/kuka-iiwa7.glb`. Together these are 841,272 bytes and 33,550
+triangles, compared with 4,817,064 bytes and 241,673 triangles in the originals.
+Joint frames, hierarchy, and materials are preserved. The original high-resolution
+GLBs and playground STL files remain unchanged. The kinematics view and research
+playground continue to request those detailed models when opened.
+
+`js/assets.js` loads features once, when needed. Chess scripts, Halloween gourd
+geometry, and Christmas snow caps do not load with the default Diwali view.
+The CNRS iframe waits until its view is visible and the letterhead assets settle.
+Its first interactive chapter loads only the CNRS mark. Opening a later chapter
+loads the Strasbourg scene; approaching the France/Earth chapters loads the
+planet textures. Snapshot chapter images remain visible during those downloads.
+The iframe pauses outside the viewport. Reduced-motion visitors get snapshots
+and the existing illustrated tour without loading the header's 3D runtime.
+
+`images/previews/` contains desktop/mobile snapshots for all nine editions and
+the CNRS logo. After startup, the browser saves all 19 small images in a versioned
+Cache Storage cache for future visits. Save-Data connections skip this background
+prefetch. If Cache Storage is unavailable, ordinary image loading still works.
+
+Apache settings are included in the hidden `.htaccess` file: GLB/WASM MIME types,
+gzip including GLB models, and explicit cache lifetimes. Upload this file too.
+Versioned asset URLs can be cached for a year; HTML is revalidated and unversioned
+assets have a short cache lifetime. These directives require the host's Apache
+modules and `.htaccess` support; the Python preview does not apply Apache settings.
+
+After changing site code or scene assets, run:
+
+```sh
+python3 tools/stamp-assets.py
+```
+
+This creates a content-derived asset version, so updated files use fresh URLs.
+To regenerate the lettering LODs, run `python3 tools/build-letterhead-lod.py`
+(Blender required). `models/letterhead/manifest.json` records source checksums,
+triangle counts, exact joint-graph comparisons, and silhouette checks. To update
+the snapshots, run `node tools/capture-scene-previews.mjs` with the local preview
+at port 8765 and Chromium remote debugging at port 9223, then stamp assets again.
+The capture tool also uses Pillow to export the CNRS WebP image.
+
 ## This revision
 
 - A transparent 3D letterhead sits on the page's warm-white background.
@@ -176,3 +225,11 @@ live cloud lookup, and mobile layout, recording results
 in `tools/chess-panel-qa.json`. Set `CHESS_SCREENSHOT_DIR` to save panel images.
 `tools/national-occasion-qa.json` records browser checks with the calendar set to
 each of the three national days.
+
+`node tools/check-progressive-loading.mjs` verifies first-paint snapshots, all
+nine live themes, saved images, delayed city/planet downloads, full-resolution
+kinematics/playground assets, and mobile layout. `node
+tools/check-progressive-fallbacks.mjs` checks a cold 3 Mbps mobile connection,
+reduced motion, unavailable WebGL, failed model downloads, and retry. Results
+are saved in `tools/progressive-loading-qa.json` and
+`tools/progressive-fallback-qa.json`.

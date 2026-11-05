@@ -1,19 +1,30 @@
 {
+  "openingFrames": 18,
+  "independentCNRS": {
+    "mode": "3d",
+    "snapshotHidden": true,
+    "letterheadReady": false,
+    "letterheadLive": "false"
+  },
+  "cnrsDrag": {
+    "before": 0,
+    "after": -0.1955555555555556
+  },
   "mobilePreview": {
-    "at": 835.5,
+    "at": 3075.10000000149,
     "paint": {
-      "lcp": 708
+      "lcp": 2936
     },
     "live": "false",
     "textVisible": true,
-    "preview": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=599b8bc1c4b6"
+    "preview": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=81ce9d0dccad"
   },
   "mobileLive": {
-    "at": 14732.5,
+    "at": 14848.60000000149,
     "paint": {
-      "lcp": 708,
-      "preview": 856,
-      "letterheadLive": 8804.29999999702
+      "lcp": 2936,
+      "preview": 3119.2000000029802,
+      "letterheadLive": 14223.70000000298
     },
     "assetsReady": true,
     "width": 390,
@@ -23,12 +34,16 @@
     "live": "false",
     "clay": false,
     "preview": 592,
-    "atlas": "stills"
+    "atlas": "3d"
   },
   "noGPU": {
     "preview": 592,
     "live": "false",
     "atlas": "stills"
+  },
+  "cnrsModelFailure": {
+    "mode": "snapshot",
+    "src": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=81ce9d0dccad"
   },
   "modelFailure": {
     "live": "false",

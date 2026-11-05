@@ -2,91 +2,206 @@
   "robots-desktop": {
     "file": "images/previews/letterhead-robots-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "puppets-desktop": {
     "file": "images/previews/letterhead-puppets-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.13203092806489888,
+      "lastLetterY": 0.10114409361185087
+    }
   },
   "halloween-desktop": {
     "file": "images/previews/letterhead-halloween-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.005,
+      "lastLetterY": 0.005
+    }
   },
   "holi-desktop": {
     "file": "images/previews/letterhead-holi-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "india-desktop": {
     "file": "images/previews/letterhead-india-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "france-desktop": {
     "file": "images/previews/letterhead-france-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "christmas-desktop": {
     "file": "images/previews/letterhead-christmas-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "diwali-desktop": {
     "file": "images/previews/letterhead-diwali-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443,
+      "ropeLift": 0
+    }
   },
   "snow-desktop": {
     "file": "images/previews/letterhead-snow-desktop.webp",
     "width": 1353,
-    "height": 248
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443,
+      "scarfWrap": 0
+    }
   },
   "robots-mobile": {
     "file": "images/previews/letterhead-robots-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "puppets-mobile": {
     "file": "images/previews/letterhead-puppets-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.1323116424556532,
+      "lastLetterY": 0.1014566811506159
+    }
   },
   "halloween-mobile": {
     "file": "images/previews/letterhead-halloween-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.005,
+      "lastLetterY": 0.005
+    }
   },
   "holi-mobile": {
     "file": "images/previews/letterhead-holi-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "india-mobile": {
     "file": "images/previews/letterhead-india-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "france-mobile": {
     "file": "images/previews/letterhead-france-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "christmas-mobile": {
     "file": "images/previews/letterhead-christmas-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
   },
   "diwali-mobile": {
     "file": "images/previews/letterhead-diwali-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443,
+      "ropeLift": 0
+    }
   },
   "snow-mobile": {
     "file": "images/previews/letterhead-snow-mobile.webp",
     "width": 592,
-    "height": 149
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443,
+      "scarfWrap": 0
+    }
+  },
+  "cnrs": {
+    "file": "images/previews/cnrs-logo.webp"
   }
 }

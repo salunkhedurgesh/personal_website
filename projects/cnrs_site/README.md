@@ -16,9 +16,11 @@ The package is a complete interface update, not another copy of that large archi
 
 ## Faster startup and scene previews
 
-The page starts with its biography, navigation icons, and real rendered snapshots
-of the selected lettering and CNRS logo. It then loads the live letterhead after
-the first paint. The image remains visible until the models and textures are
+The page starts with its biography, navigation icons, and a real snapshot of
+the selected lettering at animation time zero. It then loads the live letterhead
+after the first paint. The CNRS view independently starts loading its live 3D
+logo as soon as that view is visible; its snapshot covers loading or an
+unavailable 3D model. Each preview remains visible until its models and textures are
 ready and the first live frame has rendered. A failed download keeps the image
 visible; selecting the theme again retries failed robot downloads.
 
@@ -31,15 +33,18 @@ playground continue to request those detailed models when opened.
 
 `js/assets.js` loads features once, when needed. Chess scripts, Halloween gourd
 geometry, and Christmas snow caps do not load with the default Diwali view.
-The CNRS iframe waits until its view is visible and the letterhead assets settle.
-Its first interactive chapter loads only the CNRS mark. Opening a later chapter
+The CNRS iframe starts when its view is visible and does not wait for the
+letterhead models. Its first interactive chapter loads only the CNRS mark. Opening a later chapter
 loads the Strasbourg scene; approaching the France/Earth chapters loads the
 planet textures. Snapshot chapter images remain visible during those downloads.
-The iframe pauses outside the viewport. Reduced-motion visitors get snapshots
-and the existing illustrated tour without loading the header's 3D runtime.
+The iframe pauses outside the viewport. Reduced-motion visitors get lettering
+snapshots without loading the header's 3D runtime, while the CNRS logo remains
+a live, directly manipulable 3D model. The CNRS image is used if WebGL or the
+logo model is unavailable.
 
-`images/previews/` contains desktop/mobile snapshots for all nine editions and
-the CNRS logo. After startup, the browser saves all 19 small images in a versioned
+`images/previews/` contains desktop/mobile snapshots of the opening frame
+(time zero) for all nine lettering editions and a CNRS logo fallback image.
+`images/previews/manifest.json` records the capture time and opening-pose checks. After startup, the browser saves all 19 small images in a versioned
 Cache Storage cache for future visits. Save-Data connections skip this background
 prefetch. If Cache Storage is unavailable, ordinary image loading still works.
 
@@ -86,7 +91,7 @@ The capture tool also uses Pillow to export the CNRS WebP image.
   of D, keeping the left robot inside the letterhead; bulbs follow the shorter span.
 - Christmas adds a decorated background fir, three red stockings attached to letters,
   and a continuous snow drift beneath the name.
-- “Cold winter in Strasbourg” starts gentle, six-per-second shivers at the robot placements.
+- “Strasbourg Winter” starts gentle, six-per-second shivers at the robot placements.
   A thin ice glaze and icicles form over ten seconds. Three winter scarves wrap
   around R, S, and K, and a knitted cap settles on D. Then shivering stops and
   the ice melts over five seconds. The collars stay fitted; six lightweight Jolt
@@ -229,7 +234,8 @@ each of the three national days.
 `node tools/check-progressive-loading.mjs` verifies first-paint snapshots, all
 nine live themes, saved images, delayed city/planet downloads, full-resolution
 kinematics/playground assets, and mobile layout. `node
-tools/check-progressive-fallbacks.mjs` checks a cold 3 Mbps mobile connection,
+tools/check-progressive-fallbacks.mjs` checks all 18 opening-frame records,
+independent CNRS loading and drag interaction, a cold 3 Mbps mobile connection,
 reduced motion, unavailable WebGL, failed model downloads, and retry. Results
 are saved in `tools/progressive-loading-qa.json` and
 `tools/progressive-fallback-qa.json`.

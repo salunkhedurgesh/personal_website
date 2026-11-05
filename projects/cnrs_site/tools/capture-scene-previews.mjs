@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
-import {writeFile} from 'node:fs/promises';
+import {writeFile,mkdir} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+await mkdir('/tmp/progressive-site-qa',{recursive:true});
 // Run a local static preview and Chromium with remote debugging before this check.
 const base=process.env.CHESS_PREVIEW_URL||'http://127.0.0.1:8765/';
 const debug=process.env.CHESS_DEBUG_URL||'http://127.0.0.1:9223';
@@ -21,16 +23,29 @@ await cdp('Page.navigate',{url:base});
 async function until(expression){return evaluate(`new Promise((resolve,reject)=>{let n=0;const poll=()=>{if((${expression}))return resolve(true);if(n++>600)return reject(Error('Scene not ready'));setTimeout(poll,100)};poll()})`)}
 await until(`window.ClayStudio?.inspection().assetsReady&&window.ScarfJolt&&document.querySelector('iframe')?.contentDocument?.body?.dataset.ready==='true'`);
 console.log('Snapshot renderer loaded');
-const editions=[['robots',9.5],['puppets',4],['halloween',11],['holi',10.5],['india',10.5],['france',10.5],['christmas',10.5],['diwali',17],['snow',27]];
+const editions=['robots','puppets','halloween','holi','india','france','christmas','diwali','snow'];
 const manifest={};
 for(const [width,height,label] of [[1440,1000,'desktop'],[390,844,'mobile']]){
  await cdp('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:2,mobile:label==='mobile'});
- for(const [theme,time] of editions){
-  await evaluate(`(async()=>{await Studio3D.select('${theme}');await ClayStudio.whenReady()})()`);
-  await new Promise(resolve=>setTimeout(resolve,theme==='puppets'||theme==='snow'?1800:700));
-  await until(`(()=>{let count=0;ClayStudio.inspection().root.traverse(o=>{if(o.name==='Robot grip contact')count++});return count===2})()`);
-  const shot=await evaluate(`(()=>{ClayStudio.seek(${time});ClayStudio.tick(performance.now());const cv=document.getElementById('word'),rect=cv.getBoundingClientRect(),nav=document.querySelector('.top nav'),r=nav?.offsetWidth?nav.getBoundingClientRect().left-rect.left-14:rect.width,fit=r>=rect.width*.38;const crop=fit?r:rect.width,c=document.createElement('canvas');c.width=Math.round(crop*cv.width/cv.clientWidth);c.height=cv.height;c.getContext('2d').drawImage(cv,0,0,c.width,c.height,0,0,c.width,c.height);return {url:c.toDataURL('image/webp',.86),width:c.width,height:c.height}})()`);
-  const file='images/previews/letterhead-'+theme+'-'+label+'.webp';await writeFile(file,Buffer.from(shot.url.split(',')[1],'base64'));manifest[theme+'-'+label]={file,width:shot.width,height:shot.height};console.log(file);
+ for(const theme of editions){
+  // Freeze before assets finish, then render and export the very first frame in
+  // the same task that observes readiness; no live animation may run in between.
+  const shot=await evaluate(`(async()=>{
+   await Studio3D.select('${theme}');ClayStudio.seek(0);await ClayStudio.whenReady();
+   ClayStudio.seek(0);ClayStudio.tick(performance.now());
+   const scene=ClayStudio.inspection();
+   const cv=document.getElementById('word'),rect=cv.getBoundingClientRect(),nav=document.querySelector('.top nav'),r=nav?.offsetWidth?nav.getBoundingClientRect().left-rect.left-14:rect.width,fit=r>=rect.width*.38;
+   const crop=fit?r:rect.width,c=document.createElement('canvas');c.width=Math.round(crop*cv.width/cv.clientWidth);c.height=cv.height;
+   c.getContext('2d').drawImage(cv,0,0,c.width,c.height,0,0,c.width,c.height);
+   const carrier=scene.root.getObjectByName('Robot-lifted Diwali lantern rope');
+   return {url:c.toDataURL('image/webp',.86),width:c.width,height:c.height,
+    pose:{firstLetterY:scene.units[0].g.position.y,lastLetterY:scene.units.at(-1).g.position.y,
+     ropeLift:carrier?.userData.liftProgress,scarfWrap:scene.units.find(u=>u.winterScarf)?.winterScarf.userData.wrapProgress}};
+  })()`);
+  if(!['puppets','halloween'].includes(theme))assert(shot.pose.firstLetterY>.4&&shot.pose.lastLetterY>.4,theme+' must show the held opening letters');
+  if(theme==='diwali')assert.equal(shot.pose.ropeLift,0);
+  if(theme==='snow')assert.equal(shot.pose.scarfWrap,0);
+  const file='images/previews/letterhead-'+theme+'-'+label+'.webp';await writeFile(file,Buffer.from(shot.url.split(',')[1],'base64'));manifest[theme+'-'+label]={file,width:shot.width,height:shot.height,time:0,phase:'start',pose:shot.pose};console.log(file);
  }
 }
 await cdp('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:2,mobile:false});

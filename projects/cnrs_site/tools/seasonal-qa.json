@@ -27,11 +27,7 @@
   "christmas": {
     "trees": 1,
     "stockings": 3,
-    "stockingColors": [
-      "b43540",
-      "b43540",
-      "b43540"
-    ],
+    "stockingColors": ["b43540", "b43540", "b43540"],
     "snowCaps": 15
   },
   "snow": {
@@ -42,10 +38,7 @@
     },
     "chatterFrequencyHz": 6,
     "freezeDurationSeconds": 10,
-    "iceThickness": [
-      0.003,
-      0.004
-    ],
+    "iceThickness": [0.003, 0.004],
     "iceOpacity": 0.42,
     "icicles": 45,
     "snowHeight": 0.15959204733371735,
@@ -77,11 +70,7 @@
     "meltDurationSeconds": 5,
     "scarves": {
       "count": 3,
-      "letters": [
-        "R",
-        "S",
-        "K"
-      ],
+      "letters": ["R", "S", "K"],
       "remainAfterMelting": true
     },
     "stages": {
@@ -282,9 +271,6 @@
     "christmas": "December 22–28",
     "boundaryChecks": "passed"
   },
-  "regressions": [
-    "Robot assembly",
-    "Halloween props"
-  ],
+  "regressions": ["Robot assembly", "Halloween props"],
   "result": "passed"
 }

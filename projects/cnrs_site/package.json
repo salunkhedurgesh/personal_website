@@ -1,0 +1,11 @@
+{
+  "name": "durgesh-portfolio",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write . && python3 -m black tools",
+    "format:check": "prettier --check . && python3 -m black --check tools"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}

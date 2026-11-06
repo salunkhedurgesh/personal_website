@@ -1,0 +1,43 @@
+{
+  "hiddenOnNormalVisits": true,
+  "editions": [
+    "auto",
+    "republic",
+    "independence",
+    "france",
+    "christmas",
+    "holi",
+    "diwali",
+    "snow",
+    "halloween",
+    "puppets",
+    "robots"
+  ],
+  "livePreviews": [
+    "robots",
+    "puppets",
+    "halloween",
+    "holi",
+    "republic",
+    "independence",
+    "france",
+    "christmas",
+    "diwali",
+    "snow"
+  ],
+  "escapeAndFocusRestoration": true,
+  "shortcutFromDirectory": true,
+  "mobileURLAndSelection": true,
+  "reducedMotionPreview": true,
+  "chessNavigation": true,
+  "playgroundSTLs": [
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/base_link.stl?v=50441b61c94b",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_1.stl?v=50441b61c94b",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_2.stl?v=50441b61c94b",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_3.stl?v=50441b61c94b",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_4.stl?v=50441b61c94b",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_5.stl?v=50441b61c94b",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_6.stl?v=50441b61c94b"
+  ],
+  "errors": []
+}

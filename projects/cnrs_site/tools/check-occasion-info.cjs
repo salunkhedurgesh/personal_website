@@ -1,9 +1,9 @@
 // Run with: node tools/check-occasion-info.cjs
 const assert = require('node:assert/strict');
-const {readFileSync} = require('node:fs');
-const {runInNewContext} = require('node:vm');
-const {join} = require('node:path');
-const context = {window: {THREE: {}}, matchMedia: () => ({matches: false})};
+const { readFileSync } = require('node:fs');
+const { runInNewContext } = require('node:vm');
+const { join } = require('node:path');
+const context = { window: { THREE: {} }, matchMedia: () => ({ matches: false }) };
 runInNewContext(readFileSync(join(__dirname, '../js/scene.js'), 'utf8'), context);
 const info = context.window.Studio3D.occasionInfo;
 assert.equal(context.window.Studio3D.classify('2027-01-26'), 'republic');
@@ -23,8 +23,8 @@ assert.equal(info('christmas', '2026-12-01').dates, '22 Dec – 28 Dec');
 assert.equal(info('halloween', '2026-10-25').dates, '25 Oct – 31 Oct');
 assert.equal(info('snow', '2028-02-01').dates, '');
 assert.equal(info('snow', '2026-12-01').dates, '');
-assert.equal(info('snow', '2026-11-05', {weather_code: 75}).dates, '');
-assert.equal(info('snow', '2026-11-05', {temperature_2m: -2.4}).temperature, -2.4);
+assert.equal(info('snow', '2026-11-05', { weather_code: 75 }).dates, '');
+assert.equal(info('snow', '2026-11-05', { temperature_2m: -2.4 }).temperature, -2.4);
 assert.equal(info('snow', '2026-11-05', null).temperature, null);
 assert.equal(info('snow', '2026-11-05').title, 'Strasbourg Winter');
 assert.equal(info('diwali', '2035-11-01').dates, '');

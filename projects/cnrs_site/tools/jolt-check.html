@@ -1,3 +1,77 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><base href="../"><title>Marionette · Jolt runtime check</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{max-width:44rem;margin:10vh auto;padding:20px;font:17px/1.6 system-ui;color:#41382e;background:#faf6f0}pre{white-space:pre-wrap}button{padding:.65em 1em}</style></head><body><h1>Marionette runtime check</h1><p>This checks the real Jolt runtime, not the offline motion fallback.</p><button id="test">Run check</button><pre id="output" aria-live="polite"></pre><script src="js/clay/jolt-config.js"></script><script src="js/clay/jolt-rig.js"></script><script>
-const output=document.querySelector('#output');document.querySelector('#test').onclick=async function(){this.disabled=true;let w;try{output.textContent='Loading Jolt…';const J=await PuppetJolt.library(),u=Array.from({length:15},(_,i)=>({x:i-7,w:.95,rest:.12,attachment:{x:0,y:1.052,z:0},rigAnchor:{x:i-7,y:1.82,z:0},ropeLength:1.82-1.052-.12}));w=PuppetJolt.create(J,u);for(let i=0;i<u.length;i++)w.seed(i,u[i],{x:0,y:u[i].rest,a:0,vx:0,vy:0,va:0});w.seed(5,u[5],{x:.25,y:.63,a:.10,vx:0,vy:0,va:0});const start=w.state(5);let low=9;for(let i=0;i<600;i++){w.step(1/120);for(let j=0;j<u.length;j++){let v=w.state(j);if(!Object.values(v).every(Number.isFinite))throw Error('Non-finite rigid body transform.');if(v.y<.40)throw Error('Floor penetration.')}low=Math.min(low,w.state(5).y)}if(start.y-low<.24)throw Error('The released body did not fall.');w.dispose();w=null;output.textContent=`PASS · Jolt ${PuppetJolt.version}\n15 dynamic bodies · 15 strings · 600 fixed steps\nVertical drop: ${(start.y-low).toFixed(3)} scene units.\nWorld released normally.`}catch(e){output.textContent='Jolt check unavailable or failed: '+String(e.message||e)}finally{if(w)w.dispose();this.disabled=false}};
-</script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="../" />
+    <title>Marionette · Jolt runtime check</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      body {
+        max-width: 44rem;
+        margin: 10vh auto;
+        padding: 20px;
+        font: 17px/1.6 system-ui;
+        color: #41382e;
+        background: #faf6f0;
+      }
+      pre {
+        white-space: pre-wrap;
+      }
+      button {
+        padding: 0.65em 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Marionette runtime check</h1>
+    <p>This checks the real Jolt runtime, not the offline motion fallback.</p>
+    <button id="test">Run check</button>
+    <pre id="output" aria-live="polite"></pre>
+    <script src="js/clay/jolt-config.js"></script>
+    <script src="js/clay/jolt-rig.js"></script>
+    <script>
+      const output = document.querySelector('#output');
+      document.querySelector('#test').onclick = async function () {
+        this.disabled = true;
+        let w;
+        try {
+          output.textContent = 'Loading Jolt…';
+          const J = await PuppetJolt.library(),
+            u = Array.from({ length: 15 }, (_, i) => ({
+              x: i - 7,
+              w: 0.95,
+              rest: 0.12,
+              attachment: { x: 0, y: 1.052, z: 0 },
+              rigAnchor: { x: i - 7, y: 1.82, z: 0 },
+              ropeLength: 1.82 - 1.052 - 0.12,
+            }));
+          w = PuppetJolt.create(J, u);
+          for (let i = 0; i < u.length; i++)
+            w.seed(i, u[i], { x: 0, y: u[i].rest, a: 0, vx: 0, vy: 0, va: 0 });
+          w.seed(5, u[5], { x: 0.25, y: 0.63, a: 0.1, vx: 0, vy: 0, va: 0 });
+          const start = w.state(5);
+          let low = 9;
+          for (let i = 0; i < 600; i++) {
+            w.step(1 / 120);
+            for (let j = 0; j < u.length; j++) {
+              let v = w.state(j);
+              if (!Object.values(v).every(Number.isFinite))
+                throw Error('Non-finite rigid body transform.');
+              if (v.y < 0.4) throw Error('Floor penetration.');
+            }
+            low = Math.min(low, w.state(5).y);
+          }
+          if (start.y - low < 0.24) throw Error('The released body did not fall.');
+          w.dispose();
+          w = null;
+          output.textContent = `PASS · Jolt ${PuppetJolt.version}\n15 dynamic bodies · 15 strings · 600 fixed steps\nVertical drop: ${(start.y - low).toFixed(3)} scene units.\nWorld released normally.`;
+        } catch (e) {
+          output.textContent = 'Jolt check unavailable or failed: ' + String(e.message || e);
+        } finally {
+          if (w) w.dispose();
+          this.disabled = false;
+        }
+      };
+    </script>
+  </body>
+</html>

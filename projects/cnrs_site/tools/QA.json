@@ -143,10 +143,7 @@
     "adjacent_glyph_peak_radians": 0.15035
   },
   "touch_ground": {
-    "viewport": [
-      390,
-      755
-    ],
+    "viewport": [390, 755],
     "glyph": "D",
     "observed_ground_impacts": 1
   },

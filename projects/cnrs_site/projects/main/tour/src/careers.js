@@ -1,1 +1,3 @@
-document.querySelector('#cnrs-cube').addEventListener('click',()=>AtlasGlass.open(document.querySelector('#careers')));
+document
+  .querySelector('#cnrs-cube')
+  .addEventListener('click', () => AtlasGlass.open(document.querySelector('#careers')));

@@ -51,16 +51,12 @@
     {
       "i": 1,
       "length": 528,
-      "links": [
-        "https://journals.sagepub.com/doi/10.1177/02783649241293481"
-      ]
+      "links": ["https://journals.sagepub.com/doi/10.1177/02783649241293481"]
     },
     {
       "i": 2,
       "length": 493,
-      "links": [
-        "https://www.science.org/doi/10.1126/scirobotics.aea1995"
-      ]
+      "links": ["https://www.science.org/doi/10.1126/scirobotics.aea1995"]
     }
   ],
   "rss": {

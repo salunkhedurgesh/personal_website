@@ -15,13 +15,13 @@ Coordinates are right-handed glTF: metres, +Y up, XZ ground plane. Matrix arrays
 ## Nodes to articulate
 
 | Leg | Fixed motor | Crank | Rod | Lower ball | Upper ball | Platform saddle | Platform pin |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| R01 | 10 | 65 | 81 | 85 | 111 | 79 | 80 |
-| R02 | 137 | 192 | 208 | 212 | 238 | 206 | 207 |
-| R03 | 266 | 321 | 337 | 341 | 367 | 335 | 336 |
-| R04 | 393 | 448 | 464 | 468 | 494 | 462 | 463 |
-| R05 | 522 | 577 | 593 | 597 | 623 | 591 | 592 |
-| R06 | 649 | 704 | 720 | 724 | 750 | 718 | 719 |
+| --- | ----------: | ----: | --: | ---------: | ---------: | --------------: | -----------: |
+| R01 |          10 |    65 |  81 |         85 |        111 |              79 |           80 |
+| R02 |         137 |   192 | 208 |        212 |        238 |             206 |          207 |
+| R03 |         266 |   321 | 337 |        341 |        367 |             335 |          336 |
+| R04 |         393 |   448 | 464 |        468 |        494 |             462 |          463 |
+| R05 |         522 |   577 | 593 |        597 |        623 |             591 |          592 |
+| R06 |         649 |   704 | 720 |        724 |        750 |             718 |          719 |
 
 Update the platform node once; its plate and all saddle descendants follow. Set each crank matrix to `crankHomeLocalMatrix * RotationY(q)`, retaining its original translation. Compute the lower spherical point from the stored radial vector, tangent vector, and axial offset. Place each rod origin at that lower point and rigidly align its local +Y axis with the upper-minus-lower direction. Keep rod scale at one. A shortest-arc rotation from `rodHomeDirectionBase` to the new direction, pre-multiplied onto `rodHomeBaseMatrix`'s rotation, provides a continuous roll convention near home; convert the result through the inverse motor-pair transform before assigning the rod's local matrix. Spherical joints do not determine rod roll uniquely.
 

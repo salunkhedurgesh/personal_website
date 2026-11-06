@@ -1,38 +1,652 @@
 /* The live masthead. Each character is an independent, rounded three-dimensional solid. */
-window.ClayStudio=(()=>{'use strict';
-const T=THREE, PI=Math.PI,TAU=2*PI, Q=s=>document.querySelector(s), clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), ease=x=>(x=clamp(x))*x*x*(x*(x*6-15)+10),rand=i=>{let a=Math.sin(i*73.18+9.61)*43215.63;return a-Math.floor(a)}, V=(x=0,y=0,z=0)=>new T.Vector3(x,y,z), C=x=>new T.Color(x).convertSRGBToLinear();
-const paper={E:{name:'Terracotta',ink:['#204e38','#315f45','#407355','#528267','#39684b'],slab:'#8c5139',bg:['#624537','#3d302c','#282422']}};
-let renderer,req,host,cv,sc,cam,root,assetsReady=false,assetStatus='idle',previewDone=false,sceneReady=Promise.resolve(),style='E',theme='robots',clock=0,paused=false,still=0,seed=0,ready=false,tex,envMap,geomCache=new Map(),materials=[],textures=[],units=[],actions=[],extras=[],props,span=15,editionText='',loadedGofa=null,runId=0,requires=true,texReady=false,showcase=false,aim=.62,windX=null,lastMove=0,mark='DURGESH SALUNKHE',warned=false;
-const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-function ownTexture(t){textures.push(t);return t}function material(hex,rough=.8,metal=0,opts={}){let m=new T.MeshStandardMaterial({color:C(hex),roughness:rough,metalness:metal,envMapIntensity:metal>.25?.75:.31,...opts});materials.push(m);return m}
-function grp(parent,x=0,y=0,z=0){let g=new T.Group();g.position.set(x,y,z);parent.add(g);return g}
-function M(p,geo,mat,x=0,y=0,z=0){let o=new T.Mesh(geo,mat);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;p.add(o);return o}
-function ell(p,x,y,z,rx,ry,rz,m){let o=M(p,new T.SphereGeometry(1,20,14),m,x,y,z);o.scale.set(rx,ry,rz);return o}
-function box(p,x,y,z,w,h,d,m){return M(p,new T.BoxGeometry(w,h,d),m,x,y,z)}
-function cyl(p,x,y,z,a,b,h,m,n=24){return M(p,new T.CylinderGeometry(a,b,h,n),m,x,y,z)}
-function rod(p,a,b,r,m,r2=r){const d=V(...b).sub(V(...a)),o=cyl(p,0,0,0,r2,r,d.length(),m,12);o.position.copy(V(...a).add(V(...b)).multiplyScalar(.5));o.quaternion.setFromUnitVectors(V(0,1,0),d.normalize());return o}
-function curve(p,pts,r,m){return M(p,new T.TubeGeometry(new T.CatmullRomCurve3(pts.map(q=>V(...q))),Math.max(10,pts.length*4),r,7,false),m)}
-function bevel(p,x,y,z,w,h,d,r,m){const sh=new T.Shape(),a=w/2-r,b=h/2-r;sh.moveTo(-a,-b);sh.lineTo(a,-b);sh.lineTo(a,b);sh.lineTo(-a,b);sh.closePath();let g=new T.ExtrudeGeometry(sh,{depth:Math.max(.004,d-2*r),bevelEnabled:true,bevelThickness:r,bevelSize:r,bevelSegments:4,steps:1,curveSegments:4});g.translate(0,0,-Math.max(.004,d-2*r)/2);return M(p,g,m,x,y,z)}
-function lathe(p,points,m,x=0,y=0,z=0,n=48){return M(p,new T.LatheGeometry(points.map(([r,h])=>new T.Vector2(r,h)),n),m,x,y,z)}
-function geom(key,data){if(geomCache.has(key))return geomCache.get(key);const bin=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0)).buffer;const pts=Float32Array.from(new Int16Array(bin(data[0])),x=>x/12000),idx=new Uint16Array(bin(data[1]));let uv=new Float32Array(pts.length/3*2);for(let i=0,j=0;i<pts.length;i+=3,j+=2){let[x,y,z]=pts.subarray(i,i+3);uv[j]=x*2.42+z*.86+y*.21;uv[j+1]=y*2.6-z*.95+x*.16}let g=new T.BufferGeometry();g.setAttribute('position',new T.BufferAttribute(pts,3));g.setAttribute('uv',new T.BufferAttribute(uv,2));g.setIndex(new T.BufferAttribute(idx,1));g.computeVertexNormals();g.computeBoundingBox();g.userData.shared=true;geomCache.set(key,g);return g}
-function env(r){if(!r)return null;const w=128,h=64,arr=new Float32Array(w*h*4);for(let y=0;y<h;y++)for(let x=0;x<w;x++){let i=(y*w+x)*4,u=x/w,v=y/h,sky=.048+.19*v,a=Math.exp(-(((u-.26)/.086)**2+((v-.68)/.235)**2))*2.7,b=Math.exp(-(((u-.72)/.054)**2+((v-.62)/.19)**2))*2.2,strip=Math.exp(-(((u-.51)/.28)**2+((v-.54)/.014)**2))*.65;arr.set([sky+a*1.15+b*.85+strip,sky+a*.98+b*1.02+strip,sky*1.1+a*.85+b*1.2+strip,1],i)}let tex=new T.DataTexture(arr,w,h,T.RGBAFormat,T.FloatType);tex.mapping=T.EquirectangularReflectionMapping;tex.needsUpdate=true;let gen=new T.PMREMGenerator(r),rt=gen.fromEquirectangular(tex);gen.dispose();tex.dispose();return rt.texture}
-function contact(p,x,z,sz,opacity=.32){let can=document.createElement('canvas');can.width=can.height=64;let c=can.getContext('2d'),d=c.createRadialGradient(32,32,0,32,32,32);d.addColorStop(0,'rgba(24,12,5,.96)');d.addColorStop(.35,'rgba(26,14,8,.75)');d.addColorStop(1,'rgba(32,20,12,0)');c.fillStyle=d;c.fillRect(0,0,64,64);let m=new T.MeshBasicMaterial({map:ownTexture(new T.CanvasTexture(can)),transparent:true,depthWrite:false,opacity});materials.push(m);let o=M(p,new T.PlaneGeometry(sz,sz*.69),m,x,.007,z);o.rotation.x=-PI/2;o.receiveShadow=o.castShadow=false;return o}
-function setButtons(){host.dataset.clay=style;host.dataset.theme=theme;document.dispatchEvent(new CustomEvent('clay-theme-change',{detail:{theme}}));document.querySelectorAll('[data-study]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.study===theme)));const ed=Q('#edition');if(ed&&ed.value!==theme&&ed.value!=='auto')ed.value=theme}
-function dispose(){ScarfJolt.clear();LetterPlay.clear();if(root){let set=new Set();root.traverse(n=>{if(n.geometry&&!n.geometry.userData.shared)set.add(n.geometry)});set.forEach(g=>g.dispose());sc.remove(root)}materials.forEach(m=>m.dispose());textures.forEach(t=>t.dispose());materials=[];textures=[];units=[];actions=[];extras=[]}
-function rebuild(){if(!ready)return;runId++;const buildId=runId;assetsReady=previewDone=false;assetStatus='loading';dispose();root=grp(sc);props=grp(root);let s=paper[style];const key=sc.children.find(a=>a.name==='Key light'),fillLight=sc.children.find(a=>a.name==='Bounce');if(key){key.intensity=theme==='halloween'?2.75:2.65;key.color.setHex(0xfffaf2);fillLight.intensity=theme==='halloween'?.85:.65}let str=mark;let gap=.072,glyphs=ClayForms[style],w=[...str].map(ch=>ch===' '?.40:glyphs[ch][0]+gap),width=w.reduce((a,b)=>a+b,0),cursor=-width/2,totalGlyphs=[...str].filter(ch=>ch!==' ').length;span=width+3.15;aim=.97;setButtons();const isSnow=['christmas','snow'].includes(theme);host.style.background='transparent';
+window.ClayStudio = (() => {
+  'use strict';
+  const T = THREE,
+    PI = Math.PI,
+    TAU = 2 * PI,
+    Q = (s) => document.querySelector(s),
+    clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)),
+    ease = (x) => (x = clamp(x)) * x * x * (x * (x * 6 - 15) + 10),
+    rand = (i) => {
+      let a = Math.sin(i * 73.18 + 9.61) * 43215.63;
+      return a - Math.floor(a);
+    },
+    V = (x = 0, y = 0, z = 0) => new T.Vector3(x, y, z),
+    C = (x) => new T.Color(x).convertSRGBToLinear();
+  const paper = {
+    E: {
+      name: 'Terracotta',
+      ink: ['#204e38', '#315f45', '#407355', '#528267', '#39684b'],
+      slab: '#8c5139',
+      bg: ['#624537', '#3d302c', '#282422'],
+    },
+  };
+  let renderer,
+    req,
+    host,
+    cv,
+    sc,
+    cam,
+    root,
+    assetsReady = false,
+    assetStatus = 'idle',
+    previewDone = false,
+    sceneReady = Promise.resolve(),
+    style = 'E',
+    theme = 'robots',
+    clock = 0,
+    paused = false,
+    still = 0,
+    seed = 0,
+    ready = false,
+    tex,
+    envMap,
+    geomCache = new Map(),
+    materials = [],
+    textures = [],
+    units = [],
+    actions = [],
+    extras = [],
+    props,
+    span = 15,
+    editionText = '',
+    loadedGofa = null,
+    runId = 0,
+    requires = true,
+    texReady = false,
+    showcase = false,
+    aim = 0.62,
+    windX = null,
+    lastMove = 0,
+    mark = 'DURGESH SALUNKHE',
+    warned = false;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  function ownTexture(t) {
+    textures.push(t);
+    return t;
+  }
+  function material(hex, rough = 0.8, metal = 0, opts = {}) {
+    let m = new T.MeshStandardMaterial({
+      color: C(hex),
+      roughness: rough,
+      metalness: metal,
+      envMapIntensity: metal > 0.25 ? 0.75 : 0.31,
+      ...opts,
+    });
+    materials.push(m);
+    return m;
+  }
+  function grp(parent, x = 0, y = 0, z = 0) {
+    let g = new T.Group();
+    g.position.set(x, y, z);
+    parent.add(g);
+    return g;
+  }
+  function M(p, geo, mat, x = 0, y = 0, z = 0) {
+    let o = new T.Mesh(geo, mat);
+    o.position.set(x, y, z);
+    o.castShadow = o.receiveShadow = true;
+    p.add(o);
+    return o;
+  }
+  function ell(p, x, y, z, rx, ry, rz, m) {
+    let o = M(p, new T.SphereGeometry(1, 20, 14), m, x, y, z);
+    o.scale.set(rx, ry, rz);
+    return o;
+  }
+  function box(p, x, y, z, w, h, d, m) {
+    return M(p, new T.BoxGeometry(w, h, d), m, x, y, z);
+  }
+  function cyl(p, x, y, z, a, b, h, m, n = 24) {
+    return M(p, new T.CylinderGeometry(a, b, h, n), m, x, y, z);
+  }
+  function rod(p, a, b, r, m, r2 = r) {
+    const d = V(...b).sub(V(...a)),
+      o = cyl(p, 0, 0, 0, r2, r, d.length(), m, 12);
+    o.position.copy(
+      V(...a)
+        .add(V(...b))
+        .multiplyScalar(0.5),
+    );
+    o.quaternion.setFromUnitVectors(V(0, 1, 0), d.normalize());
+    return o;
+  }
+  function curve(p, pts, r, m) {
+    return M(
+      p,
+      new T.TubeGeometry(
+        new T.CatmullRomCurve3(pts.map((q) => V(...q))),
+        Math.max(10, pts.length * 4),
+        r,
+        7,
+        false,
+      ),
+      m,
+    );
+  }
+  function bevel(p, x, y, z, w, h, d, r, m) {
+    const sh = new T.Shape(),
+      a = w / 2 - r,
+      b = h / 2 - r;
+    sh.moveTo(-a, -b);
+    sh.lineTo(a, -b);
+    sh.lineTo(a, b);
+    sh.lineTo(-a, b);
+    sh.closePath();
+    let g = new T.ExtrudeGeometry(sh, {
+      depth: Math.max(0.004, d - 2 * r),
+      bevelEnabled: true,
+      bevelThickness: r,
+      bevelSize: r,
+      bevelSegments: 4,
+      steps: 1,
+      curveSegments: 4,
+    });
+    g.translate(0, 0, -Math.max(0.004, d - 2 * r) / 2);
+    return M(p, g, m, x, y, z);
+  }
+  function lathe(p, points, m, x = 0, y = 0, z = 0, n = 48) {
+    return M(
+      p,
+      new T.LatheGeometry(
+        points.map(([r, h]) => new T.Vector2(r, h)),
+        n,
+      ),
+      m,
+      x,
+      y,
+      z,
+    );
+  }
+  function geom(key, data) {
+    if (geomCache.has(key)) return geomCache.get(key);
+    const bin = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0)).buffer;
+    const pts = Float32Array.from(new Int16Array(bin(data[0])), (x) => x / 12000),
+      idx = new Uint16Array(bin(data[1]));
+    let uv = new Float32Array((pts.length / 3) * 2);
+    for (let i = 0, j = 0; i < pts.length; i += 3, j += 2) {
+      let [x, y, z] = pts.subarray(i, i + 3);
+      uv[j] = x * 2.42 + z * 0.86 + y * 0.21;
+      uv[j + 1] = y * 2.6 - z * 0.95 + x * 0.16;
+    }
+    let g = new T.BufferGeometry();
+    g.setAttribute('position', new T.BufferAttribute(pts, 3));
+    g.setAttribute('uv', new T.BufferAttribute(uv, 2));
+    g.setIndex(new T.BufferAttribute(idx, 1));
+    g.computeVertexNormals();
+    g.computeBoundingBox();
+    g.userData.shared = true;
+    geomCache.set(key, g);
+    return g;
+  }
+  function env(r) {
+    if (!r) return null;
+    const w = 128,
+      h = 64,
+      arr = new Float32Array(w * h * 4);
+    for (let y = 0; y < h; y++)
+      for (let x = 0; x < w; x++) {
+        let i = (y * w + x) * 4,
+          u = x / w,
+          v = y / h,
+          sky = 0.048 + 0.19 * v,
+          a = Math.exp(-(((u - 0.26) / 0.086) ** 2 + ((v - 0.68) / 0.235) ** 2)) * 2.7,
+          b = Math.exp(-(((u - 0.72) / 0.054) ** 2 + ((v - 0.62) / 0.19) ** 2)) * 2.2,
+          strip = Math.exp(-(((u - 0.51) / 0.28) ** 2 + ((v - 0.54) / 0.014) ** 2)) * 0.65;
+        arr.set(
+          [
+            sky + a * 1.15 + b * 0.85 + strip,
+            sky + a * 0.98 + b * 1.02 + strip,
+            sky * 1.1 + a * 0.85 + b * 1.2 + strip,
+            1,
+          ],
+          i,
+        );
+      }
+    let tex = new T.DataTexture(arr, w, h, T.RGBAFormat, T.FloatType);
+    tex.mapping = T.EquirectangularReflectionMapping;
+    tex.needsUpdate = true;
+    let gen = new T.PMREMGenerator(r),
+      rt = gen.fromEquirectangular(tex);
+    gen.dispose();
+    tex.dispose();
+    return rt.texture;
+  }
+  function contact(p, x, z, sz, opacity = 0.32) {
+    let can = document.createElement('canvas');
+    can.width = can.height = 64;
+    let c = can.getContext('2d'),
+      d = c.createRadialGradient(32, 32, 0, 32, 32, 32);
+    d.addColorStop(0, 'rgba(24,12,5,.96)');
+    d.addColorStop(0.35, 'rgba(26,14,8,.75)');
+    d.addColorStop(1, 'rgba(32,20,12,0)');
+    c.fillStyle = d;
+    c.fillRect(0, 0, 64, 64);
+    let m = new T.MeshBasicMaterial({
+      map: ownTexture(new T.CanvasTexture(can)),
+      transparent: true,
+      depthWrite: false,
+      opacity,
+    });
+    materials.push(m);
+    let o = M(p, new T.PlaneGeometry(sz, sz * 0.69), m, x, 0.007, z);
+    o.rotation.x = -PI / 2;
+    o.receiveShadow = o.castShadow = false;
+    return o;
+  }
+  function setButtons() {
+    host.dataset.clay = style;
+    host.dataset.theme = theme;
+    document.dispatchEvent(new CustomEvent('clay-theme-change', { detail: { theme } }));
+    document
+      .querySelectorAll('[data-study]')
+      .forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.study === theme)));
+    const ed = Q('#edition');
+    if (ed && ed.value !== theme && ed.value !== 'auto') ed.value = theme;
+  }
+  function dispose() {
+    ScarfJolt.clear();
+    LetterPlay.clear();
+    if (root) {
+      let set = new Set();
+      root.traverse((n) => {
+        if (n.geometry && !n.geometry.userData.shared) set.add(n.geometry);
+      });
+      set.forEach((g) => g.dispose());
+      sc.remove(root);
+    }
+    materials.forEach((m) => m.dispose());
+    textures.forEach((t) => t.dispose());
+    materials = [];
+    textures = [];
+    units = [];
+    actions = [];
+    extras = [];
+  }
+  function rebuild() {
+    if (!ready) return;
+    runId++;
+    const buildId = runId;
+    assetsReady = previewDone = false;
+    assetStatus = 'loading';
+    dispose();
+    root = grp(sc);
+    props = grp(root);
+    let s = paper[style];
+    const key = sc.children.find((a) => a.name === 'Key light'),
+      fillLight = sc.children.find((a) => a.name === 'Bounce');
+    if (key) {
+      key.intensity = theme === 'halloween' ? 2.75 : 2.65;
+      key.color.setHex(0xfffaf2);
+      fillLight.intensity = theme === 'halloween' ? 0.85 : 0.65;
+    }
+    let str = mark;
+    let gap = 0.072,
+      glyphs = ClayForms[style],
+      w = [...str].map((ch) => (ch === ' ' ? 0.4 : glyphs[ch][0] + gap)),
+      width = w.reduce((a, b) => a + b, 0),
+      cursor = -width / 2,
+      totalGlyphs = [...str].filter((ch) => ch !== ' ').length;
+    span = width + 3.15;
+    aim = 0.97;
+    setButtons();
+    const isSnow = ['christmas', 'snow'].includes(theme);
+    host.style.background = 'transparent';
 
- // A shadow catcher, not a coloured stage: the page itself is the background.
- const catcher=M(root,new T.PlaneGeometry(span*3,14),new T.ShadowMaterial({color:0x354b3c,opacity:.12,depthWrite:false}),0,-.014,0);catcher.rotation.x=-PI/2;catcher.castShadow=false;materials.push(catcher.material);
- const palette=theme==='halloween'?['#4d8b6c','#5ea07f','#72b492','#84c4a2','#65a886']:s.ink;
- const cmats=palette.map((c,i)=>{let m=material(c,.83,.015,{bumpMap:tex,bumpScale:.006});m.onBeforeCompile=sh=>{sh.uniforms.clayGrain={value:tex};sh.vertexShader='varying vec2 vClayUV;\n'+sh.vertexShader.replace('#include <uv_vertex>','#include <uv_vertex>\nvClayUV=uv;');sh.fragmentShader='uniform sampler2D clayGrain; varying vec2 vClayUV;\n'+sh.fragmentShader.replace('#include <color_fragment>','#include <color_fragment>\nfloat dust=texture2D(clayGrain,vClayUV*.52).r;float grit=texture2D(clayGrain,vClayUV*1.59).r;diffuseColor.rgb *= .68 + dust*.49 + grit*.20;')};return m});let snowMat=material('#f3f6f6',.97,0,{bumpMap:tex,bumpScale:.008});sc.background=null;const gbase=isSnow?0:.002;
- [...str].forEach((ch,i)=>{let ww=w[i];if(ch!==' '){let j=units.length,group=grp(root,cursor+ww/2,gbase,0),ge=geom(style+ch,glyphs[ch][1]),letMesh=M(group,ge,cmats[(j*3+2)%5]);group.rotation.y=(Math.sin(j*3.7)*.022-.10)*(theme!=='halloween'&&(j===0||j===totalGlyphs-1)?0:1);let cap=theme==='christmas'?M(group,geom(style+ch+'cap',glyphs[ch][2]),snowMat):null;if(cap)cap.scale.z=1.21;let shadow=contact(root,group.position.x,.05,ww*1.19,.39);units.push({ch,g:group,x:group.position.x,w:ww,body:letMesh,cap,shadow,v:0,swing:0});}cursor+=ww});
- const ctx={ready:[tex.userData.ready],T,PI,TAU,mat:material,ownTexture,M,grp,ell,box,cyl,rod,curve,bevel,lathe,geom,contact,C,V,clamp,ease,rand,actions,extras,units,root:props,width,style,theme,reduced:reduced.matches,tex,envMap,snowMat,asset:p=>window.siteAsset?siteAsset(p):p,token:()=>runId,request:()=>{requires=true;req()},keep:m=>{materials.push(m);return m}};
- AtelierArt.make(ctx);ClayProps.build(ctx);LetterPlay.reset({units,theme,cv,host,cam,span,root,request:()=>{requires=true;req()},onPlay:event=>ctx.holi?.play(event),enabled:!!renderer});ClayArms.build(ctx);window.ClayHoli?.build(ctx);window.ClayNational?.build(ctx);ClaySeasons.build(ctx);
- sceneReady=Promise.all(ctx.ready).then(()=>{if(runId!==buildId)return;assetsReady=true;assetStatus='ready';clock=performance.now();document.dispatchEvent(new CustomEvent('letterhead-assets-ready'));requires=true;req()}).catch(error=>{assetStatus='error';console.warn('Scene assets unavailable; keeping snapshot:',error.message);document.dispatchEvent(new CustomEvent('letterhead-assets-ready'))});
- requires=true;req();}
-function select(k){if(!k||!ready)return;theme=k;clock=performance.now();still=0;paused=false;editionText='';rebuild()}
-function choose(k){if(!paper[k])return;style=k;clock=performance.now();rebuild()}
-function init(r,invalidate,initTheme){renderer=r;req=invalidate;host=Q('#marquee');cv=Q('#word');style='E';if(initTheme)theme=initTheme;let p=new URLSearchParams(location.search);showcase=p.has('lettering');if(showcase)document.body.classList.add('lettering-only');sc=new T.Scene();cam=new T.OrthographicCamera(-8,8,2,-2,.1,90);if(r){try{envMap=env(r);sc.environment=envMap}catch(e){console.warn('Studio reflections unavailable',e)}}sc.add(new T.HemisphereLight(0xfffcf6,0xa0b3a2,.84),new T.AmbientLight(0xffffff,.18));let sun=new T.DirectionalLight(0xffe8cf,3.03);sun.name='Key light';sun.position.set(-5.5,6.4,4.1);sun.castShadow=true;sun.shadow.mapSize.set(2048,1024);Object.assign(sun.shadow.camera,{left:-9,right:9,top:4,bottom:-4,near:.1,far:29});sun.shadow.bias=-.00026;sun.shadow.normalBias=.011;sun.shadow.radius=2;sc.add(sun);let fill=new T.DirectionalLight(0xd3e2ff,.49);fill.name='Bounce';fill.position.set(7,2,4);sc.add(fill);let rim=new T.DirectionalLight(0xf4fff8,1.15);rim.position.set(1,4,-4);sc.add(rim);let textureDone,textureFailed;const textureReady=new Promise((resolve,reject)=>{textureDone=resolve;textureFailed=reject});tex=new T.TextureLoader().load(window.siteAsset?siteAsset('images/clay-grain.webp'):'images/clay-grain.webp',()=>{texReady=true;textureDone();requires=true;req()},undefined,textureFailed);tex.userData.ready=textureReady;tex.wrapS=tex.wrapT=T.RepeatWrapping;tex.anisotropy=r?Math.min(4,r.capabilities.getMaxAnisotropy()):1;ready=true;host.classList.add('ready','clay-ready');LetterPlay.bind(cv);clock=performance.now();rebuild();}
-function tick(ms){if(!ready||!assetsReady||!cv.clientWidth||!cv.clientHeight)return;let t=paused?still:(ms-clock)/1000;if(reduced.matches&&!paused)t=theme==='snow'?Math.max(...units.map(u=>u.restoredAt))+.1:theme==='puppets'?15:theme==='republic'?24:['diwali','independence','france'].includes(theme)?18:10.5;let W=cv.clientWidth,H=cv.clientHeight,cb=cv.getBoundingClientRect(),nav=Q('.top nav'),lPx=0,rPx=nav&&nav.offsetWidth?nav.getBoundingClientRect().left-cb.left-14:W,gapW=rPx-lPx,fit=!showcase&&gapW>=W*.38,unit=(fit?gapW:W)/span,viewW=W/unit,camX=fit?(W/2-(lPx+rPx)/2)/unit:0,viewH=H/unit;aim=viewH*.507-.05;cam.left=-viewW/2+camX;cam.right=viewW/2+camX;cam.top=viewH/2;cam.bottom=-viewH/2;host.style.setProperty('--letterhead-edge',(fit?rPx:W-28)+'px');cam.position.set(0,aim+3.0,18);cam.lookAt(0,aim,0);cam.updateProjectionMatrix();units.forEach((u,j)=>{let g=u.g;g.position.x=u.x;g.position.y=.003;g.position.z=0;g.scale.set(1,1,1);g.rotation.x=g.rotation.z=0;if(u.cap)u.cap.visible=true});actions.forEach(fn=>fn(t));LetterPlay.step(ms);ScarfJolt.step(ms,t);let dpr=Math.min(devicePixelRatio||1,1.65);let w=Math.round(W*dpr),h=Math.round(H*dpr);if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h}if(renderer){let r=renderer,oldShadow=r.shadowMap.enabled,oldType=r.shadowMap.type;const oldLights=r.physicallyCorrectLights,oldTone=r.toneMapping,oldExposure=r.toneMappingExposure;r.physicallyCorrectLights=true;r.shadowMap.enabled=true;r.shadowMap.type=T.PCFSoftShadowMap;if(r.domElement.width!==w||r.domElement.height!==h)r.setSize(w,h,false);r.setClearColor(0,0);r.render(sc,cam);r.physicallyCorrectLights=oldLights;r.toneMapping=oldTone;r.toneMappingExposure=oldExposure;r.shadowMap.enabled=oldShadow;r.shadowMap.type=oldType;let ctx=cv.getContext('2d');ctx.clearRect(0,0,w,h);ctx.drawImage(r.domElement,0,0);if(assetsReady&&!previewDone){previewDone=true;window.ScenePreviews?.live(theme)}}else{host.classList.add('clay-fallback');const fx='images/clay-E-robots.webp';host.style.backgroundImage=`url("${window.siteAsset?siteAsset(fx):fx}")`;host.style.backgroundSize=fit?`${Math.round(gapW/W*100)}% auto`:'100% auto';host.style.backgroundRepeat='no-repeat';host.style.backgroundPosition=fit?`${Math.round(lPx/Math.max(1,W-gapW)*100)}% center`:'center';host.style.backgroundColor='transparent'}requires=false}
-function active(ms){if(!ready||!renderer||!assetsReady)return false;if(LetterPlay.active())return true;if(paused||reduced.matches)return false;let t=(ms-clock)/1000;if(t<10.8)return true;if(theme==='puppets')return t<13;if(theme==='robots'||theme==='halloween'||theme==='holi')return false;return true}
-return {inspection:()=>({sc,cam,root,units,theme,span,assetsReady,assetStatus}),whenReady:()=>sceneReady,init,select,choose,tick,active,needs:()=>requires,style:()=>style,theme:()=>theme,seek(t){paused=true;still=t;requires=true;req()},resume(){paused=false;clock=performance.now();requires=true;req()}};})();
+    // A shadow catcher, not a coloured stage: the page itself is the background.
+    const catcher = M(
+      root,
+      new T.PlaneGeometry(span * 3, 14),
+      new T.ShadowMaterial({ color: 0x354b3c, opacity: 0.12, depthWrite: false }),
+      0,
+      -0.014,
+      0,
+    );
+    catcher.rotation.x = -PI / 2;
+    catcher.castShadow = false;
+    materials.push(catcher.material);
+    const palette =
+      theme === 'halloween' ? ['#4d8b6c', '#5ea07f', '#72b492', '#84c4a2', '#65a886'] : s.ink;
+    const cmats = palette.map((c, i) => {
+      let m = material(c, 0.83, 0.015, { bumpMap: tex, bumpScale: 0.006 });
+      m.onBeforeCompile = (sh) => {
+        sh.uniforms.clayGrain = { value: tex };
+        sh.vertexShader =
+          'varying vec2 vClayUV;\n' +
+          sh.vertexShader.replace('#include <uv_vertex>', '#include <uv_vertex>\nvClayUV=uv;');
+        sh.fragmentShader =
+          'uniform sampler2D clayGrain; varying vec2 vClayUV;\n' +
+          sh.fragmentShader.replace(
+            '#include <color_fragment>',
+            '#include <color_fragment>\nfloat dust=texture2D(clayGrain,vClayUV*.52).r;float grit=texture2D(clayGrain,vClayUV*1.59).r;diffuseColor.rgb *= .68 + dust*.49 + grit*.20;',
+          );
+      };
+      return m;
+    });
+    let snowMat = material('#f3f6f6', 0.97, 0, { bumpMap: tex, bumpScale: 0.008 });
+    sc.background = null;
+    const gbase = isSnow ? 0 : 0.002;
+    [...str].forEach((ch, i) => {
+      let ww = w[i];
+      if (ch !== ' ') {
+        let j = units.length,
+          group = grp(root, cursor + ww / 2, gbase, 0),
+          ge = geom(style + ch, glyphs[ch][1]),
+          letMesh = M(group, ge, cmats[(j * 3 + 2) % 5]);
+        group.rotation.y =
+          (Math.sin(j * 3.7) * 0.022 - 0.1) *
+          (theme !== 'halloween' && (j === 0 || j === totalGlyphs - 1) ? 0 : 1);
+        let cap =
+          theme === 'christmas' ? M(group, geom(style + ch + 'cap', glyphs[ch][2]), snowMat) : null;
+        if (cap) cap.scale.z = 1.21;
+        let shadow = contact(root, group.position.x, 0.05, ww * 1.19, 0.39);
+        units.push({
+          ch,
+          g: group,
+          x: group.position.x,
+          w: ww,
+          body: letMesh,
+          cap,
+          shadow,
+          v: 0,
+          swing: 0,
+        });
+      }
+      cursor += ww;
+    });
+    const ctx = {
+      ready: [tex.userData.ready],
+      T,
+      PI,
+      TAU,
+      mat: material,
+      ownTexture,
+      M,
+      grp,
+      ell,
+      box,
+      cyl,
+      rod,
+      curve,
+      bevel,
+      lathe,
+      geom,
+      contact,
+      C,
+      V,
+      clamp,
+      ease,
+      rand,
+      actions,
+      extras,
+      units,
+      root: props,
+      width,
+      style,
+      theme,
+      reduced: reduced.matches,
+      tex,
+      envMap,
+      snowMat,
+      asset: (p) => (window.siteAsset ? siteAsset(p) : p),
+      token: () => runId,
+      request: () => {
+        requires = true;
+        req();
+      },
+      keep: (m) => {
+        materials.push(m);
+        return m;
+      },
+    };
+    AtelierArt.make(ctx);
+    ClayProps.build(ctx);
+    LetterPlay.reset({
+      units,
+      theme,
+      cv,
+      host,
+      cam,
+      span,
+      root,
+      request: () => {
+        requires = true;
+        req();
+      },
+      onPlay: (event) => ctx.holi?.play(event),
+      enabled: !!renderer,
+    });
+    ClayArms.build(ctx);
+    window.ClayHoli?.build(ctx);
+    window.ClayNational?.build(ctx);
+    ClaySeasons.build(ctx);
+    sceneReady = Promise.all(ctx.ready)
+      .then(() => {
+        if (runId !== buildId) return;
+        assetsReady = true;
+        assetStatus = 'ready';
+        clock = performance.now();
+        document.dispatchEvent(new CustomEvent('letterhead-assets-ready'));
+        requires = true;
+        req();
+      })
+      .catch((error) => {
+        assetStatus = 'error';
+        console.warn('Scene assets unavailable; keeping snapshot:', error.message);
+        document.dispatchEvent(new CustomEvent('letterhead-assets-ready'));
+      });
+    requires = true;
+    req();
+  }
+  function select(k) {
+    if (!k || !ready) return;
+    theme = k;
+    clock = performance.now();
+    still = 0;
+    paused = false;
+    editionText = '';
+    rebuild();
+  }
+  function choose(k) {
+    if (!paper[k]) return;
+    style = k;
+    clock = performance.now();
+    rebuild();
+  }
+  function init(r, invalidate, initTheme) {
+    renderer = r;
+    req = invalidate;
+    host = Q('#marquee');
+    cv = Q('#word');
+    style = 'E';
+    if (initTheme) theme = initTheme;
+    let p = new URLSearchParams(location.search);
+    showcase = p.has('lettering');
+    if (showcase) document.body.classList.add('lettering-only');
+    sc = new T.Scene();
+    cam = new T.OrthographicCamera(-8, 8, 2, -2, 0.1, 90);
+    if (r) {
+      try {
+        envMap = env(r);
+        sc.environment = envMap;
+      } catch (e) {
+        console.warn('Studio reflections unavailable', e);
+      }
+    }
+    sc.add(new T.HemisphereLight(0xfffcf6, 0xa0b3a2, 0.84), new T.AmbientLight(0xffffff, 0.18));
+    let sun = new T.DirectionalLight(0xffe8cf, 3.03);
+    sun.name = 'Key light';
+    sun.position.set(-5.5, 6.4, 4.1);
+    sun.castShadow = true;
+    sun.shadow.mapSize.set(2048, 1024);
+    Object.assign(sun.shadow.camera, {
+      left: -9,
+      right: 9,
+      top: 4,
+      bottom: -4,
+      near: 0.1,
+      far: 29,
+    });
+    sun.shadow.bias = -0.00026;
+    sun.shadow.normalBias = 0.011;
+    sun.shadow.radius = 2;
+    sc.add(sun);
+    let fill = new T.DirectionalLight(0xd3e2ff, 0.49);
+    fill.name = 'Bounce';
+    fill.position.set(7, 2, 4);
+    sc.add(fill);
+    let rim = new T.DirectionalLight(0xf4fff8, 1.15);
+    rim.position.set(1, 4, -4);
+    sc.add(rim);
+    let textureDone, textureFailed;
+    const textureReady = new Promise((resolve, reject) => {
+      textureDone = resolve;
+      textureFailed = reject;
+    });
+    tex = new T.TextureLoader().load(
+      window.siteAsset ? siteAsset('images/clay-grain.webp') : 'images/clay-grain.webp',
+      () => {
+        texReady = true;
+        textureDone();
+        requires = true;
+        req();
+      },
+      undefined,
+      textureFailed,
+    );
+    tex.userData.ready = textureReady;
+    tex.wrapS = tex.wrapT = T.RepeatWrapping;
+    tex.anisotropy = r ? Math.min(4, r.capabilities.getMaxAnisotropy()) : 1;
+    ready = true;
+    host.classList.add('ready', 'clay-ready');
+    LetterPlay.bind(cv);
+    clock = performance.now();
+    rebuild();
+  }
+  function tick(ms) {
+    if (!ready || !assetsReady || !cv.clientWidth || !cv.clientHeight) return;
+    let t = paused ? still : (ms - clock) / 1000;
+    if (reduced.matches && !paused)
+      t =
+        theme === 'snow'
+          ? Math.max(...units.map((u) => u.restoredAt)) + 0.1
+          : theme === 'puppets'
+            ? 15
+            : theme === 'republic'
+              ? 24
+              : ['diwali', 'independence', 'france'].includes(theme)
+                ? 18
+                : 10.5;
+    let W = cv.clientWidth,
+      H = cv.clientHeight,
+      cb = cv.getBoundingClientRect(),
+      nav = Q('.top nav'),
+      lPx = 0,
+      rPx = nav && nav.offsetWidth ? nav.getBoundingClientRect().left - cb.left - 14 : W,
+      gapW = rPx - lPx,
+      fit = !showcase && gapW >= W * 0.38,
+      unit = (fit ? gapW : W) / span,
+      viewW = W / unit,
+      camX = fit ? (W / 2 - (lPx + rPx) / 2) / unit : 0,
+      viewH = H / unit;
+    aim = viewH * 0.507 - 0.05;
+    cam.left = -viewW / 2 + camX;
+    cam.right = viewW / 2 + camX;
+    cam.top = viewH / 2;
+    cam.bottom = -viewH / 2;
+    host.style.setProperty('--letterhead-edge', (fit ? rPx : W - 28) + 'px');
+    cam.position.set(0, aim + 3.0, 18);
+    cam.lookAt(0, aim, 0);
+    cam.updateProjectionMatrix();
+    units.forEach((u, j) => {
+      let g = u.g;
+      g.position.x = u.x;
+      g.position.y = 0.003;
+      g.position.z = 0;
+      g.scale.set(1, 1, 1);
+      g.rotation.x = g.rotation.z = 0;
+      if (u.cap) u.cap.visible = true;
+    });
+    actions.forEach((fn) => fn(t));
+    LetterPlay.step(ms);
+    ScarfJolt.step(ms, t);
+    let dpr = Math.min(devicePixelRatio || 1, 1.65);
+    let w = Math.round(W * dpr),
+      h = Math.round(H * dpr);
+    if (cv.width !== w || cv.height !== h) {
+      cv.width = w;
+      cv.height = h;
+    }
+    if (renderer) {
+      let r = renderer,
+        oldShadow = r.shadowMap.enabled,
+        oldType = r.shadowMap.type;
+      const oldLights = r.physicallyCorrectLights,
+        oldTone = r.toneMapping,
+        oldExposure = r.toneMappingExposure;
+      r.physicallyCorrectLights = true;
+      r.shadowMap.enabled = true;
+      r.shadowMap.type = T.PCFSoftShadowMap;
+      if (r.domElement.width !== w || r.domElement.height !== h) r.setSize(w, h, false);
+      r.setClearColor(0, 0);
+      r.render(sc, cam);
+      r.physicallyCorrectLights = oldLights;
+      r.toneMapping = oldTone;
+      r.toneMappingExposure = oldExposure;
+      r.shadowMap.enabled = oldShadow;
+      r.shadowMap.type = oldType;
+      let ctx = cv.getContext('2d');
+      ctx.clearRect(0, 0, w, h);
+      ctx.drawImage(r.domElement, 0, 0);
+      if (assetsReady && !previewDone) {
+        previewDone = true;
+        window.ScenePreviews?.live(theme);
+      }
+    } else {
+      host.classList.add('clay-fallback');
+      const fx = 'images/clay-E-robots.webp';
+      host.style.backgroundImage = `url("${window.siteAsset ? siteAsset(fx) : fx}")`;
+      host.style.backgroundSize = fit ? `${Math.round((gapW / W) * 100)}% auto` : '100% auto';
+      host.style.backgroundRepeat = 'no-repeat';
+      host.style.backgroundPosition = fit
+        ? `${Math.round((lPx / Math.max(1, W - gapW)) * 100)}% center`
+        : 'center';
+      host.style.backgroundColor = 'transparent';
+    }
+    requires = false;
+  }
+  function active(ms) {
+    if (!ready || !renderer || !assetsReady) return false;
+    if (LetterPlay.active()) return true;
+    if (paused || reduced.matches) return false;
+    let t = (ms - clock) / 1000;
+    if (t < 10.8) return true;
+    if (theme === 'puppets') return t < 13;
+    if (theme === 'robots' || theme === 'halloween' || theme === 'holi') return false;
+    return true;
+  }
+  return {
+    inspection: () => ({ sc, cam, root, units, theme, span, assetsReady, assetStatus }),
+    whenReady: () => sceneReady,
+    init,
+    select,
+    choose,
+    tick,
+    active,
+    needs: () => requires,
+    style: () => style,
+    theme: () => theme,
+    seek(t) {
+      paused = true;
+      still = t;
+      requires = true;
+      req();
+    },
+    resume() {
+      paused = false;
+      clock = performance.now();
+      requires = true;
+      req();
+    },
+  };
+})();

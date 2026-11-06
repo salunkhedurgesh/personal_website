@@ -10,6 +10,33 @@ to your existing static host. For a local preview, from this directory run:
 python3 -m http.server 8000
 ```
 
+## Hidden animation previews
+
+Press **Ctrl+Alt+A** (or **Cmd+Alt+A** on macOS) to open the unlisted animation
+preview panel. On phones and tablets, append `?animations=1` to the website URL.
+The panel provides every lettering animation and the Live calendar option.
+Selecting an animation closes the panel and replays that animation in view.
+Press Escape or the close button to dismiss it without changing the animation. The shortcut also works
+from Publications, Projects, and Teaching, bringing the letterhead into view.
+
+Direct previews such as `?edition=snow` and `?edition=diwali` also remain available.
+
+## Code formatting
+
+The source uses two-space indentation for HTML, CSS, JavaScript, and JSON;
+Python uses four spaces. Formatting settings live in `.prettierrc.json`,
+`.editorconfig`, and `pyproject.toml`. Install the optional development tools once:
+
+```sh
+npm ci
+python3 -m pip install -r requirements-format.txt
+```
+
+Run `npm run format` to format the source, or `npm run format:check` to check it.
+Run `python3 tools/stamp-assets.py` afterward to update cached asset URLs.
+Third-party libraries retain their distributed code and license headers.
+Serving the website still requires only static file hosting.
+
 Keep the `projects/main/resources/` directory from your existing website when
 merging this package: publication PDFs and BibTeX continue to reference it.
 The package is a complete interface update, not another copy of that large archive.

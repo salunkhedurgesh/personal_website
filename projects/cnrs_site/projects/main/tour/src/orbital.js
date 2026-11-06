@@ -1,9 +1,23 @@
 /* Analytic perspective sphere. Radius = one Earth radius. Coordinates and the point labels
    are projected with the exact same moving camera. No tiles, server, API keys or globe SDK. */
-(()=>{'use strict';const R=Math.PI/180,cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x)),sm=(a,b,v)=>{let x=cl((v-a)/(b-a));return x*x*(3-2*x)},mix=(a,b,t)=>a+(b-a)*t, dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2],latlon=(lat,lon)=>[Math.cos(lat*R)*Math.cos(lon*R),Math.sin(lat*R),Math.cos(lat*R)*Math.sin(lon*R)];
-const VS=`#version 300 es
+(() => {
+  'use strict';
+  const R = Math.PI / 180,
+    cl = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x)),
+    sm = (a, b, v) => {
+      let x = cl((v - a) / (b - a));
+      return x * x * (3 - 2 * x);
+    },
+    mix = (a, b, t) => a + (b - a) * t,
+    dot = (a, b) => a[0] * b[0] + a[1] * b[1] + a[2] * b[2],
+    latlon = (lat, lon) => [
+      Math.cos(lat * R) * Math.cos(lon * R),
+      Math.sin(lat * R),
+      Math.cos(lat * R) * Math.sin(lon * R),
+    ];
+  const VS = `#version 300 es
 out vec2 xy;void main(){vec2 p=vec2((gl_VertexID<<1)&2,gl_VertexID&2)*2.-1.;xy=p;gl_Position=vec4(p,0.,1.);}`;
-const FS=`#version 300 es
+  const FS = `#version 300 es
 precision highp float;uniform vec3 front,east,north;uniform vec2 dims,shift;uniform float dist,lens,alpha,chart,tone;uniform sampler2D earth,region;in vec2 xy;out vec4 outColor;
 float hash(vec2 p){vec3 q=fract(vec3(p.xyx)*vec3(.1031,.1030,.0973));q+=dot(q,q.yzx+33.33);return fract((q.x+q.y)*q.z);}
 float stars(vec2 pos,float pitch){vec2 c=floor(pos/pitch);float h=hash(c+11.36);vec2 off=(vec2(hash(c+1.),hash(c+2.))-.5)*.77;vec2 d=(fract(pos/pitch)-.5-off)*pitch;return (1.-smoothstep(.15,1.75,length(d))) * step(.72,h)*(.18+.55*h);}
@@ -14,10 +28,110 @@ float orbital=smoothstep(1.38,2.7,dist),aura=exp(-max(0.,b-1.)*32.)*orbital;bg+=
 if(disc<0.){outColor=vec4(bg,alpha);return;}vec3 n=normalize(front*dist+ray*(k-sqrt(max(0.,disc))));float lon=degrees(atan(n.z,n.x)),lat=degrees(asin(clamp(n.y,-1.,1.)));vec2 uv=vec2(lon/360.+.5,.5-lat/180.);
 vec3 col=texture(earth,uv).rgb;vec2 rg=(vec2(lon,-lat)-vec2(-13.,-60.))/vec2(36.,24.);float bound=smoothstep(0.,.06,min(min(rg.x,rg.y),min(1.-rg.x,1.-rg.y)));col=mix(col,texture(region,clamp(rg,0.,1.)).rgb,bound*chart);
 float mu=max(0.,dot(n,-ray));vec3 sun=normalize(vec3(.80,.90,-.61));float light=dot(n,sun);vec3 sphere=col*(.37+.69*smoothstep(-.35,.95,light));sphere=mix(sphere,vec3(.10,.24,.37),.09*(1.-mu));sphere+=vec3(.15,.36,.57)*pow(1.-mu,3.7);col=mix(col,sphere,tone);float aa=max(.00002,fwidth(b));col=mix(bg,col,smoothstep(0.,aa*1.8,1.-b));outColor=vec4(col,alpha);}`;
-async function init(gl,program,urls){const prog=program(VS,FS),U=Object.fromEntries('dims shift dist lens alpha chart tone earth region front east north'.split(' ').map(s=>[s,gl.getUniformLocation(prog,s)])),vao=gl.createVertexArray();async function tex(url,repeat){const im=new Image();im.crossOrigin="anonymous";im.src=url+(window.ATLAS_VERSION?'?v='+window.ATLAS_VERSION:'');await im.decode();const max=gl.getParameter(gl.MAX_TEXTURE_SIZE);let source=im;if(im.width>max||im.height>max){let c=document.createElement('canvas'),r=max/Math.max(im.width,im.height);c.width=Math.max(1,Math.floor(im.width*r));c.height=Math.max(1,Math.floor(im.height*r));c.getContext('2d').drawImage(im,0,0,c.width,c.height);source=c}const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,source);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR_MIPMAP_LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,repeat?gl.REPEAT:gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);gl.generateMipmap(gl.TEXTURE_2D);return t};const textures=await Promise.all([tex(urls.world,true),tex(urls.europe,false)]);
-return function draw(p,w,h,yaw=0,pitch=0,anchor=null){const alpha=sm(.650,.705,p);const s=sm(.663,.835,p),g=sm(.836,1,p),orient=sm(.865,.994,p),a=w/h,lens=Math.tan(20*R),dr=.27*Math.max(1,1.06/a),dg=Math.sqrt(1+1/(.78*Math.min(1,a)*lens)**2);let height=mix(Math.log(.015),Math.log(dr),s);height=mix(height,Math.log(dg-1),g);const dist=1+Math.exp(height),lat=cl(mix(mix(48.57532,46.60,s),26.2,orient)+pitch*sm(.916,.992,p),-85,85),lon=mix(mix(7.74305,2.8,s),10,orient)+yaw*sm(.916,.992,p);
-const f=latlon(lat,lon),e=[-Math.sin(lon*R),0,Math.cos(lon*R)],n=[-Math.sin(lat*R)*Math.cos(lon*R),Math.cos(lat*R),-Math.sin(lat*R)*Math.sin(lon*R)],shift=[0,0];
-function project(lat,lon){const v=latlon(lat,lon),d=dot(v,f),depth=dist-d;if(dist*d<1||depth<=0)return null;return [(.5+.5*(dot(v,e)/(depth*lens*a)+shift[0])),(.5-.5*(dot(v,n)/(depth*lens)+shift[1]))]}
-if(anchor){const pin=project(48.57532,7.74305),k=1-sm(.700,.750,p);if(pin){shift[0]=2*(anchor[0]-pin[0])*k;shift[1]=-2*(anchor[1]-pin[1])*k;}}
-gl.bindFramebuffer(gl.FRAMEBUFFER,null);gl.viewport(0,0,w,h);gl.disable(gl.DEPTH_TEST);gl.useProgram(prog);gl.bindVertexArray(vao);textures.forEach((t,i)=>{gl.activeTexture(gl.TEXTURE0+5+i);gl.bindTexture(gl.TEXTURE_2D,t)});gl.uniform1i(U.earth,5);gl.uniform1i(U.region,6);gl.uniform3fv(U.front,f);gl.uniform3fv(U.east,e);gl.uniform3fv(U.north,n);gl.uniform2fv(U.shift,shift);gl.uniform2f(U.dims,w,h);gl.uniform1f(U.lens,lens);gl.uniform1f(U.dist,dist);gl.uniform1f(U.chart,1-sm(.846,.944,p));gl.uniform1f(U.tone,sm(.839,.967,p));gl.uniform1f(U.alpha,alpha);if(alpha<.99999){gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA)}gl.drawArrays(gl.TRIANGLES,0,3);gl.disable(gl.BLEND);return {project,km:(dist-1)*6371,alpha,lat,lon};}}
-window.AtlasOrbital={init};})();
+  async function init(gl, program, urls) {
+    const prog = program(VS, FS),
+      U = Object.fromEntries(
+        'dims shift dist lens alpha chart tone earth region front east north'
+          .split(' ')
+          .map((s) => [s, gl.getUniformLocation(prog, s)]),
+      ),
+      vao = gl.createVertexArray();
+    async function tex(url, repeat) {
+      const im = new Image();
+      im.crossOrigin = 'anonymous';
+      im.src = url + (window.ATLAS_VERSION ? '?v=' + window.ATLAS_VERSION : '');
+      await im.decode();
+      const max = gl.getParameter(gl.MAX_TEXTURE_SIZE);
+      let source = im;
+      if (im.width > max || im.height > max) {
+        let c = document.createElement('canvas'),
+          r = max / Math.max(im.width, im.height);
+        c.width = Math.max(1, Math.floor(im.width * r));
+        c.height = Math.max(1, Math.floor(im.height * r));
+        c.getContext('2d').drawImage(im, 0, 0, c.width, c.height);
+        source = c;
+      }
+      const t = gl.createTexture();
+      gl.bindTexture(gl.TEXTURE_2D, t);
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, source);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, repeat ? gl.REPEAT : gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.generateMipmap(gl.TEXTURE_2D);
+      return t;
+    }
+    const textures = await Promise.all([tex(urls.world, true), tex(urls.europe, false)]);
+    return function draw(p, w, h, yaw = 0, pitch = 0, anchor = null) {
+      const alpha = sm(0.65, 0.705, p);
+      const s = sm(0.663, 0.835, p),
+        g = sm(0.836, 1, p),
+        orient = sm(0.865, 0.994, p),
+        a = w / h,
+        lens = Math.tan(20 * R),
+        dr = 0.27 * Math.max(1, 1.06 / a),
+        dg = Math.sqrt(1 + 1 / (0.78 * Math.min(1, a) * lens) ** 2);
+      let height = mix(Math.log(0.015), Math.log(dr), s);
+      height = mix(height, Math.log(dg - 1), g);
+      const dist = 1 + Math.exp(height),
+        lat = cl(mix(mix(48.57532, 46.6, s), 26.2, orient) + pitch * sm(0.916, 0.992, p), -85, 85),
+        lon = mix(mix(7.74305, 2.8, s), 10, orient) + yaw * sm(0.916, 0.992, p);
+      const f = latlon(lat, lon),
+        e = [-Math.sin(lon * R), 0, Math.cos(lon * R)],
+        n = [
+          -Math.sin(lat * R) * Math.cos(lon * R),
+          Math.cos(lat * R),
+          -Math.sin(lat * R) * Math.sin(lon * R),
+        ],
+        shift = [0, 0];
+      function project(lat, lon) {
+        const v = latlon(lat, lon),
+          d = dot(v, f),
+          depth = dist - d;
+        if (dist * d < 1 || depth <= 0) return null;
+        return [
+          0.5 + 0.5 * (dot(v, e) / (depth * lens * a) + shift[0]),
+          0.5 - 0.5 * (dot(v, n) / (depth * lens) + shift[1]),
+        ];
+      }
+      if (anchor) {
+        const pin = project(48.57532, 7.74305),
+          k = 1 - sm(0.7, 0.75, p);
+        if (pin) {
+          shift[0] = 2 * (anchor[0] - pin[0]) * k;
+          shift[1] = -2 * (anchor[1] - pin[1]) * k;
+        }
+      }
+      gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+      gl.viewport(0, 0, w, h);
+      gl.disable(gl.DEPTH_TEST);
+      gl.useProgram(prog);
+      gl.bindVertexArray(vao);
+      textures.forEach((t, i) => {
+        gl.activeTexture(gl.TEXTURE0 + 5 + i);
+        gl.bindTexture(gl.TEXTURE_2D, t);
+      });
+      gl.uniform1i(U.earth, 5);
+      gl.uniform1i(U.region, 6);
+      gl.uniform3fv(U.front, f);
+      gl.uniform3fv(U.east, e);
+      gl.uniform3fv(U.north, n);
+      gl.uniform2fv(U.shift, shift);
+      gl.uniform2f(U.dims, w, h);
+      gl.uniform1f(U.lens, lens);
+      gl.uniform1f(U.dist, dist);
+      gl.uniform1f(U.chart, 1 - sm(0.846, 0.944, p));
+      gl.uniform1f(U.tone, sm(0.839, 0.967, p));
+      gl.uniform1f(U.alpha, alpha);
+      if (alpha < 0.99999) {
+        gl.enable(gl.BLEND);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+      }
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
+      gl.disable(gl.BLEND);
+      return { project, km: (dist - 1) * 6371, alpha, lat, lon };
+    };
+  }
+  window.AtlasOrbital = { init };
+})();

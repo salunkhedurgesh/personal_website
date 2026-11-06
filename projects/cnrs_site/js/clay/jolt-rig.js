@@ -1,22 +1,191 @@
 /* Marionettes and winter scarves share the local Jolt WASM runtime. The build has no workers or shared-memory requirement. */
-window.PuppetJolt=(()=>{
- const VERSION='1.1.0';let promise=null;
- async function library(){if(!promise)promise=(async()=>{const urls=window.ATELIER_JOLT_URL?[window.ATELIER_JOLT_URL]:[`https://cdn.jsdelivr.net/npm/jolt-physics@${VERSION}/dist/jolt-physics.wasm-compat.js`,`https://unpkg.com/jolt-physics@${VERSION}/dist/jolt-physics.wasm-compat.js`];if(window.ATELIER_JOLT_FACTORY)return window.ATELIER_JOLT_FACTORY();let last;for(const url of urls)try{let timer;const timed=new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error('Module load timed out')),9500)});try{const {default:init}=await Promise.race([import(url),timed]);return await init()}finally{clearTimeout(timer)}}catch(e){last=e}throw last})().catch(error=>{promise=null;throw error});return promise}
- // All independent settings / vectors created by this wrapper are released explicitly.
- function create(J,units){let js=new J.JoltSettings();js.mMaxWorkerThreads=0;js.mMaxBodies=128;js.mMaxBodyPairs=512;js.mMaxContactConstraints=256;
- let pair=new J.ObjectLayerPairFilterTable(2);pair.EnableCollision(0,1);pair.EnableCollision(1,1);js.mObjectLayerPairFilter=pair;
- let bp=new J.BroadPhaseLayerInterfaceTable(2,2),layer0=new J.BroadPhaseLayer(0),layer1=new J.BroadPhaseLayer(1);bp.MapObjectToBroadPhaseLayer(0,layer0);bp.MapObjectToBroadPhaseLayer(1,layer1);J.destroy(layer0);J.destroy(layer1);js.mBroadPhaseLayerInterface=bp;js.mObjectVsBroadPhaseLayerFilter=new J.ObjectVsBroadPhaseLayerFilterTable(bp,2,pair,2);
- const engine=new J.JoltInterface(js);J.destroy(js);const sys=engine.GetPhysicsSystem(),bi=sys.GetBodyInterface(),all=[],joints=[],glyphs=[],tmp=new J.Vec3(0,0,0);let removed=false,beam;const railPosition=new J.RVec3(0,0,0),railRotation=new J.Quat(0,0,0,1);
- function body(x,y,z,w,h,d,dyn){let ext=new J.Vec3(w,h,d),shape=new J.BoxShape(ext,Math.min(w,h,d,.012),null),pos=new J.RVec3(x,y,z),rot=new J.Quat(0,0,0,1);let cs=new J.BodyCreationSettings(shape,pos,rot,dyn?J.EMotionType_Dynamic:J.EMotionType_Static,dyn?1:0);if(dyn){cs.mAllowedDOFs=J.EAllowedDOFs_Plane2D??35;cs.mLinearDamping=.34;cs.mAngularDamping=.46;cs.mFriction=.62;cs.mRestitution=.18}let b=bi.CreateBody(cs);bi.AddBody(b.GetID(),dyn?J.EActivation_Activate:J.EActivation_DontActivate);all.push(b);[cs,pos,rot,ext].forEach(v=>J.destroy(v));return b}
- try{beam=body(0,1.87,-.015,11,.035,.04,false);if(units[0]?.marionetteRail){const rail=units[0].marionetteRail;rail.updateMatrix();moveRail(new THREE.Vector3(0,1.87,-.015).applyMatrix4(rail.matrix),rail.quaternion)}body(0,-.055,0,16,.055,2,false);
- for(const u of units){const b=body(u.x,.501+u.rest,0,Math.max(.06,(u.w-.072)*.47),.5,.18,true);glyphs.push(b);
- const a=u.rigAnchor,upper=new J.RVec3(a.x,a.y,a.z),lower=new J.RVec3(u.x+u.attachment.x,u.attachment.y+u.rest,u.attachment.z),cs=new J.DistanceConstraintSettings();cs.mSpace=J.EConstraintSpace_WorldSpace;cs.mPoint1=upper;cs.mPoint2=lower;cs.mMinDistance=0;cs.mMaxDistance=u.ropeLength;const spring=new J.SpringSettings();spring.mMode=J.ESpringMode_FrequencyAndDamping;spring.mFrequency=3.25;spring.mDamping=.28;cs.mLimitsSpringSettings=spring;J.destroy(spring);
- const c=cs.Create(beam,b);sys.AddConstraint(c);joints.push(c);[cs,upper,lower].forEach(v=>J.destroy(v));}
- }catch(e){dispose();throw e}
- function state(i){let b=glyphs[i],p=b.GetPosition(),q=b.GetRotation(),v=b.GetLinearVelocity(),w=b.GetAngularVelocity();return {x:p.GetX(),y:p.GetY(),angle:2*Math.atan2(q.GetZ(),q.GetW()),vx:v.GetX(),vy:v.GetY(),spin:w.GetZ()}}
- function velocity(i,vx,vy,ang){let id=glyphs[i].GetID();bi.ActivateBody(id);tmp.Set(vx,vy,0);bi.SetLinearVelocity(id,tmp);tmp.Set(0,0,ang);bi.SetAngularVelocity(id,tmp)}
- function seed(i,u,a){const p=new J.RVec3(u.x+a.x-.5*Math.sin(a.a),a.y+.5*Math.cos(a.a),0),q=new J.Quat(0,0,Math.sin(a.a/2),Math.cos(a.a/2));bi.SetPositionAndRotation(glyphs[i].GetID(),p,q,J.EActivation_Activate);J.destroy(p);J.destroy(q);velocity(i,a.vx,a.vy,a.va)}
- function dispose(){if(removed)return;removed=true;for(const c of joints)sys.RemoveConstraint(c);for(let i=all.length-1;i>=0;i--){let id=all[i].GetID();bi.RemoveBody(id);bi.DestroyBody(id)}J.destroy(tmp);J.destroy(railPosition);J.destroy(railRotation);J.destroy(engine)}
- function moveRail(position,rotation){railPosition.Set(position.x,position.y,position.z);railRotation.Set(rotation.x,rotation.y,rotation.z,rotation.w);bi.SetPositionAndRotation(beam.GetID(),railPosition,railRotation,J.EActivation_Activate)}
- return {step:dt=>engine.Step(dt,1),state,velocity,seed,moveRail,dispose};}
- return {library,create,version:VERSION};})();
+window.PuppetJolt = (() => {
+  const VERSION = '1.1.0';
+  let promise = null;
+  async function library() {
+    if (!promise)
+      promise = (async () => {
+        const urls = window.ATELIER_JOLT_URL
+          ? [window.ATELIER_JOLT_URL]
+          : [
+              `https://cdn.jsdelivr.net/npm/jolt-physics@${VERSION}/dist/jolt-physics.wasm-compat.js`,
+              `https://unpkg.com/jolt-physics@${VERSION}/dist/jolt-physics.wasm-compat.js`,
+            ];
+        if (window.ATELIER_JOLT_FACTORY) return window.ATELIER_JOLT_FACTORY();
+        let last;
+        for (const url of urls)
+          try {
+            let timer;
+            const timed = new Promise((_, reject) => {
+              timer = setTimeout(() => reject(new Error('Module load timed out')), 9500);
+            });
+            try {
+              const { default: init } = await Promise.race([import(url), timed]);
+              return await init();
+            } finally {
+              clearTimeout(timer);
+            }
+          } catch (e) {
+            last = e;
+          }
+        throw last;
+      })().catch((error) => {
+        promise = null;
+        throw error;
+      });
+    return promise;
+  }
+  // All independent settings / vectors created by this wrapper are released explicitly.
+  function create(J, units) {
+    let js = new J.JoltSettings();
+    js.mMaxWorkerThreads = 0;
+    js.mMaxBodies = 128;
+    js.mMaxBodyPairs = 512;
+    js.mMaxContactConstraints = 256;
+    let pair = new J.ObjectLayerPairFilterTable(2);
+    pair.EnableCollision(0, 1);
+    pair.EnableCollision(1, 1);
+    js.mObjectLayerPairFilter = pair;
+    let bp = new J.BroadPhaseLayerInterfaceTable(2, 2),
+      layer0 = new J.BroadPhaseLayer(0),
+      layer1 = new J.BroadPhaseLayer(1);
+    bp.MapObjectToBroadPhaseLayer(0, layer0);
+    bp.MapObjectToBroadPhaseLayer(1, layer1);
+    J.destroy(layer0);
+    J.destroy(layer1);
+    js.mBroadPhaseLayerInterface = bp;
+    js.mObjectVsBroadPhaseLayerFilter = new J.ObjectVsBroadPhaseLayerFilterTable(bp, 2, pair, 2);
+    const engine = new J.JoltInterface(js);
+    J.destroy(js);
+    const sys = engine.GetPhysicsSystem(),
+      bi = sys.GetBodyInterface(),
+      all = [],
+      joints = [],
+      glyphs = [],
+      tmp = new J.Vec3(0, 0, 0);
+    let removed = false,
+      beam;
+    const railPosition = new J.RVec3(0, 0, 0),
+      railRotation = new J.Quat(0, 0, 0, 1);
+    function body(x, y, z, w, h, d, dyn) {
+      let ext = new J.Vec3(w, h, d),
+        shape = new J.BoxShape(ext, Math.min(w, h, d, 0.012), null),
+        pos = new J.RVec3(x, y, z),
+        rot = new J.Quat(0, 0, 0, 1);
+      let cs = new J.BodyCreationSettings(
+        shape,
+        pos,
+        rot,
+        dyn ? J.EMotionType_Dynamic : J.EMotionType_Static,
+        dyn ? 1 : 0,
+      );
+      if (dyn) {
+        cs.mAllowedDOFs = J.EAllowedDOFs_Plane2D ?? 35;
+        cs.mLinearDamping = 0.34;
+        cs.mAngularDamping = 0.46;
+        cs.mFriction = 0.62;
+        cs.mRestitution = 0.18;
+      }
+      let b = bi.CreateBody(cs);
+      bi.AddBody(b.GetID(), dyn ? J.EActivation_Activate : J.EActivation_DontActivate);
+      all.push(b);
+      [cs, pos, rot, ext].forEach((v) => J.destroy(v));
+      return b;
+    }
+    try {
+      beam = body(0, 1.87, -0.015, 11, 0.035, 0.04, false);
+      if (units[0]?.marionetteRail) {
+        const rail = units[0].marionetteRail;
+        rail.updateMatrix();
+        moveRail(new THREE.Vector3(0, 1.87, -0.015).applyMatrix4(rail.matrix), rail.quaternion);
+      }
+      body(0, -0.055, 0, 16, 0.055, 2, false);
+      for (const u of units) {
+        const b = body(
+          u.x,
+          0.501 + u.rest,
+          0,
+          Math.max(0.06, (u.w - 0.072) * 0.47),
+          0.5,
+          0.18,
+          true,
+        );
+        glyphs.push(b);
+        const a = u.rigAnchor,
+          upper = new J.RVec3(a.x, a.y, a.z),
+          lower = new J.RVec3(u.x + u.attachment.x, u.attachment.y + u.rest, u.attachment.z),
+          cs = new J.DistanceConstraintSettings();
+        cs.mSpace = J.EConstraintSpace_WorldSpace;
+        cs.mPoint1 = upper;
+        cs.mPoint2 = lower;
+        cs.mMinDistance = 0;
+        cs.mMaxDistance = u.ropeLength;
+        const spring = new J.SpringSettings();
+        spring.mMode = J.ESpringMode_FrequencyAndDamping;
+        spring.mFrequency = 3.25;
+        spring.mDamping = 0.28;
+        cs.mLimitsSpringSettings = spring;
+        J.destroy(spring);
+        const c = cs.Create(beam, b);
+        sys.AddConstraint(c);
+        joints.push(c);
+        [cs, upper, lower].forEach((v) => J.destroy(v));
+      }
+    } catch (e) {
+      dispose();
+      throw e;
+    }
+    function state(i) {
+      let b = glyphs[i],
+        p = b.GetPosition(),
+        q = b.GetRotation(),
+        v = b.GetLinearVelocity(),
+        w = b.GetAngularVelocity();
+      return {
+        x: p.GetX(),
+        y: p.GetY(),
+        angle: 2 * Math.atan2(q.GetZ(), q.GetW()),
+        vx: v.GetX(),
+        vy: v.GetY(),
+        spin: w.GetZ(),
+      };
+    }
+    function velocity(i, vx, vy, ang) {
+      let id = glyphs[i].GetID();
+      bi.ActivateBody(id);
+      tmp.Set(vx, vy, 0);
+      bi.SetLinearVelocity(id, tmp);
+      tmp.Set(0, 0, ang);
+      bi.SetAngularVelocity(id, tmp);
+    }
+    function seed(i, u, a) {
+      const p = new J.RVec3(u.x + a.x - 0.5 * Math.sin(a.a), a.y + 0.5 * Math.cos(a.a), 0),
+        q = new J.Quat(0, 0, Math.sin(a.a / 2), Math.cos(a.a / 2));
+      bi.SetPositionAndRotation(glyphs[i].GetID(), p, q, J.EActivation_Activate);
+      J.destroy(p);
+      J.destroy(q);
+      velocity(i, a.vx, a.vy, a.va);
+    }
+    function dispose() {
+      if (removed) return;
+      removed = true;
+      for (const c of joints) sys.RemoveConstraint(c);
+      for (let i = all.length - 1; i >= 0; i--) {
+        let id = all[i].GetID();
+        bi.RemoveBody(id);
+        bi.DestroyBody(id);
+      }
+      J.destroy(tmp);
+      J.destroy(railPosition);
+      J.destroy(railRotation);
+      J.destroy(engine);
+    }
+    function moveRail(position, rotation) {
+      railPosition.Set(position.x, position.y, position.z);
+      railRotation.Set(rotation.x, rotation.y, rotation.z, rotation.w);
+      bi.SetPositionAndRotation(beam.GetID(), railPosition, railRotation, J.EActivation_Activate);
+    }
+    return { step: (dt) => engine.Step(dt, 1), state, velocity, seed, moveRail, dispose };
+  }
+  return { library, create, version: VERSION };
+})();

@@ -1,13 +1,373 @@
 /* In-scene, non-modal exhibit plates; no backdrop or page-level overlay. */
-(()=>{'use strict';const $=s=>document.querySelector(s),stage=$('.surface'),docs=[...document.querySelectorAll('dialog')],leader=$('#leader'),path=leader.querySelector('path');docs.forEach(d=>stage.append(d));const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));let plate=null,key='',trigger=null,last=null,hideTimer=0,hover='',sticky=false;
-function hideLeader(){leader.style.display='none';path.removeAttribute('d')}hideLeader();
-function dismiss(){for(const d of docs)if(d.open)d.close();plate=null;key='';hideLeader();clearTip()}
-function open(d,id=''){const el=document.activeElement;dismiss();trigger=el;plate=d;key=id;d.show();d.scrollTop=0;position();d.querySelector('.close')?.focus({preventScroll:true});}docs.forEach(d=>{d.addEventListener('close',()=>{if(plate===d&&!d.open){plate=null;key='';hideLeader()}});d.addEventListener('wheel',e=>e.stopPropagation(),{passive:true})});document.addEventListener('keydown',e=>{if(e.key!=='Escape')return;if(plate?.open){let t=trigger;dismiss();if(t&&t.isConnected&&t.offsetWidth)t.focus({preventScroll:true});e.preventDefault();e.stopImmediatePropagation()}else if(hover)clearTip()},true);
-function anchor(){if(!last||!key)return null;const {engine:e,still,p}=last;if(!e||still)return null;const r={robot:[-2.62,1.38,.11],book:[-.97,.90,-1.22],science:[-1.02,2.14,-2.63],ijrr:[-.12,2.14,-2.63]}[key];if(r)return e.project([r[0]-21.25,r[1],r[2]]);const s=ATLAS_ASSETS.geo.sites[key];if(!s)return null;return e.geography?e.geography.project(s.lat,s.lon):e.project(s.world)}
-function position(){if(!plate?.open)return;const W=stage.clientWidth,H=stage.clientHeight,w=plate.offsetWidth,h=plate.offsetHeight,a=anchor();let x=W-w-12,y=12,A=null;const small=W<490||H<280;if(a&&a[0]>=0&&a[0]<=1&&a[1]>=0&&a[1]<=1){const ax=a[0]*W,ay=a[1]*H;A=[ax,ay];x=ax<W*.5?ax+26:ax-w-26;y=ay-h*.46;if(small){x=(W-w)/2;y=H-h-7}}else if(small){x=(W-w)/2;y=plate.id==='record'?H-h-7:7}if(last?.detail&&plate.id==='record'){x=W-w-11;y=last.detail.id==='robot'?49:11;if(small){x=W-w-7;y=8}}x=clamp(x,7,Math.max(7,W-w-7));y=clamp(y,7,Math.max(7,H-h-7));plate.style.left=x+'px';plate.style.top=y+'px';if(!A||small||last?.detail||window.AtlasPlay?.active){hideLeader()}else{leader.style.display='block';const side=A[0]<x?x:A[0]>x+w?x+w:clamp(A[0],x+12,x+w-12),ay=clamp(A[1],y+14,y+h-14);path.setAttribute('d',`M${A[0]},${A[1]} L${side},${ay}`)}}new ResizeObserver(position).observe(stage);docs.forEach(d=>new ResizeObserver(position).observe(d));
-const kinds=[['ihu','IHU Strasbourg',48.57532,7.74305,''],['nantes','Nantes',47.2184,-1.5536,'At LS2N in Nantes, I did my PhD on cuspidal robots with Philippe Wenger and Damien Chablat.'],['lausanne','Lausanne',46.52,6.6333,'During my postdoc at EPFL, I worked on kinematic intelligence: using robot kinematics to provide certified guarantees in learning and skill transfer.'],['sangli','Sangli',16.85438,74.56417,'This is where I come from.']];const lay=$('#life-pins'),ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');svg.setAttribute('aria-hidden','true');lay.append(svg);const tip=document.createElement('aside');tip.id='geo-tip';tip.setAttribute('role','tooltip');tip.hidden=true;lay.append(tip);function clearTip(){clearTimeout(hideTimer);hover='';sticky=false;tip.hidden=true}function leave(){clearTimeout(hideTimer);if(!sticky)hideTimer=setTimeout(clearTip,180)}tip.onpointerenter=()=>clearTimeout(hideTimer);tip.onpointerleave=leave;
-const pins=kinds.map(([id,name,lat,lon,bio])=>{let g=document.createElementNS(ns,'g'),leader=document.createElementNS(ns,'path'),point=document.createElementNS(ns,'path');g.append(leader,point);svg.append(g);leader.setAttribute('class','geo-stem');point.setAttribute('class','geo-dot');point.setAttribute('d','M0 0 C-1 -2 -5.5 -6 -5.5 -9.2 A5.5 5.5 0 0 1 5.5 -9.2 C5.5 -6 1 -2 0 0 Z');let center=document.createElementNS(ns,'circle');center.setAttribute('r',1.65);center.setAttribute('fill','#fff5e6');g.append(center);let el=document.createElement('button');el.type='button';el.className='geo-life';el.dataset.city=id;el.textContent=name;el.setAttribute('aria-label',name);lay.append(el);const p={id,name,lat,lon,bio,el,g,leader,point,center,x:0,y:0,show:false};function enter(){if(!p.show)return;clearTimeout(hideTimer);if(plate?.open||(!bio&&id!=='sangli'))return;hover=id;tip.replaceChildren();const b=document.createElement('b');b.textContent=name;tip.append(b);if(bio){const t=document.createElement('p');t.textContent=bio;tip.append(t)}tip.hidden=false;placeTip(p)}el.onpointerenter=e=>{if(e.pointerType==='mouse'){sticky=false;enter()}};el.onfocus=enter;el.onblur=leave;el.onpointerleave=leave;el.onclick=()=>{if(id==='ihu'){AtlasTour.open('ihu');return}if(sticky&&hover===id){clearTip();return}sticky=true;enter()};g.onpointerenter=e=>{if(e.pointerType==='mouse'){sticky=false;enter()}};g.onpointerleave=leave;g.onclick=()=>el.click();return p});
-function placeTip(o){const W=stage.clientWidth,H=stage.clientHeight,h=tip.offsetHeight,w=tip.offsetWidth;const spots=o.id==='nantes'?[[o.x-w-18,o.y-h*.42],[o.x-w+10,o.y-h-17],[o.x-w+12,o.y+18],[o.x+18,o.y-h*.4]]:[[o.x-w*.14,o.y+21],[o.x+25,o.y-h*.5],[o.x-w-20,o.y-h*.45],[o.x-w*.5,o.y-h-19]];let best=null,score=Infinity;for(const [i,[xx,yy]] of spots.entries()){const x=clamp(xx,7,Math.max(7,W-w-7)),y=clamp(yy,7,Math.max(7,H-h-7));let cost=i*.04+Math.hypot(x-xx,y-yy)*.012;for(const p of pins){if(!p.show)continue;let m=p.el.offsetWidth*.5+3,n=p.el.offsetHeight*.5+3;cost+=Math.max(0,Math.min(x+w,p.x+m)-Math.max(x,p.x-m))*Math.max(0,Math.min(y+h,p.y+n)-Math.max(y,p.y-n))}if(cost<score){score=cost;best=[x,y]}}tip.style.left=best[0]+'px';tip.style.top=best[1]+'px'}
-function stillGeo(p){const W=stage.clientWidth,H=stage.clientHeight,ar=W/H,lens=Math.tan(20*Math.PI/180),regional=p<.915,lat=regional?46.6:26.2,lon=regional?2.8:10,d=regional?1+.27*Math.max(1,1.06/ar):Math.sqrt(1+1/(.78*Math.min(1,ar)*lens)**2),a=Math.PI/180;return {project(la,lo){let z=Math.sin(lat*a)*Math.sin(la*a)+Math.cos(lat*a)*Math.cos(la*a)*Math.cos((lo-lon)*a);if(z*d<1)return null;let x=Math.cos(la*a)*Math.sin((lo-lon)*a),y=Math.cos(lat*a)*Math.sin(la*a)-Math.sin(lat*a)*Math.cos(la*a)*Math.cos((lo-lon)*a);return [.5+x/((d-z)*lens*ar)*.5,.5-y/((d-z)*lens)*.5]}}}
-function update(p,active,engine,still,detail){last={p,active,engine,still,detail};if(plate?.open)position();const on=p>=.76&&!detail&&!window.AtlasPlay?.active;if(on)$('#ihupin').hidden=true;lay.hidden=!on;if(!on){clearTip();return}const g=still?stillGeo(active===5?.835:1):engine?.geography;if(!g)return;const W=stage.clientWidth,H=stage.clientHeight,spread=p>.90;const placed=[];for(const o of pins){const v=g.project(o.lat,o.lon),ok=v&&v[0]>.008&&v[0]<.992&&v[1]>.028&&v[1]<.97;o.show=!!ok;o.el.hidden=!ok;o.g.style.display=ok?'':'none';if(!ok){if(hover===o.id)clearTip();continue}let ax=v[0]*W,ay=v[1]*H;const bias={ihu:[1,-1],nantes:[-1,.20],lausanne:[.6,1],sangli:[.4,-1]}[o.id],ww=o.el.offsetWidth,hh=o.el.offsetHeight;let x=clamp(ax+bias[0]*(ww/2+(spread?18:8)),ww/2+5,W-ww/2-5),y=clamp(ay+bias[1]*(spread?25:16)-4,hh/2+5,H-hh/2-5);for(let k=0;k<8;k++){if(!placed.some(z=>Math.abs(z[0]-x)<(z[2]+ww)/2+5&&Math.abs(z[1]-y)<hh+5))break;y=clamp(y+(bias[1]>=0?1:-1)*(hh+5),hh/2+3,H-hh/2-3)}placed.push([x,y,ww]);o.x=x;o.y=y;o.el.style.left=x+'px';o.el.style.top=y+'px';o.point.setAttribute('transform',`translate(${ax},${ay})`);o.center.setAttribute('cx',ax);o.center.setAttribute('cy',ay-9.2);o.leader.setAttribute('d',`M ${ax} ${ay-6} L ${x} ${y}`);if(hover===o.id)placeTip(o)}}
- stage.addEventListener('pointerdown',e=>{if(hover&&!e.target.closest('#life-pins'))clearTip();if(plate?.open&&!plate.contains(e.target)&&!e.target.closest('#cnrs-cube,.pin,.geo-life')&&e.target!==plate){dismiss()}});window.AtlasGlass={open,dismiss,update};})();
+(() => {
+  'use strict';
+  const $ = (s) => document.querySelector(s),
+    stage = $('.surface'),
+    docs = [...document.querySelectorAll('dialog')],
+    leader = $('#leader'),
+    path = leader.querySelector('path');
+  docs.forEach((d) => stage.append(d));
+  const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+  let plate = null,
+    key = '',
+    trigger = null,
+    last = null,
+    hideTimer = 0,
+    hover = '',
+    sticky = false;
+  function hideLeader() {
+    leader.style.display = 'none';
+    path.removeAttribute('d');
+  }
+  hideLeader();
+  function dismiss() {
+    for (const d of docs) if (d.open) d.close();
+    plate = null;
+    key = '';
+    hideLeader();
+    clearTip();
+  }
+  function open(d, id = '') {
+    const el = document.activeElement;
+    dismiss();
+    trigger = el;
+    plate = d;
+    key = id;
+    d.show();
+    d.scrollTop = 0;
+    position();
+    d.querySelector('.close')?.focus({ preventScroll: true });
+  }
+  docs.forEach((d) => {
+    d.addEventListener('close', () => {
+      if (plate === d && !d.open) {
+        plate = null;
+        key = '';
+        hideLeader();
+      }
+    });
+    d.addEventListener('wheel', (e) => e.stopPropagation(), { passive: true });
+  });
+  document.addEventListener(
+    'keydown',
+    (e) => {
+      if (e.key !== 'Escape') return;
+      if (plate?.open) {
+        let t = trigger;
+        dismiss();
+        if (t && t.isConnected && t.offsetWidth) t.focus({ preventScroll: true });
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      } else if (hover) clearTip();
+    },
+    true,
+  );
+  function anchor() {
+    if (!last || !key) return null;
+    const { engine: e, still, p } = last;
+    if (!e || still) return null;
+    const r = {
+      robot: [-2.62, 1.38, 0.11],
+      book: [-0.97, 0.9, -1.22],
+      science: [-1.02, 2.14, -2.63],
+      ijrr: [-0.12, 2.14, -2.63],
+    }[key];
+    if (r) return e.project([r[0] - 21.25, r[1], r[2]]);
+    const s = ATLAS_ASSETS.geo.sites[key];
+    if (!s) return null;
+    return e.geography ? e.geography.project(s.lat, s.lon) : e.project(s.world);
+  }
+  function position() {
+    if (!plate?.open) return;
+    const W = stage.clientWidth,
+      H = stage.clientHeight,
+      w = plate.offsetWidth,
+      h = plate.offsetHeight,
+      a = anchor();
+    let x = W - w - 12,
+      y = 12,
+      A = null;
+    const small = W < 490 || H < 280;
+    if (a && a[0] >= 0 && a[0] <= 1 && a[1] >= 0 && a[1] <= 1) {
+      const ax = a[0] * W,
+        ay = a[1] * H;
+      A = [ax, ay];
+      x = ax < W * 0.5 ? ax + 26 : ax - w - 26;
+      y = ay - h * 0.46;
+      if (small) {
+        x = (W - w) / 2;
+        y = H - h - 7;
+      }
+    } else if (small) {
+      x = (W - w) / 2;
+      y = plate.id === 'record' ? H - h - 7 : 7;
+    }
+    if (last?.detail && plate.id === 'record') {
+      x = W - w - 11;
+      y = last.detail.id === 'robot' ? 49 : 11;
+      if (small) {
+        x = W - w - 7;
+        y = 8;
+      }
+    }
+    x = clamp(x, 7, Math.max(7, W - w - 7));
+    y = clamp(y, 7, Math.max(7, H - h - 7));
+    plate.style.left = x + 'px';
+    plate.style.top = y + 'px';
+    if (!A || small || last?.detail || window.AtlasPlay?.active) {
+      hideLeader();
+    } else {
+      leader.style.display = 'block';
+      const side = A[0] < x ? x : A[0] > x + w ? x + w : clamp(A[0], x + 12, x + w - 12),
+        ay = clamp(A[1], y + 14, y + h - 14);
+      path.setAttribute('d', `M${A[0]},${A[1]} L${side},${ay}`);
+    }
+  }
+  new ResizeObserver(position).observe(stage);
+  docs.forEach((d) => new ResizeObserver(position).observe(d));
+  const kinds = [
+    ['ihu', 'IHU Strasbourg', 48.57532, 7.74305, ''],
+    [
+      'nantes',
+      'Nantes',
+      47.2184,
+      -1.5536,
+      'At LS2N in Nantes, I did my PhD on cuspidal robots with Philippe Wenger and Damien Chablat.',
+    ],
+    [
+      'lausanne',
+      'Lausanne',
+      46.52,
+      6.6333,
+      'During my postdoc at EPFL, I worked on kinematic intelligence: using robot kinematics to provide certified guarantees in learning and skill transfer.',
+    ],
+    ['sangli', 'Sangli', 16.85438, 74.56417, 'This is where I come from.'],
+  ];
+  const lay = $('#life-pins'),
+    ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('aria-hidden', 'true');
+  lay.append(svg);
+  const tip = document.createElement('aside');
+  tip.id = 'geo-tip';
+  tip.setAttribute('role', 'tooltip');
+  tip.hidden = true;
+  lay.append(tip);
+  function clearTip() {
+    clearTimeout(hideTimer);
+    hover = '';
+    sticky = false;
+    tip.hidden = true;
+  }
+  function leave() {
+    clearTimeout(hideTimer);
+    if (!sticky) hideTimer = setTimeout(clearTip, 180);
+  }
+  tip.onpointerenter = () => clearTimeout(hideTimer);
+  tip.onpointerleave = leave;
+  const pins = kinds.map(([id, name, lat, lon, bio]) => {
+    let g = document.createElementNS(ns, 'g'),
+      leader = document.createElementNS(ns, 'path'),
+      point = document.createElementNS(ns, 'path');
+    g.append(leader, point);
+    svg.append(g);
+    leader.setAttribute('class', 'geo-stem');
+    point.setAttribute('class', 'geo-dot');
+    point.setAttribute(
+      'd',
+      'M0 0 C-1 -2 -5.5 -6 -5.5 -9.2 A5.5 5.5 0 0 1 5.5 -9.2 C5.5 -6 1 -2 0 0 Z',
+    );
+    let center = document.createElementNS(ns, 'circle');
+    center.setAttribute('r', 1.65);
+    center.setAttribute('fill', '#fff5e6');
+    g.append(center);
+    let el = document.createElement('button');
+    el.type = 'button';
+    el.className = 'geo-life';
+    el.dataset.city = id;
+    el.textContent = name;
+    el.setAttribute('aria-label', name);
+    lay.append(el);
+    const p = { id, name, lat, lon, bio, el, g, leader, point, center, x: 0, y: 0, show: false };
+    function enter() {
+      if (!p.show) return;
+      clearTimeout(hideTimer);
+      if (plate?.open || (!bio && id !== 'sangli')) return;
+      hover = id;
+      tip.replaceChildren();
+      const b = document.createElement('b');
+      b.textContent = name;
+      tip.append(b);
+      if (bio) {
+        const t = document.createElement('p');
+        t.textContent = bio;
+        tip.append(t);
+      }
+      tip.hidden = false;
+      placeTip(p);
+    }
+    el.onpointerenter = (e) => {
+      if (e.pointerType === 'mouse') {
+        sticky = false;
+        enter();
+      }
+    };
+    el.onfocus = enter;
+    el.onblur = leave;
+    el.onpointerleave = leave;
+    el.onclick = () => {
+      if (id === 'ihu') {
+        AtlasTour.open('ihu');
+        return;
+      }
+      if (sticky && hover === id) {
+        clearTip();
+        return;
+      }
+      sticky = true;
+      enter();
+    };
+    g.onpointerenter = (e) => {
+      if (e.pointerType === 'mouse') {
+        sticky = false;
+        enter();
+      }
+    };
+    g.onpointerleave = leave;
+    g.onclick = () => el.click();
+    return p;
+  });
+  function placeTip(o) {
+    const W = stage.clientWidth,
+      H = stage.clientHeight,
+      h = tip.offsetHeight,
+      w = tip.offsetWidth;
+    const spots =
+      o.id === 'nantes'
+        ? [
+            [o.x - w - 18, o.y - h * 0.42],
+            [o.x - w + 10, o.y - h - 17],
+            [o.x - w + 12, o.y + 18],
+            [o.x + 18, o.y - h * 0.4],
+          ]
+        : [
+            [o.x - w * 0.14, o.y + 21],
+            [o.x + 25, o.y - h * 0.5],
+            [o.x - w - 20, o.y - h * 0.45],
+            [o.x - w * 0.5, o.y - h - 19],
+          ];
+    let best = null,
+      score = Infinity;
+    for (const [i, [xx, yy]] of spots.entries()) {
+      const x = clamp(xx, 7, Math.max(7, W - w - 7)),
+        y = clamp(yy, 7, Math.max(7, H - h - 7));
+      let cost = i * 0.04 + Math.hypot(x - xx, y - yy) * 0.012;
+      for (const p of pins) {
+        if (!p.show) continue;
+        let m = p.el.offsetWidth * 0.5 + 3,
+          n = p.el.offsetHeight * 0.5 + 3;
+        cost +=
+          Math.max(0, Math.min(x + w, p.x + m) - Math.max(x, p.x - m)) *
+          Math.max(0, Math.min(y + h, p.y + n) - Math.max(y, p.y - n));
+      }
+      if (cost < score) {
+        score = cost;
+        best = [x, y];
+      }
+    }
+    tip.style.left = best[0] + 'px';
+    tip.style.top = best[1] + 'px';
+  }
+  function stillGeo(p) {
+    const W = stage.clientWidth,
+      H = stage.clientHeight,
+      ar = W / H,
+      lens = Math.tan((20 * Math.PI) / 180),
+      regional = p < 0.915,
+      lat = regional ? 46.6 : 26.2,
+      lon = regional ? 2.8 : 10,
+      d = regional
+        ? 1 + 0.27 * Math.max(1, 1.06 / ar)
+        : Math.sqrt(1 + 1 / (0.78 * Math.min(1, ar) * lens) ** 2),
+      a = Math.PI / 180;
+    return {
+      project(la, lo) {
+        let z =
+          Math.sin(lat * a) * Math.sin(la * a) +
+          Math.cos(lat * a) * Math.cos(la * a) * Math.cos((lo - lon) * a);
+        if (z * d < 1) return null;
+        let x = Math.cos(la * a) * Math.sin((lo - lon) * a),
+          y =
+            Math.cos(lat * a) * Math.sin(la * a) -
+            Math.sin(lat * a) * Math.cos(la * a) * Math.cos((lo - lon) * a);
+        return [0.5 + (x / ((d - z) * lens * ar)) * 0.5, 0.5 - (y / ((d - z) * lens)) * 0.5];
+      },
+    };
+  }
+  function update(p, active, engine, still, detail) {
+    last = { p, active, engine, still, detail };
+    if (plate?.open) position();
+    const on = p >= 0.76 && !detail && !window.AtlasPlay?.active;
+    if (on) $('#ihupin').hidden = true;
+    lay.hidden = !on;
+    if (!on) {
+      clearTip();
+      return;
+    }
+    const g = still ? stillGeo(active === 5 ? 0.835 : 1) : engine?.geography;
+    if (!g) return;
+    const W = stage.clientWidth,
+      H = stage.clientHeight,
+      spread = p > 0.9;
+    const placed = [];
+    for (const o of pins) {
+      const v = g.project(o.lat, o.lon),
+        ok = v && v[0] > 0.008 && v[0] < 0.992 && v[1] > 0.028 && v[1] < 0.97;
+      o.show = !!ok;
+      o.el.hidden = !ok;
+      o.g.style.display = ok ? '' : 'none';
+      if (!ok) {
+        if (hover === o.id) clearTip();
+        continue;
+      }
+      let ax = v[0] * W,
+        ay = v[1] * H;
+      const bias = { ihu: [1, -1], nantes: [-1, 0.2], lausanne: [0.6, 1], sangli: [0.4, -1] }[o.id],
+        ww = o.el.offsetWidth,
+        hh = o.el.offsetHeight;
+      let x = clamp(ax + bias[0] * (ww / 2 + (spread ? 18 : 8)), ww / 2 + 5, W - ww / 2 - 5),
+        y = clamp(ay + bias[1] * (spread ? 25 : 16) - 4, hh / 2 + 5, H - hh / 2 - 5);
+      for (let k = 0; k < 8; k++) {
+        if (
+          !placed.some(
+            (z) => Math.abs(z[0] - x) < (z[2] + ww) / 2 + 5 && Math.abs(z[1] - y) < hh + 5,
+          )
+        )
+          break;
+        y = clamp(y + (bias[1] >= 0 ? 1 : -1) * (hh + 5), hh / 2 + 3, H - hh / 2 - 3);
+      }
+      placed.push([x, y, ww]);
+      o.x = x;
+      o.y = y;
+      o.el.style.left = x + 'px';
+      o.el.style.top = y + 'px';
+      o.point.setAttribute('transform', `translate(${ax},${ay})`);
+      o.center.setAttribute('cx', ax);
+      o.center.setAttribute('cy', ay - 9.2);
+      o.leader.setAttribute('d', `M ${ax} ${ay - 6} L ${x} ${y}`);
+      if (hover === o.id) placeTip(o);
+    }
+  }
+  stage.addEventListener('pointerdown', (e) => {
+    if (hover && !e.target.closest('#life-pins')) clearTip();
+    if (
+      plate?.open &&
+      !plate.contains(e.target) &&
+      !e.target.closest('#cnrs-cube,.pin,.geo-life') &&
+      e.target !== plate
+    ) {
+      dismiss();
+    }
+  });
+  window.AtlasGlass = { open, dismiss, update };
+})();

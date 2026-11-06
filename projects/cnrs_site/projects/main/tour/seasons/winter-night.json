@@ -1,1 +1,18 @@
-{"season":"winter","lighting":"night","view":"#strasbourg/winter/night","parameters":{"palette":{"cityLawn":"#dbdeda","leaf":"#aeb6a7","leafdark":"#71857a","sage":"#c0c7b9","green":"#8d9c8b","river":"#849ba8","cityRoof":"#cdd1ce","tile":"#d9d8d2"},"previewMonth":12}}
+{
+  "season": "winter",
+  "lighting": "night",
+  "view": "#strasbourg/winter/night",
+  "parameters": {
+    "palette": {
+      "cityLawn": "#dbdeda",
+      "leaf": "#aeb6a7",
+      "leafdark": "#71857a",
+      "sage": "#c0c7b9",
+      "green": "#8d9c8b",
+      "river": "#849ba8",
+      "cityRoof": "#cdd1ce",
+      "tile": "#d9d8d2"
+    },
+    "previewMonth": 12
+  }
+}

@@ -1,34 +1,442 @@
 /* The playground is loaded once, on demand. All branches share the same seven STL geometries. */
 window.PlayView = (() => {
- const A=window.ATLAS_ASSETS, names=['base_link',...Array.from({length:6},(_,i)=>`link_${i+1}`)];
- const unpack=async b=>new Response(new Blob([Uint8Array.from(atob(b),c=>c.charCodeAt(0))]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
- async function library(file){const url=A.vendor?URL.createObjectURL(new Blob([await unpack(A.vendor[file])],{type:'text/javascript'})):'vendor/'+file+'?v='+window.ATLAS_VERSION;try{await new Promise((ok,no)=>{const s=document.createElement('script');s.src=url;s.onload=ok;s.onerror=()=>no(Error('Unable to load '+file));document.head.append(s)})}finally{if(A.vendor)URL.revokeObjectURL(url)}}
- // On devices without WebGL the same FK, selection and coordinate frame remain available.
- function schematic(canvas){const g=canvas.getContext('2d');if(!g)throw Error('Graphics unavailable');let state=null,az=-1.15,el=.33,zoom=1,target=[.12,0,.43];document.getElementById('kg-frame').textContent='base_link · schematic';function draw(){if(!state||!canvas.clientWidth||!canvas.clientHeight)return;const w=canvas.clientWidth,h=canvas.clientHeight,r=Math.min(1.5,devicePixelRatio||1);canvas.width=w*r;canvas.height=h*r;g.setTransform(r,0,0,r,0,0);g.clearRect(0,0,w,h);let sc=Math.min(w*.39,h*.56)*zoom;function p(q){let [x,y,z]=q.map((v,i)=>v-target[i]);return [w*.5+sc*(-Math.sin(az)*x+Math.cos(az)*y),h*.46-sc*(z*Math.cos(el)-Math.sin(el)*(Math.cos(az)*x+Math.sin(az)*y))]}function ln(a,b,col,thick){g.beginPath();g.moveTo(...p(a));g.lineTo(...p(b));g.lineWidth=thick;g.strokeStyle=col;g.lineCap='round';g.stroke()}for(let i=-9;i<=9;i++){ln([i/10,-.9,0],[i/10,.9,0],'#c9d0c8',.5);ln([-.9,i/10,0],[.9,i/10,0],'#c9d0c8',.5)}let poses=state.visible.filter(i=>i!==state.selected).map(i=>[state.sols[i].q,false]);poses.push([state.q,true]);for(const [q,solid] of poses){const pts=GofaMath.fk(q).links.map(l=>l.p);for(let i=1;i<pts.length;i++){if(solid){ln(pts[i-1],pts[i],'#606c6b',Math.max(4,sc*.064));ln(pts[i-1],pts[i],'#d3d8d4',Math.max(2,sc*.046))}else ln(pts[i-1],pts[i],'#4b83976a',Math.max(2,sc*.037))}}[['X',[.26,0,0],'#bb493b'],['Y',[0,.26,0],'#43825b'],['Z',[0,0,.26],'#487bad']].forEach(([s,v,c])=>{ln([0,0,0],v,c,2);g.font='bold 11px sans-serif';g.fillStyle=c;g.fillText(s,...p(v.map(n=>n*1.12)))});canvas.dataset.drawn='schematic';canvas.dataset.robots=poses.length}let drag=null;canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId)};canvas.onpointermove=e=>{if(!drag)return;az-=(e.clientX-drag[0])*.009;el=Math.max(-.4,Math.min(1.4,el+(e.clientY-drag[1])*.008));drag=[e.clientX,e.clientY];draw()};canvas.onpointerup=canvas.onpointercancel=()=>drag=null;canvas.onwheel=e=>{e.preventDefault();zoom=Math.max(.5,Math.min(2,zoom*Math.exp(-e.deltaY*.001)));draw()};new ResizeObserver(draw).observe(canvas);return {update(s,fit){state=s;if(fit){const links=GofaMath.fk(s.q).links.map(l=>l.p);target=[0,1,2].map(i=>(Math.min(...links.map(p=>p[i]))+Math.max(...links.map(p=>p[i])))/2)}draw()},reset(){az=-1.15;el=.33;zoom=1;draw()}}}
- async function build(canvas){
-  if(!window.THREE)await library('three.r140.min.js');if(!THREE.STLLoader)await library('STLLoader.js');
-  const T=THREE;let renderer;try{renderer=new T.WebGLRenderer({canvas,alpha:true,antialias:true,stencil:true,powerPreference:'low-power'})}catch{return schematic(canvas)};renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputEncoding=T.sRGBEncoding;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.04;renderer.setClearColor(0x000000,0);
-  const loader=new T.STLLoader(),geometry=await Promise.all(names.map(async n=>A.stl?loader.parse(await unpack(A.stl[n])):loader.loadAsync(`models/gofa/${n}.stl?v=${window.ATLAS_VERSION}`)));
-  const scene=new T.Scene(),camera=new T.PerspectiveCamera(34,1,.015,22);camera.up.set(0,0,1);
-  scene.add(new T.HemisphereLight(0xf6fcff,0x8a928e,.79));function light(col,p,n){let d=new T.DirectionalLight(col,n);d.position.set(...p);scene.add(d)}light(0xfff5e7,[-2,-3,4],1.06);light(0xcbe2f0,[2.6,1.2,2],.40);
-  const paint=new T.MeshStandardMaterial({vertexColors:true,roughness:.41,metalness:.12,stencilWrite:true,stencilRef:1,stencilFunc:T.AlwaysStencilFunc,stencilZPass:T.ReplaceStencilOp});
-  const colors=['#c1c9c9','#51595d','#30383e','#b4c1c4','#88b9b8'].map(s=>new T.Color(s).convertSRGBToLinear());
-  function finish(g,j){let p=g.attributes.position,c=new Float32Array(p.count*3);for(let f=0;f<p.count;f+=3){let x=0,y=0,z=0;for(let i=0;i<3;i++){x+=p.getX(f+i)/3;y+=p.getY(f+i)/3;z+=p.getZ(f+i)/3}let k=j===0?(z<.028?2:1):j===1?(y>.079||y<-.07?1:0):j===2?(y<-.151?1:0):j===3?(y>.077||y<-.07?1:0):j===4?(y>.103?1:0):j===5?(x<-.085||y<-.079?1:0):(x>-.007?3:x<-.024?2:4);for(let i=0;i<3;i++)colors[k].toArray(c,(f+i)*3)}g.setAttribute('color',new T.BufferAttribute(c,3));g.computeBoundingSphere()}
-  geometry.forEach(finish);
-  const baseFrame=new T.Group(),dirs=[[1,0,0],[0,1,0],[0,0,1]],axisColors=[0xc84f40,0x43975c,0x3b78bf];scene.add(baseFrame);
-  function axisLabel(text,color,xyz){let c=document.createElement('canvas');c.width=c.height=64;let g=c.getContext('2d');g.fillStyle='#'+color.toString(16).padStart(6,'0');g.font='bold 43px Arial';g.textAlign='center';g.fillText(text,32,47);let tex=new T.CanvasTexture(c);tex.encoding=T.sRGBEncoding;let s=new T.Sprite(new T.SpriteMaterial({map:tex,transparent:true,depthTest:false}));s.scale.setScalar(.056);s.position.set(...xyz);s.renderOrder=8;baseFrame.add(s)}
-  dirs.forEach((d,i)=>{let a=new T.ArrowHelper(new T.Vector3(...d),new T.Vector3(0,0,.002),.295,axisColors[i],.032,.018);a.traverse(o=>{if(o.material){o.material=o.material.clone();o.material.transparent=true;o.material.depthTest=false;o.renderOrder=7}});baseFrame.add(a);axisLabel('XYZ'[i],axisColors[i],d.map(v=>v*.329))});
-  let grid=new T.GridHelper(3,30,0x9daea8,0xbcc8c0);grid.rotation.x=Math.PI/2;grid.position.z=-.002;grid.material.transparent=true;grid.material.opacity=.36;scene.add(grid);
-  const shade=document.createElement('canvas');shade.width=shade.height=96;const brush=shade.getContext('2d'),grad=brush.createRadialGradient(48,48,4,48,48,46);grad.addColorStop(0,'rgba(59,69,65,.33)');grad.addColorStop(.45,'rgba(59,69,65,.14)');grad.addColorStop(1,'rgba(59,69,65,0)');brush.fillStyle=grad;brush.fillRect(0,0,96,96);const contact=new T.Mesh(new T.PlaneGeometry(.62,.57),new T.MeshBasicMaterial({map:new T.CanvasTexture(shade),transparent:true,depthWrite:false}));contact.position.z=-.001;scene.add(contact);
-  const spec=A.joints, axes=spec.axes.map(a=>new T.Vector3(...a)), ghostColors=[0x558c9c,0xb07d5c,0x8586aa,0x668971];
-  const ghostMats=ghostColors.map(c=>new T.MeshLambertMaterial({color:new T.Color(c).convertSRGBToLinear(),opacity:.27,transparent:true,depthWrite:false,stencilWrite:true,stencilWriteMask:0,stencilRef:1,stencilFunc:T.NotEqualStencilFunc}));
-  const pool=[];function arm(i){let root=new T.Group(),joints=[],last=root;geometry.forEach((g,k)=>{const node=new T.Group();if(k){node.position.set(...spec.origins[k-1]);joints.push(node)}last.add(node);const mesh=new T.Mesh(g,i?ghostMats[(i-1)%ghostMats.length]:paint);mesh.visible=!i||k>0;node.add(mesh);last=node});scene.add(root);return pool[i]={root,joints}}
-  let target=new T.Vector3(.10,0,.43),az=-1.18,el=.31,range=2.7,scale=1,scheduled=0;
-  function draw(){scheduled=0;if(!document.body.classList.contains('playing'))return;const W=canvas.clientWidth,H=canvas.clientHeight;if(!W||!H)return;renderer.setSize(W,H,false);camera.aspect=W/H;let r=range*scale*Math.max(1,.92/camera.aspect);camera.position.copy(target).add(new T.Vector3(Math.cos(az)*Math.cos(el)*r,Math.sin(az)*Math.cos(el)*r,Math.sin(el)*r));camera.lookAt(target);camera.updateProjectionMatrix();renderer.render(scene,camera);canvas.dataset.drawn='three-stl'}
-  function request(){if(!scheduled)scheduled=requestAnimationFrame(draw)}
-  function reset(){az=-1.18;el=.31;scale=1;request()}
-  function update(s,fit=false){const poses=[s.q,...s.visible.filter(i=>i!==s.selected).map(i=>s.sols[i].q)];poses.forEach((q,i)=>{const a=pool[i]||arm(i);a.root.visible=true;a.joints.forEach((j,k)=>j.quaternion.setFromAxisAngle(axes[k],q[k]))});pool.slice(poses.length).forEach(a=>a.root.visible=false);canvas.dataset.robots=poses.length;
-  if(fit){const box=new T.Box3();[s.q,...s.sols.map(x=>x.q)].forEach(q=>GofaMath.fk(q).links.forEach(l=>box.expandByPoint(new T.Vector3(...l.p))));let sz=box.getSize(new T.Vector3());box.getCenter(target);target.z-=.035;range=Math.max(1.85,Math.max(sz.z*1.24,sz.length()*.84)*2.37)}request()}
-  let drag=null;canvas.onpointerdown=e=>{if(!e.isPrimary)return;drag=[e.clientX,e.clientY,e.pointerId];canvas.setPointerCapture(e.pointerId);canvas.focus({preventScroll:true})};canvas.onpointermove=e=>{if(!drag||e.pointerId!==drag[2])return;az-=(e.clientX-drag[0])*.009;el=Math.min(1.4,Math.max(-.40,el+(e.clientY-drag[1])*.008));drag=[e.clientX,e.clientY,e.pointerId];request()};canvas.onlostpointercapture=canvas.onpointercancel=canvas.onpointerup=()=>drag=null;canvas.addEventListener('wheel',e=>{e.preventDefault();scale=Math.max(.48,Math.min(2.2,scale*Math.exp(e.deltaY*.001)));request()},{passive:false});canvas.onkeydown=e=>{if(!e.key.startsWith('Arrow'))return;e.preventDefault();az+=({'ArrowLeft':.09,'ArrowRight':-.09}[e.key]||0);el=Math.min(1.4,Math.max(-.4,el+({'ArrowUp':.08,'ArrowDown':-.08}[e.key]||0)));request()};new ResizeObserver(request).observe(canvas);return {update,reset};
- }
- return {build,async get(key,file){if(A[key])return unpack(A[key]);const r=await fetch(file+(window.ATLAS_VERSION?'?v='+window.ATLAS_VERSION:''));if(!r.ok)throw Error('Missing model');return r.arrayBuffer()}};})();
+  const A = window.ATLAS_ASSETS,
+    names = ['base_link', ...Array.from({ length: 6 }, (_, i) => `link_${i + 1}`)];
+  const unpack = async (b) =>
+    new Response(
+      new Blob([Uint8Array.from(atob(b), (c) => c.charCodeAt(0))])
+        .stream()
+        .pipeThrough(new DecompressionStream('gzip')),
+    ).arrayBuffer();
+  async function library(file) {
+    const url = A.vendor
+      ? URL.createObjectURL(new Blob([await unpack(A.vendor[file])], { type: 'text/javascript' }))
+      : 'vendor/' + file + '?v=' + window.ATLAS_VERSION;
+    try {
+      await new Promise((ok, no) => {
+        const s = document.createElement('script');
+        s.src = url;
+        s.onload = ok;
+        s.onerror = () => no(Error('Unable to load ' + file));
+        document.head.append(s);
+      });
+    } finally {
+      if (A.vendor) URL.revokeObjectURL(url);
+    }
+  }
+  // On devices without WebGL the same FK, selection and coordinate frame remain available.
+  function schematic(canvas) {
+    const g = canvas.getContext('2d');
+    if (!g) throw Error('Graphics unavailable');
+    let state = null,
+      az = -1.15,
+      el = 0.33,
+      zoom = 1,
+      target = [0.12, 0, 0.43];
+    document.getElementById('kg-frame').textContent = 'base_link · schematic';
+    function draw() {
+      if (!state || !canvas.clientWidth || !canvas.clientHeight) return;
+      const w = canvas.clientWidth,
+        h = canvas.clientHeight,
+        r = Math.min(1.5, devicePixelRatio || 1);
+      canvas.width = w * r;
+      canvas.height = h * r;
+      g.setTransform(r, 0, 0, r, 0, 0);
+      g.clearRect(0, 0, w, h);
+      let sc = Math.min(w * 0.39, h * 0.56) * zoom;
+      function p(q) {
+        let [x, y, z] = q.map((v, i) => v - target[i]);
+        return [
+          w * 0.5 + sc * (-Math.sin(az) * x + Math.cos(az) * y),
+          h * 0.46 - sc * (z * Math.cos(el) - Math.sin(el) * (Math.cos(az) * x + Math.sin(az) * y)),
+        ];
+      }
+      function ln(a, b, col, thick) {
+        g.beginPath();
+        g.moveTo(...p(a));
+        g.lineTo(...p(b));
+        g.lineWidth = thick;
+        g.strokeStyle = col;
+        g.lineCap = 'round';
+        g.stroke();
+      }
+      for (let i = -9; i <= 9; i++) {
+        ln([i / 10, -0.9, 0], [i / 10, 0.9, 0], '#c9d0c8', 0.5);
+        ln([-0.9, i / 10, 0], [0.9, i / 10, 0], '#c9d0c8', 0.5);
+      }
+      let poses = state.visible
+        .filter((i) => i !== state.selected)
+        .map((i) => [state.sols[i].q, false]);
+      poses.push([state.q, true]);
+      for (const [q, solid] of poses) {
+        const pts = GofaMath.fk(q).links.map((l) => l.p);
+        for (let i = 1; i < pts.length; i++) {
+          if (solid) {
+            ln(pts[i - 1], pts[i], '#606c6b', Math.max(4, sc * 0.064));
+            ln(pts[i - 1], pts[i], '#d3d8d4', Math.max(2, sc * 0.046));
+          } else ln(pts[i - 1], pts[i], '#4b83976a', Math.max(2, sc * 0.037));
+        }
+      }
+      [
+        ['X', [0.26, 0, 0], '#bb493b'],
+        ['Y', [0, 0.26, 0], '#43825b'],
+        ['Z', [0, 0, 0.26], '#487bad'],
+      ].forEach(([s, v, c]) => {
+        ln([0, 0, 0], v, c, 2);
+        g.font = 'bold 11px sans-serif';
+        g.fillStyle = c;
+        g.fillText(s, ...p(v.map((n) => n * 1.12)));
+      });
+      canvas.dataset.drawn = 'schematic';
+      canvas.dataset.robots = poses.length;
+    }
+    let drag = null;
+    canvas.onpointerdown = (e) => {
+      drag = [e.clientX, e.clientY];
+      canvas.setPointerCapture(e.pointerId);
+    };
+    canvas.onpointermove = (e) => {
+      if (!drag) return;
+      az -= (e.clientX - drag[0]) * 0.009;
+      el = Math.max(-0.4, Math.min(1.4, el + (e.clientY - drag[1]) * 0.008));
+      drag = [e.clientX, e.clientY];
+      draw();
+    };
+    canvas.onpointerup = canvas.onpointercancel = () => (drag = null);
+    canvas.onwheel = (e) => {
+      e.preventDefault();
+      zoom = Math.max(0.5, Math.min(2, zoom * Math.exp(-e.deltaY * 0.001)));
+      draw();
+    };
+    new ResizeObserver(draw).observe(canvas);
+    return {
+      update(s, fit) {
+        state = s;
+        if (fit) {
+          const links = GofaMath.fk(s.q).links.map((l) => l.p);
+          target = [0, 1, 2].map(
+            (i) => (Math.min(...links.map((p) => p[i])) + Math.max(...links.map((p) => p[i]))) / 2,
+          );
+        }
+        draw();
+      },
+      reset() {
+        az = -1.15;
+        el = 0.33;
+        zoom = 1;
+        draw();
+      },
+    };
+  }
+  async function build(canvas) {
+    if (!window.THREE) await library('three.r140.min.js');
+    if (!THREE.STLLoader) await library('STLLoader.js');
+    const T = THREE;
+    let renderer;
+    try {
+      renderer = new T.WebGLRenderer({
+        canvas,
+        alpha: true,
+        antialias: true,
+        stencil: true,
+        powerPreference: 'low-power',
+      });
+    } catch {
+      return schematic(canvas);
+    }
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 1.5));
+    renderer.outputEncoding = T.sRGBEncoding;
+    renderer.toneMapping = T.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.04;
+    renderer.setClearColor(0x000000, 0);
+    const loader = new T.STLLoader(),
+      geometry = await Promise.all(
+        names.map(async (n) =>
+          A.stl
+            ? loader.parse(await unpack(A.stl[n]))
+            : loader.loadAsync(`models/gofa/${n}.stl?v=${window.ATLAS_VERSION}`),
+        ),
+      );
+    const scene = new T.Scene(),
+      camera = new T.PerspectiveCamera(34, 1, 0.015, 22);
+    camera.up.set(0, 0, 1);
+    scene.add(new T.HemisphereLight(0xf6fcff, 0x8a928e, 0.79));
+    function light(col, p, n) {
+      let d = new T.DirectionalLight(col, n);
+      d.position.set(...p);
+      scene.add(d);
+    }
+    light(0xfff5e7, [-2, -3, 4], 1.06);
+    light(0xcbe2f0, [2.6, 1.2, 2], 0.4);
+    const paint = new T.MeshStandardMaterial({
+      vertexColors: true,
+      roughness: 0.41,
+      metalness: 0.12,
+      stencilWrite: true,
+      stencilRef: 1,
+      stencilFunc: T.AlwaysStencilFunc,
+      stencilZPass: T.ReplaceStencilOp,
+    });
+    const colors = ['#c1c9c9', '#51595d', '#30383e', '#b4c1c4', '#88b9b8'].map((s) =>
+      new T.Color(s).convertSRGBToLinear(),
+    );
+    function finish(g, j) {
+      let p = g.attributes.position,
+        c = new Float32Array(p.count * 3);
+      for (let f = 0; f < p.count; f += 3) {
+        let x = 0,
+          y = 0,
+          z = 0;
+        for (let i = 0; i < 3; i++) {
+          x += p.getX(f + i) / 3;
+          y += p.getY(f + i) / 3;
+          z += p.getZ(f + i) / 3;
+        }
+        let k =
+          j === 0
+            ? z < 0.028
+              ? 2
+              : 1
+            : j === 1
+              ? y > 0.079 || y < -0.07
+                ? 1
+                : 0
+              : j === 2
+                ? y < -0.151
+                  ? 1
+                  : 0
+                : j === 3
+                  ? y > 0.077 || y < -0.07
+                    ? 1
+                    : 0
+                  : j === 4
+                    ? y > 0.103
+                      ? 1
+                      : 0
+                    : j === 5
+                      ? x < -0.085 || y < -0.079
+                        ? 1
+                        : 0
+                      : x > -0.007
+                        ? 3
+                        : x < -0.024
+                          ? 2
+                          : 4;
+        for (let i = 0; i < 3; i++) colors[k].toArray(c, (f + i) * 3);
+      }
+      g.setAttribute('color', new T.BufferAttribute(c, 3));
+      g.computeBoundingSphere();
+    }
+    geometry.forEach(finish);
+    const baseFrame = new T.Group(),
+      dirs = [
+        [1, 0, 0],
+        [0, 1, 0],
+        [0, 0, 1],
+      ],
+      axisColors = [0xc84f40, 0x43975c, 0x3b78bf];
+    scene.add(baseFrame);
+    function axisLabel(text, color, xyz) {
+      let c = document.createElement('canvas');
+      c.width = c.height = 64;
+      let g = c.getContext('2d');
+      g.fillStyle = '#' + color.toString(16).padStart(6, '0');
+      g.font = 'bold 43px Arial';
+      g.textAlign = 'center';
+      g.fillText(text, 32, 47);
+      let tex = new T.CanvasTexture(c);
+      tex.encoding = T.sRGBEncoding;
+      let s = new T.Sprite(new T.SpriteMaterial({ map: tex, transparent: true, depthTest: false }));
+      s.scale.setScalar(0.056);
+      s.position.set(...xyz);
+      s.renderOrder = 8;
+      baseFrame.add(s);
+    }
+    dirs.forEach((d, i) => {
+      let a = new T.ArrowHelper(
+        new T.Vector3(...d),
+        new T.Vector3(0, 0, 0.002),
+        0.295,
+        axisColors[i],
+        0.032,
+        0.018,
+      );
+      a.traverse((o) => {
+        if (o.material) {
+          o.material = o.material.clone();
+          o.material.transparent = true;
+          o.material.depthTest = false;
+          o.renderOrder = 7;
+        }
+      });
+      baseFrame.add(a);
+      axisLabel(
+        'XYZ'[i],
+        axisColors[i],
+        d.map((v) => v * 0.329),
+      );
+    });
+    let grid = new T.GridHelper(3, 30, 0x9daea8, 0xbcc8c0);
+    grid.rotation.x = Math.PI / 2;
+    grid.position.z = -0.002;
+    grid.material.transparent = true;
+    grid.material.opacity = 0.36;
+    scene.add(grid);
+    const shade = document.createElement('canvas');
+    shade.width = shade.height = 96;
+    const brush = shade.getContext('2d'),
+      grad = brush.createRadialGradient(48, 48, 4, 48, 48, 46);
+    grad.addColorStop(0, 'rgba(59,69,65,.33)');
+    grad.addColorStop(0.45, 'rgba(59,69,65,.14)');
+    grad.addColorStop(1, 'rgba(59,69,65,0)');
+    brush.fillStyle = grad;
+    brush.fillRect(0, 0, 96, 96);
+    const contact = new T.Mesh(
+      new T.PlaneGeometry(0.62, 0.57),
+      new T.MeshBasicMaterial({
+        map: new T.CanvasTexture(shade),
+        transparent: true,
+        depthWrite: false,
+      }),
+    );
+    contact.position.z = -0.001;
+    scene.add(contact);
+    const spec = A.joints,
+      axes = spec.axes.map((a) => new T.Vector3(...a)),
+      ghostColors = [0x558c9c, 0xb07d5c, 0x8586aa, 0x668971];
+    const ghostMats = ghostColors.map(
+      (c) =>
+        new T.MeshLambertMaterial({
+          color: new T.Color(c).convertSRGBToLinear(),
+          opacity: 0.27,
+          transparent: true,
+          depthWrite: false,
+          stencilWrite: true,
+          stencilWriteMask: 0,
+          stencilRef: 1,
+          stencilFunc: T.NotEqualStencilFunc,
+        }),
+    );
+    const pool = [];
+    function arm(i) {
+      let root = new T.Group(),
+        joints = [],
+        last = root;
+      geometry.forEach((g, k) => {
+        const node = new T.Group();
+        if (k) {
+          node.position.set(...spec.origins[k - 1]);
+          joints.push(node);
+        }
+        last.add(node);
+        const mesh = new T.Mesh(g, i ? ghostMats[(i - 1) % ghostMats.length] : paint);
+        mesh.visible = !i || k > 0;
+        node.add(mesh);
+        last = node;
+      });
+      scene.add(root);
+      return (pool[i] = { root, joints });
+    }
+    let target = new T.Vector3(0.1, 0, 0.43),
+      az = -1.18,
+      el = 0.31,
+      range = 2.7,
+      scale = 1,
+      scheduled = 0;
+    function draw() {
+      scheduled = 0;
+      if (!document.body.classList.contains('playing')) return;
+      const W = canvas.clientWidth,
+        H = canvas.clientHeight;
+      if (!W || !H) return;
+      renderer.setSize(W, H, false);
+      camera.aspect = W / H;
+      let r = range * scale * Math.max(1, 0.92 / camera.aspect);
+      camera.position
+        .copy(target)
+        .add(
+          new T.Vector3(
+            Math.cos(az) * Math.cos(el) * r,
+            Math.sin(az) * Math.cos(el) * r,
+            Math.sin(el) * r,
+          ),
+        );
+      camera.lookAt(target);
+      camera.updateProjectionMatrix();
+      renderer.render(scene, camera);
+      canvas.dataset.drawn = 'three-stl';
+    }
+    function request() {
+      if (!scheduled) scheduled = requestAnimationFrame(draw);
+    }
+    function reset() {
+      az = -1.18;
+      el = 0.31;
+      scale = 1;
+      request();
+    }
+    function update(s, fit = false) {
+      const poses = [s.q, ...s.visible.filter((i) => i !== s.selected).map((i) => s.sols[i].q)];
+      poses.forEach((q, i) => {
+        const a = pool[i] || arm(i);
+        a.root.visible = true;
+        a.joints.forEach((j, k) => j.quaternion.setFromAxisAngle(axes[k], q[k]));
+      });
+      pool.slice(poses.length).forEach((a) => (a.root.visible = false));
+      canvas.dataset.robots = poses.length;
+      if (fit) {
+        const box = new T.Box3();
+        [s.q, ...s.sols.map((x) => x.q)].forEach((q) =>
+          GofaMath.fk(q).links.forEach((l) => box.expandByPoint(new T.Vector3(...l.p))),
+        );
+        let sz = box.getSize(new T.Vector3());
+        box.getCenter(target);
+        target.z -= 0.035;
+        range = Math.max(1.85, Math.max(sz.z * 1.24, sz.length() * 0.84) * 2.37);
+      }
+      request();
+    }
+    let drag = null;
+    canvas.onpointerdown = (e) => {
+      if (!e.isPrimary) return;
+      drag = [e.clientX, e.clientY, e.pointerId];
+      canvas.setPointerCapture(e.pointerId);
+      canvas.focus({ preventScroll: true });
+    };
+    canvas.onpointermove = (e) => {
+      if (!drag || e.pointerId !== drag[2]) return;
+      az -= (e.clientX - drag[0]) * 0.009;
+      el = Math.min(1.4, Math.max(-0.4, el + (e.clientY - drag[1]) * 0.008));
+      drag = [e.clientX, e.clientY, e.pointerId];
+      request();
+    };
+    canvas.onlostpointercapture = canvas.onpointercancel = canvas.onpointerup = () => (drag = null);
+    canvas.addEventListener(
+      'wheel',
+      (e) => {
+        e.preventDefault();
+        scale = Math.max(0.48, Math.min(2.2, scale * Math.exp(e.deltaY * 0.001)));
+        request();
+      },
+      { passive: false },
+    );
+    canvas.onkeydown = (e) => {
+      if (!e.key.startsWith('Arrow')) return;
+      e.preventDefault();
+      az += { ArrowLeft: 0.09, ArrowRight: -0.09 }[e.key] || 0;
+      el = Math.min(1.4, Math.max(-0.4, el + ({ ArrowUp: 0.08, ArrowDown: -0.08 }[e.key] || 0)));
+      request();
+    };
+    new ResizeObserver(request).observe(canvas);
+    return { update, reset };
+  }
+  return {
+    build,
+    async get(key, file) {
+      if (A[key]) return unpack(A[key]);
+      const r = await fetch(file + (window.ATLAS_VERSION ? '?v=' + window.ATLAS_VERSION : ''));
+      if (!r.ok) throw Error('Missing model');
+      return r.arrayBuffer();
+    },
+  };
+})();

@@ -13,9 +13,7 @@
         "url": "https://lichess.org/api/cloud-eval?fen=rnbqkbnr%2Fpppppppp%2F8%2F8%2F8%2F8%2FPPPPPPPP%2FRNBQKBNR%20w%20KQkq%20-%200%201&multiPv=1"
       }
     ],
-    "status": [
-      "Checking Lichess…"
-    ]
+    "status": ["Checking Lichess…"]
   },
   "fallback": {
     "score": "+0.26 · Stockfish 19 Lite · depth 8",
@@ -32,36 +30,20 @@
   "controls": {
     "start": {
       "label": "Start",
-      "widths": [
-        32,
-        104,
-        32
-      ]
+      "widths": [32, 104, 32]
     },
     "keyboard": "Body, analysis checkbox, and board navigate moves; text-field arrows edit normally; Up/Down move board focus.",
     "played": {
       "label": "1… e5",
-      "widths": [
-        32,
-        104,
-        32
-      ]
+      "widths": [32, 104, 32]
     },
     "promotion": {
       "label": "123. e8=Q+",
-      "widths": [
-        32,
-        104,
-        32
-      ]
+      "widths": [32, 104, 32]
     },
     "mobile": {
       "label": "Start",
-      "widths": [
-        32,
-        104,
-        32
-      ]
+      "widths": [32, 104, 32]
     }
   },
   "played": {
@@ -140,9 +122,7 @@
       },
       {
         "url": "http://127.0.0.1:8765/lib/chess/stockfish-19-lite-single.js",
-        "commands": [
-          "uci"
-        ],
+        "commands": ["uci"],
         "terminated": true
       },
       {

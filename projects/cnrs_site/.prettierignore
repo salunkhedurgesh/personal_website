@@ -1,0 +1,14 @@
+# External libraries retain their distributed form and licensing headers.
+lib/*
+!lib/chess/
+lib/chess/*
+!lib/chess/garbo-uci.js
+projects/main/tour/vendor/**
+
+# Local environment files are not website source.
+.git/**
+.agents/**
+.codex/**
+.aws/**
+.vscode/**
+node_modules/**

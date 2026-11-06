@@ -33,7 +33,7 @@ for (const [festival, date] of [
 
 test('national holidays and Halloween retain their existing themes outside festival windows', () => {
   for (const [date, theme] of [
-    ['2026-01-26', 'india'], ['2026-08-15', 'india'], ['2026-07-14', 'france'],
+    ['2026-01-26', 'republic'], ['2026-08-15', 'independence'], ['2026-07-14', 'france'],
     ['2026-10-25', 'halloween'], ['2026-10-31', 'halloween']
   ]) assert.equal(classify(date, null, 2), theme);
 });

@@ -27,7 +27,7 @@ async function reset(){await evaluate(`(async()=>{for(const k of await caches.ke
 const report={};
 const manifest=JSON.parse(await readFile(new URL('../images/previews/manifest.json',import.meta.url),'utf8'));
 const openingFrames=Object.entries(manifest).filter(([key])=>key!=='cnrs');
-assert.equal(openingFrames.length,18);
+assert.equal(openingFrames.length,20);
 for(const [key,frame] of openingFrames){
  assert.equal(frame.time,0,key);assert.equal(frame.phase,'start',key);
  if(!/^(puppets|halloween)-/.test(key))assert(frame.pose.firstLetterY>.4&&frame.pose.lastLetterY>.4,key);
@@ -81,7 +81,7 @@ await cdp('Network.emulateNetworkConditions',{offline:false,latency:0,downloadTh
 await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
 await reset();await cdp('Page.navigate',{url:base});errors.length=0;
 await until(`document.getElementById('atlasHost')?.dataset.live==='true'`);
-await until(`caches.open('portfolio-scene-previews-'+SiteAssets.version).then(c=>c.keys()).then(k=>k.length===19)`);
+await until(`caches.open('portfolio-scene-previews-'+SiteAssets.version).then(c=>c.keys()).then(k=>k.length===21)`);
 report.reduced=await evaluate(`({live:document.getElementById('marquee').dataset.live,clay:!!window.ClayStudio,preview:document.getElementById('letterhead-preview').naturalWidth,atlas:document.querySelector('iframe')?.contentDocument.body.dataset.mode})`);
 assert.equal(report.reduced.live,'false');assert.equal(report.reduced.clay,false);assert.equal(report.reduced.atlas,'3d');assert(requests.some(u=>u.includes('/assets/mark.glb')));assert(!requests.some(u=>u.includes('lib/three.js')||u.includes('/models/letterhead/')||u.includes('strasbourg-studio.glb')));console.log('Reduced motion: static lettering and live CNRS passed');
 await cdp('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'no-preference'}]});

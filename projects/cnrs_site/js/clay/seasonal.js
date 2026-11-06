@@ -469,20 +469,30 @@ window.ClaySeasons = {
     }
 
     function freezeLetters() {
-      const freezeDuration = 10, meltDuration = 5;
-      const frozenAt = Math.max(...units.map(u => u.groundedAt + freezeDuration));
+      // Stable random seeds keep each letter's frost reproducible when seeking.
+      const schedules = units.map((u, i) => ({
+        start: u.groundedAt + rand(1701 + i * 13) * 1.25,
+        duration: 9 + rand(1831 + i * 17) * 4,
+        meltDuration: 4.8 + rand(1931 + i * 19) * 2.8,
+        phase: rand(2053 + i * 23) * TAU
+      }));
+      const frozenAt = Math.max(...schedules.map(s => s.start + s.duration));
       const warmedAt = frozenAt + 3;
       winterCap(units[0], frozenAt + .15);
       [2, 7, 12].forEach((letter, i) => winterScarf(units[letter], i, frozenAt + .15 + i * .18, 2.4));
       const icicleMaterial = keep(new T.MeshPhysicalMaterial({
-        color: C('#def6ff'), roughness: .13, metalness: .02, transparent: true,
-        opacity: .78, depthWrite: false, clearcoat: 1, clearcoatRoughness: .10,
-        envMapIntensity: .8
+        color: C('#d3f0ff'), roughness: .105, metalness: .025, transparent: true,
+        opacity: .87, depthWrite: false, clearcoat: 1, clearcoatRoughness: .065,
+        vertexColors: true, bumpMap: tex, bumpScale: .0015, envMapIntensity: 1.1
       }));
       units.forEach((u, index) => {
-        u.freezeCompleteAt = u.groundedAt + freezeDuration;
+        const schedule = schedules[index];
+        const meltStart = warmedAt + rand(2141 + index * 29) * 1.1;
+        u.freezeStartsAt = schedule.start;
+        u.freezeCompleteAt = schedule.start + schedule.duration;
         u.settledAt = warmedAt;
-        u.restoredAt = warmedAt + meltDuration;
+        u.thawStartsAt = meltStart;
+        u.restoredAt = meltStart + schedule.meltDuration;
         const shiverDuration = warmedAt - u.groundedAt;
         // Expand the entire glyph along its normals: front, back and side walls.
         const geo = u.body.geometry.clone();
@@ -498,17 +508,82 @@ window.ClaySeasons = {
           opacity: .42, depthWrite: false, clearcoat: 1, clearcoatRoughness: .13,
           bumpMap: tex, bumpScale: .0025, envMapIntensity: .65
         }));
-        const freeze = {value: 0};
+        u.body.geometry.computeBoundingBox();
+        const bounds = u.body.geometry.boundingBox;
+        const size = bounds.getSize(V());
+        function seeds(offset) {
+          return Array.from({length: 3}, (_, j) => {
+            const n = offset + index * 97 + j * 31, p = [rand(n), rand(n + 2), rand(n + 5)];
+            p[Math.floor(rand(n + 8) * 3)] = rand(n + 11) > .5 ? 1 : 0;
+            return new T.Vector4(...p, .025 + rand(n + 13) * .16);
+          });
+        }
+        const origins = seeds(2371), thaws = seeds(3313);
+        const metric = V(.75 + rand(index + 4121) * .6, .75 + rand(index + 4221) * .6,
+          .7 + rand(index + 4321) * .5);
+        const freeze = {value: 0}, thaw = {value: 0};
+        // Several expanding, warped fronts meet around the entire glyph. Thaw
+        // starts from independent faces, rather than reversing a vertical wipe.
+        const noise = p => Math.sin(p.x * 17.4 + p.y * 23.2 + p.z * 11.3 + schedule.phase) *
+          Math.sin(p.x * 31.1 - p.y * 19.7 + p.z * 27.9) * .5 +
+          Math.sin(p.x * 67.7 + p.y * 53.1 - p.z * 41.3) * .16;
+        function arrival(p, seeds, offset = 0) {
+          let first = Infinity;
+          seeds.forEach((s, j) => {
+            const dx = (p.x - s.x) * metric.x, dy = (p.y - s.y) * metric.y, dz = (p.z - s.z) * metric.z;
+            first = Math.min(first, s.w + Math.hypot(dx, dy, dz) * (.52 + j * .085));
+          });
+          return clamp(first + noise(p.clone().addScalar(offset)) * .075, .025, .94);
+        }
+        const normalize = p => p.clone().sub(bounds.min).divide(size);
+        const paced = (p, phase) => {
+          p = clamp(p);
+          return ease(p + .065 * (Math.sin(TAU * p + phase) - Math.sin(phase)) +
+            .018 * (Math.sin(2 * TAU * p + phase * .7) - Math.sin(phase * .7)));
+        };
+        function phases(t) {
+          return [paced((t - schedule.start) / schedule.duration, schedule.phase),
+            paced((t - meltStart) / schedule.meltDuration, schedule.phase + 1.7)];
+        }
+        u.iceField = {origins: origins.map(v => v.toArray()), thawOrigins: thaws.map(v => v.toArray()),
+          duration: schedule.duration, meltDuration: schedule.meltDuration};
+        u.sampleIceAt = (point, t) => {
+          const p = normalize(V(...point)), [f, m] = phases(t);
+          return f >= arrival(p, origins) && m < arrival(p, thaws, 1.73);
+        };
         ice.onBeforeCompile = shader => {
           shader.uniforms.freezeProgress = freeze;
+          shader.uniforms.thawProgress = thaw;
+          shader.uniforms.iceOrigins = {value: origins};
+          shader.uniforms.thawOrigins = {value: thaws};
+          shader.uniforms.iceMetric = {value: metric};
+          shader.uniforms.iceMinimum = {value: bounds.min};
+          shader.uniforms.iceSize = {value: size};
+          shader.uniforms.icePhase = {value: schedule.phase};
           shader.vertexShader = 'varying vec3 vIceRest;\n' + shader.vertexShader.replace(
             '#include <begin_vertex>', '#include <begin_vertex>\nvIceRest = position;');
-          shader.fragmentShader = 'uniform float freezeProgress; varying vec3 vIceRest;\n' + shader.fragmentShader.replace(
-            '#include <color_fragment>', '#include <color_fragment>\n' +
-            'float frostNoise = sin(vIceRest.x * 53. + vIceRest.y * 39.) * sin(vIceRest.z * 67. - vIceRest.y * 73.);\n' +
-            'float frostLine = freezeProgress * 1.20 - .07 + frostNoise * .025;\n' +
-            'if (vIceRest.y > frostLine) discard;\n' +
-            'diffuseColor.rgb *= .9 + .1 * frostNoise;');
+          shader.fragmentShader = `uniform float freezeProgress, thawProgress, icePhase;
+uniform vec4 iceOrigins[3], thawOrigins[3];
+uniform vec3 iceMetric, iceMinimum, iceSize;
+varying vec3 vIceRest;
+float iceNoise(vec3 p) {
+ return sin(dot(p,vec3(17.4,23.2,11.3))+icePhase)*sin(dot(p,vec3(31.1,-19.7,27.9)))*.5
+  + sin(dot(p,vec3(67.7,53.1,-41.3)))*.16;
+}
+float iceArrival(vec3 p, vec4 origins[3], float offset) {
+ float first=10.;
+ for(int j=0;j<3;j++) first=min(first,origins[j].w+length((p-origins[j].xyz)*iceMetric)*(.52+float(j)*.085));
+ return clamp(first+iceNoise(p+vec3(offset))*.075,.025,.94);
+}
+` + shader.fragmentShader.replace('#include <color_fragment>', `#include <color_fragment>
+vec3 icePoint=(vIceRest-iceMinimum)/iceSize;
+float frostEdge=freezeProgress-iceArrival(icePoint,iceOrigins,0.);
+float thawEdge=iceArrival(icePoint,thawOrigins,1.73)-thawProgress;
+if(frostEdge<0. || thawEdge<0.) discard;
+diffuseColor.a *= smoothstep(0.,.025,min(frostEdge,thawEdge));
+diffuseColor.rgb *= .92+.08*iceNoise(icePoint);
+diffuseColor.rgb = mix(diffuseColor.rgb,vec3(.83,.96,1.),(1.-smoothstep(0.,.04,frostEdge))*.4);
+`);
         };
         const shell = M(u.g, geo, ice);
         shell.name = 'Snowfall / full ice shell / ' + (index + 1);
@@ -517,30 +592,85 @@ window.ClaySeasons = {
         shell.visible = false;
         u.iceShell = shell;
 
-        // Tapered ice cones hang from real top surfaces, leaving the glyph holes clear.
-        u.body.geometry.computeBoundingBox();
-        const bounds = u.body.geometry.boundingBox;
-        const bodyPositions = u.body.geometry.attributes.position;
-        const bodyNormals = u.body.geometry.attributes.normal;
-        const icicles = [];
-        for (let j = 0; j < 3; j++) {
-          const target = bounds.min.x + (bounds.max.x - bounds.min.x) * (.17 + j * .33);
-          let anchor = null, best = Infinity;
-          for (let i = 0; i < bodyPositions.count; i++) {
-            const x = bodyPositions.getX(i), y = bodyPositions.getY(i), z = bodyPositions.getZ(i);
-            if (y < .78 || bodyNormals.getY(i) < .25 || z < 0) continue;
-            if (icicles.some(ice => Math.abs(ice.position.x - x) < .075)) continue;
-            const score = Math.abs(x - target) + Math.abs(z - bounds.max.z) * .2;
-            if (score < best) { best = score; anchor = {x, y}; }
+        // Scalloped melt rings, asymmetric ridges and a crooked needle tip give
+        // each icicle a glassy silhouette instead of a plain low-poly cone.
+        function icicleGeometry(length, radius, seed) {
+          const rows = 22, sides = 13, vertices = [], colors = [], uv = [], ids = [];
+          for (let row = 0; row <= rows; row++) {
+            const p = row / rows, ring = .90 + .10 * Math.sin(p * 44 + seed) + .045 * Math.sin(p * 89 + seed * 2);
+            const taper = (1 - p) ** .73, bend = p * p * radius * (.25 + rand(seed + 7) * .6);
+            for (let side = 0; side <= sides; side++) {
+              const a = side * TAU / sides, ridge = 1 + .115 * Math.sin(a * 5 + p * 6 + seed);
+              const r = radius * taper * ring * ridge;
+              vertices.push(r * Math.cos(a) + bend, -length * p,
+                r * Math.sin(a) + .25 * bend * Math.sin(seed));
+              const glint = .77 + .23 * Math.max(0, Math.sin(a * 3 + seed));
+              colors.push(glint * .92, glint * .98, glint);
+              uv.push(side / sides * 2, p * 4);
+              if (row && side) {
+                const n = row * (sides + 1) + side;
+                ids.push(n - sides - 2, n - sides - 1, n, n - sides - 2, n, n - 1);
+              }
+            }
           }
-          if (!anchor) continue;
-          const length = .13 + .13 * rand(index * 9 + j + 420);
-          const radius = .018 + .008 * rand(index * 7 + j + 219);
-          const geometry = new T.CylinderGeometry(radius, 0, length, 9, 1);
-          geometry.translate(0, -length / 2, 0);
-          const cone = M(u.g, geometry, icicleMaterial, anchor.x, anchor.y - .012,
-            bounds.max.z * u.body.scale.z + radius * .5);
-          cone.name = 'Snowfall / tapered icicle / ' + (index + 1) + ' / ' + (j + 1);
+          const geometry = new T.BufferGeometry();
+          geometry.setAttribute('position', new T.Float32BufferAttribute(vertices, 3));
+          geometry.setAttribute('color', new T.Float32BufferAttribute(colors, 3));
+          geometry.setAttribute('uv', new T.Float32BufferAttribute(uv, 2));
+          geometry.setIndex(ids);geometry.computeVertexNormals();
+          return geometry;
+        }
+        const bodyPositions = u.body.geometry.attributes.position;
+        const bodyIndex = u.body.geometry.index;
+        const triangleCount = bodyIndex ? bodyIndex.count : bodyPositions.count;
+        const vertex = i => V().fromBufferAttribute(bodyPositions, bodyIndex ? bodyIndex.getX(i) : i);
+        const candidates = [];
+        // Read real downward-facing surfaces: the roofs of counters, crossbar
+        // undersides and exposed ledges. Ground-level feet cannot carry icicles.
+        for (let i = 0; i < triangleCount; i += 3) {
+          const a = vertex(i), b = vertex(i + 1), c = vertex(i + 2);
+          const normal = b.clone().sub(a).cross(c.clone().sub(a));
+          const area = normal.length() / 2;
+          normal.normalize();
+          if (normal.y > -.42 || area < .000015) continue;
+          const front = [a, b, c].reduce((p, q) => p.z > q.z ? p : q);
+          // Bias within the actual triangle toward its visible drip edge.
+          const point = a.clone().add(b).add(c).multiplyScalar(.2).addScaledVector(front, .4);
+          if (point.y < .24 || point.z < 0) continue;
+          candidates.push({point, normal, score: point.y * .14 + point.z * .6 - normal.y * .12 +
+            Math.sqrt(area) * .5 + rand(i + index * 191) * .045});
+        }
+        candidates.sort((a, b) => b.score - a.score);
+        function clearanceBelow(point) {
+          const ray = new T.Ray(point.clone().add(V(0, -.008, 0)), V(0, -1, 0)), hit = V();
+          let clearance = point.y - .035;
+          for (let i = 0; i < triangleCount; i += 3) {
+            if (ray.intersectTriangle(vertex(i), vertex(i + 1), vertex(i + 2), false, hit)) {
+              const gap = point.y - hit.y;
+              if (gap > .01) clearance = Math.min(clearance, gap);
+            }
+          }
+          return clearance;
+        }
+        const icicles = [];
+        const maximum = 2 + Math.floor(rand(index + 5261) * 3);
+        for (const {point, normal} of candidates) {
+          if (icicles.length >= maximum) break;
+          if (icicles.some(ice => Math.hypot(ice.position.x - point.x,
+            ice.position.y - point.y) < .14)) continue;
+          const clearance = clearanceBelow(point);
+          // Counter openings and lower bars limit how far an icicle can grow.
+          const length = Math.min(.30 + .26 * rand(index * 9 + icicles.length + 420), clearance * .72);
+          if (length < .15) continue;
+          const j = icicles.length;
+          const radius = Math.min(.029 + .014 * rand(index * 7 + j + 219), length * .105);
+          const geometry = icicleGeometry(length, radius, index * 17 + j * 7);
+          const cone = M(u.g, geometry, icicleMaterial, point.x, point.y + .003,
+            point.z * u.body.scale.z);
+          cone.name = 'Snowfall / sculpted ridged icicle / ' + (index + 1) + ' / ' + (j + 1);
+          const p = normalize(point);
+          cone.userData = {length, radius, freezeAt: arrival(p, origins), thawAt: arrival(p, thaws, 1.73),
+            support: {point: point.toArray(), normal: normal.toArray(), clearance}};
           cone.visible = false;
           cone.castShadow = false;
           icicles.push(cone);
@@ -548,30 +678,35 @@ window.ClaySeasons = {
         u.icicles = icicles;
         const drops = icicles.slice(0, 2).map((cone, i) => {
           const drop = ell(u.g, cone.position.x, .6, cone.position.z + .025, .011, .019, .011, icicleMaterial);
+          const white = new Float32Array(drop.geometry.attributes.position.count * 3).fill(1);
+          drop.geometry.setAttribute('color', new T.BufferAttribute(white, 3));
           drop.name = 'Snowfall / meltwater drop / ' + (index + 1) + ' / ' + (i + 1);
           drop.visible = false;
           return drop;
         });
         actions.push(t => {
           const elapsed = t - u.groundedAt;
-          const frozen = t >= u.freezeCompleteAt ? 1 : ease(elapsed / freezeDuration);
-          const melt = t >= u.restoredAt ? 1 : ease((t - warmedAt) / meltDuration);
+          const [frozen, melt] = phases(t);
           const coverage = frozen * (1 - melt);
-          freeze.value = coverage;
+          freeze.value = frozen;
+          thaw.value = melt;
           shell.visible = coverage > 0;
           ice.opacity = .42 * (1 - melt * .55);
           u.freezeProgress = frozen;
           u.meltProgress = melt;
           u.iceCoverage = coverage;
-          const icicleGrowth = ease((elapsed - 4) / (freezeDuration - 4)) * (1 - melt);
-          icicleMaterial.opacity = .78 * (1 - melt);
           icicles.forEach(cone => {
-            cone.visible = icicleGrowth > 0;
-            cone.scale.set(.45 + .55 * icicleGrowth, icicleGrowth, .45 + .55 * icicleGrowth);
+            const {freezeAt, thawAt} = cone.userData;
+            const growth = ease((frozen - freezeAt) / Math.min(.3, 1 - freezeAt));
+            const shrink = 1 - ease(melt / Math.min(1, thawAt + .25));
+            const amount = growth * shrink;
+            cone.visible = amount > .002;
+            cone.scale.set((.4 + .6 * growth) * shrink, amount, (.4 + .6 * growth) * shrink);
+            cone.userData.growth = amount;
           });
           drops.forEach((drop, i) => {
             const cone = icicles[i], age = ((t - warmedAt) * 1.1 + index * .17 + i * .4) % 1;
-            const length = cone.geometry.parameters.height * cone.scale.y;
+            const length = cone.userData.length * cone.scale.y;
             drop.position.y = cone.position.y - length - .9 * age * age;
             drop.visible = melt > 0 && melt < .97 && drop.position.y > .06;
           });

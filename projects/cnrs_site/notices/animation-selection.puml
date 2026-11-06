@@ -1,0 +1,60 @@
+@startuml
+!theme plain
+title Letterhead animation selection — current implementation
+start
+:Read the current saved counter s;
+note right
+  s advances on page load, returning to Home,
+  or explicitly choosing Live calendar (Auto).
+  Weather/date updates reuse the current s.
+end note
+if (Explicit preview selected?) then (yes)
+  :Show the chosen animation;
+else (Live calendar)
+  if (26 January?) then (yes)
+    :Indian Republic Day;
+  elseif (15 August?) then (yes)
+    :Indian Independence Day;
+  elseif (14 July?) then (yes)
+    :France · la Fête nationale;
+  elseif (Within 3 days of Diwali?) then (yes)
+    :Diwali;
+    note right: 2026: 5–11 November, inclusive
+  elseif (Within 3 days of Holi?) then (yes)
+    :Holi;
+  elseif (22–28 December?) then (yes)
+    :Christmas;
+  elseif (Halloween enabled and 25–31 October?) then (yes)
+    :Halloween;
+  else (no special date)
+    if (December–February or Strasbourg snowfall?) then (yes)
+      :Use s mod 3;
+      if (Result = 0?) then (yes)
+        :Robot assembly;
+      elseif (Result = 1?) then (yes)
+        :Marionettes;
+      else (2)
+        :Strasbourg Winter;
+      endif
+    else (otherwise)
+      :Use s mod 2;
+      if (Result = 0?) then (yes)
+        :Robot assembly;
+      else (1)
+        :Marionettes;
+      endif
+    endif
+  endif
+endif
+:Show the initial-frame snapshot;
+:Load required 3D assets and run the animation;
+stop
+legend
+  Automatic dates use Europe/Paris time.
+  Holi/Diwali dates are stored for 2026–2031.
+  Snowfall weather codes: 71, 73, 75, 77, 85, 86.
+  Temperature is displayed for Winter; it is not a selection threshold.
+  Rotation starts with Robots for s=0; existing visitors can start elsewhere.
+  No automatic shuffle while remaining on the same page.
+endlegend
+@enduml

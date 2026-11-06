@@ -43,8 +43,8 @@ a live, directly manipulable 3D model. The CNRS image is used if WebGL or the
 logo model is unavailable.
 
 `images/previews/` contains desktop/mobile snapshots of the opening frame
-(time zero) for all nine lettering editions and a CNRS logo fallback image.
-`images/previews/manifest.json` records the capture time and opening-pose checks. After startup, the browser saves all 19 small images in a versioned
+(time zero) for all ten lettering editions and a CNRS logo fallback image.
+`images/previews/manifest.json` records the capture time and opening-pose checks. After startup, the browser saves all 21 small images in a versioned
 Cache Storage cache for future visits. Save-Data connections skip this background
 prefetch. If Cache Storage is unavailable, ordinary image loading still works.
 
@@ -91,19 +91,48 @@ The capture tool also uses Pillow to export the CNRS WebP image.
   of D, keeping the left robot inside the letterhead; bulbs follow the shorter span.
 - Christmas adds a decorated background fir, three red stockings attached to letters,
   and a continuous snow drift beneath the name.
+- Holi starts with green letters and seven bowls of gulal. The D/E placement
+  contacts trigger staggered bowl hops and powder bursts; colourful splashes
+  remain on each glyph. Grabbing or landing a letter throws more powder and
+  adds persistent layers of colour. Pointer and keyboard interaction use the
+  same callbacks. Local paint textures and a fixed pool of 1,008 powder grains
+  and twelve clouds keep repeated play bounded. The old static paint atlas is
+  not fetched, and the quiet scene stops rendering after the bursts settle.
 - “Strasbourg Winter” starts gentle, six-per-second shivers at the robot placements.
-  A thin ice glaze and icicles form over ten seconds. Three winter scarves wrap
+  Thin ice spreads from several seeded points on each letter, with different
+  directions and varying speeds over 9–13 seconds. Larger icicles have sculpted
+  melt rings, ridges, and asymmetric needle tips. They hang from measured downward-facing
+  counter ceilings, crossbars and ledges, with lengths limited by the free space
+  underneath; there is no fixed number per letter. Three winter scarves wrap
   around R, S, and K, and a knitted cap settles on D. Then shivering stops and
-  the ice melts over five seconds. The collars stay fitted; six lightweight Jolt
+  independent thaw fronts open from other directions over roughly 5–8 seconds.
+  Shivering continues until all letters are frozen plus three seconds.
+  The collars stay fitted; six lightweight Jolt
   cloth sheets animate the hanging tails in stable letter-local frames. Each
   sheet has 55 particles, with a fixed top edge and bounded mesh deformation.
   The letters regain their original green finish while the scarves stay on.
   A continuous wind-shaped snow drift surrounds the letter feet. Reduced motion
   shows the completed, thawed scene.
+- National days keep the original green lettering. Bunting and the Republic Day
+  paper roll are visible from the opening frame. After placing the letters, the
+  robots lift the props. Republic Day raises the roll near the top of the scene,
+  then unspools the full Preamble down behind the lettering until the lower roll
+  rests on the floor. The local parchment texture uses classical serif typography,
+  a clear hierarchy, the complete constitutional text and the State Emblem; its
+  text source is recorded in `images/occasions/preamble-source.txt`.
+  Independence Day and 14 July use twenty-four tall isosceles pennants on a higher
+  rope with a deeper parabolic sag: eight saffron/blue on the left, eight cream in the
+  middle, and eight green/red on the right. Each sewn top edge follows the rope
+  curve, while the rest of the pennant can flutter. Each occasion has its own Appearance
+  selection and calendar date. National-day code and the Republic Day emblem
+  load only when needed; the emblem's source and derivation are recorded in
+  `images/occasions/india-emblem-source.txt`.
 - Marionette uses a rope bridle tied to both tops of H, K, N, and U. Other letters
   have one rope connected to their actual top surface, including offset tops.
-  The robots hold the wooden rail from the beginning and give it a short, gentle
-  shake. Rope anchors and the Jolt support body follow the rail motion.
+  The robots begin with the wooden rail raised, lower it over 1.15 seconds,
+  then let a stronger shake decay exponentially. The letters begin suspended
+  at the matching height. Rope anchors and the Jolt support body follow the
+  same pose, including when Jolt finishes loading during the descent.
 - Research cards and expanded panels use white surfaces in the default theme.
   SVG view boxes trim the outer white margins from the Science Robotics figures
   while preserving the original images and their scientific annotations.
@@ -232,10 +261,42 @@ in `tools/chess-panel-qa.json`. Set `CHESS_SCREENSHOT_DIR` to save panel images.
 each of the three national days.
 
 `node tools/check-progressive-loading.mjs` verifies first-paint snapshots, all
-nine live themes, saved images, delayed city/planet downloads, full-resolution
+ten live themes, saved images, delayed city/planet downloads, full-resolution
 kinematics/playground assets, and mobile layout. `node
-tools/check-progressive-fallbacks.mjs` checks all 18 opening-frame records,
+tools/check-progressive-fallbacks.mjs` checks all 20 opening-frame records,
 independent CNRS loading and drag interaction, a cold 3 Mbps mobile connection,
 reduced motion, unavailable WebGL, failed model downloads, and retry. Results
 are saved in `tools/progressive-loading-qa.json` and
 `tools/progressive-fallback-qa.json`.
+
+`node tools/check-winter-national.mjs` checks frost/thaw direction and timing,
+full freezing and restoration, natural icicle supports and clearance, warm clothing, all three
+national-day props visible from the start, tall triangular tricolour bunting, elevated
+robot grips, parabolic rope profiles, complete floor-length Preamble unrolling,
+lazy loading, green letters, calendar
+selection, mobile overflow, and reduced motion. It writes `tools/winter-national-qa.json`.
+
+`node tools/check-holi-marionette.mjs` verifies the descending rail, exponential
+shake envelope, real Jolt stability, robot grips, green Holi opening, placement
+bursts, pointer/keyboard painting, persistent colour, replay, bounded particle
+pools, mobile layout and reduced motion. Results: `tools/holi-marionette-qa.json`.
+
+Open `navigation-models.html` directly to compare twelve actual 3D navigation
+sculptures, three per destination. Models can be rotated by pointer or keyboard;
+selection updates the menu-size comparison. The selected set is
+Home C, Publications A, Projects A and Teaching A. Model factories are in
+`js/navigation-models.js` and comparison controls are in `js/navigation-studies.js`; the comparison image is `images/navigation-model-studies.png`.
+`node tools/check-navigation-models.mjs` checks the gallery, rotation, selection,
+mobile layout and direct local-file use, saving `tools/navigation-models-qa.json`.
+
+The main menu uses the selected compass, manuscript, builder with plans and
+seminar board. Icon drags are limited to 25° either side of the default view
+and 12° vertically; a drag does not activate the page link. The comparison
+page uses the same limits. Snapshot icons cover initial loading, reduced
+motion and unavailable WebGL. Regenerate them with
+`node tools/capture-navigation-previews.mjs`, then stamp assets.
+
+`node tools/check-navigation-live.mjs` verifies the C/A/A/A menu, limited mouse
+and touch dragging, normal link activation, unchanged lettering rendering,
+mobile width, static fallback images and deferred loading under reduced motion.
+Results are saved in `tools/navigation-live-qa.json`.

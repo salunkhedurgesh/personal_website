@@ -1,0 +1,10 @@
+india-emblem.png — State Emblem of India (Lion Capital with “Satyameva Jayate”).
+384 × 612 px; transparent indexed PNG; monochrome bronze #765232; 68,797 bytes.
+
+Source artwork: Government of India, reproduced in Wikimedia Commons:
+https://commons.wikimedia.org/wiki/File:Emblem_of_India.svg
+Original SVG: https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg
+Commons identifies the source as the illustration extracted from the State Emblem of India Act, 2005, and marks the artwork public domain in India (PD-India).
+
+Derived 6 November 2026 by rasterising that SVG at 384 px wide with Inkscape, retaining the complete emblem and motto. Only the ink colour was changed to bronze; no silhouette redraw or generated artwork. The indexed PNG retains the rendered alpha channel exactly and contains no external resources.
+Original SVG SHA-256: f6b7475f96250c408c515bc56d5a6f34a60676770ca6b02f5d317245f267f1af

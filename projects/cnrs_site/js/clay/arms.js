@@ -64,7 +64,7 @@ window.ClayArms=(()=>{
    if(gofaLinks){const f=u*(ClayMotion.length-1),i=Math.floor(f),j=Math.min(i+1,ClayMotion.length-1);gofaLinks.forEach((n,k)=>n.quaternion.setFromAxisAngle(ax[k],ClayMotion[i][k]+(ClayMotion[j][k]-ClayMotion[i][k])*(f-i)));gofaGrip.set(p.ap,depth)}
    const ku=clamp((t-.65)/8.8),kp=path(ku),ky=.44*(1-kp.b)+.16*Math.sin(P*kp.a);letter.g.position.set(letter.x+.17*(1-kp.a),.003+ky,zOff-.28*(1-kp.a));if(!hallo)letter.assemblyLocked=ku<.79;else if(letter.shadow){letter.shadow.position.x=letter.g.position.x;letter.shadow.position.z=letter.g.position.z;letter.shadow.material.opacity=.28/(1+ky*4);letter.shadow.scale.setScalar(1+ky*.25)}
    if(kukaLinks){const frame=clamp(t/10)*(m.frames.length-1),i=Math.floor(frame),j=Math.min(i+1,m.frames.length-1);kukaLinks.forEach((n,k)=>n.quaternion.setFromAxisAngle(zaxis,m.frames[i].q[k]+(m.frames[j].q[k]-m.frames[i].q[k])*(frame-i)));kukaGrip.set(kp.ap,depth)}
-   if(theme==='diwali'&&t>=9.8){
+   if(['diwali','republic','independence','france'].includes(theme)&&t>=9.8){
     const blend=ease((t-9.8)/1.5);
     carry(gofaIK,gofaGrip,0,ClayMotion[ClayMotion.length-1],blend);
     carry(kukaIK,kukaGrip,1,m.frames[m.frames.length-1].q,blend);

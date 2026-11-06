@@ -1,0 +1,67 @@
+{
+  "models": [
+    {
+      "id": "home-c",
+      "angle": -0.12,
+      "tilt": 0
+    },
+    {
+      "id": "publications-a",
+      "angle": -0.12,
+      "tilt": 0
+    },
+    {
+      "id": "projects-a",
+      "angle": -0.12,
+      "tilt": 0
+    },
+    {
+      "id": "teaching-a",
+      "angle": -0.12,
+      "tilt": 0
+    }
+  ],
+  "drag": {
+    "id": "projects-a",
+    "angle": -0.5563323129985824,
+    "tilt": 0.20943951023931953
+  },
+  "dragDoesNotNavigate": true,
+  "letteringRenderUnchanged": true,
+  "linksNavigate": true,
+  "touchPose": {
+    "id": "projects-a",
+    "angle": 0.3163323129985824,
+    "tilt": 0.024
+  },
+  "touchDragDoesNotNavigate": true,
+  "mobileNoOverflow": true,
+  "errors": [],
+  "fallbacks": [
+    {
+      "page": "home",
+      "src": "http://127.0.0.1:8765/images/nav-home.png?v=7b8b214d27c5",
+      "width": 152,
+      "height": 160
+    },
+    {
+      "page": "publications",
+      "src": "http://127.0.0.1:8765/images/nav-publications.png?v=7b8b214d27c5",
+      "width": 152,
+      "height": 160
+    },
+    {
+      "page": "projects",
+      "src": "http://127.0.0.1:8765/images/nav-projects.png?v=7b8b214d27c5",
+      "width": 152,
+      "height": 160
+    },
+    {
+      "page": "teaching",
+      "src": "http://127.0.0.1:8765/images/nav-teaching.png?v=7b8b214d27c5",
+      "width": 152,
+      "height": 160
+    }
+  ],
+  "reducedMotionUsesSnapshots": true
+}

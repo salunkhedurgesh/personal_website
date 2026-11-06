@@ -1,0 +1,91 @@
+{
+  "lines": [
+    {
+      "text": "THE CONSTITUTION OF INDIA",
+      "font": "bold 52px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 52,
+      "top": 34,
+      "bottom": 70
+    },
+    {
+      "text": "P R E A M B L E",
+      "font": "38px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 38,
+      "top": 82,
+      "bottom": 107
+    },
+    {
+      "text": "WE, THE PEOPLE OF INDIA,",
+      "font": "bold 32px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 32,
+      "top": 121,
+      "bottom": 147
+    },
+    {
+      "text": "having solemnly resolved to constitute India into a",
+      "font": "italic 27px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 27,
+      "top": 162,
+      "bottom": 187
+    },
+    {
+      "text": "SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC",
+      "font": "bold 28px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 28,
+      "top": 196,
+      "bottom": 214
+    },
+    {
+      "text": "and to secure to all its citizens:",
+      "font": "italic 26px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 26,
+      "top": 223,
+      "bottom": 240
+    },
+    {
+      "text": "JUSTICE, social, economic and political;",
+      "font": "28px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 28,
+      "top": 250,
+      "bottom": 275
+    },
+    {
+      "text": "LIBERTY of thought, expression, belief, faith and worship;",
+      "font": "28px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 28,
+      "top": 284,
+      "bottom": 309
+    },
+    {
+      "text": "EQUALITY of status and of opportunity; and to promote among them all",
+      "font": "27px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 27,
+      "top": 318,
+      "bottom": 343
+    },
+    {
+      "text": "FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation;",
+      "font": "26px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 26,
+      "top": 352,
+      "bottom": 375
+    },
+    {
+      "text": "IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949,",
+      "font": "26px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 26,
+      "top": 387,
+      "bottom": 410
+    },
+    {
+      "text": "do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.",
+      "font": "bold 27px \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "size": 27,
+      "top": 419,
+      "bottom": 443
+    }
+  ],
+  "minimumGap": 9,
+  "mobileNoOverflow": true,
+  "errors": []
+}

@@ -23,7 +23,7 @@ await cdp('Page.navigate',{url:base});
 async function until(expression){return evaluate(`new Promise((resolve,reject)=>{let n=0;const poll=()=>{if((${expression}))return resolve(true);if(n++>600)return reject(Error('Scene not ready'));setTimeout(poll,100)};poll()})`)}
 await until(`window.ClayStudio?.inspection().assetsReady&&window.ScarfJolt&&document.querySelector('iframe')?.contentDocument?.body?.dataset.ready==='true'`);
 console.log('Snapshot renderer loaded');
-const editions=['robots','puppets','halloween','holi','india','france','christmas','diwali','snow'];
+const editions=['robots','puppets','halloween','holi','republic','independence','france','christmas','diwali','snow'];
 const manifest={};
 for(const [width,height,label] of [[1440,1000,'desktop'],[390,844,'mobile']]){
  await cdp('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:2,mobile:label==='mobile'});

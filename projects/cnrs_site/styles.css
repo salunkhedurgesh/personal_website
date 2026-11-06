@@ -134,8 +134,18 @@ body{overflow-x:clip}.kinscene{background:transparent}.teachenvironment{backgrou
 #atlasHost iframe{opacity:0;transition:opacity .2s ease}
 #atlasHost[data-live=true] iframe{opacity:1}
 #atlasHost[data-live=true] .atlas-preview{opacity:0}
-.top [data-nav=home] canvas{background:center/contain no-repeat url(images/nav-home.png)}
-.top [data-nav=publications] canvas{background:center/contain no-repeat url(images/nav-publications.png)}
-.top [data-nav=projects] canvas{background:center/contain no-repeat url(images/nav-projects.png)}
-.top [data-nav=teaching] canvas{background:center/contain no-repeat url(images/nav-teaching.png)}
+.top [data-nav=home] canvas{background:center/contain no-repeat url(images/nav-home.png?v=5dacd4a8ef83)}
+.top [data-nav=publications] canvas{background:center/contain no-repeat url(images/nav-publications.png?v=5dacd4a8ef83)}
+.top [data-nav=projects] canvas{background:center/contain no-repeat url(images/nav-projects.png?v=5dacd4a8ef83)}
+.top [data-nav=teaching] canvas{background:center/contain no-repeat url(images/nav-teaching.png?v=5dacd4a8ef83)}
 .nav-live .top [data-nav] canvas{background-image:none}
+.nav-live .top [data-nav] canvas{touch-action:pan-y;cursor:grab}
+.nav-live .top [data-nav] canvas:active{cursor:grabbing}
+
+/* Page portraits share the navigation renderer and retain their image while loading. */
+.dir-title{display:flex;align-items:center;gap:17px;margin:0 0 15px}.dir-title h1{margin:0}.page-title-model{width:86px;height:94px;flex:0 0 86px;position:relative;display:block}.page-title-model img,.page-title-model canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.page-title-model canvas{opacity:0;cursor:grab;touch-action:pan-y}.page-title-model.live canvas{opacity:1}.page-title-model.live img{visibility:hidden}.page-title-model canvas:active{cursor:grabbing}
+.kinscene{background:radial-gradient(ellipse at 48% 28%,#edf1ec,#dce4de)}#kinCanvas{outline-offset:-3px}#kinCanvas.grabbing{cursor:grabbing}.kinscene.solo #kinCanvas{cursor:grab}.parallel-note{width:214px;max-width:37%;padding:12px;background:#f4f7f1ed;font-size:11px;line-height:1.45;max-height:calc(100% - 28px);overflow:auto;scrollbar-width:thin}.parallel-note h3{font-size:23px;margin:10px 0 6px}.parallel-note p{margin:0 0 9px}.rss-actions{display:flex;align-items:center;justify-content:space-between;gap:4px}.rss-actions .btn{font-size:10px}.rss-readings{display:grid;gap:4px;border-block:1px solid #c7d2c8;padding:7px 0;margin:8px 0}.rss-readings span,.rss-stiffness{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px}.rss-readings output,.rss-stiffness output{font-variant-numeric:tabular-nums;font-weight:600}.rss-stiffness{margin-top:10px}.rss-stiffness input{width:100%;margin:3px 0;accent-color:#3c6856}.parallel-note .rss-status{font-size:10px;color:#5c7264;margin:3px 0 8px;min-height:15px}.parallel-note .at-limit{color:#8c601e}
+@media(max-width:700px){.dir-title{gap:10px}.page-title-model{width:58px;height:67px;flex-basis:58px}.parallel-note{top:9px;left:9px}}
+@media(max-width:539px){.kinscene.solo #kinCanvas{height:calc(100% - 130px)}.parallel-note{top:auto;bottom:0;left:0;right:0;width:100%;max-width:none;max-height:145px;padding:9px 12px;border-radius:0;display:grid;grid-template-columns:1fr 1fr;gap:3px 14px;border-inline:0;border-bottom:0}.rss-actions{grid-column:1/-1}.parallel-note h3{font-size:19px;margin:2px 0}.parallel-note>p{grid-column:1;margin:0;font-size:10px}.rss-readings{grid-column:2;grid-row:2/4;font-size:10px;margin:0;padding:2px 0;gap:0}.rss-stiffness{grid-column:1/-1;display:flex;align-items:center;margin:0;font-size:10px;gap:6px}.rss-stiffness input{width:auto;flex:1;min-width:60px;margin:0}.parallel-note .rss-status{grid-column:1;margin:0;font-size:9px;min-height:12px}}
+
+.popup-footer .popup-actions{margin-left:auto}

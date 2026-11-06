@@ -1,0 +1,81 @@
+{
+  "models": [
+    {
+      "id": "home-a",
+      "meshes": 1,
+      "triangles": 1400
+    },
+    {
+      "id": "home-b",
+      "meshes": 3,
+      "triangles": 2424
+    },
+    {
+      "id": "home-c",
+      "meshes": 16,
+      "triangles": 1868
+    },
+    {
+      "id": "publications-a",
+      "meshes": 7,
+      "triangles": 6300
+    },
+    {
+      "id": "publications-b",
+      "meshes": 8,
+      "triangles": 3328
+    },
+    {
+      "id": "publications-c",
+      "meshes": 16,
+      "triangles": 5000
+    },
+    {
+      "id": "projects-a",
+      "meshes": 21,
+      "triangles": 8536
+    },
+    {
+      "id": "projects-b",
+      "meshes": 13,
+      "triangles": 4688
+    },
+    {
+      "id": "projects-c",
+      "meshes": 11,
+      "triangles": 4772
+    },
+    {
+      "id": "teaching-a",
+      "meshes": 14,
+      "triangles": 3792
+    },
+    {
+      "id": "teaching-b",
+      "meshes": 19,
+      "triangles": 5180
+    },
+    {
+      "id": "teaching-c",
+      "meshes": 17,
+      "triangles": 5708
+    }
+  ],
+  "dimensions": {
+    "width": 1440,
+    "scroll": 1440,
+    "canvases": 16,
+    "selected": 4
+  },
+  "pointerRotation": true,
+  "keyboardRotation": true,
+  "selection": true,
+  "orbitLimits": {
+    "baseYaw": -0.12,
+    "yawLimit": 0.4363323129985824,
+    "pitchLimit": 0.20943951023931953
+  },
+  "mobileNoOverflow": true,
+  "opensWithoutServer": true,
+  "errors": []
+}

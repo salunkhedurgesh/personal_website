@@ -1,0 +1,7 @@
+Preamble of the Constitution of India (current text).
+Source: Ministry of Youth Affairs and Sports, Government of India
+https://yas.nic.in/sites/default/files/preambleenglish.pdf
+Cross-check: https://www.mygov.in/campaigns/read-preamble
+Transcribed without editorial amendment-footnote markers.
+The Republic Day CanvasTexture renders all substantive text, including the adopting clause.
+Typography and parchment treatment are drawn locally by js/clay/national.js.

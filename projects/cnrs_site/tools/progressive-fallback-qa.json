@@ -1,5 +1,5 @@
 {
-  "openingFrames": 18,
+  "openingFrames": 20,
   "independentCNRS": {
     "mode": "3d",
     "snapshotHidden": true,
@@ -11,20 +11,20 @@
     "after": -0.1955555555555556
   },
   "mobilePreview": {
-    "at": 3075.10000000149,
+    "at": 3456.100000000559,
     "paint": {
-      "lcp": 2936
+      "lcp": 3356
     },
     "live": "false",
     "textVisible": true,
-    "preview": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=81ce9d0dccad"
+    "preview": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=ce7a9932f58e"
   },
   "mobileLive": {
-    "at": 14848.60000000149,
+    "at": 15371.900000000373,
     "paint": {
-      "lcp": 2936,
-      "preview": 3119.2000000029802,
-      "letterheadLive": 14223.70000000298
+      "lcp": 3356,
+      "preview": 3496.600000000559,
+      "letterheadLive": 14615.400000000373
     },
     "assetsReady": true,
     "width": 390,
@@ -43,7 +43,7 @@
   },
   "cnrsModelFailure": {
     "mode": "snapshot",
-    "src": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=81ce9d0dccad"
+    "src": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=ce7a9932f58e"
   },
   "modelFailure": {
     "live": "false",

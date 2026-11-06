@@ -32,12 +32,12 @@ report.initial=await evaluate(`({at:performance.now(),live:document.getElementBy
 const initial=[...requests];report.initialRequests=initial.filter(u=>/^https?:/.test(u));
 assert(initial.some(u=>u.includes('/models/letterhead/abb-gofa-crb15000.glb')));
 assert(initial.some(u=>u.includes('/models/letterhead/kuka-iiwa7.glb')));
-for(const forbidden of ['/models/abb-gofa-crb15000.glb','/models/kuka-iiwa7.glb','strasbourg-studio.glb','world.webp','europe.webp','/js/clay/carving.js','/js/clay/caps.js','/js/games.js','/js/chess.js'])assert(!initial.some(u=>u.includes(forbidden)),forbidden+' fetched at startup');
-await until(`caches.open('portfolio-scene-previews-'+SiteAssets.version).then(c=>c.keys()).then(keys=>keys.length>=19)`.replace(/^/,''));
-report.cache=await evaluate(`(async()=>{const c=await caches.open('portfolio-scene-previews-'+SiteAssets.version);return (await c.keys()).map(k=>k.url)})()`);assert.equal(report.cache.length,19);
+for(const forbidden of ['/models/abb-gofa-crb15000.glb','/models/kuka-iiwa7.glb','strasbourg-studio.glb','world.webp','europe.webp','/js/clay/carving.js','/js/clay/caps.js','/js/clay/holi.js','/js/clay/national.js','/js/games.js','/js/chess.js'])assert(!initial.some(u=>u.includes(forbidden)),forbidden+' fetched at startup');
+await until(`caches.open('portfolio-scene-previews-'+SiteAssets.version).then(c=>c.keys()).then(keys=>keys.length>=21)`.replace(/^/,''));
+report.cache=await evaluate(`(async()=>{const c=await caches.open('portfolio-scene-previews-'+SiteAssets.version);return (await c.keys()).map(k=>k.url)})()`);assert.equal(report.cache.length,21);
 await shot('live-desktop');
 report.themes=[];
-for(const [theme,time] of [['robots',9.5],['puppets',4],['halloween',11],['holi',10.5],['india',10.5],['france',10.5],['christmas',10.5],['diwali',17],['snow',27]]){
+for(const [theme,time] of [['robots',9.5],['puppets',4],['halloween',11],['holi',10.5],['republic',24],['independence',18],['france',18],['christmas',10.5],['diwali',17],['snow',35]]){
  await evaluate(`(async()=>{await Studio3D.select('${theme}');await ClayStudio.whenReady();ClayStudio.seek(${time});ClayStudio.tick(performance.now())})()`);
  await until(`document.getElementById('marquee').dataset.live==='true'`);
  const state=await evaluate(`(()=>{const s=ClayStudio.inspection(),rigs=[];s.root.traverse(n=>{if(n.userData.gripError!==undefined)rigs.push(n.userData.gripError)});return {theme:s.theme,assetsReady:s.assetsReady,units:s.units.length,rigs,live:document.getElementById('marquee').dataset.live,caps:s.units.filter(u=>u.cap).length,previewSrc:document.getElementById('letterhead-preview').currentSrc}})()`);

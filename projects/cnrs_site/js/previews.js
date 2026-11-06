@@ -1,7 +1,7 @@
 /* Real scene snapshots appear before their live canvases and are saved for repeat visits. */
 window.ScenePreviews=(()=>{
  'use strict';
- const editions=['robots','puppets','halloween','holi','india','france','christmas','diwali','snow'];
+ const editions=['robots','puppets','halloween','holi','republic','independence','france','christmas','diwali','snow'];
  const key='portfolio-scene-previews-'+SiteAssets.version,urls=new Map();
  const host=document.getElementById('marquee'),image=document.getElementById('letterhead-preview');
  const mobile=matchMedia('(max-width:700px)');let current='robots',token=0,saved=false;

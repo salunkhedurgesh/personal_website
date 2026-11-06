@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "mechanism": "6-RSS",
+  "units": {
+    "length": "metres",
+    "angle": "radians"
+  },
+  "source": {
+    "path": "models/zamanov-6rss.glb",
+    "sha256": "1b9a115e077f710923889e8b3f41189a2a9a4d948ba97b4af11335aa11f4ac3f",
+    "nodeCount": 776,
+    "assetGenerator": "Parallel Lab / visual reconstructions",
+    "assembly": "visual rest pose; not calibrated",
+    "calibrated": false
+  },
+  "conventions": {
+    "coordinates": "right-handed glTF; +Y up; XZ ground plane",
+    "matrices": "column-major glTF / Three.js Matrix4 arrays",
+    "angleReference": "q=0 is the supplied visual rest pose; positive q follows the right-hand rule around baseAxis",
+    "crankNodeUpdate": "homeLocalMatrix * RotationY(q); translation is unchanged",
+    "rodNodeUpdate": "set the rod origin to the lower spherical centre and rigidly align local +Y to upper-minus-lower; retain unit scale",
+    "branchPolicy": "Continue the homeRootSign branch from q=0; unwrap to the nearest previous angle. Reject unreachable poses rather than stretching rods or silently changing assembly branch.",
+    "jointLimits": "Not supplied by the visual GLB; no physical actuator or spherical-joint limits are asserted."
+  },
+  "root": {
+    "index": 0,
+    "name": "6-RSS · Zamanov",
+    "parentIndex": null
+  },
+  "platform": {
+    "node": {
+      "index": 6,
+      "name": "P / Moving platform",
+      "parentIndex": 0
+    },
+    "homePositionM": [
+      0.0,
+      0.264,
+      0.0
+    ],
+    "homeQuaternionXYZW": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "homeMatrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.264,
+      0.0,
+      1.0
+    ]
+  },
+  "closure": {
+    "lowerJoint": "basePivotM + crankAxialOffsetM*baseAxis + cos(q)*homeRadialVectorM + sin(q)*homeTangentVectorM",
+    "upperJoint": "platformPosition + platformRotation*platformAttachmentM",
+    "constraint": "squaredNorm(upperJoint-lowerJoint) = rodLengthM^2",
+    "inverse": "C=basePivotM+crankAxialOffsetM*baseAxis; e=upperJoint-C; a=dot(e,u); b=dot(e,v); k=(dot(e,e)+dot(u,u)-L^2)/2; q=atan2(b,a)+homeRootSign*acos(k/hypot(a,b)); u=homeRadialVectorM; v=homeTangentVectorM",
+    "inverseReachability": "abs(k)<=hypot(a,b), within floating-point tolerance; hypot(a,b)>0"
+  },
+  "legs": [
+    {
+      "id": "R01",
+      "nodes": {
+        "motorPair": {
+          "index": 8,
+          "name": "01 / Motor pair 1",
+          "parentIndex": 0
+        },
+        "fixedMotor": {
+          "index": 10,
+          "name": "R01 / Fixed MX-64T",
+          "parentIndex": 8
+        },
+        "crank": {
+          "index": 65,
+          "name": "R01 / R joint + L1 crank",
+          "parentIndex": 8
+        },
+        "rod": {
+          "index": 81,
+          "name": "R01 / L2 rod",
+          "parentIndex": 8
+        },
+        "lowerSphericalBall": {
+          "index": 85,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 81
+        },
+        "upperSphericalBall": {
+          "index": 111,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 81
+        },
+        "platformSaddle": {
+          "index": 79,
+          "name": "R01 / Pin saddle",
+          "parentIndex": 9
+        },
+        "platformBearingPin": {
+          "index": 80,
+          "name": "Platform bearing pin",
+          "parentIndex": 9
+        },
+        "crankStandOff": {
+          "index": 78,
+          "name": "Elbow stand-off",
+          "parentIndex": 65
+        }
+      },
+      "basePivotM": [
+        -0.114,
+        0.055,
+        0.1428209068
+      ],
+      "baseAxis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "crankRadiusM": 0.077,
+      "crankAxialOffsetM": 0.01,
+      "crankRotationAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "metadataAxisLocal": [
+        0,
+        0,
+        1
+      ],
+      "crankBallCenterLocalM": [
+        0.077000000021,
+        0.01,
+        4.3e-11
+      ],
+      "homeRadialVectorM": [
+        0.0768563795,
+        0.0047007375,
+        0.0
+      ],
+      "homeTangentVectorM": [
+        -0.0047007375,
+        0.0768563795,
+        0.0
+      ],
+      "homeLowerJointM": [
+        -0.0371436205,
+        0.0597007375,
+        0.1528209068
+      ],
+      "homeUpperJointM": [
+        -0.148999999971,
+        0.263999999963,
+        0.104108093881
+      ],
+      "platformAttachmentM": [
+        -0.148999999971,
+        -3.7e-11,
+        0.104108093881
+      ],
+      "platformSaddleToBallOffsetM": [
+        2.9e-11,
+        -3.7e-11,
+        0.011199999981
+      ],
+      "rodLengthM": 0.2379558287,
+      "rodDeclaredLengthM": 0.23795580000000002,
+      "rodJointALocalM": [
+        0,
+        0,
+        0
+      ],
+      "rodJointBLocalM": [
+        0,
+        0.2379558287,
+        0
+      ],
+      "rodLongAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "rodHomeDirectionBase": [
+        -0.470072030095,
+        0.85855960569,
+        -0.204713678098
+      ],
+      "homeAngleRad": 0,
+      "homeRootSign": -1,
+      "alternateHomeAngleRad": -2.931916755403,
+      "homeConstraintDerivativeM2PerRad": -0.03245501825,
+      "jointLimitsRad": null,
+      "crankHomeLocalMatrix": [
+        0.9981347984,
+        0.0610485395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0610485395,
+        -0.9981347984,
+        0.0,
+        0.0,
+        -0.114,
+        0.055,
+        0.1428209068,
+        1.0
+      ],
+      "rodHomeLocalMatrix": [
+        -0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        -0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        -0.4802426576,
+        0.0,
+        0.0,
+        -0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "rodHomeBaseMatrix": [
+        -0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        -0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        -0.4802426576,
+        0.0,
+        0.0,
+        -0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "motorPairHomeBaseMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "homeConstraintErrorM": 2.772809759576944e-12
+    },
+    {
+      "id": "R02",
+      "nodes": {
+        "motorPair": {
+          "index": 8,
+          "name": "01 / Motor pair 1",
+          "parentIndex": 0
+        },
+        "fixedMotor": {
+          "index": 137,
+          "name": "R02 / Fixed MX-64T",
+          "parentIndex": 8
+        },
+        "crank": {
+          "index": 192,
+          "name": "R02 / R joint + L1 crank",
+          "parentIndex": 8
+        },
+        "rod": {
+          "index": 208,
+          "name": "R02 / L2 rod",
+          "parentIndex": 8
+        },
+        "lowerSphericalBall": {
+          "index": 212,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 208
+        },
+        "upperSphericalBall": {
+          "index": 238,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 208
+        },
+        "platformSaddle": {
+          "index": 206,
+          "name": "R02 / Pin saddle",
+          "parentIndex": 9
+        },
+        "platformBearingPin": {
+          "index": 207,
+          "name": "Platform bearing pin",
+          "parentIndex": 9
+        },
+        "crankStandOff": {
+          "index": 205,
+          "name": "Elbow stand-off",
+          "parentIndex": 192
+        }
+      },
+      "basePivotM": [
+        0.114,
+        0.055,
+        0.1428209068
+      ],
+      "baseAxis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "crankRadiusM": 0.077,
+      "crankAxialOffsetM": 0.01,
+      "crankRotationAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "metadataAxisLocal": [
+        0,
+        0,
+        1
+      ],
+      "crankBallCenterLocalM": [
+        0.077000000021,
+        0.01,
+        -4.3e-11
+      ],
+      "homeRadialVectorM": [
+        -0.0768563795,
+        0.0047007375,
+        0.0
+      ],
+      "homeTangentVectorM": [
+        -0.0047007375,
+        -0.0768563795,
+        0.0
+      ],
+      "homeLowerJointM": [
+        0.0371436205,
+        0.0597007375,
+        0.1528209068
+      ],
+      "homeUpperJointM": [
+        0.148999999971,
+        0.263999999963,
+        0.104108093881
+      ],
+      "platformAttachmentM": [
+        0.148999999971,
+        -3.7e-11,
+        0.104108093881
+      ],
+      "platformSaddleToBallOffsetM": [
+        -2.9e-11,
+        -3.7e-11,
+        0.011199999981
+      ],
+      "rodLengthM": 0.2379558287,
+      "rodDeclaredLengthM": 0.23795580000000002,
+      "rodJointALocalM": [
+        0,
+        0,
+        0
+      ],
+      "rodJointBLocalM": [
+        0,
+        0.2379558287,
+        0
+      ],
+      "rodLongAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "rodHomeDirectionBase": [
+        0.470072030095,
+        0.85855960569,
+        -0.204713678098
+      ],
+      "homeAngleRad": 0,
+      "homeRootSign": 1,
+      "alternateHomeAngleRad": 2.931916755403,
+      "homeConstraintDerivativeM2PerRad": 0.03245501825,
+      "jointLimitsRad": null,
+      "crankHomeLocalMatrix": [
+        -0.9981347984,
+        0.0610485395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0610485395,
+        0.9981347984,
+        0.0,
+        0.0,
+        0.114,
+        0.055,
+        0.1428209068,
+        1.0
+      ],
+      "rodHomeLocalMatrix": [
+        0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        0.4802426576,
+        0.0,
+        0.0,
+        0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "rodHomeBaseMatrix": [
+        0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        0.4802426576,
+        0.0,
+        0.0,
+        0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "motorPairHomeBaseMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "homeConstraintErrorM": 2.772809759576944e-12
+    },
+    {
+      "id": "R03",
+      "nodes": {
+        "motorPair": {
+          "index": 264,
+          "name": "02 / Motor pair 2",
+          "parentIndex": 0
+        },
+        "fixedMotor": {
+          "index": 266,
+          "name": "R03 / Fixed MX-64T",
+          "parentIndex": 264
+        },
+        "crank": {
+          "index": 321,
+          "name": "R03 / R joint + L1 crank",
+          "parentIndex": 264
+        },
+        "rod": {
+          "index": 337,
+          "name": "R03 / L2 rod",
+          "parentIndex": 264
+        },
+        "lowerSphericalBall": {
+          "index": 341,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 337
+        },
+        "upperSphericalBall": {
+          "index": 367,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 337
+        },
+        "platformSaddle": {
+          "index": 335,
+          "name": "R03 / Pin saddle",
+          "parentIndex": 265
+        },
+        "platformBearingPin": {
+          "index": 336,
+          "name": "Platform bearing pin",
+          "parentIndex": 265
+        },
+        "crankStandOff": {
+          "index": 334,
+          "name": "Elbow stand-off",
+          "parentIndex": 321
+        }
+      },
+      "basePivotM": [
+        0.180686533483,
+        0.055,
+        0.027316442633
+      ],
+      "baseAxis": [
+        0.866025403788,
+        0.0,
+        -0.499999999993
+      ],
+      "crankRadiusM": 0.077,
+      "crankAxialOffsetM": 0.01,
+      "crankRotationAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "metadataAxisLocal": [
+        0,
+        0,
+        1
+      ],
+      "crankBallCenterLocalM": [
+        0.077000000021,
+        0.01,
+        4.3e-11
+      ],
+      "homeRadialVectorM": [
+        -0.03842818975,
+        0.0047007375,
+        -0.066559577091
+      ],
+      "homeTangentVectorM": [
+        0.00235036875,
+        0.076856379501,
+        0.004070958092
+      ],
+      "homeLowerJointM": [
+        0.150918597771,
+        0.0597007375,
+        -0.044243134458
+      ],
+      "homeUpperJointM": [
+        0.164660254028,
+        0.263999999963,
+        0.0769837382
+      ],
+      "platformAttachmentM": [
+        0.164660254028,
+        -3.7e-11,
+        0.0769837382
+      ],
+      "platformSaddleToBallOffsetM": [
+        0.009699484492,
+        -3.7e-11,
+        -0.005600000016
+      ],
+      "rodLengthM": 0.2379558287,
+      "rodDeclaredLengthM": 0.23795580000000002,
+      "rodJointALocalM": [
+        0,
+        0,
+        0
+      ],
+      "rodJointBLocalM": [
+        0,
+        0.2379558287,
+        0
+      ],
+      "rodLongAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "rodHomeDirectionBase": [
+        0.057748769309,
+        0.858559605687,
+        0.509451158725
+      ],
+      "homeAngleRad": 0,
+      "homeRootSign": -1,
+      "alternateHomeAngleRad": -2.931916755409,
+      "homeConstraintDerivativeM2PerRad": -0.03245501825,
+      "jointLimitsRad": null,
+      "crankHomeLocalMatrix": [
+        0.9981347984,
+        0.0610485395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0610485395,
+        -0.9981347984,
+        0.0,
+        0.0,
+        -0.114,
+        0.055,
+        0.1428209068,
+        1.0
+      ],
+      "rodHomeLocalMatrix": [
+        -0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        -0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        -0.4802426576,
+        0.0,
+        0.0,
+        -0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "rodHomeBaseMatrix": [
+        0.89684075073,
+        0.1795616699,
+        -0.404270051463,
+        0.0,
+        0.05774876931,
+        0.8585596057,
+        0.509451158732,
+        0.0,
+        0.43856783675,
+        -0.4802426576,
+        0.75962177583,
+        0.0,
+        0.150918597771,
+        0.0597007375,
+        -0.044243134458,
+        1.0
+      ],
+      "motorPairHomeBaseMatrix": [
+        -0.5,
+        0.0,
+        -0.8660254038,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.8660254038,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "homeConstraintErrorM": 3.6158021021748254e-12
+    },
+    {
+      "id": "R04",
+      "nodes": {
+        "motorPair": {
+          "index": 264,
+          "name": "02 / Motor pair 2",
+          "parentIndex": 0
+        },
+        "fixedMotor": {
+          "index": 393,
+          "name": "R04 / Fixed MX-64T",
+          "parentIndex": 264
+        },
+        "crank": {
+          "index": 448,
+          "name": "R04 / R joint + L1 crank",
+          "parentIndex": 264
+        },
+        "rod": {
+          "index": 464,
+          "name": "R04 / L2 rod",
+          "parentIndex": 264
+        },
+        "lowerSphericalBall": {
+          "index": 468,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 464
+        },
+        "upperSphericalBall": {
+          "index": 494,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 464
+        },
+        "platformSaddle": {
+          "index": 462,
+          "name": "R04 / Pin saddle",
+          "parentIndex": 265
+        },
+        "platformBearingPin": {
+          "index": 463,
+          "name": "Platform bearing pin",
+          "parentIndex": 265
+        },
+        "crankStandOff": {
+          "index": 461,
+          "name": "Elbow stand-off",
+          "parentIndex": 448
+        }
+      },
+      "basePivotM": [
+        0.066686533483,
+        0.055,
+        -0.170137349433
+      ],
+      "baseAxis": [
+        0.866025403788,
+        0.0,
+        -0.499999999993
+      ],
+      "crankRadiusM": 0.077,
+      "crankAxialOffsetM": 0.01,
+      "crankRotationAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "metadataAxisLocal": [
+        0,
+        0,
+        1
+      ],
+      "crankBallCenterLocalM": [
+        0.077000000021,
+        0.01,
+        -4.3e-11
+      ],
+      "homeRadialVectorM": [
+        0.03842818975,
+        0.0047007375,
+        0.066559577091
+      ],
+      "homeTangentVectorM": [
+        0.00235036875,
+        -0.076856379501,
+        0.004070958092
+      ],
+      "homeLowerJointM": [
+        0.113774977271,
+        0.0597007375,
+        -0.108577772342
+      ],
+      "homeUpperJointM": [
+        0.015660254057,
+        0.263999999963,
+        -0.181091832082
+      ],
+      "platformAttachmentM": [
+        0.015660254057,
+        -3.7e-11,
+        -0.181091832082
+      ],
+      "platformSaddleToBallOffsetM": [
+        0.009699484521,
+        -3.7e-11,
+        -0.005599999966
+      ],
+      "rodLengthM": 0.2379558287,
+      "rodDeclaredLengthM": 0.23795580000000002,
+      "rodJointALocalM": [
+        0,
+        0,
+        0
+      ],
+      "rodJointBLocalM": [
+        0,
+        0.2379558287,
+        0
+      ],
+      "rodLongAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "rodHomeDirectionBase": [
+        -0.412323260784,
+        0.858559605687,
+        -0.304737480628
+      ],
+      "homeAngleRad": 0,
+      "homeRootSign": 1,
+      "alternateHomeAngleRad": 2.931916755409,
+      "homeConstraintDerivativeM2PerRad": 0.03245501825,
+      "jointLimitsRad": null,
+      "crankHomeLocalMatrix": [
+        -0.9981347984,
+        0.0610485395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0610485395,
+        0.9981347984,
+        0.0,
+        0.0,
+        0.114,
+        0.055,
+        0.1428209068,
+        1.0
+      ],
+      "rodHomeLocalMatrix": [
+        0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        0.4802426576,
+        0.0,
+        0.0,
+        0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "rodHomeBaseMatrix": [
+        0.79852850993,
+        0.1795616699,
+        -0.574551847537,
+        0.0,
+        -0.41232326079,
+        0.8585596057,
+        -0.304737480632,
+        0.0,
+        0.43856783675,
+        0.4802426576,
+        0.75962177583,
+        0.0,
+        0.113774977271,
+        0.0597007375,
+        -0.108577772342,
+        1.0
+      ],
+      "motorPairHomeBaseMatrix": [
+        -0.5,
+        0.0,
+        -0.8660254038,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.8660254038,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "homeConstraintErrorM": 3.6158021021748254e-12
+    },
+    {
+      "id": "R05",
+      "nodes": {
+        "motorPair": {
+          "index": 520,
+          "name": "03 / Motor pair 3",
+          "parentIndex": 0
+        },
+        "fixedMotor": {
+          "index": 522,
+          "name": "R05 / Fixed MX-64T",
+          "parentIndex": 520
+        },
+        "crank": {
+          "index": 577,
+          "name": "R05 / R joint + L1 crank",
+          "parentIndex": 520
+        },
+        "rod": {
+          "index": 593,
+          "name": "R05 / L2 rod",
+          "parentIndex": 520
+        },
+        "lowerSphericalBall": {
+          "index": 597,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 593
+        },
+        "upperSphericalBall": {
+          "index": 623,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 593
+        },
+        "platformSaddle": {
+          "index": 591,
+          "name": "R05 / Pin saddle",
+          "parentIndex": 521
+        },
+        "platformBearingPin": {
+          "index": 592,
+          "name": "Platform bearing pin",
+          "parentIndex": 521
+        },
+        "crankStandOff": {
+          "index": 590,
+          "name": "Elbow stand-off",
+          "parentIndex": 577
+        }
+      },
+      "basePivotM": [
+        -0.066686533483,
+        0.055,
+        -0.170137349433
+      ],
+      "baseAxis": [
+        -0.866025403788,
+        0.0,
+        -0.499999999993
+      ],
+      "crankRadiusM": 0.077,
+      "crankAxialOffsetM": 0.01,
+      "crankRotationAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "metadataAxisLocal": [
+        0,
+        0,
+        1
+      ],
+      "crankBallCenterLocalM": [
+        0.077000000021,
+        0.01,
+        4.3e-11
+      ],
+      "homeRadialVectorM": [
+        -0.03842818975,
+        0.0047007375,
+        0.066559577091
+      ],
+      "homeTangentVectorM": [
+        0.00235036875,
+        0.076856379501,
+        -0.004070958092
+      ],
+      "homeLowerJointM": [
+        -0.113774977271,
+        0.0597007375,
+        -0.108577772342
+      ],
+      "homeUpperJointM": [
+        -0.015660254057,
+        0.263999999963,
+        -0.181091832082
+      ],
+      "platformAttachmentM": [
+        -0.015660254057,
+        -3.7e-11,
+        -0.181091832082
+      ],
+      "platformSaddleToBallOffsetM": [
+        -0.009699484521,
+        -3.7e-11,
+        -0.005599999966
+      ],
+      "rodLengthM": 0.2379558287,
+      "rodDeclaredLengthM": 0.23795580000000002,
+      "rodJointALocalM": [
+        0,
+        0,
+        0
+      ],
+      "rodJointBLocalM": [
+        0,
+        0.2379558287,
+        0
+      ],
+      "rodLongAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "rodHomeDirectionBase": [
+        0.412323260784,
+        0.858559605687,
+        -0.304737480628
+      ],
+      "homeAngleRad": 0,
+      "homeRootSign": -1,
+      "alternateHomeAngleRad": -2.931916755409,
+      "homeConstraintDerivativeM2PerRad": -0.03245501825,
+      "jointLimitsRad": null,
+      "crankHomeLocalMatrix": [
+        0.9981347984,
+        0.0610485395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0610485395,
+        -0.9981347984,
+        0.0,
+        0.0,
+        -0.114,
+        0.055,
+        0.1428209068,
+        1.0
+      ],
+      "rodHomeLocalMatrix": [
+        -0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        -0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        -0.4802426576,
+        0.0,
+        0.0,
+        -0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "rodHomeBaseMatrix": [
+        -0.79852850993,
+        0.1795616699,
+        -0.574551847537,
+        0.0,
+        0.41232326079,
+        0.8585596057,
+        -0.304737480632,
+        0.0,
+        0.43856783675,
+        -0.4802426576,
+        -0.75962177583,
+        0.0,
+        -0.113774977271,
+        0.0597007375,
+        -0.108577772342,
+        1.0
+      ],
+      "motorPairHomeBaseMatrix": [
+        -0.5,
+        0.0,
+        0.8660254038,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.8660254038,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "homeConstraintErrorM": 3.6158021021748254e-12
+    },
+    {
+      "id": "R06",
+      "nodes": {
+        "motorPair": {
+          "index": 520,
+          "name": "03 / Motor pair 3",
+          "parentIndex": 0
+        },
+        "fixedMotor": {
+          "index": 649,
+          "name": "R06 / Fixed MX-64T",
+          "parentIndex": 520
+        },
+        "crank": {
+          "index": 704,
+          "name": "R06 / R joint + L1 crank",
+          "parentIndex": 520
+        },
+        "rod": {
+          "index": 720,
+          "name": "R06 / L2 rod",
+          "parentIndex": 520
+        },
+        "lowerSphericalBall": {
+          "index": 724,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 720
+        },
+        "upperSphericalBall": {
+          "index": 750,
+          "name": "Silver rod end · polished ball",
+          "parentIndex": 720
+        },
+        "platformSaddle": {
+          "index": 718,
+          "name": "R06 / Pin saddle",
+          "parentIndex": 521
+        },
+        "platformBearingPin": {
+          "index": 719,
+          "name": "Platform bearing pin",
+          "parentIndex": 521
+        },
+        "crankStandOff": {
+          "index": 717,
+          "name": "Elbow stand-off",
+          "parentIndex": 704
+        }
+      },
+      "basePivotM": [
+        -0.180686533483,
+        0.055,
+        0.027316442633
+      ],
+      "baseAxis": [
+        -0.866025403788,
+        0.0,
+        -0.499999999993
+      ],
+      "crankRadiusM": 0.077,
+      "crankAxialOffsetM": 0.01,
+      "crankRotationAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "metadataAxisLocal": [
+        0,
+        0,
+        1
+      ],
+      "crankBallCenterLocalM": [
+        0.077000000021,
+        0.01,
+        -4.3e-11
+      ],
+      "homeRadialVectorM": [
+        0.03842818975,
+        0.0047007375,
+        -0.066559577091
+      ],
+      "homeTangentVectorM": [
+        0.00235036875,
+        -0.076856379501,
+        -0.004070958092
+      ],
+      "homeLowerJointM": [
+        -0.150918597771,
+        0.0597007375,
+        -0.044243134458
+      ],
+      "homeUpperJointM": [
+        -0.164660254028,
+        0.263999999963,
+        0.0769837382
+      ],
+      "platformAttachmentM": [
+        -0.164660254028,
+        -3.7e-11,
+        0.0769837382
+      ],
+      "platformSaddleToBallOffsetM": [
+        -0.009699484492,
+        -3.7e-11,
+        -0.005600000016
+      ],
+      "rodLengthM": 0.2379558287,
+      "rodDeclaredLengthM": 0.23795580000000002,
+      "rodJointALocalM": [
+        0,
+        0,
+        0
+      ],
+      "rodJointBLocalM": [
+        0,
+        0.2379558287,
+        0
+      ],
+      "rodLongAxisLocal": [
+        0,
+        1,
+        0
+      ],
+      "rodHomeDirectionBase": [
+        -0.057748769309,
+        0.858559605687,
+        0.509451158725
+      ],
+      "homeAngleRad": 0,
+      "homeRootSign": 1,
+      "alternateHomeAngleRad": 2.931916755409,
+      "homeConstraintDerivativeM2PerRad": 0.03245501825,
+      "jointLimitsRad": null,
+      "crankHomeLocalMatrix": [
+        -0.9981347984,
+        0.0610485395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0610485395,
+        0.9981347984,
+        0.0,
+        0.0,
+        0.114,
+        0.055,
+        0.1428209068,
+        1.0
+      ],
+      "rodHomeLocalMatrix": [
+        0.0983122408,
+        0.1795616699,
+        0.978821899,
+        0.0,
+        0.4700720301,
+        0.8585596057,
+        -0.2047136781,
+        0.0,
+        -0.8771356735,
+        0.4802426576,
+        0.0,
+        0.0,
+        0.0371436205,
+        0.0597007375,
+        0.1528209068,
+        1.0
+      ],
+      "rodHomeBaseMatrix": [
+        -0.89684075073,
+        0.1795616699,
+        -0.404270051463,
+        0.0,
+        -0.05774876931,
+        0.8585596057,
+        0.509451158732,
+        0.0,
+        0.43856783675,
+        0.4802426576,
+        -0.75962177583,
+        0.0,
+        -0.150918597771,
+        0.0597007375,
+        -0.044243134458,
+        1.0
+      ],
+      "motorPairHomeBaseMatrix": [
+        -0.5,
+        0.0,
+        0.8660254038,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.8660254038,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "homeConstraintErrorM": 3.6158021021748254e-12
+    }
+  ],
+  "validation": {
+    "homeRodConstraintErrorsM": [
+      2.772809759576944e-12,
+      2.772809759576944e-12,
+      3.6158021021748254e-12,
+      3.6158021021748254e-12,
+      3.6158021021748254e-12,
+      3.6158021021748254e-12
+    ],
+    "maxHomeRodConstraintErrorM": 3.6158021021748254e-12,
+    "maxStoredConfigHomeErrorM": 4.0863423755865824e-12,
+    "homePlatformConstraintJacobianRank": 6,
+    "testedSmallPoseCount": 64,
+    "maxSmallPoseRodConstraintErrorM": 3.885780586188048e-16,
+    "maxSmallPoseAbsAngleRad": 0.19277248828837568,
+    "sourceUnchanged": true
+  }
+}

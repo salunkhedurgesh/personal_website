@@ -1,0 +1,44 @@
+stateDiagram-v2
+    direction TB
+    [*] --> Mode
+    state Mode <<choice>>
+    Mode --> Manual: Explicit preview selected
+    Mode --> National: Live calendar
+    state National <<choice>>
+    state "Chosen animation" as Manual
+    National --> Republic: 26 Jan
+    National --> Independence: 15 Aug
+    National --> France: 14 Jul
+    National --> Festival: Other dates
+    state "Indian Republic Day" as Republic
+    state "Indian Independence Day" as Independence
+    state "France · la Fête nationale" as France
+    state Festival <<choice>>
+    Festival --> Diwali: Diwali ±3 days
+    Festival --> Holi: Holi ±3 days
+    Festival --> Christmas: 22–28 Dec
+    Festival --> HalloweenWindow: Outside festival weeks
+    state HalloweenWindow <<choice>>
+    HalloweenWindow --> Halloween: Enabled and 25–31 Oct
+    HalloweenWindow --> Season: Otherwise
+    state Season <<choice>>
+    Season --> WinterPool: Dec–Feb or Strasbourg snowfall
+    Season --> StandardPool: Otherwise
+    state "Saved counter s mod 3" as WinterPool
+    state "Saved counter s mod 2" as StandardPool
+    WinterPool --> Robots: 0
+    WinterPool --> Marionettes: 1
+    WinterPool --> Winter: 2
+    StandardPool --> Robots: 0
+    StandardPool --> Marionettes: 1
+    state "Robot assembly" as Robots
+    state "Strasbourg Winter" as Winter
+    note right of Diwali
+        2026: 5–11 November
+        Overrides the rotation all week
+    end note
+    note right of StandardPool
+        s advances on page load,
+        return to Home, or choosing Auto.
+        No timer-based cycling.
+    end note

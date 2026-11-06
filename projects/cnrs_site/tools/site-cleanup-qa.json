@@ -1,0 +1,71 @@
+{
+  "records": [
+    {
+      "id": "science25_gupta",
+      "title": "https://www.science.org/doi/10.1126/scirobotics.aea1995",
+      "links": [
+        {
+          "label": "Demonstrate once, execute on many: Kinematic intelligence for cross-robot skill transfer",
+          "url": "https://www.science.org/doi/10.1126/scirobotics.aea1995"
+        },
+        {
+          "label": "BibTeX",
+          "url": "http://127.0.0.1:8765/projects/main/resources/citations/science25_gupta.bib"
+        }
+      ]
+    },
+    {
+      "id": "ijrr24_salunkhe",
+      "title": "https://journals.sagepub.com/doi/10.1177/02783649241293481",
+      "links": [
+        {
+          "label": "Kinematic issues in 6R cuspidal robots, guidelines for path planning and deciding cuspidality",
+          "url": "https://journals.sagepub.com/doi/10.1177/02783649241293481"
+        },
+        {
+          "label": "BibTeX",
+          "url": "http://127.0.0.1:8765/projects/main/resources/citations/ijrr24_salunkhe.bib"
+        }
+      ]
+    }
+  ],
+  "selected": [
+    "https://doi.org/10.1016/j.mechmachtheory.2022.104796",
+    "https://journals.sagepub.com/doi/10.1177/02783649241293481",
+    "https://www.science.org/doi/10.1126/scirobotics.aea1995"
+  ],
+  "cards": [
+    "http://127.0.0.1:8765/?cleanup-qa=1793978917145#publications?theme=Mechanism%20design",
+    "https://journals.sagepub.com/doi/10.1177/02783649241293481",
+    "https://www.science.org/doi/10.1126/scirobotics.aea1995"
+  ],
+  "panels": [
+    {
+      "i": 0,
+      "length": 497,
+      "links": [
+        "http://127.0.0.1:8765/projects/main/resources/papers/thesis20_salunkhe.pdf",
+        "http://127.0.0.1:8765/?cleanup-qa=1793978917145#publications?theme=Mechanism%20design"
+      ]
+    },
+    {
+      "i": 1,
+      "length": 528,
+      "links": [
+        "https://journals.sagepub.com/doi/10.1177/02783649241293481"
+      ]
+    },
+    {
+      "i": 2,
+      "length": 493,
+      "links": [
+        "https://www.science.org/doi/10.1126/scirobotics.aea1995"
+      ]
+    }
+  ],
+  "rss": {
+    "copy": "← Both robotsReset6-RSS platformDrag the gold handle or top platform. Release to spring back.Displacement 0.0 mmSpring force 0.0 NVirtual spring 600 N/m25 mm travel envelope",
+    "controls": 3
+  },
+  "errors": []
+}

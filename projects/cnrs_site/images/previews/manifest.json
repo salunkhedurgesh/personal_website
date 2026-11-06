@@ -17,8 +17,8 @@
     "time": 0,
     "phase": "start",
     "pose": {
-      "firstLetterY": 0.13203092806489888,
-      "lastLetterY": 0.10114409361185087
+      "firstLetterY": 0.6720309280648988,
+      "lastLetterY": 0.6411440936118509
     }
   },
   "halloween-desktop": {
@@ -43,8 +43,19 @@
       "lastLetterY": 0.443
     }
   },
-  "india-desktop": {
-    "file": "images/previews/letterhead-india-desktop.webp",
+  "republic-desktop": {
+    "file": "images/previews/letterhead-republic-desktop.webp",
+    "width": 1353,
+    "height": 248,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
+  },
+  "independence-desktop": {
+    "file": "images/previews/letterhead-independence-desktop.webp",
     "width": 1353,
     "height": 248,
     "time": 0,
@@ -118,8 +129,8 @@
     "time": 0,
     "phase": "start",
     "pose": {
-      "firstLetterY": 0.1323116424556532,
-      "lastLetterY": 0.1014566811506159
+      "firstLetterY": 0.6723115447040358,
+      "lastLetterY": 0.6414567026082766
     }
   },
   "halloween-mobile": {
@@ -144,8 +155,19 @@
       "lastLetterY": 0.443
     }
   },
-  "india-mobile": {
-    "file": "images/previews/letterhead-india-mobile.webp",
+  "republic-mobile": {
+    "file": "images/previews/letterhead-republic-mobile.webp",
+    "width": 592,
+    "height": 149,
+    "time": 0,
+    "phase": "start",
+    "pose": {
+      "firstLetterY": 0.443,
+      "lastLetterY": 0.443
+    }
+  },
+  "independence-mobile": {
+    "file": "images/previews/letterhead-independence-mobile.webp",
     "width": 592,
     "height": 149,
     "time": 0,

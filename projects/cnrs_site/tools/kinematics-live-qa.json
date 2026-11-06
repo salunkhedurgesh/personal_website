@@ -1,0 +1,59 @@
+{
+  "directDirectory": {
+    "letteringLoaded": false,
+    "models": [
+      {
+        "id": "publications-a",
+        "angle": -0.12,
+        "tilt": 0
+      },
+      {
+        "id": "projects-a",
+        "angle": -0.12,
+        "tilt": 0
+      },
+      {
+        "id": "teaching-a",
+        "angle": -0.12,
+        "tilt": 0
+      }
+    ]
+  },
+  "drag": {
+    "offsetMm": [
+      16.748729703543145,
+      9.394402043589883,
+      0.7360735407303851
+    ],
+    "forceN": 11.530566102784126,
+    "anglesDeg": [
+      0.6608859184505542,
+      -13.117466086810623,
+      8.118812541960628,
+      -1.37930446241129,
+      12.37886948116309,
+      -6.6405291506373025
+    ],
+    "maxJointGapM": 1.0514991965034635e-11,
+    "limited": true
+  },
+  "release": "home",
+  "stiffness": [
+    {
+      "k": 200,
+      "displacementMm": 22.72517574908932
+    },
+    {
+      "k": 1200,
+      "displacementMm": 15.624716783992028
+    }
+  ],
+  "keyboard": "bounded motion and release",
+  "mobile": {
+    "touch": "bounded drag, cancel and return",
+    "overflow": false
+  },
+  "reducedMotion": "still portrait",
+  "noGPU": "still portrait",
+  "errors": []
+}

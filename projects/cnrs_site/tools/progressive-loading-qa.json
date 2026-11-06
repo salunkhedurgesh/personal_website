@@ -1,12 +1,12 @@
 {
   "firstPreview": {
-    "at": 1791.1999999955297,
+    "at": 174,
     "theme": "diwali",
-    "src": "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=599b8bc1c4b6",
-    "text": "I am a CNRS Charg\u00e9 de Recherche in the RDH Team at ICube, Strasbo"
+    "src": "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=d1c9aa5cafcf",
+    "text": "I am a CNRS Chargé de Recherche in the RDH Team at ICube, Strasbo"
   },
   "initial": {
-    "at": 8582.29999999702,
+    "at": 2422.4000000003725,
     "live": "true",
     "atlas": "true",
     "assetsReady": true,
@@ -14,76 +14,63 @@
   },
   "initialRequests": [
     "http://127.0.0.1:8765/",
-    "http://127.0.0.1:8765/styles.css?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/assets.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/previews.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/scene.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/catalog.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/site.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/appearance.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/occasion.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/nav-home.png",
-    "http://127.0.0.1:8765/images/nav-publications.png",
-    "http://127.0.0.1:8765/images/nav-projects.png",
-    "http://127.0.0.1:8765/images/nav-teaching.png",
-    "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/science-fig1-top.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/thesis-fig3-15.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/robots-real.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/lib/three.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/forms.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/motion.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/props.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/iiwa-motion.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/rig-ik.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/arms.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/atelier.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/jolt-config.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/jolt-rig.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/play.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/scarf-jolt.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/seasonal.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/js/clay/studio.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/models/letterhead/abb-gofa-crb15000.glb?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/models/letterhead/kuka-iiwa7.glb?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/clay-grain.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/atelier/ceramic-normal.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/atelier/ceramic-grit.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-robots-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-robots-mobile.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/index.html?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/style.css?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/bridge.css?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/orbital.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/controls.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/careers.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/kinematics.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/playview.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/mark.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/glass.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/playui.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/renderer.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/environment.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/records.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/city.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/progressive.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/tour.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/src/bridge.js?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-puppets-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-puppets-mobile.webp?v=599b8bc1c4b6",
+    "http://127.0.0.1:8765/styles.css?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/assets.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/previews.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/scene.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/catalog.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/site.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/appearance.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/occasion.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/nav-home.png?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/nav-publications.png?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/nav-projects.png?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/nav-teaching.png?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/index.html?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/science-fig1-top.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/style.css?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/bridge.css?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/orbital.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/controls.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/careers.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/kinematics.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/playview.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/mark.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/glass.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/playui.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/renderer.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/environment.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/records.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/city.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/progressive.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/tour.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/src/bridge.js?v=d1c9aa5cafcf",
     "https://api.open-meteo.com/v1/forecast?latitude=48.57532&longitude=7.74305&current=cloud_cover,weather_code,precipitation,rain,showers,snowfall&timeformat=unixtime&timezone=Europe%2FParis",
-    "http://127.0.0.1:8765/projects/main/tour/assets/mark.glb?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-halloween-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-halloween-mobile.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-holi-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-holi-mobile.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-india-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-india-mobile.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-france-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-france-mobile.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-christmas-desktop.webp?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/images/previews/letterhead-christmas-mobile.webp?v=599b8bc1c4b6"
+    "http://127.0.0.1:8765/projects/main/tour/assets/mark.glb?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/thesis-fig3-15.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/robots-real.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/lib/three.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/navigation-models.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/forms.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/motion.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/props.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/iiwa-motion.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/rig-ik.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/arms.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/atelier.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/jolt-config.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/jolt-rig.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/play.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/scarf-jolt.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/seasonal.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/js/clay/studio.js?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/models/letterhead/abb-gofa-crb15000.glb?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/models/letterhead/kuka-iiwa7.glb?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/clay-grain.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/atelier/ceramic-normal.webp?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/images/atelier/ceramic-grit.webp?v=d1c9aa5cafcf"
   ],
   "cache": [
     "http://127.0.0.1:8765/images/previews/letterhead-robots-mobile.webp",
@@ -94,16 +81,18 @@
     "http://127.0.0.1:8765/images/previews/letterhead-halloween-mobile.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-holi-mobile.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-holi-desktop.webp",
-    "http://127.0.0.1:8765/images/previews/letterhead-india-mobile.webp",
-    "http://127.0.0.1:8765/images/previews/letterhead-india-desktop.webp",
+    "http://127.0.0.1:8765/images/previews/letterhead-republic-desktop.webp",
+    "http://127.0.0.1:8765/images/previews/letterhead-republic-mobile.webp",
+    "http://127.0.0.1:8765/images/previews/letterhead-independence-desktop.webp",
+    "http://127.0.0.1:8765/images/previews/letterhead-independence-mobile.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-france-desktop.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-france-mobile.webp",
-    "http://127.0.0.1:8765/images/previews/letterhead-christmas-desktop.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-christmas-mobile.webp",
+    "http://127.0.0.1:8765/images/previews/letterhead-christmas-desktop.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp",
-    "http://127.0.0.1:8765/images/previews/letterhead-snow-desktop.webp",
     "http://127.0.0.1:8765/images/previews/letterhead-snow-mobile.webp",
+    "http://127.0.0.1:8765/images/previews/letterhead-snow-desktop.webp",
     "http://127.0.0.1:8765/images/previews/cnrs-logo.webp"
   ],
   "themes": [
@@ -114,19 +103,19 @@
       "rigs": [],
       "live": "true",
       "caps": 0,
-      "previewSrc": "blob:http://127.0.0.1:8765/3133fd9e-a8dc-488a-a505-1499ab441a0f"
+      "previewSrc": "blob:http://127.0.0.1:8765/898db711-0648-4d4d-aed5-a6c53b4f8441"
     },
     {
       "theme": "puppets",
       "assetsReady": true,
       "units": 15,
       "rigs": [
-        2.4950331756249316e-06,
-        9.925650588346236e-07
+        0.0000024114353946610285,
+        7.020205705542027e-7
       ],
       "live": "true",
       "caps": 0,
-      "previewSrc": "blob:http://127.0.0.1:8765/e9eb55c8-ed80-47d4-99de-e21eaf4da826"
+      "previewSrc": "blob:http://127.0.0.1:8765/f9547ced-7083-4064-8b0b-a68f6730a0cf"
     },
     {
       "theme": "halloween",
@@ -135,7 +124,7 @@
       "rigs": [],
       "live": "true",
       "caps": 0,
-      "previewSrc": "blob:http://127.0.0.1:8765/118beddd-09e5-4a42-9f52-1257f34b563e"
+      "previewSrc": "blob:http://127.0.0.1:8765/62d59156-fb93-47d1-aab9-10e8a6260f42"
     },
     {
       "theme": "holi",
@@ -144,25 +133,43 @@
       "rigs": [],
       "live": "true",
       "caps": 0,
-      "previewSrc": "blob:http://127.0.0.1:8765/5d5bea7f-b3c5-4fd7-a10c-3f68b2a9695c"
+      "previewSrc": "blob:http://127.0.0.1:8765/166754b7-c7e5-47bf-9924-3b7f2f80a239"
     },
     {
-      "theme": "india",
+      "theme": "republic",
       "assetsReady": true,
       "units": 15,
-      "rigs": [],
+      "rigs": [
+        7.353467076106961e-7,
+        0.0005512031284667783
+      ],
       "live": "true",
       "caps": 0,
-      "previewSrc": "blob:http://127.0.0.1:8765/bbc319d2-1755-42b5-bda0-c0811d661cf6"
+      "previewSrc": "blob:http://127.0.0.1:8765/dc5084d1-6c53-4496-94b6-3bb8f3d99c18"
+    },
+    {
+      "theme": "independence",
+      "assetsReady": true,
+      "units": 15,
+      "rigs": [
+        0.000006210503541655087,
+        0.0000539284215877439
+      ],
+      "live": "true",
+      "caps": 0,
+      "previewSrc": "blob:http://127.0.0.1:8765/ff0061d0-4906-4ac9-a2b5-f45c58656c32"
     },
     {
       "theme": "france",
       "assetsReady": true,
       "units": 15,
-      "rigs": [],
+      "rigs": [
+        0.000006210503541655087,
+        0.0000539284215877439
+      ],
       "live": "true",
       "caps": 0,
-      "previewSrc": "blob:http://127.0.0.1:8765/20efc376-ca45-4af2-8c47-c384695bf195"
+      "previewSrc": "blob:http://127.0.0.1:8765/15171ae2-008a-438c-bb02-a304d96694e0"
     },
     {
       "theme": "christmas",
@@ -171,14 +178,14 @@
       "rigs": [],
       "live": "true",
       "caps": 15,
-      "previewSrc": "blob:http://127.0.0.1:8765/06615246-2f2b-4c40-a300-a754fe072d1a"
+      "previewSrc": "blob:http://127.0.0.1:8765/bdf6b871-0d03-4c56-ad4c-cfbab53d12cf"
     },
     {
       "theme": "diwali",
       "assetsReady": true,
       "units": 15,
       "rigs": [
-        6.999280739480798e-05,
+        0.00006999280739480798,
         0.0004243702989117791
       ],
       "live": "true",
@@ -212,455 +219,470 @@
   },
   "highResolutionKin": true,
   "playgroundSTL": [
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/base_link.stl?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_1.stl?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_2.stl?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_3.stl?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_4.stl?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_5.stl?v=599b8bc1c4b6",
-    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_6.stl?v=599b8bc1c4b6"
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/base_link.stl?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_1.stl?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_2.stl?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_3.stl?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_4.stl?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_5.stl?v=d1c9aa5cafcf",
+    "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_6.stl?v=d1c9aa5cafcf"
   ],
   "mobile": {
     "width": 390,
     "scroll": 390,
     "previewWidth": 358.796875,
     "canvasWidth": 359,
-    "preview": "blob:http://127.0.0.1:8765/b94aca19-5d4e-4a3a-9ee9-2b84e4925c4a"
+    "preview": "blob:http://127.0.0.1:8765/61500455-bc4b-4892-8293-18359fc8df01"
   },
   "errors": [],
   "network": [
     {
       "url": "http://127.0.0.1:8765/",
       "type": "Document",
-      "bytes": 8461
+      "bytes": 8557
     },
     {
-      "url": "http://127.0.0.1:8765/styles.css?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/styles.css?v=d1c9aa5cafcf",
       "type": "Stylesheet",
-      "bytes": 49843
+      "bytes": 52900
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 17263
     },
     {
-      "url": "http://127.0.0.1:8765/js/assets.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/assets.js?v=d1c9aa5cafcf",
       "type": "Script",
-      "bytes": 1902
+      "bytes": 2255
     },
     {
-      "url": "http://127.0.0.1:8765/js/previews.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/previews.js?v=d1c9aa5cafcf",
       "type": "Script",
-      "bytes": 3314
+      "bytes": 3332
     },
     {
-      "url": "http://127.0.0.1:8765/js/scene.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/scene.js?v=d1c9aa5cafcf",
       "type": "Script",
-      "bytes": 21767
+      "bytes": 27432
     },
     {
-      "url": "http://127.0.0.1:8765/js/catalog.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/catalog.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 52875
     },
     {
-      "url": "http://127.0.0.1:8765/js/site.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/site.js?v=d1c9aa5cafcf",
       "type": "Script",
-      "bytes": 27771
+      "bytes": 27698
     },
     {
-      "url": "http://127.0.0.1:8765/js/appearance.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/appearance.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 952
     },
     {
-      "url": "http://127.0.0.1:8765/js/occasion.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/occasion.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 1901
     },
     {
-      "url": "http://127.0.0.1:8765/images/nav-home.png",
+      "url": "http://127.0.0.1:8765/images/nav-home.png?v=d1c9aa5cafcf",
       "type": "Image",
-      "bytes": 1145
+      "bytes": 10565
     },
     {
-      "url": "http://127.0.0.1:8765/images/nav-publications.png",
+      "url": "http://127.0.0.1:8765/images/nav-publications.png?v=d1c9aa5cafcf",
       "type": "Image",
-      "bytes": 1770
+      "bytes": 20546
     },
     {
-      "url": "http://127.0.0.1:8765/images/nav-projects.png",
+      "url": "http://127.0.0.1:8765/images/nav-projects.png?v=d1c9aa5cafcf",
       "type": "Image",
-      "bytes": 1644
+      "bytes": 16259
     },
     {
-      "url": "http://127.0.0.1:8765/images/nav-teaching.png",
+      "url": "http://127.0.0.1:8765/images/nav-teaching.png?v=d1c9aa5cafcf",
       "type": "Image",
-      "bytes": 1340
+      "bytes": 11164
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=d1c9aa5cafcf",
       "type": "Image",
-      "bytes": 37711
+      "bytes": 39123
     },
     {
-      "url": "http://127.0.0.1:8765/images/science-fig1-top.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 45935
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/thesis-fig3-15.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 61099
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/robots-real.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 55225
-    },
-    {
-      "url": "http://127.0.0.1:8765/lib/three.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 623763
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/forms.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 492380
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/motion.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 9722
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/props.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 2361
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/iiwa-motion.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 28087
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/rig-ik.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 3572
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/arms.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 8152
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/atelier.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 16565
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/jolt-config.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 382
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/jolt-rig.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 4719
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/play.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 8680
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/scarf-jolt.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 10551
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/seasonal.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 31677
-    },
-    {
-      "url": "http://127.0.0.1:8765/js/clay/studio.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 13431
-    },
-    {
-      "url": "http://127.0.0.1:8765/models/letterhead/abb-gofa-crb15000.glb?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 302425
-    },
-    {
-      "url": "http://127.0.0.1:8765/models/letterhead/kuka-iiwa7.glb?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 539241
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/clay-grain.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 123044
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/atelier/ceramic-normal.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 250784
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/atelier/ceramic-grit.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 135732
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-robots-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 26715
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-robots-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 11047
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/index.html?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/index.html?v=d1c9aa5cafcf",
       "type": "Document",
       "bytes": 28672
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/style.css?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/science-fig1-top.webp?v=d1c9aa5cafcf",
+      "type": "Image",
+      "bytes": 45935
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/style.css?v=d1c9aa5cafcf",
       "type": "Stylesheet",
       "bytes": 39958
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.css?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.css?v=d1c9aa5cafcf",
       "type": "Stylesheet",
       "bytes": 1598
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/orbital.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/orbital.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 5736
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/controls.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/controls.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 7022
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/careers.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/careers.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 312
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/kinematics.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/kinematics.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 5921
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/playview.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/playview.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 9970
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/mark.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/mark.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 6834
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/glass.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/glass.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 8053
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/playui.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/playui.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 7924
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/renderer.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/renderer.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 25078
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/environment.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/environment.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 6985
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/records.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/records.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 4479
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/city.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/city.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 2987
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/progressive.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/progressive.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 3176
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/tour.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/tour.js?v=d1c9aa5cafcf",
       "type": "Script",
-      "bytes": 22118
+      "bytes": 22369
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 22459
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-puppets-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 44671
-    },
-    {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-puppets-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 16869
-    },
-    {
       "url": "https://api.open-meteo.com/v1/forecast?latitude=48.57532&longitude=7.74305&current=cloud_cover,weather_code,precipitation,rain,showers,snowfall&timeformat=unixtime&timezone=Europe%2FParis",
       "type": "Fetch",
-      "bytes": 1046
+      "bytes": 1048
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/assets/mark.glb?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/assets/mark.glb?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 700785
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-halloween-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 55365
+      "url": "http://127.0.0.1:8765/images/thesis-fig3-15.webp?v=d1c9aa5cafcf",
+      "type": "Image",
+      "bytes": 61099
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-halloween-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 20915
+      "url": "http://127.0.0.1:8765/images/robots-real.webp?v=d1c9aa5cafcf",
+      "type": "Image",
+      "bytes": 55225
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-holi-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 209168
+      "url": "http://127.0.0.1:8765/lib/three.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 623763
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-holi-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 49471
+      "url": "http://127.0.0.1:8765/js/navigation-models.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 13631
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-india-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 35501
+      "url": "http://127.0.0.1:8765/js/clay/forms.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 492380
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-india-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 13779
+      "url": "http://127.0.0.1:8765/js/clay/motion.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 9722
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-france-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 31199
+      "url": "http://127.0.0.1:8765/js/clay/props.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 2361
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-france-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 12225
+      "url": "http://127.0.0.1:8765/js/clay/iiwa-motion.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 28087
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-christmas-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 34091
+      "url": "http://127.0.0.1:8765/js/clay/rig-ik.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 3572
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-christmas-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 14051
+      "url": "http://127.0.0.1:8765/js/clay/arms.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 8197
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 37711
+      "url": "http://127.0.0.1:8765/js/clay/atelier.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 14871
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 14899
+      "url": "http://127.0.0.1:8765/js/clay/jolt-config.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 382
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-snow-desktop.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 26583
+      "url": "http://127.0.0.1:8765/js/clay/jolt-rig.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 4887
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/letterhead-snow-mobile.webp?v=599b8bc1c4b6",
-      "type": "Fetch",
-      "bytes": 11637
+      "url": "http://127.0.0.1:8765/js/clay/play.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 8789
     },
     {
-      "url": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/clay/scarf-jolt.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 10551
+    },
+    {
+      "url": "http://127.0.0.1:8765/js/clay/seasonal.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 39065
+    },
+    {
+      "url": "http://127.0.0.1:8765/js/clay/studio.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 13623
+    },
+    {
+      "url": "http://127.0.0.1:8765/models/letterhead/abb-gofa-crb15000.glb?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 302425
+    },
+    {
+      "url": "http://127.0.0.1:8765/models/letterhead/kuka-iiwa7.glb?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 539241
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/clay-grain.webp?v=d1c9aa5cafcf",
+      "type": "Image",
+      "bytes": 123044
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/atelier/ceramic-normal.webp?v=d1c9aa5cafcf",
+      "type": "Image",
+      "bytes": 250784
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/atelier/ceramic-grit.webp?v=d1c9aa5cafcf",
+      "type": "Image",
+      "bytes": 135732
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-robots-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 27993
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-robots-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 11495
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-puppets-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 48123
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-puppets-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 18071
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-halloween-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 56811
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-halloween-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 21245
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-holi-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 27867
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-holi-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 11777
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-republic-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 29489
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-republic-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 11571
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-independence-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 40151
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-independence-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 16355
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-france-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 40159
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-france-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 16337
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-christmas-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 35345
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-christmas-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 14747
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-diwali-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 39123
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-diwali-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 15301
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-snow-desktop.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 23737
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/letterhead-snow-mobile.webp?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 10767
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/previews/cnrs-logo.webp?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 17263
     },
     {
-      "url": "http://127.0.0.1:8765/lib/jolt-physics-1.1.0.mjs?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/lib/jolt-physics-1.1.0.mjs?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 3222691
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/walnut.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/atelier/walnut.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 65363
     },
     {
-      "url": "http://127.0.0.1:8765/js/clay/carving.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/clay/carving.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 306191
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/paint-holi.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 397608
+      "url": "http://127.0.0.1:8765/js/clay/holi.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 9617
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/pigment-plume-0.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/atelier/pigment-plume-0.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 135770
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/pigment-plume-1.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/atelier/pigment-plume-1.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 148510
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/pigment-plume-2.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/atelier/pigment-plume-2.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 140196
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/paint-india.webp?v=599b8bc1c4b6",
-      "type": "Image",
-      "bytes": 385824
+      "url": "http://127.0.0.1:8765/js/clay/national.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 12205
     },
     {
-      "url": "http://127.0.0.1:8765/images/atelier/paint-france.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/occasions/india-emblem.png?v=d1c9aa5cafcf",
       "type": "Image",
-      "bytes": 306618
+      "bytes": 68985
     },
     {
-      "url": "http://127.0.0.1:8765/js/clay/caps.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/clay/caps.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 254566
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/assets/strasbourg-studio.glb?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/assets/strasbourg-studio.glb?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 5581042
     },
@@ -672,15 +694,15 @@
     {
       "url": "https://journals.sagepub.com/cms/asset/7ffd2b29-f827-42ec-aa05-1bb2e5083ed8/ijra_45_1.largecover.png",
       "type": "Image",
-      "bytes": 341255
+      "bytes": 341251
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/assets/world.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/assets/world.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 556146
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/assets/europe.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/assets/europe.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 343596
     },
@@ -690,182 +712,195 @@
       "bytes": 25265
     },
     {
-      "url": "http://127.0.0.1:8765/models/abb-gofa-crb15000.glb?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/models/abb-gofa-crb15000.glb?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 1403602
     },
     {
-      "url": "http://127.0.0.1:8765/models/zamanov-6rss.glb?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/models/zamanov-6rss.glb?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 826145
     },
     {
-      "url": "http://127.0.0.1:8765/images/gofa-still.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/models/zamanov-6rss-kinematics.json?v=d1c9aa5cafcf",
+      "type": "Fetch",
+      "bytes": 28816
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/gofa-still.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 7200
     },
     {
-      "url": "http://127.0.0.1:8765/images/sac-1.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/sac-1.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 55643
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/index.html?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/js/rss-ik.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 5547
+    },
+    {
+      "url": "http://127.0.0.1:8765/js/rss-scene.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 11538
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/index.html?v=d1c9aa5cafcf",
       "type": "Document",
       "bytes": 28672
     },
     {
-      "url": "http://127.0.0.1:8765/images/fig-kin.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/fig-kin.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 33695
     },
     {
-      "url": "http://127.0.0.1:8765/images/ecarp-1.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/style.css?v=d1c9aa5cafcf",
+      "type": "Stylesheet",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.css?v=d1c9aa5cafcf",
+      "type": "Stylesheet",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/orbital.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/controls.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/careers.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/kinematics.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/playview.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/mark.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/glass.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/playui.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/renderer.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/environment.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/records.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/city.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/progressive.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/tour.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.js?v=d1c9aa5cafcf",
+      "type": "Script",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:8765/images/ecarp-1.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 4546
     },
     {
-      "url": "http://127.0.0.1:8765/images/mt-1.webp?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/images/mt-1.webp?v=d1c9aa5cafcf",
       "type": "Image",
       "bytes": 10351
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/style.css?v=599b8bc1c4b6",
-      "type": "Stylesheet",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.css?v=599b8bc1c4b6",
-      "type": "Stylesheet",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/orbital.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/controls.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/careers.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/kinematics.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/playview.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/mark.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/glass.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/playui.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/renderer.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/environment.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/records.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/city.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/progressive.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/tour.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
-      "url": "http://127.0.0.1:8765/projects/main/tour/src/bridge.js?v=599b8bc1c4b6",
-      "type": "Script",
-      "bytes": 0
-    },
-    {
       "url": "https://api.open-meteo.com/v1/forecast?latitude=48.57532&longitude=7.74305&current=cloud_cover,weather_code,precipitation,rain,showers,snowfall&timeformat=unixtime&timezone=Europe%2FParis",
       "type": "Fetch",
-      "bytes": 1045
+      "bytes": 1048
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/vendor/three.r140.min.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/vendor/three.r140.min.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 623763
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/vendor/STLLoader.js?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/vendor/STLLoader.js?v=d1c9aa5cafcf",
       "type": "Script",
       "bytes": 5339
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/base_link.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/base_link.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 136323
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_1.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_1.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 106673
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_2.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_2.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 160973
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_3.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_3.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 163373
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_4.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_4.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 215723
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_5.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_5.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 164073
     },
     {
-      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_6.stl?v=599b8bc1c4b6",
+      "url": "http://127.0.0.1:8765/projects/main/tour/models/gofa/link_6.stl?v=d1c9aa5cafcf",
       "type": "Fetch",
       "bytes": 157673
     }
   ],
-  "bytes": 20951759,
-  "initialTransferredBytes": 4568057,
-  "measurementScope": "Local static server without HTTP compression; software WebGL, cold cache. Initial transfer includes first-visit snapshot caching."
+  "bytes": 19932238
 }

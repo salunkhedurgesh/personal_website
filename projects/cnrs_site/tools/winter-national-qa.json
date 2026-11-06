@@ -1,0 +1,540 @@
+{
+  "winter": {
+    "frozenAt": 20.216501457229572,
+    "warmedAt": 23.216501457229572,
+    "restoredAt": 31.53415492935343,
+    "reverseFront": true,
+    "mixedThaw": true,
+    "durations": [
+      10.828402362807537,
+      11.433723683818243,
+      11.52007229832816,
+      11.251562477948028,
+      10.793720562985982,
+      10.313466043837252,
+      9.979092483481509,
+      9.960248282644898,
+      10.427921409878763,
+      11.554403411922976,
+      9.513294345742906,
+      12.479466552729718,
+      12.629048760340083,
+      10.139405952082598,
+      9.18911909579765
+    ],
+    "meltDurations": [
+      5.179080782952951,
+      5.472173797851428,
+      6.76691126996302,
+      5.423598671419313,
+      7.4275675870183475,
+      5.621760016065672,
+      6.989137262915755,
+      4.827077475795522,
+      7.150550556281814,
+      5.1753424580980205,
+      6.358495740778744,
+      5.2830657060523665,
+      4.941475516022183,
+      5.517216944956453,
+      5.295760058784799
+    ],
+    "allFrozen": true,
+    "icicles": 36,
+    "minLength": 0.15036076467968132,
+    "maxLength": 0.46085703600692796,
+    "minVertices": 322,
+    "perLetter": [
+      {
+        "letter": "D",
+        "icicles": 3
+      },
+      {
+        "letter": "U",
+        "icicles": 2
+      },
+      {
+        "letter": "R",
+        "icicles": 3
+      },
+      {
+        "letter": "G",
+        "icicles": 2
+      },
+      {
+        "letter": "E",
+        "icicles": 2
+      },
+      {
+        "letter": "S",
+        "icicles": 4
+      },
+      {
+        "letter": "H",
+        "icicles": 2
+      },
+      {
+        "letter": "S",
+        "icicles": 3
+      },
+      {
+        "letter": "A",
+        "icicles": 2
+      },
+      {
+        "letter": "L",
+        "icicles": 0
+      },
+      {
+        "letter": "U",
+        "icicles": 2
+      },
+      {
+        "letter": "N",
+        "icicles": 3
+      },
+      {
+        "letter": "K",
+        "icicles": 4
+      },
+      {
+        "letter": "H",
+        "icicles": 2
+      },
+      {
+        "letter": "E",
+        "icicles": 2
+      }
+    ],
+    "supported": true,
+    "allIciclesVisible": true,
+    "chattering": true
+  },
+  "warmed": {
+    "chattering": false,
+    "scarves": 3,
+    "cap": true
+  },
+  "national": [
+    {
+      "theme": "republic",
+      "rigs": [
+        0.00022220058922748682,
+        0.00011788425640418987
+      ],
+      "flags": 0,
+      "carrierVisible": true,
+      "lift": 1,
+      "unroll": 1,
+      "height": 2.45,
+      "rollBottom": 0.027999999999999827,
+      "preamble": "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation; IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.",
+      "pennants": [],
+      "green": true,
+      "title": "Indian Republic Day",
+      "dates": "26 Jan",
+      "finite": true
+    },
+    {
+      "theme": "independence",
+      "rigs": [
+        0.000009705216728811361,
+        0.000010551849289376325
+      ],
+      "flags": 24,
+      "carrierVisible": true,
+      "lift": 1,
+      "height": 2.367725262212394,
+      "ropeProfile": {
+        "left": -6.122050000000001,
+        "right": 6.421299999999998,
+        "top": 1.8,
+        "sag": 0.42,
+        "z": -0.65
+      },
+      "pennants": [
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.2864052045813423e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.0179601606097322e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.3904037921008694e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.2188225984033352e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.599449875466235e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.450919798339783e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.633953386625535e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ff9933",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.5865777842379885e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.3044456887741944e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 3.518900726362517e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.790074755092519e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 8.579070787106957e-11,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 8.579070787106957e-11,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.7900769755385681e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 3.518898505916468e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.3044479092202437e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.586582225130087e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.633951166179486e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.450922018785832e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.599447655020185e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.21882282044794e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.3904035700562645e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.0179594944759174e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#138808",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.2864049825367374e-9,
+          "bottomWidth": 0
+        }
+      ],
+      "green": true,
+      "title": "Indian Independence Day",
+      "dates": "15 Aug",
+      "finite": true
+    },
+    {
+      "theme": "france",
+      "rigs": [
+        0.000009705216728811361,
+        0.000010551849289376325
+      ],
+      "flags": 24,
+      "carrierVisible": true,
+      "lift": 1,
+      "height": 2.367725262212394,
+      "ropeProfile": {
+        "left": -6.122050000000001,
+        "right": 6.421299999999998,
+        "top": 1.8,
+        "sag": 0.42,
+        "z": -0.65
+      },
+      "pennants": [
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.2864052045813423e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.0179601606097322e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.3904037921008694e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.2188225984033352e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.599449875466235e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.450919798339783e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.633953386625535e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#002395",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.5865777842379885e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.3044456887741944e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 3.518900726362517e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.790074755092519e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 8.579070787106957e-11,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 8.579070787106957e-11,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.7900769755385681e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 3.518898505916468e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#f4eedc",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.3044479092202437e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 4.586582225130087e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.633951166179486e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.450922018785832e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 6.599447655020185e-10,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.21882282044794e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.3904035700562645e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.0179594944759174e-9,
+          "bottomWidth": 0
+        },
+        {
+          "colour": "#ed2939",
+          "aspect": 1.45,
+          "solid": true,
+          "topFit": 1.2864049825367374e-9,
+          "bottomWidth": 0
+        }
+      ],
+      "green": true,
+      "title": "France · la Fête nationale",
+      "dates": "14 Jul",
+      "finite": true
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2027-01-26",
+      "theme": "republic"
+    },
+    {
+      "date": "2027-08-15",
+      "theme": "independence"
+    },
+    {
+      "date": "2027-07-14",
+      "theme": "france"
+    }
+  ],
+  "mobileNoOverflow": true,
+  "reducedMotion": true,
+  "errors": []
+}

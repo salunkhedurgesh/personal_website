@@ -690,7 +690,7 @@
             ? /* HTML */ `<div class="chips">${anchor('Google Scholar', sch)}</div>`
             : projects
               ? ''
-              : /* HTML */ `<h3>Teaching philosophy</h3>
+              : /* HTML */ `<h2>My teaching philosophy</h2>
                   <div class="phil">
                     <p>
                       My teaching philosophy begins with a strong foundation in kinematics,

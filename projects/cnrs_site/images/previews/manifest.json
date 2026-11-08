@@ -225,5 +225,8 @@
   },
   "cnrs": {
     "file": "images/previews/cnrs-logo.webp"
+  },
+  "cnrsProfile": {
+    "file": "images/previews/cnrs-profile.webp"
   }
 }

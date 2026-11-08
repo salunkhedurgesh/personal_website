@@ -106,7 +106,11 @@
   }
   function stillSrc(i) {
     if (liveLogo && i === 0)
-      return '../../../images/previews/cnrs-logo.webp?v=' + window.ATLAS_VERSION;
+      return (
+        '../../../images/previews/cnrs-' +
+        (Math.cos(motion.state.mflip) < 0 ? 'profile' : 'logo') +
+        '.webp?v=' + window.ATLAS_VERSION
+      );
     return (
       (innerWidth <= 730 && innerHeight > innerWidth ? assets.mobile : assets.stills)?.[i] ||
       assets.stills?.[i] ||
@@ -748,6 +752,7 @@
     request,
     record,
     engine: () => engine,
+    portraitFirst: liveLogo,
     canPick: () => !modeStill && shown > 0.17 * 0.65 && shown < 0.664,
     allState: () => ({ p: shown, still: modeStill, detail: !!detail }),
   });
@@ -884,6 +889,7 @@
   window.AtlasTour = {
     go,
     request,
+    flipMark: (options) => motion.flipMark(options),
     clearDetail: unfocus,
     open: record,
     get camera() {

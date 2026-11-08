@@ -36,7 +36,8 @@ window.ProgressiveAtlas = {
       empty = gl.createVertexArray();
     gl.useProgram(blit);
     gl.uniform1i(gl.getUniformLocation(blit, 'image'), 0);
-    let world = null,
+    let progress = 0,
+      world = null,
       worldJob = null;
     function loadWorld() {
       if (!worldJob)
@@ -79,6 +80,7 @@ window.ProgressiveAtlas = {
       gl.drawArrays(gl.TRIANGLES, 0, 3);
     }
     return {
+      hasPortrait: mark.hasPortrait,
       get camera() {
         return world?.camera;
       },
@@ -86,10 +88,11 @@ window.ProgressiveAtlas = {
         return world?.geography;
       },
       project: (...args) => world?.project(...args),
-      pick: (...args) => world?.pick(...args),
+      pick: (x, y) =>
+        progress < 0.143 * 0.65 ? (mark.hit(x, y, canvas) ? 'mark' : '') : world?.pick(x, y),
       readyFor: (progress) => (world ? world.readyFor(progress) : progress <= 0.025 && !worldJob),
       draw(...args) {
-        const progress = args[5] ?? args[0] * 0.65;
+        progress = args[5] ?? args[0] * 0.65;
         if (world) {
           world.draw(...args);
           return;

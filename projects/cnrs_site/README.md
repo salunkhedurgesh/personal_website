@@ -82,12 +82,20 @@ loads the Strasbourg scene; approaching the France/Earth chapters loads the
 planet textures. Snapshot chapter images remain visible during those downloads.
 The iframe pauses outside the viewport. Reduced-motion visitors get lettering
 snapshots without loading the header's 3D runtime, while the CNRS logo remains
-a live, directly manipulable 3D model. The CNRS image is used if WebGL or the
+a live, directly manipulable 3D model. A badge snapshot is used if WebGL or the
 logo model is unavailable.
 
+The homepage badge opens with `images/profile_pic_nino.png` mapped onto its own
+back surface, cropped to the actual CNRS outline. Clicking or tapping turns it between the photo
+and CNRS faces; Enter or Space does the same when it has keyboard focus. The first
+wheel gesture over the photo reveals CNRS, then further scrolling continues the
+existing tour. Dragging still tilts the badge. Reduced motion changes faces
+immediately. A missing photo retains the CNRS face. The photo opening also has its
+own loading/fallback snapshot in `images/previews/cnrs-profile.webp`.
+
 `images/previews/` contains desktop/mobile snapshots of the opening frame
-(time zero) for all ten lettering editions and a CNRS logo fallback image.
-`images/previews/manifest.json` records the capture time and opening-pose checks. After startup, the browser saves all 21 small images in a versioned
+(time zero) for all ten lettering editions and fallback images for both badge faces.
+`images/previews/manifest.json` records the capture time and opening-pose checks. After startup, the browser saves the 20 lettering images and CNRS logo image in a versioned
 Cache Storage cache for future visits. Save-Data connections skip this background
 prefetch. If Cache Storage is unavailable, ordinary image loading still works.
 

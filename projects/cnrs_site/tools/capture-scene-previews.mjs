@@ -137,17 +137,27 @@ await new Promise((resolve) => setTimeout(resolve, 400));
 const rect = await evaluate(
   `(()=>{const f=document.querySelector('iframe'),a=f.getBoundingClientRect(),b=f.contentDocument.getElementById('world').getBoundingClientRect();return {x:a.x+b.x,y:a.y+b.y,width:b.width,height:b.height,scale:1}})()`,
 );
-const shot = await cdp('Page.captureScreenshot', {
-  format: 'png',
-  clip: rect,
-  captureBeyondViewport: true,
-});
-await writeFile('/tmp/progressive-site-qa/cnrs.png', Buffer.from(shot.data, 'base64'));
-execFileSync('python3', [
-  '-c',
-  "from PIL import Image; im=Image.open('/tmp/progressive-site-qa/cnrs.png'); im.thumbnail((1000,900)); im.save('images/previews/cnrs-logo.webp','WEBP',quality=86,method=6)",
-]);
+for (const [face, name] of [['photo', 'profile'], ['logo', 'logo']]) {
+  await evaluate(
+    `document.querySelector('iframe').contentWindow.AtlasTour.flipMark({face:'${face}',instant:true});new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))`,
+  );
+  const shot = await cdp('Page.captureScreenshot', {
+    format: 'png',
+    clip: rect,
+    captureBeyondViewport: true,
+  });
+  const input = '/tmp/progressive-site-qa/cnrs-' + name + '.png',
+    output = 'images/previews/cnrs-' + name + '.webp';
+  await writeFile(input, Buffer.from(shot.data, 'base64'));
+  execFileSync('python3', [
+    '-c',
+    "from PIL import Image; import sys; im=Image.open(sys.argv[1]); im.thumbnail((1000,900)); im.save(sys.argv[2],'WEBP',quality=86,method=6)",
+    input,
+    output,
+  ]);
+}
 manifest.cnrs = { file: 'images/previews/cnrs-logo.webp' };
+manifest.cnrsProfile = { file: 'images/previews/cnrs-profile.webp' };
 await writeFile(
   new URL('../images/previews/manifest.json', import.meta.url),
   JSON.stringify(manifest, null, 2) + '\n',

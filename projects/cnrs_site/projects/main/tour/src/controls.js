@@ -1,5 +1,5 @@
-/* Offset controls deliberately do not consume the mouse wheel. Pointer capture starts
-   only after a drag threshold; a tap/click is still a genuine mesh pick. */
+/* A first wheel gesture flips the portrait badge; later gestures follow the tour.
+   Pointer capture starts only after a drag threshold so taps remain mesh picks. */
 (() => {
   'use strict';
   const $ = (s) => document.querySelector(s),
@@ -17,6 +17,7 @@
       x: 0,
       y: 0,
       myaw: 0,
+      mflip: ctx.portraitFirst ? Math.PI : 0,
       mpitch: 0,
       mx: 0,
       my: 0,
@@ -26,7 +27,13 @@
     let zone = '',
       mode = 'orbit',
       capture = null,
-      touchOn = false;
+      touchOn = false,
+      flipFrom = state.mflip,
+      flipTarget = state.mflip,
+      flipAt = 0,
+      flipDuration = 0,
+      flipping = false,
+      wheelUntil = 0;
     function style() {
       const office = zone === 'office',
         mark = zone === 'mark';
@@ -35,6 +42,26 @@
       tools.dataset.touch = String(touchOn);
       c.dataset.explore = zone || 'none';
       c.dataset.touch = String(touchOn);
+      if (zone === 'mark') {
+        const portrait = Math.round(flipTarget / Math.PI) % 2 !== 0,
+          available = ctx.engine()?.hasPortrait !== false;
+        c.dataset.face = portrait ? 'photo' : 'logo';
+        c.setAttribute('role', available ? 'button' : 'region');
+        if (available) c.setAttribute('aria-pressed', String(!portrait));
+        else c.removeAttribute('aria-pressed');
+        c.setAttribute(
+          'aria-label',
+          !available
+            ? 'CNRS badge. Drag to rotate or scroll to continue the 3D tour.'
+            : portrait
+              ? 'Profile photo on the back of the CNRS badge. Click, press Enter, or scroll to reveal the CNRS logo.'
+              : 'CNRS badge. Click or press Enter to reveal the profile photo. Scroll to continue the 3D tour.',
+        );
+      } else {
+        c.setAttribute('role', 'region');
+        c.removeAttribute('aria-pressed');
+        delete c.dataset.face;
+      }
       btnO.setAttribute('aria-pressed', String(mode === 'orbit'));
       btnP.setAttribute('aria-pressed', String(mode === 'pan'));
       bt.setAttribute('aria-pressed', String(touchOn));
@@ -64,12 +91,16 @@
         x: 0,
         y: 0,
         myaw: 0,
+        mflip: ctx.portraitFirst ? Math.PI : 0,
         mpitch: 0,
         mx: 0,
         my: 0,
         glon: 0,
         glat: 0,
       });
+      flipFrom = flipTarget = state.mflip;
+      flipping = false;
+      wheelUntil = 0;
       if (full) {
         touchOn = false;
         mode = 'orbit';
@@ -97,6 +128,8 @@
         }
         if (zone === 'mark') {
           state.myaw = state.mpitch = state.mx = state.my = 0;
+          state.mflip = flipFrom = flipTarget = 0;
+          flipping = false;
         }
         release();
         zone = next;
@@ -104,6 +137,41 @@
         mode = 'orbit';
         style();
       }
+      if (!still && zone !== 'mark' && state.mflip !== 0) {
+        // Reset can run while already in the office; its monitor must show CNRS.
+        state.mflip = flipFrom = flipTarget = 0;
+        flipping = false;
+      }
+      if (zone === 'mark' && ctx.engine()?.hasPortrait === false && state.mflip !== 0) {
+        state.mflip = flipFrom = flipTarget = 0;
+        flipping = false;
+        style();
+      }
+      if (flipping) {
+        const progress = cl((performance.now() - flipAt) / flipDuration, 0, 1),
+          eased = progress * progress * (3 - 2 * progress);
+        state.mflip = flipFrom + (flipTarget - flipFrom) * eased;
+        if (progress < 1) ctx.request();
+        else {
+          state.mflip = flipTarget;
+          flipping = false;
+        }
+      }
+    }
+    function flipMark({ face, instant = false } = {}) {
+      if (zone !== 'mark' || flipping || ctx.engine()?.hasPortrait === false) return false;
+      const current = Math.round(flipTarget / Math.PI) % 2,
+        wanted = face === 'logo' ? 0 : face === 'photo' ? 1 : 1 - current;
+      if (current === wanted) return false;
+      flipFrom = state.mflip;
+      flipTarget += Math.PI;
+      flipAt = performance.now();
+      flipDuration = instant || matchMedia('(prefers-reduced-motion:reduce)').matches ? 0 : 900;
+      flipping = flipDuration > 0;
+      if (!flipping) state.mflip = flipTarget;
+      style();
+      ctx.request();
+      return true;
     }
     function toggle(m) {
       mode = m;
@@ -185,14 +253,29 @@
         g.button === 0 &&
         !g.drag &&
         g.travel < 7 &&
-        Math.hypot(e.clientX - g.startX, e.clientY - g.startY) < 7 &&
-        ctx.canPick()
+        Math.hypot(e.clientX - g.startX, e.clientY - g.startY) < 7
       ) {
         const id = ctx.engine()?.pick(e.clientX, e.clientY);
+        if (zone === 'mark' && id === 'mark') {
+          flipMark();
+          return;
+        }
         ctx.request();
-        if (id) ctx.record(id);
+        if (id && ctx.canPick()) ctx.record(id);
       }
     });
+    c.addEventListener('wheel', (e) => {
+      if (zone !== 'mark' || e.ctrlKey || e.metaKey || !e.deltaY) return;
+      const now = performance.now();
+      if (flipping || now < wheelUntil) {
+        e.preventDefault();
+        wheelUntil = now + 200;
+      } else if (Math.round(flipTarget / Math.PI) % 2 !== 0) {
+        e.preventDefault();
+        flipMark({ face: 'logo' });
+        wheelUntil = now + 200;
+      }
+    }, { passive: false });
     c.addEventListener('pointercancel', release);
     c.addEventListener('lostpointercapture', () => {
       if (capture?.drag) release();
@@ -206,6 +289,12 @@
     window.addEventListener('blur', release);
     c.addEventListener('keydown', (e) => {
       if (!zone || e.altKey || e.ctrlKey || e.metaKey) return;
+      if (zone === 'mark' && (e.key === 'Enter' || e.key === ' ')) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (!e.repeat) flipMark();
+        return;
+      }
       if (e.key.toLowerCase() === 'r') {
         e.preventDefault();
         e.stopPropagation();
@@ -225,7 +314,7 @@
       );
     });
     style();
-    return { update, reset, state };
+    return { update, reset, state, flipMark };
   }
   function overlay({ assets, record, engine, still, detail }) {
     const pin = $('#ihupin'),

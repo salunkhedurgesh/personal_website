@@ -1,7 +1,7 @@
 /* Load a feature once, when its view needs it. Keep startup independent of WebGL. */
 window.SiteAssets = (() => {
   'use strict';
-  const version = 'a461c6d4cb6b',
+  const version = '56f3c568eb4f',
     jobs = new Map();
   function script(path) {
     if (!jobs.has(path))

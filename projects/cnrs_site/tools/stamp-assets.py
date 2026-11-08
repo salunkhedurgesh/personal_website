@@ -25,7 +25,7 @@ def html_version(text, version):
         text,
     )
     text = re.sub(
-        r'(src="images/previews/cnrs-logo\.webp)(?:\?v=[^"]*)?(")',
+        r'(src="images/previews/cnrs-(?:logo|profile)\.webp)(?:\?v=[^"]*)?(")',
         lambda m: m[1] + "?v=" + version + m[2],
         text,
     )

@@ -674,9 +674,6 @@
     if (params.get('course') === 'nantes') stateFilter.q = 'Introduction';
     const title = publication ? 'Publications' : projects ? 'Projects' : 'Teaching';
     d.innerHTML = /* HTML */ `<header class="dirhead">
-        <p class="kicker">
-          ${publication ? 'RESEARCH / WRITING' : projects ? 'RESEARCH / HARDWARE' : 'EDUCATION / COURSES'}
-        </p>
         <div class="dir-title">
           <span class="page-title-model"
             ><img src="${asset('images/nav-' + name + '.png')}" alt="" aria-hidden="true" /><canvas

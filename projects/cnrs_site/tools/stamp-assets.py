@@ -63,17 +63,10 @@ def loader_version(text, version):
 
 
 files = set(HTML + [ROOT / "styles.css"])
-for pattern in [
-    "js/**/*.js",
-    "projects/main/tour/src/*.js",
-    "projects/main/tour/src/*.css",
-    "images/previews/*.webp",
-    "images/nav-*.png",
-    "images/occasions/*.png",
-    "models/letterhead/*.glb",
-    "models/zamanov-6rss-kinematics.json",
-]:
-    files.update(ROOT.glob(pattern))
+# Include every public asset, including the detailed robot models, tour assets,
+# research figures, and bundled libraries. An edit to any of them starts a release.
+for directory in ["js", "images", "models", "lib", "assets", "projects"]:
+    files.update(path for path in (ROOT / directory).rglob("*") if path.is_file())
 digest = hashlib.sha256()
 for path in sorted(files):
     data = path.read_bytes()

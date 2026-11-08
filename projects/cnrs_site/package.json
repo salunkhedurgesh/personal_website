@@ -2,6 +2,7 @@
   "name": "durgesh-portfolio",
   "private": true,
   "scripts": {
+    "build": "python3 tools/stamp-assets.py",
     "format": "prettier --write . && python3 -m black tools",
     "format:check": "prettier --check . && python3 -m black --check tools"
   },

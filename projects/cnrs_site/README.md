@@ -37,6 +37,22 @@ Run `python3 tools/stamp-assets.py` afterward to update cached asset URLs.
 Third-party libraries retain their distributed code and license headers.
 Serving the website still requires only static file hosting.
 
+## Updates through cPanel
+
+Push your edits to GitHub, then sync/deploy them in cPanel as usual. Include the
+hidden `.htaccess` file in the deployed website directory. A normal browser visit
+or reload checks for updated HTML, styles, scripts, images, and models; Shift+Reload
+is not required once these settings are deployed. Unchanged files can receive a
+small `304 Not Modified` response and reuse their downloaded content.
+
+Scene previews also check the server on each visit. Their separate Cache Storage
+copies are used only if the network request fails, so they cannot hide an online
+image update. An already-open tab picks up edits when you reload it.
+
+This uses Apache's `mod_headers` support through `.htaccess`. If your hosting adds
+a separate proxy/CDN cache, it must honor these response headers too. No additional
+cPanel deployment hook or server-side build is needed for ordinary edits.
+
 Keep the `projects/main/resources/` directory from your existing website when
 merging this package: publication PDFs and BibTeX continue to reference it.
 The package is a complete interface update, not another copy of that large archive.
@@ -77,17 +93,21 @@ prefetch. If Cache Storage is unavailable, ordinary image loading still works.
 
 Apache settings are included in the hidden `.htaccess` file: GLB/WASM MIME types,
 gzip including GLB models, and explicit cache lifetimes. Upload this file too.
-Versioned asset URLs can be cached for a year; HTML is revalidated and unversioned
-assets have a short cache lifetime. These directives require the host's Apache
+All files, including versioned asset URLs, are revalidated on visits and reloads.
+These directives require the host's Apache
 modules and `.htaccess` support; the Python preview does not apply Apache settings.
 
-After changing site code or scene assets, run:
+To regenerate the content-derived release ID before publishing, run:
 
 ```sh
 python3 tools/stamp-assets.py
 ```
 
 This creates a content-derived asset version, so updated files use fresh URLs.
+`npm run build` runs the same command without installing any dependencies. The
+fingerprint includes all public asset directories, including detailed models,
+research figures, tour assets, and bundled libraries. On cPanel, revalidation also
+picks up ordinary edits when this optional release step is skipped.
 To regenerate the lettering LODs, run `python3 tools/build-letterhead-lod.py`
 (Blender required). `models/letterhead/manifest.json` records source checksums,
 triangle counts, exact joint-graph comparisons, and silhouette checks. To update

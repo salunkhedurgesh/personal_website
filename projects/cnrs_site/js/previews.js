@@ -1,4 +1,4 @@
-/* Real scene snapshots appear before their live canvases and are saved for repeat visits. */
+/* Revalidate scene snapshots on each visit; saved copies cover network failures. */
 window.ScenePreviews = (() => {
   'use strict';
   const editions = [
@@ -26,9 +26,19 @@ window.ScenePreviews = (() => {
     'images/previews/letterhead-' + theme + '-' + size + '.webp';
   async function source(path) {
     if (urls.has(path)) return urls.get(path);
+    const cache = await cacheJob;
     try {
-      const cache = await cacheJob,
-        response = await cache?.match(path);
+      const response = await fetch(path + '?v=' + SiteAssets.version, { cache: 'no-cache' });
+      if (response.ok) {
+        if (cache) cache.put(path, response.clone()).catch(() => {});
+        const url = URL.createObjectURL(await response.blob());
+        urls.set(path, url);
+        return url;
+      }
+    } catch {}
+    // Cache Storage does not obey HTTP cache headers. Read it only as a fallback.
+    try {
+      const response = await cache?.match(path);
       if (response) {
         const url = URL.createObjectURL(await response.blob());
         urls.set(path, url);
@@ -93,9 +103,9 @@ window.ScenePreviews = (() => {
       await Promise.all(
         files.slice(i, i + 2).map(async (path) => {
           try {
-            if (await cache.match(path)) return;
+            if (urls.has(path)) return;
             const r = await fetch(path + '?v=' + SiteAssets.version, {
-              cache: 'force-cache',
+              cache: 'no-cache',
               priority: 'low',
             });
             if (r.ok) await cache.put(path, r);

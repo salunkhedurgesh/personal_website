@@ -869,7 +869,7 @@ footer span {
   padding: 0 18px;
   margin: 16px 0 28px;
   font: 17px/1.7 var(--serif);
-  max-width: 820px;
+  max-width: none;
 }
 .dirhead .phil p {
   max-width: none;
@@ -3316,16 +3316,16 @@ summary:focus-visible {
   opacity: 0;
 }
 .top [data-nav='home'] canvas {
-  background: center/contain no-repeat url(images/nav-home.png?v=84a9abf9fa67);
+  background: center/contain no-repeat url(images/nav-home.png?v=e7b906df4e09);
 }
 .top [data-nav='publications'] canvas {
-  background: center/contain no-repeat url(images/nav-publications.png?v=84a9abf9fa67);
+  background: center/contain no-repeat url(images/nav-publications.png?v=e7b906df4e09);
 }
 .top [data-nav='projects'] canvas {
-  background: center/contain no-repeat url(images/nav-projects.png?v=84a9abf9fa67);
+  background: center/contain no-repeat url(images/nav-projects.png?v=e7b906df4e09);
 }
 .top [data-nav='teaching'] canvas {
-  background: center/contain no-repeat url(images/nav-teaching.png?v=84a9abf9fa67);
+  background: center/contain no-repeat url(images/nav-teaching.png?v=e7b906df4e09);
 }
 .nav-live .top [data-nav] canvas {
   background-image: none;

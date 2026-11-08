@@ -691,10 +691,28 @@
             : projects
               ? ''
               : /* HTML */ `<h3>Teaching philosophy</h3>
-                  <p class="phil">
-                    Start with a motion you can see. Predict what the joints must do, derive the
-                    model, then test the prediction on a robot.
-                  </p>`
+                  <div class="phil">
+                    <p>
+                      My teaching philosophy begins with a strong foundation in kinematics,
+                      geometry, and dynamics. I aim to build on this foundation with learning
+                      algorithms that help robots adapt. I plan to introduce students to Screw
+                      Theory, cuspidal robots, advanced trajectory planning, and Conformal
+                      Geometric Algebra for kinematic analysis. With human–robot collaboration
+                      central to the future of robotics, I also plan to introduce Learning from
+                      Demonstration (LfD), exploring how kinematic properties can support safe path
+                      planning and policy transfer in human-centered applications.
+                    </p>
+                    <p>
+                      How we teach matters as much as what we teach. Having studied and taught
+                      across multiple countries and institutions, I value an approach that combines
+                      mathematical rigor with interactive sessions, meaningful feedback, and
+                      holistic evaluation. I aspire to create an inclusive environment where
+                      students develop both technical depth and the confidence to explore open
+                      research problems. My goal is to prepare students for academic excellence
+                      and practical work in the robotics industry, equipping them to contribute to
+                      research, industrial innovation, and the advancement of robotics for society.
+                    </p>
+                  </div>`
         }
       </header>
       <div class="filters"></div>

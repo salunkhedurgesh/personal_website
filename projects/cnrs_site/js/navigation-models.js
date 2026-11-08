@@ -88,9 +88,11 @@ window.NavigationModels = (() => {
   }
   function texture(type) {
     const c = document.createElement('canvas');
-    c.width = 384;
-    c.height = 512;
+    const scale = type === 'plan' ? 1 : 2;
+    c.width = 384 * scale;
+    c.height = 512 * scale;
     const q = c.getContext('2d');
+    q.scale(scale, scale);
     q.fillStyle = colours.paper;
     q.fillRect(0, 0, 384, 512);
     if (type === 'plan') {
@@ -136,37 +138,61 @@ window.NavigationModels = (() => {
       q.lineTo(340, 416);
       q.stroke();
     } else {
-      q.fillStyle = '#54655b';
-      q.font = 'bold 25px Georgia';
+      // A shortened title and citation from ral25_salunkhe in js/catalog.js.
+      q.fillStyle = '#284b3b';
       q.textAlign = 'center';
-      q.fillText(type === 'scroll' ? 'Manuscript' : 'Research notes', 192, 58);
-      q.font = 'italic 13px Georgia';
-      q.fillText('Methods · results · discussion', 192, 84);
-      q.strokeStyle = '#9da59b';
-      q.lineWidth = 2;
-      for (let j = 0; j < 13; j++) {
-        const y = 115 + j * 21;
-        q.beginPath();
-        q.moveTo(38, y);
-        q.lineTo(j % 4 === 3 ? 273 : 346, y);
-        q.stroke();
-      }
-      q.strokeStyle = '#849488';
-      q.lineWidth = 2;
-      q.strokeRect(40, 402, 128, 72);
+      q.font = 'bold 25px Georgia';
+      q.fillText('IEEE RA-L', 192, 42);
+      q.font = '13px Georgia';
+      q.fillText('Robotics and Automation Letters', 192, 64);
+      q.fillRect(34, 77, 316, 2);
+      q.font = 'bold 31px Georgia';
+      q.fillText('Cuspidal', 192, 120);
+      q.fillText('Redundant Robots', 192, 156);
+      q.font = '17px Georgia';
+      q.fillText('Salunkhe et al. · 2025', 192, 185);
+      q.fillStyle = '#60716c';
+      q.font = 'bold 12px Georgia';
+      q.fillText('KINEMATICS & MOTION PLANNING', 192, 220);
+      q.strokeStyle = '#a8afa4';
+      q.lineWidth = 1.5;
+      for (const x of [38, 200])
+        for (let j = 0; j < 5; j++) {
+          const y = 237 + j * 12;
+          q.beginPath();
+          q.moveTo(x, y);
+          q.lineTo(x + (j === 4 ? 106 : 145), y);
+          q.stroke();
+        }
+      // A small articulated-chain illustration keeps the manuscript recognizable.
+      q.strokeStyle = '#426550';
+      q.lineWidth = 5;
       q.beginPath();
-      q.moveTo(48, 460);
-      q.lineTo(71, 439);
-      q.lineTo(98, 448);
-      q.lineTo(124, 418);
-      q.lineTo(156, 428);
+      q.moveTo(84, 394);
+      q.lineTo(110, 350);
+      q.lineTo(185, 318);
+      q.lineTo(247, 367);
+      q.lineTo(301, 335);
       q.stroke();
-      for (let j = 0; j < 4; j++) {
+      for (const [x, y] of [
+        [110, 350],
+        [185, 318],
+        [247, 367],
+      ]) {
+        q.fillStyle = colours.paper;
         q.beginPath();
-        q.moveTo(194, 410 + j * 18);
-        q.lineTo(343, 410 + j * 18);
+        q.arc(x, y, 8, 0, PI * 2);
+        q.fill();
         q.stroke();
       }
+      q.fillStyle = '#284b3b';
+      q.fillRect(34, 420, 316, 1);
+      q.font = 'bold 15px Georgia';
+      q.fillText('Salunkhe et al. (2025)', 192, 446);
+      q.font = '11px Georgia';
+      q.fillText('Cuspidal Redundant Robots. IEEE RA-L.', 192, 465);
+      q.font = '10px Georgia';
+      q.fillText('doi: 10.1109/LRA.2025.3623011', 192, 483);
     }
     const t = new T.CanvasTexture(c);
     t.encoding = T.sRGBEncoding;
@@ -175,6 +201,80 @@ window.NavigationModels = (() => {
   }
   const textures = {};
   const getTexture = (type) => (textures[type] ??= texture(type));
+  function chalkboardTexture() {
+    if (textures.chalkboard) return textures.chalkboard;
+    const c = document.createElement('canvas');
+    c.width = 1024;
+    c.height = 672;
+    const q = c.getContext('2d');
+    q.fillStyle = colours.darkGreen;
+    q.fillRect(0, 0, c.width, c.height);
+    // Seeded marks give the writing a dry chalk finish without a font download.
+    let seed = 101;
+    const random = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+    for (let j = 0; j < 1500; j++) {
+      q.fillStyle = `rgba(231,235,215,${random() * 0.045})`;
+      q.fillRect(random() * c.width, random() * c.height, 2 + random() * 18, 1);
+    }
+    const writing = document.createElement('canvas');
+    writing.width = c.width;
+    writing.height = c.height;
+    const chalk = writing.getContext('2d');
+    // Stroke the lettering so the chalk stays handwritten on every platform.
+    const glyphs = {
+      K: [76, 'M10 0 L9 100 M68 2 L10 57 L70 99'],
+      i: [24, 'M12 38 L10 100 M14 13 L14 16'],
+      n: [63, 'M8 100 L9 37 M9 57 C27 20 55 29 54 59 L54 100'],
+      e: [59, 'M7 67 L51 62 C54 25 9 27 7 64 C3 103 35 108 53 91'],
+      m: [
+        88,
+        'M7 100 L8 37 M9 56 C20 29 40 29 40 56 L40 100 M41 54 C55 26 79 31 79 58 L79 100',
+      ],
+      a: [62, 'M50 45 C30 21 4 41 7 73 C8 106 34 110 50 85 M51 37 L50 100'],
+      t: [44, 'M25 8 L23 84 Q22 108 39 97 M5 40 L41 38'],
+      c: [59, 'M51 44 C30 25 7 42 7 70 C6 103 34 109 53 91'],
+      s: [55, 'M48 44 C22 23 0 48 18 63 L39 75 C65 96 23 116 7 94'],
+      1: [75, 'M15 21 L40 1 L38 100 M13 100 L64 100'],
+      0: [82, 'M41 1 C-3 0 -2 101 40 101 C85 101 86 0 41 1'],
+    };
+    const write = (text, baseline, height) => {
+      const scale = height / 100,
+        width = [...text].reduce((sum, ch) => sum + glyphs[ch][0] + 8, -8);
+      let x = (c.width - width * scale) / 2;
+      for (const ch of text) {
+        chalk.save();
+        chalk.translate(x, baseline - height + (random() - 0.5) * 4);
+        chalk.scale(scale, scale);
+        chalk.rotate((random() - 0.5) * 0.035);
+        chalk.strokeStyle = '#f2f0da';
+        chalk.lineWidth = 5.2;
+        chalk.lineCap = chalk.lineJoin = 'round';
+        chalk.stroke(new Path2D(glyphs[ch][1]));
+        chalk.restore();
+        x += (glyphs[ch][0] + 8) * scale;
+      }
+    };
+    write('Kinematics', 255, 140);
+    write('101', 476, 166);
+    chalk.strokeStyle = '#e5e6cb';
+    chalk.lineWidth = 5;
+    chalk.lineCap = 'round';
+    chalk.beginPath();
+    chalk.moveTo(214, 536);
+    chalk.quadraticCurveTo(505, 521, 806, 532);
+    chalk.stroke();
+    chalk.globalCompositeOperation = 'destination-out';
+    for (let j = 0; j < 8500; j++) {
+      chalk.fillStyle = `rgba(0,0,0,${0.12 + random() * 0.55})`;
+      chalk.fillRect(random() * c.width, random() * c.height, 1 + random() * 4, 1 + random() * 2);
+    }
+    q.drawImage(writing, 0, 0);
+    const t = new T.CanvasTexture(c);
+    t.encoding = T.sRGBEncoding;
+    t.anisotropy = 4;
+    textures.chalkboard = t;
+    return t;
+  }
   function paper(parent, w, h, type = 'manuscript', curl = 0.08) {
     const p = group(parent),
       nx = 20,
@@ -202,9 +302,11 @@ window.NavigationModels = (() => {
     const m = material('paper');
     m.map = getTexture(type);
     m.side = T.DoubleSide;
-    mesh(p, g, m);
+    const front = mesh(p, g, m);
+    front.receiveShadow = false;
     const back = mesh(p, g.clone(), 'cream', 0, 0, -0.009);
     back.material = mats.cream;
+    back.receiveShadow = false;
     return p;
   }
   function letterD(parent, scale = 1, mat = 'green') {
@@ -426,30 +528,9 @@ window.NavigationModels = (() => {
       round(p, 0, 0.86, 0, 1.2, 0.82, 0.095, 0.018, 'wood');
       round(p, 0, 0.86, 0.052, 1.1, 0.72, 0.025, 0.007, 'darkGreen');
       const ink = material('#dddcc8');
-      for (const pts of [
-        [
-          [-0.38, 0.67, 0.073],
-          [-0.38, 1.05, 0.073],
-        ],
-        [
-          [-0.38, 0.67, 0.073],
-          [0.34, 0.67, 0.073],
-        ],
-        [
-          [-0.3, 0.74, 0.079],
-          [-0.12, 0.92, 0.079],
-          [0.08, 0.8, 0.079],
-          [0.3, 1.02, 0.079],
-        ],
-      ])
-        curve(p, pts, 0.008, ink);
-      for (const [x, y] of [
-        [-0.3, 0.74],
-        [-0.12, 0.92],
-        [0.08, 0.8],
-        [0.3, 1.02],
-      ])
-        ell(p, x, y, 0.08, 0.023, 0.023, 0.008, 'ochre');
+      const board = material('#ffffff', 0.96, 0);
+      board.map = chalkboardTexture();
+      mesh(p, new T.PlaneGeometry(1.075, 0.697), board, 0, 0.86, 0.066);
       round(p, 0, 0.42, 0.1, 1.2, 0.04, 0.16, 0.01, 'wood');
       round(p, 0.28, 0.46, 0.12, 0.18, 0.055, 0.075, 0.01, 'slate');
       rod(p, [-0.28, 0.454, 0.12], [-0.1, 0.454, 0.12], 0.012, ink);

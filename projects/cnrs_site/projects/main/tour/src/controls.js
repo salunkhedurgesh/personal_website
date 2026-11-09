@@ -128,18 +128,20 @@
         }
         if (zone === 'mark') {
           state.myaw = state.mpitch = state.mx = state.my = 0;
-          state.mflip = flipFrom = flipTarget = 0;
+          state.mflip = 0;
           flipping = false;
         }
         release();
         zone = next;
+        if (zone === 'mark') state.mflip = flipFrom = flipTarget;
         touchOn = false;
         mode = 'orbit';
         style();
       }
       if (!still && zone !== 'mark' && state.mflip !== 0) {
-        // Reset can run while already in the office; its monitor must show CNRS.
-        state.mflip = flipFrom = flipTarget = 0;
+        // The office monitor shows CNRS, but its pose must not overwrite the
+        // chosen badge face during layout changes or restored iframe scrolling.
+        state.mflip = 0;
         flipping = false;
       }
       if (zone === 'mark' && ctx.engine()?.hasPortrait === false && state.mflip !== 0) {
@@ -159,7 +161,8 @@
       }
     }
     function flipMark({ face, instant = false } = {}) {
-      if (zone !== 'mark' || flipping || ctx.engine()?.hasPortrait === false) return false;
+      if (zone !== 'mark' || flipping || !ctx.engine() || ctx.engine().hasPortrait === false)
+        return false;
       const current = Math.round(flipTarget / Math.PI) % 2,
         wanted = face === 'logo' ? 0 : face === 'photo' ? 1 : 1 - current;
       if (current === wanted) return false;
@@ -264,8 +267,17 @@
         if (id && ctx.canPick()) ctx.record(id);
       }
     });
-    c.addEventListener('wheel', (e) => {
+    // The loading preview and pending overlay sit above the canvas, so listen
+    // on their shared surface as well as on the live badge.
+    const wheelHost = c.parentElement || c;
+    wheelHost.addEventListener('wheel', (e) => {
       if (zone !== 'mark' || e.ctrlKey || e.metaKey || !e.deltaY) return;
+      if (!ctx.engine()) {
+        // The visible photo is still a loading snapshot. Wait for the live
+        // badge before accepting a flip or advancing the iframe's scroll.
+        e.preventDefault();
+        return;
+      }
       const now = performance.now();
       if (flipping || now < wheelUntil) {
         e.preventDefault();

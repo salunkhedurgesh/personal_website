@@ -10,7 +10,59 @@
     const vs = `#version 300 es
 precision highp float;layout(location=0)in vec3 aP;layout(location=1)in vec3 aN;layout(location=2)in vec2 aUv;layout(location=3)in vec2 aAo;uniform vec3 R,U,D;uniform float scale,aspect;uniform vec2 shift;out vec3 P,N;out vec2 uv,au;void main(){P=aP;N=aN;uv=aUv;au=aAo;gl_Position=vec4(dot(aP,R)*scale/aspect+shift.x,dot(aP,U)*scale+shift.y,-dot(aP,D)*.48,1.);}`;
     const fs = `#version 300 es
-precision highp float;in vec3 P,N;in vec2 uv,au;uniform vec3 base,D;uniform vec4 photoMap;uniform float hasAO,strength,photoFace;uniform sampler2D normalTex,occTex,photoTex;out vec4 C;void main(){if(photoFace>.5&&N.z<-.001){vec3 photo=texture(photoTex,photoMap.zw-P.xy*photoMap.xy).rgb;C=vec4(photo*(.94+.06*abs(dot(normalize(N),D))),1.);return;}vec3 n=normalize(N),px=dFdx(P),py=dFdy(P);vec2 dx=dFdx(uv),dy=dFdy(uv);float de=dx.x*dy.y-dx.y*dy.x;vec3 map=texture(normalTex,uv).xyz*2.-1.;if(abs(de)>.000000001){vec3 T=normalize((px*dy.y-py*dx.y)*sign(de));vec3 B=normalize((-px*dy.x+py*dx.x)*sign(de));n=normalize(n+strength*(T*map.x+B*map.y));}vec3 L=normalize(vec3(-.88,1.35,1.38)),F=normalize(vec3(1.03,.6,.79)),K=normalize(vec3(.63,1.,-1.1));float ao=mix(1.,texture(occTex,au).r,.85*hasAO);float key=max(0.,dot(n,L)),fill=max(0.,dot(n,F)),rim=max(0.,dot(n,K));vec3 irr=vec3(.30+.08*(.5+.5*n.y))*ao+vec3(1.07,1.015,.94)*key*1.06*mix(.65,1.,ao)+vec3(.82,.94,1.12)*fill*.29+vec3(.95,1.,1.065)*rim*.63;float spec=.018*pow(max(0.,dot(n,normalize(D+L))),13.)*key;vec3 col=base*irr+spec;col=mix(col,.7+.3*(1.-exp(-max(vec3(0),col-.7)/.3)),greaterThan(col,vec3(.7)));C=vec4(mix(col*12.92,1.055*pow(max(vec3(0),col),vec3(1./2.4))-.055,greaterThan(col,vec3(.0031308))),1.);}`;
+precision highp float;
+in vec3 P,N;in vec2 uv,au;
+uniform vec3 base,D;uniform vec4 photoMap;
+uniform float hasAO,strength,photoFace,photoBorder;
+uniform float photoOutline[128];
+uniform sampler2D normalTex,occTex,photoTex;
+out vec4 C;
+void main(){
+  vec3 geometryNormal=normalize(N);
+  // The extrusion uses its smooth geometric normal, without face-only grain
+  // or lettering contact shadows crossing UV seams on the rounded side wall.
+  float side=1.-smoothstep(.3,.85,abs(geometryNormal.z));
+  vec3 printColor=vec3(0.);
+  float printCoverage=0.;
+  if(photoFace>.5){
+    vec2 offset=P.xy-(photoMap.zw-.5)/photoMap.xy;
+    float angle=mod(atan(offset.y,offset.x)+6.283185307,6.283185307)*128./6.283185307;
+    int index=int(floor(angle))%128;
+    float radius=mix(photoOutline[index],photoOutline[(index+1)%128],fract(angle));
+    float edge=radius-length(offset);
+    float borderWidth=length(vec2(dFdx(edge),dFdy(edge)))*photoBorder;
+    float halfAA=max(.5*fwidth(edge),.000001);
+    if(N.z<-.001){
+      // Blend pixel coverage around the nominal 5px boundary instead of
+      // switching abruptly between the navy border and the photograph.
+      float coverage=smoothstep(borderWidth-halfAA,borderWidth+halfAA,edge);
+      vec3 photo=texture(photoTex,photoMap.zw-P.xy*photoMap.xy).rgb;
+      vec3 ink=photo*(.94+.06*abs(dot(geometryNormal,D)));
+      printColor=mix(vec3(.106,.275,.376),ink,coverage);
+      // Hide the reverse print when looking at the front or nearly edge-on.
+      // Otherwise tiny rear-facing bevel triangles show coloured rim streaks.
+      printCoverage=smoothstep(.02,.12,-geometryNormal.z)*smoothstep(.05,.3,-D.z);
+    }
+  }
+  vec3 n=geometryNormal,px=dFdx(P),py=dFdy(P);
+  vec2 dx=dFdx(uv),dy=dFdy(uv);
+  float de=dx.x*dy.y-dx.y*dy.x;
+  vec3 map=texture(normalTex,uv).xyz*2.-1.;
+  if(abs(de)>.000000001&&side<.9999){
+    vec3 T=normalize((px*dy.y-py*dx.y)*sign(de));
+    vec3 B=normalize((-px*dy.x+py*dx.x)*sign(de));
+    n=normalize(n+strength*(1.-side)*(T*map.x+B*map.y));
+  }
+  vec3 L=normalize(vec3(-.88,1.35,1.38)),F=normalize(vec3(1.03,.6,.79)),K=normalize(vec3(.63,1.,-1.1));
+  float ao=mix(1.,texture(occTex,au).r,.85*hasAO*(1.-side));
+  float key=max(0.,dot(n,L)),fill=max(0.,dot(n,F)),rim=max(0.,dot(n,K));
+  vec3 irr=vec3(.30+.08*(.5+.5*n.y))*ao+vec3(1.07,1.015,.94)*key*1.06*mix(.65,1.,ao)+vec3(.82,.94,1.12)*fill*.29+vec3(.95,1.,1.065)*rim*.63;
+  float spec=.018*pow(max(0.,dot(n,normalize(D+L))),13.)*key;
+  vec3 col=base*irr+spec;
+  col=mix(col,.7+.3*(1.-exp(-max(vec3(0),col-.7)/.3)),greaterThan(col,vec3(.7)));
+  col=mix(col*12.92,1.055*pow(max(vec3(0),col),vec3(1./2.4))-.055,greaterThan(col,vec3(.0031308)));
+  C=vec4(mix(col,printColor,printCoverage),1.);
+}`;
     function shader(type, src) {
       const o = g.createShader(type);
       g.shaderSource(o, src);
@@ -40,6 +92,8 @@ precision highp float;in vec3 P,N;in vec2 uv,au;uniform vec3 base,D;uniform vec4
       'photoFace',
       'photoTex',
       'photoMap',
+      'photoBorder',
+      'photoOutline[0]',
     ])
       u[name] = g.getUniformLocation(p, name);
     const vbytes = (i) => {
@@ -125,14 +179,52 @@ precision highp float;in vec3 P,N;in vec2 uv,au;uniform vec3 base,D;uniform vec4
         aspect = width / height,
         photoAspect = portrait.width / portrait.height,
         sx = Math.min(1, aspect / photoAspect) / width,
-        sy = Math.min(1, photoAspect / aspect) / height;
+        sy = Math.min(1, photoAspect / aspect) / height,
+        cx = (bounds.min[0] + bounds.max[0]) / 2,
+        cy = (bounds.min[1] + bounds.max[1]) / 2,
+        data = vbytes(bounds.bufferView),
+        positions = new Float32Array(
+          data.buffer, data.byteOffset + (bounds.byteOffset || 0), bounds.count * 3,
+        ),
+        points = Array.from({ length: bounds.count }, (_, i) => [
+          positions[i * 3] - cx, positions[i * 3 + 1] - cy,
+        ]).sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+      // Sample the badge's own outer contour. Distance to this contour gives a
+      // pixel-sized border even on a flat, front-facing photograph.
+      const cross = (a, b, c) =>
+        (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0]);
+      const halfHull = (ordered) => {
+        const half = [];
+        for (const point of ordered) {
+          while (half.length > 1 && cross(half.at(-2), half.at(-1), point) <= 0) half.pop();
+          half.push(point);
+        }
+        return half.slice(0, -1);
+      };
+      const hull = [...halfHull(points), ...halfHull([...points].reverse())],
+        outline = Float32Array.from({ length: 128 }, (_, i) => {
+          const angle = (i * Math.PI * 2) / 128,
+            dx = Math.cos(angle),
+            dy = Math.sin(angle);
+          let radius = Infinity;
+          for (let j = 0; j < hull.length; j++) {
+            const a = hull[j],
+              b = hull[(j + 1) % hull.length],
+              nx = b[1] - a[1],
+              ny = a[0] - b[0],
+              along = nx * dx + ny * dy;
+            if (along > 0) radius = Math.min(radius, (nx * a[0] + ny * a[1]) / along);
+          }
+          return radius;
+        });
       photo = {
         texture,
+        outline,
         map: [
           sx,
           sy,
-          0.5 + ((bounds.min[0] + bounds.max[0]) / 2) * sx,
-          0.5 + ((bounds.min[1] + bounds.max[1]) / 2) * sy,
+          0.5 + cx * sx,
+          0.5 + cy * sy,
         ],
       };
     } catch {
@@ -183,11 +275,19 @@ precision highp float;in vec2 st;uniform vec2 offset;out vec4 col;void main(){ve
       },
       draw(m = {}) {
         const { myaw = 0, mpitch = 0, mx = 0, my = 0, mflip = 0 } = m,
-          key = [myaw, mpitch, mx, my, mflip].join('/');
+          // Match the 1.43x scene fit when converting CSS pixels to this target.
+          border = 5 * Math.min(
+            W / (g.canvas.clientWidth || W),
+            H / (g.canvas.clientHeight || H),
+          ) / 1.43,
+          key = [myaw, mpitch, mx, my, mflip, border].join('/');
         if (key === last) return;
         last = key;
-        const yaw = 0.38 + myaw + (photo ? mflip : 0),
-          pitch = 0.14 + mpitch,
+        // Rest with the photograph square to the camera. Blend back to the
+        // CNRS face's gentle tilt as the badge turns over.
+        const frontTilt = photo ? (1 + Math.cos(mflip)) / 2 : 1,
+          yaw = 0.38 * frontTilt + myaw + (photo ? mflip : 0),
+          pitch = 0.14 * frontTilt + mpitch,
           cy = Math.cos(yaw),
           sy = Math.sin(yaw),
           cp = Math.cos(pitch),
@@ -213,8 +313,10 @@ precision highp float;in vec2 st;uniform vec2 offset;out vec4 col;void main(){ve
         g.uniform3fv(u.U, [-sy * sp, cp, -cy * sp]);
         g.uniform1f(u.scale, 0.602);
         g.uniform1f(u.aspect, W / H);
+        g.uniform1f(u.photoBorder, border);
         if (photo) {
           g.uniform4fv(u.photoMap, photo.map);
+          g.uniform1fv(u['photoOutline[0]'], photo.outline);
           g.activeTexture(g.TEXTURE0 + 11);
           g.bindTexture(g.TEXTURE_2D, photo.texture);
         }

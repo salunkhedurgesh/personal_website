@@ -13,7 +13,8 @@ await new Promise((resolve) => ws.addEventListener('open', resolve, { once: true
 await mkdir(output, { recursive: true });
 let next = 0;
 const calls = new Map(),
-  errors = [];
+  errors = [],
+  pendingPhotos = [];
 ws.addEventListener('message', ({ data }) => {
   const message = JSON.parse(data);
   if (message.id) {
@@ -22,6 +23,7 @@ ws.addEventListener('message', ({ data }) => {
     if (message.error) call.reject(Error(JSON.stringify(message.error)));
     else call.resolve(message.result);
   } else if (message.method === 'Runtime.exceptionThrown') errors.push(message.params);
+  else if (message.method === 'Fetch.requestPaused') pendingPhotos.push(message.params.requestId);
 });
 function cdp(method, params = {}) {
   return new Promise((resolve, reject) => {
@@ -71,6 +73,7 @@ try {
   await cdp('Runtime.enable');
   await cdp('Page.enable');
   await cdp('Network.enable');
+  await cdp('Fetch.enable', { patterns: [{ urlPattern: '*profile_pic_nino.png*' }] });
   await cdp('Emulation.setDeviceMetricsOverride', {
     width: 1440, height: 1000, deviceScaleFactor: 1, mobile: false,
   });
@@ -78,6 +81,22 @@ try {
     features: [{ name: 'prefers-reduced-motion', value: 'no-preference' }],
   });
   await cdp('Page.navigate', { url: base + '?edition=robots' });
+  await until(`${frame}?.contentWindow?.AtlasTour&&
+    ${frame}?.contentDocument?.getElementById('world')?.dataset.explore==='mark'`);
+  const loadingStarted = Date.now();
+  while (!pendingPhotos.length) {
+    if (Date.now() - loadingStarted > 30000) throw Error('Photo download did not start');
+    await new Promise((resolve) => setTimeout(resolve, 40));
+  }
+  const loadingScroll = await evaluate(`${frame}.contentWindow.scrollY`);
+  await cdp('Input.dispatchMouseEvent', {
+    type: 'mouseWheel', ...await point(), deltaX: 0, deltaY: 120,
+  });
+  await evaluate(`new Promise(r=>setTimeout(r,150))`);
+  assert.equal(await evaluate(`${tour}.camera.mflip`), Math.PI);
+  assert.equal(await evaluate(`${frame}.contentWindow.scrollY`), loadingScroll);
+  for (const requestId of pendingPhotos) await cdp('Fetch.continueRequest', { requestId });
+  await cdp('Fetch.disable');
   await until(`${frame}?.contentDocument?.body?.dataset.visualReady==='true'`);
   await settled(Math.PI);
   await snapshot('initial-photo-desktop');
@@ -154,10 +173,12 @@ try {
   assert.equal(await evaluate(`${tour}.state.chapter`), 0);
   assert.deepEqual(errors, []);
   console.log(JSON.stringify({
-    photoFirst: true, clickBothFaces: true, animatedTurn: true, dragPreserved: true,
+    photoFirst: true, delayedPhotoStartup: true,
+    clickBothFaces: true, animatedTurn: true, dragPreserved: true,
     firstWheelFlips: true, subsequentWheelContinuesTour: true, officeLoads: true,
     touchTap: true, keyboard: true, reducedMotion: true, errors,
   }, null, 2));
 } finally {
+  await cdp('Fetch.disable');
   ws.close();
 }

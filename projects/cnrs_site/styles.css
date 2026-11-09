@@ -3317,16 +3317,16 @@ summary:focus-visible {
   opacity: 0;
 }
 .top [data-nav='home'] canvas {
-  background: center/contain no-repeat url(images/nav-home.png?v=56f3c568eb4f);
+  background: center/contain no-repeat url(images/nav-home.png?v=bba729c55259);
 }
 .top [data-nav='publications'] canvas {
-  background: center/contain no-repeat url(images/nav-publications.png?v=56f3c568eb4f);
+  background: center/contain no-repeat url(images/nav-publications.png?v=bba729c55259);
 }
 .top [data-nav='projects'] canvas {
-  background: center/contain no-repeat url(images/nav-projects.png?v=56f3c568eb4f);
+  background: center/contain no-repeat url(images/nav-projects.png?v=bba729c55259);
 }
 .top [data-nav='teaching'] canvas {
-  background: center/contain no-repeat url(images/nav-teaching.png?v=56f3c568eb4f);
+  background: center/contain no-repeat url(images/nav-teaching.png?v=bba729c55259);
 }
 .nav-live .top [data-nav] canvas {
   background-image: none;

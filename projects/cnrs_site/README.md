@@ -86,12 +86,20 @@ a live, directly manipulable 3D model. A badge snapshot is used if WebGL or the
 logo model is unavailable.
 
 The homepage badge opens with `images/profile_pic_nino.png` mapped onto its own
-back surface, cropped to the actual CNRS outline. Clicking or tapping turns it between the photo
+back surface, cropped to the actual CNRS outline. The opening photo faces the
+camera directly for a flat, 2D appearance, with a 5 CSS pixel navy border.
+The shader blends coverage across the photo-to-border boundary to smooth its edge.
+The extrusion uses smooth shading without the face's grain or contact-shadow
+textures. The photograph fades out at grazing angles to keep its colours off
+the side wall when the CNRS face is visible.
+Clicking or tapping turns it between the photo
 and CNRS faces; Enter or Space does the same when it has keyboard focus. The first
 wheel gesture over the photo reveals CNRS, then further scrolling continues the
 existing tour. Dragging still tilts the badge. Reduced motion changes faces
 immediately. A missing photo retains the CNRS face. The photo opening also has its
 own loading/fallback snapshot in `images/previews/cnrs-profile.webp`.
+The opening face survives restored iframe scrolling and delayed asset loading.
+`node tools/check-profile-startup.cjs` checks those startup states without a browser.
 
 `images/previews/` contains desktop/mobile snapshots of the opening frame
 (time zero) for all ten lettering editions and fallback images for both badge faces.

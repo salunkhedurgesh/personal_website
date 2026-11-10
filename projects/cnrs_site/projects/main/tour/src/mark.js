@@ -230,8 +230,10 @@ void main(){
     } catch {
       // The CNRS face remains usable if the portrait cannot be downloaded.
     }
-    const W = 1440,
-      H = 810,
+    // Sharpen the render without adding geometry or downloading larger assets.
+    // This target has 1.78x the previous pixel count (1440 x 810).
+    const W = 1920,
+      H = 1080,
       fb = g.createFramebuffer(),
       image = g.createTexture();
     g.activeTexture(g.TEXTURE0 + 8);
@@ -249,6 +251,33 @@ void main(){
     g.framebufferRenderbuffer(g.FRAMEBUFFER, g.DEPTH_ATTACHMENT, g.RENDERBUFFER, depth);
     if (g.checkFramebufferStatus(g.FRAMEBUFFER) !== g.FRAMEBUFFER_COMPLETE)
       throw Error('Mark target');
+    // Context antialiasing does not cover offscreen framebuffers. Multisample
+    // the badge itself, then resolve into the texture shared with the office.
+    // Keep the ordinary target for devices without compatible sample counts.
+    const colorSamples = g.getInternalformatParameter(g.RENDERBUFFER, g.RGBA8, g.SAMPLES),
+      depthSamples = g.getInternalformatParameter(g.RENDERBUFFER, g.DEPTH_COMPONENT16, g.SAMPLES),
+      samples = Math.max(0, ...colorSamples.filter((n) => n > 1 && n <= 4 && depthSamples.includes(n)));
+    let drawTarget = fb;
+    if (samples) {
+      const target = g.createFramebuffer(),
+        color = g.createRenderbuffer(),
+        depth = g.createRenderbuffer();
+      g.bindFramebuffer(g.FRAMEBUFFER, target);
+      for (const [buffer, format, attachment] of [
+        [color, g.RGBA8, g.COLOR_ATTACHMENT0],
+        [depth, g.DEPTH_COMPONENT16, g.DEPTH_ATTACHMENT],
+      ]) {
+        g.bindRenderbuffer(g.RENDERBUFFER, buffer);
+        g.renderbufferStorageMultisample(g.RENDERBUFFER, samples, format, W, H);
+        g.framebufferRenderbuffer(g.FRAMEBUFFER, attachment, g.RENDERBUFFER, buffer);
+      }
+      if (g.checkFramebufferStatus(g.FRAMEBUFFER) === g.FRAMEBUFFER_COMPLETE) drawTarget = target;
+      else {
+        g.deleteFramebuffer(target);
+        g.deleteRenderbuffer(color);
+        g.deleteRenderbuffer(depth);
+      }
+    }
     g.bindFramebuffer(g.FRAMEBUFFER, null);
     const sky = program(
         `#version 300 es
@@ -294,7 +323,7 @@ precision highp float;in vec2 st;uniform vec2 offset;out vec4 col;void main(){ve
           sp = Math.sin(pitch),
           shift = [mx, my];
         pose = { yaw, pitch, mx, my };
-        g.bindFramebuffer(g.FRAMEBUFFER, fb);
+        g.bindFramebuffer(g.FRAMEBUFFER, drawTarget);
         g.viewport(0, 0, W, H);
         g.disable(g.DEPTH_TEST);
         g.disable(g.CULL_FACE);
@@ -329,6 +358,11 @@ precision highp float;in vec2 st;uniform vec2 offset;out vec4 col;void main(){ve
           g.drawElements(g.TRIANGLES, o.count, g.UNSIGNED_SHORT, 0);
         }
         g.disable(g.CULL_FACE);
+        if (drawTarget !== fb) {
+          g.bindFramebuffer(g.READ_FRAMEBUFFER, drawTarget);
+          g.bindFramebuffer(g.DRAW_FRAMEBUFFER, fb);
+          g.blitFramebuffer(0, 0, W, H, 0, 0, W, H, g.COLOR_BUFFER_BIT, g.NEAREST);
+        }
         g.bindFramebuffer(g.FRAMEBUFFER, null);
         g.activeTexture(g.TEXTURE0 + 8);
         g.bindTexture(g.TEXTURE_2D, image);

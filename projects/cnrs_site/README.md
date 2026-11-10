@@ -92,6 +92,10 @@ The shader blends coverage across the photo-to-border boundary to smooth its edg
 The extrusion uses smooth shading without the face's grain or contact-shadow
 textures. The photograph fades out at grazing angles to keep its colours off
 the side wall when the CNRS face is visible.
+The badge renders at 1920 × 1080 with up to 4-sample antialiasing on its offscreen
+target and a 2× pixel ratio for the opening canvas. The target uses 1.78× the
+previous pixel count; `mark.glb` stays unchanged at 700,588 bytes. Devices without
+compatible multisample targets retain the ordinary rendering path.
 Clicking or tapping turns it between the photo
 and CNRS faces; Enter or Space does the same when it has keyboard focus. The first
 wheel gesture over the photo reveals CNRS, then further scrolling continues the

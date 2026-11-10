@@ -546,11 +546,12 @@ precision highp float;uniform vec2 kind;out vec4 col;void main(){col=vec4(mix(ve
         solarDir = null,
       ) {
         const aspect = Math.max(0.01, canvas.clientWidth / canvas.clientHeight);
-        const scale = Math.min(
-          Math.max(1.25, devicePixelRatio || 1),
-          1.6,
-          1600 / Math.max(1, canvas.clientWidth),
-        );
+        const badgeView = progress <= 0.025,
+          scale = Math.min(
+            Math.max(1.25, devicePixelRatio || 1),
+            badgeView ? 2 : 1.6,
+            (badgeView ? 1920 : 1600) / Math.max(1, canvas.clientWidth),
+          );
         let W = Math.max(2, Math.round(canvas.clientWidth * scale)),
           H = Math.max(2, Math.round(canvas.clientHeight * scale));
         if (w !== W || h !== H) targets(W, H);

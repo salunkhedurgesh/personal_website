@@ -865,19 +865,13 @@ footer span {
   margin-top: 12px;
 }
 .phil {
-  border-left: 2px solid var(--brass);
-  padding: 0 18px;
-  margin: 16px 0 28px;
-  font: 17px/1.7 var(--serif);
+  margin: 0 0 28px;
   max-width: none;
 }
 .dirhead .phil p {
   max-width: none;
   margin: 0;
-  text-align: justify;
-}
-.dirhead .phil p + p {
-  margin-top: 1em;
+  text-align: start;
 }
 .empty {
   padding: 26px 0;
@@ -1954,7 +1948,8 @@ footer span {
   box-shadow: none !important;
   background-color: transparent !important;
   margin: 12px 0 0;
-  height: clamp(30px, 4.4vw, 58px);
+  /* Lift the artwork toward the navigation without shrinking its canvas. */
+  height: clamp(6px, calc(4.4vw - 24px), 34px);
   min-height: 0;
   overflow: visible;
   position: relative;
@@ -1970,7 +1965,7 @@ footer span {
 #marquee:focus-visible {
   inset: auto 0 0 0;
   width: 100%;
-  height: calc(100% + 92px);
+  height: calc(100% + 116px);
   pointer-events: none;
   outline: 0 !important;
   border: 0 !important;
@@ -2344,10 +2339,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-#aboutcopy .abouttext p + p {
+#aboutcopy .abouttext p + p,
+.dirhead .phil p + p {
   margin-top: 12px;
 }
-#about h2 {
+#about h2,
+.philosophy-title {
   font-size: 32px;
   margin: 0 0 14px;
   letter-spacing: -0.025em;
@@ -2847,11 +2844,11 @@ summary:focus-visible {
       [data-theme='india'],
       [data-theme='france']
     ) {
-    height: clamp(26px, 6.2vw, 44px);
+    height: clamp(20px, calc(6.2vw - 6px), 38px);
     margin: 6px 0 0;
   }
   #marquee.clay-ready #word {
-    height: calc(100% + 64px);
+    height: calc(100% + 70px);
   }
   .switchrow {
     margin: 10px 0 10px;
@@ -2883,7 +2880,8 @@ summary:focus-visible {
   .abouttext {
     font-size: 14px;
   }
-  #about h2 {
+  #about h2,
+  .philosophy-title {
     font-size: 31px;
   }
   .band {
@@ -3317,16 +3315,16 @@ summary:focus-visible {
   opacity: 0;
 }
 .top [data-nav='home'] canvas {
-  background: center/contain no-repeat url(images/nav-home.png?v=bba729c55259);
+  background: center/contain no-repeat url(images/nav-home.png?v=409917cead5c);
 }
 .top [data-nav='publications'] canvas {
-  background: center/contain no-repeat url(images/nav-publications.png?v=bba729c55259);
+  background: center/contain no-repeat url(images/nav-publications.png?v=409917cead5c);
 }
 .top [data-nav='projects'] canvas {
-  background: center/contain no-repeat url(images/nav-projects.png?v=bba729c55259);
+  background: center/contain no-repeat url(images/nav-projects.png?v=409917cead5c);
 }
 .top [data-nav='teaching'] canvas {
-  background: center/contain no-repeat url(images/nav-teaching.png?v=bba729c55259);
+  background: center/contain no-repeat url(images/nav-teaching.png?v=409917cead5c);
 }
 .nav-live .top [data-nav] canvas {
   background-image: none;

@@ -56,7 +56,7 @@ window.ProgressiveAtlas = {
           });
     }
     function drawLogo(move) {
-      const ratio = Math.min(devicePixelRatio || 1, 1.6),
+      const ratio = Math.min(devicePixelRatio || 1, 2),
         w = Math.max(2, Math.round(canvas.clientWidth * ratio)),
         h = Math.max(2, Math.round(canvas.clientHeight * ratio));
       if (canvas.width !== w || canvas.height !== h) {

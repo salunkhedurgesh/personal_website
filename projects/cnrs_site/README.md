@@ -182,13 +182,15 @@ The capture tool also uses Pillow to export the CNRS WebP image.
   shows the completed, thawed scene.
 - National days keep the original green lettering. Bunting and the Republic Day
   paper roll are visible from the opening frame. After placing the letters, the
-  robots lift the props. Republic Day raises the roll near the top of the scene,
+  robots lift the props to a lower carrying height so the wrists and decorations
+  remain visible beneath the top of the page. These three editions also leave
+  12 CSS pixels of extra top clearance on desktop. Republic Day raises the roll,
   then unspools the full Preamble down behind the lettering until the lower roll
   rests on the floor. The local parchment texture uses classical serif typography,
   a clear hierarchy, the complete constitutional text and the State Emblem; its
   text source is recorded in `images/occasions/preamble-source.txt`.
-  Independence Day and 14 July use twenty-four tall isosceles pennants on a higher
-  rope with a deeper parabolic sag: eight saffron/blue on the left, eight cream in the
+  Independence Day and 14 July use twenty-four tall isosceles pennants on a lower
+  rope with a shallower parabolic sag: eight saffron/blue on the left, eight cream in the
   middle, and eight green/red on the right. Each sewn top edge follows the rope
   curve, while the rest of the pennant can flutter. Each occasion has its own Appearance
   selection and calendar date. National-day code and the Republic Day emblem
@@ -338,10 +340,15 @@ are saved in `tools/progressive-loading-qa.json` and
 
 `node tools/check-winter-national.mjs` checks frost/thaw direction and timing,
 full freezing and restoration, natural icicle supports and clearance, warm clothing, all three
-national-day props visible from the start, tall triangular tricolour bunting, elevated
+national-day props visible from the start, tall triangular tricolour bunting, robot-held
 robot grips, parabolic rope profiles, complete floor-length Preamble unrolling,
 lazy loading, green letters, calendar
 selection, mobile overflow, and reduced motion. It writes `tools/winter-national-qa.json`.
+
+`node tools/check-national-visibility.mjs` checks the projected robot and decoration
+vertices across desktop, tablet, and mobile widths during assembly, lifting, and
+unrolling. It also checks attached robot grips and the parchment's floor contact,
+and writes `tools/national-visibility-qa.json`.
 
 `node tools/check-holi-marionette.mjs` verifies the descending rail, exponential
 shake envelope, real Jolt stability, robot grips, green Holi opening, placement

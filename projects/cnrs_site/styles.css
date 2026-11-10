@@ -1958,6 +1958,16 @@ footer span {
   touch-action: none;
   cursor: default;
 }
+@media (min-width: 701px) {
+  #marquee.clay-ready:is(
+      [data-theme='republic'],
+      [data-theme='independence'],
+      [data-theme='france']
+    ) {
+    /* Leave clearance above the robots' opening pose on wider screens. */
+    margin-top: 24px;
+  }
+}
 #marquee.clay-ready #word,
 #word:focus,
 #word:focus-visible,
@@ -3315,16 +3325,16 @@ summary:focus-visible {
   opacity: 0;
 }
 .top [data-nav='home'] canvas {
-  background: center/contain no-repeat url(images/nav-home.png?v=409917cead5c);
+  background: center/contain no-repeat url(images/nav-home.png?v=1fef4eeb48e8);
 }
 .top [data-nav='publications'] canvas {
-  background: center/contain no-repeat url(images/nav-publications.png?v=409917cead5c);
+  background: center/contain no-repeat url(images/nav-publications.png?v=1fef4eeb48e8);
 }
 .top [data-nav='projects'] canvas {
-  background: center/contain no-repeat url(images/nav-projects.png?v=409917cead5c);
+  background: center/contain no-repeat url(images/nav-projects.png?v=1fef4eeb48e8);
 }
 .top [data-nav='teaching'] canvas {
-  background: center/contain no-repeat url(images/nav-teaching.png?v=409917cead5c);
+  background: center/contain no-repeat url(images/nav-teaching.png?v=1fef4eeb48e8);
 }
 .nav-live .top [data-nav] canvas {
   background-image: none;

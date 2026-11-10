@@ -165,7 +165,7 @@ try {
       await shot('republic-raised-roll');
       assert(
         await evaluate(
-          `(()=>{const c=ClayStudio.inspection().root.getObjectByName('Republic Day / robot-unrolled Constitution parchment');return c.userData.unrollProgress===0&&c.userData.gripHeight>2.4})()`,
+          `(()=>{const c=ClayStudio.inspection().root.getObjectByName('Republic Day / robot-unrolled Constitution parchment');return c.userData.unrollProgress===0&&c.userData.liftProgress===1})()`,
         ),
       );
       await seek(18.5);
@@ -198,7 +198,6 @@ try {
     if (theme === 'republic') {
       assert.equal(state.unroll, 1);
       assert.equal(state.dates, '26 Jan');
-      assert(state.height > 2.4);
       assert(Math.abs(state.rollBottom - 0.028) < 0.0001, 'Parchment must unroll to the floor');
       for (const phrase of [
         'WE, THE PEOPLE OF INDIA,',
@@ -216,8 +215,8 @@ try {
       assert.equal(state.dates, theme === 'france' ? '14 Jul' : '15 Aug');
       const colours =
         theme === 'france' ? ['#002395', '#f4eedc', '#ed2939'] : ['#ff9933', '#f4eedc', '#138808'];
-      assert(state.height > 2.3);
-      assert.equal(state.ropeProfile.sag, 0.42);
+      assert(state.height > state.ropeProfile.top);
+      assert.equal(state.ropeProfile.sag, 0.28);
       state.pennants.forEach((p, i) => {
         assert.equal(p.colour, colours[Math.floor(i / 8)]);
         assert(p.solid && p.bottomWidth < 0.00001 && p.aspect >= 1.4 && p.topFit < 0.00001);

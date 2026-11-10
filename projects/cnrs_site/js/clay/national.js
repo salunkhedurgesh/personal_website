@@ -11,8 +11,10 @@ window.ClayNational = {
     const left = units[0].x,
       right = units.at(-1).x + 0.18,
       span = right - left;
-    const top = republic ? 1.52 : 1.8,
-      raisedTop = republic ? 2.45 : 2.36,
+    // Keep both the props and the robots' wrists below the raised header's
+    // visible ceiling. The IK rigs follow these lower carrying positions.
+    const top = republic ? 1.4 : 1.6,
+      raisedTop = republic ? 1.9 : 2.0,
       z = -0.65;
     const liftEnd = republic ? 15.3 : 14.5;
     const cord = mat('#c9b68c', 0.92),
@@ -260,7 +262,7 @@ window.ClayNational = {
           bumpScale: 0.002,
         }),
       );
-      const sag = 0.42;
+      const sag = 0.28;
       const wireY = (x) => {
         const u = (x - left) / span;
         return top - 4 * sag * u * (1 - u);

@@ -1,0 +1,221 @@
+{
+  "themes": [
+    {
+      "theme": "republic",
+      "width": 320,
+      "highestPixel": 39.891742248128224,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 390,
+      "highestPixel": 30.137892546558113,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 700,
+      "highestPixel": 54.16506018974277,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 701,
+      "highestPixel": 13.24007741172008,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 760,
+      "highestPixel": 7.245831464111838,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 780,
+      "highestPixel": 5.519056646280141,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 800,
+      "highestPixel": 3.7960366475033496,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 810,
+      "highestPixel": 3.3683370761404845,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 820,
+      "highestPixel": 70.80079616051489,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 1024,
+      "highestPixel": 56.869090635601225,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 1440,
+      "highestPixel": 13.039377379153123,
+      "poses": 12
+    },
+    {
+      "theme": "republic",
+      "width": 1920,
+      "highestPixel": 8.59621747903882,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 320,
+      "highestPixel": 39.891742248128224,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 390,
+      "highestPixel": 30.137892546558113,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 700,
+      "highestPixel": 54.16506018974277,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 701,
+      "highestPixel": 13.24007741172008,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 760,
+      "highestPixel": 7.245831464111838,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 780,
+      "highestPixel": 5.519056646280141,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 800,
+      "highestPixel": 3.7960366475033496,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 810,
+      "highestPixel": 3.3683370761404845,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 820,
+      "highestPixel": 70.80079616051489,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 1024,
+      "highestPixel": 56.869090635601225,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 1440,
+      "highestPixel": 13.039377379153123,
+      "poses": 12
+    },
+    {
+      "theme": "independence",
+      "width": 1920,
+      "highestPixel": 8.59621747903882,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 320,
+      "highestPixel": 39.891742248128224,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 390,
+      "highestPixel": 30.137892546558113,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 700,
+      "highestPixel": 54.16506018974277,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 701,
+      "highestPixel": 13.24007741172008,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 760,
+      "highestPixel": 7.245831464111838,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 780,
+      "highestPixel": 5.519056646280141,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 800,
+      "highestPixel": 3.7960366475033496,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 810,
+      "highestPixel": 3.3683370761404845,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 820,
+      "highestPixel": 70.80079616051489,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 1024,
+      "highestPixel": 56.869090635601225,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 1440,
+      "highestPixel": 13.039377379153123,
+      "poses": 12
+    },
+    {
+      "theme": "france",
+      "width": 1920,
+      "highestPixel": 8.59621747903882,
+      "poses": 12
+    }
+  ],
+  "errors": []
+}

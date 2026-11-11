@@ -7,6 +7,11 @@
   },
   "assets": {
     "directory": ".",
-    "html_handling": "auto-trailing-slash"
+    "html_handling": "auto-trailing-slash",
+    "exclude": [
+      ".git/**",
+      ".github/**",
+      "node_modules/**"
+    ]
   }
 }

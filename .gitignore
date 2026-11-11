@@ -15,3 +15,11 @@
 projects/mybib/.venv/
 projects/mybib/pdfs/*
 !projects/mybib/pdfs/.gitkeep
+
+# git stuff
+.git/
+.github/
+**/.git/**
+node_modules/
+*.pack
+*.idx
